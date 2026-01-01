@@ -3,16 +3,17 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-7030
 - **Short ID**: 7030
-- **Heartbeat**: 1767251820
-- **Status**: translating
+- **Heartbeat**: 1767252120
+- **Status**: online
 
 ## Current Work
-- **Claimed Page**: 13
-- **Started At**: 1767251820
+- **Claimed Page**: none
+- **Started At**: -
 
 ## Completed Pages
 | Page | Completed At | Hash |
 |------|--------------|------|
+| 13 | 1767252120 | 534f43a3 |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
@@ -35,4 +36,4 @@
 | f6c8 | offline | none | 1767242700 |
 
 ## Notes
-Claimed page 13.
+Completed page 13.
