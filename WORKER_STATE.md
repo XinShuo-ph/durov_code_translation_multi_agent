@@ -16,9 +16,9 @@
 | M0.1 | Install dependencies | done | verified |
 | M0.2 | Extract PDF text | done | 4964fcfa |
 | M0.3 | Create chapter structure | done | ce9f2d71 |
-| M0.4 | Research: Durov bio | pending | - |
-| M0.5 | Research: VK history | pending | - |
-| M0.6 | Research: Russia context | pending | - |
+| M0.4 | Research: Durov bio | done | 31d617ad |
+| M0.5 | Research: VK history | done | 2447a5b5 |
+| M0.6 | Research: Russia context | done | 5175ab38 |
 | M0.7 | Create chapter summaries | pending | - |
 
 ## M1 Task Status
