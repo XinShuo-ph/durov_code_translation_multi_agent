@@ -7,8 +7,8 @@
 - **Status**: translating
 
 ## Current Work
-- **Claimed Page**: 83
-- **Started At**: 1767262714
+- **Claimed Page**: 86
+- **Started At**: 1767263252
 
 ## Completed Pages
 
@@ -66,6 +66,9 @@
 | 80 | 1767262377 | 8b74c852 |
 | 81 | 1767262537 | c71d14a6 |
 | 82 | 1767262714 | a904f981 |
+| 83 | 1767262906 | 3d0800f2 |
+| 84 | 1767263072 | b59ce66a |
+| 85 | 1767263252 | f0624318 |
 
 ## Known Workers (Last Sync)
 
@@ -75,16 +78,16 @@
 
 ## Summary
 
-Worker f4a6 has completed 52 pages:
+Worker f4a6 has completed 55 pages:
 - Front Matter: Pages 2-6
 - Chapter 1: Pages 9, 13, 16, 23-27
 - Chapter 2: Pages 28-37
 - Chapter 3: Pages 38-40
 - Chapter 4: Pages 57-71
 - Chapter 6: Pages 72-78
-- Chapter 7: Pages 79-82
+- Chapter 7: Pages 79-85
 
-Currently claiming and working on page 83.
+Currently claiming and working on page 86.
 
 ## Notes
 
