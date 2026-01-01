@@ -1,0 +1,120 @@
+% Multi-language PDF Template for Durov Code Translation
+% Uses XeLaTeX with xeCJK for Russian, English, Chinese, and Japanese
+
+\documentclass[12pt,a4paper]{article}
+
+% Font and encoding packages
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage[utf8]{inputenc}
+\usepackage[russian,english]{babel}
+
+% Set fonts for different languages
+\setmainfont{DejaVu Serif}
+\setCJKmainfont{Noto Sans CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+
+% Additional fonts for Japanese
+\newCJKfontfamily\cjkjapanese{Noto Sans CJK JP}
+
+% Color support for different languages
+\usepackage{xcolor}
+\definecolor{russiancolor}{RGB}{0,0,0}        % Black
+\definecolor{englishcolor}{RGB}{0,51,153}     % Blue
+\definecolor{chinesecolor}{RGB}{204,0,0}      % Red
+\definecolor{japanesecolor}{RGB}{0,102,51}    % Dark Green
+
+% Layout
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{parskip}
+\setlength{\parindent}{0pt}
+
+% Custom commands for each language
+\newcommand{\ru}[1]{\textcolor{russiancolor}{#1}}
+\newcommand{\en}[1]{\textcolor{englishcolor}{#1}}
+\newcommand{\zh}[1]{\textcolor{chinesecolor}{#1}}
+\newcommand{\ja}[1]{\textcolor{japanesecolor}{\cjkjapanese #1}}
+
+% Multi-language sentence environment
+\newenvironment{mlsentence}
+  {\begin{quote}\small}
+  {\end{quote}}
+
+\begin{document}
+
+% Title Page
+\begin{center}
+{\LARGE\textbf{Код Дурова}}
+
+\vspace{0.5cm}
+
+{\large The Durov Code}
+
+\vspace{0.3cm}
+
+{\large 杜罗夫密码}
+
+\vspace{0.3cm}
+
+{\large\cjkjapanese ドゥーロフコード}
+
+\vspace{1cm}
+
+{\large Multilingual Translation}
+
+{\small Russian, English, Chinese, Japanese}
+
+\end{center}
+
+\vfill
+
+\section*{Demo Page - Format Test}
+
+This template demonstrates the four-language parallel display format.
+
+\subsection*{Sample Sentence 1}
+
+\begin{mlsentence}
+\ru{Мальчик с томом Сервантеса выходит из подъезда на улицу Рубинштейна.}
+
+\en{A boy with a volume of Cervantes exits the apartment building onto Rubinstein Street.}
+
+\zh{一个手捧塞万提斯著作的男孩从公寓楼走到鲁宾斯坦大街上。}
+
+\ja{セルバンテスの本を持った少年がルビンシュテイン通りに面した建物の入り口を出る。}
+\end{mlsentence}
+
+\subsection*{Sample Sentence 2}
+
+\begin{mlsentence}
+\ru{Павел Дуров основал социальную сеть «ВКонтакте» в 2006 году.}
+
+\en{Pavel Durov founded the social network VKontakte in 2006.}
+
+\zh{帕维尔·杜罗夫于2006年创立了VKontakte社交网络。}
+
+\ja{パーヴェル・ドゥーロフは2006年にソーシャルネットワークのフコンタクチェを設立した。}
+\end{mlsentence}
+
+\subsection*{Color Legend}
+
+\begin{itemize}
+\item \ru{Russian text appears in black}
+\item \en{English text appears in blue}
+\item \zh{Chinese text appears in red}
+\item \ja{Japanese text appears in green}
+\end{itemize}
+
+\section*{Format Notes}
+
+Each sentence from the original Russian text is displayed four times in sequence:
+\begin{enumerate}
+\item First in the original Russian (black)
+\item Then in English translation (blue)
+\item Then in Chinese translation (red)
+\item Finally in Japanese translation (green)
+\end{enumerate}
+
+This format allows readers who know multiple languages to compare translations and understand nuances across languages.
+
+\end{document}
