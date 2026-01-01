@@ -1,0 +1,288 @@
+{
+  "page": 42,
+  "chapter": 3,
+  "chapter_title": "Мафия открывает глаза (The Mafia Opens Its Eyes)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "с приличным трафиком, и Николай оптимизировал распределение нагрузки на сервер.",
+      "en": "...with decent traffic, and Nikolai optimized the load distribution on the server.",
+      "zh": "……拥有可观流量的项目，尼古拉优化了服务器上的负载分配。",
+      "ja": "……かなりのトラフィックを持つプロジェクトとなり、ニコライはサーバーへの負荷分散を最適化した。"
+    },
+    {
+      "id": 2,
+      "ru": "Павел дорабатывал сайт, с большей охотой занимаясь пользовательскими интерфейсами и дизайном.",
+      "en": "Pavel refined the site, working more willingly on user interfaces and design.",
+      "zh": "帕维尔完善了网站，更乐意从事用户界面和设计工作。",
+      "ja": "パヴェルはサイトを改良し、ユーザーインターフェースやデザインに熱心に取り組んだ。"
+    },
+    {
+      "id": 3,
+      "ru": "Но написать социальную сеть с нуля – это звучало как совсем другая история.",
+      "en": "But writing a social network from scratch – that sounded like a completely different story.",
+      "zh": "但从零开始编写一个社交网络——这听起来完全是另一回事。",
+      "ja": "しかし、ソーシャルネットワークをゼロから書くというのは、まったく別の話のように聞こえた。"
+    },
+    {
+      "id": 4,
+      "ru": "Это было труднее, чем изменить старый сайт даже на 90 %.",
+      "en": "It was harder than changing an old site even by 90%.",
+      "zh": "这比把旧网站改动 90% 还要难。",
+      "ja": "それは古いサイトを90％変更するよりも困難なことだった。"
+    },
+    {
+      "id": 5,
+      "ru": "Николай ответил: «Я бы сначала занялся библиотекой авторизации и входом на сайт, а потом прикрутил остальной функционал».",
+      "en": "Nikolai replied: \"I would first deal with the authorization library and site login, and then screw on the rest of the functionality.\"",
+      "zh": "尼古拉回答说：“我会先处理授权库和网站登录，然后再把其余功能加上去。”",
+      "ja": "ニコライは答えた。「僕ならまず認証ライブラリとサイトへのログインに取り組み、それから他の機能を付け足すかな」"
+    },
+    {
+      "id": 6,
+      "ru": "Времени у братьев на эксперименты не оставалось – «Одноклассники» стремительно росли и, что самое скверное, запустился прямой конкурент – MoiFakultet.ru.",
+      "en": "The brothers had no time for experiments – \"Odnoklassniki\" was growing rapidly and, worst of all, a direct competitor launched – MoiFakultet.ru.",
+      "zh": "兄弟俩没有时间做实验了——“Odnoklassniki”正在迅速增长，最糟糕的是，直接竞争对手 MoiFakultet.ru 上线了。",
+      "ja": "兄弟たちに実験している時間は残されていなかった――『オドノクラスニキ』は急速に成長しており、さらに悪いことに、直接の競合であるMoiFakultet.ruがローンチしたのだ。"
+    },
+    {
+      "id": 7,
+      "ru": "Над ним трудились парни из МГУ под руководством каких-то экзотических, по слухам, австралийских инвесторов.",
+      "en": "Guys from MSU were working on it under the guidance of some exotic, rumor had it, Australian investors.",
+      "zh": "莫斯科国立大学（MSU）的一群小伙子正在开发它，据传是在一些充满异国情调的澳大利亚投资者的指导下。",
+      "ja": "モスクワ大学の連中が、噂によればエキゾチックなオーストラリアの投資家たちの指導の下でそれに取り組んでいた。"
+    },
+    {
+      "id": 8,
+      "ru": "Дуров зарегистрировался и стал разбираться, что натворили конкуренты.",
+      "en": "Durov registered and began to figure out what the competitors had done.",
+      "zh": "杜罗夫注册了账号，开始研究竞争对手搞了什么名堂。",
+      "ja": "ドゥーロフは登録し、競合相手が何をやらかしたのかを調べ始めた。"
+    },
+    {
+      "id": 9,
+      "ru": "Успокоился он быстро.",
+      "en": "He calmed down quickly.",
+      "zh": "他很快平静下来。",
+      "ja": "彼はすぐに落ち着きを取り戻した。"
+    },
+    {
+      "id": 10,
+      "ru": "Парни привлекли всего 1700 пользователей.",
+      "en": "The guys had attracted only 1700 users.",
+      "zh": "这帮人只吸引了 1700 名用户。",
+      "ja": "彼らはたった1700人のユーザーしか集めていなかった。"
+    },
+    {
+      "id": 11,
+      "ru": "Они не заморачивались со своими фишками и скопировали Facebook – начиная с того, что при регистрации требовали указывать почту на домене вуза.",
+      "en": "They didn't bother with their own features and copied Facebook – starting with the fact that upon registration they demanded specifying email on the university domain.",
+      "zh": "他们没费心搞自己的特色，而是照搬了 Facebook——首先就是在注册时要求提供高校域名的邮箱。",
+      "ja": "彼らは独自の機能にこだわらずFacebookをコピーしていた――登録時に大学ドメインのメールアドレスを要求することからしてそうだった。"
+    },
+    {
+      "id": 12,
+      "ru": "Это была явная глупость.",
+      "en": "This was sheer stupidity.",
+      "zh": "这显然是愚蠢的。",
+      "ja": "それは明らかな愚行だった。"
+    },
+    {
+      "id": 13,
+      "ru": "Мало того что не каждый институт имел сайт и выдавал студентам е-mail – еще и редкий студент стремился получить этот почтовый ящик.",
+      "en": "Not only did not every institute have a site and issue emails to students – but also a rare student strove to get this mailbox.",
+      "zh": "不仅不是每所学院都有网站并给学生发邮箱，而且也很少有学生想要这个邮箱。",
+      "ja": "すべての大学がサイトを持ち学生にメールアドレスを発行しているわけではない上に、そのメールボックスを取得しようとする学生も稀だった。"
+    },
+    {
+      "id": 14,
+      "ru": "Позднее MoiFakultet стал просить номер студбилета, но революции это нововведение не произвело.",
+      "en": "Later MoiFakultet started asking for the student ID number, but this innovation did not produce a revolution.",
+      "zh": "后来 MoiFakultet 开始要求提供学生证号码，但这并没有带来革命性的变化。",
+      "ja": "その後、MoiFakultetは学生証番号を求めるようになったが、この革新は革命を起こさなかった。"
+    },
+    {
+      "id": 15,
+      "ru": "Дуров начал кодить.",
+      "en": "Durov started coding.",
+      "zh": "杜罗夫开始写代码。",
+      "ja": "ドゥーロフはコーディングを始めた。"
+    },
+    {
+      "id": 16,
+      "ru": "Помимо правила реальных имен он ввел схожие с Facebook возможности, которые перечислил в телефонном разговоре брату.",
+      "en": "Besides the real names rule, he introduced features similar to Facebook, which he listed in the phone conversation to his brother.",
+      "zh": "除了实名制规则外，他还引入了类似于 Facebook 的功能，他在电话里跟哥哥列举过。",
+      "ja": "実名ルールの他に、彼は電話で兄に挙げたようなFacebookに似た機能を導入した。"
+    },
+    {
+      "id": 17,
+      "ru": "По неделе ушло на фото и опцию «назначь встречу».",
+      "en": "A week each went into photos and the \"appoint a meeting\" option.",
+      "zh": "照片和“安排聚会”功能各花了一周时间。",
+      "ja": "写真と「会う約束」のオプションにそれぞれ1週間を費やした。"
+    },
+    {
+      "id": 18,
+      "ru": "Одним из главных преимуществ он полагал максимально детализированный поиск по вузам и школам.",
+      "en": "One of the main advantages he considered to be the maximally detailed search by universities and schools.",
+      "zh": "他认为主要优势之一是可以按高校和学校进行极其详细的搜索。",
+      "ja": "彼は、大学や学校による最大限に詳細な検索こそが主な利点の一つだと考えていた。"
+    },
+    {
+      "id": 19,
+      "ru": "Для последних он ввел поиск по литере класса – «А», «Б», «В» и т. д.",
+      "en": "For the latter, he introduced search by class letter – \"A\", \"B\", \"V\", etc.",
+      "zh": "对于后者，他引入了按班级字母搜索——“A”、“B”、“V”等。",
+      "ja": "後者については、クラスの文字――「A」「B」「V」など――による検索を導入した。"
+    },
+    {
+      "id": 20,
+      "ru": "Его девушка скрупулезно коллекционировала данные обо всех факультетах России и Украины, на которые Дуров серьезно рассчитывал.",
+      "en": "His girlfriend scrupulously collected data on all faculties of Russia and Ukraine, which Durov was seriously counting on.",
+      "zh": "他的女朋友一丝不苟地收集了俄罗斯和乌克兰所有院系的数据，杜罗夫对这些数据寄予厚望。",
+      "ja": "彼のガールフレンドは、ドゥーロフが本気で頼りにしていたロシアとウクライナのすべての学部に関するデータを綿密に収集した。"
+    },
+    {
+      "id": 21,
+      "ru": "Если не находилось информации в открытых источниках, она звонила в Министерство образования или ректораты самих институтов.",
+      "en": "If information was not found in open sources, she called the Ministry of Education or the rectorates of the institutes themselves.",
+      "zh": "如果在公开来源找不到信息，她就打电话给教育部或学院的校长办公室。",
+      "ja": "公開情報が見つからない場合は、教育省や大学の学長室に電話をかけた。"
+    },
+    {
+      "id": 22,
+      "ru": "База расширяла географию – Москва, Петербург, Новосибирск, Екатеринбург, Челябинск, Нижний Новгород, Самара.",
+      "en": "The database expanded its geography – Moscow, Petersburg, Novosibirsk, Ekaterinburg, Chelyabinsk, Nizhny Novgorod, Samara.",
+      "zh": "数据库扩大了地理覆盖范围——莫斯科、彼得堡、新西伯利亚、叶卡捷琳堡、车里雅宾斯克、下诺夫哥罗德、萨马拉。",
+      "ja": "データベースは地理的範囲を拡大していった――モスクワ、ペテルブルク、ノヴォシビルスク、エカテリンブルク、チェリャビンスク、ニジニ・ノヴゴロド、サマラ。"
+    },
+    {
+      "id": 23,
+      "ru": "Затем Киев, Одесса, Харьков.",
+      "en": "Then Kiev, Odessa, Kharkov.",
+      "zh": "然后是基辅、敖德萨、哈尔科夫。",
+      "ja": "次にキエフ、オデッサ、ハリコフ。"
+    },
+    {
+      "id": 24,
+      "ru": "Название «ВКонтакте» пришло в голову сразу, без романтического перебора вариантов.",
+      "en": "The name \"VKontakte\" came to mind immediately, without a romantic sorting through of options.",
+      "zh": "“VKontakte”这个名字立刻浮现在脑海中，没有浪漫地筛选各种选项。",
+      "ja": "『VKontakte』という名前は、ロマンチックな案の選別をすることなく、すぐに頭に浮かんだ。"
+    },
+    {
+      "id": 25,
+      "ru": "Оно звучало легко.",
+      "en": "It sounded easy.",
+      "zh": "它听起来很轻松。",
+      "ja": "響きが軽やかだった。"
+    },
+    {
+      "id": 26,
+      "ru": "Сначала Дуров хотел добавлять названия городов – типа «В Контакте С Хабаровском», но вовремя отказался от этой идеи.",
+      "en": "At first Durov wanted to add city names – like \"In Contact With Khabarovsk,\" but refused this idea in time.",
+      "zh": "起初杜罗夫想加上城市名称——比如“与哈巴罗夫斯克保持联系”，但及时放弃了这个想法。",
+      "ja": "最初ドゥーロフは都市名を加えようとした――「ハバロフスクとコンタクト（接触）」のように――が、時宜を得てそのアイデアを捨てた。"
+    },
+    {
+      "id": 27,
+      "ru": "Получившийся сайт в серо-синих тонах стал горючим сырьем, спиртовой таблеткой, валежником для костров амбиций интернет-спорщиков.",
+      "en": "The resulting site in gray-blue tones became combustible material, a spirit tablet, deadwood for the bonfires of internet debaters' ambitions.",
+      "zh": "这个最终呈现为灰蓝色的网站成了燃料、酒精片、网络辩手野心篝火的干柴。",
+      "ja": "灰青色のトーンで仕上がったそのサイトは、可燃物となり、固形燃料となり、ネット論客たちの野心の焚き火のための枯れ木となった。"
+    },
+    {
+      "id": 28,
+      "ru": "Лейтмотив все эти годы неизменен: украл «человек в черном» идею Цукерберга или нет.",
+      "en": "The leitmotif all these years is unchanged: did the \"man in black\" steal Zuckerberg's idea or not.",
+      "zh": "这些年来的主旋律从未改变：“黑衣人”到底有没有偷扎克伯格的点子。",
+      "ja": "この数年間のライトモチーフは変わらない。「黒服の男」がザッカーバーグのアイデアを盗んだのか否か。"
+    },
+    {
+      "id": 29,
+      "ru": "«Тупоконечники» утверждают, что, раз взял основные решения, – вор.",
+      "en": "\"Big-endians\" claim that since he took the main solutions, he is a thief.",
+      "zh": "“钝头派”声称，既然采用了主要解决方案，就是小偷。",
+      "ja": "「太い端」派は、主要なソリューションを取り入れたのだから泥棒だと主張する。"
+    },
+    {
+      "id": 30,
+      "ru": "«Остроконечники» отвечают, что идеи ничего не стоят и висят в ноосфере, срывай и надкусывай – главное в том, как их докрутить.",
+      "en": "\"Little-endians\" answer that ideas cost nothing and hang in the noosphere, pick and bite – the main thing is how to tweak them.",
+      "zh": "“尖头派”回应说，点子一文不值，悬浮在思想圈里，随摘随咬——关键在于如何完善它们。",
+      "ja": "「鋭い端」派は、アイデアに価値はなく精神圏に漂っているものであり、摘み取ってかじればいい――重要なのはそれをどう仕上げるかだと答える。"
+    },
+    {
+      "id": 31,
+      "ru": "Сам Дуров не видел в переработке чужих идей ничего предосудительного: «Стив Джобс учился и декомпилировал „Сони“, разбирая Walkman’ы и ощупывая их полиграфию.",
+      "en": "Durov himself saw nothing reprehensible in reworking other people's ideas: \"Steve Jobs learned and decompiled 'Sony', taking apart Walkmans and feeling their printing.",
+      "zh": "杜罗夫本人并不认为重新加工别人的想法有什么可指责的：“史蒂夫·乔布斯曾向索尼学习并进行逆向工程，拆解 Walkman 并通过触摸感知其印刷工艺。",
+      "ja": "ドゥーロフ自身は、他人のアイデアを作り直すことに何ら後ろめたいことを感じていなかった。「スティーブ・ジョブズは『ソニー』を学び、デコンパイルし、ウォークマンを分解し、その印刷物に触れて研究した。"
+    },
+    {
+      "id": 32,
+      "ru": "Если бы общество послевоенной Японии или Америки 80-х относилось к заимствованиям так, как сегодня относимся мы, там могло бы попросту ничего не вырасти».",
+      "en": "If the society of post-war Japan or 80s America treated borrowing as we treat it today, simply nothing might have grown there.\"",
+      "zh": "如果战后日本或 80 年代美国的社会像我们今天这样看待借鉴，那里可能根本什么都长不出来。”",
+      "ja": "戦後の日本や80年代のアメリカ社会が、今日の私たちのように模倣を扱っていたら、そこには単純に何も育たなかったかもしれない」"
+    },
+    {
+      "id": 33,
+      "ru": "Отвечая на прямой вопрос о копировании, Дуров не отрицал, что произвел на свет клон.",
+      "en": "Answering a direct question about copying, Durov did not deny that he had brought a clone into the world.",
+      "zh": "在回答关于抄袭的直接问题时，杜罗夫并不否认他生出了一个克隆体。",
+      "ja": "コピーについての直接的な質問に答えて、ドゥーロフは自分がクローンを世に送り出したことを否定しなかった。"
+    },
+    {
+      "id": 34,
+      "ru": "Когда закрытая версия «ВКонтакте» уже была запущена, на форуме физфака разгорелась дискуссия с парнями из MoiFacultet.ru, сравнимая с самыми кассовыми драками на форуме истфака.",
+      "en": "When the closed version of \"VKontakte\" had already been launched, a discussion flared up on the Physics Faculty forum with the guys from MoiFacultet.ru, comparable to the highest-grossing fights on the History Faculty forum.",
+      "zh": "当“VKontakte”的内测版本已经推出时，物理系论坛上与 MoiFacultet.ru 的人爆发了一场讨论，堪比历史系论坛上最激烈的争吵。",
+      "ja": "『VKontakte』のクローズドバージョンがすでにローンチされていた頃、物理学部のフォーラムでMoiFacultet.ruの連中との議論が勃発した。それは歴史学部のフォーラムでの最高に盛り上がった喧嘩に匹敵するものだった。"
+    },
+    {
+      "id": 35,
+      "ru": "Автор: durov 3.12.2006, 23:33",
+      "en": "Author: durov 3.12.2006, 23:33",
+      "zh": "作者：durov 2006.12.3, 23:33",
+      "ja": "投稿者：durov 2006.12.3 23:33"
+    },
+    {
+      "id": 36,
+      "ru": "Ребята, важное объявление.",
+      "en": "Guys, important announcement.",
+      "zh": "伙计们，重要公告。",
+      "ja": "みんな、重要なお知らせだ。"
+    },
+    {
+      "id": 37,
+      "ru": "Данный сайт создан на профессионально низком уровне и имеет десятки дыр, через которые хакеры могут узнать вашу личную информацию.",
+      "en": "This site is created at a professionally low level and has dozens of holes through which hackers can find out your personal information.",
+      "zh": "该网站建立在专业水平低下的基础上，有几十个漏洞，黑客可以通过这些漏洞获取你们的个人信息。",
+      "ja": "このサイトはプロとして低いレベルで作られており、ハッカーが君たちの個人情報を盗み出せる穴が何十もある。"
+    },
+    {
+      "id": 38,
+      "ru": "БД со всеми личными данными, внесенными на moifakultet, продается в интернете за 800 долларов.",
+      "en": "The DB with all personal data entered on moifakultet is being sold on the Internet for 800 dollars.",
+      "zh": "包含输入到 moifakultet 的所有个人数据的数据库正在互联网上以 800 美元的价格出售。",
+      "ja": "moifakultetに入力されたすべての個人情報を含むデータベースは、ネット上で800ドルで売られている。"
+    },
+    {
+      "id": 39,
+      "ru": "Я бы не поверил этому, если бы мне не",
+      "en": "I wouldn't have believed this if I hadn't...",
+      "zh": "我不会相信这个，如果不是我……",
+      "ja": "もし私が……でなければ、信じなかっただろう。"
+    }
+  ],
+  "translator_notes": [
+    "Sentence 1 continues from page 41.",
+    "'Odnoklassniki' (Classmates) is a major Russian social network.",
+    "Big-endians/Little-endians (тупоконечники/остроконечники) are references to Gulliver's Travels (and Swift's satire on religious wars), often used in tech to describe trivial but heated debates.",
+    "The forum post by Durov attacks a competitor (MoiFakultet) for security vulnerabilities, a tactic he used."
+  ],
+  "total_sentences": 39,
+  "page_type": "narrative"
+}
