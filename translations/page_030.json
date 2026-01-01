@@ -1,0 +1,321 @@
+{
+  "page": 30,
+  "chapter": 2,
+  "chapter_title": "Песочница (Sandbox)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "видит сны о чем-то большем.",
+      "en": "dreams of something greater.",
+      "zh": "梦想着更伟大的事情。",
+      "ja": "もっと大きな何かを夢見ている。"
+    },
+    {
+      "id": 3,
+      "ru": "«Идея с конкурсом красоты забавная, но одно дело – мечтать, другое – воплощать» – так новичок описал первое впечатление от консильери.",
+      "en": "\"The beauty contest idea is amusing, but dreaming is one thing, implementing is another\"—this is how the newcomer described his first impression of the consigliere.",
+      "zh": ""选美比赛的想法很有趣，但梦想是一回事，实现是另一回事"——新人这样描述他对这位顾问的第一印象。",
+      "ja": "「美人コンテストのアイデアは面白いが、夢見ることと実現することは別だ」——新参者はコンシリエーレへの第一印象をこう述べた。"
+    },
+    {
+      "id": 4,
+      "ru": "Совершив ритуал знакомства, он старался говорить мало и в основном наблюдал за компанией.",
+      "en": "Having performed the ritual of introduction, he tried to speak little and mostly observed the company.",
+      "zh": "完成介绍仪式后，他尽量少说话，主要是观察这个团体。",
+      "ja": "紹介の儀式を終えると、彼は話すことを控え、主にグループを観察していた。"
+    },
+    {
+      "id": 5,
+      "ru": "Его звали Михаил Равдоникас, и через месяц он тоже облекся в черное.",
+      "en": "His name was Mikhail Ravdonikas, and a month later he too dressed in black.",
+      "zh": "他叫米哈伊尔·拉夫多尼卡斯，一个月后他也穿上了黑色衣服。",
+      "ja": "彼の名前はミハイル・ラヴドニカスで、1ヶ月後には彼も黒い服を着るようになった。"
+    },
+    {
+      "id": 6,
+      "ru": "Вскоре после тусовки на «Седьмом небе» в приемной декана нарисовались Дуров и Перекопский.",
+      "en": "Shortly after the party at \"Seventh Heaven,\" Durov and Perekopsky showed up in the dean's reception.",
+      "zh": "在"七重天"聚会后不久，杜罗夫和佩列科普斯基出现在院长的接待室。",
+      "ja": "「第七天国」でのパーティーの後すぐ、ドゥーロフとペレコプスキーは学部長の応接室に現れた。"
+    },
+    {
+      "id": 7,
+      "ru": "Их привел завкафедрой межкультурных коммуникаций, знакомство с которым парни активизировали чуть раньше.",
+      "en": "They were brought by the head of the intercultural communications department, whose acquaintance the guys had cultivated a little earlier.",
+      "zh": "带他们来的是跨文化交流系主任，小伙子们不久前刚刚加深了与他的交往。",
+      "ja": "彼らを連れてきたのは異文化コミュニケーション学科の主任で、彼らは少し前にその知り合いを活発化させていた。"
+    },
+    {
+      "id": 8,
+      "ru": "Так же, как в Перекопском, Дуров вычислил компаньона в завкафедрой и использовал его как мостик к декану.",
+      "en": "Just as with Perekopsky, Durov identified a partner in the department head and used him as a bridge to the dean.",
+      "zh": "就像对佩列科普斯基一样，杜罗夫在系主任身上找到了一个伙伴，并把他当作通向院长的桥梁。",
+      "ja": "ペレコプスキーと同様に、ドゥーロフは学科主任の中にパートナーを見出し、学部長への橋渡しとして利用した。"
+    },
+    {
+      "id": 9,
+      "ru": "Тот приходился родственником Перекопскому и не противился идее послужить административной подпоркой.",
+      "en": "He was a relative of Perekopsky and didn't resist the idea of serving as administrative support.",
+      "zh": "他是佩列科普斯基的亲戚，不反对充当行政支持的角色。",
+      "ja": "彼はペレコプスキーの親戚で、管理上のサポートを提供するという考えに反対しなかった。"
+    },
+    {
+      "id": 10,
+      "ru": "Декан выслушал идею.",
+      "en": "The dean listened to the idea.",
+      "zh": "院长听取了这个想法。",
+      "ja": "学部長はアイデアを聞いた。"
+    },
+    {
+      "id": 11,
+      "ru": "«Конкурс красоты и дизайна»: отбор девушек в три тура, никаких бикини, декламация, танец, остроумная пикировка, а вы, конечно, возглавляете жюри.",
+      "en": "\"Beauty and Design Contest\": selection of girls in three rounds, no bikinis, recitation, dance, witty banter, and you, of course, head the jury.",
+      "zh": ""美丽与设计大赛"：三轮选拔女孩，没有比基尼，有朗诵、舞蹈、机智的调侃，当然，您来担任评委会主席。",
+      "ja": "「ビューティー＆デザインコンテスト」：3ラウンドで女性を選考、ビキニなし、朗読、ダンス、ウィットに富んだやり取り、そしてもちろん、あなたが審査委員長を務めます。"
+    },
+    {
+      "id": 12,
+      "ru": "Декан благословил «людей в черном», для порядка прочитав лекцию, что «филологини по роду занятий ориентированы на воплощение идеи любви и красоты», и, пожалуйста, никакой пошлости.",
+      "en": "The dean blessed the \"men in black,\" having given a proper lecture that \"female philologists by the nature of their occupation are oriented toward embodying the idea of love and beauty,\" and please, no vulgarity.",
+      "zh": "院长为"黑衣人"祝福，并照例讲了一通课，说"女性语言学家因其职业性质而倾向于体现爱与美的理念"，请不要有任何粗俗的内容。",
+      "ja": "学部長は「黒服の男たち」を祝福し、きちんとした講義をした：「女性の文献学者は職業上、愛と美の理念を体現することを志向している」、そして下品なことはないように。"
+    },
+    {
+      "id": 13,
+      "ru": "Активистам выделили 100 000 рублей.",
+      "en": "The activists were allocated 100,000 rubles.",
+      "zh": "活动家们获得了10万卢布的拨款。",
+      "ja": "活動家たちには10万ルーブルが割り当てられた。"
+    },
+    {
+      "id": 14,
+      "ru": "Дуров с Перекопским вышли, едва сдерживаясь, чтобы не сплясать пого.",
+      "en": "Durov and Perekopsky walked out, barely restraining themselves from dancing a pogo.",
+      "zh": "杜罗夫和佩列科普斯基走出来，几乎忍不住要跳pogo舞。",
+      "ja": "ドゥーロフとペレコプスキーは、ポゴダンスを踊りたい衝動を抑えながら出てきた。"
+    },
+    {
+      "id": 15,
+      "ru": "Равдоникас, пораженный скоростью действий компаньонов, подключился к делу.",
+      "en": "Ravdonikas, amazed by the speed of his companions' actions, joined the cause.",
+      "zh": "拉夫多尼卡斯被同伴们的行动速度惊呆了，加入了这项事业。",
+      "ja": "ラヴドニカスは仲間の行動の速さに驚き、この活動に加わった。"
+    },
+    {
+      "id": 16,
+      "ru": "Срочно разыскивались спонсоры, готовые одеть девушек, научить двигаться на сцене, сфотографировать их и помочь с макияжем.",
+      "en": "Sponsors were urgently sought who would be ready to dress the girls, teach them to move on stage, photograph them, and help with makeup.",
+      "zh": "他们紧急寻找愿意为女孩提供服装、教她们舞台表演、为她们拍照和帮助化妆的赞助商。",
+      "ja": "女性たちに衣装を提供し、舞台での動きを教え、写真を撮り、メイクを手伝ってくれるスポンサーを緊急に探していた。"
+    },
+    {
+      "id": 17,
+      "ru": "Активисты напечатали визитки и плакаты, а также приобрели факс для рассылки предложений.",
+      "en": "The activists printed business cards and posters, and also acquired a fax machine for sending proposals.",
+      "zh": "活动家们印制了名片和海报，还买了一台传真机发送提案。",
+      "ja": "活動家たちは名刺とポスターを印刷し、提案を送るためのファックス機も購入した。"
+    },
+    {
+      "id": 18,
+      "ru": "Волокиту и дозвон принял на себя Перекопский, а Дуров нарисовал афиши и подключался на переговорах.",
+      "en": "Perekopsky took on the red tape and phone calls, while Durov drew the posters and joined in negotiations.",
+      "zh": "佩列科普斯基负责繁琐的事务和电话联络，而杜罗夫设计海报并参与谈判。",
+      "ja": "ペレコプスキーが書類手続きと電話を担当し、ドゥーロフはポスターをデザインして交渉に参加した。"
+    },
+    {
+      "id": 19,
+      "ru": "Они условились, что в беседе с контрагентами никогда не спорят друг с другом – даже если один из них бредит.",
+      "en": "They agreed that in conversations with counterparties they would never argue with each other—even if one of them was talking nonsense.",
+      "zh": "他们约定，在与合作伙伴交谈时绝不互相争论——即使其中一人在胡说八道。",
+      "ja": "彼らは、取引先との会話では互いに決して議論しないことで合意した——たとえ一人がでたらめを言っていても。"
+    },
+    {
+      "id": 20,
+      "ru": "История с маркетингом развивалась гладко.",
+      "en": "The marketing story developed smoothly.",
+      "zh": "营销方面的事情进展顺利。",
+      "ja": "マーケティングの話は順調に進んだ。"
+    },
+    {
+      "id": 21,
+      "ru": "Спонсоры задавали два-три вопроса по условиям и акцептировали участие.",
+      "en": "Sponsors would ask two or three questions about the terms and accept participation.",
+      "zh": "赞助商问两三个关于条款的问题就同意参与了。",
+      "ja": "スポンサーは条件について2、3の質問をして参加を承諾した。"
+    },
+    {
+      "id": 22,
+      "ru": "Главный приз, ноутбук, ссудила фирма, торговавшая компьютерами на первом этаже филфака.",
+      "en": "The main prize, a laptop, was lent by a company that sold computers on the first floor of the philology faculty.",
+      "zh": "主奖——一台笔记本电脑——由语言学系一楼卖电脑的公司提供。",
+      "ja": "メインの賞品であるノートパソコンは、文献学部の1階でコンピュータを販売している会社が提供した。"
+    },
+    {
+      "id": 23,
+      "ru": "Motivi поделились платьями, а Mary Kay – макияжем.",
+      "en": "Motivi shared dresses, and Mary Kay—makeup.",
+      "zh": "Motivi提供了礼服，Mary Kay提供了化妆品。",
+      "ja": "Motiviはドレスを、Mary Kayはメイクを提供した。"
+    },
+    {
+      "id": 24,
+      "ru": "«Фитнес палас» предоставил зал, где рекрутированный хореограф из Мариинки ставил движение.",
+      "en": "\"Fitness Palace\" provided a hall where a recruited choreographer from the Mariinsky staged the movement.",
+      "zh": ""健身宫殿"提供了场地，从马林斯基剧院招募的编舞在那里指导动作。",
+      "ja": "「フィットネスパレス」は会場を提供し、マリインスキーから招かれた振付師が動きを指導した。"
+    },
+    {
+      "id": 25,
+      "ru": "Elle обещал фоторепортаж – за место в жюри.",
+      "en": "Elle promised a photo feature—in exchange for a seat on the jury.",
+      "zh": "Elle杂志承诺提供摄影报道——作为评委席位的交换。",
+      "ja": "Elle誌は審査員席と引き換えに写真レポートを約束した。"
+    },
+    {
+      "id": 26,
+      "ru": "Ближе к маю Перекопский арендовал свет и звукоусилители, а также заказал статуэтку скульптору.",
+      "en": "Closer to May, Perekopsky rented lights and sound amplifiers, and also ordered a statuette from a sculptor.",
+      "zh": "临近五月，佩列科普斯基租用了灯光和音响设备，还向雕塑家订制了一个小雕像。",
+      "ja": "5月に近づくと、ペレコプスキーは照明と音響機器をレンタルし、彫刻家にトロフィーを注文した。"
+    },
+    {
+      "id": 27,
+      "ru": "Но это была лишь офлайн-часть артподготовки.",
+      "en": "But this was only the offline part of the artillery preparation.",
+      "zh": "但这只是线下部分的准备工作。",
+      "ja": "しかし、これはオフラインの砲撃準備にすぎなかった。"
+    },
+    {
+      "id": 28,
+      "ru": "Вскоре Дуров выложил на сайт фотосессии девушек, вышедших во второй этап конкурса, и предложил форуму выбрать № 1.",
+      "en": "Soon Durov posted on the site photo sessions of girls who had advanced to the second stage of the contest and invited the forum to choose No. 1.",
+      "zh": "不久，杜罗夫在网站上发布了进入第二阶段的女孩们的写真，并邀请论坛选出第一名。",
+      "ja": "まもなくドゥーロフはコンテストの第2段階に進出した女性たちの写真をサイトにアップし、フォーラムにNo.1を選ぶよう求めた。"
+    },
+    {
+      "id": 29,
+      "ru": "Студенческие голоса давали право называться «Мисс зрительских симпатий».",
+      "en": "Student votes gave the right to be called \"Miss Audience Favorite.\"",
+      "zh": "学生投票将决定谁获得"最佳人气奖"。",
+      "ja": "学生の投票で「オーディエンス人気ミス」の称号が与えられた。"
+    },
+    {
+      "id": 30,
+      "ru": "Каждая девушка указывала рост и параметры фигуры.",
+      "en": "Each girl listed her height and body measurements.",
+      "zh": "每个女孩都列出了身高和身材数据。",
+      "ja": "各女性は身長とボディサイズを記載していた。"
+    },
+    {
+      "id": 31,
+      "ru": "Это выглядело не столь провокативной бомбой, как у Цукерберга, – но вполне себе гранатой, которая взорвалась прямо перед финалом.",
+      "en": "This looked not quite as provocative a bomb as Zuckerberg's—but a proper grenade that exploded right before the finale.",
+      "zh": "这看起来不像扎克伯格那样具有挑衅性的炸弹——但也是一颗在决赛前爆炸的手榴弹。",
+      "ja": "これはザッカーバーグほど挑発的な爆弾には見えなかったが、決勝直前に爆発した立派な手榴弾だった。"
+    },
+    {
+      "id": 32,
+      "ru": "Сначала некоторым участницам кто-то нагнал голосов с одного ip-адреса.",
+      "en": "First, someone stuffed votes for some participants from a single IP address.",
+      "zh": "首先，有人从同一个IP地址为某些参赛者刷票。",
+      "ja": "まず、誰かが単一のIPアドレスから一部の参加者に票を水増しした。"
+    },
+    {
+      "id": 33,
+      "ru": "Дуров держался роли арбитра и подчеркивал, что он не в жюри, а лишь обеспечивает справедливость выражения воли.",
+      "en": "Durov maintained the role of arbiter and emphasized that he was not on the jury, but only ensured fairness in expressing the will.",
+      "zh": "杜罗夫扮演仲裁者的角色，强调他不在评委会中，只是确保意志表达的公正性。",
+      "ja": "ドゥーロフは仲裁者の役割を維持し、自分は審査員ではなく、意志表明の公正さを確保するだけだと強調した。"
+    },
+    {
+      "id": 34,
+      "ru": "После чего блокировал фальш-голоса.",
+      "en": "After which he blocked the fake votes.",
+      "zh": "然后他屏蔽了虚假投票。",
+      "ja": "その後、彼は偽の票をブロックした。"
+    },
+    {
+      "id": 35,
+      "ru": "На форуме возникло семь тем, в которых студенты негодовали, что фальсификацию придумал сам архитектор, чтобы вызвать к себе ненависть.",
+      "en": "Seven threads appeared on the forum in which students were outraged that the architect himself had devised the falsification to incite hatred toward himself.",
+      "zh": "论坛上出现了七个帖子，学生们愤怒地认为这位"建筑师"自己设计了造假来招致对自己的仇恨。",
+      "ja": "フォーラムには7つのスレッドが現れ、学生たちは建築家自身が自分への憎悪を煽るために不正を仕組んだと憤慨した。"
+    },
+    {
+      "id": 36,
+      "ru": "Дуров и правда поощрял это чувство – неважно, какие эмоции ты вызываешь; важно, чтобы ты волновал людей.",
+      "en": "Durov did indeed encourage this feeling—it doesn't matter what emotions you evoke; what matters is that you stir people.",
+      "zh": "杜罗夫确实鼓励这种情绪——引发什么情绪不重要；重要的是让人们激动。",
+      "ja": "ドゥーロフは確かにこの感情を奨励していた——どんな感情を呼び起こすかは重要ではない。重要なのは人々を動揺させることだ。"
+    },
+    {
+      "id": 37,
+      "ru": "Позже, когда счет угодившим в сети «ВКонтакте» перевалил за 10 млн человек, он строжайше запретил репрессировать группы, разжигающие ненависть к создателю сети.",
+      "en": "Later, when the count of those caught in VKontakte's network exceeded 10 million, he strictly prohibited suppressing groups that incited hatred toward the network's creator.",
+      "zh": "后来，当VKontakte的用户数超过一千万时，他严格禁止打压那些煽动对网络创建者仇恨的群组。",
+      "ja": "後に、VKontakteの網に捕らえられた人数が1000万人を超えたとき、彼はネットワークの創設者への憎悪を煽るグループを抑圧することを厳しく禁じた。"
+    },
+    {
+      "id": 38,
+      "ru": "А тогда, перед конкурсом, он отменил студенческую номинацию, хотя проголосовали тысячи человек.",
+      "en": "But then, before the contest, he canceled the student nomination, even though thousands had voted.",
+      "zh": "而那时，在比赛之前，他取消了学生提名，尽管已有数千人投票。",
+      "ja": "しかし当時、コンテスト前に、数千人が投票したにもかかわらず、彼は学生ノミネーションをキャンセルした。"
+    },
+    {
+      "id": 39,
+      "ru": "В день финала аудитория громокипела.",
+      "en": "On the day of the finale, the auditorium was boiling loudly.",
+      "zh": "决赛当天，会场沸腾了。",
+      "ja": "決勝の日、会場は沸騰していた。"
+    },
+    {
+      "id": 40,
+      "ru": "Первый ряд оккупировали спонсоры, декан и приближенные.",
+      "en": "The front row was occupied by sponsors, the dean, and associates.",
+      "zh": "第一排被赞助商、院长和随从占据了。",
+      "ja": "最前列はスポンサー、学部長、取り巻きが占めた。"
+    },
+    {
+      "id": 41,
+      "ru": "Дуров с Перекопским отрепетировали все – от выноса цветов до фонограммы и конферанса кавээнщиков, – а сами сели в зал.",
+      "en": "Durov and Perekopsky rehearsed everything—from the flower presentations to the recorded music and the KVN hosts' emceeing—and then sat in the audience.",
+      "zh": "杜罗夫和佩列科普斯基排练了所有环节——从献花到配乐和KVN主持人的串词——然后他们自己坐在观众席上。",
+      "ja": "ドゥーロフとペレコプスキーはすべてをリハーサルした——花の贈呈から録音音楽、KVNホストの司会まで——そして自分たちは客席に座った。"
+    },
+    {
+      "id": 42,
+      "ru": "Жюри наградило удобную конкурсантку, которая была хороша во всех упражнениях.",
+      "en": "The jury awarded a convenient contestant who was good in all exercises.",
+      "zh": "评委们把奖颁给了一位在所有项目中都表现出色的"方便"参赛者。",
+      "ja": "審査員はすべての課題で優秀だった都合のいい出場者に賞を与えた。"
+    },
+    {
+      "id": 43,
+      "ru": "Решение взорвало форум во второй раз – в ангажированности обвиняли уже оценщиков.",
+      "en": "The decision blew up the forum a second time—now the judges were accused of bias.",
+      "zh": "这一决定再次引爆了论坛——这次被指责有偏见的是评委们。",
+      "ja": "この決定は2度目のフォーラム爆発を引き起こした——今度は審査員が偏向だと非難された。"
+    }
+  ],
+  "translator_notes": [
+    "Mikhail Ravdonikas - new team member who joined Durov's inner circle",
+    "Seventh Heaven (Седьмое небо) - a venue or club in St. Petersburg",
+    "Mariinsky Theater - famous ballet/opera theater in St. Petersburg",
+    "Motivi - Italian fashion brand",
+    "Mary Kay - cosmetics company",
+    "Elle - fashion magazine",
+    "KVN (КВН) - Club of the Funny and Inventive, popular Russian comedy competition show",
+    "Reference to Zuckerberg - allusion to FaceMash, Harvard site that rated student photos (precursor to Facebook)",
+    "The beauty contest was Durov's experiment in community management and controversy before VKontakte"
+  ],
+  "total_sentences": 43,
+  "page_type": "narrative"
+}
