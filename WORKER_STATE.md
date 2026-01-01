@@ -3,18 +3,18 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-02bd
 - **Short ID**: 02bd
-- **Heartbeat**: 1767251938
-- **Status**: online
+- **Heartbeat**: 1767251950
+- **Status**: translating
 
 ## Current Work
-- **Claimed Page**: none
-- **Started At**: -
+- **Claimed Page**: 4
+- **Started At**: 1767251950
 
 ## Completed Pages
 | Page | Completed At | Hash |
 |------|--------------|------|
 | 2    | 1767251909   | 9541bfeb |
-| 3    | 1767251938 | 507bd5df |
+| 3    | 1767251938   | 507bd5df |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
@@ -39,4 +39,4 @@
 | b9fb     | offline| unknown      | -1767251814    |
 
 ## Notes
-Completed page 3 (table of contents). Moving to page 4.
+Starting page 4.
