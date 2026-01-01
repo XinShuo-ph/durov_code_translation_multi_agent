@@ -1,0 +1,41 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{geometry}
+\geometry{top=2cm, bottom=2cm, left=2cm, right=2cm}
+
+% Language support
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{paracol} 
+
+% Fonts
+\setmainfont{DejaVu Serif}
+
+% We need to define fonts for different scripts
+\newfontfamily\cyrillicfont{DejaVu Serif}
+\newfontfamily\englishfont{DejaVu Serif}
+
+% CJK setup
+\setCJKmainfont{AR PL UMing CN} % Default CJK
+
+\newCJKfontfamily\chinesefont{AR PL UMing CN}
+\newCJKfontfamily\japanesefont{IPAexMincho}
+
+\begin{document}
+
+\section*{Multilingual Demo}
+
+\begin{paracol}{4}
+\textbf{Russian} \switchcolumn
+\textbf{English} \switchcolumn
+\textbf{Chinese} \switchcolumn
+\textbf{Japanese}
+\end{paracol}
+
+\begin{paracol}{4}
+Мальчик с томом Сервантеса выходит из подъезда... \switchcolumn
+A boy with a volume of Cervantes exits the building entrance... \switchcolumn
+{\chinesefont 一个手捧塞万提斯著作的男孩走出公寓楼...} \switchcolumn
+{\japanesefont セルバンテスの本を持った少年が建物の入り口を出る...}
+\end{paracol}
+
+\end{document}

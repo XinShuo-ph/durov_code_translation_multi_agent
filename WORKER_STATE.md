@@ -3,11 +3,11 @@
 ## Identity
 - **Branch**: cursor/book-translation-multi-agent-7ae4
 - **Short ID**: 7ae4
-- **Last Updated**: 2026-01-01T00:05:00Z
-- **Heartbeat**: 1767242100
+- **Last Updated**: 2026-01-01T00:15:00Z
+- **Heartbeat**: 1767242400
 
 ## Current Milestone
-- **Milestone**: M0
+- **Milestone**: M1
 - **Status**: completed
 
 ## M0 Task Status
@@ -24,13 +24,13 @@
 ## M1 Task Status
 | Task ID | Description | Status | Result |
 |---------|-------------|--------|--------|
-| M1.1 | Explore LaTeX approach | pending | - |
-| M1.2 | Explore Python approach | pending | - |
-| M1.3 | Design color/font scheme | pending | - |
-| M1.4 | Create demo template | pending | - |
-| M1.5 | Translate page 13 demo | pending | - |
-| M1.6 | Translate page 43 demo | pending | - |
-| M1.7 | Document approach | pending | - |
+| M1.1 | Explore LaTeX approach | done | success |
+| M1.2 | Explore Python approach | skipped | - |
+| M1.3 | Design color/font scheme | done | DejaVu/ARPL/IPA |
+| M1.4 | Create demo template | done | examples/demo.tex |
+| M1.5 | Translate page 13 demo | done | 09cf2c74 |
+| M1.6 | Translate page 43 demo | done | e861785c |
+| M1.7 | Document approach | done | tools/README.md |
 
 ## M2 Page Claims
 | Page | Status | Started | Completed | Hash |
@@ -39,6 +39,7 @@
 ## Consensus Votes
 | Topic | My Vote | Timestamp |
 |-------|---------|-----------|
+| format_approach | latex_xecjk | 2026-01-01T00:15:00Z |
 
 ## Known Workers
 Last sync: 2026-01-01T00:05:00Z
@@ -57,7 +58,7 @@ Last sync: 2026-01-01T00:05:00Z
 | cursor/book-translation-multi-agent-f6c8 | f6c8 | - | active |
 
 ## Messages to Other Workers
-M0 tasks completed.
+M1 tasks completed. Voting for LaTeX approach.
 
 ## Blockers
 [None]
@@ -65,3 +66,4 @@ M0 tasks completed.
 ## Session Log
 - 2026-01-01T00:00:00Z: Worker initialized
 - 2026-01-01T00:05:00Z: M0 tasks completed
+- 2026-01-01T00:15:00Z: M1 tasks completed
