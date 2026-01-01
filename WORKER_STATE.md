@@ -3,12 +3,12 @@
 ## Identity
 - **Branch**: cursor/book-translation-multi-agent-6d12
 - **Short ID**: 6d12
-- **Last Updated**: 2026-01-01T00:00:00Z
-- **Heartbeat**: 1735689600
+- **Last Updated**: 2026-01-01T04:46:00Z
+- **Heartbeat**: 1767242760
 
 ## Current Milestone
 - **Milestone**: M1
-- **Status**: working
+- **Status**: completed
 
 ## M0 Task Status
 | Task ID | Description | Status | Result Hash |
@@ -27,10 +27,10 @@
 | M1.1 | Explore LaTeX approach | done | success |
 | M1.2 | Explore Python approach | pending | - |
 | M1.3 | Design color/font scheme | done | documented |
-| M1.4 | Create demo template | pending | - |
-| M1.5 | Translate page 13 demo | pending | - |
-| M1.6 | Translate page 43 demo | pending | - |
-| M1.7 | Document approach | pending | - |
+| M1.4 | Create demo template | done | compile_pages.py |
+| M1.5 | Translate page 13 demo | done | page_013_translated.pdf |
+| M1.6 | Translate page 43 demo | done | page_043_translated.pdf |
+| M1.7 | Document approach | done | tools/README.md |
 
 ## M2 Page Claims
 | Page | Status | Started | Completed | Hash |

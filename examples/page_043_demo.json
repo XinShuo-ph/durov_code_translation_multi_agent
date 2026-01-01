@@ -1,0 +1,45 @@
+{
+  "page": 43,
+  "chapter": 2,
+  "chapter_title_ru": "Архитектор",
+  "chapter_title_en": "The Architect",
+  "chapter_title_zh": "建筑师",
+  "chapter_title_ja": "建築家",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Почему предложили мне – я один из создателей проекта ВКонтакте.ру.",
+      "en": "Why they approached me—I'm one of the creators of the VKontakte.ru project.",
+      "zh": "为什么他们找我——我是VKontakte.ru项目的创始人之一。",
+      "ja": "なぜ私に持ちかけてきたかと言えば、私がVKontakte.ruプロジェクトの創設者の一人だからだ。"
+    },
+    {
+      "id": 2,
+      "ru": "Этот сайт, как и moifakultet, является клоном американского сайта facebook.com, однако мы создаем наш, российский сайт со своей спецификой и рядом функций.",
+      "en": "This site, like moifakultet, is a clone of the American site facebook.com, but we are creating our own Russian site with its own specifics and set of features.",
+      "zh": "这个网站和moifakultet一样，是美国网站facebook.com的克隆版本，但我们正在创建自己的俄罗斯网站，具有自己的特点和一系列功能。",
+      "ja": "このサイトはmoifakultetと同様、アメリカのfacebook.comのクローンだが、我々は独自の特性と機能を持つロシア版サイトを作っている。"
+    },
+    {
+      "id": 3,
+      "ru": "Новый проект Павла и Николая Дуровых стартует с криминальной хакерской атаки и плагиата!",
+      "en": "Pavel and Nikolai Durov's new project launches with a criminal hacker attack and plagiarism!",
+      "zh": "帕维尔和尼古拉·杜罗夫的新项目以犯罪黑客攻击和抄袭开始！",
+      "ja": "パーヴェルとニコライ・ドゥーロフの新プロジェクトが犯罪的ハッカー攻撃と盗作で始動！"
+    }
+  ],
+  "translator_notes": [
+    "moifakultet.ru: A competing Russian social network, also inspired by Facebook",
+    "This page documents early accusations between rival startups in 2006 Russian internet",
+    "Durov denies hacking allegations, claims hackers independently approached both sides",
+    "Shows contentious early days of Russian social networking competition",
+    "Context: Both sites were Facebook clones adapted for Russian market",
+    "Author Danila: Representative of moifakultet making accusations against VK team"
+  ],
+  "research_used": [
+    "2006 Russian social network competition",
+    "Early VKontakte vs competitors",
+    "Russian startup culture and conflicts",
+    "Facebook clones in international markets"
+  ]
+}

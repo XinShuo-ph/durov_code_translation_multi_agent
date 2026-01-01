@@ -1,0 +1,43 @@
+{
+  "page": 13,
+  "chapter": 1,
+  "chapter_title_ru": "Ботанический сад",
+  "chapter_title_en": "Botanical Garden",
+  "chapter_title_zh": "植物园",
+  "chapter_title_ja": "植物園",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Мальчик с томом Сервантеса выходит из подъезда, огибает автомобиль, который какой-то негодяй поставил так, что пешеходы еле протискиваются мимо, и сворачивает за угол.",
+      "en": "A boy carrying a volume of Cervantes exits the building entrance, circles around a car that some scoundrel parked so tightly that pedestrians can barely squeeze past, and turns the corner.",
+      "zh": "一个手捧塞万提斯著作的男孩走出公寓楼，绕过一辆被某个混蛋停得让行人几乎挤不过去的汽车，然后转过街角。",
+      "ja": "セルバンテスの本を持った少年が建物の入り口を出て、誰かの不届き者がぎりぎりまで詰めて駐車した車を回り込み、角を曲がる。"
+    },
+    {
+      "id": 2,
+      "ru": "Перед ним пустынные кварталы, поля и высоковольтные вышки, а в физиономию дует ветер – как везде в Петербурге, но в этом районе особенно.",
+      "en": "Before him lie deserted blocks, fields and high-voltage towers, and wind blows in his face—as it does everywhere in Petersburg, but especially in this district.",
+      "zh": "他面前是荒凉的街区、田野和高压电塔，风吹在脸上——圣彼得堡到处都是这样，但这个区域尤其如此。",
+      "ja": "彼の前には人気のない街区、草原、高圧送電塔が広がり、顔に風が吹き付ける——ペテルブルクではどこでもそうだが、この地区では特に激しい。"
+    },
+    {
+      "id": 3,
+      "ru": "Рядом море.",
+      "en": "The sea is nearby.",
+      "zh": "大海就在附近。",
+      "ja": "海が近い。"
+    }
+  ],
+  "translator_notes": [
+    "Cervantes: Reference to Don Quixote, Durov's favorite book—metaphor for fighting alone against the system",
+    "Petersburg/St. Petersburg: Russia's cultural capital, more European and intellectual than Moscow",
+    "High-voltage towers and desolate landscape: Post-Soviet urban decay of 1990s peripheral districts",
+    "This opening establishes young Pavel's isolation, intellectual escape through literature, and harsh environment"
+  ],
+  "research_used": [
+    "Durov childhood in St. Petersburg periphery",
+    "Soviet-era panel housing districts",
+    "Don Quixote symbolism",
+    "Post-Soviet urban development"
+  ]
+}
