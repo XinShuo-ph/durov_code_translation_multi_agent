@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-ba2f
 - **Short ID**: ba2f
-- **Heartbeat**: 1767256426
+- **Heartbeat**: 1767257221
 - **Status**: translating
 
 ## Current Work
-- **Claimed Page**: 38
-- **Started At**: 1767256426
+- **Claimed Page**: 44
+- **Started At**: 1767257221
 
 ## Completed Pages
 | Page | Completed At | Hash |
@@ -19,9 +19,8 @@
 | 17-22 | 1767254356  | (ch1 complete) |
 | 23-28 | 1767255196  | (ch2 part1) |
 | 29-34 | 1767256087  | (ch2 part2) |
-| 35   | 1767256426   | 5a8b9c0d |
-| 36   | 1767256426   | 6b9c0d1e |
-| 37   | 1767256426   | 7c0d1e2f |
+| 35-37 | 1767256426  | (ch2 complete) |
+| 38-43 | 1767257221  | (ch3 part1) |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
@@ -32,4 +31,4 @@
 | f4a6     | active | unknown      | recent         |
 
 ## Notes
-Completed pages 1-37. Front matter (1-6), Prologue (7-12), Chapter 1 (13-22), Chapter 2 complete (23-37). Moving to Chapter 3.
+Completed pages 1-43. Front matter (1-6), Prologue (7-12), Chapter 1 (13-22), Chapter 2 (23-37), Chapter 3 in progress (38-43). Continuing translation.
