@@ -1,103 +1,125 @@
-# Current State (Shared)
+# Project State
 
-**⚠️ MULTI-AGENT MODE ACTIVE**
-
-Workers operate on `cursor/*` branches with dynamic names.
-Active workers are identified by presence of `WORKER_STATE.md` on their branch.
-
-See `PROTOCOL.md` for communication protocol.
-See `instructions.md` for task details.
+**Multi-Agent Collaborative Translation**
 
 ---
 
-## How to Discover Active Workers
+## How to Check Active Workers
 
 ```bash
-git fetch origin --all --prune
+git fetch origin --prune
+
 for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null; then
+  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
     short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    echo "Active: $branch ($short_id)"
+    heartbeat=$(git show "origin/${branch}:WORKER_STATE.md" 2>/dev/null | grep -oP 'Heartbeat: \K[0-9]+' | head -1)
+    now=$(date +%s)
+    age=$((now - heartbeat))
+    if [ $age -lt 600 ]; then
+      echo "ONLINE:  $short_id (heartbeat ${age}s ago)"
+    else
+      echo "OFFLINE: $short_id (heartbeat ${age}s ago)"
+    fi
   fi
 done
 ```
 
 ---
 
-## Global Milestone Status
-- **Current Milestone**: M0 (Project Setup)
-- **Status**: ready_for_workers
+## Book Information
 
-## M0 Completion Tracker
-| Task | Description | Completed By |
-|------|-------------|--------------|
-| M0.1 | Dependencies | - |
-| M0.2 | PDF Extract | - |
-| M0.3 | Chapter Structure | - |
-| M0.4 | Durov Bio | - |
-| M0.5 | VK History | - |
-| M0.6 | Russia Context | - |
-| M0.7 | Chapter Summaries | - |
-
-## M1 Completion Tracker
-| Task | Description | Status |
-|------|-------------|--------|
-| Format Decision | Vote on LaTeX/Python | pending |
-| Page 13 Demo | Demo translation | pending |
-| Page 43 Demo | Demo translation | pending |
-| Documentation | Technical pipeline docs | pending |
-| Cross-Verification | All workers verified | pending |
-
-## M2 Page Status (99 pages total)
-| Status | Count | Pages |
-|--------|-------|-------|
-| Completed | 0 | - |
-| In Progress | 0 | - |
-| Available | 99 | 1-99 |
-
-## M3 Assembly Status
-- **Leader**: Not elected
-- **Verifications**: 0
-
----
-
-## Consensus Decisions
-| Topic | Decision | Votes | Timestamp |
-|-------|----------|-------|-----------|
-| format_approach | pending | - | - |
-| color_scheme | pending | - | - |
-| font_choice | pending | - | - |
-
----
-
-## Key Book Information
 - **Title**: Код Дурова. Реальная история «ВКонтакте» и ее создателя
 - **Author**: Николай В. Кононов (Nikolai V. Kononov)
-- **Pages**: 99
-- **Published**: 2012-2013
+- **Total Pages**: 99
 - **Subject**: Biography of Pavel Durov and history of VKontakte
 
-## Chapter Structure (page ranges)
-- Pages 1-4: Front matter (title, contents)
-- Pages 5-6: Предисловие (Preface)
-- Pages 7-12: Пролог (Prologue)
-- Pages 13-22: Глава 1 - Childhood
-- Pages 23-37: Глава 2 - University
-- Pages 38-50: Глава 3 - VK Founding
-- Pages 51-64: Глава 4 - Growth
-- Pages 65-78: Глава 5 - Conflicts
-- Pages 79-91: Глава 6 - Philosophy
-- Pages 92-98: Глава 7 - Future
-- Page 99: About Author
+---
+
+## Chapter Structure
+
+| Chapter | Pages | Title |
+|---------|-------|-------|
+| 0 | 1-4 | Front Matter (title, contents) |
+| 0 | 5-6 | Предисловие (Preface) |
+| 0 | 7-12 | Пролог (Prologue) |
+| 1 | 13-22 | Ботанический сад (Botanical Garden) |
+| 2 | 23-37 | Chapter 2 - University years |
+| 3 | 38-50 | Chapter 3 - VK founding |
+| 4 | 51-64 | Chapter 4 - Growth |
+| 5 | 65-78 | Chapter 5 - Conflicts |
+| 6 | 79-91 | Chapter 6 - Philosophy |
+| 7 | 92-98 | Chapter 7 - Future |
+| - | 99 | About Author |
 
 ---
 
-## Session Log
-- Initial: Created multi-agent parallel execution framework
-- Ready for workers to begin
+## Resources Available
+
+### Pre-Extracted Text
+- `extracted/pages/page_001.txt` through `page_099.txt`
+- `extracted/full.txt` - complete book text
+
+### Research Documents
+- `research/durov_bio.md` - Pavel Durov biography
+- `research/vk_history.md` - VKontakte history
+- `research/russia_context.md` - Cultural context
+- `research/chapter_summaries.md` - Chapter summaries
+- `research/glossary.md` - Terminology guide
+
+### Example Translations (Format Reference Only)
+- `examples/page_013_translation.json`
+- `examples/page_043_translation.json`
+
+**Note**: Examples show format only, not complete translations.
+
+### PDF Generation Tools
+- `tools/compile_pages.py` - JSON to PDF compiler
+- `tools/README.md` - Tool documentation
 
 ---
 
-*Note: Each worker maintains their own `WORKER_STATE.md` for detailed status.*
-*Workers register themselves by creating WORKER_STATE.md on their branch.*
-*Discovery happens by scanning all cursor/* branches for WORKER_STATE.md.*
+## Translation Output Location
+
+Workers save translations to:
+```
+translations/
+├── page_001.json
+├── page_002.json
+└── ...
+```
+
+Generated PDFs go to:
+```
+output/
+├── page_001.pdf
+├── page_002.pdf
+└── ...
+```
+
+---
+
+## Protocol Summary
+
+1. **Register**: Create WORKER_STATE.md to join the team
+2. **Sync**: Fetch other workers every 2-3 minutes
+3. **Claim**: Take lowest available page, push immediately
+4. **Translate**: Russian → English, Chinese, Japanese
+5. **Complete**: Save JSON, push, claim next page
+6. **Repeat**: Until all 99 pages are done
+
+See `PROTOCOL.md` for full details.
+
+---
+
+## Timeouts
+
+| Situation | Threshold |
+|-----------|-----------|
+| Worker considered offline | 10 min stale heartbeat |
+| Page can be reclaimed | 15 min after worker goes offline |
+| Sync frequency | 2-3 minutes |
+| Heartbeat update | At least every 5 min |
+
+---
+
+*Each worker maintains their own `WORKER_STATE.md` for detailed status.*
