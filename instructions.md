@@ -5,6 +5,40 @@ Deliver a multilingual edition of "Код Дурова" (Durov Code) by Nikolai 
 
 ---
 
+## Multi-Agent Parallel Execution
+
+**THIS PROJECT USES 16 AI AGENTS WORKING IN PARALLEL**
+
+See `PROTOCOL.md` for the complete communication protocol. Key points:
+
+### Agent Identity
+- Each agent operates on branch: `worker/[01-16]/durov-translation`
+- **FIRST ACTION**: Identify your worker ID from your branch name
+- Maintain `WORKER_STATE.md` as your state broadcast file
+
+### Communication via Git
+- **Commit = Broadcast** your state to other agents
+- **Push = Send** your message to the network
+- **Pull = Receive** messages from other agents
+- **PULL EVERY 60-120 SECONDS** - this is mandatory
+
+### Commit Message Format
+```
+[WORKER-XX] [MILESTONE] [ACTION]: [description]
+STATE: [milestone].[task] = [status]
+PAGES: [relevant pages]
+HEARTBEAT: [unix timestamp]
+```
+
+### Parallel Execution Philosophy
+This is like MPI (Message Passing Interface) for AI agents:
+- No shared memory - only message passing via git
+- Time unit is ~60 seconds (push/pull + thinking)
+- Frequent commits prevent work duplication
+- Consensus before critical transitions
+
+---
+
 ## Reader Context
 
 **Target Reader Profile:**
@@ -22,12 +56,46 @@ Deliver a multilingual edition of "Код Дурова" (Durov Code) by Nikolai 
 
 ## Execution Mode
 
-**CONTINUOUS EXECUTION:** Do NOT pause between tasks or pages to ask for confirmation. Complete all tasks sequentially until:
-- All pages are translated, OR
-- A blocking error requires user input, OR
-- Context limit (~10k tokens remaining)
+**PARALLEL MULTI-AGENT EXECUTION WITH CONTINUOUS PROGRESS**
 
-When a page is complete, immediately proceed to the next page.
+### Agent Startup Sequence (MANDATORY)
+```
+1. IDENTIFY YOUR WORKER ID
+   git branch --show-current
+   # Extract worker number from branch name
+   # Example: worker/07/durov-translation → Worker 07
+
+2. CREATE/UPDATE WORKER_STATE.md
+   # Initialize your state broadcast file
+
+3. SYNC WITH ALL WORKERS
+   git fetch origin 'refs/heads/worker/*:refs/remotes/origin/worker/*'
+   # Read all other workers' WORKER_STATE.md files
+   # Build global state picture
+
+4. BROADCAST YOUR STATUS
+   git add WORKER_STATE.md
+   git commit -m "[WORKER-XX] SYNC: Starting session"
+   git push origin HEAD
+
+5. BEGIN WORK BASED ON GLOBAL STATE
+```
+
+### Continuous Execution Rules
+- **Do NOT pause** between tasks to ask for confirmation
+- **Commit and push** after every significant action
+- **Pull from all workers** every 60-120 seconds
+- Continue until:
+  - All pages are translated, OR
+  - A blocking error requires coordination, OR
+  - Context limit (~10k tokens remaining)
+
+### Communication Cadence
+| Action | Frequency |
+|--------|-----------|
+| Pull all worker branches | Every 60-120 seconds |
+| Push state updates | After every task completion |
+| Heartbeat commit | Every 5 minutes if idle |
 
 ---
 
@@ -35,8 +103,11 @@ When a page is complete, immediately proceed to the next page.
 
 ```
 workspace/
-├── instructions.md          # This file (read-only reference)
-├── STATE.md                  # CRITICAL: Current progress, next action, blockers
+├── instructions.md           # Task instructions (read-only)
+├── PROTOCOL.md               # Multi-agent communication protocol (read-only)
+├── STATE.md                  # Global project state (shared)
+├── WORKER_STATE.md           # YOUR worker state (update frequently!)
+├── WORKER_STATE_TEMPLATE.md  # Template for new workers
 ├── durov_code_book.pdf       # Original Russian book (99 pages)
 ├── README.md                 # Project overview
 │
@@ -45,12 +116,14 @@ workspace/
 │   ├── vk_history.md         # VKontakte company history
 │   ├── telegram_history.md   # Telegram history (for context)
 │   ├── russia_context.md     # Russian cultural/political context
+│   ├── glossary.md           # Terminology consistency
 │   └── chapter_summaries.md  # Brief summary of each chapter
 │
 ├── tools/                    # Technical implementation
 │   ├── extract_text.py       # PDF text extraction script
 │   ├── compile_pages.py      # LaTeX/PDF compilation script
-│   ├── screenshot_verify.py  # Screenshot verification helper
+│   ├── verify_sync.py        # Multi-worker sync verification
+│   ├── claim_page.sh         # Page claiming helper script
 │   └── requirements.txt      # Python dependencies
 │
 ├── examples/                 # Demo pages (M1 deliverables)
@@ -81,106 +154,263 @@ workspace/
     └── durov_code_multilingual.pdf
 ```
 
+### Multi-Agent File Ownership
+| File | Ownership | Update By |
+|------|-----------|-----------|
+| `instructions.md` | Read-only | Never |
+| `PROTOCOL.md` | Read-only | Never |
+| `STATE.md` | Shared | Periodic consensus updates |
+| `WORKER_STATE.md` | Per-worker | Frequently (each worker their own) |
+| `research/*` | Shared | After M0 consensus |
+| `translations/raw/*` | Per-page | Claiming worker |
+| `translations/final/*` | Per-page | After verification |
+| `output/*` | Per-page | Claiming worker |
+
 ---
 
-## State Management Protocol
+## State Management Protocol (Multi-Agent)
 
 ### On Session Start
-1. **Read `STATE.md` first** - understand current progress
-2. Read the current milestone's status
-3. Resume from the documented next action
-4. **Keep working until blocked or context exhausted**
+1. **IDENTIFY** your worker ID from branch name
+2. **CREATE/UPDATE** `WORKER_STATE.md` with your status
+3. **SYNC** - Fetch all worker branches, read their states
+4. **BROADCAST** - Commit and push your initial state
+5. **ORIENT** - Determine next action based on global state
+6. **EXECUTE** - Work on next task, committing frequently
+
+### During Session
+1. **SYNC every 60-120 seconds** - Pull all worker branches
+2. **COMMIT after every significant action** - Don't batch
+3. **PUSH immediately** - Your state must be visible
+4. **CHECK for conflicts** - Re-pull after claiming resources
+5. **UPDATE HEARTBEAT** - In every commit
 
 ### On Session End (or ~10k tokens remaining)
-1. Update `STATE.md` with:
-   - Current milestone and page number
-   - Exact next action (be specific: page, sentence, issue)
-   - Any blockers or failed attempts
-   - Research findings that affect translation
-2. Save all work in progress
-3. **Do NOT start new pages with <15k tokens remaining**
+1. **Complete current task** if possible (don't leave mid-page)
+2. **Release claims** - If you can't finish, un-claim the page
+3. **Update WORKER_STATE.md** with final status
+4. **Commit and push** with descriptive message:
+   ```
+   [WORKER-XX] SESSION END: [summary]
+   COMPLETED: [list of completed items]
+   IN_PROGRESS: [anything left unfinished]
+   HEARTBEAT: [timestamp]
+   ```
 
-### STATE.md Template
+### WORKER_STATE.md Template
 ```markdown
-# Current State
-- **Milestone**: M1/M2/M3
-- **Current Page**: [page number]
-- **Status**: in_progress | blocked | ready_for_next
+# Worker [ID] State
 
-## Next Action
-[Exactly what to do next. Be specific: page number, sentence, task.]
+## Identity
+- **Worker ID**: [01-16]
+- **Branch**: worker/[ID]/durov-translation
+- **Last Updated**: [ISO 8601 timestamp]
+- **Heartbeat**: [Unix timestamp]
 
-## Blockers (if any)
-[What's preventing progress, what was tried]
+## Current Milestone
+- **Milestone**: M0 | M1 | M2 | M3
+- **Status**: working | waiting | blocked | completed
 
-## Research Notes for Current Page
-[Key context needed for translation: names, places, cultural references]
+## M0/M1 Task Status
+[Table of tasks with status and hashes]
 
-## Session Log
-- [date/session]: [pages completed, key decisions made]
+## M2 Page Claims
+[Table of claimed/completed pages]
+
+## Consensus Votes
+[Table of votes cast]
+
+## Observed Workers
+[Table of other workers' last seen states]
+
+## Messages
+[Any messages for other workers]
+
+## Blockers
+[Any issues preventing progress]
 ```
 
 ---
 
 ## Milestones
 
-### M0: Project Setup & Research Foundation
+### M0: Project Setup & Research Foundation (PARALLEL - ALL WORKERS)
 **Goal**: Establish tools, understand book structure, build knowledge base
-**Duration**: 1 session
+**Execution**: All 16 workers execute independently, then verify consensus
 
-**Tasks:**
-- [ ] Install dependencies (pdftotext, LaTeX, Python packages)
-- [ ] Extract full text from PDF, verify extraction quality
-- [ ] Create chapter structure document with page ranges
-- [ ] Research and document:
-  - Pavel Durov biography (key dates, events, philosophy)
-  - VKontakte history (founding, growth, conflicts, sale)
-  - Russian tech scene context (2006-2013 era)
-  - Key people mentioned in book
-- [ ] Read through entire book to understand narrative arc
-- [ ] Create `research/chapter_summaries.md` with 2-3 sentence summaries
+**Tasks (each worker completes independently):**
+
+| Task ID | Description | Verification |
+|---------|-------------|--------------|
+| M0.1 | Install dependencies (pdftotext, LaTeX, Python) | Command success check |
+| M0.2 | Extract full text from PDF | Hash of extracted text |
+| M0.3 | Create chapter structure document | Hash of chapter_structure.md |
+| M0.4 | Research: Pavel Durov biography | Hash of durov_bio.md |
+| M0.5 | Research: VKontakte history | Hash of vk_history.md |
+| M0.6 | Research: Russian tech context | Hash of russia_context.md |
+| M0.7 | Read entire book, create chapter summaries | Hash of chapter_summaries.md |
+
+**Parallel Execution Protocol:**
+1. Each worker completes all tasks independently
+2. After each task, broadcast status:
+   ```
+   [WORKER-XX] M0 COMPLETE: [Task ID] done
+   STATE: M0.[task_id] = done
+   HASH: [output hash first 8 chars]
+   HEARTBEAT: [timestamp]
+   ```
+3. Pull other workers' states every 60 seconds
+4. When a task is done multiple ways, vote on best solution
+5. After all tasks done, run cross-verification
+
+**Consensus Protocol for M0:**
+- If outputs have different hashes, workers vote
+- >50% (9/16) agreement adopts that version
+- Losing workers adopt winning version
+- All workers must have identical hashes before M1
 
 **Exit Criteria:**
-- All research documents created
-- Book structure fully mapped
-- Ready to start format exploration
+- All 16 workers report all tasks DONE
+- All output hashes match across workers
+- Verification commits from all 16 workers
 
 ---
 
-### M1: Format Exploration & Demo Pages
+### M1: Format Exploration & Demo Pages (PARALLEL - ALL WORKERS)
 **Goal**: Determine optimal technical approach, create demo pages 13 and 43
-**Duration**: 1-2 sessions
+**Execution**: All 16 workers explore, vote on approach, then verify
 
-**Tasks:**
-- [ ] Explore format options:
-  - LaTeX with CJK support (xelatex + xeCJK)
-  - Python + reportlab/fpdf2 with multilingual fonts
-  - Pandoc + custom templates
-- [ ] Design 4-language parallel display format:
-  - Color coding: Russian (black), English (blue), 中文 (red), 日本語 (green)
-  - OR: Font variation (serif vs sans-serif)
-  - Sentence numbering for alignment
-- [ ] Create LaTeX template `tools/format_demo.tex`
-- [ ] Extract page 13 (Chapter 1 opening) text
-- [ ] Quick-translate page 13 (focus on format, not polish)
-- [ ] Compile page 13 demo PDF
-- [ ] Screenshot and verify rendering
-- [ ] Repeat for page 43 (mid-chapter narrative)
-- [ ] Document chosen approach in `tools/README.md`
+**Tasks (each worker explores independently):**
+
+| Task ID | Description | Deliverable |
+|---------|-------------|-------------|
+| M1.1 | Explore LaTeX (xelatex + xeCJK) approach | Working template or failure report |
+| M1.2 | Explore Python (reportlab/fpdf2) approach | Working template or failure report |
+| M1.3 | Design color/font scheme | Proposal document |
+| M1.4 | Create demo template | Template file |
+| M1.5 | Translate page 13 (quick pass) | page_13_demo.pdf |
+| M1.6 | Translate page 43 (quick pass) | page_43_demo.pdf |
+| M1.7 | Document chosen approach | tools/README.md |
+
+**Parallel Execution Protocol:**
+1. Workers may specialize (e.g., Workers 1-8 try LaTeX, 9-16 try Python)
+2. Broadcast exploration results:
+   ```
+   [WORKER-XX] M1 RESULT: [approach] = [success/fail]
+   DETAILS: [brief findings]
+   HEARTBEAT: [timestamp]
+   ```
+3. Vote on final approach when multiple solutions exist
+4. All workers must produce identical demo PDFs
+
+**Consensus Voting:**
+```
+[WORKER-XX] VOTE: format_approach = latex_xecjk
+REASON: [brief justification]
+HEARTBEAT: [timestamp]
+```
+
+**Cross-Verification Before M2:**
+Each worker MUST verify:
+1. My test scripts produce same output with other workers' code
+2. Other workers' test scripts produce same output with my code
+3. All 16 branches produce byte-identical demo PDFs
+
+**Verification Commit:**
+```
+[WORKER-XX] VERIFY: M1 cross-check passed
+VERIFIED_WITH: 01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16
+DEMO_13_HASH: [hash]
+DEMO_43_HASH: [hash]
+READY_FOR_M2: true
+HEARTBEAT: [timestamp]
+```
 
 **Exit Criteria:**
-- `examples/page_13_translated.pdf` exists and renders correctly
-- `examples/page_43_translated.pdf` exists and renders correctly
-- User has reviewed and approved format
-- Technical pipeline documented
+- All 16 workers report READY_FOR_M2: true
+- All verification hashes match
+- Technical pipeline documented and agreed upon
 
 ---
 
-### M2: Professional Translation (99 Iterations)
+### M2: Professional Translation (PARALLEL - PAGE DISTRIBUTION)
 **Goal**: Translate all 99 pages with professional, localized quality
-**Duration**: 50-100 sessions (depending on page complexity)
+**Execution**: 16 workers translate in parallel, each claiming pages dynamically
+
+**Initial Page Assignment:**
+```
+Worker 01 → Page 1      Worker 09 → Page 9
+Worker 02 → Page 2      Worker 10 → Page 10
+Worker 03 → Page 3      Worker 11 → Page 11
+Worker 04 → Page 4      Worker 12 → Page 12
+Worker 05 → Page 5      Worker 13 → Page 13
+Worker 06 → Page 6      Worker 14 → Page 14
+Worker 07 → Page 7      Worker 15 → Page 15
+Worker 08 → Page 8      Worker 16 → Page 16
+```
+
+**Dynamic Page Claiming Protocol:**
+After completing a page, workers claim the next available page:
+
+```python
+def get_next_page(worker_id, global_state):
+    """
+    1. Pull all worker states
+    2. Identify pages: claimed, completed, available
+    3. Claim lowest available page number
+    """
+    all_pages = set(range(1, 100))  # Pages 1-99
+    claimed = global_state.claimed_pages()
+    completed = global_state.completed_pages()
+    available = sorted(all_pages - claimed - completed)
+    
+    if available:
+        return available[0]  # Lowest available
+    return None  # All done!
+```
+
+**Page Claim Commit:**
+```
+[WORKER-XX] M2 CLAIM: Starting page YY
+STATE: M2.translating
+PAGES: YY
+HEARTBEAT: [timestamp]
+```
+**⚠️ PUSH IMMEDIATELY AFTER CLAIMING** - Prevents duplicate work
+
+**Page Completion Commit:**
+```
+[WORKER-XX] M2 DONE: Completed page YY
+STATE: M2.page_done
+PAGES: YY
+TRANSLATION_HASH: [sha256 first 8 chars of JSON]
+PDF_HASH: [sha256 first 8 chars of PDF]
+HEARTBEAT: [timestamp]
+```
+
+**Conflict Resolution (Race Conditions):**
+If two workers claim the same page:
+1. Earlier timestamp wins (check commit timestamps)
+2. If same second, lower worker ID wins
+3. Losing worker reclaims next available page
+
+**Progress Tracking in WORKER_STATE.md:**
+```markdown
+## M2 Page Status
+| Page | Status | Started | Completed | Hash |
+|------|--------|---------|-----------|------|
+| 7 | done | 10:00:00 | 10:25:00 | a8b3c2d1 |
+| 23 | done | 10:26:00 | 10:48:00 | f4e5d6c7 |
+| 39 | translating | 10:49:00 | - | - |
+```
 
 **Per-Page Workflow (One Iteration):**
+
+#### Phase 0: Claim and Broadcast
+1. **Pull** all worker branches (MANDATORY before claiming)
+2. **Identify** next available page
+3. **Commit and push claim** immediately
+4. **Verify** no conflict (re-pull after push)
 
 #### Phase 1: Context Gathering (per page)
 1. **Read current chapter context**
@@ -276,22 +506,46 @@ workspace/
 
 ---
 
-### M3: Final Assembly
+### M3: Final Assembly (COORDINATED - LEADER ELECTION)
 **Goal**: Compile complete multilingual book
-**Duration**: 1-2 sessions
+**Execution**: One worker leads assembly, others verify
 
-**Tasks:**
+**Leader Election:**
+1. First worker to complete their last M2 page becomes assembly leader
+2. Leader broadcasts:
+   ```
+   [WORKER-XX] M3 LEADER: Taking assembly responsibility
+   HEARTBEAT: [timestamp]
+   ```
+3. Other workers enter verification mode
+
+**Leader Tasks:**
+- [ ] Collect all page translations from all branches
+- [ ] Verify all 99 pages are complete
 - [ ] Merge all individual PDFs in correct order
 - [ ] Add table of contents (multilingual)
 - [ ] Add translator's note (explaining format, approach)
 - [ ] Create cover page (multilingual title)
-- [ ] Final quality check: spot-check 10 random pages
 - [ ] Export to `final/durov_code_multilingual.pdf`
+- [ ] Broadcast final hash
+
+**Verifier Tasks (other 15 workers):**
+- [ ] Pull leader's final assembly
+- [ ] Verify PDF contains all pages
+- [ ] Spot-check 6-7 random pages each (distributed)
+- [ ] Report verification:
+  ```
+  [WORKER-XX] M3 VERIFY: Final assembly verified
+  FINAL_HASH: [hash]
+  PAGES_CHECKED: [list]
+  STATUS: pass
+  ```
 
 **Exit Criteria:**
 - Complete PDF exists
 - All 99 original pages + translations included
 - File opens correctly, all fonts render
+- All 16 workers report verification passed
 
 ---
 
@@ -354,8 +608,74 @@ Maintain a glossary (`research/glossary.md`) for:
 
 ---
 
+## Deadlock Prevention
+
+### Timeout Rules
+| Situation | Timeout | Action |
+|-----------|---------|--------|
+| Page claimed, no progress | 30 min | Page becomes available |
+| Worker no heartbeat | 15 min | Consider worker stalled |
+| Waiting for consensus | 20 min | Proceed with majority |
+| Verification timeout | 30 min | Re-run verification |
+
+### Heartbeat Protocol
+- Update HEARTBEAT in every commit
+- If no commits for 5 min while working, push a heartbeat-only commit
+- Stale workers (>15 min old heartbeat) can be worked around
+
+### Stall Recovery
+If you detect you're stalled:
+1. Commit an ALERT message explaining the issue
+2. Release any claimed resources (pages)
+3. Other workers will work around you
+
+### Livelock Prevention
+To prevent workers from endlessly conflicting:
+- Always claim the LOWEST available page number
+- Lower worker ID wins ties
+- If you lose a conflict, wait 10 seconds before re-claiming
+
+---
+
+## Multi-Agent Coordination Rules
+
+### 1. Never Work in Isolation
+- Pull other workers' branches every 60-120 seconds
+- Your work is invisible until you push
+- Push early, push often
+
+### 2. Claim Before Work
+- Never start on a page without claiming it first
+- Push the claim before starting translation
+- Re-verify your claim after push (check for conflicts)
+
+### 3. Trust But Verify
+- Other workers may make mistakes
+- Cross-verify outputs when required (M0, M1, M3)
+- Report discrepancies via ALERT messages
+
+### 4. Majority Rules
+- For decisions, >50% agreement wins
+- Minority workers must adopt majority decision
+- Document your disagreement but comply
+
+### 5. Help Stalled Workers
+- If a worker appears stalled, flag their claimed resources
+- Don't immediately take over—wait for timeout
+- Communicate via ALERT before reclaiming
+
+### 6. Maintain Global Awareness
+Always know:
+- Which pages are claimed/done
+- Which workers are active
+- What the current consensus is
+- Whether verification has passed
+
+---
+
 ## Anti-Patterns (Avoid These)
 
+### Translation Anti-Patterns
 - ❌ **Skipping research**: Every page needs context research
 - ❌ **Literal translation**: Idioms must be adapted, not translated word-for-word
 - ❌ **Inconsistent terminology**: Use glossary, don't reinvent translations
@@ -364,6 +684,17 @@ Maintain a glossary (`research/glossary.md`) for:
 - ❌ **Machine translation without review**: All output must be human-reviewed 3x
 - ❌ **Losing Durov's voice**: Sharp, provocative, unconventional - preserve this
 - ❌ **Overlong sessions without saves**: Update STATE.md every 5 pages minimum
+
+### Multi-Agent Anti-Patterns
+- ❌ **Working without claiming**: Always claim pages before translating
+- ❌ **Infrequent pushes**: Push after every significant action
+- ❌ **Ignoring other workers**: Pull every 60-120 seconds
+- ❌ **Claiming multiple pages**: Claim one page at a time
+- ❌ **Skipping verification**: M0/M1/M3 require cross-verification
+- ❌ **Ignoring conflicts**: Resolve conflicts immediately, don't proceed
+- ❌ **Stale heartbeats**: Update HEARTBEAT in every commit
+- ❌ **Unilateral decisions**: Vote on format/approach decisions
+- ❌ **Proceeding without consensus**: Wait for all workers before M2
 
 ---
 
@@ -424,28 +755,74 @@ Maintain a glossary (`research/glossary.md`) for:
 
 ---
 
-## Git Workflow
+## Git Workflow (Multi-Agent)
 
-### After Every Completed Page
+### Critical: Push Frequency
+**PUSH IMMEDIATELY** after any of these events:
+- Starting a new task
+- Completing a task
+- Claiming a page
+- Completing a page
+- Any error or blocker
+- Voting on a decision
+
+### Sync Protocol (Every 60-120 seconds)
 ```bash
-cd /workspace
-git add -A
-git commit -m "Translate page XX: [brief content note]"
+# Fetch all worker branches
+git fetch origin 'refs/heads/worker/*:refs/remotes/origin/worker/*'
+
+# Read other workers' states
+for i in $(seq -w 1 16); do
+  git show origin/worker/${i}/durov-translation:WORKER_STATE.md 2>/dev/null
+done
 ```
 
-### After Every Session
-```bash
-git add -A
-git commit -m "Session end: completed pages XX-YY, next: ZZ"
+### Commit Message Format (MANDATORY)
+All commits MUST follow this format for machine parsing:
+
+```
+[WORKER-XX] [MILESTONE] [ACTION]: [description]
+STATE: [state info]
+HEARTBEAT: [unix timestamp]
 ```
 
-### Commit Message Format
-- `M0: Setup research foundation and tools`
-- `M1: Demo page 13 format complete`
-- `M1: Demo page 43 format complete`
-- `M2 Page 15: Chapter 1 childhood narrative`
-- `M2 Pages 20-25: Chapter 1 complete`
-- `M3: Final assembly complete`
+### Examples
+```bash
+# M0 task complete
+git commit -m "[WORKER-07] M0 COMPLETE: Dependency installation
+STATE: M0.1 = done
+HEARTBEAT: $(date +%s)"
+
+# M2 page claim
+git commit -m "[WORKER-07] M2 CLAIM: Starting page 23
+PAGES: 23
+HEARTBEAT: $(date +%s)"
+
+# M2 page done
+git commit -m "[WORKER-07] M2 DONE: Completed page 23
+PAGES: 23
+TRANSLATION_HASH: a8b3c2d1
+HEARTBEAT: $(date +%s)"
+
+# Vote
+git commit -m "[WORKER-07] VOTE: format_approach = latex
+HEARTBEAT: $(date +%s)"
+```
+
+### Conflict Resolution
+If `git push` fails:
+```bash
+git pull --rebase origin HEAD
+# Resolve any conflicts
+git push origin HEAD
+```
+
+If conflicts persist, commit an ALERT:
+```
+[WORKER-XX] ALERT: Push conflict unresolved
+DETAILS: [description]
+HEARTBEAT: [timestamp]
+```
 
 ---
 
@@ -467,30 +844,116 @@ git commit -m "Session end: completed pages XX-YY, next: ZZ"
 
 ---
 
-## Starting the Project
+## Starting the Project (Multi-Agent)
 
-To begin, create `STATE.md`:
+### STEP 1: Identify Yourself
+```bash
+# Determine your worker ID from your branch name
+git branch --show-current
+# Example output: worker/07/durov-translation
+# Your Worker ID: 07
+```
 
+### STEP 2: Create WORKER_STATE.md
 ```markdown
-# Current State
-- **Milestone**: M0
-- **Task**: Project setup
-- **Status**: ready_to_start
+# Worker [YOUR_ID] State
 
-## Next Action
-1. Install dependencies (pdftotext, texlive, python packages)
-2. Extract full book text
-3. Create research documents
+## Identity
+- **Worker ID**: [YOUR_ID]
+- **Branch**: worker/[YOUR_ID]/durov-translation
+- **Last Updated**: [ISO 8601 timestamp]
+- **Heartbeat**: [Unix timestamp]
+
+## Current Milestone
+- **Milestone**: M0
+- **Status**: starting
+
+## M0 Task Status
+| Task ID | Description | Status | Result Hash |
+|---------|-------------|--------|-------------|
+| M0.1 | Install dependencies | pending | - |
+| M0.2 | Extract PDF text | pending | - |
+| M0.3 | Create chapter structure | pending | - |
+| M0.4 | Research: Durov bio | pending | - |
+| M0.5 | Research: VK history | pending | - |
+| M0.6 | Research: Russia context | pending | - |
+| M0.7 | Create chapter summaries | pending | - |
+
+## M2 Page Claims
+| Page | Status | Started | Completed |
+|------|--------|---------|-----------|
+
+## Consensus Votes
+| Topic | My Vote | Timestamp |
+|-------|---------|-----------|
+
+## Messages
+Ready to begin.
 
 ## Blockers
 None
-
-## Session Log
-- [date]: Project initiated
 ```
 
-Then execute M0 tasks in order.
+### STEP 3: Initial Sync and Broadcast
+```bash
+# Fetch all worker branches
+git fetch origin 'refs/heads/worker/*:refs/remotes/origin/worker/*'
+
+# Commit and push your initial state
+git add WORKER_STATE.md
+git commit -m "[WORKER-XX] M0 START: Beginning session
+STATE: M0 = starting
+HEARTBEAT: $(date +%s)"
+git push origin HEAD
+```
+
+### STEP 4: Check Other Workers
+```bash
+# See who else is online
+for i in $(seq -w 1 16); do
+  echo "=== Worker $i ==="
+  git show origin/worker/${i}/durov-translation:WORKER_STATE.md 2>/dev/null | head -10
+done
+```
+
+### STEP 5: Begin M0 Tasks
+Execute M0 tasks, committing and pushing after each one.
 
 ---
 
-*This document should be treated as read-only during execution. Update only STATE.md and task-specific files.*
+## Quick Reference Card
+
+### Communication Commands
+```bash
+# Sync with all workers
+git fetch origin 'refs/heads/worker/*:refs/remotes/origin/worker/*'
+
+# Read worker state
+git show origin/worker/[ID]/durov-translation:WORKER_STATE.md
+
+# Push your state
+git add WORKER_STATE.md && git commit -m "[WORKER-XX] ..." && git push
+
+# Check global page progress
+git log --all --oneline --grep="M2 DONE"
+```
+
+### Commit Prefixes
+- `[WORKER-XX] M0 COMPLETE:` - M0 task done
+- `[WORKER-XX] M1 RESULT:` - M1 exploration result
+- `[WORKER-XX] VOTE:` - Consensus vote
+- `[WORKER-XX] VERIFY:` - Verification result
+- `[WORKER-XX] M2 CLAIM:` - Page claimed
+- `[WORKER-XX] M2 DONE:` - Page completed
+- `[WORKER-XX] ALERT:` - Important notice
+- `[WORKER-XX] SYNC:` - Sync/heartbeat
+
+### Files to Track
+- `WORKER_STATE.md` - Your state (update frequently)
+- `PROTOCOL.md` - Communication rules (read-only)
+- `instructions.md` - Task instructions (read-only)
+- `STATE.md` - Shared project state (update with consensus)
+
+---
+
+*This document and PROTOCOL.md should be treated as read-only during execution. Update WORKER_STATE.md frequently. Commit and push often!*
