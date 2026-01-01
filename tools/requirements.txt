@@ -1,0 +1,4 @@
+reportlab
+fpdf2
+PyPDF2
+pdfminer.six
