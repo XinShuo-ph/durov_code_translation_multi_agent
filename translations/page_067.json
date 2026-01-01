@@ -1,0 +1,269 @@
+{
+  "page": 67,
+  "chapter": 5,
+  "chapter_title": "Стена (The Wall)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "корпорацию, лично утверждая макеты визиток для сотрудников, и обожал такой жанр разговора с миром, как пресс-релиз.",
+      "en": "a corporation, personally approving business card designs for employees, and adored such a genre of communicating with the world as the press release.",
+      "zh": "一家公司，亲自审批员工名片设计，并热衷于新闻稿这种与世界沟通的方式。",
+      "ja": "企業を築き、従業員の名刺デザインを個人的に承認し、プレスリリースという世界とのコミュニケーション形式を愛していた。"
+    },
+    {
+      "id": 2,
+      "ru": "Один – про свободу и раздачу людям новых возможностей. Другой – про контроль над сотрудниками и удовлетворение акционеров.",
+      "en": "One was about freedom and giving people new opportunities. The other was about controlling employees and satisfying shareholders.",
+      "zh": "一个是关于自由和给予人们新机会。另一个是关于控制员工和满足股东。",
+      "ja": "一方は自由と人々に新しい機会を与えることについてだった。もう一方は従業員のコントロールと株主の満足についてだった。"
+    },
+    {
+      "id": 3,
+      "ru": "Один – про маниакальное следование своему вкусу и пользовательским надеждам, еще не воплощенным. Другой – про работу с уже испытанными на юзерах моделями.",
+      "en": "One was about manic devotion to his own taste and user hopes not yet realized. The other was about working with models already tested on users.",
+      "zh": "一个是关于狂热地追随自己的品味和尚未实现的用户期望。另一个是关于使用已在用户身上验证过的模式。",
+      "ja": "一方は自分の好みとまだ実現されていないユーザーの希望への狂信的な追従についてだった。もう一方はすでにユーザーでテストされたモデルでの作業についてだった。"
+    },
+    {
+      "id": 4,
+      "ru": "Когда Mail.ru решил скупить все многообещающие соцсети рунета, Дуров не подозревал, что когда-то эта стратегия выльется в открытый конфликт.",
+      "en": "When Mail.ru decided to buy up all the promising social networks of the Runet, Durov had no idea that this strategy would someday result in open conflict.",
+      "zh": "当Mail.ru决定收购俄罗斯互联网上所有有前途的社交网络时，杜罗夫没想到这一策略最终会导致公开冲突。",
+      "ja": "Mail.ruがRunetのすべての有望なソーシャルネットワークを買収することを決めたとき、ドゥーロフはこの戦略がいつか公然とした対立に発展するとは思いもしなかった。"
+    },
+    {
+      "id": 5,
+      "ru": "Да, в «Одноклассниках» холдинг приобрел контрольный пакет и последующие два года свирепо конфликтовал с другими акционерами.",
+      "en": "Yes, the holding acquired a controlling stake in Odnoklassniki and fiercely conflicted with other shareholders for the following two years.",
+      "zh": "是的，该控股公司收购了Odnoklassniki的控股权，并在随后两年与其他股东激烈冲突。",
+      "ja": "確かに、ホールディングはOdnoklassnikiの支配株を取得し、その後2年間他の株主と激しく対立した。"
+    },
+    {
+      "id": 6,
+      "ru": "Правда, те были сами хороши.",
+      "en": "Though, to be fair, they were no angels themselves.",
+      "zh": "不过，公平地说，那些人自己也不是什么好人。",
+      "ja": "ただし、公平に言えば、彼らも決して聖人ではなかった。"
+    },
+    {
+      "id": 7,
+      "ru": "Желая быстрее снять сливки, они прикрутили соцсети платную регистрацию и за каждый шаг юзера драли монету.",
+      "en": "Wanting to skim the cream faster, they added paid registration to the social network and charged for every user action.",
+      "zh": "为了更快地榨取利润，他们给社交网络增加了付费注册，用户每一步操作都要收费。",
+      "ja": "より早くクリームをすくい取りたがって、彼らはソーシャルネットワークに有料登録を追加し、ユーザーの各操作ごとに課金した。"
+    },
+    {
+      "id": 8,
+      "ru": "Вход в капитал «ВКонтакте» прошел более гладко.",
+      "en": "Entering VKontakte's capital went more smoothly.",
+      "zh": "进入VKontakte的资本要顺利得多。",
+      "ja": "VKontakteへの資本参加はよりスムーズに進んだ。"
+    },
+    {
+      "id": 9,
+      "ru": "Мильнеру нравилось, как Дуров развивает продукт, а петербуржцев устраивала независимость, и они не просили помощи.",
+      "en": "Milner liked how Durov was developing the product, and the Petersburgers were fine with independence and didn't ask for help.",
+      "zh": "米尔纳喜欢杜罗夫开发产品的方式，而圣彼得堡人满足于独立，不需要任何帮助。",
+      "ja": "ミルナーはドゥーロフが製品を開発する方法を気に入っており、ペテルブルク人たちは独立に満足し、助けを求めなかった。"
+    },
+    {
+      "id": 10,
+      "ru": "У инвестора и основателя случилась любовь, которая до поры до времени хранила стартап от конфликтов.",
+      "en": "The investor and founder fell in love, which for the time being shielded the startup from conflicts.",
+      "zh": "投资者和创始人之间产生了爱情，这暂时保护了这家初创公司免受冲突。",
+      "ja": "投資家と創業者は恋に落ち、それがしばらくの間スタートアップを対立から守っていた。"
+    },
+    {
+      "id": 11,
+      "ru": "Однако Мильнер помимо переговорщических качеств обладал изощренным политическим чутьем.",
+      "en": "However, besides his negotiating skills, Milner possessed sophisticated political instincts.",
+      "zh": "然而，除了谈判技巧之外，米尔纳还具有老练的政治嗅觉。",
+      "ja": "しかし、ミルナーは交渉力に加えて、洗練された政治的直感を持っていた。"
+    },
+    {
+      "id": 12,
+      "ru": "Он знакомил подопечных друг с другом, возил в Кремниевую долину, гладил по головке и называл светочами, но, когда менеджеры сцеплялись между собой, поднимался над схваткой.",
+      "en": "He introduced his wards to each other, took them to Silicon Valley, patted them on the head and called them luminaries, but when managers clashed with one another, he rose above the fray.",
+      "zh": "他让自己的门生互相认识，带他们去硅谷，拍拍他们的头称他们为明灯，但当经理们相互争斗时，他却置身事外。",
+      "ja": "彼は部下たちを互いに紹介し、シリコンバレーに連れて行き、頭を撫でて光明と呼んだが、マネージャーたちが互いに争うと、争いの上に立った。"
+    },
+    {
+      "id": 13,
+      "ru": "Скрестив руки на груди, он наблюдал, кто кого съест, и не склонялся ни на чью сторону.",
+      "en": "With arms crossed, he watched who would eat whom and didn't lean toward anyone's side.",
+      "zh": "他双臂交叉，观察谁会吃掉谁，不偏向任何一方。",
+      "ja": "腕を組んで、誰が誰を食うかを観察し、どちらの側にも傾かなかった。"
+    },
+    {
+      "id": 14,
+      "ru": "Услышав, что Дуров грозит извергнуть из сети всех, кто перебежал на платформу «Мейла», Мильнер не стал звонить и давить на второго Цукерберга, а занял выжидательную позицию.",
+      "en": "Hearing that Durov was threatening to expel from the network everyone who had defected to Mail's platform, Milner didn't call to pressure the second Zuckerberg but took a wait-and-see position.",
+      "zh": "听说杜罗夫威胁要将所有投奔Mail平台的人赶出网络后，米尔纳没有打电话向第二个扎克伯格施压，而是采取了观望态度。",
+      "ja": "ドゥーロフがMailのプラットフォームに逃げた全員をネットワークから追放すると脅していると聞いて、ミルナーは第二のザッカーバーグに電話して圧力をかけることなく、様子見の姿勢を取った。"
+    },
+    {
+      "id": 15,
+      "ru": "Гришин жестом пригласил просителя за длинный стол и откинулся в кресле, приготовившись слушать.",
+      "en": "Grishin gestured for the petitioner to join him at the long table and leaned back in his chair, ready to listen.",
+      "zh": "格里申做了个手势请求者到长桌旁，靠在椅子上准备倾听。",
+      "ja": "グリシンは嘆願者に長いテーブルに来るよう手振りで招き、椅子にもたれかかって聞く準備をした。"
+    },
+    {
+      "id": 16,
+      "ru": "В окне маячили крыши хрущевок и краны, поднимающие блоки на возводящийся небоскреб.",
+      "en": "In the window loomed the roofs of Khrushchyovkas and cranes lifting blocks onto a rising skyscraper.",
+      "zh": "窗外隐约可见赫鲁晓夫楼的屋顶，以及起重机正在将砌块吊到正在建造的摩天大楼上。",
+      "ja": "窓にはフルシチョフカの屋根と、建設中の超高層ビルにブロックを持ち上げるクレーンが見えた。"
+    },
+    {
+      "id": 17,
+      "ru": "Проситель был крупным игровиком – насколько крупным можно быть на рынке, чей объем исчисляется миллионами долларов.",
+      "en": "The petitioner was a major game developer—as major as one could be in a market measured in millions of dollars.",
+      "zh": "请求者是一个大型游戏开发商——在一个以百万美元计算的市场中算得上是大型的。",
+      "ja": "嘆願者は大手ゲーム開発者だった——数百万ドル規模の市場で大手と言えるほどの。"
+    },
+    {
+      "id": 18,
+      "ru": "Он не собирался утомлять хозяина спичем и просто спросил: «Что за хрень с вашей платформой?»",
+      "en": "He wasn't going to tire the host with a speech and simply asked: 'What the hell is going on with your platform?'",
+      "zh": "他不打算用长篇大论让主人厌烦，直接问道：「你们的平台出了什么问题？」",
+      "ja": "彼はホストをスピーチで疲れさせるつもりはなく、単純に尋ねた：「あんたのプラットフォームはどうなってるんだ？」"
+    },
+    {
+      "id": 19,
+      "ru": "«В смысле – хрень?» – изумился Гришин.",
+      "en": "'What do you mean, what the hell?' Grishin was astonished.",
+      "zh": "「什么叫出了问题？」格里申惊讶地问。",
+      "ja": "「どうなってるって？」グリシンは驚いた。"
+    },
+    {
+      "id": 20,
+      "ru": "«Ну как, Дуров прислал ультиматум, что или мы остаемся у него, или выбираем вас, но ни копейки больше во «ВКонтакте» не заработаем».",
+      "en": "'Well, Durov sent an ultimatum that either we stay with him or choose you, but we won't make another kopeck on VKontakte.'",
+      "zh": "「杜罗夫发来了最后通牒，要么我们留在他那里，要么选择你们，但在VKontakte上一分钱都赚不到了。」",
+      "ja": "「いや、ドゥーロフが最後通牒を送ってきたんだ。彼のところに残るか、あなたたちを選ぶか、でもVKontakteではもう一文も稼げなくなると。」"
+    },
+    {
+      "id": 21,
+      "ru": "Гришин переспросил: «Уверены, что это не шутка?»",
+      "en": "Grishin asked again: 'Are you sure it's not a joke?'",
+      "zh": "格里申再次问道：「你确定这不是开玩笑？」",
+      "ja": "グリシンは聞き返した：「冗談じゃないって確かなの？」"
+    },
+    {
+      "id": 22,
+      "ru": "«Какие шутки, – сдерживаясь, проговорил игровик. – Мы зарабатываем у них кучу денег. Хотели бы зарабатывать и у вас, конечно. Но боимся потерять «ВКонтакте»».",
+      "en": "'What joke,' the game developer said, holding back, 'we make a ton of money with them. We'd like to make money with you too, of course. But we're afraid of losing VKontakte.'",
+      "zh": "「开什么玩笑，」游戏开发商克制着说道，「我们在他们那里赚了一大笔钱。当然，我们也想在你们这里赚钱。但我们害怕失去VKontakte。」",
+      "ja": "「冗談なんかじゃない」とゲーム開発者は抑えながら言った。「俺たちは彼らのところで大金を稼いでいる。もちろん、あんたたちのところでも稼ぎたい。でもVKontakteを失うのが怖いんだ。」"
+    },
+    {
+      "id": 23,
+      "ru": "Гришин задумался.",
+      "en": "Grishin pondered.",
+      "zh": "格里申陷入了沉思。",
+      "ja": "グリシンは考え込んだ。"
+    },
+    {
+      "id": 24,
+      "ru": "Казалось бы, Mail.ru владел акциями «ВКонтакте» и мог разбомбить выскочку Дурова, предъявив претензии насчет неэтичного поведения.",
+      "en": "It would seem Mail.ru owned VKontakte shares and could have bombed the upstart Durov by lodging complaints about unethical behavior.",
+      "zh": "看起来Mail.ru拥有VKontakte的股份，可以通过指控不道德行为来打击这个暴发户杜罗夫。",
+      "ja": "一見、Mail.ruはVKontakteの株式を所有しており、非倫理的な行動について苦情を申し立てて新参者のドゥーロフを攻撃できるはずだった。"
+    },
+    {
+      "id": 25,
+      "ru": "Но, во-первых, холдингу скандал не нужен, а во-вторых, давить на питерских ботаников никто не пробовал, а Дуров непредсказуемый, кто его знает, чем ответит.",
+      "en": "But first, the holding didn't need a scandal, and second, no one had tried to pressure the Petersburg nerds, and Durov was unpredictable—who knows how he'd respond.",
+      "zh": "但首先，控股公司不需要丑闻，其次，没有人尝试过向圣彼得堡的书呆子们施压，而且杜罗夫不可预测——谁知道他会如何回应。",
+      "ja": "しかし第一に、ホールディングにはスキャンダルは必要なく、第二に、ペテルブルクのオタクたちに圧力をかけようとした人はいなかったし、ドゥーロフは予測不可能だった——彼がどう反応するかは誰にもわからない。"
+    },
+    {
+      "id": 26,
+      "ru": "Пока надо вести себя тихо.",
+      "en": "For now, they needed to stay quiet.",
+      "zh": "目前需要保持低调。",
+      "ja": "今は静かにしている必要があった。"
+    },
+    {
+      "id": 27,
+      "ru": "К тому же ультиматум – ошибка, в интернете такие методы не работают.",
+      "en": "Besides, the ultimatum was a mistake—such methods don't work on the internet.",
+      "zh": "况且，最后通牒是个错误——这种方法在互联网上行不通。",
+      "ja": "それに、最後通牒は間違いだ——そんな方法はインターネットでは通用しない。"
+    },
+    {
+      "id": 28,
+      "ru": "Гришину промыли мозг еще несколько игровиков, и он понял, что сам собой конфликт не рассосется.",
+      "en": "Several more game developers washed Grishin's brain, and he understood that the conflict wouldn't resolve itself.",
+      "zh": "又有几个游戏开发商来找格里申诉苦，他意识到这场冲突不会自行解决。",
+      "ja": "さらに数人のゲーム開発者がグリシンに訴え、彼は対立が自然に解消しないことを理解した。"
+    },
+    {
+      "id": 29,
+      "ru": "Требуется контррешение.",
+      "en": "A countermeasure was needed.",
+      "zh": "需要一个对策。",
+      "ja": "対抗措置が必要だった。"
+    },
+    {
+      "id": 30,
+      "ru": "Схватка так схватка, и раз соперники ведут себя как дети, следует этим воспользоваться.",
+      "en": "If it's a fight, then it's a fight, and if the opponents act like children, that should be exploited.",
+      "zh": "既然要斗争，那就斗争吧，既然对手像孩子一样行事，就应该利用这一点。",
+      "ja": "戦いなら戦いだ、そして対戦相手が子供のように振る舞うなら、それを利用すべきだ。"
+    },
+    {
+      "id": 31,
+      "ru": "Гришин вызвал пиарщика и сел составлять пресс-релиз.",
+      "en": "Grishin called in a PR person and sat down to compose a press release.",
+      "zh": "格里申叫来公关人员，坐下来起草新闻稿。",
+      "ja": "グリシンは広報担当者を呼び、プレスリリースを作成し始めた。"
+    },
+    {
+      "id": 32,
+      "ru": "Они придумали красивый ход: отменить комиссию для приложений.",
+      "en": "They came up with a beautiful move: cancel the commission for apps.",
+      "zh": "他们想出了一个妙招：取消应用程序的佣金。",
+      "ja": "彼らは見事な手を思いついた：アプリの手数料を廃止することだ。"
+    },
+    {
+      "id": 33,
+      "ru": "100 % дохода с игр падали в карман разработчикам.",
+      "en": "100% of game revenue went into the developers' pockets.",
+      "zh": "100%的游戏收入归开发者所有。",
+      "ja": "ゲーム収益の100%が開発者のポケットに入った。"
+    },
+    {
+      "id": 34,
+      "ru": "Конечно, не навсегда, на первые месяцы, но тем не менее.",
+      "en": "Of course, not forever, just for the first months, but still.",
+      "zh": "当然，不是永久的，只是最初几个月，但尽管如此。",
+      "ja": "もちろん、永久にではなく、最初の数ヶ月だけだが、それでも。"
+    },
+    {
+      "id": 35,
+      "ru": "Игровики больше не колебались и отправились в «Мой Мир» стройными рядами, и за последующие месяцы платформа Mail.ru взлетела, как ракета.",
+      "en": "The game developers no longer hesitated and headed to Moy Mir in orderly ranks, and over the following months Mail.ru's platform took off like a rocket.",
+      "zh": "游戏开发商不再犹豫，整齐地涌向「我的世界」，在随后几个月里，Mail.ru的平台像火箭一样腾飞。",
+      "ja": "ゲーム開発者たちはもう迷わず、整然とした隊列でMoy Mirに向かい、その後数ヶ月でMail.ruのプラットフォームはロケットのように飛躍した。"
+    },
+    {
+      "id": 36,
+      "ru": "Дуров смирился и дезавуировал ультиматум.",
+      "en": "Durov acquiesced and disavowed the ultimatum.",
+      "zh": "杜罗夫妥协了，撤销了最后通牒。",
+      "ja": "ドゥーロフは折れて、最後通牒を撤回した。"
+    }
+  ],
+  "translator_notes": [
+    "Khrushchyovkas are Soviet-era low-cost apartment buildings built under Nikita Khrushchev",
+    "Moy Mir (My World) was Mail.ru's social network competing with VKontakte",
+    "The 'second Zuckerberg' reference highlights Durov's reputation as Russia's answer to Mark Zuckerberg",
+    "'Brain washing' (промыли мозг) here means persistently lobbying or convincing through repeated complaints",
+    "The conflict over app developers shows the platform wars between VKontakte and Mail.ru's Moy Mir",
+    "Grishin's 0% commission strategy was a classic platform war tactic to poach developers"
+  ],
+  "total_sentences": 36,
+  "page_type": "narrative"
+}
