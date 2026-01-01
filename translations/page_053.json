@@ -1,0 +1,278 @@
+{
+  "page": 53,
+  "chapter": 4,
+  "chapter_title": "Сок черешни (Cherry Juice)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "рос не такими мощными, как сейчас, темпами, и можно было потерпеть год-другой.",
+      "en": "was not growing at the powerful rates it does now, and one could wait a year or two.",
+      "zh": "增长速度没有现在这么快，可以再等一两年。",
+      "ja": "は今ほどの力強いペースでは成長しておらず、1、2年待つことも可能だった。"
+    },
+    {
+      "id": 2,
+      "ru": "Однако Дуров свято верил, что если писать версию сразу, то к мобильному буму подойдешь во всеоружии – и пользователь привыкнет.",
+      "en": "However, Durov firmly believed that if you wrote the version immediately, you would approach the mobile boom fully armed—and the user would get accustomed.",
+      "zh": "然而，杜罗夫坚信，如果立即开发移动版本，就能在移动热潮来临时做好充分准备——用户也会习惯使用。",
+      "ja": "しかしドゥーロフは固く信じていた。すぐにバージョンを作れば、モバイルブームに万全の態勢で臨める——そしてユーザーも慣れるだろうと。"
+    },
+    {
+      "id": 3,
+      "ru": "«Одноклассники» и «Мой Мир» от Mail.ru решали другие проблемы.",
+      "en": "Odnoklassniki and My World from Mail.ru were solving other problems.",
+      "zh": "Odnoklassniki和Mail.ru的「我的世界」在解决其他问题。",
+      "ja": "OdnoklassnikiとMail.ruの「マイ・ワールド」は別の問題を解決していた。"
+    },
+    {
+      "id": 4,
+      "ru": "Первые выжимали из пользователей копеечку через платные опции, включая регистрацию, вторые находились под впечатлением экспертного шума на тему: «Все умрут, а блоги останутся».",
+      "en": "The former squeezed pennies from users through paid options, including registration; the latter were under the impression of expert noise on the topic: 'Everyone will die, but blogs will remain.'",
+      "zh": "前者通过付费选项（包括注册）从用户那里榨取每一分钱，后者则沉浸在专家们的喧嚣中：「一切都会消亡，只有博客会留下。」",
+      "ja": "前者は有料オプション（登録を含む）を通じてユーザーから小銭を搾り取り、後者は「みんな死ぬが、ブログは残る」というテーマについての専門家の雑音に影響されていた。"
+    },
+    {
+      "id": 5,
+      "ru": "Столбовский был отряжен писать мобильную версию, и через год она увидела свет.",
+      "en": "Stolbovsky was assigned to write the mobile version, and a year later it saw the light of day.",
+      "zh": "斯托尔博夫斯基被指派开发移动版本，一年后它问世了。",
+      "ja": "ストルボフスキーはモバイル版を書くよう任命され、1年後にそれは日の目を見た。"
+    },
+    {
+      "id": 6,
+      "ru": "На этих двух разработчиках университетский ресурс Дурова иссяк.",
+      "en": "With these two developers, Durov's university resource was exhausted.",
+      "zh": "杜罗夫的大学人才资源在这两位开发者身上耗尽了。",
+      "ja": "この2人の開発者で、ドゥーロフの大学リソースは尽きた。"
+    },
+    {
+      "id": 7,
+      "ru": "Требовалась новая кровь.",
+      "en": "Fresh blood was needed.",
+      "zh": "需要新鲜血液。",
+      "ja": "新しい血が必要だった。"
+    },
+    {
+      "id": 8,
+      "ru": "И в этот момент ему подвернулись два друга-программиста, которым предстояло превратить «ВКонтакте» в то, как он выглядит сейчас.",
+      "en": "And at this moment, two programmer friends came his way who were destined to transform VKontakte into what it looks like today.",
+      "zh": "就在这时，两位程序员朋友出现在他面前，他们注定要把VKontakte变成今天的样子。",
+      "ja": "そしてこの瞬間、2人のプログラマーの友人が現れた。彼らはVKontakteを今日の姿に変える運命にあった。"
+    },
+    {
+      "id": 9,
+      "ru": "Олег Андреев и Андрей Рогозов познакомились на том же нёрдском озере Зеркальном, где тотем, краснея и запинаясь, читал лекцию о паскале, а его брат блистал в математическом отряде.",
+      "en": "Oleg Andreev and Andrey Rogozov met at the same nerdy Lake Zerkalnoye where the totem, blushing and stammering, had given a lecture on Pascal, and his brother shone in the math squad.",
+      "zh": "奥列格·安德烈耶夫和安德烈·罗戈佐夫在同一个书呆子湖「镜子湖」相识，那个「图腾」曾在那里脸红结巴地讲授Pascal语言，他的哥哥则在数学小组中大放异彩。",
+      "ja": "オレグ・アンドレエフとアンドレイ・ロゴゾフは、あの同じオタク向けのゼルカルノエ湖で出会った。そこでトーテムは顔を赤らめながらどもりながらパスカルについて講義し、彼の兄は数学チームで輝いていた。"
+    },
+    {
+      "id": 10,
+      "ru": "Оба торчали на программировании и переписывались после того лета.",
+      "en": "Both were hooked on programming and corresponded after that summer.",
+      "zh": "两人都痴迷于编程，那个夏天之后一直保持通信。",
+      "ja": "2人ともプログラミングに夢中で、その夏の後も文通を続けた。"
+    },
+    {
+      "id": 11,
+      "ru": "Рогозов попал в олимпиадную «единичку» 239-й, а Андреев окончил Аничков лицей, где искусство кода преподавалось как предмет.",
+      "en": "Rogozov got into the olympiad 'first' class at School 239, while Andreev graduated from Anichkov Lyceum, where the art of code was taught as a subject.",
+      "zh": "罗戈佐夫进入了239中学的奥林匹克「一班」，而安德烈耶夫毕业于阿尼奇科夫中学，那里把编程艺术作为一门课程教授。",
+      "ja": "ロゴゾフは239校のオリンピアード「1組」に入り、アンドレエフはコードの技術が科目として教えられていたアニチコフ・リセを卒業した。"
+    },
+    {
+      "id": 12,
+      "ru": "Поступив в Политех, они создали что-то типа артели, которая писала сайты и сервисы для коллег.",
+      "en": "After entering Polytechnic, they created something like a cooperative that wrote websites and services for colleagues.",
+      "zh": "进入理工大学后，他们创建了一个类似合作社的组织，为同学编写网站和服务。",
+      "ja": "ポリテクニックに入学後、彼らは同僚のためにウェブサイトやサービスを作る組合のようなものを作った。"
+    },
+    {
+      "id": 13,
+      "ru": "Они прославились в узких кругах и получали заказы со всего мира – в том числе соцсети; хорваты оплатили создание локальных «Одноклассников», staryiprijatel.hr.",
+      "en": "They became famous in narrow circles and received orders from around the world—including social networks; Croats paid for the creation of a local Odnoklassniki, staryiprijatel.hr.",
+      "zh": "他们在小圈子里成名，收到来自世界各地的订单——包括社交网络；克罗地亚人付费创建了本地版的Odnoklassniki，叫staryiprijatel.hr。",
+      "ja": "彼らは狭いサークル内で有名になり、世界中から注文を受けた——ソーシャルネットワークを含めて。クロアチア人はローカル版Odnoklassniki、staryiprijatel.hrの作成に支払った。"
+    },
+    {
+      "id": 14,
+      "ru": "Архитектор сразу опознал в Андрееве единомышленника.",
+      "en": "The architect immediately recognized a kindred spirit in Andreev.",
+      "zh": "这位架构师立刻在安德烈耶夫身上认出了志同道合的人。",
+      "ja": "建築家はすぐにアンドレエフの中に同志を見出した。"
+    },
+    {
+      "id": 15,
+      "ru": "Дуров фанател от книг Пола Грэма, программиста и создателя инкубатора стартапов Y Combinator.",
+      "en": "Durov was a fan of books by Paul Graham, programmer and creator of the startup incubator Y Combinator.",
+      "zh": "杜罗夫是程序员、创业孵化器Y Combinator创始人保罗·格雷厄姆著作的粉丝。",
+      "ja": "ドゥーロフはプログラマーでスタートアップインキュベーターY Combinatorの創設者であるポール・グレアムの本のファンだった。"
+    },
+    {
+      "id": 16,
+      "ru": "Грэм доступно и емко излагал философию программирования и независимости от IT-монстров.",
+      "en": "Graham accessibly and succinctly expounded the philosophy of programming and independence from IT monsters.",
+      "zh": "格雷厄姆以通俗易懂且简明扼要的方式阐述了编程哲学和摆脱IT巨头的独立性。",
+      "ja": "グレアムはプログラミングの哲学とITモンスターからの独立について、分かりやすく簡潔に説明していた。"
+    },
+    {
+      "id": 17,
+      "ru": "Ты творец, меняющий кодом реальность.",
+      "en": "You are a creator, changing reality with code.",
+      "zh": "你是一个用代码改变现实的创造者。",
+      "ja": "あなたはコードで現実を変えるクリエイターだ。"
+    },
+    {
+      "id": 18,
+      "ru": "Программист – художник новой эпохи, который, экспериментируя, создает миры по своему вкусу.",
+      "en": "A programmer is an artist of the new era who, through experimentation, creates worlds to their taste.",
+      "zh": "程序员是新时代的艺术家，通过实验创造自己喜欢的世界。",
+      "ja": "プログラマーは新時代のアーティストであり、実験を通じて自分の好みに合わせた世界を創造する。"
+    },
+    {
+      "id": 19,
+      "ru": "Он свободен от уродливых корпоративных этик, практик и дурного шлака.",
+      "en": "He is free from ugly corporate ethics, practices, and bad slag.",
+      "zh": "他摆脱了丑陋的企业伦理、做法和糟糕的渣滓。",
+      "ja": "彼は醜い企業倫理、慣行、悪いスラグから自由だ。"
+    },
+    {
+      "id": 20,
+      "ru": "«Для нас программирование – это инструмент, – рассказывал Рогозов об Андрееве. – А для него это как оперный спектакль.",
+      "en": "'For us, programming is a tool,' Rogozov said about Andreev. 'But for him, it's like an opera performance.",
+      "zh": "「对我们来说，编程是一种工具，」罗戈佐夫谈到安德烈耶夫时说道。「但对他来说，编程就像一场歌剧表演。",
+      "ja": "「私たちにとってプログラミングはツールです」とロゴゾフはアンドレエフについて語った。「でも彼にとっては、それはオペラの公演のようなものです。"
+    },
+    {
+      "id": 21,
+      "ru": "Важен не столько результат, сколько красивый код, язык, архитектура».",
+      "en": "What matters is not so much the result as the beautiful code, the language, the architecture.'",
+      "zh": "重要的不是结果，而是优美的代码、语言和架构。」",
+      "ja": "重要なのは結果ではなく、美しいコード、言語、アーキテクチャなのです。」"
+    },
+    {
+      "id": 22,
+      "ru": "Андреев вечно что-нибудь придумывал и пользовался языком ActionScript3, которым Дуров не владел.",
+      "en": "Andreev was always inventing something and used ActionScript3, a language Durov didn't know.",
+      "zh": "安德烈耶夫总是在发明什么东西，他使用的ActionScript3语言是杜罗夫不会的。",
+      "ja": "アンドレエフは常に何かを発明しており、ドゥーロフが知らない言語であるActionScript3を使用していた。"
+    },
+    {
+      "id": 23,
+      "ru": "Случай проверить его в бою выпал быстро.",
+      "en": "The chance to test him in battle came quickly.",
+      "zh": "很快就有机会在实战中检验他。",
+      "ja": "実戦で彼を試す機会はすぐに訪れた。"
+    },
+    {
+      "id": 24,
+      "ru": "Дуров придумал приложение, где пользователь мог виртуальным баллончиком рисовать граффити.",
+      "en": "Durov conceived an application where users could draw graffiti with a virtual spray can.",
+      "zh": "杜罗夫构思了一个应用程序，用户可以用虚拟喷漆罐绘制涂鸦。",
+      "ja": "ドゥーロフは、ユーザーが仮想のスプレー缶でグラフィティを描けるアプリを考案した。"
+    },
+    {
+      "id": 25,
+      "ru": "Ему не терпелось показать эту штуку публике, но требовалось переписать ее на ActionScript3.",
+      "en": "He couldn't wait to show this thing to the public, but it needed to be rewritten in ActionScript3.",
+      "zh": "他迫不及待地想向公众展示这个东西，但需要用ActionScript3重写。",
+      "ja": "彼はこれを公開したくてたまらなかったが、ActionScript3で書き直す必要があった。"
+    },
+    {
+      "id": 26,
+      "ru": "Андреев согласился помочь.",
+      "en": "Andreev agreed to help.",
+      "zh": "安德烈耶夫同意帮忙。",
+      "ja": "アンドレエフは手伝うことに同意した。"
+    },
+    {
+      "id": 27,
+      "ru": "Вечером они начали менять «Граффити» – Андреев в своей квартире, Дуров в своей.",
+      "en": "In the evening they began modifying Graffiti—Andreev in his apartment, Durov in his.",
+      "zh": "那天晚上他们开始修改「涂鸦」——安德烈耶夫在他的公寓，杜罗夫在他的公寓。",
+      "ja": "夕方、彼らはグラフィティの修正を始めた——アンドレエフは自分のアパートで、ドゥーロフは自分のアパートで。"
+    },
+    {
+      "id": 28,
+      "ru": "Переписывались по ICQ, где у предводителя остался ник Mr.President.",
+      "en": "They corresponded via ICQ, where the leader still had the nickname Mr.President.",
+      "zh": "他们通过ICQ通讯，这位领袖在那里的昵称还是「总统先生」。",
+      "ja": "彼らはICQでやり取りしていた。そこでリーダーはMr.Presidentというニックネームをまだ使っていた。"
+    },
+    {
+      "id": 29,
+      "ru": "Они стучали по клавишам всю ночь.",
+      "en": "They hammered at the keys all night.",
+      "zh": "他们整夜敲击键盘。",
+      "ja": "彼らは一晩中キーボードを叩いた。"
+    },
+    {
+      "id": 30,
+      "ru": "Как вспоминал Андреев, он едва не валился спать, но Дуров подгонял его.",
+      "en": "As Andreev recalled, he was about to collapse into sleep, but Durov pushed him on.",
+      "zh": "安德烈耶夫回忆说，他几乎要倒下睡着了，但杜罗夫不断催促他。",
+      "ja": "アンドレエフが回想するところによると、彼は眠りに落ちそうになったが、ドゥーロフは彼を追い立てた。"
+    },
+    {
+      "id": 31,
+      "ru": "Все, кто работает во «ВКонтакте», поражались умению архитектора в моменты истощения генерировать дополнительную энергию.",
+      "en": "Everyone who worked at VKontakte marveled at the architect's ability to generate additional energy in moments of exhaustion.",
+      "zh": "所有在VKontakte工作的人都对这位架构师在精疲力竭时产生额外能量的能力感到惊叹。",
+      "ja": "VKontakteで働くすべての人は、疲弊した瞬間に追加のエネルギーを生み出すアーキテクトの能力に驚嘆した。"
+    },
+    {
+      "id": 32,
+      "ru": "Перекопский вспоминал, как тот мог не спать несколько ночей; при этом не был как-то особенно бледен, разве что зол.",
+      "en": "Perekopsky recalled how he could go without sleep for several nights; he wasn't particularly pale, just angry.",
+      "zh": "佩列科普斯基回忆说，他可以连续几个晚上不睡觉；他看起来也不是特别苍白，只是愤怒。",
+      "ja": "ペレコプスキーは、彼が何晩も眠らないでいられたことを思い出した。特に青ざめてはいなかったが、怒っていた。"
+    },
+    {
+      "id": 33,
+      "ru": "Слушая подобные разговоры, я воображал дух Кастанеды, приземляющийся на брошенный аэродром.",
+      "en": "Listening to such conversations, I imagined the spirit of Castaneda landing on an abandoned airfield.",
+      "zh": "听着这些谈话，我想象着卡斯塔尼达的灵魂降落在一个废弃的机场上。",
+      "ja": "そのような会話を聞きながら、私はカスタネダの精神が放棄された飛行場に着陸するのを想像した。"
+    },
+    {
+      "id": 34,
+      "ru": "Если не знать о ненависти Дурова к веществам, можно заподозрить в нем кокаиниста или амфетаминщика.",
+      "en": "If you didn't know about Durov's hatred of substances, you might suspect him of being a cocaine or amphetamine user.",
+      "zh": "如果不了解杜罗夫对毒品的厌恶，人们可能会怀疑他是可卡因或安非他明使用者。",
+      "ja": "ドゥーロフの物質嫌いを知らなければ、彼をコカイン中毒者かアンフェタミン中毒者と疑うかもしれない。"
+    },
+    {
+      "id": 35,
+      "ru": "Андреев стряхнул с себя сон и продолжил фиксить ошибки.",
+      "en": "Andreev shook off sleep and continued fixing bugs.",
+      "zh": "安德烈耶夫摆脱了睡意，继续修复bug。",
+      "ja": "アンドレエフは眠気を振り払い、バグ修正を続けた。"
+    },
+    {
+      "id": 36,
+      "ru": "Он дорожил мнением тотема и рвался посмотреть, как отреагируют юзеры на граффити.",
+      "en": "He valued the totem's opinion and was eager to see how users would react to the graffiti.",
+      "zh": "他珍视这位「图腾」的意见，渴望看到用户对涂鸦的反应。",
+      "ja": "彼はトーテムの意見を大切にし、ユーザーがグラフィティにどう反応するか見たがっていた。"
+    },
+    {
+      "id": 37,
+      "ru": "«Павел в отличие от большинства программистов понимал, чего хочет от жизни школьник и студент и как это выглядит в дизайне, – рассказывал он по скайпу из Франции. – Он умел смотреть глазами человека, у которого старая версия браузера и медленный интернет».",
+      "en": "'Pavel, unlike most programmers, understood what a schoolchild and student wanted from life and how that looked in design,' he said via Skype from France. 'He knew how to see through the eyes of a person with an old browser version and slow internet.'",
+      "zh": "「与大多数程序员不同，帕维尔理解学生想从生活中得到什么，以及这在设计中是什么样子，」他从法国通过Skype说道。「他知道如何用一个使用旧版浏览器和慢速网络的人的眼光来看问题。」",
+      "ja": "「パーヴェルは、ほとんどのプログラマーとは違って、学生が人生に何を求めているか、それがデザインでどう見えるかを理解していました」と彼はフランスからSkypeで語った。「彼は古いブラウザバージョンと遅いインターネットを持つ人の目で見る方法を知っていました。」"
+    }
+  ],
+  "translator_notes": [
+    "Lake Zerkalnoye (Зеркальное - 'Mirror Lake') is a summer camp location near St. Petersburg known for computer programming programs",
+    "School 239 is a famous physics-mathematics school in St. Petersburg, known for producing olympiad winners",
+    "Anichkov Lyceum is another prestigious St. Petersburg school",
+    "Paul Graham's influence on Russian tech entrepreneurs mirrors Silicon Valley's startup philosophy",
+    "ActionScript3 was Adobe Flash's programming language, widely used for interactive web applications at the time",
+    "The Graffiti app became one of VKontakte's popular features, similar to Facebook's early Wall feature",
+    "Carlos Castaneda reference suggests mystical endurance - his books describe altered states without drugs",
+    "The 'totem' nickname for Durov continues from earlier chapters"
+  ],
+  "total_sentences": 37,
+  "page_type": "narrative"
+}
