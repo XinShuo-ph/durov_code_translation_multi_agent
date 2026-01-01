@@ -1,0 +1,277 @@
+{
+  "page": 7,
+  "chapter": 0,
+  "chapter_title": "Пролог (Prologue)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Пролог",
+      "en": "Prologue",
+      "zh": "序幕",
+      "ja": "プロローグ"
+    },
+    {
+      "id": 3,
+      "ru": "Поток бурлил, завивался и крутил водовороты из прохожих и зевак, глазеющих на собор и площадь перед ним.",
+      "en": "The stream churned, swirled, and spun whirlpools of passersby and onlookers gawking at the cathedral and the square before it.",
+      "zh": "人流汹涌翻滚，形成一个个漩涡，行人和看客们对着大教堂及其前面的广场驻足观望。",
+      "ja": "人の流れは渦巻き、うねり、大聖堂とその前の広場を見つめる通行人や見物人の渦を作っていた。"
+    },
+    {
+      "id": 4,
+      "ru": "По проспекту фланировали студенты, назначившие группе встречу и теперь искавшие своих.",
+      "en": "Students who had arranged to meet their group strolled along the avenue, now searching for their companions.",
+      "zh": "学生们沿着大街漫步，他们约好了与同伴见面，现在正在寻找自己的人。",
+      "ja": "グループとの待ち合わせを決めた学生たちが大通りを歩き、今は仲間を探していた。"
+    },
+    {
+      "id": 5,
+      "ru": "Азиаты в водонепроницаемых пончо фотографировали особняк на углу канала.",
+      "en": "Asians in waterproof ponchos photographed the mansion on the corner of the canal.",
+      "zh": "穿着防水斗篷的亚洲游客在运河拐角处给那座豪宅拍照。",
+      "ja": "防水ポンチョを着たアジア人観光客が運河の角にある邸宅を撮影していた。"
+    },
+    {
+      "id": 6,
+      "ru": "Человеческий трафик рождал шум, который смешивался с гудками и призывами на экскурсию по городу.",
+      "en": "The human traffic generated noise that mixed with honking horns and calls inviting people on city tours.",
+      "zh": "人流产生的喧嚣与汽车喇叭声和招揽市内游客的叫卖声混在一起。",
+      "ja": "人の流れは騒音を生み出し、それはクラクションの音や市内観光への呼び込みと混ざり合っていた。"
+    },
+    {
+      "id": 7,
+      "ru": "Течения сгущались у дома с кованым панно, называвшим первого владельца – Zinger.",
+      "en": "The currents thickened near a building with a wrought-iron panel naming its first owner—Zinger.",
+      "zh": "人流在一栋建筑前变得更加密集，建筑上的锻铁铭牌上写着它第一位主人的名字——Zinger。",
+      "ja": "人の流れは、最初の所有者「ジンガー」の名を記した鍛鉄のパネルがある建物の前で密度を増していた。"
+    },
+    {
+      "id": 8,
+      "ru": "Медные девы-валькирии с копьями охраняли его купол, увенчанный прозрачным земным шаром.",
+      "en": "Bronze Valkyrie maidens with spears guarded its dome, crowned by a transparent globe.",
+      "zh": "手持长矛的铜制女武神守护着它的穹顶，穹顶上是一个透明的地球仪。",
+      "ja": "槍を持った銅製のワルキューレが透明な地球儀を戴いたドームを守っていた。"
+    },
+    {
+      "id": 9,
+      "ru": "На шестом этаже у окна в полный рост стоял человек в очках и, щурясь от света, высматривал что-то в потоке.",
+      "en": "On the sixth floor, a man in glasses stood at a full-length window, squinting against the light, looking for something in the stream below.",
+      "zh": "在六楼，一个戴眼镜的人站在落地窗前，眯着眼睛迎着光线，在下面的人流中寻找着什么。",
+      "ja": "6階では、眼鏡をかけた男が背の高さほどの窓際に立ち、光に目を細めながら、下の人の流れの中に何かを探していた。"
+    },
+    {
+      "id": 10,
+      "ru": "Время от времени он приглаживал стриженые волосы и слушал голоса, звучавшие за его спиной.",
+      "en": "From time to time he smoothed his cropped hair and listened to the voices sounding behind him.",
+      "zh": "他不时地抚平自己的短发，倾听着身后传来的声音。",
+      "ja": "時折、彼は短く刈った髪を撫でつけ、背後から聞こえる声に耳を傾けていた。"
+    },
+    {
+      "id": 11,
+      "ru": "Шел третий час переговоров.",
+      "en": "The negotiations had been going on for three hours.",
+      "zh": "谈判已经进行了三个小时。",
+      "ja": "交渉は3時間目に入っていた。"
+    },
+    {
+      "id": 12,
+      "ru": "За столом восседал мужчина средних лет – очки, улыбка, акцент иностранца, который давно живет в России и говорит вполне бегло.",
+      "en": "At the table sat a middle-aged man—glasses, a smile, the accent of a foreigner who has lived in Russia for a long time and speaks quite fluently.",
+      "zh": "桌旁坐着一位中年男子——戴着眼镜，面带微笑，说话带着外国人的口音，不过他在俄罗斯住了很久，说得相当流利。",
+      "ja": "テーブルには中年の男性が座っていた——眼鏡をかけ、微笑みを浮かべ、ロシアに長く住んでいてかなり流暢に話す外国人のアクセントがあった。"
+    },
+    {
+      "id": 13,
+      "ru": "Его компания слыла сильнейшим интернет-торговцем страны.",
+      "en": "His company was reputed to be the country's most powerful online retailer.",
+      "zh": "他的公司被认为是全国最强大的互联网零售商。",
+      "ja": "彼の会社は国内最強のオンライン小売業者として知られていた。"
+    },
+    {
+      "id": 14,
+      "ru": "Директору-экспату требовалось навязать программистам, создавшим самую крупную соцсеть в России, свои условия торговли на их территории.",
+      "en": "The expat director needed to impose his terms of trade on the programmers who had created Russia's largest social network, on their own territory.",
+      "zh": "这位外籍高管需要在这些创建了俄罗斯最大社交网络的程序员的地盘上，向他们强加自己的交易条件。",
+      "ja": "この外国人経営者は、ロシア最大のソーシャルネットワークを作ったプログラマーたちに、彼らの領域で自分の取引条件を押し付ける必要があった。"
+    },
+    {
+      "id": 15,
+      "ru": "Захватить пространство, где ежедневно толчется 20 миллионов человек, мечтает каждый, поэтому иностранец старался нравиться.",
+      "en": "Everyone dreams of capturing a space where 20 million people crowd every day, so the foreigner tried to be likable.",
+      "zh": "每个人都梦想占领一个每天有2000万人聚集的空间，所以这位外国人努力让自己讨人喜欢。",
+      "ja": "毎日2000万人が集まる空間を獲得することは誰もが夢見ることなので、この外国人は好印象を与えようと努めていた。"
+    },
+    {
+      "id": 16,
+      "ru": "Напротив него сидели двое.",
+      "en": "Across from him sat two people.",
+      "zh": "他对面坐着两个人。",
+      "ja": "彼の向かいには二人が座っていた。"
+    },
+    {
+      "id": 17,
+      "ru": "Белобрысый парень с ноутбуком и айфоном (представился главным разработчиком) и невзрачный тип в бейсболке.",
+      "en": "A blond guy with a laptop and iPhone (who had introduced himself as the lead developer) and an unremarkable type in a baseball cap.",
+      "zh": "一个金发小伙带着笔记本电脑和iPhone（自我介绍是首席开发者），还有一个戴棒球帽的其貌不扬的家伙。",
+      "ja": "ノートパソコンとiPhoneを持った金髪の若者（リード開発者と名乗っていた）と、野球帽をかぶった目立たないタイプの男。"
+    },
+    {
+      "id": 18,
+      "ru": "Каждому на взгляд – не более двадцати пяти лет.",
+      "en": "Each appeared to be no more than twenty-five years old.",
+      "zh": "两人看起来都不超过二十五岁。",
+      "ja": "どちらも見た目は25歳を超えていないようだった。"
+    },
+    {
+      "id": 19,
+      "ru": "Программист отрешенно стучал по клавиатуре, а тип как в рот воды набрал, поэтому менеджер обращался к человеку у окна.",
+      "en": "The programmer typed away absently on his keyboard, while the other guy kept mum as if his mouth were full of water, so the manager addressed the man at the window.",
+      "zh": "程序员心不在焉地敲打着键盘，而那个家伙则一声不吭，所以经理只好和窗边的人说话。",
+      "ja": "プログラマーは無心でキーボードを叩き、もう一人は水を含んだように黙っていたので、マネージャーは窓際の男に話しかけていた。"
+    },
+    {
+      "id": 20,
+      "ru": "Тот прославился в качестве attack dog, жесткого переговорщика, но сегодня вел себя тихо.",
+      "en": "That one had become famous as an attack dog, a tough negotiator, but today he was behaving quietly.",
+      "zh": "那人以attack dog著称，是个强硬的谈判者，但今天表现得很安静。",
+      "ja": "その人物はアタックドッグ、つまり強硬な交渉人として有名だったが、今日はおとなしくしていた。"
+    },
+    {
+      "id": 21,
+      "ru": "Это немного сбивало с толку, ну что ж, бывает.",
+      "en": "This was a bit confusing, but well, these things happen.",
+      "zh": "这有点让人困惑，不过嘛，这种事也有。",
+      "ja": "これは少し混乱させられたが、まあ、こういうこともある。"
+    },
+    {
+      "id": 22,
+      "ru": "Переговорщик отвернулся от окна и спросил: «Так что, вы продолжаете настаивать, что с разных категорий товара заплатите нам разный процент?»",
+      "en": "The negotiator turned away from the window and asked: \"So, you continue to insist that you'll pay us a different percentage for different product categories?\"",
+      "zh": "谈判者从窗边转过身来问道："那么，你们坚持对不同类别的商品支付不同的百分比？"",
+      "ja": "交渉人は窓から振り返って尋ねた。「では、異なる商品カテゴリーに対して異なる割合を支払うと主張し続けるのですか？」"
+    },
+    {
+      "id": 23,
+      "ru": "Экспат закивал; он неоднократно обосновывал свою позицию – каждый товар имеет оборачиваемость, популярность – короче, это бизнес, ничего личного.",
+      "en": "The expat nodded; he had repeatedly justified his position—every product has its turnover, its popularity—in short, it's business, nothing personal.",
+      "zh": "外籍高管点了点头；他已经多次解释自己的立场——每种商品都有其周转率、受欢迎程度——总之，这是生意，不针对个人。",
+      "ja": "外国人経営者は頷いた。彼は自分の立場を何度も正当化していた——すべての商品には回転率があり、人気がある——つまり、これはビジネスであり、個人的なことではない。"
+    },
+    {
+      "id": 24,
+      "ru": "«Послушайте, – вздохнул переговорщик. – Мы внедряем этот сервис, „Желания", чтобы миллионы пользователей могли дарить друзьям товары.",
+      "en": "\"Listen,\" the negotiator sighed. \"We're implementing this service, 'Wishes,' so that millions of users can give goods to friends as gifts.",
+      "zh": ""听着，"谈判者叹了口气，"我们正在推出这个'愿望'服务，让数百万用户可以给朋友送礼物。",
+      "ja": "「聞いてください」と交渉人はため息をついた。「私たちは『ウィッシュ』というサービスを導入しています。何百万人ものユーザーが友達に商品をプレゼントできるようにするためです。"
+    },
+    {
+      "id": 25,
+      "ru": "Мы выбрали вас и даем вам кнопку, которая в один клик позволяет приобрести подарок за нашу валюту.",
+      "en": "We chose you and we're giving you a button that allows users to purchase a gift with one click using our currency.",
+      "zh": "我们选择了你们，给你们一个按钮，可以用我们的货币一键购买礼物。",
+      "ja": "私たちはあなた方を選び、私たちの通貨でワンクリックでギフトを購入できるボタンを提供しています。"
+    },
+    {
+      "id": 26,
+      "ru": "Эта кнопка приведет к вам миллионы покупателей».",
+      "en": "This button will bring you millions of customers.\"",
+      "zh": "这个按钮会给你们带来数百万客户。"",
+      "ja": "このボタンは何百万人もの顧客をあなた方にもたらします。」"
+    },
+    {
+      "id": 27,
+      "ru": "Ерзая в кресле, экспат повторил свои аргументы.",
+      "en": "Fidgeting in his chair, the expat repeated his arguments.",
+      "zh": "外籍高管在椅子上挪动着身子，重复着自己的论点。",
+      "ja": "椅子の上でもじもじしながら、外国人経営者は自分の主張を繰り返した。"
+    },
+    {
+      "id": 28,
+      "ru": "Он давно и железобетонно уяснил: всему есть цена, и благородные устремления существуют, чтобы набить цену.",
+      "en": "He had long ago learned, rock-solid: everything has a price, and noble aspirations exist to drive up the price.",
+      "zh": "他早就铁一般地明白了：一切都有价格，而崇高的愿望只是为了抬高价格。",
+      "ja": "彼はずっと前から固く理解していた。すべてには価格があり、高尚な志は価格をつり上げるために存在するのだ。"
+    },
+    {
+      "id": 29,
+      "ru": "Парни просто торгуются.",
+      "en": "The guys were just bargaining.",
+      "zh": "这些小伙子只是在讨价还价。",
+      "ja": "若者たちは単に値段交渉をしているだけだ。"
+    },
+    {
+      "id": 30,
+      "ru": "«Хорошо, – произнес он. – Уважая цели вашей компании, я готов на 5 процентов по мягким игрушкам».",
+      "en": "\"Fine,\" he said. \"Respecting the goals of your company, I'm prepared to offer 5 percent on stuffed toys.\"",
+      "zh": ""好吧，"他说，"出于对贵公司目标的尊重，我愿意在毛绒玩具上给5个百分点。"",
+      "ja": "「いいでしょう」と彼は言った。「御社の目標を尊重して、ぬいぐるみについては5パーセントを用意します。」"
+    },
+    {
+      "id": 31,
+      "ru": "Программист покрутил головой и продолжил стучать по клавиатуре.",
+      "en": "The programmer shook his head and continued typing on his keyboard.",
+      "zh": "程序员摇了摇头，继续敲打键盘。",
+      "ja": "プログラマーは首を振り、キーボードを叩き続けた。"
+    },
+    {
+      "id": 32,
+      "ru": "Переговорщик вернулся к столу, откинулся, развел руками: «Мы настаиваем – 10 процентов».",
+      "en": "The negotiator returned to the table, leaned back, and spread his arms: \"We insist—10 percent.\"",
+      "zh": "谈判者回到桌边，往后一靠，摊开双手："我们坚持要10个百分点。"",
+      "ja": "交渉人はテーブルに戻り、のけぞって両手を広げた。「私たちは10パーセントを主張します。」"
+    },
+    {
+      "id": 33,
+      "ru": "«Понимаю, – твердо сказал менеджер. – Но такая комиссия для нас неприемлема».",
+      "en": "\"I understand,\" the manager said firmly. \"But such a commission is unacceptable for us.\"",
+      "zh": ""我明白，"经理坚定地说，"但这样的佣金对我们来说是不可接受的。"",
+      "ja": "「わかります」とマネージャーは断固として言った。「しかし、そのような手数料は私たちには受け入れられません。」"
+    },
+    {
+      "id": 34,
+      "ru": "«Тогда 20 процентов! – неожиданно заорал тип в бейсболке. – 20 процентов!",
+      "en": "\"Then 20 percent!\" the guy in the baseball cap suddenly yelled. \"20 percent!",
+      "zh": ""那就20个百分点！"戴棒球帽的家伙突然大喊，"20个百分点！",
+      "ja": "「なら20パーセントだ！」野球帽の男が突然叫んだ。「20パーセント！"
+    },
+    {
+      "id": 35,
+      "ru": "Или мы подписываем контракт немедленно, или мы не работаем с вашей компанией!»",
+      "en": "Either we sign the contract immediately, or we don't work with your company!\"",
+      "zh": "要么我们立刻签合同，要么我们就不跟你们公司合作！"",
+      "ja": "今すぐ契約書にサインするか、さもなければ御社とは仕事をしない！」"
+    },
+    {
+      "id": 36,
+      "ru": "Он вскочил, сунул руки в карманы черных брюк и зашагал, чуть скособочившись и наклонившись вперед, вдоль стола.",
+      "en": "He jumped up, shoved his hands into the pockets of his black trousers, and began pacing along the table, slightly hunched and leaning forward.",
+      "zh": "他跳了起来，把手插进黑色裤子的口袋，身体微微前倾歪斜着沿着桌子走来走去。",
+      "ja": "彼は立ち上がり、黒いズボンのポケットに手を突っ込み、少し前かがみに体を傾けながらテーブル沿いを歩き始めた。"
+    },
+    {
+      "id": 37,
+      "ru": "Иностранца предупреждали об эксцентричности этого деятеля, но не до такой же степени, мы здесь все приличные люди.",
+      "en": "The foreigner had been warned about this figure's eccentricity, but not to this degree—we're all respectable people here.",
+      "zh": "有人提醒过这位外国人这个人物的古怪，但没想到会到这种程度，毕竟我们这儿都是体面人。",
+      "ja": "この人物のエキセントリックさについては外国人も警告を受けていたが、ここまでとは——ここでは皆、きちんとした人間のはずだ。"
+    }
+  ],
+  "translator_notes": [
+    "Opening scene of the Prologue set at Singer House (Дом Зингера) on Nevsky Prospekt - VKontakte's headquarters",
+    "The 'guy in the baseball cap' who suddenly erupts is Pavel Durov himself",
+    "The 'attack dog' negotiator is a VK executive known for tough negotiating",
+    "The 'blond programmer' is likely Nikolai Durov (Pavel's brother)",
+    "VK's virtual currency 'Голоса' (Voices) is referenced through 'our currency'",
+    "'Wishes' (Желания) was a VK gift service feature",
+    "Singer House has a distinctive glass globe on top - a St. Petersburg landmark"
+  ],
+  "total_sentences": 37,
+  "page_type": "narrative"
+}
