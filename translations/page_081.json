@@ -1,0 +1,220 @@
+{
+  "page": 81,
+  "chapter": 6,
+  "chapter_title": "Sucker Punch",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "После вечера с мордобоем Добромыслов перестал оставаться в общежитии.",
+      "en": "After the night with the beatdown, Dobromyslov stopped staying at the dormitory.",
+      "zh": "在那个打架的夜晚之后，多布罗米斯洛夫不再住在宿舍了。(Zài nàge dǎjià de yèwǎn zhīhòu, Duōbùluómǐsīluòfū bù zài zhù zài sùshèle.)",
+      "ja": "殴り合いの夜の後、ドブロミスロフは寮に泊まらなくなった。"
+    },
+    {
+      "id": 2,
+      "ru": "Сквот располагался в восьмикомнатной квартире, которую Дуров купил в близлежащем переулке, – там ночевали закодившиеся программисты.",
+      "en": "The squat was located in an eight-room apartment that Durov had bought in a nearby alley—programmers who had coded themselves out slept there.",
+      "zh": "这个临时住所位于杜罗夫在附近小巷购买的一套八居室公寓里——那些编程到精疲力竭的程序员在那里过夜。(Zhège línshí zhùsuǒ wèiyú Dùluófū zài fùjìn xiǎoxiàng gòumǎi de yī tào bā jūshì gōngyù lǐ——nàxiē biānchéng dào jīngpí lìjié de chéngxùyuán zài nàlǐ guòyè.)",
+      "ja": "スクワットは近くの路地にドゥーロフが買った8部屋のアパートにあった——コードを書き尽くしたプログラマーたちがそこで寝泊まりしていた。"
+    },
+    {
+      "id": 3,
+      "ru": "Это было огромное пространство с пустынными комнатами и прихожей с люстрой, напоминавшей краба.",
+      "en": "It was a huge space with empty rooms and an entryway with a chandelier that looked like a crab.",
+      "zh": "这是一个巨大的空间，房间空荡荡的，门厅里有一盏像螃蟹一样的吊灯。(Zhè shì yīgè jùdà de kōngjiān, fángjiān kōngdàngdàng de, méntīng lǐ yǒu yī zhǎn xiàng pángxiè yīyàng de diàodēng.)",
+      "ja": "それは広大な空間で、部屋は空っぽ、玄関にはカニを思わせるシャンデリアがあった。"
+    },
+    {
+      "id": 4,
+      "ru": "Ключи от апартаментов на Невском, 65, СЕО отдал Васе Бабичу, который женился и нуждался в жилье.",
+      "en": "The CEO had given the keys to the apartment on Nevsky 65 to Vasya Babich, who had gotten married and needed housing.",
+      "zh": "CEO把涅瓦大街65号公寓的钥匙给了瓦西亚·巴比奇，后者结婚了需要住房。(CEO bǎ Nièwǎ dàjiē 65 hào gōngyù de yàoshi gěile Wǎxīyà Bābíqí, hòuzhě jiéhūnle xūyào zhùfáng.)",
+      "ja": "CEOはネフスキー65番地のアパートの鍵をワーシャ・バビッチに渡していた、彼は結婚して住居が必要だった。"
+    },
+    {
+      "id": 5,
+      "ru": "Дуров утверждал, что не хотел ни к чему привязываться, и жил на разных квартирах; чаще всего в сквоте.",
+      "en": "Durov claimed he didn't want to get attached to anything, and lived in various apartments; most often in the squat.",
+      "zh": "杜罗夫声称他不想对任何东西产生依赖，住过各种公寓；最常住在临时住所里。(Dùluófū chēngchèn tā bù xiǎng duì rènhé dōngxī chǎnshēng yīlài, zhù guò gè zhǒng gōngyù; zuì cháng zhù zài línshí zhùsuǒ lǐ.)",
+      "ja": "ドゥーロフは何にも執着したくないと主張し、様々なアパートに住んでいた；最も頻繁にはスクワットに。"
+    },
+    {
+      "id": 6,
+      "ru": "Он редко приезжал в штаб раньше полудня, а задерживался до трех-четырех утра.",
+      "en": "He rarely arrived at headquarters before noon, and stayed until three or four in the morning.",
+      "zh": "他很少在中午之前到达总部，而且会待到凌晨三四点。(Tā hěnshǎo zài zhōngwǔ zhīqián dàodá zǒngbù, érqiě huì dài dào língchén sān sì diǎn.)",
+      "ja": "彼は正午前に本部に来ることはめったになく、朝の3時か4時まで残っていた。"
+    },
+    {
+      "id": 7,
+      "ru": "После сцены с дракой история «ВКонтакте» окончательно приняла вид самосбывающегося пророчества.",
+      "en": "After the fight scene, VKontakte's story definitively took on the form of a self-fulfilling prophecy.",
+      "zh": "在打架事件之后，VKontakte的故事最终呈现出自我实现预言的形式。(Zài dǎjià shìjiàn zhīhòu, VKontakte de gùshì zuìzhōng chéngxiàn chū zìwǒ shíxiàn yùyán de xíngshì.)",
+      "ja": "乱闘事件の後、VKの物語は完全に自己成就予言の形を取った。"
+    },
+    {
+      "id": 8,
+      "ru": "Дуров раззадоривал себя, и теперь боевой дух не надо было поддерживать, он горел сам.",
+      "en": "Durov was egging himself on, and now the fighting spirit didn't need to be maintained, it burned on its own.",
+      "zh": "杜罗夫激励着自己，现在战斗精神不需要维持，它自己燃烧着。(Dùluófū jīlìzhe zìjǐ, xiànzài zhàndòu jīngshén bù xūyào wéichí, tā zìjǐ ránshāozhe.)",
+      "ja": "ドゥーロフは自分を煽り立てていて、今や戦闘精神は維持する必要がなかった、それは自ら燃えていた。"
+    },
+    {
+      "id": 9,
+      "ru": "Архитектор носил черное и сеял революции и провокации во всем.",
+      "en": "The architect wore black and sowed revolutions and provocations in everything.",
+      "zh": "建筑师穿着黑色，在一切事物中播撒革命和挑衅。(Jiànzhùshī chuānzhe hēisè, zài yīqiè shìwù zhōng bōsǎ gémìng hé tiǎoxìn.)",
+      "ja": "アーキテクトは黒を着て、あらゆることに革命と挑発を蒔いていた。"
+    },
+    {
+      "id": 10,
+      "ru": "Он все больше убеждался, что преград не существует и растущее число пользователей – это и база для исследований, и журналисты его коллективного медиа, и потенциальные последователи.",
+      "en": "He was increasingly convinced that no barriers existed and that the growing number of users was both a research base, journalists for his collective media, and potential followers.",
+      "zh": "他越来越确信障碍是不存在的，不断增长的用户数量既是研究基础，又是他的集体媒体的记者，也是潜在的追随者。(Tā yuè lái yuè quèxìn zhàng'ài shì bù cúnzài de, bùduàn zēngzhǎng de yònghù shùliàng jì shì yánjiū jīchǔ, yòu shì tā de jítǐ méitǐ de jìzhě, yě shì qiánzài de zhuīsuízhě.)",
+      "ja": "彼は障壁など存在しないこと、そして増え続けるユーザーが研究基盤であり、彼の集合メディアのジャーナリストであり、潜在的なフォロワーでもあることをますます確信していた。"
+    },
+    {
+      "id": 11,
+      "ru": "Дуров продолжал дружить с Мильнером, летал на различные семейные празднества, а также ежегодные тусовки подопечных инвестора в Калифорнии.",
+      "en": "Durov continued to be friends with Milner, flying to various family celebrations as well as annual gatherings of the investor's protégés in California.",
+      "zh": "杜罗夫继续与米尔纳保持友好关系，飞往各种家庭庆祝活动以及投资者门生在加利福尼亚的年度聚会。(Dùluófū jìxù yǔ Mǐ'ěrnà bǎochí yǒuhǎo guānxì, fēi wǎng gè zhǒng jiātíng qìngzhù huódòng yǐjí tóuzīzhě ménshēng zài Jiālìfúníyà de niándù jùhuì.)",
+      "ja": "ドゥーロフはミルナーとの友情を続け、様々な家族のお祝いや、カリフォルニアでの投資家の門下生たちの年次パーティーに飛んで行った。"
+    },
+    {
+      "id": 12,
+      "ru": "Однако венчурный капиталист, выполнивший свой долг перед Усмановым и получивший свободу, мирить «ВКонтакте» с Mail.ru не намеревался.",
+      "en": "However, the venture capitalist, having fulfilled his duty to Usmanov and obtained his freedom, had no intention of reconciling VKontakte with Mail.ru.",
+      "zh": "然而，这位风险资本家在履行了对乌斯马诺夫的义务并获得自由后，并不打算调解VKontakte与Mail.ru的关系。(Rán'ér, zhè wèi fēngxiǎn zīběnjiā zài lǚxíngle duì Wūsīmǎnuòfū de yìwù bìng huòdé zìyóu hòu, bìng bù dǎsuàn tiáojiě VKontakte yǔ Mail.ru de guānxì.)",
+      "ja": "しかし、ウスマノフへの義務を果たして自由を得たベンチャーキャピタリストは、VKとMail.ruを和解させるつもりはなかった。"
+    },
+    {
+      "id": 13,
+      "ru": "Тотем продолжал выбирать врагов для поднятия духа.",
+      "en": "The totem continued to choose enemies to boost morale.",
+      "zh": "图腾继续选择敌人来提振士气。(Túténg jìxù xuǎnzé dírén lái tízhèn shìqì.)",
+      "ja": "トーテムは士気を高めるために敵を選び続けた。"
+    },
+    {
+      "id": 14,
+      "ru": "Тем более, «Одноклассники» и правда догоняли по численности аудитории, правообладатели не успокаивались, а вслед за ними были забанены производители алкоголя и сигарет, желавшие разместить рекламу.",
+      "en": "Especially since Odnoklassniki was indeed catching up in audience size, copyright holders weren't calming down, and following them, alcohol and cigarette manufacturers wanting to place ads were banned.",
+      "zh": "尤其是Odnoklassniki确实在用户数量上追赶上来，版权持有者没有平息，紧接着，想要投放广告的酒精和香烟制造商被禁止了。(Yóuqí shì Odnoklassniki quèshí zài yònghù shùliàng shàng zhuīgǎn shànglái, bǎnquán chíyǒuzhě méiyǒu píngxī, jǐnjiēzhe, xiǎngyào tóufàng guǎnggào de jiǔjīng hé xiāngyān zhìzàoshāng bèi jìnzhǐle.)",
+      "ja": "特にオドノクラスニキは実際にオーディエンス規模で追いついており、著作権者は落ち着かず、彼らに続いて広告を出したがっていたアルコールとタバコのメーカーもバンされた。"
+    },
+    {
+      "id": 15,
+      "ru": "И вот после непродолжительного затишья проявился Mail.ru.",
+      "en": "And then after a brief lull, Mail.ru surfaced.",
+      "zh": "然后在短暂的平静之后，Mail.ru浮出水面。(Ránhòu zài duǎnzàn de píngjìng zhīhòu, Mail.ru fúchū shuǐmiàn.)",
+      "ja": "そして束の間の静けさの後、Mail.ruが姿を現した。"
+    },
+    {
+      "id": 16,
+      "ru": "После публикации интервью Гришина в Forbes интернет зашумел: сказка кончилась, холдинг сожрет нёрдов и не подавится.",
+      "en": "After Grishin's interview was published in Forbes, the internet buzzed: the fairy tale was over, the holding would devour the nerds without choking.",
+      "zh": "格里申在《福布斯》的采访发表后，互联网沸腾了：童话结束了，控股公司会把书呆子们吃掉，连噎都不会噎一下。(Gélǐshēn zài 'Fúbùsī' de cǎifǎng fābiǎo hòu, hùliánwǎng fèiténgle: tónghuà jiéshùle, kònggǔ gōngsī huì bǎ shūdāizimen chī diào, lián yē dōu bù huì yē yīxià.)",
+      "ja": "フォーブスでのグリシンのインタビューが公開された後、インターネットは騒然となった：おとぎ話は終わった、ホールディングはナードたちを飲み込んで喉も詰まらせないだろうと。"
+    },
+    {
+      "id": 17,
+      "ru": "Резкий ответ Дурова не успокоил скептиков.",
+      "en": "Durov's sharp response didn't calm the skeptics.",
+      "zh": "杜罗夫的尖锐回应并没有平息怀疑者。(Dùluófū de jiānruì huíyīng bìng méiyǒu píngxī huáiyízhě.)",
+      "ja": "ドゥーロフの鋭い反論は懐疑派を落ち着かせなかった。"
+    },
+    {
+      "id": 18,
+      "ru": "Тогда они с Перекопским решили обратить сильные стороны врага в слабые.",
+      "en": "So he and Perekopsky decided to turn the enemy's strengths into weaknesses.",
+      "zh": "于是他和佩列科普斯基决定把敌人的优势变成劣势。(Yúshì tā hé Pèilièkēpǔsījī juédìng bǎ dírén de yōushì biàn chéng lièshì.)",
+      "ja": "そこで彼とペレコプスキーは敵の強みを弱みに変えることにした。"
+    },
+    {
+      "id": 19,
+      "ru": "Перекопский заявил: холдинг, предъявлявший претензии к соцсети, что та недомонетизирована (мало рекламных мест на страницах), продает баннеры на коррупционной основе.",
+      "en": "Perekopsky declared: the holding that had been complaining the social network was undermonetized (too few ad slots on pages) was selling banners on a corrupt basis.",
+      "zh": "佩列科普斯基宣称：这个抱怨社交网络变现不足（页面上广告位太少）的控股公司，是在腐败的基础上销售横幅广告的。(Pèilièkēpǔsījī xuānchèng: zhège bàoyuàn shèjiāo wǎngluò biànxiàn bùzú (yèmiàn shàng guǎnggào wèi tài shǎo) de kònggǔ gōngsī, shì zài fǔbài de jīchǔ shàng xiāoshòu héngfú guǎnggào de.)",
+      "ja": "ペレコプスキーは宣言した：ソーシャルネットワークが十分にマネタイズされていない（ページ上の広告枠が少ない）と文句を言っていたホールディングは、腐敗した方法でバナーを売っていると。"
+    },
+    {
+      "id": 20,
+      "ru": "Отсюда и супермонетизация.",
+      "en": "Hence the super-monetization.",
+      "zh": "因此才有超级变现。(Yīncǐ cái yǒu chāojí biànxiàn.)",
+      "ja": "だからこその超マネタイズだ。"
+    },
+    {
+      "id": 21,
+      "ru": "Обвинения имели под собой почву.",
+      "en": "The accusations had grounds.",
+      "zh": "这些指控是有根据的。(Zhèxiē zhǐkòng shì yǒu gēnjù de.)",
+      "ja": "その告発には根拠があった。"
+    },
+    {
+      "id": 22,
+      "ru": "Рынок медийной рекламы устроен так, что между площадкой и рекламодателем существует цепочка из двух-трех посредников.",
+      "en": "The display advertising market is structured so that between the platform and advertiser there's a chain of two to three intermediaries.",
+      "zh": "展示广告市场的结构是这样的：平台和广告商之间存在着两到三个中介的链条。(Zhǎnshì guǎnggào shìchǎng de jiégòu shì zhèyàng de: píngtái hé guǎnggào shāng zhījiān cúnzàizhe liǎng dào sān gè zhōngjiè de liàntiáo.)",
+      "ja": "ディスプレイ広告市場は、プラットフォームと広告主の間に2〜3の仲介業者のチェーンが存在するように構成されている。"
+    },
+    {
+      "id": 23,
+      "ru": "Каждый из них, борясь за бюджеты, предлагал контрагентам так называемые суперкомиссии – вознаграждение за приведенные деньги, которые проходили в контрактах как «белые», но по факту оседали в карманах посредников.",
+      "en": "Each of them, fighting for budgets, offered counterparties so-called super-commissions—rewards for bringing in money that were listed in contracts as 'clean' but in fact ended up in the pockets of intermediaries.",
+      "zh": "他们每个人在争夺预算时，都向交易对手提供所谓的超级佣金——为引进资金的报酬，这些在合同中被列为'合法'，但实际上落入了中介的口袋。(Tāmen měi gè rén zài zhēngduó yùsuàn shí, dōu xiàng jiāoyì duìshǒu tígōng suǒwèi de chāojí yōngjīn——wèi yǐnjìn zījīn de bàochóu, zhèxiē zài hétóng zhōng bèi liè wéi 'héfǎ', dàn shíjì shàng luò rùle zhōngjiè de kǒudài.)",
+      "ja": "彼らはそれぞれ、予算を獲得するために、取引相手にいわゆるスーパーコミッションを提供した——契約上は「クリーン」と記載されるが、実際には仲介業者のポケットに入る持ち込み資金への報酬だ。"
+    },
+    {
+      "id": 24,
+      "ru": "Перекопский жаловался, что Mail.ru портил рынок, загоняя эти суперкомиссии до уровня 70 % от суммы размещения.",
+      "en": "Perekopsky complained that Mail.ru was ruining the market by driving these super-commissions to 70% of the placement amount.",
+      "zh": "佩列科普斯基抱怨Mail.ru正在破坏市场，将这些超级佣金推高到投放金额的70%。(Pèilièkēpǔsījī bàoyuàn Mail.ru zhèngzài pòhuài shìchǎng, jiāng zhèxiē chāojí yōngjīn tuī gāo dào tóufàng jīn'é de 70%.)",
+      "ja": "ペレコプスキーは、Mail.ruがこれらのスーパーコミッションを掲載金額の70%にまで押し上げて市場を荒らしていると不満を述べた。"
+    },
+    {
+      "id": 25,
+      "ru": "Наиболее взвешенно оценил этот конфликт на Roem.ru Игорь Ашманов:",
+      "en": "Igor Ashmanov gave the most balanced assessment of this conflict on Roem.ru:",
+      "zh": "伊戈尔·阿什马诺夫在Roem.ru上对这场冲突做出了最平衡的评估：(Yīgē'ěr Āshímǎnuòfū zài Roem.ru shàng duì zhè chǎng chōngtū zuò chūle zuì pínghéng de pínggū:)",
+      "ja": "イーゴリ・アシュマノフがRoem.ruでこの紛争を最もバランスよく評価した："
+    },
+    {
+      "id": 26,
+      "ru": "«Не знаю, как на Mail.ru с этим, но обычно при покупке медийки каким-то крупным брендом имеется цепочка из трех-пяти посредников (рекламный отдел бренда → прикормленное рекламное агентство → медиабайер → медиаселлер → рекламное агентство площадки → площадка), и там не только откаты по цепочке, но и просто распил на комиссии – купив на 100 рублей рекламы, крупный бренд может получить открутку на 25, а остальное осядет в цепочке или/и будет употреблено его же рекламным отделом.",
+      "en": "'I don't know how Mail.ru handles this, but usually when a major brand buys display ads, there's a chain of three to five intermediaries (brand's ad department → captive ad agency → media buyer → media seller → platform's ad agency → platform), and there are not only kickbacks along the chain, but also simple commission splitting—having bought 100 rubles of advertising, a major brand might get 25 rubles worth of impressions, with the rest settling in the chain or/and being consumed by its own advertising department.",
+      "zh": "'我不知道Mail.ru是怎么处理的，但通常当一个大品牌购买展示广告时，会有三到五个中介的链条（品牌广告部门→关系广告代理→媒体买家→媒体销售→平台广告代理→平台），不仅有链条上的回扣，还有简单的佣金分成——买了100卢布的广告，大品牌可能只得到25卢布的展示，其余的会沉淀在链条中或/和被其自己的广告部门消耗。(Wǒ bù zhīdào Mail.ru shì zěnme chǔlǐ de, dàn tōngcháng dāng yīgè dà pǐnpái gòumǎi zhǎnshì guǎnggào shí, huì yǒu sān dào wǔ gè zhōngjiè de liàntiáo (pǐnpái guǎnggào bùmén → guānxì guǎnggào dàilǐ → méitǐ mǎijiā → méitǐ xiāoshòu → píngtái guǎnggào dàilǐ → píngtái), bùjǐn yǒu liàntiáo shàng de huíkòu, hái yǒu jiǎndān de yōngjīn fēnchéng——mǎile 100 lúbù de guǎnggào, dà pǐnpái kěnéng zhǐ dédào 25 lúbù de zhǎnshì, qíyú de huì chéndiàn zài liàntiáo zhōng huò/hé bèi qí zìjǐ de guǎnggào bùmén xiāohào.)",
+      "ja": "『Mail.ruがこれをどう扱っているかは知らないが、通常、大手ブランドがディスプレイ広告を買う時、3〜5の仲介業者のチェーンがある（ブランドの広告部門→御用広告代理店→メディアバイヤー→メディアセラー→プラットフォームの広告代理店→プラットフォーム）、そこではチェーンに沿ったキックバックだけでなく、単純なコミッション分配もある——100ルーブルの広告を買って、大手ブランドは25ルーブル分のインプレッションしか得られず、残りはチェーンに沈殿するか、自社の広告部門に消費される。"
+    },
+    {
+      "id": 27,
+      "ru": "Но факт этой усохшей открутки (или выросшей цены за показ) будет запрятан в отчетах, и будет заплачен откат, чтоб заказчик „не заметил".",
+      "en": "But the fact of this shrunken delivery (or inflated cost per impression) will be buried in reports, and a kickback will be paid so the client 'doesn't notice.'",
+      "zh": "但这种缩水的展示（或膨胀的每次展示成本）的事实会被隐藏在报告中，并会支付回扣让客户'不注意到'。(Dàn zhè zhǒng suōshuǐ de zhǎnshì (huò péngzhàng de měi cì zhǎnshì chéngběn) de shìshí huì bèi yǐncáng zài bàogào zhōng, bìng huì zhīfù huíkòu ràng kèhù 'bù zhùyì dào'.)",
+      "ja": "しかしこの縮小された配信（またはインプレッション単価の上昇）という事実はレポートに埋もれ、クライアントが「気づかない」ようにキックバックが支払われる。"
+    },
+    {
+      "id": 28,
+      "ru": "Так в среднем устроен этот рынок, и именно поэтому так взлетела контекстная реклама, где нет посредников и распилооткатов».",
+      "en": "That's how this market is structured on average, and that's precisely why contextual advertising has taken off so much, where there are no intermediaries and kickback schemes.'",
+      "zh": "这就是这个市场平均的结构，这正是为什么没有中介和回扣方案的上下文广告如此腾飞的原因。'(Zhè jiùshì zhège shìchǎng píngjūn de jiégòu, zhè zhèngshì wèishénme méiyǒu zhōngjiè hé huíkòu fāng'àn de shàngxiàwén guǎnggào rúcǐ téngfēi de yuányīn.')",
+      "ja": "これが平均的なこの市場の仕組みであり、まさにこれが仲介業者やキックバックスキームのないコンテキスト広告がこれほど急成長した理由だ』"
+    },
+    {
+      "id": 29,
+      "ru": "Вслед за своим заявлением Дуров заблокировал ссылки с «ВКонтакте» на файлообменный сайт Mail.ru.",
+      "en": "Following his statement, Durov blocked links from VKontakte to Mail.ru's file-sharing site.",
+      "zh": "在他的声明之后，杜罗夫封锁了从VKontakte到Mail.ru文件共享网站的链接。(Zài tā de shēngmíng zhīhòu, Dùluófū fēngsuǒle cóng VKontakte dào Mail.ru wénjiàn gòngxiǎng wǎngzhàn de liànjiē.)",
+      "ja": "声明に続いて、ドゥーロフはVKからMail.ruのファイル共有サイトへのリンクをブロックした。"
+    },
+    {
+      "id": 30,
+      "ru": "Когда интернет осведомился, в чем изъян, он написал на",
+      "en": "When the internet inquired what the flaw was, he wrote on",
+      "zh": "当互联网询问有什么问题时，他在(Dāng hùliánwǎng xúnwèn yǒu shénme wèntí shí, tā zài)",
+      "ja": "インターネットが何が問題なのかと尋ねると、彼は"
+    }
+  ],
+  "translator_notes": "This page continues Chapter 6 showing the aftermath of the street attack. The 'squat' (сквот) was an informal dormitory for VK programmers who coded late. Durov's nomadic lifestyle (not attached to property) is emphasized. The narrative shifts to the VK vs Mail.ru corporate warfare, with VK counter-attacking by exposing advertising industry corruption. Igor Ashmanov (cybersecurity expert) provides expert commentary on the 'super-commission' kickback system in Russian digital advertising. Roem.ru is a major Russian IT industry news site. The page ends mid-sentence, continuing on the next page.",
+  "total_sentences": 30,
+  "page_type": "narrative"
+}

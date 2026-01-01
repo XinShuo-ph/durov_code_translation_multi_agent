@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-ba2f
 - **Short ID**: ba2f
-- **Heartbeat**: 1767263481
+- **Heartbeat**: 1767264885
 - **Status**: translating
 
 ## Current Work
-- **Claimed Page**: 80
-- **Started At**: 1767263481
+- **Claimed Page**: 86
+- **Started At**: 1767264885
 
 ## Completed Pages
 | Page | Completed At | Hash |
@@ -27,14 +27,15 @@
 | 62-67 | 1767261084  | (ch4 end + ch5 start) |
 | 68-73 | 1767262500  | (ch5 continued) |
 | 74-79 | 1767263481  | (ch5 end + ch6 start) |
+| 80-85 | 1767264885  | (ch6 continued) |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
 |----------|--------|--------------|----------------|
-| f4a6     | active | 86           | 1767263252     |
+| f4a6     | active | 93           | 1767264550     |
 | 8fb2     | active | unknown      | recent         |
 | b9fb     | active | unknown      | recent         |
 | d536     | active | unknown      | recent         |
 
 ## Notes
-Completed pages 1-79. Chapter 5 "The Wall" covers pages 65-78 (corporate warfare with Mail.ru Group, Milner's share transfer, Grishin's hostile takeover declaration). Chapter 6 "Sucker Punch" (Запрещенный прием) begins at page 79 (street trumpeter story, Ravdonikas's dark essay about violence, attack on Durov/team by gopniks on Feb 23, 2011). Continuing translation.
+Completed pages 1-85. Chapter 6 "Sucker Punch" continues with: aftermath of street attack, Durov's libertarian philosophy on state failure, Dobromyslov's backstory, Surkov meeting (Kremlin connection via Tsypluhin), news feed evolution, Spotify rejection, Grishin face-to-face meeting at Mail.ru, and Usmanov's reception at Sheremetev Palace during St. Petersburg Forum. Continuing translation.
