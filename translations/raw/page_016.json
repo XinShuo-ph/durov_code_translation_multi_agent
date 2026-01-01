@@ -1,0 +1,185 @@
+{
+  "page": 16,
+  "chapter": 1,
+  "section": "Chapter 1",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "несуществующем языке, – и, разобравшись в его структуре, с помощью скудных вводных догадаться, о чем идет речь. Дуров проанализировал имеющуюся информацию и сдал листок с ответом. Все оказалось верно, и последующее собеседование было почти формальностью.",
+      "en": "a non-existent language -- and, having figured out its structure, with the help of scant introductory data, guess what it was about. Durov analyzed the available information and submitted his answer sheet. Everything turned out to be correct, and the subsequent interview was almost a formality.",
+      "zh": "一种不存在的语言——在弄清其结构后，借助有限的提示猜测文章大意。杜罗夫分析了现有信息并提交了答题纸。一切都是正确的，随后的面试几乎只是走个形式。",
+      "ja": "存在しない言語——その構造を理解し、乏しい手がかりをもとに何について書かれているか推測する。ドゥーロフは入手可能な情報を分析し、解答用紙を提出した。すべて正しく、その後の面接はほぼ形式的なものだった。"
+    },
+    {
+      "id": 2,
+      "ru": "Новый директор Григорий Медников снимал помещение в конструктивистском доме культуры у «Нарвской», где в 60-х на поэтических турнирах являлся публике Бродский.",
+      "en": "The new director Grigory Mednikov rented space in a constructivist culture house near Narvskaya, where in the 60s Brodsky appeared before the public at poetry tournaments.",
+      "zh": "新校长格里戈里·梅德尼科夫在纳尔瓦站附近一座构成主义风格的文化宫租下了场地，布罗茨基在60年代曾在那里的诗歌大赛上亮相。",
+      "ja": "新しい校長グリゴリー・メドニコフはナルフスカヤ駅近くの構成主義様式の文化会館でスペースを借りていた。60年代にはそこで詩のトーナメントにブロツキーが姿を現したことがあった。"
+    },
+    {
+      "id": 3,
+      "ru": "Английский учили в аудитории, которую оккупировал клуб анонимных алкоголиков. Историю – в помещении, где адвентисты разучивали за партами гимны.",
+      "en": "English was taught in an auditorium occupied by an Alcoholics Anonymous club. History -- in a room where Adventists practiced hymns at desks.",
+      "zh": "英语课在一个被匿名酗酒者俱乐部占用的教室里上。历史课——在基督复临派信徒在课桌前练习赞美诗的房间里。",
+      "ja": "英語は匿名アルコール依存症者の会が占拠していた教室で教えられた。歴史は——アドベンチストたちが机で賛美歌を練習していた部屋で。"
+    },
+    {
+      "id": 4,
+      "ru": "Рядом «зажигал» клуб «Пляшущий пенсионер». Дорога в эти остросюжетные обстоятельства занимала у Дурова час: автобус до метро, пересадка, эскалатор и немного пешком.",
+      "en": "Nearby, the Dancing Pensioner club was rocking. The journey to these thrilling circumstances took Durov an hour: bus to the metro, transfer, escalator, and a bit on foot.",
+      "zh": "旁边是跳舞退休老人俱乐部在狂欢。杜罗夫到达这个惊险环境的路程需要一个小时：先坐公交到地铁站，换乘，坐扶梯，再走一小段路。",
+      "ja": "隣では踊る年金生活者クラブが盛り上がっていた。この刺激的な状況にたどり着くまで、ドゥーロフには1時間かかった：バスで地下鉄まで、乗り換え、エスカレーター、そして少し歩く。"
+    },
+    {
+      "id": 5,
+      "ru": "Я помню Петербург того времени. Декабрь, утро. На улицах тусклый свет, аэродинамические трубы подворотен, сугробы, как морены ледника, ползущего по мостовым.",
+      "en": "I remember Petersburg of that time. December, morning. Dim light on the streets, the aerodynamic tunnels of courtyards, snowdrifts like moraines of a glacier crawling along the pavements.",
+      "zh": "我记得那时的彼得堡。十二月，早晨。街道上昏暗的灯光，庭院的风洞，街道上的雪堆像冰川的冰碛一样缓慢移动。",
+      "ja": "私はあの頃のペテルブルクを覚えている。12月、朝。通りには薄暗い光、中庭の空力トンネル、道路を這う氷河のモレーンのような雪の山。"
+    },
+    {
+      "id": 6,
+      "ru": "Ощущение, что город сплотился, чтобы пережить темень этих месяцев.",
+      "en": "A feeling that the city had come together to survive the darkness of these months.",
+      "zh": "仿佛整个城市团结一致，共同度过这几个月的黑暗。",
+      "ja": "この数ヶ月の暗闘を生き延びるために、街が一丸となったような感覚。"
+    },
+    {
+      "id": 7,
+      "ru": "Хозяйка, у которой вписывались друзья, жила по адресу Большая Морская, дом 2 – то есть почти в арке, выводящей на Дворцовую площадь.",
+      "en": "The landlady with whom friends were staying lived at Bolshaya Morskaya, building 2 -- that is, almost in the archway leading to Palace Square.",
+      "zh": "朋友们借住的女房东住在大海街2号——几乎就在通向宫殿广场的拱门下。",
+      "ja": "友人たちが泊まっていた女主人はボリシャヤ・モルスカヤ通り2番地に住んでいた——つまり、宮殿広場に通じるアーチのほぼ中にあった。"
+    },
+    {
+      "id": 8,
+      "ru": "Тревожить ее было неприлично, поэтому мы пробрались переулками к трамвайной линии, чтобы выспаться на протяженном маршруте.",
+      "en": "It was improper to disturb her, so we made our way through the alleys to the tram line, to get some sleep on the extended route.",
+      "zh": "打扰她很不礼貌，所以我们穿过小巷来到电车线路，想在漫长的路线上睡一觉。",
+      "ja": "彼女を煩わせるのは失礼だったので、私たちは路地を抜けて路面電車の線路まで行き、長い路線で眠ろうとした。"
+    },
+    {
+      "id": 9,
+      "ru": "Вверху болтались фонари, неслись по касательной люди-футляры, спешащие скорее прятаться от ветра, чем к рабочему месту.",
+      "en": "Above, lanterns swung, people in overcoats rushed tangentially, hurrying to hide from the wind rather than to their workplace.",
+      "zh": "头顶上的灯笼摇晃着，穿着大衣的人们匆匆走过，与其说是赶去上班，不如说是急着躲避寒风。",
+      "ja": "上では街灯が揺れ、オーバーコートを着た人々が斜めに駆け抜けていた——職場に向かうというより、風から逃れようと急いでいた。"
+    },
+    {
+      "id": 10,
+      "ru": "Двери в трамвае стреляли, как красные матросы, и вздремнуть не удалось. Надежда скоротать время в Ростральной колонне пропала, когда за дверью, ведущей в ее недра, мы нашли спящих бродяг.",
+      "en": "The doors on the tram slammed like Red sailors, and we could not nap. The hope of passing time in the Rostral Column vanished when we found sleeping vagrants behind the door leading to its interior.",
+      "zh": "电车门像红军水手一样砰砰作响，我们没能打盹。当我们发现通往罗斯特拉尔柱内部的门后有流浪汉在睡觉时，在那里消磨时间的希望破灭了。",
+      "ja": "電車のドアは赤い水兵のように音を立てて閉まり、うたた寝はできなかった。ロストラ柱の内部に通じるドアの向こうに眠っている浮浪者を見つけたとき、そこで時間をつぶす希望は消えた。"
+    },
+    {
+      "id": 11,
+      "ru": "Вывалившись из стреляющих дверей, толкаясь среди замерзших футляров, к метро устремлялся и Дуров: «Я помню очереди на подступах к станции. Метров за сто. Самое опасное место – поручень, туда выносило тех, кто не сопротивлялся».",
+      "en": "Tumbling out of the slamming doors, jostling among the frozen overcoats, Durov too rushed to the metro: I remember the lines at the approaches to the station. About a hundred meters. The most dangerous place was the handrail, that is where those who did not resist were carried.",
+      "zh": "从砰砰作响的门里挤出来，在冻僵的人群中推搡着，杜罗夫也冲向地铁：我记得车站入口处的队伍。大约一百米长。最危险的地方是扶手，不抵抗的人会被挤到那里。",
+      "ja": "バタンと閉まるドアから転げ出て、凍った外套の人々の間をかき分けながら、ドゥーロフも地下鉄に急いだ：駅の入り口への行列を覚えている。100メートルほどあった。最も危険な場所は手すりで、抵抗しない者はそこに運ばれていった。"
+    },
+    {
+      "id": 12,
+      "ru": "Он оказался самым младшим в классе. Сначала сидел за партой с девочкой Тасей, которой нравился.",
+      "en": "He turned out to be the youngest in the class. At first, he sat at a desk with a girl named Tasya, who liked him.",
+      "zh": "他是班上最小的学生。起初，他和一个叫塔西娅的女孩同桌，她喜欢他。",
+      "ja": "彼はクラスで最年少だった。最初は、彼のことが好きだったターシャという女の子と机を並べていた。"
+    },
+    {
+      "id": 13,
+      "ru": "Одноклассники вспоминали, что Тася зачем-то носила соседу медяки, копеечки, и он пересыпал их в портфель.",
+      "en": "Classmates recalled that Tasya for some reason brought her neighbor copper coins, kopecks, and he poured them into his briefcase.",
+      "zh": "同学们回忆说，塔西娅不知为何给邻座带铜币、戈比，他把它们倒进书包里。",
+      "ja": "同級生たちは、ターシャがなぜか隣の席に銅貨やコペイカを持ってきて、彼はそれをカバンに入れていたと思い出した。"
+    },
+    {
+      "id": 14,
+      "ru": "Позже Дуров оккупировал первую парту, где пребывал чаще всего в одиночестве, ссутулившись над тетрадями или рассматривая – третья строчка снизу яснее не стала – то, что нацарапано на доске.",
+      "en": "Later Durov occupied the first desk, where he mostly sat alone, hunched over notebooks or examining -- the third line from the bottom did not become any clearer -- what was scrawled on the board.",
+      "zh": "后来杜罗夫占据了第一排座位，他大部分时间独自坐在那里，弓着背趴在笔记本上，或者观察——从下往上数第三行并没有变得更清晰——黑板上涂写的东西。",
+      "ja": "その後、ドゥーロフは最前列の席を占め、そこでたいてい一人で、ノートにかがみこんだり、黒板に書かれたもの——下から3行目は明瞭にならなかった——を眺めていた。"
+    },
+    {
+      "id": 15,
+      "ru": "До старших классов у него не было друзей. Исключение составил товарищ, с которым они проучились неполных два года. Этот ученик одним своим присутствием спасал общеобразовательные классы от развала.",
+      "en": "Until the upper grades, he had no friends. The exception was a comrade with whom they studied for less than two years. This student, by his mere presence, saved the general education classes from collapse.",
+      "zh": "直到高年级，他都没有朋友。唯一的例外是一个和他一起读了不到两年的同学。这个学生仅凭他的存在就拯救了这些普通教育班免于解散。",
+      "ja": "上級学年になるまで、彼には友達がいなかった。例外は、2年弱一緒に学んだ仲間だった。この生徒は、その存在だけで一般教育クラスを崩壊から救っていた。"
+    },
+    {
+      "id": 16,
+      "ru": "Каждое утро Слава ехал в школу на лимузине с охранником, разглядывая в окно сонный Кировский район.",
+      "en": "Every morning Slava rode to school in a limousine with a bodyguard, gazing through the window at the sleepy Kirovsky district.",
+      "zh": "每天早上，斯拉瓦坐着配有保镖的豪华轿车去上学，透过车窗看着睡眼惺忪的基洛夫区。",
+      "ja": "毎朝、スラヴァはボディガードを乗せたリムジンで学校に向かい、窓から眠たそうなキーロフ地区を眺めていた。"
+    },
+    {
+      "id": 17,
+      "ru": "Он тормозил авто за три квартала, вылезал на тротуар, продевал руки в лямки рюкзака и шагал к Дому культуры, не глядя на проезжую часть. Там, прикидываясь, что хочет припарковаться, полз лимузин.",
+      "en": "He would stop the car three blocks away, get out onto the sidewalk, put his arms through the backpack straps, and walk to the Culture House, not looking at the roadway. There, pretending to want to park, the limousine crawled along.",
+      "zh": "他会在三个街区外让车停下，走上人行道，把双手穿过背包带，朝文化宫走去，不看马路。那辆豪华轿车假装要停车，慢慢地跟在后面。",
+      "ja": "彼は3ブロック手前で車を止め、歩道に降り、リュックサックのストラップに腕を通し、車道を見ずに文化会館に向かって歩いた。そこでは、駐車しようとするふりをして、リムジンがゆっくりと這っていた。"
+    },
+    {
+      "id": 18,
+      "ru": "Молодой человек был сыном короля игорных заведений города Михаила Мирилашвили.",
+      "en": "The young man was the son of the city's gambling king Mikhail Mirilashvili.",
+      "zh": "这个年轻人是该市赌场大王米哈伊尔·米里拉什维利的儿子。",
+      "ja": "この若者は市のギャンブル王ミハイル・ミリラシュヴィリの息子だった。"
+    },
+    {
+      "id": 19,
+      "ru": "В общеобразовательных классах тусовались дети интеллигенции, и не каждая семья с легкостью вносила оплату, которую пришлось ввести. Например, для Дуровых это было существенной тратой.",
+      "en": "In the general education classes, children of the intelligentsia hung out, and not every family could easily pay the tuition that had to be introduced. For example, for the Durovs it was a significant expense.",
+      "zh": "普通教育班里聚集着知识分子家庭的孩子，并非每个家庭都能轻松支付引入的学费。例如，对杜罗夫一家来说，这是一笔不小的开支。",
+      "ja": "一般教育クラスには知識人の子供たちが集まっており、導入された学費を楽に払える家庭ばかりではなかった。例えば、ドゥーロフ家にとってそれはかなりの出費だった。"
+    },
+    {
+      "id": 20,
+      "ru": "По закону голливудо-болливудских драм столкновение Славы с гордыми детьми, занимающими унизительную вторую, если не третью полку в социальном купе, вело к неизбежному конфликту.",
+      "en": "By the law of Hollywood-Bollywood dramas, Slava's collision with proud children occupying the humiliating second, if not third, bunk in the social compartment, led to inevitable conflict.",
+      "zh": "按照好莱坞-宝莱坞戏剧的规律，斯拉瓦与那些在社会车厢中占据屈辱的第二层甚至第三层铺位的骄傲孩子们的碰撞，必然会导致冲突。",
+      "ja": "ハリウッド・ボリウッド映画の法則によれば、社会的な列車コンパートメントで屈辱的な2段目、いや3段目を占める誇り高い子供たちとスラヴァの衝突は、避けられない対立につながるはずだった。"
+    },
+    {
+      "id": 21,
+      "ru": "Однако сюжет развивался в колыбели интеллигенции, а не в «Голли-Болли». Слава оказался вежлив, корректен, учился не хуже прочих.",
+      "en": "However, the plot was unfolding in the cradle of the intelligentsia, not in Holly-Bolly. Slava turned out to be polite, correct, and studied no worse than the others.",
+      "zh": "然而，故事发生在知识分子的摇篮，而不是在好莱坞-宝莱坞。斯拉瓦彬彬有礼，得体，学习成绩也不比其他人差。",
+      "ja": "しかし、物語はインテリゲンチャの揺りかごで展開しており、ホリボリではなかった。スラヴァは礼儀正しく、きちんとしており、他の生徒と同じくらいよく勉強した。"
+    },
+    {
+      "id": 22,
+      "ru": "На переменах сын миллионера бегал в пышечную и влетал в класс, держа в руках замаслившийся пакет с выпечкой. Дуров оказался едва ли не единственным, с кем подружился Слава.",
+      "en": "During breaks, the millionaire's son ran to the pastry shop and burst into class holding a greasy bag of pastries. Durov turned out to be almost the only one with whom Slava became friends.",
+      "zh": "课间休息时，这位百万富翁的儿子跑去糕点店，冲进教室时手里拿着油腻腻的糕点袋。杜罗夫几乎是斯拉瓦唯一交的朋友。",
+      "ja": "休み時間には、億万長者の息子はお菓子屋に走り、油で汚れたペストリーの袋を持って教室に飛び込んできた。ドゥーロフはスラヴァと友達になったほぼ唯一の人物だった。"
+    },
+    {
+      "id": 23,
+      "ru": "Жизнь в классе бурлила. Предводители Диевский и Паперно придумали свое государство и написали конституцию. Класс играл в демократию, избирал президента и т. д.",
+      "en": "Life in the class was bustling. Leaders Dievsky and Paperno invented their own state and wrote a constitution. The class played at democracy, elected a president, etc.",
+      "zh": "班级生活热闹非凡。领头人季耶夫斯基和帕佩尔诺创建了自己的国家并起草了宪法。班级玩起了民主游戏，选举总统等等。",
+      "ja": "クラスの生活は活気に満ちていた。リーダーのジエフスキーとパペルノは自分たちの国を考え出し、憲法を書いた。クラスは民主主義ごっこをし、大統領を選んだりなどした。"
+    }
+  ],
+  "translator_notes": [
+    "Page 16 continues Chapter 1 about Durov's school life",
+    "Narvskaya - metro station in St. Petersburg's Kirovsky district",
+    "Joseph Brodsky - Nobel Prize-winning Russian poet who emigrated to US",
+    "Constructivist architecture - early Soviet modernist style",
+    "Red sailors - reference to revolutionary Bolshevik sailors",
+    "Rostral Column - famous columns on Vasilyevsky Island, St. Petersburg",
+    "Palace Square - main square in St. Petersburg with the Winter Palace",
+    "Mikhail Mirilashvili - Georgian-born businessman who built gambling empire in St. Petersburg in 1990s",
+    "Slava Mirilashvili - classmate of Durov, whose family's tuition helped fund the school"
+  ],
+  "research_used": [
+    "Joseph Brodsky (1940-1996) - Russian poet, Nobel laureate 1987",
+    "1990s St. Petersburg - economic crisis, but cultural revival",
+    "Mikhail Mirilashvili - casino magnate, later imprisoned",
+    "Academic Gymnasium - elite school system in Russian tradition"
+  ]
+}
