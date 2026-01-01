@@ -13,8 +13,8 @@
 ## M0 Task Status
 | Task ID | Description | Status | Result Hash |
 |---------|-------------|--------|-------------|
-| M0.1 | Install dependencies | pending | - |
-| M0.2 | Extract PDF text | pending | - |
+| M0.1 | Install dependencies | done | tools/req |
+| M0.2 | Extract PDF text | done | 896f783d |
 | M0.3 | Create chapter structure | pending | - |
 | M0.4 | Research: Durov bio | pending | - |
 | M0.5 | Research: VK history | pending | - |
