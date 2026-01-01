@@ -1,0 +1,64 @@
+{
+  "page": 4,
+  "chapter": 0,
+  "chapter_title": "Front Matter - Recommended Reading (推荐阅读 / 推薦図書)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Николай Кононов",
+      "en": "Nikolai Kononov",
+      "zh": "尼古拉·科诺诺夫",
+      "ja": "ニコライ・コノノフ"
+    },
+    {
+      "id": 2,
+      "ru": "Код Дурова. Реальная история «ВКонтакте» и ее создателя",
+      "en": "Durov's Code. The Real Story of VKontakte and Its Creator",
+      "zh": "杜罗夫密码：VKontakte及其创始人的真实故事",
+      "ja": "ドゥーロフの暗号：VKontakteとその創設者の真実の物語"
+    },
+    {
+      "id": 3,
+      "ru": "Эту книгу хорошо дополняют:",
+      "en": "This book is complemented by:",
+      "zh": "以下书籍可与本书互为补充：",
+      "ja": "この本をよく補完する書籍："
+    },
+    {
+      "id": 4,
+      "ru": "Мечтай, создавай, изменяй! Как молодые предприниматели меняют мир и зарабатывают состояния",
+      "en": "Dream, Create, Transform! How Young Entrepreneurs Are Changing the World and Making Fortunes",
+      "zh": "梦想、创造、改变！年轻企业家如何改变世界并赚取财富",
+      "ja": "夢を見て、創造し、変革せよ！若き起業家たちが世界を変え、富を築く方法"
+    },
+    {
+      "id": 5,
+      "ru": "Сара Лейси",
+      "en": "Sarah Lacy",
+      "zh": "萨拉·莱西",
+      "ja": "サラ・レイシー"
+    },
+    {
+      "id": 6,
+      "ru": "И ботаники делают бизнес",
+      "en": "Nerds Can Do Business Too",
+      "zh": "书呆子也能做生意",
+      "ja": "オタクもビジネスをする"
+    },
+    {
+      "id": 7,
+      "ru": "Максим Котин",
+      "en": "Maxim Kotin",
+      "zh": "马克西姆·科京",
+      "ja": "マクシム・コーチン"
+    }
+  ],
+  "translator_notes": [
+    "Page 4 contains publisher's recommendations for complementary reading",
+    "Sarah Lacy's book is about tech entrepreneurs, fitting the Durov narrative",
+    "The second book title uses 'ботаники' (nerds/geeks), relevant to Durov's self-identification",
+    "These recommendations frame the book within tech entrepreneurship literature"
+  ],
+  "total_sentences": 7,
+  "page_type": "front_matter"
+}
