@@ -1,0 +1,68 @@
+{
+  "page": 43,
+  "chapter": 3,
+  "context": "Forum posts about early VK competition with MoiFakultet site",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Друзья, если вы посмотрите сайт и согласитесь, что vkontakte.ru – проект более серьезный и профессиональный, прошу пригласить туда друзей и предупредить их о том, о чем я рассказал.",
+      "en": "Friends, if you look at the site and agree that vkontakte.ru is a more serious and professional project, please invite your friends there and warn them about what I've told you.",
+      "zh": "朋友们，如果你们看过这个网站并认同vkontakte.ru是一个更认真、更专业的项目，请邀请你们的朋友加入，并告诉他们我所说的这些。",
+      "ja": "友人の皆さん、もしサイトを見てvkontakte.ruがより真剣でプロフェッショナルなプロジェクトだと同意するなら、友人を招待して、私が話したことについて警告してください。"
+    },
+    {
+      "id": 2,
+      "ru": "Для всех нас очень важна ваша поддержка – без нее проект и все наши старания бессмысленны.",
+      "en": "Your support is very important to all of us—without it, the project and all our efforts are meaningless.",
+      "zh": "你们的支持对我们所有人都非常重要——没有它，这个项目和我们所有的努力都毫无意义。",
+      "ja": "皆さんのサポートは私たち全員にとって非常に重要です。それなしでは、プロジェクトも私たちの努力もすべて無意味になります。"
+    },
+    {
+      "id": 3,
+      "ru": "Автор: durov 4.12.2006, 7:44",
+      "en": "Author: durov 4.12.2006, 7:44",
+      "zh": "作者：durov 2006年12月4日 7:44",
+      "ja": "著者：durov 2006年12月4日 7:44"
+    },
+    {
+      "id": 4,
+      "ru": "Только что мне рассказали, что администратор сайта moifakultet.ru теперь обвиняет нас в том, что мы его якобы злостно взломали.",
+      "en": "I was just told that the administrator of moifakultet.ru is now accusing us of supposedly maliciously hacking him.",
+      "zh": "刚才有人告诉我，moifakultet.ru的管理员现在指控我们恶意入侵了他的网站。",
+      "ja": "たった今、moifakultet.ruの管理者が、私たちが悪意を持って彼らをハッキングしたと非難していると聞かされました。"
+    },
+    {
+      "id": 5,
+      "ru": "Они связались через нашу команду со мной и предложили купить БД незадачливого конкурента.",
+      "en": "They contacted me through our team and offered to sell the database of the unfortunate competitor.",
+      "zh": "他们通过我们的团队联系到我，提议出售这个倒霉竞争对手的数据库。",
+      "ja": "彼らは私たちのチームを通じて私に連絡し、不運な競合他社のデータベースを売ることを提案しました。"
+    },
+    {
+      "id": 6,
+      "ru": "Не получилось – нам это просто не надо.",
+      "en": "It didn't work out—we simply don't need it.",
+      "zh": "没成功——我们根本不需要。",
+      "ja": "うまくいきませんでした。私たちには単に必要ありません。"
+    },
+    {
+      "id": 7,
+      "ru": "А теперь в благодарность распространяются байки про то, что «они нас взломали».",
+      "en": "And now, in gratitude, stories are being spread about how 'they hacked us.'",
+      "zh": "而现在，作为回报，他们散布'他们黑了我们'的谣言。",
+      "ja": "そして今、感謝の印として、「彼らが私たちをハッキングした」という話が広まっています。"
+    }
+  ],
+  "translator_notes": [
+    "This page contains forum posts from December 2006, shortly after VK launched.",
+    "MoiFakultet.ru was an early Russian Facebook clone competing with VK.",
+    "The posts show early controversy and competition in Russian social networking.",
+    "durov: Pavel Durov's username in the forum post.",
+    "БД (BD): Abbreviation for 'база данных' (database)."
+  ],
+  "cultural_notes": [
+    "Early Russian internet culture: Forum disputes and accusations were common.",
+    "Hacking allegations: Standard competitive tactic in early 2000s Russian internet business.",
+    "This incident shows VK's early struggles and Durov's hands-on involvement."
+  ]
+}
