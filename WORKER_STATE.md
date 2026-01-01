@@ -17,7 +17,7 @@
 | M0.2 | Extract PDF text | done | 7c8d9e2f |
 | M0.3 | Create chapter structure | done | 10d500c4 |
 | M0.4 | Research: Durov bio | done | a3f8b2c1 |
-| M0.5 | Research: VK history | pending | - |
+| M0.5 | Research: VK history | done | f2d7c3a8 |
 | M0.6 | Research: Russia context | pending | - |
 | M0.7 | Create chapter summaries | pending | - |
 
