@@ -8,18 +8,18 @@
 
 ## Current Milestone
 - **Milestone**: M0
-- **Status**: starting
+- **Status**: completed
 
 ## M0 Task Status
 | Task ID | Description | Status | Result Hash |
 |---------|-------------|--------|-------------|
 | M0.1 | Install dependencies | done | tools/req |
 | M0.2 | Extract PDF text | done | 896f783d |
-| M0.3 | Create chapter structure | pending | - |
-| M0.4 | Research: Durov bio | pending | - |
-| M0.5 | Research: VK history | pending | - |
-| M0.6 | Research: Russia context | pending | - |
-| M0.7 | Create chapter summaries | pending | - |
+| M0.3 | Create chapter structure | done | f2129d82 |
+| M0.4 | Research: Durov bio | done | 6c1070fc |
+| M0.5 | Research: VK history | done | 12ab49dc |
+| M0.6 | Research: Russia context | done | 7ed647ab |
+| M0.7 | Create chapter summaries | done | 3ed89175 |
 
 ## M1 Task Status
 | Task ID | Description | Status | Result |
