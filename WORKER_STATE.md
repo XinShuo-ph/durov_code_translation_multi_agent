@@ -3,18 +3,19 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-f4a6
 - **Short ID**: f4a6
-- **Heartbeat**: 1767251988
+- **Heartbeat**: 1767252034
 - **Status**: translating
 
 ## Current Work
-- **Claimed Page**: 4
-- **Started At**: 1767251988
+- **Claimed Page**: 5
+- **Started At**: 1767252034
 
 ## Completed Pages
 | Page | Completed At | Hash |
 |------|--------------|------|
 | 2    | 1767251925 | b41b4ea4 |
-| 3    | 1767251988 | e44f655c |
+| 3    | 1767251957 | e44f655c |
+| 4    | 1767252034 | 554aec8c |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
@@ -25,4 +26,4 @@
 Final translations completed: pages 7, 8, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22
 
 ## Notes
-Pages 2-3 completed. Now working on page 4 (Book Recommendations).
+Pages 2-4 completed. Now working on page 5 (Preface - first half).
