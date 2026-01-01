@@ -1,0 +1,234 @@
+{
+  "page": 10,
+  "chapter": 0,
+  "chapter_title": "Пролог (Prologue)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "В соцсетях человечество обрело децентрализованную нервную систему – одну на многих.",
+      "en": "In social networks, humanity has acquired a decentralized nervous system—one for many.",
+      "zh": "在社交网络中，人类获得了一个去中心化的神经系统——一个服务于所有人的系统。",
+      "ja": "ソーシャルネットワークにおいて、人類は分散型の神経系統を獲得した——多くの人のための一つの系統。"
+    },
+    {
+      "id": 2,
+      "ru": "Кто контролирует ее нервные окончания, тот знает о людях все: профиль с интересами, биографией, фото, плейлистом сам по себе стал высказыванием и идентичностью.",
+      "en": "Whoever controls its nerve endings knows everything about people: a profile with interests, biography, photos, and playlist has itself become a statement and an identity.",
+      "zh": "谁控制了它的神经末梢，谁就了解人们的一切：带有兴趣、履历、照片和播放列表的个人主页本身就成为了一种表达和身份认同。",
+      "ja": "その神経末端を制御する者は人々についてすべてを知る。興味、経歴、写真、プレイリストを含むプロフィール自体が、発言とアイデンティティになった。"
+    },
+    {
+      "id": 3,
+      "ru": "Миллионы идентичностей порождают «мудрость друзей», то есть коллективное мнение многих, которое становится решающе значимым.",
+      "en": "Millions of identities generate \"the wisdom of friends\"—that is, the collective opinion of many, which becomes decisively significant.",
+      "zh": "数百万个身份认同产生了\"朋友的智慧\"，即多数人的集体意见，它变得具有决定性的重要性。",
+      "ja": "数百万のアイデンティティが「友人の知恵」を生み出す——つまり、多くの人の集合的な意見であり、それが決定的に重要になる。"
+    },
+    {
+      "id": 4,
+      "ru": "Это вызов и раздражитель для экспертов в любых областях знания, которые оказались лишенными монополии на исчерпывающую оценку происходящего в мире.",
+      "en": "This is a challenge and irritant for experts in all fields of knowledge, who find themselves stripped of their monopoly on comprehensive assessment of what's happening in the world.",
+      "zh": "这对各知识领域的专家来说是一个挑战和刺激，他们发现自己失去了对世界事务进行全面评估的垄断权。",
+      "ja": "これはあらゆる知識分野の専門家にとっての挑戦であり刺激である。彼らは世界で起きていることを包括的に評価する独占権を奪われた。"
+    },
+    {
+      "id": 5,
+      "ru": "Социальные сети – это ЦНС, регулируемая не пользователем, а хозяевами кода.",
+      "en": "Social networks are a central nervous system regulated not by the user, but by the masters of the code.",
+      "zh": "社交网络是一个中枢神经系统，由代码的主人而非用户来调控。",
+      "ja": "ソーシャルネットワークは中枢神経系であり、ユーザーではなくコードの主人によって制御される。"
+    },
+    {
+      "id": 6,
+      "ru": "Кто эти хозяева, какими качествами наделены, чего хотят, к чему стремятся?",
+      "en": "Who are these masters, what qualities do they possess, what do they want, what do they strive for?",
+      "zh": "这些主人是谁，他们具有什么品质，他们想要什么，他们追求什么？",
+      "ja": "これらの主人とは誰か、どんな資質を持ち、何を望み、何を目指しているのか？"
+    },
+    {
+      "id": 7,
+      "ru": "Год назад журнал Vanity Fair выпустил номер о новом истеблишменте.",
+      "en": "A year ago Vanity Fair magazine published an issue about the new establishment.",
+      "zh": "一年前，《名利场》杂志发行了一期关于新权势阶层的专刊。",
+      "ja": "一年前、『ヴァニティ・フェア』誌は新しいエスタブリッシュメントについての号を発行した。"
+    },
+    {
+      "id": 8,
+      "ru": "Его вполне можно было бы озаглавить «Мир во власти нёрдов».",
+      "en": "It could easily have been titled \"A World in the Power of Nerds.\"",
+      "zh": "这期完全可以命名为\"极客掌控的世界\"。",
+      "ja": "「ナードに支配される世界」というタイトルでもよかったくらいだ。"
+    },
+    {
+      "id": 9,
+      "ru": "Более половины списка агентов влияния на умы – программисты, воплотившие свои идеи в коде.",
+      "en": "More than half of the list of agents of influence on minds were programmers who had embodied their ideas in code.",
+      "zh": "在影响人们思想的人物名单中，超过一半是将自己的想法体现在代码中的程序员。",
+      "ja": "人々の心に影響を与えるエージェントのリストの半分以上は、自分のアイデアをコードで具現化したプログラマーだった。"
+    },
+    {
+      "id": 10,
+      "ru": "Услышав рассказ о переговорах «ВКонтакте», я подумал, что сценка в переговорной очень характерна и узнаваема.",
+      "en": "Hearing the story of the VKontakte negotiations, I thought the scene in the meeting room was very characteristic and recognizable.",
+      "zh": "听到VKontakte谈判的故事后，我觉得会议室里的这一幕非常典型，很有辨识度。",
+      "ja": "VKontakteの交渉の話を聞いて、会議室でのこのシーンは非常に特徴的で見覚えのあるものだと思った。"
+    },
+    {
+      "id": 11,
+      "ru": "История отличников, которые обвели вокруг пальца мир троечников, мне была близка со школы.",
+      "en": "The story of A-students who outsmarted a world of C-students was familiar to me since school.",
+      "zh": "优等生戏耍中等生世界的故事，从学生时代起就让我觉得亲切。",
+      "ja": "優等生がC評価の学生の世界を出し抜く物語は、学校時代から馴染み深いものだった。"
+    },
+    {
+      "id": 12,
+      "ru": "Как всякий чуть-чуть соображающий хорошист с трояками по нелюбимым предметам (а также отсутствием дисциплины, чтобы их выучить), я торчал между высоколобой Сциллой и быдловатой Харибдой.",
+      "en": "Like any somewhat clever B-student with C's in subjects I didn't like (and lacking the discipline to learn them), I was stuck between the highbrow Scylla and the thuggish Charybdis.",
+      "zh": "像所有有点脑子的中上等学生一样，在不喜欢的科目上只能拿到及格分（而且也没有自律去学习它们），我夹在高高在上的斯库拉和粗俗的卡律布狄斯之间。",
+      "ja": "多少頭の回る、嫌いな科目では可の成績で（しかもそれを勉強する規律もない）普通の優等生として、私は高尚なスキュラと粗野なカリュブディスの間に挟まれていた。"
+    },
+    {
+      "id": 13,
+      "ru": "Одна из моих ролей заключалась в том, чтобы служить медиатором между одними и другими, проводником, который мирит, объясняет, находит точки, где одни могут быть полезны другим.",
+      "en": "One of my roles was to serve as a mediator between the two groups, a conductor who reconciles, explains, finds points where one can be useful to the other.",
+      "zh": "我的角色之一就是充当两方之间的调解人，一个和解、解释、寻找双方可以互相帮助的契合点的引导者。",
+      "ja": "私の役割の一つは、両者の間の仲介者として、和解させ、説明し、一方が他方に役立てる点を見つける導き手を務めることだった。"
+    },
+    {
+      "id": 14,
+      "ru": "Иногда процесс напоминал зажимание зубами оборванного провода связи.",
+      "en": "Sometimes the process resembled clamping a broken communication wire between my teeth.",
+      "zh": "有时这个过程就像用牙齿咬住断掉的通信线一样。",
+      "ja": "時にはそのプロセスは、切れた通信線を歯で噛み締めるようなものだった。"
+    },
+    {
+      "id": 15,
+      "ru": "Когда настала цифровая эпоха, эти два мира, две жизненные стратегии находились в точке перелома.",
+      "en": "When the digital era arrived, these two worlds, two life strategies, were at a breaking point.",
+      "zh": "当数字时代到来时，这两个世界、两种人生策略正处于转折点。",
+      "ja": "デジタル時代が到来したとき、これら二つの世界、二つの人生戦略は転換点にあった。"
+    },
+    {
+      "id": 16,
+      "ru": "Интернет обеспечил тех, над кем хихикали девочки и издевались гопники, шансом подчинить себе мир, облагоразумить его и упорядочить.",
+      "en": "The internet gave those whom girls giggled at and gopniks bullied a chance to subdue the world, to rationalize it and bring it to order.",
+      "zh": "互联网给了那些被女孩嘲笑、被小混混欺负的人一个征服世界、使其理性化和有序化的机会。",
+      "ja": "インターネットは、女の子にクスクス笑われ、不良に虐められた者たちに、世界を支配し、合理化し、秩序をもたらすチャンスを与えた。"
+    },
+    {
+      "id": 17,
+      "ru": "Ботаниками в руки попало сильнейшее оружие, и им, горбатившимся на государства и мегакорпорации, открылось, что код способен изменить мир без посредников.",
+      "en": "Nerds got their hands on the most powerful weapon, and to those who had slaved for states and megacorporations, it was revealed that code could change the world without intermediaries.",
+      "zh": "书呆子们得到了最强大的武器，那些曾为国家和大公司卖命的人发现，代码可以不通过中间人就能改变世界。",
+      "ja": "オタクたちは最強の武器を手に入れ、国家や巨大企業のために働いてきた彼らは、コードが仲介者なしで世界を変えられることを発見した。"
+    },
+    {
+      "id": 18,
+      "ru": "Нажал «ввод» – и things will never be the same again.",
+      "en": "Press \"enter\"—and things will never be the same again.",
+      "zh": "按下\"回车\"——一切就再也不一样了。",
+      "ja": "「エンター」を押せば——もう二度と同じにはならない。"
+    },
+    {
+      "id": 19,
+      "ru": "Социальные сети – верх их реванша: весь мир создает контент, которым владеет и на котором зарабатывает сама платформа.",
+      "en": "Social networks are the pinnacle of their revenge: the whole world creates content that is owned and monetized by the platform itself.",
+      "zh": "社交网络是他们复仇的巅峰：全世界创造内容，而平台拥有并从中获利。",
+      "ja": "ソーシャルネットワークは彼らの復讐の頂点である。全世界がコンテンツを作り、プラットフォーム自体がそれを所有し収益化する。"
+    },
+    {
+      "id": 20,
+      "ru": "Люди делятся фото, эмоциями, страхами, самым сокровенным – на их коммуникациях интернет-герои зарабатывают миллиарды.",
+      "en": "People share photos, emotions, fears, their most intimate things—and internet heroes make billions from their communications.",
+      "zh": "人们分享照片、情感、恐惧和最私密的事情——互联网英雄们通过他们的交流赚取了数十亿。",
+      "ja": "人々は写真、感情、恐怖、最も親密なものを共有し——インターネットの英雄たちは彼らのコミュニケーションで何十億も稼ぐ。"
+    },
+    {
+      "id": 21,
+      "ru": "Сервисы вмешиваются в чужие жизни и высасывают из них самое дорогое.",
+      "en": "Services intrude into people's lives and suck out what's most precious.",
+      "zh": "这些服务介入人们的生活，吸走最珍贵的东西。",
+      "ja": "サービスは他人の生活に介入し、最も貴重なものを吸い取る。"
+    },
+    {
+      "id": 22,
+      "ru": "Хотите быстро познакомиться – Badoo, продать себя дороже – LinkedIn, составить альбом своей жизни, читая лучшее из газет и журналов и просматривая фото друзей, параллельно переписываясь с ними, – Facebook и «ВКонтакте».",
+      "en": "Want to meet someone quickly—Badoo, sell yourself for more—LinkedIn, create an album of your life while reading the best from newspapers and magazines and viewing friends' photos while chatting with them—Facebook and VKontakte.",
+      "zh": "想快速认识人——Badoo；想把自己卖个好价钱——LinkedIn；想一边阅读报刊杂志的精选内容、浏览朋友的照片一边与他们聊天，建立自己的人生相册——Facebook和VKontakte。",
+      "ja": "すぐに出会いたければ——Badoo、自分を高く売りたければ——LinkedIn、新聞や雑誌の最高のものを読み、友人の写真を見ながらチャットしつつ人生のアルバムを作りたければ——FacebookとVKontakte。"
+    },
+    {
+      "id": 23,
+      "ru": "Мир ловил меня, но не поймал, писал философ Григорий Сковорода.",
+      "en": "\"The world tried to catch me, but failed,\" wrote philosopher Grigory Skovoroda.",
+      "zh": "\"世界想要抓住我，但没有成功，\"哲学家格里戈里·斯科沃罗达写道。",
+      "ja": "「世界は私を捕まえようとしたが、失敗した」と哲学者グリゴリー・スコヴォロダは書いた。"
+    },
+    {
+      "id": 24,
+      "ru": "Ботаники поймали мир, и Павел Дуров казался типичным генералом этой армии ночи.",
+      "en": "Nerds caught the world, and Pavel Durov seemed like a typical general of this army of the night.",
+      "zh": "书呆子们抓住了世界，而帕维尔·杜罗夫看起来就像这支黑暗大军的典型将军。",
+      "ja": "オタクたちが世界を捕まえた。そしてパーヴェル・ドゥーロフは、この夜の軍団の典型的な将軍に見えた。"
+    },
+    {
+      "id": 25,
+      "ru": "Год назад я колесил по Петербургу.",
+      "en": "A year ago I was traveling around St. Petersburg.",
+      "zh": "一年前我在彼得堡到处奔波。",
+      "ja": "一年前、私はペテルブルクを駆け回っていた。"
+    },
+    {
+      "id": 26,
+      "ru": "Вокруг гремел День города, человеческие течения напоминали переплетающуюся в ручье траву.",
+      "en": "City Day celebrations thundered all around, the streams of people resembled grass intertwining in a brook.",
+      "zh": "周围城市日的庆典声隆隆作响，人流像小溪中交织的水草。",
+      "ja": "街中で市の日の祝祭が轟いていた。人の流れは小川で絡み合う草のようだった。"
+    },
+    {
+      "id": 27,
+      "ru": "Лето еще не разбросало нужных мне людей по отпускам, поэтому мне удалось встретиться с университетскими приятелями, школьными учителями и коллегами Дурова.",
+      "en": "Summer hadn't yet scattered the people I needed across vacations, so I managed to meet with university friends, school teachers, and colleagues of Durov.",
+      "zh": "夏天还没有把我需要见的人都分散到各地度假，所以我成功地见到了杜罗夫的大学朋友、中学老师和同事。",
+      "ja": "夏はまだ必要な人々を休暇で散らばらせていなかったので、ドゥーロフの大学の友人、学校の教師、同僚たちに会うことができた。"
+    },
+    {
+      "id": 28,
+      "ru": "Если раньше из его биографии были известны мало что раскрывающие факты («отличник с двойкой по поведению», университетский активист), то теперь кое-что прояснялось.",
+      "en": "If before only facts that revealed little were known from his biography (\"an A-student with an F in behavior,\" a university activist), now some things were becoming clear.",
+      "zh": "如果说以前从他的传记中只知道一些没什么揭示性的事实（\"品行分不及格的优等生\"、大学活动家），那么现在有些事情开始明朗了。",
+      "ja": "以前は彼の経歴からほとんど何も明かさない事実しか知られていなかった（「行動評価が落第の優等生」、大学の活動家）が、今ではいくつかのことが明らかになりつつあった。"
+    },
+    {
+      "id": 29,
+      "ru": "Впрочем, сам он не откликался на письма.",
+      "en": "However, he himself didn't respond to letters.",
+      "zh": "不过，他本人不回复信件。",
+      "ja": "とはいえ、彼自身は手紙に応じなかった。"
+    },
+    {
+      "id": 30,
+      "ru": "Лишь когда меня рекомендовали буквально со всех сторон, ответил в интернет-мессенджере, что не хочет давать интервью Forbes, так как ему плевать на деньги.",
+      "en": "Only when I was recommended from literally all sides did he reply via internet messenger that he didn't want to give an interview to Forbes because he didn't care about money.",
+      "zh": "只有当各方都向他推荐我之后，他才在网络即时通讯工具上回复说他不想接受《福布斯》的采访，因为他不在乎钱。",
+      "ja": "文字通りあらゆる方面から推薦されてようやく、インターネットメッセンジャーで、お金などどうでもいいからフォーブスのインタビューを受けたくないと返信してきた。"
+    },
+    {
+      "id": 31,
+      "ru": "Я схватился за эту соломинку и начал спорить.",
+      "en": "I grasped at this straw and started to argue.",
+      "zh": "我抓住了这根稻草，开始争辩。",
+      "ja": "私はこの藁にすがりつき、議論を始めた。"
+    }
+  ],
+  "translator_notes": [
+    "Page 10 continues the author's philosophical reflection on social networks and nerds",
+    "Grigory Skovoroda (1722-1794) was a Ukrainian philosopher - his epitaph is quoted",
+    "The 'gopnik' reference is to Russian street thugs/hooligans who bully 'nerds'",
+    "Scylla and Charybdis - Greek mythology reference for being stuck between two dangers",
+    "The author reveals his journalistic process of researching Durov",
+    "Forbes magazine reference - Durov famously rejected materialistic media coverage"
+  ],
+  "total_sentences": 31,
+  "page_type": "narrative"
+}
