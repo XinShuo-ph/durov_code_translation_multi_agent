@@ -1,0 +1,83 @@
+{
+  "page": 4,
+  "chapter": 0,
+  "chapter_title": "Рекомендуемая литература (Recommended reading)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. “The Durov Code: The True Story of VKontakte and Its Creator”",
+      "zh": "N. V. 科诺诺夫：《杜罗夫密码：VKontakte（VK）及其创始人的真实故事》",
+      "ja": "N. V. コノノフ『ドゥーロフ・コード――VKontakte（VK）とその創業者の実像』"
+    },
+    {
+      "id": 2,
+      "ru": "Николай Кононов",
+      "en": "Nikolai Kononov",
+      "zh": "尼古拉·科诺诺夫",
+      "ja": "ニコライ・コノノフ"
+    },
+    {
+      "id": 3,
+      "ru": "Код Дурова. Реальная история",
+      "en": "The Durov Code: The True Story",
+      "zh": "杜罗夫密码：真实故事",
+      "ja": "ドゥーロフ・コード――実話"
+    },
+    {
+      "id": 4,
+      "ru": "«ВКонтакте» и ее создателя",
+      "en": "VKontakte and Its Creator",
+      "zh": "VKontakte（VK）及其创始人",
+      "ja": "VKontakte（VK）とその創業者"
+    },
+    {
+      "id": 5,
+      "ru": "Эту книгу хорошо дополняют:",
+      "en": "This book is complemented well by:",
+      "zh": "这本书还可以搭配阅读：",
+      "ja": "この本とあわせて読むとよい："
+    },
+    {
+      "id": 6,
+      "ru": "Мечтай, создавай, изменяй! Как молодые предприниматели меняют мир и зарабатывают состояния",
+      "en": "Dream, Create, Change! How Young Entrepreneurs Change the World and Make Fortunes",
+      "zh": "《梦想、创造、改变！年轻创业者如何改变世界并赚取财富》",
+      "ja": "『夢見て、つくって、変えていく！ 若き起業家たちは世界を変え、富を築く』"
+    },
+    {
+      "id": 7,
+      "ru": "Сара Лейси",
+      "en": "Sarah Lacy",
+      "zh": "莎拉·莱西",
+      "ja": "サラ・レイシー"
+    },
+    {
+      "id": 8,
+      "ru": "И ботаники делают бизнес",
+      "en": "Even Nerds Do Business",
+      "zh": "《书呆子也能做生意》",
+      "ja": "『オタクもビジネスをする』"
+    },
+    {
+      "id": 9,
+      "ru": "Максим Котин",
+      "en": "Maxim Kotin",
+      "zh": "马克西姆·科京",
+      "ja": "マクシム・コーチン"
+    },
+    {
+      "id": 10,
+      "ru": "4",
+      "en": "4",
+      "zh": "4",
+      "ja": "4"
+    }
+  ],
+  "translator_notes": [
+    "This page lists recommended books that complement the main text."
+  ],
+  "total_sentences": 10,
+  "page_type": "front_matter"
+}
+

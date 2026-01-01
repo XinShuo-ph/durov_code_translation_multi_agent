@@ -1,0 +1,97 @@
+{
+  "page": 2,
+  "chapter": 0,
+  "chapter_title": "Аннотация (Blurb)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Николай В. Кононов",
+      "en": "Nikolai V. Kononov",
+      "zh": "尼古拉·V·科诺诺夫",
+      "ja": "ニコライ・V・コノノフ"
+    },
+    {
+      "id": 2,
+      "ru": "Код Дурова. Реальная история «ВКонтакте» и ее создателя",
+      "en": "The Durov Code: The True Story of VKontakte and Its Creator",
+      "zh": "《杜罗夫密码：VKontakte（VK）及其创始人的真实故事》",
+      "ja": "『ドゥーロフ・コード――VKontakte（VK）とその創業者の実像』"
+    },
+    {
+      "id": 3,
+      "ru": "Текст предоставлен издательством",
+      "en": "Text provided by the publisher.",
+      "zh": "文本由出版社提供。",
+      "ja": "本文は出版社提供。"
+    },
+    {
+      "id": 4,
+      "ru": "http://www.litres.ru/pages/biblio_book/?art=4442369",
+      "en": "http://www.litres.ru/pages/biblio_book/?art=4442369",
+      "zh": "http://www.litres.ru/pages/biblio_book/?art=4442369",
+      "ja": "http://www.litres.ru/pages/biblio_book/?art=4442369"
+    },
+    {
+      "id": 5,
+      "ru": "Код Дурова. Реальная история «ВКонтакте» и ее создателя / Николай В. Кононов: Манн, Иванов, Фербер; Москва; 2013",
+      "en": "The Durov Code: The True Story of VKontakte and Its Creator / Nikolai V. Kononov: Mann, Ivanov and Ferber; Moscow; 2013.",
+      "zh": "《杜罗夫密码：VKontakte（VK）及其创始人的真实故事》/ 尼古拉·V·科诺诺夫：曼恩、伊万诺夫和费尔伯；莫斯科；2013年。",
+      "ja": "『ドゥーロフ・コード――VKontakte（VK）とその創業者の実像』／ニコライ・V・コノノフ：マン、イワノフ、フェルバー；モスクワ；2013年。"
+    },
+    {
+      "id": 6,
+      "ru": "ISBN 978-5-91657-546-0",
+      "en": "ISBN 978-5-91657-546-0",
+      "zh": "ISBN 978-5-91657-546-0",
+      "ja": "ISBN 978-5-91657-546-0"
+    },
+    {
+      "id": 7,
+      "ru": "Аннотация",
+      "en": "Blurb",
+      "zh": "内容提要",
+      "ja": "あらすじ"
+    },
+    {
+      "id": 8,
+      "ru": "Серо-голубой логотип «ВКонтакте» мелькает на всех мониторах страны.",
+      "en": "The gray-blue VKontakte logo flashes on every monitor in the country.",
+      "zh": "灰蓝色的“VKontakte”标志在全国所有显示器上闪烁。",
+      "ja": "灰青色の「VKontakte」のロゴが、国中のあらゆるモニターでちらついている。"
+    },
+    {
+      "id": 9,
+      "ru": "Чем так притягательна виртуальная реальность соцсети для десятков миллионов россиян от 12 и старше?",
+      "en": "What makes the social network’s virtual reality so attractive to tens of millions of Russians aged 12 and up?",
+      "zh": "这个社交网络的虚拟现实为何如此吸引数千万12岁及以上的俄罗斯人？",
+      "ja": "12歳以上の数千万のロシア人にとって、SNSの仮想現実はなぜこれほど魅力的なのか。"
+    },
+    {
+      "id": 10,
+      "ru": "Кто придумал эту игрушку и куда этот человек ведет свою необычную компанию?",
+      "en": "Who invented this toy, and where is this person taking his unusual company?",
+      "zh": "是谁发明了这个“玩具”，这个人又将带着他那家不寻常的公司走向何处？",
+      "ja": "この“おもちゃ”を考え出したのは誰で、その人物は風変わりな会社をどこへ導こうとしているのか。"
+    },
+    {
+      "id": 11,
+      "ru": "Павел Дуров почти не общается с журналистами, но автору этой книги удалось проникнуть внутрь «ВКонтакте».",
+      "en": "Pavel Durov almost never talks to journalists, but the author of this book managed to get inside VKontakte.",
+      "zh": "帕维尔·杜罗夫几乎不与记者交流，但本书作者却设法潜入了“VKontakte”的内部。",
+      "ja": "パーヴェル・ドゥーロフは記者とほとんど話さないが、本書の著者は「VKontakte」の内側に入り込むことに成功した。"
+    },
+    {
+      "id": 12,
+      "ru": "Получилось не просто журналистское расследование, а авантюрная история, исследующая феномен сетевого предпринимателя-харизматика и его детища – а заодно и вполне материальное выражение популярности бизнеса соцсети.",
+      "en": "What came out was not just a piece of investigative journalism, but an adventurous story that explores the phenomenon of a charismatic online entrepreneur and his brainchild—and, at the same time, a very tangible expression of how popular the social network’s business has become.",
+      "zh": "结果不仅是一篇新闻调查，而是一段带点冒险色彩的故事：它探究了一位魅力十足的网络创业者及其“作品”的现象——同时也呈现了社交网络商业受欢迎程度那种相当现实、可触摸的体现。",
+      "ja": "それは単なる調査報道ではなく、カリスマ的なネット起業家とその“作品”という現象を掘り下げる、冒険譚のような物語となった――そして同時に、SNSビジネスの人気がいかに現実的な形で表れているかも描き出している。"
+    }
+  ],
+  "translator_notes": [
+    "«ВКонтакте» is commonly referred to as VK in English-language contexts; the original brand name is kept in the Russian line."
+  ],
+  "total_sentences": 12,
+  "page_type": "front_matter"
+}
+
