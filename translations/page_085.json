@@ -1,0 +1,281 @@
+{
+  "page": 85,
+  "chapter": 4,
+  "chapter_title": "Штаб (Headquarters)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Когда Дэниэл Эк из музыкального сервиса Spotify, легально проигрывавшего песни и бравшего с пользователя абонентскую плату, приехал к Дурову договариваться о сотрудничестве, то получил от ворот поворот.",
+      "en": "When Daniel Ek from the music service Spotify, which legally played songs and charged users a subscription fee, came to Durov to negotiate a partnership, he was shown the door.",
+      "zh": "当音乐服务Spotify的丹尼尔·埃克——该服务合法播放歌曲并向用户收取订阅费——来找杜罗夫商谈合作时，他吃了闭门羹。",
+      "ja": "楽曲を合法的に再生しユーザーからサブスクリプション料金を取っている音楽サービスSpotifyのダニエル・エクがドゥーロフと提携交渉に来た時、彼は門前払いを受けた。"
+    },
+    {
+      "id": 3,
+      "ru": "«У нас в разы больше песен, чем у вас, нам невыгодно», – отрезал Дуров.",
+      "en": "\"We have many times more songs than you, it's not profitable for us,\" Durov cut him off.",
+      "zh": "\"我们的歌曲比你们多好几倍，对我们来说不划算，\"杜罗夫断然说道。",
+      "ja": "「我々はあなた方の何倍もの曲を持っている、我々には得策ではない」とドゥーロフは断った。"
+    },
+    {
+      "id": 4,
+      "ru": "Эк понял, что крыть нечем, распрощался и шагнул в позолоченный лифт.",
+      "en": "Ek understood there was nothing to counter with, said goodbye, and stepped into the gilded elevator.",
+      "zh": "埃克明白无话可说，告别后走进了镀金电梯。",
+      "ja": "エクは言い返す言葉がないことを悟り、別れを告げて金色のエレベーターに乗り込んだ。"
+    },
+    {
+      "id": 5,
+      "ru": "Два человека уселись в кресла друг напротив друга.",
+      "en": "Two people settled into armchairs facing each other.",
+      "zh": "两个人面对面坐在扶手椅上。",
+      "ja": "二人の人物が向かい合ってアームチェアに座った。"
+    },
+    {
+      "id": 6,
+      "ru": "Вид на строящиеся небоскребы скрывали жалюзи.",
+      "en": "Blinds concealed the view of skyscrapers under construction.",
+      "zh": "百叶窗遮住了正在建设的摩天大楼的景色。",
+      "ja": "ブラインドが建設中の高層ビルの眺めを遮っていた。"
+    },
+    {
+      "id": 7,
+      "ru": "Спустя месяцы контрударов обоим было тяжело казаться приветливыми, но они старались.",
+      "en": "After months of counterattacks, it was hard for both to appear friendly, but they tried.",
+      "zh": "经过数月的反击，双方都很难显得友好，但他们努力了。",
+      "ja": "何ヶ月もの反撃の後、二人とも友好的に見せるのは難しかったが、努力していた。"
+    },
+    {
+      "id": 8,
+      "ru": "Хозяин встретил гостя у кабинета, к которому тот прошел через галерею кьюбиклов, недобро поглядывая на программистов в сотах-отсеках.",
+      "en": "The host met the guest at his office, which the latter had reached through a gallery of cubicles, glancing unkindly at the programmers in their honeycomb compartments.",
+      "zh": "主人在办公室门口迎接客人，客人穿过一排排隔间，不友好地看着蜂巢状隔间里的程序员。",
+      "ja": "ホストはオフィスでゲストを迎えた。ゲストはキュービクルの並ぶ通路を通ってきて、蜂の巣状の区画にいるプログラマーたちを険しい目で見ていた。"
+    },
+    {
+      "id": 9,
+      "ru": "Собеседники походили друг на друга.",
+      "en": "The conversationalists resembled each other.",
+      "zh": "两位谈话者彼此相似。",
+      "ja": "対話者たちは互いに似ていた。"
+    },
+    {
+      "id": 10,
+      "ru": "Расположившись за длинным столом, они открыли свои MacBook Air.",
+      "en": "Settling at a long table, they opened their MacBook Airs.",
+      "zh": "坐在一张长桌旁，他们打开了各自的MacBook Air。",
+      "ja": "長いテーブルに着いて、二人はMacBook Airを開いた。"
+    },
+    {
+      "id": 11,
+      "ru": "Оба одевались неярко.",
+      "en": "Both dressed unremarkably.",
+      "zh": "两人穿着都很低调。",
+      "ja": "二人とも地味な服装だった。"
+    },
+    {
+      "id": 12,
+      "ru": "Оба – ботаники и злостные нёрды.",
+      "en": "Both were geeks and hardcore nerds.",
+      "zh": "两人都是书呆子和铁杆极客。",
+      "ja": "二人ともオタクでハードコアなナードだった。"
+    },
+    {
+      "id": 13,
+      "ru": "Оба начинали путь программиста с игр.",
+      "en": "Both started their programming path with games.",
+      "zh": "两人都是从游戏开始走上程序员之路的。",
+      "ja": "二人ともゲームからプログラミングの道を始めた。"
+    },
+    {
+      "id": 14,
+      "ru": "Оба любили кодить.",
+      "en": "Both loved to code.",
+      "zh": "两人都喜欢编程。",
+      "ja": "二人ともコーディングを愛していた。"
+    },
+    {
+      "id": 15,
+      "ru": "Но было трудно найти более полярных друг другу деятелей.",
+      "en": "But it was hard to find more polar opposites.",
+      "zh": "但很难找到比他们更截然相反的人了。",
+      "ja": "しかし、これほど対極的な人物を見つけるのは難しかった。"
+    },
+    {
+      "id": 16,
+      "ru": "– Закажете что-нибудь поесть, Павел? У нас внизу есть ресторан.",
+      "en": "\"Would you like to order something to eat, Pavel? We have a restaurant downstairs.\"",
+      "zh": "\"帕维尔，要点些吃的吗？我们楼下有餐厅。\"",
+      "ja": "「何か食べ物を注文しますか、パーヴェル？下にレストランがあります」"
+    },
+    {
+      "id": 17,
+      "ru": "– Давайте, если там готовят рыбу, я бы ее съел.",
+      "en": "\"Sure, if they prepare fish there, I would eat that.\"",
+      "zh": "\"好啊，如果那里做鱼的话，我想吃鱼。\"",
+      "ja": "「いいですね、魚料理があればそれを食べたいです」"
+    },
+    {
+      "id": 18,
+      "ru": "Секретарь получил указания и отправил гонца в заведение.",
+      "en": "The secretary received instructions and sent a runner to the establishment.",
+      "zh": "秘书收到指示，派人去餐厅取餐。",
+      "ja": "秘書は指示を受け、レストランに使いを送った。"
+    },
+    {
+      "id": 19,
+      "ru": "Деятели перекинулись парой фраз о том о сем и наконец перешли к делу.",
+      "en": "The two exchanged a few words about this and that and finally got down to business.",
+      "zh": "两位大人物寒暄了几句，终于进入正题。",
+      "ja": "二人は世間話を少し交わし、ついに本題に入った。"
+    },
+    {
+      "id": 20,
+      "ru": "«Ну что, – сказал Гришин, считая это самое дело решенным. – Когда мы все подпишем, выпустим совместный пресс-релиз, где „ВКонтакте" будет указана не как компания, а как проект».",
+      "en": "\"So,\" said Grishin, considering the matter settled, \"when we sign everything, we'll issue a joint press release where VKontakte will be listed not as a company, but as a project.\"",
+      "zh": "\"那么，\"格里辛说，认为事情已经解决了，\"当我们签完所有文件后，将发布联合新闻稿，VKontakte将被列为项目而不是公司。\"",
+      "ja": "「では」とグリシンは言った。この件は決まったと思いながら。「すべて署名したら、共同プレスリリースを出します。そこではVKontakteは会社としてではなく、プロジェクトとして記載されます」"
+    },
+    {
+      "id": 21,
+      "ru": "Дуров, слушая, излучал нордическое спокойствие, хотя внимательный человек сказал бы, что это дается тотему с трудом.",
+      "en": "Durov, listening, radiated Nordic calm, although an attentive person would say this came to the totem with difficulty.",
+      "zh": "杜罗夫听着，散发出北欧式的冷静，尽管细心的人会说图腾这样做很费劲。",
+      "ja": "聞いているドゥーロフは北欧的な冷静さを放っていたが、注意深い人ならトーテムにとってそれが困難だと言っただろう。"
+    },
+    {
+      "id": 22,
+      "ru": "Много раз тактика «я обхожу острые углы, если меня не оскорбляют» играла ему на руку, но теперь он чувствовал себя несколько в тупике.",
+      "en": "Many times the tactic of \"I avoid sharp corners if I'm not insulted\" had worked in his favor, but now he felt somewhat at an impasse.",
+      "zh": "\"只要不侮辱我，我就绕开尖锐话题\"的策略曾多次对他有利，但现在他感到有些束手无策。",
+      "ja": "「侮辱されなければ鋭い角を避ける」という戦術は何度も彼に有利に働いたが、今は行き詰まりを感じていた。"
+    },
+    {
+      "id": 23,
+      "ru": "Гришин напирал на переход контрольного пакета к Mail.ru.",
+      "en": "Grishin was pushing for the transfer of the controlling stake to Mail.ru.",
+      "zh": "格里辛在推动将控股权转让给Mail.ru。",
+      "ja": "グリシンはMail.ruへの支配株式の移転を迫っていた。"
+    },
+    {
+      "id": 24,
+      "ru": "«„ВКонтакте" уникальна как независимая организация со специфической атмосферой и стилем, – ответил Дуров. – „Синергия" – это, конечно, приятное для инвесторов слово, но в данном случае преимущества слияния неочевидны».",
+      "en": "\"VKontakte is unique as an independent organization with a specific atmosphere and style,\" replied Durov. \"'Synergy' is, of course, a pleasant word for investors, but in this case the advantages of a merger are not obvious.\"",
+      "zh": "\"VKontakte作为一个具有独特氛围和风格的独立组织是独一无二的，\"杜罗夫回答道。\"'协同效应'当然是投资者喜欢的词，但在这种情况下，合并的优势并不明显。\"",
+      "ja": "「VKontakteは特定の雰囲気とスタイルを持つ独立した組織としてユニークです」とドゥーロフは答えた。「『シナジー』はもちろん投資家にとって心地よい言葉ですが、この場合、合併の利点は明らかではありません」"
+    },
+    {
+      "id": 25,
+      "ru": "За несколько недель до визита в кинофотоинститут Дуров шагал к Фонтанке, изредка поднимая взгляд, чтобы не столкнуться с прохожими.",
+      "en": "A few weeks before the visit to the film and photo institute, Durov was walking toward the Fontanka, occasionally looking up so as not to collide with passersby.",
+      "zh": "在访问电影摄影学院的几周前，杜罗夫正走向丰坦卡河，偶尔抬头看看以免与路人相撞。",
+      "ja": "映画写真研究所を訪問する数週間前、ドゥーロフはフォンタンカに向かって歩いていた。時折顔を上げて通行人とぶつからないようにしながら。"
+    },
+    {
+      "id": 26,
+      "ru": "Мимо него, завывая, неслись черные автомобили с мигалками.",
+      "en": "Past him, howling, rushed black cars with flashing lights.",
+      "zh": "黑色的闪光灯汽车呼啸而过。",
+      "ja": "彼のそばを、サイレンを鳴らしながら黒い回転灯付きの車が駆け抜けていった。"
+    },
+    {
+      "id": 27,
+      "ru": "Сквозь тонированные стекла можно было разглядеть страдающих одышкой седоков.",
+      "en": "Through the tinted windows, one could make out passengers suffering from shortness of breath.",
+      "zh": "透过有色玻璃，可以看到气喘吁吁的乘客。",
+      "ja": "スモークガラス越しに、息切れに苦しむ乗客が見えた。"
+    },
+    {
+      "id": 28,
+      "ru": "Автомобили дышали так же тяжко – их радиаторы шумели, как вытяжные трубы, утомившись от солнца и пробок.",
+      "en": "The cars breathed just as heavily—their radiators rumbled like exhaust pipes, exhausted from the sun and traffic jams.",
+      "zh": "汽车呼吸得同样沉重——它们的散热器像排气管一样轰鸣，被阳光和交通堵塞弄得筋疲力尽。",
+      "ja": "車も同じように重く息をしていた——ラジエーターは排気管のように唸り、太陽と渋滞で疲れ果てていた。"
+    },
+    {
+      "id": 29,
+      "ru": "Дуров направлялся туда, куда ехала знать.",
+      "en": "Durov was heading where the nobility was going.",
+      "zh": "杜罗夫正走向名流们去的地方。",
+      "ja": "ドゥーロフは貴族たちが向かう場所に向かっていた。"
+    },
+    {
+      "id": 30,
+      "ru": "Алишер Усманов собирал гостей петербургского форума на прием в снятый для этого Шереметьевский дворец.",
+      "en": "Alisher Usmanov was gathering guests of the Petersburg forum for a reception at the Sheremetev Palace, rented for the occasion.",
+      "zh": "阿利舍尔·乌斯马诺夫正在为此租用的舍列梅捷夫宫为圣彼得堡论坛的客人举办招待会。",
+      "ja": "アリシェル・ウスマノフはペテルブルクフォーラムのゲストを、この機会に借りたシェレメーチェフ宮殿でのレセプションに集めていた。"
+    },
+    {
+      "id": 31,
+      "ru": "Полтора километра через мосты, и он, не сразу признанный охраной, поднялся во дворец.",
+      "en": "One and a half kilometers across bridges, and he, not immediately recognized by security, ascended to the palace.",
+      "zh": "穿过桥梁走了一公里半，他没有立即被保安认出，走上了宫殿。",
+      "ja": "橋を渡って1.5キロメートル、警備員にすぐには認識されなかった彼は宮殿に上がった。"
+    },
+    {
+      "id": 32,
+      "ru": "Усманов желал познакомиться и нащупать ключевые мотивы в позиции Дурова.",
+      "en": "Usmanov wanted to get acquainted and probe the key motives in Durov's position.",
+      "zh": "乌斯马诺夫想认识并探寻杜罗夫立场的关键动机。",
+      "ja": "ウスマノフはドゥーロフと知り合い、彼の立場の主要な動機を探りたかった。"
+    },
+    {
+      "id": 33,
+      "ru": "Конфликт с Mail.ru его не очень раздражал – у олигарха, который до сих пор собирал активы «Газпрому», были дела поважнее, чем распря двух программистов.",
+      "en": "The conflict with Mail.ru didn't particularly irritate him—the oligarch, who was still collecting assets for Gazprom, had more important things to do than deal with a quarrel between two programmers.",
+      "zh": "与Mail.ru的冲突并没有特别让他恼火——这位仍在为Gazprom收集资产的寡头有比两个程序员之间的争吵更重要的事情要做。",
+      "ja": "Mail.ruとの紛争は彼をあまり苛立たせなかった——まだガスプロムの資産を集めているこのオリガルヒには、二人のプログラマー間の争いより重要なことがあった。"
+    },
+    {
+      "id": 34,
+      "ru": "Но, с другой стороны, капитализация холдинга на Лондонской бирже могла бы вырасти, если бы он поглотил русскоязычную соцсеть № 1.",
+      "en": "But on the other hand, the holding company's capitalization on the London Stock Exchange could grow if it absorbed the #1 Russian-language social network.",
+      "zh": "但另一方面，如果控股公司吸收了排名第一的俄语社交网络，其在伦敦证券交易所的市值可能会增长。",
+      "ja": "しかし一方で、ロシア語圏ナンバーワンのソーシャルネットワークを吸収すれば、ロンドン証券取引所でのホールディング会社の時価総額は上昇する可能性があった。"
+    },
+    {
+      "id": 35,
+      "ru": "Самый простой вариант поглощения – выкуп акций у Льва и Славы – обламывался.",
+      "en": "The simplest option for acquisition—buying out shares from Lev and Slava—was falling through.",
+      "zh": "最简单的收购方案——从列夫和斯拉瓦手中买断股份——失败了。",
+      "ja": "最も単純な買収オプション——レフとスラヴァからの株式買い取り——は頓挫していた。"
+    },
+    {
+      "id": 36,
+      "ru": "Им предлагали исходить из оценки компании, превышающей сумму последней сделки (1,5 млрд долларов) едва ли не вдвое, но аргумент об IPO, где можно выручить еще больше денег, сдерживал основателей.",
+      "en": "They were offered a company valuation exceeding the amount of the last deal ($1.5 billion) by nearly double, but the argument about an IPO, where even more money could be raised, restrained the founders.",
+      "zh": "他们被提供的公司估值几乎是上次交易金额（15亿美元）的两倍，但关于IPO可以获得更多资金的论点让创始人们持保留态度。",
+      "ja": "前回の取引額（15億ドル）の2倍近い会社評価額を提示されたが、IPOでさらに多くの資金を調達できるという議論が創業者たちを抑制していた。"
+    },
+    {
+      "id": 37,
+      "ru": "Кроме этого, Слава, даже раздражаясь на партнера, умел держать слово и не сдавал архитектора.",
+      "en": "Besides, Slava, even when irritated with his partner, knew how to keep his word and didn't betray the architect.",
+      "zh": "此外，斯拉瓦即使对合伙人感到恼火，也知道信守承诺，没有出卖建筑师。",
+      "ja": "さらに、スラヴァはパートナーに苛立っていても約束を守る術を知っており、建築家を裏切らなかった。"
+    }
+  ],
+  "translator_notes": [
+    "Daniel Ek - Spotify co-founder and CEO",
+    "The contrast between legal Spotify and VK's pirated music library",
+    "Dmitry Grishin - Mail.ru Group CEO",
+    "Film and photo institute (кинофотоинститут) - likely refers to VGIK or similar institution",
+    "Fontanka - river in St. Petersburg",
+    "St. Petersburg International Economic Forum - major annual business gathering",
+    "Sheremetev Palace - historic palace on Fontanka, also known as Fountain House",
+    "Alisher Usmanov - Russian-Uzbek oligarch, major Mail.ru shareholder",
+    "Gazprom - Russian state gas monopoly where Usmanov had significant business interests",
+    "The $1.5 billion valuation refers to the DST investment round",
+    "Lev and Slava - Lev and Vyacheslav Mirilashvili, major VK shareholders"
+  ],
+  "total_sentences": 37,
+  "page_type": "narrative"
+}

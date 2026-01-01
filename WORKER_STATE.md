@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-d536
 - **Short ID**: d536
-- **Heartbeat**: 1767257165
+- **Heartbeat**: 1767257360
 - **Status**: translating
 
 ## Current Work
-- **Claimed Page**: 85
-- **Started At**: 1767257165
+- **Claimed Page**: 86
+- **Started At**: 1767257360
 
 ## Completed Pages
 | Page | Completed At | Hash |
@@ -47,6 +47,7 @@
 | 82   | 1767256797 | 183e931c |
 | 83   | 1767256979 | e0ac0f8b |
 | 84   | 1767257165 | 2747794b |
+| 85   | 1767257360 | f15edb07 |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
@@ -57,4 +58,4 @@
 | c68e     | active | 37           | recent |
 
 ## Notes
-Completed 34 pages (1-15, 17-22, 26-27, 30-35, 80-84). Page 84: One-way connections, Durov's news resistance, Facebook vs VK media battle, Wired article.
+Completed 35 pages (1-15, 17-22, 26-27, 30-35, 80-85). Page 85: Spotify/Ek rejection, Durov-Grishin meeting, Usmanov at Sheremetev Palace, buyout negotiations.
