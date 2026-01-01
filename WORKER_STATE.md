@@ -3,17 +3,17 @@
 ## Identity
 - **Branch**: cursor/book-translation-multi-agent-f6c8
 - **Short ID**: f6c8
-- **Last Updated**: 2026-01-01T00:00:00Z
-- **Heartbeat**: 1735689600
+- **Last Updated**: 2026-01-01T00:05:00Z
+- **Heartbeat**: 1767241900
 
 ## Current Milestone
 - **Milestone**: M0
-- **Status**: starting
+- **Status**: working
 
 ## M0 Task Status
 | Task ID | Description | Status | Result Hash |
 |---------|-------------|--------|-------------|
-| M0.1 | Install dependencies | pending | - |
+| M0.1 | Install dependencies | done | verified |
 | M0.2 | Extract PDF text | pending | - |
 | M0.3 | Create chapter structure | pending | - |
 | M0.4 | Research: Durov bio | pending | - |
