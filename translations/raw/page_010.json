@@ -1,0 +1,76 @@
+{
+  "page": 10,
+  "chapter": 0,
+  "section": "Prologue",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "В соцсетях человечество обрело децентрализованную нервную систему -- одну на многих. Кто контролирует ее нервные окончания, тот знает о людях все.",
+      "en": "In social networks, humanity acquired a decentralized nervous system -- one shared by many. Whoever controls its nerve endings knows everything about people.",
+      "zh": "在社交网络中，人类获得了一个去中心化的神经系统——由众人共享的系统。谁控制了它的神经末梢，谁就掌握了关于人们的一切。",
+      "ja": "ソーシャルネットワークにおいて、人類は分散型神経系を獲得した——多くの人が共有するシステムを。その神経末端を支配する者は、人々についてすべてを知ることになる。"
+    },
+    {
+      "id": 2,
+      "ru": "Профиль с интересами, биографией, фото, плейлистом сам по себе стал высказыванием и идентичностью.",
+      "en": "A profile with interests, biography, photos, and playlist has itself become a statement and an identity.",
+      "zh": "带有兴趣爱好、个人经历、照片、播放列表的个人资料本身就成了一种表达和身份认同。",
+      "ja": "興味、経歴、写真、プレイリストを含むプロフィールは、それ自体が表現であり、アイデンティティとなった。"
+    },
+    {
+      "id": 3,
+      "ru": "Социальные сети -- это ЦНС, регулируемая не пользователем, а хозяевами кода. Кто эти хозяева, какими качествами наделены, чего хотят, к чему стремятся?",
+      "en": "Social networks are a CNS regulated not by users, but by the masters of the code. Who are these masters, what qualities do they possess, what do they want, what do they strive for?",
+      "zh": "社交网络是由代码的主人而非用户控制的中枢神经系统。这些主人是谁，他们有什么特质，想要什么，追求什么？",
+      "ja": "ソーシャルネットワークは、ユーザーではなくコードの主人によって制御される中枢神経系だ。これらの主人は誰か、どのような資質を持ち、何を望み、何を目指しているのか？"
+    },
+    {
+      "id": 4,
+      "ru": "Год назад журнал Vanity Fair выпустил номер о новом истеблишменте. Его вполне можно было бы озаглавить Мир во власти нёрдов.",
+      "en": "A year ago, Vanity Fair magazine published an issue about the new establishment. It could well have been titled 'The World in the Power of Nerds.'",
+      "zh": "一年前，《名利场》杂志出版了一期关于新权贵的专刊。完全可以把它命名为《书呆子掌控的世界》。",
+      "ja": "一年前、ヴァニティ・フェア誌は新しいエスタブリッシュメントについての号を出した。「ナードが支配する世界」というタイトルでも良かっただろう。"
+    },
+    {
+      "id": 5,
+      "ru": "Интернет обеспечил тех, над кем хихикали девочки и издевались гопники, шансом подчинить себе мир, облагоразумить его и упорядочить.",
+      "en": "The internet gave those who were giggled at by girls and bullied by gopniks the chance to subjugate the world, to bring reason and order to it.",
+      "zh": "互联网给了那些被女孩们嘲笑、被小混混欺负的人一个机会——征服世界，使其变得理性而有序。",
+      "ja": "インターネットは、女の子たちにクスクス笑われ、ゴプニキにいじめられていた者たちに、世界を征服し、理性と秩序をもたらす機会を与えた。"
+    },
+    {
+      "id": 6,
+      "ru": "Ботаниками в руки попало сильнейшее оружие, и им открылось, что код способен изменить мир без посредников. Нажал ввод -- и things will never be the same again.",
+      "en": "The nerds got their hands on the most powerful weapon, and they discovered that code can change the world without intermediaries. Press Enter -- and things will never be the same again.",
+      "zh": "书呆子们获得了最强大的武器，他们发现代码可以不通过中间人改变世界。按下回车键——一切都将不同。",
+      "ja": "オタクたちは最も強力な武器を手に入れ、コードが仲介者なしに世界を変えられることを発見した。Enterキーを押せば――もう二度と同じではない。"
+    },
+    {
+      "id": 7,
+      "ru": "Мир ловил меня, но не поймал, писал философ Григорий Сковорода. Ботаники поймали мир, и Павел Дуров казался типичным генералом этой армии ночи.",
+      "en": "'The world tried to catch me, but didn't,' wrote philosopher Grigory Skovoroda. The nerds caught the world, and Pavel Durov seemed like a typical general of this army of the night.",
+      "zh": "'世界试图抓住我，但没有成功，'哲学家格里戈里·斯科沃罗达写道。书呆子们抓住了世界，而帕维尔·杜罗夫似乎是这支暗夜军队的典型将军。",
+      "ja": "「世界は私を捕まえようとしたが、捕まえられなかった」と哲学者グリゴリー・スコヴォロダは書いた。ナードたちは世界を捕まえ、パーヴェル・ドゥーロフはこの夜の軍隊の典型的な将軍のように見えた。"
+    },
+    {
+      "id": 8,
+      "ru": "Лишь когда меня рекомендовали буквально со всех сторон, ответил в интернет-мессенджере, что не хочет давать интервью Forbes, так как ему плевать на деньги.",
+      "en": "Only when I was recommended from literally all sides did he reply in an internet messenger that he didn't want to give an interview to Forbes because he didn't care about money.",
+      "zh": "直到我被四面八方的人推荐后，他才在网络聊天软件里回复说，他不想接受《福布斯》的采访，因为他对钱不感兴趣。",
+      "ja": "文字通り四方八方から推薦されて初めて、彼はインターネットメッセンジャーで、フォーブスのインタビューを受けたくない、お金には興味がないと返事をした。"
+    }
+  ],
+  "translator_notes": [
+    "Page 10 continues author's philosophical reflection and begins explaining how the book came to be",
+    "CNS (ЦНС) = Central Nervous System - metaphor for social networks",
+    "Gopniks (гопники) - Russian street thugs who bully intellectuals",
+    "Grigory Skovoroda - 18th century Ukrainian philosopher, his epitaph quote used metaphorically",
+    "Vanity Fair New Establishment list - annual ranking of tech/media power brokers",
+    "The 'army of the night' - poetic reference to programmers working late hours"
+  ],
+  "research_used": [
+    "Grigory Skovoroda (1722-1794) - Ukrainian philosopher, epitaph: 'The world tried to catch me, but didn't'",
+    "Vanity Fair New Establishment - annual list of influential people in tech and media",
+    "Gopnik subculture in Russia"
+  ]
+}
