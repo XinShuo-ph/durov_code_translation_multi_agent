@@ -1,0 +1,5 @@
+PyPDF2
+pdfminer.six
+reportlab
+fpdf2
+pytest

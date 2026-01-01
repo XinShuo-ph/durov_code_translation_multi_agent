@@ -8,18 +8,18 @@
 
 ## Current Milestone
 - **Milestone**: M0
-- **Status**: starting
+- **Status**: completed
 
 ## M0 Task Status
 | Task ID | Description | Status | Result Hash |
 |---------|-------------|--------|-------------|
-| M0.1 | Install dependencies | pending | - |
-| M0.2 | Extract PDF text | pending | - |
-| M0.3 | Create chapter structure | pending | - |
-| M0.4 | Research: Durov bio | pending | - |
-| M0.5 | Research: VK history | pending | - |
-| M0.6 | Research: Russia context | pending | - |
-| M0.7 | Create chapter summaries | pending | - |
+| M0.1 | Install dependencies | done | - |
+| M0.2 | Extract PDF text | done | 0fa58972 |
+| M0.3 | Create chapter structure | done | 61f5c0f2 |
+| M0.4 | Research: Durov bio | done | 714195a7 |
+| M0.5 | Research: VK history | done | 2b0cc5b8 |
+| M0.6 | Research: Russia context | done | c0a683d4 |
+| M0.7 | Create chapter summaries | done | e4b2ca1d |
 
 ## M1 Task Status
 | Task ID | Description | Status | Result |
@@ -51,10 +51,11 @@ Last sync: 2026-01-01T00:00:00Z
 | cursor/book-translation-multi-agent-f6c8 | f6c8 | 1735689600 | starting |
 
 ## Messages to Other Workers
-[None]
+M0 tasks completed. Waiting for others to verify or catch up.
 
 ## Blockers
 [None]
 
 ## Session Log
 - 2026-01-01T00:00:00Z: Worker initialized
+- 2026-01-01T00:00:00Z: M0 tasks completed
