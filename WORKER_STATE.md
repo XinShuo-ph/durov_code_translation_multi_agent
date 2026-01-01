@@ -7,8 +7,8 @@
 - **Heartbeat**: 1767242760
 
 ## Current Milestone
-- **Milestone**: M1
-- **Status**: completed
+- **Milestone**: M2
+- **Status**: translating
 
 ## M0 Task Status
 | Task ID | Description | Status | Result Hash |
@@ -35,6 +35,7 @@
 ## M2 Page Claims
 | Page | Status | Started | Completed | Hash |
 |------|--------|---------|-----------|------|
+| 1 | claiming | 2026-01-01T04:48:00Z | - | - |
 
 ## Consensus Votes
 | Topic | My Vote | Timestamp |
