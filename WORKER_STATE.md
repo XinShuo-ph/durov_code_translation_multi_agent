@@ -3,19 +3,19 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-02bd
 - **Short ID**: 02bd
-- **Heartbeat**: 1767251970
-- **Status**: online
+- **Heartbeat**: 1767251982
+- **Status**: translating
 
 ## Current Work
-- **Claimed Page**: none
-- **Started At**: -
+- **Claimed Page**: 5
+- **Started At**: 1767251982
 
 ## Completed Pages
 | Page | Completed At | Hash |
 |------|--------------|------|
 | 2    | 1767251909   | 9541bfeb |
 | 3    | 1767251938   | 507bd5df |
-| 4    | 1767251970 | f03d77fb |
+| 4    | 1767251970   | f03d77fb |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
@@ -40,4 +40,4 @@
 | b9fb     | offline| unknown      | -1767251814    |
 
 ## Notes
-Completed page 4. Moving to page 5 (Preface begins).
+Starting page 5 (Preface by Yuri Saprykin).
