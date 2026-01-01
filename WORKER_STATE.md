@@ -3,12 +3,12 @@
 ## Identity
 - **Branch**: cursor/book-translation-multi-agent-f6c8
 - **Short ID**: f6c8
-- **Last Updated**: 2026-01-01T00:05:00Z
-- **Heartbeat**: 1767241900
+- **Last Updated**: 2026-01-01T00:10:00Z
+- **Heartbeat**: 1767242300
 
 ## Current Milestone
 - **Milestone**: M0
-- **Status**: working
+- **Status**: completed
 
 ## M0 Task Status
 | Task ID | Description | Status | Result Hash |
@@ -19,7 +19,7 @@
 | M0.4 | Research: Durov bio | done | 31d617ad |
 | M0.5 | Research: VK history | done | 2447a5b5 |
 | M0.6 | Research: Russia context | done | 5175ab38 |
-| M0.7 | Create chapter summaries | pending | - |
+| M0.7 | Create chapter summaries | done | cd17d763 |
 
 ## M1 Task Status
 | Task ID | Description | Status | Result |
