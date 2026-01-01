@@ -1,0 +1,286 @@
+{
+  "page": 60,
+  "chapter": 4,
+  "chapter_title": "Сок черешни (Cherry Juice)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "предназначен для дисциплинирования молодых сотрудников. В квартире они теряют ощущение, что здесь надо работать».",
+      "en": "is meant for disciplining young employees. In an apartment they lose the sense that they're supposed to work here.'",
+      "zh": "是用来约束年轻员工的。在公寓里他们失去了这里是工作场所的感觉。」",
+      "ja": "は若い従業員を規律づけるためのものだ。アパートでは、ここで働くべきだという感覚を失う。」"
+    },
+    {
+      "id": 2,
+      "ru": "Кроме того, для десятков миллионов юзеров «ВКонтакте» отсутствовала служба техподдержки.",
+      "en": "Besides, for tens of millions of VKontakte users, there was no tech support service.",
+      "zh": "此外，对于数千万VKontakte用户来说，没有技术支持服务。",
+      "ja": "さらに、数千万人のVKontakteユーザーに対して、技術サポートサービスが存在しなかった。"
+    },
+    {
+      "id": 3,
+      "ru": "Публика, не читавшая посты Дурова, не знала историю сети и не понимала ценностей ее создателей.",
+      "en": "The public that didn't read Durov's posts didn't know the network's history and didn't understand the values of its creators.",
+      "zh": "不读杜罗夫帖子的公众不了解网络的历史，也不理解创建者的价值观。",
+      "ja": "ドゥーロフの投稿を読まない人々は、ネットワークの歴史を知らず、創設者の価値観を理解していなかった。"
+    },
+    {
+      "id": 4,
+      "ru": "С журналистами и сетевыми авторитетами никто не коммуницировал.",
+      "en": "Nobody communicated with journalists and online influencers.",
+      "zh": "没有人与记者和网络意见领袖沟通。",
+      "ja": "ジャーナリストやオンラインインフルエンサーとコミュニケーションを取る人はいなかった。"
+    },
+    {
+      "id": 5,
+      "ru": "Впрочем, рефлексия настигла архитектора через три года, а тогда, после рождественских праздников, «ВКонтакте» меняли сайт семимильными шагами, не вылезая с Невского, 65, по выходным, с утра до ночи.",
+      "en": "However, reflection caught up with the architect three years later, and back then, after the Christmas holidays, VKontakte was changing the site in leaps and bounds, not leaving Nevsky 65 on weekends, from morning to night.",
+      "zh": "然而，反思在三年后才追上这位架构师，而当时，圣诞节假期过后，VKontakte正在大步改变网站，周末从早到晚都不离开涅夫斯基65号。",
+      "ja": "しかし、反省は3年後にアーキテクトを追いついた。当時、クリスマス休暇の後、VKontakteは飛躍的にサイトを変更しており、週末もネフスキー65番地から出ず、朝から夜まで働いていた。"
+    },
+    {
+      "id": 6,
+      "ru": "Начали разрабатывать систему таргетинга рекламы, переделывали систему поиска по людям, вузам, фильмам, песням.",
+      "en": "They began developing an ad targeting system, redesigning the search system for people, universities, films, songs.",
+      "zh": "他们开始开发广告定向系统，重新设计人员、大学、电影、歌曲的搜索系统。",
+      "ja": "彼らは広告ターゲティングシステムの開発を始め、人、大学、映画、曲の検索システムを作り直していた。"
+    },
+    {
+      "id": 7,
+      "ru": "Новый движок Николай пригласил писать Андрея Лопатина, тренера сборной России по программированию.",
+      "en": "Nikolai invited Andrey Lopatin, coach of the Russian national programming team, to write the new engine.",
+      "zh": "尼古拉邀请了俄罗斯编程国家队教练安德烈·洛帕廷来编写新引擎。",
+      "ja": "ニコライは、ロシアプログラミングナショナルチームのコーチであるアンドレイ・ロパティンを招いて新しいエンジンを書いた。"
+    },
+    {
+      "id": 8,
+      "ru": "Предстояло ускорить сайт – базы данных хранения не справлялись с росшим объемом информации.",
+      "en": "The site needed to be accelerated—the storage databases couldn't cope with the growing volume of information.",
+      "zh": "需要加速网站——存储数据库无法应对不断增长的信息量。",
+      "ja": "サイトを高速化する必要があった——ストレージデータベースは増加する情報量に対応できなくなっていた。"
+    },
+    {
+      "id": 9,
+      "ru": "Рогозов перекроил платформу.",
+      "en": "Rogozov redesigned the platform.",
+      "zh": "罗戈佐夫重新设计了平台。",
+      "ja": "ロゴゾフはプラットフォームを再設計した。"
+    },
+    {
+      "id": 10,
+      "ru": "Коллеги одобрили новую версию, и оставалось лишь написать документацию – как кодерам пользоваться API.",
+      "en": "Colleagues approved the new version, and all that remained was to write the documentation—how coders should use the API.",
+      "zh": "同事们批准了新版本，剩下的只是编写文档——程序员如何使用API。",
+      "ja": "同僚たちは新しいバージョンを承認し、残っているのはドキュメントを書くこと——コーダーがAPIをどう使うかだけだった。"
+    },
+    {
+      "id": 11,
+      "ru": "Дело было перед выходными, на которые он собирался ехать в Таллин.",
+      "en": "This was before the weekend, for which he was planning to go to Tallinn.",
+      "zh": "这是在周末之前，他计划去塔林。",
+      "ja": "それは週末の前で、彼はタリンに行く予定だった。"
+    },
+    {
+      "id": 12,
+      "ru": "Рогозов пришел отпрашиваться к Дурову.",
+      "en": "Rogozov came to ask Durov for time off.",
+      "zh": "罗戈佐夫来向杜罗夫请假。",
+      "ja": "ロゴゾフはドゥーロフに休暇を願い出に来た。"
+    },
+    {
+      "id": 13,
+      "ru": "Тот выслушал его и сказал: «Нет, это нужно сейчас».",
+      "en": "He listened to him and said: 'No, this needs to be done now.'",
+      "zh": "他听完后说：「不，这必须现在完成。」",
+      "ja": "彼はそれを聞いて言った：「いや、これは今やる必要がある。」"
+    },
+    {
+      "id": 14,
+      "ru": "– «Но у меня автобус в семь утра!»",
+      "en": "'But my bus is at seven in the morning!'",
+      "zh": "「但我的巴士早上七点出发！」",
+      "ja": "「でも私のバスは朝7時なんです！」"
+    },
+    {
+      "id": 15,
+      "ru": "– «У тебя достаточно времени до семи».",
+      "en": "'You have enough time until seven.'",
+      "zh": "「你有足够的时间到七点。」",
+      "ja": "「7時までには十分時間がある。」"
+    },
+    {
+      "id": 16,
+      "ru": "Проклиная все на свете, Рогозов сел за текст, поручив взбешенной Эльнаре упаковать чемоданы.",
+      "en": "Cursing everything in the world, Rogozov sat down to write, tasking the furious Elnara with packing the suitcases.",
+      "zh": "罗戈佐夫诅咒着世间万物，坐下来写文档，让愤怒的埃尔纳拉打包行李。",
+      "ja": "世の中のすべてを呪いながら、ロゴゾフは書き始め、怒り狂うエルナラにスーツケースの荷造りを任せた。"
+    },
+    {
+      "id": 17,
+      "ru": "Они успели на автобус.",
+      "en": "They made it to the bus.",
+      "zh": "他们赶上了巴士。",
+      "ja": "彼らはバスに間に合った。"
+    },
+    {
+      "id": 18,
+      "ru": "Солнце красило муравейник в охру и бликовало в его стеклянных панелях.",
+      "en": "The sun painted the anthill in ochre and glinted off its glass panels.",
+      "zh": "阳光把这座蚁穴染成赭色，在玻璃板上闪闪发光。",
+      "ja": "太陽が蟻塚を黄土色に染め、ガラスパネルに反射していた。"
+    },
+    {
+      "id": 19,
+      "ru": "Муравьи жили свою жизнь и к вечеру затихали – накидывали на плечо рюкзаки и исчезали.",
+      "en": "The ants lived their lives and quieted down toward evening—throwing backpacks over their shoulders and disappearing.",
+      "zh": "蚂蚁们过着自己的生活，到了傍晚就安静下来——背上背包消失了。",
+      "ja": "蟻たちは自分たちの生活を送り、夕方になると静かになった——リュックサックを肩に掛けて消えていった。"
+    },
+    {
+      "id": 20,
+      "ru": "Они одевались похоже – либеральный casual: тенниски, шлепанцы, джинсы.",
+      "en": "They dressed similarly—liberal casual: t-shirts, flip-flops, jeans.",
+      "zh": "他们穿着相似——自由休闲风：T恤、拖鞋、牛仔裤。",
+      "ja": "彼らは同じような服装をしていた——リベラルなカジュアル：Tシャツ、サンダル、ジーンズ。"
+    },
+    {
+      "id": 21,
+      "ru": "Их исход напоминал вечерний отлив на шумящем неподалеку океане.",
+      "en": "Their exodus resembled the evening tide on the ocean roaring nearby.",
+      "zh": "他们的离去就像附近喧嚣的海洋上的傍晚退潮。",
+      "ja": "彼らの退出は、近くで轟く海の夕方の引き潮を思わせた。"
+    },
+    {
+      "id": 22,
+      "ru": "Компьютеры с погасшими мониторами напоминали коконы с людьми из «Матрицы».",
+      "en": "Computers with darkened monitors resembled the cocoons with people from The Matrix.",
+      "zh": "关闭屏幕的电脑让人联想起《黑客帝国》里装着人的茧。",
+      "ja": "モニターが消えたコンピュータは、『マトリックス』の人々が入っているコクーンを思わせた。"
+    },
+    {
+      "id": 23,
+      "ru": "К каждому из-под потолка шла пуповина кабеля, через которую машины высасывали энергию.",
+      "en": "From the ceiling to each one ran an umbilical cord of cable through which the machines sucked energy.",
+      "zh": "从天花板到每台电脑都有一根脐带般的电缆，机器通过它吸取能量。",
+      "ja": "天井から各コンピュータにケーブルの臍の緒が伸びており、そこから機械がエネルギーを吸い取っていた。"
+    },
+    {
+      "id": 24,
+      "ru": "Там же, под потолком, покачивались флаги Индии, Китая, Чехии и других стран, чьи граждане до шести вечера трудились в коконе.",
+      "en": "There too, under the ceiling, swayed the flags of India, China, Czechia, and other countries whose citizens worked in the cocoon until six in the evening.",
+      "zh": "同样在天花板下，飘扬着印度、中国、捷克和其他国家的旗帜，这些国家的公民在茧中工作到晚上六点。",
+      "ja": "同じく天井の下で、インド、中国、チェコ、その他の国の旗が揺れていた。それらの国の市民は夕方6時までコクーンで働いていた。"
+    },
+    {
+      "id": 25,
+      "ru": "Консильери бежали сквозь муравейник, чтобы успеть на встречу с его правительницей, и успели, но разговор получился малопродуктивный.",
+      "en": "The consiglieri ran through the anthill to make it to their meeting with its ruler, and they made it, but the conversation was unproductive.",
+      "zh": "顾问们穿过蚁穴跑着去见它的统治者，他们赶上了，但谈话没有什么成果。",
+      "ja": "コンシリエリたちは蟻塚を駆け抜けて支配者との会議に間に合った。間に合ったが、会話はあまり生産的ではなかった。"
+    },
+    {
+      "id": 26,
+      "ru": "«О, гости из России, сейчас я принесу вам сувениров», – сказала правительница, известная тем, что умела отстаивать интересы муравейника в самых высоких кабинетах.",
+      "en": "'Oh, guests from Russia, let me bring you some souvenirs,' said the ruler, known for being able to defend the anthill's interests in the highest offices.",
+      "zh": "「哦，来自俄罗斯的客人，我给你们拿些纪念品，」这位统治者说道，她以能够在最高级别的办公室维护蚁穴的利益而闻名。",
+      "ja": "「ああ、ロシアからのお客さん、お土産を持ってきましょう」と支配者は言った。彼女は最高位のオフィスで蟻塚の利益を守れることで知られていた。"
+    },
+    {
+      "id": 27,
+      "ru": "Вернувшись, она вручила каждому синий значок с надписью Facebook.",
+      "en": "Returning, she handed each of them a blue badge with the inscription Facebook.",
+      "zh": "回来后，她给每人发了一个写着Facebook的蓝色徽章。",
+      "ja": "戻ってきて、彼女は一人一人にFacebookと書かれた青いバッジを渡した。"
+    },
+    {
+      "id": 28,
+      "ru": "Это напоминало обмен вымпелами перед футбольным матчем, когда через минуту после свистка начинаются тычки и грязные подкаты.",
+      "en": "This resembled the exchange of pennants before a football match, when a minute after the whistle the jabs and dirty tackles begin.",
+      "zh": "这让人想起足球赛前交换锦旗的场景，开场哨声响起一分钟后就开始推搡和恶意铲球。",
+      "ja": "これはサッカーの試合前のペナント交換を思わせた。笛が鳴って1分後には小突きやダーティなタックルが始まる。"
+    },
+    {
+      "id": 29,
+      "ru": "Содержательный разговор между Дуровым и коммерческим директором Facebook Шерил Сэндберг так и не состоялся, хотя «ВКонтакте» проторчали в штаб-квартире конкурентов несколько дней.",
+      "en": "A substantive conversation between Durov and Facebook's COO Sheryl Sandberg never took place, although VKontakte spent several days at the competitors' headquarters.",
+      "zh": "杜罗夫与Facebook首席运营官雪莉·桑德伯格之间没有进行实质性对话，尽管VKontakte在竞争对手的总部待了好几天。",
+      "ja": "ドゥーロフとFacebookのCOOシェリル・サンドバーグの間で実質的な会話は行われなかった。VKontakteは競合他社の本社で数日過ごしたにもかかわらず。"
+    },
+    {
+      "id": 30,
+      "ru": "Впрочем, Дуров не расстроился.",
+      "en": "However, Durov wasn't upset.",
+      "zh": "不过，杜罗夫并不沮丧。",
+      "ja": "しかし、ドゥーロフは落胆しなかった。"
+    },
+    {
+      "id": 31,
+      "ru": "Главная встреча была впереди – Марк Цукерберг позвал их с Рогозовым на ужин.",
+      "en": "The main meeting was ahead—Mark Zuckerberg had invited him and Rogozov to dinner.",
+      "zh": "主要的会面还在后头——马克·扎克伯格邀请他和罗戈佐夫共进晚餐。",
+      "ja": "メインの会議はこれからだった——マーク・ザッカーバーグが彼とロゴゾフを夕食に招待していた。"
+    },
+    {
+      "id": 32,
+      "ru": "До этого дня два тотема даже не переписывались.",
+      "en": "Until that day, the two totems hadn't even corresponded.",
+      "zh": "在那天之前，两位「图腾」甚至没有通信过。",
+      "ja": "その日まで、2人のトーテムは文通さえしていなかった。"
+    },
+    {
+      "id": 33,
+      "ru": "Диспозиция выглядела так.",
+      "en": "The setup looked like this.",
+      "zh": "情况是这样的。",
+      "ja": "状況はこうだった。"
+    },
+    {
+      "id": 34,
+      "ru": "Известный любовью к тусовкам своих подопечных Мильнер старался, чтобы гении взаимодействовали друг с другом, и пригласил Дурова и компанию в тур по США.",
+      "en": "Known for his love of gatherings of his protégés, Milner tried to have geniuses interact with each other and invited Durov and company on a tour of the USA.",
+      "zh": "以喜欢让门生们聚会而闻名的米尔纳，努力让天才们互相交流，并邀请杜罗夫一行到美国参观。",
+      "ja": "門下生の集まりを好むことで知られるミルナーは、天才たちが互いに交流するようにし、ドゥーロフと仲間をアメリカツアーに招待した。"
+    },
+    {
+      "id": 35,
+      "ru": "Мильнер крутил деньги мощного партнера – Алишера Усманова – и договорился инвестировать около 800 млн долларов из кошелька этого участника списка Forbes в интернет.",
+      "en": "Milner was managing the money of a powerful partner—Alisher Usmanov—and had arranged to invest about 800 million dollars from this Forbes list member's wallet into the internet.",
+      "zh": "米尔纳在管理一位强大合作伙伴——阿利舍尔·乌斯马诺夫的资金，并安排将这位福布斯富豪约8亿美元投资于互联网。",
+      "ja": "ミルナーは強力なパートナー、アリシェル・ウスマノフの資金を運用しており、このフォーブスリストのメンバーの財布から約8億ドルをインターネットに投資することを取り決めていた。"
+    },
+    {
+      "id": 36,
+      "ru": "Объектом он выбрал новые медиа – социальные платформы, на которых люди общаются и сами создают контент.",
+      "en": "He chose new media as the target—social platforms where people communicate and create content themselves.",
+      "zh": "他选择新媒体作为目标——人们在社交平台上交流并自己创造内容。",
+      "ja": "彼はターゲットとしてニューメディアを選んだ——人々がコミュニケーションし、自分でコンテンツを作成するソーシャルプラットフォームだ。"
+    },
+    {
+      "id": 37,
+      "ru": "«Могильщик веба», – писал о Мильнере журнал Wired.",
+      "en": "'The gravedigger of the web,' Wired magazine wrote about Milner.",
+      "zh": "「网络的掘墓人，」《连线》杂志这样写米尔纳。",
+      "ja": "「ウェブの墓掘り人」とワイアード誌はミルナーについて書いた。"
+    },
+    {
+      "id": 38,
+      "ru": "Очарованию DST поддались Facebook, Groupon и Zynga.",
+      "en": "Facebook, Groupon, and Zynga succumbed to DST's charm.",
+      "zh": "Facebook、Groupon和Zynga都被DST的魅力所征服。",
+      "ja": "Facebook、Groupon、ZyngaはDSTの魅力に屈した。"
+    }
+  ],
+  "translator_notes": [
+    "Nevsky 65 refers to the VKontakte office address on Nevsky Prospekt in St. Petersburg",
+    "Andrey Lopatin is a legendary competitive programming coach who trained many world champions",
+    "The 'anthill' metaphor describes Facebook's headquarters in Menlo Park, California",
+    "The Matrix references continue the theme of programmers as 'pod people' connected to machines",
+    "The 'ruler' is Sheryl Sandberg, Facebook's COO (later author of 'Lean In')",
+    "Alisher Usmanov is a Russian-Uzbek billionaire who was a major investor in DST Global",
+    "DST Global (Digital Sky Technologies) was Milner's investment vehicle",
+    "The 'two totems' meeting refers to Durov and Zuckerberg - both seen as iconic tech leaders",
+    "Wired's 'gravedigger of the web' refers to the shift from open web to walled-garden platforms"
+  ],
+  "total_sentences": 38,
+  "page_type": "narrative"
+}
