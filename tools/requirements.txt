@@ -1,0 +1,16 @@
+# Python dependencies for Durov Code Translation Project
+
+# PDF processing
+pdfminer.six>=20221105
+PyMuPDF>=1.23.0
+
+# PDF generation
+reportlab>=4.0.0
+fpdf2>=2.7.0
+
+# General utilities
+Pillow>=10.0.0
+fonttools>=4.0.0
+
+# Optional: for advanced text processing
+defusedxml>=0.7.0
