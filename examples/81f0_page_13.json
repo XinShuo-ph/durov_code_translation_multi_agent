@@ -1,0 +1,22 @@
+{
+  "page": 13,
+  "chapter": 1,
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Мальчик с томом Сервантеса выходит из подъезда, огибает автомобиль, который какой-то негодяй поставил так, что пешеходы еле протискиваются мимо, и сворачивает за угол.",
+      "en": "A boy with a volume of Cervantes exits the building entrance, skirts a car that some scoundrel parked so that pedestrians can barely squeeze by, and turns the corner.",
+      "zh": "一个手捧塞万提斯著作的男孩走出楼门，绕过一辆汽车——这辆车被哪个混蛋停得让行人几乎挤不过去——然后拐过了街角。",
+      "ja": "セルバンテスの本を持った少年が入り口から出て、歩行者がかろうじて通り抜けられるような場所に誰かのろくでなしが停めた車を迂回し、角を曲がった。"
+    },
+    {
+      "id": 2,
+      "ru": "Перед ним пустынные кварталы, поля и высоковольтные вышки, а в физиономию дует ветер – как везде в Петербурге, но в этом районе особенно. Рядом море.",
+      "en": "Before him lie deserted blocks, fields, and high-voltage towers, and the wind blows in his face—as everywhere in St. Petersburg, but especially in this district. The sea is nearby.",
+      "zh": "在他面前是空荡荡的街区、田野和高压电塔，风吹打着他的脸——就像在圣彼得堡各地一样，但在这一带尤甚。海就在附近。",
+      "ja": "目の前には荒涼とした街区、野原、高圧鉄塔が広がり、風が彼の顔に吹き付けている――サンクトペテルブルクのどこでもそうだが、この地区では特に強い。海が近くだからだ。"
+    }
+  ],
+  "translator_notes": ["Demo translation for M1.5"],
+  "research_used": []
+}
