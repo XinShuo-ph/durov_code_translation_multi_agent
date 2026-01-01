@@ -1,0 +1,154 @@
+{
+  "page": 78,
+  "chapter": 5,
+  "chapter_title": "Стена (The Wall)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "информационной бомбы у него не осталось иного выхода. Маска воина прирастала к его лицу.",
+      "en": "...information bomb he had no other choice left. The warrior's mask was growing to his face.",
+      "zh": "……信息炸弹爆炸后，他别无选择。战士的面具正长在他的脸上。",
+      "ja": "……情報爆弾が爆発した後、彼には他に選択肢が残されていなかった。戦士の仮面は彼の顔に張り付きつつあった。"
+    },
+    {
+      "id": 2,
+      "ru": "Дуров созвал шабаш под стеклянным шаром.",
+      "en": "Durov convened a sabbath under the glass globe.",
+      "zh": "杜罗夫在玻璃球下召集了一次聚会。",
+      "ja": "ドゥーロフはガラスの球体の下でサバトを招集した。"
+    },
+    {
+      "id": 3,
+      "ru": "Перекопский, Равдоникас и Цыплухин заслушали доклад на тему «менеджерьё окружает».",
+      "en": "Perekopsky, Ravdonikas and Tsyplukhin heard a report on the topic \"managers are surrounding\".",
+      "zh": "佩列科普斯基、拉夫多尼卡斯和齐普卢欣听取了题为“经理们正在包围”的报告。",
+      "ja": "ペレコプスキー、ラブドニカス、ツィプルヒンは「マネージャーどもが包囲している」というテーマの報告を聞いた。"
+    },
+    {
+      "id": 4,
+      "ru": "После недолгих прений Дуров опубликовал ответ акционеру:",
+      "en": "After a short debate, Durov published a response to the shareholder:",
+      "zh": "经过短暂的辩论，杜罗夫发表了给股东的答复：",
+      "ja": "短い議論の後、ドゥーロフは株主への回答を公開した："
+    },
+    {
+      "id": 5,
+      "ru": "«Контрольный пакет „ВКонтакте“ принадлежит основателям.",
+      "en": "\"The controlling stake of 'VKontakte' belongs to the founders.",
+      "zh": "“‘VKontakte’的控股权属于创始人。",
+      "ja": "「『VKontakte』の支配権は創業者に帰属します。"
+    },
+    {
+      "id": 6,
+      "ru": "Планов менять текущее положение дел не существует.",
+      "en": "There are no plans to change the current state of affairs.",
+      "zh": "没有改变现状的计划。",
+      "ja": "現状を変更する計画は存在しません。"
+    },
+    {
+      "id": 7,
+      "ru": "Слухи о том, что Mail.ru Group находится в процессе переговоров о покупке компании „ВКонтакте“, не соответствуют действительности.",
+      "en": "Rumors that Mail.ru Group is in the process of negotiations on the purchase of the company 'VKontakte' do not correspond to reality.",
+      "zh": "关于 Mail.ru Group 正在谈判收购‘VKontakte’公司的传言不属实。",
+      "ja": "Mail.ru Groupが『VKontakte』の買収交渉中であるという噂は事実無根です。"
+    },
+    {
+      "id": 8,
+      "ru": "Ситуацию, при которой „ВКонтакте“ полностью входит в холдинг, мы исключаем и считаем утопичной».",
+      "en": "We exclude the situation in which 'VKontakte' fully enters the holding and consider it utopian.\"",
+      "zh": "我们排除‘VKontakte’完全并入控股公司的情况，并认为这是乌托邦式的幻想。”",
+      "ja": "『VKontakte』が完全にホールディングの傘下に入るという状況は除外しており、ユートピア的だと考えています」"
+    },
+    {
+      "id": 9,
+      "ru": "Среди песен во вкладке «война» у него появилась Sweet Dreams из блокбастера «Запрещенный прием», ремикс хита Eurythmics:",
+      "en": "Among the songs in the \"war\" tab, he had Sweet Dreams from the blockbuster \"Sucker Punch\", a remix of the Eurythmics hit:",
+      "zh": "在“战争”标签的歌曲中，出现了大片《美少女特攻队》中的《Sweet Dreams》，这是 Eurythmics 热门歌曲的混音版：",
+      "ja": "「戦争」タブの曲の中に、大作映画『エンジェル ウォーズ』からの「Sweet Dreams」（ユーリズミックスのヒット曲のリミックス）が現れた："
+    },
+    {
+      "id": 10,
+      "ru": "Some of them want to use you,\nsome of them to get used by you.\nSome of them want to abuse you,\nsome of them want to be abused.",
+      "en": "Some of them want to use you,\nsome of them to get used by you.\nSome of them want to abuse you,\nsome of them want to be abused.",
+      "zh": "Some of them want to use you,\nsome of them to get used by you.\nSome of them want to abuse you,\nsome of them want to be abused.",
+      "ja": "Some of them want to use you,\nsome of them to get used by you.\nSome of them want to abuse you,\nsome of them want to be abused."
+    },
+    {
+      "id": 11,
+      "ru": "Сюжет выглядит так: отчим сдает девочку-подростка в психушку, чтобы завладеть имуществом ее умершей матери.",
+      "en": "The plot looks like this: a stepfather puts a teenage girl in a mental hospital to take possession of her deceased mother's property.",
+      "zh": "情节是这样的：继父把少女送进精神病院，为了霸占她已故母亲的财产。",
+      "ja": "プロットはこうだ：継父が亡き妻の財産を横領するため、継娘を精神病院に入れる。"
+    },
+    {
+      "id": 12,
+      "ru": "Падчерица знакомится с такими же несчастными, упрятанными в клинику.",
+      "en": "The stepdaughter meets the same unfortunates hidden in the clinic.",
+      "zh": "继女结识了同样不幸被关在诊所里的人。",
+      "ja": "継娘は、同じように病院に閉じ込められた不幸な少女たちと出会う。"
+    },
+    {
+      "id": 13,
+      "ru": "Ее приговаривают к лоботомии, но внезапно реальности наслаиваются друг на друга, и они с сокамерницами оказываются труппой стрип-шоу, а главврач – сутенером.",
+      "en": "She is sentenced to a lobotomy, but suddenly realities layer on top of each other, and she and her cellmates turn out to be a strip show troupe, and the head doctor is a pimp.",
+      "zh": "她被判处脑叶白质切除术，但现实突然重叠，她和狱友变成了脱衣舞团，而主治医生则是皮条客。",
+      "ja": "彼女はロボトミー手術を宣告されるが、突然現実が重なり合い、彼女とルームメイトたちはストリップショーの劇団員に、院長はポン引きになる。"
+    },
+    {
+      "id": 14,
+      "ru": "Еще смена реальностей, и они в средневековой Японии.",
+      "en": "Another change of realities, and they are in medieval Japan.",
+      "zh": "现实再次转换，她们到了中世纪的日本。",
+      "ja": "さらなる現実の転換で、彼女たちは中世の日本にいる。"
+    },
+    {
+      "id": 15,
+      "ru": "Еще – и в эпоху Первой мировой.",
+      "en": "Another – and in the era of the First World War.",
+      "zh": "再一次——到了第一次世界大战时期。",
+      "ja": "さらに――第一次世界大戦の時代へ。"
+    },
+    {
+      "id": 16,
+      "ru": "У каждой прозвище-амплуа: Куколка, Милашка, Ракета, Блонди.",
+      "en": "Each has a nickname-role: Baby Doll, Sweet Pea, Rocket, Blondie.",
+      "zh": "每个人都有一个绰号兼角色：洋娃娃、甜豆、火箭、金发女。",
+      "ja": "それぞれに役割を表すあだ名がある：ベイビードール、スイートピー、ロケット、ブロンディ。"
+    },
+    {
+      "id": 17,
+      "ru": "Обитатели Зингера напоминали такую же банду – циник и любитель денег Перекопский, танцор и поэт Равдоникас, пиарщик Цыплухин, превратившийся из сутулого очкарика в героя радиошоу «Школа соблазнения».",
+      "en": "The inhabitants of Singer resembled the same gang – the cynic and money lover Perekopsky, the dancer and poet Ravdonikas, the PR man Tsyplukhin, who turned from a stooping spectacle-wearer into a hero of the radio show \"School of Seduction\".",
+      "zh": "辛格大楼的居民就像这样一帮人——愤世嫉俗且爱钱的佩列科普斯基，舞者兼诗人拉夫多尼卡斯，从驼背眼镜男变成广播节目“诱惑学校”主角的公关人员齐普卢欣。",
+      "ja": "シンガーハウスの住人たちは、同じようなギャング団を思わせた――シニカルで拝金主義のペレコプスキー、ダンサーで詩人のラブドニカス、猫背の眼鏡男子からラジオ番組「誘惑の学校」のヒーローへと変貌した広報担当ツィプルヒン。"
+    },
+    {
+      "id": 18,
+      "ru": "Нёрды перезарядили оружие и приготовились обороняться.",
+      "en": "The nerds reloaded their weapons and prepared to defend themselves.",
+      "zh": "极客们重新装填武器，准备防御。",
+      "ja": "オタクたちは武器をリロードし、防御の準備をした。"
+    },
+    {
+      "id": 19,
+      "ru": "Если насчет прошлых войн были какие-то сомнения, кем они начаты и кому выгодны, то противостояние с Mail.ru показало: Дуров ценил врагов и обожал конфликты как средство поддержания духа.",
+      "en": "If there were any doubts about past wars, by whom they were started and to whom they were beneficial, then the confrontation with Mail.ru showed: Durov valued enemies and adored conflicts as a means of maintaining spirit.",
+      "zh": "如果说关于过去的战争还有些疑虑，不知道是谁发动的、对谁有利，那么与 Mail.ru 的对抗表明：杜罗夫重视敌人，并热衷于把冲突作为一种保持精神状态的手段。",
+      "ja": "過去の戦争について、誰が始め誰が得をしたのか疑念があったとしても、Mail.ruとの対立は次のことを示した：ドゥーロフは敵を重んじ、精神を維持する手段として争いを愛していたのだ。"
+    },
+    {
+      "id": 20,
+      "ru": "Впрочем, он вряд ли рассчитывал, что боевые сценарии однажды станут плотью от плоти реальности.",
+      "en": "However, he hardly calculated that combat scenarios would one day become flesh of the flesh of reality.",
+      "zh": "不过，他大概没料到，战斗剧本有朝一日会变成现实中的血肉。",
+      "ja": "とはいえ、戦闘シナリオがいつか現実の肉の一部となるとは、彼はほとんど計算していなかっただろう。"
+    }
+  ],
+  "translator_notes": [
+    "Sentence 1 continues from page 77.",
+    "Durov draws parallels between his team and the characters from the movie 'Sucker Punch'.",
+    "The chapter concludes with the team bracing for a real corporate war with Mail.ru Group."
+  ],
+  "total_sentences": 20,
+  "page_type": "narrative"
+}
