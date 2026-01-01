@@ -1,0 +1,329 @@
+import json
+
+page_content = {
+  "page": 48,
+  "chapter": 3,
+  "chapter_title": "Глава 3",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "...того, чтобы часть пользователей не смогла попасть на сайт.",
+      "en": "...so that a part of the users could not access the site.",
+      "zh": "……以此让部分用户无法访问网站。",
+      "ja": "……一部のユーザーがサイトにアクセスできないようにするために。"
+    },
+    {
+      "id": 2,
+      "ru": "95 % из этих искусственно создаваемых запросов шли из-за рубежа.",
+      "en": "95% of these artificially created requests came from abroad.",
+      "zh": "这些人为制造的请求中，95%来自国外。",
+      "ja": "これら人為的に作成されたリクエストの95％は海外からのものだった。"
+    },
+    {
+      "id": 3,
+      "ru": "Также мы получили серию новых коммерческих предложений, часто смешанных с угрозами.",
+      "en": "We also received a series of new commercial offers, often mixed with threats.",
+      "zh": "我们还收到了一系列新的商业提议，通常夹杂着威胁。",
+      "ja": "また、一連の新たな商業的な提案も受け取ったが、それらにはしばしば脅迫が混じっていた。"
+    },
+    {
+      "id": 4,
+      "ru": "Мы по-прежнему отклоняем предложения людей, которые хотели бы превратить студенческое сообщество в обычный бизнес.",
+      "en": "We continue to reject offers from people who would like to turn the student community into an ordinary business.",
+      "zh": "我们依然拒绝那些想把学生社区变成普通生意的人的提议。",
+      "ja": "私たちは、学生コミュニティを普通のビジネスに変えようとする人々からの提案を、相変わらず拒否し続けている。"
+    },
+    {
+      "id": 5,
+      "ru": "„ВКонтакте“ никуда и никому не будет продаваться».",
+      "en": "\"VKontakte\" will not be sold anywhere or to anyone.'",
+      "zh": "‘VKontakte’不会出售给任何地方或任何人。”",
+      "ja": "『VKontakte』はどこにも、誰にも売却されることはない」"
+    },
+    {
+      "id": 6,
+      "ru": "Строго говоря, атаки были разновидностью проблемы высоких нагрузок на сайт.",
+      "en": "Strictly speaking, the attacks were a variation of the problem of high loads on the site.",
+      "zh": "严格来说，攻击也是网站高负载问题的一种变体。",
+      "ja": "厳密に言えば、攻撃はサイトへの高負荷という問題の一種だった。"
+    },
+    {
+      "id": 7,
+      "ru": "Но здесь советы Бунина – да и никого другого – не помогали.",
+      "en": "But here Bunin's advice – and anyone else's – did not help.",
+      "zh": "但这方面布宁的建议——以及其他任何人的建议——都不管用。",
+      "ja": "しかしここでは、ブニンの助言も――他の誰の助言も――役には立たなかった。"
+    },
+    {
+      "id": 8,
+      "ru": "Дуров спал по несколько часов в день, метался злой, с мутными глазами, между серверной и компьютером и лихорадочно искал вакцину против эпидемии.",
+      "en": "Durov slept a few hours a day, rushed about angry, with cloudy eyes, between the server room and the computer, and feverishly looked for a vaccine against the epidemic.",
+      "zh": "杜罗夫每天只睡几个小时，愤怒地、两眼浑浊地在服务器机房和电脑之间奔波，狂热地寻找对抗这场瘟疫的疫苗。",
+      "ja": "ドゥーロフは1日数時間しか眠らず、怒り、濁った目でサーバールームとコンピュータの間を行き来し、熱病のように流行病に対するワクチンを探し回った。"
+    },
+    {
+      "id": 9,
+      "ru": "Наконец он наткнулся на статью в журнале «Хакер» о том, как сисадмин на языке Perl написал программу, которая вычленяет IP-адреса нападающих, и сервер блокирует их.",
+      "en": "Finally, he came across an article in the magazine 'Hacker' about how a sysadmin wrote a program in Perl that isolates the IP addresses of attackers, and the server blocks them.",
+      "zh": "终于，他在《黑客》杂志上看到一篇文章，讲一个系统管理员用Perl语言写了个程序，能筛选出攻击者的IP地址，让服务器拦截它们。",
+      "ja": "ついに彼は雑誌『ハッカー』の記事を見つけた。そこには、システム管理者がPerl言語で攻撃者のIPアドレスを抽出するプログラムを書き、サーバーがそれらをブロックする方法が書かれていた。"
+    },
+    {
+      "id": 10,
+      "ru": "Операция происходит каждые три секунды.",
+      "en": "The operation takes place every three seconds.",
+      "zh": "该操作每三秒执行一次。",
+      "ja": "その処理は3秒ごとに行われる。"
+    },
+    {
+      "id": 11,
+      "ru": "Статья подтолкнула их с братом к созданию своего защитного кода.",
+      "en": "The article pushed him and his brother to create their own protective code.",
+      "zh": "这篇文章促使他和哥哥编写了自己的防御代码。",
+      "ja": "その記事に触発され、彼と兄は独自の防御コードを作成することにした。"
+    },
+    {
+      "id": 12,
+      "ru": "Николай написал нечто похожее.",
+      "en": "Nikolai wrote something similar.",
+      "zh": "尼古拉写了个类似的东西。",
+      "ja": "ニコライは似たようなものを書いた。"
+    },
+    {
+      "id": 13,
+      "ru": "Протестировали, доработали, опять протестировали, опять доработали – и так, пока не удалось частично купировать атаки.",
+      "en": "They tested, refined, tested again, refined again – and so on, until they managed to partially curb the attacks.",
+      "zh": "测试，改进，再测试，再改进——直到成功遏制了部分攻击。",
+      "ja": "テストし、改良し、またテストし、また改良し――そうしてようやく攻撃を部分的に食い止めることができた。"
+    },
+    {
+      "id": 14,
+      "ru": "Нервотрепка продолжалась, но задача уже начала решаться.",
+      "en": "The nerve-wracking continued, but the task had already begun to be solved.",
+      "zh": "虽然依然令人抓狂，但问题已经开始得到解决。",
+      "ja": "神経をすり減らす状況は続いたが、課題は解決に向かい始めた。"
+    },
+    {
+      "id": 15,
+      "ru": "Дуров размышлял, кто мог быть заказчиком.",
+      "en": "Durov pondered who could be the customer.",
+      "zh": "杜罗夫思考着谁可能是幕后主使。",
+      "ja": "ドゥーロフは、誰が依頼主なのかと思案した。"
+    },
+    {
+      "id": 16,
+      "ru": "Предположим, конкуренты из MoiFacultet.",
+      "en": "Let's assume competitors from MoiFacultet.",
+      "zh": "假设是MoiFacultet的竞争对手。",
+      "ja": "MoiFacultetの競合他社だと仮定しよう。"
+    },
+    {
+      "id": 17,
+      "ru": "Простите, но один час такой атаки стоит 500 долларов – а «ВКонтакте» подвергали DDOS-набегам сутками.",
+      "en": "Excuse me, but one hour of such an attack costs $500 – and VKontakte was subjected to DDOS raids for days.",
+      "zh": "抱歉，这种攻击一小时就要500美元——而VKontakte遭受的DDoS攻击持续了数天。",
+      "ja": "失礼だが、そのような攻撃は1時間で500ドルかかる――そしてVKontakteは何日もDDOS攻撃にさらされていた。"
+    },
+    {
+      "id": 18,
+      "ru": "Откуда столько денег у стартапа?",
+      "en": "Where does a startup get that much money?",
+      "zh": "初创公司哪来这么多钱？",
+      "ja": "スタートアップにどこからそんな金が出るのか？"
+    },
+    {
+      "id": 19,
+      "ru": "К тому же средства явно эффективнее вложить в продвижение, серверы.",
+      "en": "Besides, it is clearly more effective to invest funds in promotion, servers.",
+      "zh": "况且，把资金投入到推广和服务器上显然更有效。",
+      "ja": "それに、資金はプロモーションやサーバーに投資する方が明らかに効果的だ。"
+    },
+    {
+      "id": 20,
+      "ru": "Вряд ли это австралийцы и компания.",
+      "en": "It is unlikely that it is the Australians and company.",
+      "zh": "不太可能是澳大利亚人和他们的公司。",
+      "ja": "オーストラリア人とその仲間たちというのも考えにくい。"
+    },
+    {
+      "id": 21,
+      "ru": "Но кто же?",
+      "en": "But who then?",
+      "zh": "那会是谁呢？",
+      "ja": "では誰なのか？"
+    },
+    {
+      "id": 22,
+      "ru": "Пока Дуровы боролись с хакерами, акционеров долбил иной тип атакующих – инвесторы.",
+      "en": "While the Durovs fought with hackers, the shareholders were pounded by another type of attacker – investors.",
+      "zh": "当杜罗夫兄弟与黑客搏斗时，股东们正受到另一类攻击者的猛攻——投资者。",
+      "ja": "ドゥーロフ兄弟がハッカーと戦っている間、株主たちは別のタイプの攻撃者――投資家たちに攻め立てられていた。"
+    },
+    {
+      "id": 23,
+      "ru": "Стартап, запустившийся без рекламы и аккумулировавший 100 000 юзеров, привлек внимание всех, кто хоть немного разбирался в интернете.",
+      "en": "The startup, launched without advertising and accumulated 100,000 users, attracted the attention of everyone who understood the Internet even a little.",
+      "zh": "这家在没有任何广告的情况下启动并积累了10万用户的初创公司，吸引了所有懂一点互联网的人的注意。",
+      "ja": "広告なしで立ち上がり、10万人のユーザーを集めたこのスタートアップは、インターネットを少しでも理解しているすべての人々の注目を集めた。"
+    },
+    {
+      "id": 24,
+      "ru": "Одни хотели сотрудничать, другие – приобрести компанию.",
+      "en": "Some wanted to cooperate, others – to acquire the company.",
+      "zh": "有些人想合作，另一些人则想收购公司。",
+      "ja": "協力したいという者もいれば、会社を買収したいという者もいた。"
+    },
+    {
+      "id": 25,
+      "ru": "Дуров в этих встречах не участвовал; отдувались Слава и Лев.",
+      "en": "Durov did not participate in these meetings; Slava and Lev took the rap.",
+      "zh": "杜罗夫不参加这些会议；斯拉瓦和列夫负责应付。",
+      "ja": "ドゥーロフはこれらの会議には参加せず、スラヴァとレフが矢面に立った。"
+    },
+    {
+      "id": 26,
+      "ru": "Установка звучала просто.",
+      "en": "The instruction sounded simple.",
+      "zh": "指示听起来很简单。",
+      "ja": "方針は単純明快だった。"
+    },
+    {
+      "id": 27,
+      "ru": "Не то что контроль, а даже блокирующий пакет не отдадим.",
+      "en": "We won't give up control, not even a blocking stake.",
+      "zh": "别说控制权，就连否决权股份也不给。",
+      "ja": "支配権はもちろん、拒否権を行使できるだけの株式さえ渡さない。"
+    },
+    {
+      "id": 28,
+      "ru": "И вообще, сделка нужна вам, инвесторам, а не нам – мы органически растем и с каждым днем увеличиваем свою стоимость.",
+      "en": "And anyway, the deal is needed by you, investors, not us – we are growing organically and increasing our value every day.",
+      "zh": "而且，这笔交易是你们投资者需要的，不是我们需要的——我们正在有机增长，价值每天都在增加。",
+      "ja": "そもそも取引が必要なのは投資家であるあなた方であって、私たちではない――私たちは有機的に成長しており、日々価値を高めているのだから。"
+    },
+    {
+      "id": 29,
+      "ru": "«ВКонтакте» переговаривались с разными деятелями – от Романа Симонова из Delta Private Equity Partners до отца «Одноклассников» Альберта Попкова и его партнеров-латышей из Forticom.",
+      "en": "VKontakte negotiated with various figures – from Roman Simonov of Delta Private Equity Partners to the father of Odnoklassniki Albert Popkov and his Latvian partners from Forticom.",
+      "zh": "VKontakte与各路人物进行了谈判——从Delta Private Equity Partners的罗曼·西蒙诺夫（Roman Simonov）到“Odnoklassniki”之父阿尔伯特·波普科夫（Albert Popkov）及其来自Forticom的拉脱维亚合作伙伴。",
+      "ja": "VKontakteは様々な人物と交渉した――Delta Private Equity Partnersのロマン・シモノフから、Odnoklassnikiの父であるアルベルト・ポプコフや彼のパートナーであるForticomのラトビア人たちまで。"
+    },
+    {
+      "id": 30,
+      "ru": "Некоторые предложения звучали заманчиво.",
+      "en": "Some offers sounded tempting.",
+      "zh": "有些提议听起来很诱人。",
+      "ja": "魅力的に聞こえる提案もあった。"
+    },
+    {
+      "id": 31,
+      "ru": "Но Слава и Лев отвергали предложения, загипнотизированные верой Дурова в то, что надо продаться позже и тому, кто предложит наибольшие деньги и гарантирует минимальное вмешательство во «ВКонтакте».",
+      "en": "But Slava and Lev rejected the offers, hypnotized by Durov's belief that they should sell later and to the one who offers the most money and guarantees minimal interference in VKontakte.",
+      "zh": "但斯拉瓦和列夫拒绝了这些提议，他们被杜罗夫的信念所催眠：应该以后卖，卖给出价最高且保证最少干预VKontakte的人。",
+      "ja": "しかしスラヴァとレフは、後でもっと高い金額を提示し、かつVKontakteへの干渉を最小限に抑えることを保証する相手に売るべきだというドゥーロフの信念に催眠術をかけられたかのように、提案を拒否した。"
+    },
+    {
+      "id": 32,
+      "ru": "Впервые что-то искренне заинтересовавшее их партнеры услышали в апреле.",
+      "en": "The partners heard something that genuinely interested them for the first time in April.",
+      "zh": "四月份，合伙人们第一次听到了真正让他们感兴趣的东西。",
+      "ja": "パートナーたちが初めて心から興味をそそられる話を聞いたのは、4月のことだった。"
+    },
+    {
+      "id": 33,
+      "ru": "Слава позвонил Дурову и сообщил, что ему наверняка интересно поприсутствовать на встрече с Юрием Мильнером.",
+      "en": "Slava called Durov and reported that he would surely be interested in attending a meeting with Yuri Milner.",
+      "zh": "斯拉瓦给杜罗夫打电话，说他肯定有兴趣参加与尤里·米尔纳（Yuri Milner）的会面。",
+      "ja": "スラヴァはドゥーロフに電話し、ユーリ・ミルナーとの会合に出席するのはきっと面白いはずだと伝えた。"
+    },
+    {
+      "id": 34,
+      "ru": "Знаменитый ныне венчурный капиталист, инвестировавший в Facebook, Twitter, Groupon и другх передовиков интернета, в 2007 году был не так известен.",
+      "en": "The now famous venture capitalist, who invested in Facebook, Twitter, Groupon, and other internet leaders, was not so well known in 2007.",
+      "zh": "这位如今著名的风险投资家，曾投资Facebook、Twitter、Groupon和其他互联网领军企业，在2007年还没那么出名。",
+      "ja": "Facebook、Twitter、Groupon、その他インターネットの先駆者たちに投資し、今でこそ有名なベンチャーキャピタリストであるが、2007年当時はそれほど知られていなかった。"
+    },
+    {
+      "id": 35,
+      "ru": "Но то, что он собрал под знамена своего Mail.ru «Одноклассников» и игровой холдинг Astrum, – интриговало.",
+      "en": "But the fact that he gathered Odnoklassniki and the gaming holding Astrum under the banner of his Mail.ru was intriguing.",
+      "zh": "但他将“Odnoklassniki”和游戏控股公司Astrum收归其Mail.ru旗下，这引起了人们的兴趣。",
+      "ja": "しかし、彼が自身のMail.ruの旗の下にOdnoklassnikiとゲームホールディングスAstrumを集めたという事実は、興味をそそるものだった。"
+    },
+    {
+      "id": 36,
+      "ru": "Мильнер не напирал.",
+      "en": "Milner did not push.",
+      "zh": "米尔纳没有施压。",
+      "ja": "ミルナーは強引ではなかった。"
+    },
+    {
+      "id": 37,
+      "ru": "Его оферта звучала как «встретимся и поговорим», а не «продавайтесь, или запустим свою сеть и сотрем „ВКонтакте“ с лица земли», чем грешили некоторые претенденты.",
+      "en": "His offer sounded like 'let's meet and talk', and not 'sell out, or we'll launch our own network and wipe VKontakte off the face of the earth', which some contenders were guilty of.",
+      "zh": "他的提议听起来是“见面聊聊”，而不是“卖给我们，否则我们就自己搞个网络把VKontakte从地球上抹去”——这可是某些竞购者常犯的毛病。",
+      "ja": "彼のオファーは「会って話そう」というものであり、「売らなければ自分たちのネットワークを立ち上げてVKontakteを地上から抹消してやる」というような、一部の競争相手が犯しがちなものではなかった。"
+    },
+    {
+      "id": 38,
+      "ru": "Итак, переговорщики съехались на Тверскую и уселись за стол.",
+      "en": "So, the negotiators gathered on Tverskaya and sat down at the table.",
+      "zh": "于是，谈判代表们聚集在特维尔大街，围坐在桌旁。",
+      "ja": "こうして交渉人たちはトヴェルスカヤ通りに集まり、テーブルに着いた。"
+    },
+    {
+      "id": 39,
+      "ru": "Светящийся доброжелательностью Мильнер, не выспавшийся из-за атак Дуров в черной водолазке и черных брюках, очень деловые и вежливые Слава и Лев.",
+      "en": "Milner glowing with benevolence, Durov sleep-deprived because of attacks in a black turtleneck and black trousers, very businesslike and polite Slava and Lev.",
+      "zh": "满面春风的米尔纳，因遭受攻击而睡眠不足、身穿黑色高领衫和黑裤子的杜罗夫，以及非常务实礼貌的斯拉瓦和列夫。",
+      "ja": "好意に満ち溢れたミルナー、攻撃のせいで寝不足の、黒いタートルネックと黒いズボン姿のドゥーロフ、そして非常にビジネスライクで礼儀正しいスラヴァとレフ。"
+    },
+    {
+      "id": 40,
+      "ru": "Впоследствии умение Мильнера заключать сделки стало легендарным.",
+      "en": "Subsequently, Milner's ability to close deals became legendary.",
+      "zh": "后来，米尔纳达成交易的能力成为了传奇。",
+      "ja": "その後、ミルナーの取引を成立させる能力は伝説となった。"
+    },
+    {
+      "id": 41,
+      "ru": "Во-первых, он умел разобраться, с кем имеет дело.",
+      "en": "Firstly, he knew how to figure out who he was dealing with.",
+      "zh": "首先，他懂得如何看清与之打交道的人。",
+      "ja": "第一に、彼は相手が誰であるかを見抜くことができた。"
+    },
+    {
+      "id": 42,
+      "ru": "Стартапу с неочевидной перспективой мирового господства он предлагал рыночную цену.",
+      "en": "He offered a market price to a startup with a non-obvious prospect of world domination.",
+      "zh": "对于一个全球霸权前景尚不明朗的初创公司，他给出了市场价。",
+      "ja": "世界制覇の展望が明らかでないスタートアップに対して、彼は市場価格を提示した。"
+    },
+    {
+      "id": 43,
+      "ru": "Вот как описывал это на Slon.ru основатель Liveinternet.ru и других проектов Герман Клименко:",
+      "en": "Here is how German Klimenko, founder of Liveinternet.ru and other projects, described it on Slon.ru:",
+      "zh": "Liveinternet.ru和其他项目的创始人格尔曼·克利缅科（German Klimenko）在Slon.ru上这样描述：",
+      "ja": "Liveinternet.ruやその他のプロジェクトの創設者であるゲルマン・クリメンコは、Slon.ruでそれを次のように説明している："
+    },
+    {
+      "id": 44,
+      "ru": "«Он приходит и говорит: „Вы будете...»",
+      "en": "\"He comes and says: 'You will be...'\"",
+      "zh": "“他走过来说：‘你会成为……’”",
+      "ja": "「彼はやって来てこう言うんだ。『君たちは……』"
+    }
+  ],
+  "translator_notes": [
+    "Durov finding the solution in 'Hacker' magazine illustrates his resourcefulness and lack of formal training in high-load defense.",
+    "The chapter introduces Yuri Milner (Mail.ru Group, DST Global), a major figure in Russian and global tech investment.",
+    "Durov's 'black turtleneck' image is iconic, often compared to Steve Jobs or Neo from The Matrix.",
+    "Albert Popkov is the founder of Odnoklassniki, VK's main competitor.",
+    "German Klimenko is another well-known Russian internet entrepreneur."
+  ],
+  "total_sentences": 44,
+  "page_type": "narrative"
+}
+
+with open("translations/page_048.json", "w", encoding="utf-8") as f:
+    json.dump(page_content, f, indent=2, ensure_ascii=False)

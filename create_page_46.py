@@ -1,0 +1,273 @@
+import json
+
+page_content = {
+  "page": 46,
+  "chapter": 3,
+  "chapter_title": "Глава 3",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Праздный люд, сидящий за чашкой кофе на Невском, не раскусил юношу – темные волосы, небритая щека, модное пальто – и не понял, чем он на самом деле занят.",
+      "en": "The idle people sitting over a cup of coffee on Nevsky didn't figure the young man out – dark hair, unshaven cheek, fashionable coat – and didn't understand what he was actually busy with.",
+      "zh": "涅瓦大街上坐在咖啡馆里闲聊的人们没有看透这个年轻人——黑发、没刮胡子、穿着时髦的大衣——也没明白他到底在忙什么。",
+      "ja": "ネフスキー大通りのカフェでコーヒーを飲んでいる暇な人々は、その若者の正体を見抜けなかった――黒髪、無精ひげ、流行のコート――そして彼が実際に何をしているのか理解していなかった。"
+    },
+    {
+      "id": 2,
+      "ru": "Версии были такие: драгдилер, продавец гербалайфа, мормон, свидетель Иеговы.",
+      "en": "The versions were as follows: drug dealer, Herbalife seller, Mormon, Jehovah's Witness.",
+      "zh": "猜测的版本有：毒贩、卖康宝莱的、摩门教徒、耶和华见证人。",
+      "ja": "推測はこうだ：ドラッグディーラー、ハーバライフの販売員、モルモン教徒、エホバの証人。"
+    },
+    {
+      "id": 3,
+      "ru": "Он сидел в «Кофехаузе» уже несколько часов, и все это время к нему стояла очередь из студентов.",
+      "en": "He had been sitting in 'Coffee House' for several hours, and all this time there was a queue of students to see him.",
+      "zh": "他在“咖啡屋”坐了好几个小时，这段时间里找他的学生一直排着长队。",
+      "ja": "彼は「コーヒーハウス」に数時間座り続けており、その間ずっと、彼のところには学生たちの列ができていた。"
+    },
+    {
+      "id": 4,
+      "ru": "Студент подходил, назывался, молодой человек искал его в списке, проверял паспорт, вытаскивал из-под полы небольшую коробочку и вручал ее оппоненту.",
+      "en": "A student would approach, give their name, the young man would look for it in a list, check the passport, pull a small box from under his coat, and hand it to the opponent.",
+      "zh": "学生走上前报上名字，年轻人就在名单里查找，检查护照，然后从大衣底下拿出一个小盒子递给对方。",
+      "ja": "学生が近づき、名乗ると、若者はリストで彼を探し、パスポートを確認し、コートの下から小さな箱を取り出して相手に手渡した。"
+    },
+    {
+      "id": 5,
+      "ru": "На соседнем стуле лежали пакеты, и, пока они не кончились, мормон выдавал их всем, кто прошел проверку.",
+      "en": "Bags lay on the neighboring chair, and until they ran out, the 'Mormon' handed them out to everyone who passed the check.",
+      "zh": "旁边的椅子上放着袋子，只要还没发完，这位“摩门教徒”就会把它们发给所有通过检查的人。",
+      "ja": "隣の椅子には袋が置かれており、それがなくなるまで、その「モルモン教徒」はチェックを通過した全員にそれを配り続けた。"
+    },
+    {
+      "id": 6,
+      "ru": "Это был Лев Левиев, и раздавал он не гашиш, а айподы.",
+      "en": "This was Lev Leviev, and he was distributing not hashish, but iPods.",
+      "zh": "那是列夫·列维耶夫，他发的不是大麻，而是iPod。",
+      "ja": "それはレフ・レヴィエフで、彼が配っていたのはハシシではなく、iPodだった。"
+    },
+    {
+      "id": 7,
+      "ru": "По его версии, идея конкурса родилась у Славы – кто пригласит во «ВКонтакте» больше всего друзей, получит джобсовский плеер.",
+      "en": "According to his version, the idea for the contest was born with Slava – whoever invites the most friends to VKontakte receives a Jobs player.",
+      "zh": "据他说，比赛的主意是斯拉瓦想出来的——谁邀请到VKontakte的朋友最多，谁就能得到乔布斯的播放器。",
+      "ja": "彼によれば、コンテストのアイデアはスラヴァから生まれたという。VKontakteに最も多くの友人を招待した人が、ジョブズのプレーヤー（iPod）をもらえるというものだ。"
+    },
+    {
+      "id": 8,
+      "ru": "Дуров тогда еще не использовал устройства Apple, но дизайн айподов и идея ему понравились.",
+      "en": "Durov did not use Apple devices back then, but he liked the design of the iPods and the idea.",
+      "zh": "当时杜罗夫还没用过苹果设备，但他喜欢iPod的设计和这个点子。",
+      "ja": "ドゥーロフは当時まだAppleのデバイスを使っていなかったが、iPodのデザインとそのアイデアを気に入った。"
+    },
+    {
+      "id": 9,
+      "ru": "По другой версии, эту идею отцы-основатели взяли у MoiFacultet.",
+      "en": "According to another version, the founding fathers took this idea from MoiFacultet.",
+      "zh": "另一种说法是，创始人们从MoiFacultet那里借鉴了这个主意。",
+      "ja": "別の説では、創業の父たちはこのアイデアをMoiFacultetから借用したとも言われている。"
+    },
+    {
+      "id": 10,
+      "ru": "Правда, у тех количество разыгрываемых плееров ограничивалось десятками.",
+      "en": "True, they limited the number of players being raffled to dozens.",
+      "zh": "不过，那家送出的播放器数量仅限于几十台。",
+      "ja": "もっとも、あちらが提供したプレーヤーの数は数十台に限られていたが。"
+    },
+    {
+      "id": 11,
+      "ru": "Слава перешиб конкурента числом.",
+      "en": "Slava outdid the competitor in numbers.",
+      "zh": "斯拉瓦在数量上压倒了竞争对手。",
+      "ja": "スラヴァは数で競合を圧倒した。"
+    },
+    {
+      "id": 12,
+      "ru": "Компаньоны купили тысячу айподов.",
+      "en": "The partners bought a thousand iPods.",
+      "zh": "合伙人们买了一千台iPod。",
+      "ja": "パートナーたちは1000台のiPodを購入した。"
+    },
+    {
+      "id": 13,
+      "ru": "«ВКонтакте» успел обрести поклонников, и двое из них – откуда-то из области – напечатали фосфоресцирующие футболки с логотипом сети и прислали на Тверскую.",
+      "en": "VKontakte managed to gain fans, and two of them – from somewhere in the region – printed phosphorescent T-shirts with the network's logo and sent them to Tverskaya.",
+      "zh": "VKontakte已经赢得了一些粉丝，其中两个——来自该地区某处——印制了带有网络Logo的夜光T恤，寄到了特维尔大街。",
+      "ja": "VKontakteはすでにファンを獲得しており、そのうちの2人（地方のどこかから）が、ネットワークのロゴが入った蛍光Tシャツをプリントして、トヴェルスカヤ通りに送ってきた。"
+    },
+    {
+      "id": 14,
+      "ru": "Лев прихватил их с собой в кафе.",
+      "en": "Lev took them with him to the cafe.",
+      "zh": "列夫把它们带到了咖啡馆。",
+      "ja": "レフはそれらをカフェに持って行った。"
+    },
+    {
+      "id": 15,
+      "ru": "Под конец раздачи голова шла кругом, но страдания дорогого стоили – решающий для любого интернет-проекта набор ранних фанатов, то есть закладка фундамента будущей аудитории, прошел на ура.",
+      "en": "By the end of the distribution, his head was spinning, but the suffering was worth it – the recruitment of early fans, decisive for any internet project, that is, laying the foundation of the future audience, went off with a bang.",
+      "zh": "发放到最后，他已经头晕目眩，但这番辛苦是值得的——对于任何互联网项目都至关重要的早期粉丝招募，即未来受众基础的奠定，取得了巨大的成功。",
+      "ja": "配布が終わる頃には目が回るほどだったが、その苦労には大きな価値があった。あらゆるインターネットプロジェクトにとって決定的な初期ファンの獲得、つまり将来のオーディエンスの基盤作りが、大成功を収めたのだ。"
+    },
+    {
+      "id": 16,
+      "ru": "Новый год друзья отмечали в победном расположении духа.",
+      "en": "The friends celebrated the New Year in a victorious mood.",
+      "zh": "朋友们带着胜利的心情庆祝了新年。",
+      "ja": "友人たちは勝利の気分で新年を祝った。"
+    },
+    {
+      "id": 17,
+      "ru": "Цель – миллион пользователей к ноябрю 2007-го – казалась быстродостижимой.",
+      "en": "The goal – a million users by November 2007 – seemed quickly achievable.",
+      "zh": "目标——到2007年11月拥有一百万用户——似乎很快就能实现。",
+      "ja": "2007年11月までに100万ユーザーという目標は、すぐに達成できそうに思えた。"
+    },
+    {
+      "id": 18,
+      "ru": "Но уже в феврале сайт рухнул.",
+      "en": "But already in February, the site crashed.",
+      "zh": "但就在二月，网站崩溃了。",
+      "ja": "しかし、2月にはすでにサイトがダウンした。"
+    },
+    {
+      "id": 19,
+      "ru": "Месяцем ранее, раскинувшись, как патриций, на глубоких подушках, Олег Бунин затягивался кальяном и пускал дым в потолок.",
+      "en": "A month earlier, sprawled like a patrician on deep cushions, Oleg Bunin took a drag on a hookah and blew smoke at the ceiling.",
+      "zh": "一个月前，奥列格·布宁（Oleg Bunin）像个贵族一样瘫坐在深厚的靠垫上，吸着水烟，向天花板吐着烟圈。",
+      "ja": "1ヶ月前、オレグ・ブニンは貴族のように深いクッションに身を沈め、水タバコを吸い込み、天井に煙を吐き出していた。"
+    },
+    {
+      "id": 20,
+      "ru": "Он, консультант по высоким нагрузкам, больше напоминавший менестреля (кудри, что-то типа кованого амулета на шее, никаких пиджаков-галстуков), слушал чайников, затащивших его в вальяжный азиатский шалман.",
+      "en": "He, a high-load consultant who looked more like a minstrel (curls, something like a forged amulet around his neck, no jackets and ties), listened to the teapots (newbies) who had dragged him into the imposing Asian dive.",
+      "zh": "他是一位高负载咨询顾问，看起来更像个吟游诗人（卷发，脖子上挂着类似锻造护身符的东西，不穿西装不打领带），正在听着那些把他拉进这家慵懒亚洲风格小馆的菜鸟们说话。",
+      "ja": "高負荷（ハイロード）コンサルタントである彼は、どちらかと言えば吟遊詩人のような風貌（巻き毛、首には鍛造のお守りのようなもの、ジャケットもネクタイもなし）をしており、彼をこのゆったりとしたアジア風の店に連れ込んだ素人（初心者）たちの話を聞いていた。"
+    },
+    {
+      "id": 21,
+      "ru": "Парни не рубили в предмете, но выглядели любопытно.",
+      "en": "The guys didn't understand the subject, but looked curious.",
+      "zh": "这几个家伙对这个领域一窍不通，但看起来很有趣。",
+      "ja": "彼らはその主題については素人だったが、興味深く見えた。"
+    },
+    {
+      "id": 22,
+      "ru": "Замкнутый старший брат, обращаясь к собеседнику, редко смотрел в глаза, думал долго, говорил мало, жесты неуклюжие.",
+      "en": "The withdrawn older brother, addressing the interlocutor, rarely looked in the eyes, thought for a long time, spoke little, gestures were clumsy.",
+      "zh": "那个内向的哥哥跟人说话时很少看对方眼睛，思考很久，说话很少，动作笨拙。",
+      "ja": "内向的な兄は、話し相手に対してめったに目を合わせず、長く考え込み、言葉少なく、仕草も不器用だった。"
+    },
+    {
+      "id": 23,
+      "ru": "Младший, наоборот, подвижный, речь поставлена, вопросами попадает в точку – при этом не лезет в лидеры, подчеркивая, что техническими задачами в их соцсети заведует брат, который круче него как программист.",
+      "en": "The younger one, on the contrary, was mobile, his speech was set, his questions hit the mark – at the same time he did not climb into the leaders, emphasizing that technical tasks in their social network were in charge of his brother, who was cooler than him as a programmer.",
+      "zh": "弟弟正好相反，活泼好动，言辞犀利，提问切中要害——但他并不争当老大，强调他们社交网络的技术任务由哥哥负责，哥哥是比他更厉害的程序员。",
+      "ja": "弟の方は対照的に、活動的で、話し方がうまく、質問も的確だった――同時に、技術的なタスクは自分よりプログラマーとして優れている兄が担当していることを強調し、リーダーぶることはなかった。"
+    },
+    {
+      "id": 24,
+      "ru": "Стороны встретились в кафе «Рубаи».",
+      "en": "The parties met at the 'Rubai' cafe.",
+      "zh": "双方在“Rubai”咖啡馆见面。",
+      "ja": "一行はカフェ「ルバイ」で会った。"
+    },
+    {
+      "id": 25,
+      "ru": "Еще несколько лет у «ВКонтакте» не будет офиса, и Дуров с программистами полюбят обсуждать дела в заведениях Невского.",
+      "en": "For another few years, VKontakte would not have an office, and Durov and the programmers would love to discuss business in establishments on Nevsky.",
+      "zh": "在接下来的几年里，VKontakte都没有办公室，杜罗夫和程序员们喜欢在涅瓦大街的餐馆里讨论工作。",
+      "ja": "その後数年間、VKontakteにはオフィスがなく、ドゥーロフとプログラマーたちはネフスキー大通りの店でビジネスの話をするのを好んだ。"
+    },
+    {
+      "id": 26,
+      "ru": "Лишь годом позже тотем посадит соратников в специально приобретенную квартиру.",
+      "en": "Only a year later would the totem seat his associates in a specially purchased apartment.",
+      "zh": "直到一年后，这位图腾人物才把伙伴们安顿在一套专门购买的公寓里。",
+      "ja": "1年後になってようやく、そのトーテム（象徴的存在）は、特別に購入したアパートに仲間たちを住まわせることになる。"
+    },
+    {
+      "id": 27,
+      "ru": "Окутанный дымом Бунин растолковывал азы – как хранить и отдавать информацию с сервера, какие особенности существуют при расчете необходимых мощностей, масштабировании системы и т. д.",
+      "en": "Enveloped in smoke, Bunin explained the basics – how to store and serve information from the server, what features exist when calculating the necessary capacities, scaling the system, etc.",
+      "zh": "烟雾缭绕中，布宁解释着基础知识——如何从服务器存储和传输信息，计算所需容量、系统扩展等方面有什么特点等等。",
+      "ja": "煙に包まれたブニンは、基本を説いた――サーバーで情報をどのように保存し提供するか、必要な容量の計算やシステムのスケーリングにおいてどのような特徴があるか、など。"
+    },
+    {
+      "id": 28,
+      "ru": "По тому, как заказчики схватывали идеи, менестрель чувствовал, что долго консультировать их не придется.",
+      "en": "By the way the customers grasped the ideas, the minstrel felt that he wouldn't have to consult them for long.",
+      "zh": "从客户领悟想法的方式来看，这位吟游诗人感觉到，不需要给他们咨询太久。",
+      "ja": "クライアントがアイデアを理解する様子から、この吟遊詩人は、彼らへのコンサルティングは長くはならないだろうと感じていた。"
+    },
+    {
+      "id": 29,
+      "ru": "Но он не предполагал, насколько быстро они въедут в тему.",
+      "en": "But he didn't anticipate how quickly they would get into the subject.",
+      "zh": "但他没想到他们入行这么快。",
+      "ja": "しかし、彼らがこれほど早くテーマに入り込むとは予想していなかった。"
+    },
+    {
+      "id": 30,
+      "ru": "Николай хоть и выигрывал олимпиады по программированию, но решать сложные задачи – все равно что учиться колоть штыком манекен.",
+      "en": "Although Nikolai won programming Olympiads, solving complex problems is like learning to stab a mannequin with a bayonet.",
+      "zh": "虽然尼古拉赢过编程奥林匹克竞赛，但解决复杂难题就像学习用刺刀刺假人一样（只是理论演练）。",
+      "ja": "ニコライはプログラミングのオリンピックで優勝していたが、複雑な問題を解くことは、マネキンを銃剣で突く練習をするようなものだ（実戦とは違う）。"
+    },
+    {
+      "id": 31,
+      "ru": "Укрощение трафика, когда он растет в геометрической прогрессии, – иная баталия.",
+      "en": "Taming traffic when it grows exponentially is a different battle.",
+      "zh": "驯服呈几何级数增长的流量，则是另一场战役。",
+      "ja": "幾何級数的に増大するトラフィックを手なずけることは、また別の戦いである。"
+    },
+    {
+      "id": 32,
+      "ru": "Бунин посоветовал использовать сервер Apache в комбинации с сервером Nginx.",
+      "en": "Bunin advised using the Apache server in combination with the Nginx server.",
+      "zh": "布宁建议结合使用Apache服务器和Nginx服务器。",
+      "ja": "ブニンは、ApacheサーバーとNginxサーバーを組み合わせて使用することを勧めた。"
+    },
+    {
+      "id": 33,
+      "ru": "Через несколько часов от Николая пришла весточка – я поставил эту конфигурацию, посмотрите.",
+      "en": "A few hours later, a message came from Nikolai – I set up this configuration, take a look.",
+      "zh": "几个小时后，尼古拉发来消息——我配置好了，请看看。",
+      "ja": "数時間後、ニコライから連絡が入った――この構成を設定しました、見てください。"
+    },
+    {
+      "id": 34,
+      "ru": "Бунин изумился.",
+      "en": "Bunin was amazed.",
+      "zh": "布宁大吃一惊。",
+      "ja": "ブニンは驚愕した。"
+    },
+    {
+      "id": 35,
+      "ru": "Nginx обычно настраивают полнедели.",
+      "en": "Nginx is usually configured for half a week.",
+      "zh": "配置Nginx通常需要半周时间。",
+      "ja": "Nginxの設定には通常、週の半分はかかる。"
+    },
+    {
+      "id": 36,
+      "ru": "Еще больше поразило, что Дуров-старший все написал правильно.",
+      "en": "He was even more struck that the elder Durov wrote everything correctly.",
+      "zh": "更让他惊讶的是，老杜罗夫写的所有东西都是正确的。",
+      "ja": "さらに驚いたのは、ドゥーロフ兄がすべて正確に書いていたことだ。"
+    }
+  ],
+  "translator_notes": [
+    "Leviev distributing iPods at a cafe is a key early marketing story.",
+    "'Teapots' (чайники) is Russian slang for newbies/beginners.",
+    "Oleg Bunin is a real high-load systems expert in Russia.",
+    "Nginx (Engine-X) was created by Igor Sysoev and is crucial for high-load sites.",
+    "The chapter highlights Nikolai Durov's genius in quickly mastering server architecture."
+  ],
+  "total_sentences": 36,
+  "page_type": "narrative"
+}
+
+with open("translations/page_046.json", "w", encoding="utf-8") as f:
+    json.dump(page_content, f, indent=2, ensure_ascii=False)
