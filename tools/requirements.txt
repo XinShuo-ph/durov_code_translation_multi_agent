@@ -1,0 +1,17 @@
+# Python dependencies for Durov Code Translation Project
+# Install with: pip install -r tools/requirements.txt
+
+# PDF processing
+PyMuPDF>=1.24.0
+pdf2image>=1.16.0
+Pillow>=10.0.0
+
+# PDF generation alternatives to LaTeX
+reportlab>=4.0.0
+fpdf2>=2.7.0
+
+# Verification and hashing
+hashlib-compat>=1.0.0
+
+# JSON handling (built-in, but ensuring compatibility)
+# json is built-in in Python 3.x
