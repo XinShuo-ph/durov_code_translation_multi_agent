@@ -1,0 +1,87 @@
+{
+  "page": 12,
+  "chapter": 0,
+  "chapter_title": "Пролог (Prologue) - conclusion",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Когда я искал ответ на вопрос, что движет пользователем Twitter под ником Porn King и его командой, которые затащили в «новую нервную систему» более 100 млн человек, то не предполагал, что история стартапа превратится в триллер о сражении за свободу в двоичном коде, цифровой среде.",
+      "en": "When I was looking for an answer to the question of what drives the Twitter user nicknamed Porn King and his team, who had dragged more than 100 million people into the \"new nervous system,\" I didn't expect that the story of a startup would turn into a thriller about the battle for freedom in binary code, in a digital environment.",
+      "zh": "当我寻找答案，想知道是什么驱动着推特用户名为"Porn King"的人和他的团队——他们把超过1亿人拉进了"新的神经系统"——时，我没有预料到一个创业公司的故事会变成一部关于在二进制代码、数字环境中为自由而战的惊悚片。",
+      "ja": "「ポルノキング」というTwitterのニックネームを持つユーザーとそのチームを動かすものは何なのか——彼らは1億人以上を「新しい神経系」に引き込んだ——その答えを探していたとき、スタートアップの物語がバイナリコード、デジタル環境での自由をめぐる戦いについてのスリラーに変わるとは予想していなかった。"
+    },
+    {
+      "id": 3,
+      "ru": "Исследуя путь взбесившегося и анархического государства нёрдов, каковым, безусловно, является «ВКонтакте», я спиной ощущал взгляды персонажей Бека, Вулфа, Капоте и других охотников за выдающимися историями, которые следует поймать, а не придумать.",
+      "en": "Researching the path of this mad and anarchic state of nerds that VKontakte undoubtedly is, I felt on my back the gazes of the characters of Beck, Wolfe, Capote, and other hunters of outstanding stories that should be caught, not invented.",
+      "zh": "在研究这个疯狂而无政府状态的极客国度——VKontakte无疑就是这样——的道路时，我背后感受到了贝克、沃尔夫、卡波特以及其他追寻杰出故事的猎人的目光，那些故事应该被捕捉，而不是被编造。",
+      "ja": "VKontakteという狂気の無政府主義的なナード国家の道を調査しながら、私は背後にベック、ウルフ、カポーティ、そして他の卓越した物語のハンターたちの視線を感じていた。物語は発明するのではなく、捕まえるべきものだ。"
+    },
+    {
+      "id": 4,
+      "ru": "И зачем что-то придумывать, если перед тобой люди, которые построили систему каналов, в которых бежит чужая жизнь и создаются миллионы идентичностей-гомункулов.",
+      "en": "And why invent anything when before you are people who have built a system of channels through which other people's lives flow and millions of identity-homunculi are created.",
+      "zh": "而且何必编造什么呢，眼前就是那些建造了一套渠道系统的人，在这些渠道中流淌着他人的生活，创造出数百万个身份小人。",
+      "ja": "そして、なぜ何かを作り出す必要があるのか。目の前にいるのは、他人の生活が流れ、何百万ものアイデンティティ・ホムンクルスが生み出されるチャネルシステムを構築した人々なのだから。"
+    },
+    {
+      "id": 5,
+      "ru": "Разговаривая с Дуровым, я чувствовал себя режиссером из первой сцены «Пиратов Кремниевой долины», которому Джобс внушает, что предстоит снять не рекламу, а блокбастер об устройстве, которое изменит мир.",
+      "en": "Talking to Durov, I felt like the director from the first scene of \"Pirates of Silicon Valley,\" to whom Jobs is convincing that what lies ahead is not shooting a commercial, but a blockbuster about a device that will change the world.",
+      "zh": "与杜罗夫交谈时，我感觉自己就像《硅谷海盗》开场戏中的那位导演，乔布斯正在告诉他，他即将拍摄的不是广告，而是一部关于将改变世界的设备的大片。",
+      "ja": "ドゥーロフと話しているとき、私は『バトル・オブ・シリコンバレー』の最初のシーンの監督のように感じた。ジョブズが、これから撮るのはCMではなく、世界を変えるデバイスについてのブロックバスターだと説得しているあの場面だ。"
+    },
+    {
+      "id": 6,
+      "ru": "Герой оказался сильнодействующим продавцом идей, и автору стоило много труда раскопать слой, лежащий в их основании.",
+      "en": "The hero turned out to be a potent salesman of ideas, and it cost the author much effort to dig down to the layer lying at their foundation.",
+      "zh": "主人公原来是一个强有力的创意推销员，作者花了很大力气才挖掘出其背后的基础层面。",
+      "ja": "主人公は強力なアイデアのセールスマンであることがわかり、著者はその根底にある層を掘り起こすのに多大な労力を要した。"
+    },
+    {
+      "id": 7,
+      "ru": "Однако я старался отсекать факты о «ВКонтакте» от интерпретаций и подвергал сомнению даже те эпизоды, которые не вызывали вопросов.",
+      "en": "However, I tried to separate facts about VKontakte from interpretations and questioned even those episodes that seemed beyond question.",
+      "zh": "然而，我努力将关于VKontakte的事实与解读分开，甚至对那些看似毫无疑问的情节也提出质疑。",
+      "ja": "しかし、私はVKontakteに関する事実を解釈から切り離し、疑問の余地がないように見えるエピソードさえも疑うようにした。"
+    },
+    {
+      "id": 8,
+      "ru": "Это было интересно.",
+      "en": "It was interesting.",
+      "zh": "这很有趣。",
+      "ja": "それは面白かった。"
+    },
+    {
+      "id": 9,
+      "ru": "Как говорится, so long, and thanks for all the fish.",
+      "en": "As they say, so long, and thanks for all the fish.",
+      "zh": "正如他们所说，再见，感谢所有的鱼。",
+      "ja": "いわば、さよなら、そして今まで魚をありがとう。"
+    },
+    {
+      "id": 10,
+      "ru": "«Всего хорошего, и спасибо за рыбу!» (англ.) – юмористический научно-фантастический роман британского писателя Дугласа Адамса. Четвертая часть серии книг, известных под общим названием «Автостопом по галактике». Само название романа является прощальной фразой дельфинов человечеству из первой книги цикла, когда те покидали Землю перед ее уничтожением вогонами (чтобы освободить место для гиперпространственного экспресс-маршрута).",
+      "en": "[Footnote] \"So Long, and Thanks for All the Fish\" (English) is a humorous science fiction novel by British writer Douglas Adams. The fourth book in the series known as \"The Hitchhiker's Guide to the Galaxy.\" The title itself is the dolphins' farewell message to humanity from the first book of the series, when they left Earth before its destruction by the Vogons (to make way for a hyperspace express route).",
+      "zh": "[脚注]《再见，感谢所有的鱼》（英语）是英国作家道格拉斯·亚当斯的一部幽默科幻小说。这是《银河系漫游指南》系列的第四本书。书名本身是该系列第一本书中海豚向人类告别时说的话，当时它们在沃贡人摧毁地球之前离开了地球（为超空间快速通道让路）。",
+      "ja": "[脚注]「さようなら、いままで魚をありがとう」（英語）はイギリスの作家ダグラス・アダムスによるユーモラスなSF小説。『銀河ヒッチハイク・ガイド』として知られるシリーズの第4作。タイトル自体は、シリーズ第1作で、ヴォゴン人による地球破壊（超空間高速道路のため）の前に地球を去るイルカたちが人類に送った別れのメッセージである。"
+    }
+  ],
+  "translator_notes": [
+    "Porn King - Durov's provocative Twitter handle at the time",
+    "References to literary journalists: Tom Wolfe (New Journalism), Truman Capote (In Cold Blood), likely also Louis Beck",
+    "Homunculus - alchemical term for artificial human, here meaning digital avatars/identities",
+    "Pirates of Silicon Valley - 1999 TV film about Apple and Microsoft founding",
+    "Douglas Adams' 'Hitchhiker's Guide' reference - popular among tech/nerd culture",
+    "This page concludes the Prologue; Chapter 1 begins on page 13"
+  ],
+  "total_sentences": 10,
+  "page_type": "narrative"
+}
