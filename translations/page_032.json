@@ -1,0 +1,273 @@
+{
+  "page": 32,
+  "chapter": 2,
+  "chapter_title": "Архитектор (The Architect)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "сначала глядели с недоверием – эпатируя форум истфака, его модератор прикидывался фашистом, и в конце концов маска приросла.",
+      "en": "at first looked on with distrust—shocking the history faculty forum, its moderator had pretended to be a fascist, and eventually the mask stuck.",
+      "zh": "一开始带着不信任的目光看着他——在历史系论坛上哗众取宠，他这个版主假装是法西斯分子，最终面具变成了脸。",
+      "ja": "最初は不信感を持って見ていた——歴史学部フォーラムで衝撃を与えながら、そのモデレーターはファシストを装っていたが、やがてマスクが張り付いた。"
+    },
+    {
+      "id": 3,
+      "ru": "Убийство на Невском заставило Петренчука отскрести ее и прийти на лекции с тетрадью.",
+      "en": "The murder on Nevsky made Petrenchuk scrape off the mask and come to lectures with a notebook.",
+      "zh": "涅夫斯基大街上的凶杀案迫使彼得伦丘克揭下面具，带着笔记本来听课。",
+      "ja": "ネフスキーでの殺人事件がペトレンチュクにマスクを剥ぎ取らせ、ノートを持って講義に来させた。"
+    },
+    {
+      "id": 4,
+      "ru": "Петренчук поразился всеобщему безумию – на филфаке девочки вполне ангельского вида читали ему лекцию, что он продался жидомасонам, собирает голоса за грузина, когда русских убивают сотнями.",
+      "en": "Petrenchuk was struck by the general madness—at the philology faculty, girls with quite angelic looks lectured him that he had sold out to the Judeo-Masons, was collecting signatures for a Georgian while Russians were being killed by the hundreds.",
+      "zh": "彼得伦丘克被普遍的疯狂震惊了——在语文系，外表天使般的女孩给他上课说，他把自己卖给了犹太共济会，当俄罗斯人被成百上千地杀害时，他却在为一个格鲁吉亚人收集签名。",
+      "ja": "ペトレンチュクは普遍的な狂気に衝撃を受けた——文学部では、天使のような外見の女の子たちが、ロシア人が何百人も殺されているのにグルジア人のために署名を集めてユダヤ・フリーメイソンに魂を売ったと彼に説教した。"
+    },
+    {
+      "id": 5,
+      "ru": "Затем ему стали звонить и угрожать.",
+      "en": "Then they started calling and threatening him.",
+      "zh": "然后有人开始给他打电话威胁。",
+      "ja": "その後、彼に電話がかかってきて脅迫されるようになった。"
+    },
+    {
+      "id": 6,
+      "ru": "Петренчук, человек вполне отмороженный и беззаботный, не остановился.",
+      "en": "Petrenchuk, a rather fearless and carefree person, didn't stop.",
+      "zh": "彼得伦丘克是一个相当无所畏惧、无忧无虑的人，他没有停下来。",
+      "ja": "ペトレンチュクはかなり怖いもの知らずで無頓着な人間だったので、止まらなかった。"
+    },
+    {
+      "id": 7,
+      "ru": "Чтобы его пустили на филфак, он заручился поддержкой декана.",
+      "en": "To get into the philology faculty, he secured the dean's support.",
+      "zh": "为了能进入语文系，他争取到了院长的支持。",
+      "ja": "文学部に入れてもらうために、彼は学部長の支持を取り付けた。"
+    },
+    {
+      "id": 8,
+      "ru": "Сорвав очередную гроздь автографов, Петренчук осмотрелся и заметил, что за ним следит тип, в облике которого сквозило нечто опереточное – эспаньолка, черный плащ, кейс.",
+      "en": "Having gathered another bunch of signatures, Petrenchuk looked around and noticed that a guy was watching him, whose appearance had something operetta-like about it—a goatee, black cloak, briefcase.",
+      "zh": "又收集了一批签名后，彼得伦丘克环顾四周，注意到有个人在盯着他，此人的外表有些歌剧化——山羊胡、黑色风衣、公文包。",
+      "ja": "また一束の署名を集めた後、ペトレンチュクは周りを見回し、オペレッタ的な何かが滲み出る男に見られていることに気づいた——山羊髭、黒いマント、ブリーフケース。"
+    },
+    {
+      "id": 9,
+      "ru": "Незнакомец понял, что его раскрыли, и шагнул к собирателю подписей.",
+      "en": "The stranger realized he'd been spotted and stepped toward the signature collector.",
+      "zh": "陌生人意识到自己被发现了，于是走向这位签名收集者。",
+      "ja": "見知らぬ男は自分が見つかったことに気づき、署名収集者に向かって歩み寄った。"
+    },
+    {
+      "id": 10,
+      "ru": "– Максим?",
+      "en": "\"Maxim?\"",
+      "zh": "——马克西姆？",
+      "ja": "「マクシム？」"
+    },
+    {
+      "id": 11,
+      "ru": "– Да. А ты кто?",
+      "en": "\"Yes. And who are you?\"",
+      "zh": "——是的。你是谁？",
+      "ja": "「うん。君は誰？」"
+    },
+    {
+      "id": 12,
+      "ru": "– Я Паша Дуров. Собираете подписи?",
+      "en": "\"I'm Pasha Durov. Collecting signatures?\"",
+      "zh": "——我是帕沙·杜罗夫。在收集签名吗？",
+      "ja": "「僕はパーシャ・ドゥーロフ。署名を集めているの？」"
+    },
+    {
+      "id": 13,
+      "ru": "Петренчук опешил от того, как с ним общается звезда, но не растерялся и сунул тетрадь: на, подпишись.",
+      "en": "Petrenchuk was taken aback by how the star was talking to him, but didn't lose his composure and shoved the notebook forward: here, sign.",
+      "zh": "彼得伦丘克对这位明星与他交流的方式感到惊讶，但没有慌张，把笔记本递过去：来，签名。",
+      "ja": "ペトレンチュクはスターが話しかけてきたことに驚いたが、動揺せずノートを差し出した：はい、サインして。"
+    },
+    {
+      "id": 14,
+      "ru": "Дуров черкнул ручкой и откланялся, но еще пять минут стоял в стороне и наблюдал за Петренчуком, надев вежливую улыбку.",
+      "en": "Durov scribbled with a pen and took his leave, but stood aside for another five minutes observing Petrenchuk, wearing a polite smile.",
+      "zh": "杜罗夫用笔签了名告辞了，但又站在一旁观察了彼得伦丘克五分钟，脸上挂着礼貌的微笑。",
+      "ja": "ドゥーロフはペンでサッと書いて立ち去ったが、さらに5分間、丁寧な微笑みを浮かべながら脇に立ってペトレンチュクを観察していた。"
+    },
+    {
+      "id": 15,
+      "ru": "Убедившись, что активист не мошенник, он вернулся домой и написал на форуме, что познакомился с Петренчуком и тот оказался искренним антифашистом.",
+      "en": "Having convinced himself that the activist wasn't a fraud, he returned home and wrote on the forum that he had met Petrenchuk and that he turned out to be a sincere antifascist.",
+      "zh": "确信这位活动家不是骗子后，他回家在论坛上写道，他见到了彼得伦丘克，此人是一位真诚的反法西斯主义者。",
+      "ja": "活動家が詐欺師ではないと確信した後、彼は帰宅してフォーラムに、ペトレンチュクに会い、彼が誠実な反ファシストだと分かったと書いた。"
+    },
+    {
+      "id": 16,
+      "ru": "Количество подписантов выросло до 3000 человек.",
+      "en": "The number of signatories grew to 3,000 people.",
+      "zh": "签名人数增长到3000人。",
+      "ja": "署名者数は3,000人に増えた。"
+    },
+    {
+      "id": 17,
+      "ru": "Дело Качаравы взяли под контроль ректорат и опасавшийся шума губернатор.",
+      "en": "The Kacharava case was taken under control by the rector's office and the governor, who feared the scandal.",
+      "zh": "卡恰拉瓦案被校长办公室和担心丑闻的州长接管。",
+      "ja": "カチャラヴァ事件は学長室と騒動を恐れた知事の管理下に置かれた。"
+    },
+    {
+      "id": 18,
+      "ru": "Дуров нуждался в фигуре, которая перетащила бы историков с их форума «Покемония», где тусовалось 200 человек, на spbgu.org.",
+      "en": "Durov needed a figure who would drag the historians from their forum \"Pokemonia,\" where 200 people hung out, to spbgu.org.",
+      "zh": "杜罗夫需要一个人物，能把历史系学生从他们200人的论坛「Pokemonia」拉到spbgu.org。",
+      "ja": "ドゥーロフには、200人がたむろしていた「ポケモニア」フォーラムから歴史学者たちをspbgu.orgに引きずり込む人物が必要だった。"
+    },
+    {
+      "id": 19,
+      "ru": "Петренчук подходил на роль безумца-зажигалки – он гнал против всех, не пробился ни в профком, ни в студсовет и скандалил с обеими ветвями власти.",
+      "en": "Petrenchuk fit the role of a madman-instigator—he went against everyone, hadn't made it into either the union or the student council, and feuded with both branches of power.",
+      "zh": "彼得伦丘克很适合扮演疯狂煽动者的角色——他与所有人作对，既没进工会也没进学生会，还与两个权力分支争吵。",
+      "ja": "ペトレンチュクは狂人扇動者の役にぴったりだった——彼はみんなに逆らい、組合にも学生会にも入れず、両方の権力と争っていた。"
+    },
+    {
+      "id": 20,
+      "ru": "Толкал дикие речи в пьяном виде, нимало не заботясь о высоком штиле.",
+      "en": "He gave wild speeches while drunk, not caring at all about a high style.",
+      "zh": "他喝醉时发表疯狂的演说，完全不在乎高雅的风格。",
+      "ja": "彼は酔った状態で過激な演説をし、高尚なスタイルなど全く気にしなかった。"
+    },
+    {
+      "id": 21,
+      "ru": "Дуров видел это, но считал, что средства оправданы целью.",
+      "en": "Durov saw this but believed the ends justified the means.",
+      "zh": "杜罗夫看到了这一点，但认为目的可以为手段辩护。",
+      "ja": "ドゥーロフはそれを見ていたが、目的は手段を正当化すると考えていた。"
+    },
+    {
+      "id": 22,
+      "ru": "Эпатаж и разжигание в исполнении добровольного клоуна загнали раздел истфака выше международников и филологов – по количеству сообщений.",
+      "en": "The shock tactics and incitement by the voluntary clown pushed the history faculty section above international relations and philology students—in terms of message count.",
+      "zh": "这位自愿的小丑的哗众取宠和煽动，使历史系版块在消息数量上超过了国际关系和语文系。",
+      "ja": "自発的な道化師によるショック戦術と扇動は、歴史学部セクションを国際関係や文学部を上回る位置に押し上げた——メッセージ数で。"
+    },
+    {
+      "id": 23,
+      "ru": "Однако чем больше истфаковцев Петренчук перетаскивал с «Покемонии» на форум, тем больше отбивался от рук.",
+      "en": "However, the more history students Petrenchuk dragged from \"Pokemonia\" to the forum, the more out of control he became.",
+      "zh": "然而，彼得伦丘克从「Pokemonia」拉来的历史系学生越多，他就越失控。",
+      "ja": "しかし、ペトレンチュクが「ポケモニア」からフォーラムに引きずり込む歴史学生が増えるほど、彼は手に負えなくなった。"
+    },
+    {
+      "id": 24,
+      "ru": "Модератор, который ведет себя как фрик и отказывается занимать позицию беспристрастного судьи, стал раздражать главного архитектора.",
+      "en": "A moderator who behaved like a freak and refused to take a position of impartial judge began to irritate the chief architect.",
+      "zh": "一个表现得像怪胎、拒绝担任公正裁判角色的版主开始惹恼首席建筑师。",
+      "ja": "フリークのように振る舞い、公正な審判の立場を取ることを拒否するモデレーターは、チーフアーキテクトをイラつかせ始めた。"
+    },
+    {
+      "id": 25,
+      "ru": "Нет, конечно, форум истфака бурлил спорами про Путина, гомосексуалистов, еврейскую закулису, результаты Великой Отечественной – и это было прекрасно.",
+      "en": "No, of course, the history faculty forum seethed with debates about Putin, homosexuals, the Jewish conspiracy, the results of the Great Patriotic War—and this was wonderful.",
+      "zh": "不，当然，历史系论坛充满了关于普京、同性恋、犹太阴谋、卫国战争结果的争论——这很好。",
+      "ja": "いや、もちろん、歴史学部フォーラムはプーチン、同性愛者、ユダヤの陰謀、大祖国戦争の結果についての議論で沸騰していた——それは素晴らしかった。"
+    },
+    {
+      "id": 26,
+      "ru": "Чтобы зажечь танцпол, Дуров сам прикидывался циником и писал: «Жаль, что Гитлер нас не завоевал».",
+      "en": "To light up the dance floor, Durov himself pretended to be a cynic and wrote: \"Too bad Hitler didn't conquer us.\"",
+      "zh": "为了点燃舞池，杜罗夫自己假装愤世嫉俗，写道：「可惜希特勒没有征服我们。」",
+      "ja": "ダンスフロアを盛り上げるために、ドゥーロフ自身がシニックを装い、「ヒトラーが我々を征服しなかったのは残念だ」と書いた。"
+    },
+    {
+      "id": 27,
+      "ru": "Но правила на истфаке нарушались слишком часто.",
+      "en": "But the rules on the history faculty forum were violated too often.",
+      "zh": "但历史系论坛的规则被违反得太频繁了。",
+      "ja": "しかし、歴史学部でのルールはあまりにも頻繁に破られた。"
+    },
+    {
+      "id": 28,
+      "ru": "Модератор ввязывался в драки и троллил гостей.",
+      "en": "The moderator got into fights and trolled guests.",
+      "zh": "版主卷入争吵并嘲讽访客。",
+      "ja": "モデレーターは喧嘩に巻き込まれ、訪問者を荒らした。"
+    },
+    {
+      "id": 29,
+      "ru": "Однажды Петренчук, напившись, опубликовал чрезмерно разнузданный спич и был подслушан конкурентами с «Покемонии», которые не могли ему простить захвата власти и увода глаз с их форума.",
+      "en": "Once Petrenchuk, having gotten drunk, published an excessively unrestrained speech and was overheard by competitors from \"Pokemonia,\" who couldn't forgive him for seizing power and drawing eyes away from their forum.",
+      "zh": "有一次，彼得伦丘克喝醉后发表了一篇过于放肆的演说，被「Pokemonia」的竞争对手们听到了，他们无法原谅他夺权和把目光从他们的论坛上引开。",
+      "ja": "あるとき、ペトレンチュクは酔っ払って過度に野放図なスピーチを投稿し、「ポケモニア」のライバルたちに聞かれた。彼らは権力の掌握と自分たちのフォーラムからの注目の移動を許せなかった。"
+    },
+    {
+      "id": 30,
+      "ru": "Самый непримиримый его враг, редактор истфаковской газеты «Студень» (медиапремия Дарвина за название) Даша Бондаренко почуяла запах крови и вцепилась в Петренчука.",
+      "en": "His most implacable enemy, the editor of the history faculty newspaper \"Studen\" (Darwin Media Award for the name) Dasha Bondarenko, smelled blood and sank her teeth into Petrenchuk.",
+      "zh": "他最不共戴天的敌人，历史系报纸《Studen》（报名达尔文媒体奖）的编辑达莎·邦达连科闻到了血腥味，死死咬住彼得伦丘克。",
+      "ja": "最も容赦ない敵、歴史学部新聞「ストゥーデン」（名前のダーウィンメディア賞）の編集者ダーシャ・ボンダレンコは血の匂いを嗅ぎつけ、ペトレンチュクに食らいついた。"
+    },
+    {
+      "id": 31,
+      "ru": "Эти два человека давно сошлись в клинче.",
+      "en": "These two people had long been locked in a clinch.",
+      "zh": "这两个人早已陷入僵持状态。",
+      "ja": "この二人は長い間クリンチ状態にあった。"
+    },
+    {
+      "id": 32,
+      "ru": "Петренчук рассказывал, что Даша считала его неприятным идиотом – как-то раз он совершил грубую ошибку, высказав сомнения в ее уме и красоте, чем нажил непримиримого врага.",
+      "en": "Petrenchuk said that Dasha considered him an unpleasant idiot—once he made a gross mistake, expressing doubts about her intelligence and beauty, which earned him an implacable enemy.",
+      "zh": "彼得伦丘克说，达莎认为他是个讨厌的白痴——有一次他犯了个大错，对她的智慧和美貌表示怀疑，这给他招来了一个不共戴天的敌人。",
+      "ja": "ペトレンチュクによると、ダーシャは彼を不愉快な馬鹿だと思っていた——かつて彼は彼女の知性と美しさに疑問を呈する大失態を犯し、容赦ない敵を作った。"
+    },
+    {
+      "id": 33,
+      "ru": "И главное, их интересы пересекались – Даша жаждала власти над истфаком за пределами «Покемонии».",
+      "en": "And most importantly, their interests overlapped—Dasha craved power over the history faculty beyond \"Pokemonia.\"",
+      "zh": "最重要的是，他们的利益有交集——达莎渴望在「Pokemonia」之外控制历史系。",
+      "ja": "そして最も重要なのは、彼らの利害が重なっていたことだ——ダーシャは「ポケモニア」を超えて歴史学部を支配することを切望していた。"
+    },
+    {
+      "id": 34,
+      "ru": "Макс, чья популярность держалась на истерике и клоунаде, ее бесил.",
+      "en": "Max, whose popularity was based on hysteria and clowning, infuriated her.",
+      "zh": "马克斯的人气建立在歇斯底里和小丑表演上，这让她愤怒。",
+      "ja": "ヒステリーと道化で人気を保っていたマックスは、彼女を激怒させた。"
+    },
+    {
+      "id": 35,
+      "ru": "Она писала резко и эпатирующе: «Я кончаю», – в ответ Равдоникасу, посвятившему ей рассказ.",
+      "en": "She wrote sharply and provocatively: \"I'm coming,\" in response to Ravdonikas, who had dedicated a story to her.",
+      "zh": "她的写作尖锐而具有挑衅性：「我高潮了」——这是对拉夫多尼卡斯写给她的故事的回应。",
+      "ja": "彼女は鋭く挑発的に書いた：「イク」——彼女に物語を捧げたラヴドニカスへの返答として。"
+    },
+    {
+      "id": 36,
+      "ru": "Но поддеть Петренчука так, чтобы дезавуировать раз и навсегда, у пользователя Jennyfer не получалось.",
+      "en": "But user Jennyfer couldn't catch Petrenchuk in a way that would discredit him once and for all.",
+      "zh": "但用户Jennyfer无法抓住彼得伦丘克的把柄，一劳永逸地让他身败名裂。",
+      "ja": "しかし、ユーザーJennyferはペトレンチュクを決定的に信用失墜させるような形で引っ掛けることができなかった。"
+    }
+  ],
+  "translator_notes": [
+    "Page 32 continues Chapter 2 - the political drama around the history faculty forum",
+    "The murder reference is to Timur Kacharava on Nevsky Prospect (November 2005)",
+    "'Judeo-Masons' (жидомасоны) is an antisemitic conspiracy term common in Russian nationalism",
+    "The 'Georgian' likely refers to Kacharava's non-Russian ethnicity (Georgian last name)",
+    "'Pokemonia' was the competing history faculty forum with ~200 users",
+    "'Studen' newspaper name - a pun on 'student' but also means 'aspic/cold meat jelly' in Russian",
+    "Darwin Award reference implies the newspaper name is hilariously bad",
+    "Dasha Bondarenko's username was 'Jennyfer' on the forum",
+    "Durov's provocative Hitler comment shows his engagement baiting tactics",
+    "The text reveals early VK/forum culture - controversy drove engagement"
+  ],
+  "total_sentences": 36,
+  "page_type": "narrative"
+}
