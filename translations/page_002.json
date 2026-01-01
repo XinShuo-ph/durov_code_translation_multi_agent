@@ -1,0 +1,98 @@
+{
+  "page": 2,
+  "chapter": 0,
+  "chapter_title": "Выходные данные и аннотация (Publication data & synopsis)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Николай В. Кононов",
+      "en": "Nikolai V. Kononov",
+      "zh": "尼古拉·V·科诺诺夫",
+      "ja": "ニコライ・V・コノノフ"
+    },
+    {
+      "id": 2,
+      "ru": "Код Дурова. Реальная история «ВКонтакте» и ее создателя",
+      "en": "Durov's Code. The Real Story of VKontakte and Its Creator",
+      "zh": "《杜罗夫密码》：VKontakte及其创始人的真实故事",
+      "ja": "『ドゥーロフの暗号』――VKontakteとその創設者の実話"
+    },
+    {
+      "id": 3,
+      "ru": "Текст предоставлен издательством",
+      "en": "Text provided by the publisher.",
+      "zh": "文本由出版社提供。",
+      "ja": "本文は出版社より提供。"
+    },
+    {
+      "id": 4,
+      "ru": "http://www.litres.ru/pages/biblio_book/?art=4442369",
+      "en": "http://www.litres.ru/pages/biblio_book/?art=4442369",
+      "zh": "http://www.litres.ru/pages/biblio_book/?art=4442369",
+      "ja": "http://www.litres.ru/pages/biblio_book/?art=4442369"
+    },
+    {
+      "id": 5,
+      "ru": "Код Дурова. Реальная история «ВКонтакте» и ее создателя / Николай В. Кононов: Манн, Иванов, Фербер; Москва; 2013",
+      "en": "Durov's Code. The Real Story of VKontakte and Its Creator / Nikolai V. Kononov: Mann, Ivanov and Ferber; Moscow; 2013.",
+      "zh": "《杜罗夫密码》：VKontakte及其创始人的真实故事 / 尼古拉·V·科诺诺夫：曼恩、伊万诺夫与费尔别尔；莫斯科；2013年。",
+      "ja": "『ドゥーロフの暗号――VKontakteとその創設者の実話』／ニコライ・V・コノノフ：マン、イワノフ、フェルベル；モスクワ；2013年。"
+    },
+    {
+      "id": 6,
+      "ru": "ISBN 978-5-91657-546-0",
+      "en": "ISBN 978-5-91657-546-0",
+      "zh": "ISBN 978-5-91657-546-0",
+      "ja": "ISBN 978-5-91657-546-0"
+    },
+    {
+      "id": 7,
+      "ru": "Аннотация",
+      "en": "Synopsis",
+      "zh": "内容简介",
+      "ja": "内容紹介"
+    },
+    {
+      "id": 8,
+      "ru": "Серо-голубой логотип «ВКонтакте» мелькает на всех мониторах страны.",
+      "en": "The gray-blue VKontakte logo flickers on monitors across the country.",
+      "zh": "灰蓝色的 VKontakte 标志在全国各地的显示器上闪现。",
+      "ja": "灰青色のVKontakteロゴが国中のモニターにちらつく。"
+    },
+    {
+      "id": 9,
+      "ru": "Чем так притягательна виртуальная реальность соцсети для десятков миллионов россиян от 12 и старше?",
+      "en": "What makes this social network's virtual world so alluring to tens of millions of Russians aged twelve and up?",
+      "zh": "这家社交网络的虚拟世界为何能吸引数千万12岁以上的俄罗斯人？",
+      "ja": "このSNSの仮想世界は、12歳以上の何千万ものロシア人をなぜこれほど惹きつけるのか。"
+    },
+    {
+      "id": 10,
+      "ru": "Кто придумал эту игрушку и куда этот человек ведет свою необычную компанию?",
+      "en": "Who invented this toy, and where is that person leading his unusual company?",
+      "zh": "是谁发明了这款“玩具”，他又要把这家不寻常的公司带向何方？",
+      "ja": "この“おもちゃ”を考えたのは誰で、その人物は自分の風変わりな会社をどこへ導こうとしているのか。"
+    },
+    {
+      "id": 11,
+      "ru": "Павел Дуров почти не общается с журналистами, но автору этой книги удалось проникнуть внутрь «ВКонтакте».",
+      "en": "Pavel Durov rarely speaks with journalists, but the author of this book managed to get inside VKontakte.",
+      "zh": "帕维尔·杜罗夫几乎不与记者打交道，但本书作者设法深入了 VKontakte 的内部。",
+      "ja": "パーヴェル・ドゥーロフはほとんど記者と話さないが、本書の著者はVKontakteの内部に入り込むことに成功した。"
+    },
+    {
+      "id": 12,
+      "ru": "Получилось не просто журналистское расследование, а авантюрная история, исследующая феномен сетевого предпринимателя-харизматика и его детища – а заодно и вполне материальное выражение популярности бизнеса соцсети.",
+      "en": "The result is not just investigative journalism, but an adventurous story that explores the phenomenon of a charismatic internet entrepreneur and his brainchild—and, at the same time, a very tangible expression of the social network's business popularity.",
+      "zh": "结果不仅是一篇记者调查，更是一段带点冒险色彩的故事：它探究了这位魅力十足的网络创业者及其“孩子”的现象——同时也呈现了社交网络商业受欢迎程度的相当现实的体现。",
+      "ja": "それは単なるジャーナリズムの調査ではなく、カリスマ的なネット起業家とその“作品”という現象を掘り下げる冒険譚でもある――同時に、SNSビジネスの人気をきわめて具体的に示すものでもある。"
+    }
+  ],
+  "translator_notes": [
+    "This page contains bibliographic information and the publisher-provided synopsis (Аннотация).",
+    "For consistency, company name is rendered as \"VKontakte\" (with optional \"VK\" elsewhere) per the project glossary."
+  ],
+  "total_sentences": 12,
+  "page_type": "front_matter"
+}
+

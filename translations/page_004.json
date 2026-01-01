@@ -1,0 +1,83 @@
+{
+  "page": 4,
+  "chapter": 0,
+  "chapter_title": "Титульная информация и рекомендации (Title info & recommended reading)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. “Durov's Code. The Real Story of VKontakte and Its Creator”",
+      "zh": "N. V. 科诺诺夫：《杜罗夫密码》：VKontakte及其创始人的真实故事",
+      "ja": "N. V. コノノフ『ドゥーロフの暗号――VKontakteとその創設者の実話』"
+    },
+    {
+      "id": 2,
+      "ru": "Николай Кононов",
+      "en": "Nikolai Kononov",
+      "zh": "尼古拉·科诺诺夫",
+      "ja": "ニコライ・コノノフ"
+    },
+    {
+      "id": 3,
+      "ru": "Код Дурова. Реальная история",
+      "en": "Durov's Code. The Real Story",
+      "zh": "《杜罗夫密码》：真实故事",
+      "ja": "『ドゥーロフの暗号』――実話"
+    },
+    {
+      "id": 4,
+      "ru": "«ВКонтакте» и ее создателя",
+      "en": "of VKontakte and Its Creator",
+      "zh": "关于 VKontakte 及其创始人",
+      "ja": "VKontakteとその創設者について"
+    },
+    {
+      "id": 5,
+      "ru": "Эту книгу хорошо дополняют:",
+      "en": "This book is nicely complemented by:",
+      "zh": "本书的延伸阅读：",
+      "ja": "併せて読みたい本："
+    },
+    {
+      "id": 6,
+      "ru": "Мечтай, создавай, изменяй! Как молодые предприниматели меняют мир и зарабатывают состояния",
+      "en": "Dream It, Do It, Change It! How young entrepreneurs change the world and make fortunes",
+      "zh": "《梦想、创造、改变！年轻创业者如何改变世界并赚取财富》",
+      "ja": "『夢見て、創って、変えろ！若い起業家はどう世界を変え、巨額を稼ぐのか』"
+    },
+    {
+      "id": 7,
+      "ru": "Сара Лейси",
+      "en": "Sarah Lacy",
+      "zh": "萨拉·莱西",
+      "ja": "サラ・レイシー"
+    },
+    {
+      "id": 8,
+      "ru": "И ботаники делают бизнес",
+      "en": "And Nerds Do Business, Too",
+      "zh": "《书呆子也能做生意》",
+      "ja": "『オタクもビジネスをする』"
+    },
+    {
+      "id": 9,
+      "ru": "Максим Котин",
+      "en": "Maksim Kotin",
+      "zh": "马克西姆·科京",
+      "ja": "マクシム・コチン"
+    },
+    {
+      "id": 10,
+      "ru": "4",
+      "en": "4",
+      "zh": "4",
+      "ja": "4"
+    }
+  ],
+  "translator_notes": [
+    "This front-matter page repeats the title info and lists recommended related books."
+  ],
+  "total_sentences": 10,
+  "page_type": "front_matter"
+}
+
