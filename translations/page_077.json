@@ -1,0 +1,288 @@
+{
+  "page": 77,
+  "chapter": 5,
+  "chapter_title": "Стена (The Wall)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "22.13. Толпа приходит в движение.",
+      "en": "22.13. The crowd comes into motion.",
+      "zh": "22.13。人群开始骚动。",
+      "ja": "22時13分。群衆が動き出す。"
+    },
+    {
+      "id": 2,
+      "ru": "В окна летят первые камни.",
+      "en": "The first stones fly into the windows.",
+      "zh": "第一批石头飞向窗户。",
+      "ja": "最初の石が窓に飛んでくる。"
+    },
+    {
+      "id": 3,
+      "ru": "В лазарет, спешно организованный в кабинете Алексея Богатова, доставлен Добромыслов с травмой левой брови и множественными порезами от осколков.",
+      "en": "Dobromyslov was delivered to the infirmary, hastily organized in Aleksey Bogatov's office, with an injury to his left eyebrow and multiple cuts from fragments.",
+      "zh": "多布罗梅斯洛夫被送往在阿列克谢·博加托夫办公室匆忙搭建的医务室，左眉受伤，身上多处被碎片割伤。",
+      "ja": "アレクセイ・ボガトフのオフィスに急遽設けられた診療所に、左眉の怪我と破片による多数の切り傷を負ったドブロミスロフが運び込まれた。"
+    },
+    {
+      "id": 4,
+      "ru": "22.29. Для тяжелого пулемета на ресепшене оказалось всего три ленты.",
+      "en": "22.29. There turned out to be only three belts for the heavy machine gun at the reception.",
+      "zh": "22.29。前台重机枪只剩下三条弹链。",
+      "ja": "22時29分。受付の重機関銃には弾帯が3本しかなかった。"
+    },
+    {
+      "id": 5,
+      "ru": "Похоже на саботаж.",
+      "en": "Looks like sabotage.",
+      "zh": "看起来像是蓄意破坏。",
+      "ja": "サボタージュのようだ。"
+    },
+    {
+      "id": 6,
+      "ru": "Переходим на легкое автоматическое оружие.",
+      "en": "Switching to light automatic weapons.",
+      "zh": "换用轻型自动武器。",
+      "ja": "軽自動火器に切り替える。"
+    },
+    {
+      "id": 7,
+      "ru": "Запасов пресной воды хватает.",
+      "en": "Fresh water reserves are sufficient.",
+      "zh": "淡水储备充足。",
+      "ja": "淡水の備蓄は十分だ。"
+    },
+    {
+      "id": 8,
+      "ru": "22.53. Важное наблюдение: большинство наступающих – в лаптях.",
+      "en": "22.53. Important observation: the majority of the attackers are in bast shoes.",
+      "zh": "22.53。重要观察：大多数进攻者穿着草鞋。",
+      "ja": "22時53分。重要な観察事項：攻撃側の大部分は草鞋を履いている。"
+    },
+    {
+      "id": 9,
+      "ru": "Добромыслов вырвался из лазарета и бубнит: „Великий день, великий день!“",
+      "en": "Dobromyslov broke out of the infirmary and mutters: \"Great day, great day!\"",
+      "zh": "多布罗梅斯洛夫冲出医务室，喃喃自语：“伟大的一天，伟大的一天！”",
+      "ja": "ドブロミスロフが診療所から飛び出し、「偉大な日だ、偉大な日だ！」と呟いている。"
+    },
+    {
+      "id": 10,
+      "ru": "Настроение праздничное.",
+      "en": "The mood is festive.",
+      "zh": "气氛喜庆。",
+      "ja": "気分は祝祭的だ。"
+    },
+    {
+      "id": 11,
+      "ru": "К стрекотанию и звону привыкли.",
+      "en": "We got used to the chirping and ringing.",
+      "zh": "已经习惯了哒哒声和叮当声。",
+      "ja": "銃撃音と爆発音には慣れた。"
+    },
+    {
+      "id": 12,
+      "ru": "С начала осады отжали 170 апельсинов».",
+      "en": "Since the beginning of the siege, 170 oranges have been squeezed.\"",
+      "zh": "自围攻开始以来，已经榨了 170 个橙子。”",
+      "ja": "包囲開始から170個のオレンジを搾った」"
+    },
+    {
+      "id": 13,
+      "ru": "Сводки с полей не сильно отличались.",
+      "en": "Reports from the fields did not differ much.",
+      "zh": "现场报告大同小异。",
+      "ja": "前線からの報告も大差なかった。"
+    },
+    {
+      "id": 14,
+      "ru": "По «ВКонтакте» рассылали сообщения с призывом не заходить на сайт 22 октября.",
+      "en": "Messages were sent out on \"VKontakte\" calling not to visit the site on October 22.",
+      "zh": "“VKontakte”上流传着呼吁在 10 月 22 日不要登录网站的消息。",
+      "ja": "『VKontakte』上では、10月22日にサイトにアクセスしないよう呼びかけるメッセージが拡散されていた。"
+    },
+    {
+      "id": 15,
+      "ru": "Цель – дать понять, что юзеры готовы уйти из «ВКонтакте», если к ним не прислушаются.",
+      "en": "The goal is to make it clear that users are ready to leave \"VKontakte\" if they are not listened to.",
+      "zh": "目的是要让人明白，如果不听取用户的意见，他们准备离开“VKontakte”。",
+      "ja": "目的は、もし自分たちの意見が聞き入れられなければ、ユーザーは『VKontakte』を去る用意があることを分からせることだった。"
+    },
+    {
+      "id": 16,
+      "ru": "Штаб нанес ответный удар: ночью в блоге, где фиксировалась история «ВКонтакте», опубликовали запись – в прошедшие сутки рекорд посещаемости побит.",
+      "en": "The headquarters struck back: at night in the blog, where the history of \"VKontakte\" was recorded, an entry was published – in the past day the attendance record was broken.",
+      "zh": "总部进行了反击：夜里，在记录“VKontakte”历史的博客上发布了一条记录——过去一天的访问量打破了记录。",
+      "ja": "本部は反撃に出た。夜、『VKontakte』の歴史を記録するブログに記事が公開された――過去24時間のアクセス数が記録を更新したと。"
+    },
+    {
+      "id": 17,
+      "ru": "Чуть позже Дуров обратился к хейтерам: «Пару дней вы будете нас ненавидеть, затем – любить еще сильнее.",
+      "en": "A little later Durov addressed the haters: \"For a couple of days you will hate us, then – love even more.",
+      "zh": "稍后，杜罗夫对黑粉说：“这几天你们会恨我们，然后——会更爱我们。",
+      "ja": "少ししてドゥーロフはヘイターたちに向けて言った。「数日間、君たちは僕らを憎むだろう。その後は――もっと強く愛するようになる。"
+    },
+    {
+      "id": 18,
+      "ru": "Но ради вас мы готовы смириться даже с вашей ненавистью».",
+      "en": "But for your sake, we are ready to put up even with your hatred.\"",
+      "zh": "但为了你们，我们要准备甚至忍受你们的仇恨。”",
+      "ja": "だが君たちのためなら、君たちの憎しみさえ甘受する覚悟ができている」"
+    },
+    {
+      "id": 19,
+      "ru": "Написав эти строки, Дуров начал восхождение к образу просвещенного диктатора.",
+      "en": "Having written these lines, Durov began the ascent to the image of an enlightened dictator.",
+      "zh": "写下这些文字后，杜罗夫开始了向开明独裁者形象的攀登。",
+      "ja": "この一文を書くことで、ドゥーロフは啓蒙専制君主のイメージへの階段を上り始めた。"
+    },
+    {
+      "id": 20,
+      "ru": "Он запретил банить любые группы, разжигающие вражду к его персоне.",
+      "en": "He forbade banning any groups inciting hatred towards his person.",
+      "zh": "他禁止封禁任何煽动对他个人仇恨的群组。",
+      "ja": "彼は自分への憎悪を煽るいかなるグループもバンすることを禁じた。"
+    },
+    {
+      "id": 21,
+      "ru": "«В репутации Доктора Зло есть что-то для добротного маркетинга», – признается он позже.",
+      "en": "\"In the reputation of Dr. Evil there is something for solid marketing,\" he admits later.",
+      "zh": "“邪恶博士的名声对良好的营销是有帮助的，”他后来承认。",
+      "ja": "「ドクター・イーブルの評判には、優れたマーケティングに役立つ何かがある」と彼は後に認めている。"
+    },
+    {
+      "id": 22,
+      "ru": "Впрочем, то, что сработало с юзерами, не говоря о служителях копирайта, не проходило с источником главной угрозы.",
+      "en": "However, what worked with users, not to mention the servants of copyright, did not pass with the source of the main threat.",
+      "zh": "然而，对用户有效的一套，对主要威胁的来源却不管用。",
+      "ja": "だが、ユーザーに対してうまくいったことは、主要な脅威の源には通用しなかった。"
+    },
+    {
+      "id": 23,
+      "ru": "Спустя несколько месяцев конфликт с Mail.ru разросся из маленькой разборки в большом Токио в громкий скандал.",
+      "en": "A few months later, the conflict with Mail.ru grew from a small showdown in big Tokyo into a loud scandal.",
+      "zh": "几个月后，与 Mail.ru 的冲突从小打小闹演变成了一场轰动的大丑闻。",
+      "ja": "数ヶ月後、Mail.ruとの対立は、ビッグ・トーキョーでの小さな決闘から、騒々しいスキャンダルへと拡大した。"
+    },
+    {
+      "id": 24,
+      "ru": "Бомбу заложил Мильнер.",
+      "en": "The bomb was planted by Milner.",
+      "zh": "炸弹是米尔纳埋下的。",
+      "ja": "爆弾を仕掛けたのはミルナーだった。"
+    },
+    {
+      "id": 25,
+      "ru": "Три года назад, когда Дуров, Мирилашвили и Левиев оформляли с ним сделку, в документах не регулировалась возможность инвестора переводить свою долю в другие юридические лица.",
+      "en": "Three years ago, when Durov, Mirilashvili and Leviev executed the deal with him, the documents did not regulate the investor's ability to transfer his share to other legal entities.",
+      "zh": "三年前，当杜罗夫、米里拉什维利和列维耶夫与他达成交易时，文件中并没有规定投资者将其股份转让给其他法人的可能性。",
+      "ja": "3年前、ドゥーロフ、ミリラシヴィリ、レヴィエフが彼と取引をまとめた際、書類には投資家が自分の持ち分を他の法人に移転する可能性については規定されていなかった。"
+    },
+    {
+      "id": 26,
+      "ru": "Поэтому, когда у Мильнера прошел интерес к рунету и он обрел миллиард долларов для глобальных инвестиций (олигарх Алишер Усманов интересовался крупнейшими мировыми сервисами), все доли в «Одноклассниках», «ВКонтакте» и других компаниях он слил в холдинг Mail.ru Group.",
+      "en": "Therefore, when Milner lost interest in Runet and found a billion dollars for global investments (oligarch Alisher Usmanov was interested in the largest global services), he merged all shares in \"Odnoklassniki\", \"VKontakte\" and other companies into the holding Mail.ru Group.",
+      "zh": "因此，当米尔纳对俄网失去兴趣并获得用于全球投资的十亿美元时，他将“同学”、“VKontakte”和其他公司的所有股份合并到 Mail.ru Group 控股公司中。",
+      "ja": "そのため、ミルナーがRunetへの関心を失い、グローバル投資のための10億ドルを手に入れたとき、彼は『Odnoklassniki』、『VKontakte』、その他の企業の全株式をMail.ru Groupというホールディングに統合した。"
+    },
+    {
+      "id": 27,
+      "ru": "Группа основывалась на активах Mail.ru, и рулить ею назначили Гришина.",
+      "en": "The group was based on the assets of Mail.ru, and Grishin was appointed to steer it.",
+      "zh": "该集团以 Mail.ru 的资产为基础，格里申被任命为掌舵人。",
+      "ja": "グループはMail.ruの資産を基盤としており、その舵取りにはグリシンが任命された。"
+    },
+    {
+      "id": 28,
+      "ru": "Дуров слышал о планах сколотить суперкомпанию, которая могла бы противостоять натиску Google и других корпораций добра, но не придавал им серьезного значения.",
+      "en": "Durov heard about plans to put together a supercompany that could withstand the onslaught of Google and other corporations of good, but did not attach serious importance to them.",
+      "zh": "杜罗夫听说过组建一家能够抵御 Google 和其他“善良企业”冲击的超级公司的计划，但并没有太当回事。",
+      "ja": "ドゥーロフは、Googleやその他の「善の企業」の猛攻に耐えうるスーパーカンパニーを組み立てる計画について聞いてはいたが、真剣には受け止めていなかった。"
+    },
+    {
+      "id": 29,
+      "ru": "К тому же и речи не шло о передаче «ВКонтакте» под командование московских менеджеров.",
+      "en": "Moreover, there was no talk of transferring \"VKontakte\" under the command of Moscow managers.",
+      "zh": "此外，根本没有谈到将“VKontakte”移交给莫斯科经理指挥。",
+      "ja": "それに、『VKontakte』をモスクワのマネージャーたちの指揮下に移すなどという話は全く出ていなかった。"
+    },
+    {
+      "id": 30,
+      "ru": "В итоге случилось так, что Дуров внезапно обнаружил у себя в совладельцах агрессивно настроенного автора игры «Альфа-ромео».",
+      "en": "As a result, it happened that Durov suddenly discovered among his co-owners the aggressively minded author of the game \"Alfa Romeo\".",
+      "zh": "结果发生了这样的事：杜罗夫突然发现，“阿尔法·罗密欧”游戏的那个咄咄逼人的作者成了他的共同所有者。",
+      "ja": "結果として、ドゥーロフは突然、ゲーム「アルファロメオ」の攻撃的な作者が共同所有者の中にいることに気づくことになった。"
+    },
+    {
+      "id": 31,
+      "ru": "Первое время Гришин не давал о себе знать – он определялся, как решать проблемы слияния, и разбирался с управляющими поглощенных продуктов.",
+      "en": "At first, Grishin did not make himself known – he was determining how to solve merger problems, and dealing with the managers of the absorbed products.",
+      "zh": "起初，格里申并没有露面——他在确定如何解决合并问题，并与被收购产品的管理者打交道。",
+      "ja": "最初、グリシンは鳴りを潜めていた――合併の問題をどう解決するかを決め、吸収されたプロダクトの管理者たちへの対応に追われていたのだ。"
+    },
+    {
+      "id": 32,
+      "ru": "Некоторые из них – например, Илья Широков из «Одноклассников» – сопротивлялись тотальному контролю человека, подписывавшего макеты визиток своим менеджерам.",
+      "en": "Some of them – for example, Ilya Shirokov from \"Odnoklassniki\" – resisted the total control of the person who signed the layouts of business cards for his managers.",
+      "zh": "他们中的一些人——例如“同学”的伊利亚·希罗科夫——抵制那个给经理签署名片设计的人的全面控制。",
+      "ja": "その中には――例えば『Odnoklassniki』のイリヤ・シロコフのように――マネージャーの名刺デザインに署名するような人物による全面的支配に抵抗する者もいた。"
+    },
+    {
+      "id": 33,
+      "ru": "Однако через пару месяцев раздался первый звонок.",
+      "en": "However, a couple of months later the first bell rang.",
+      "zh": "然而，几个月后，第一个警钟响了。",
+      "ja": "しかし数ヶ月後、最初のベルが鳴った。"
+    },
+    {
+      "id": 34,
+      "ru": "Перекопский узнал, что сейлзы Mail.ru Group обещают клиентам, что скоро начнут продавать рекламу во «ВКонтакте».",
+      "en": "Perekopsky learned that Mail.ru Group sales were promising clients that they would soon start selling advertising in \"VKontakte\".",
+      "zh": "佩列科普斯基得知，Mail.ru Group 的销售人员向客户承诺，他们很快就会开始在“VKontakte”上销售广告。",
+      "ja": "ペレコプスキーは、Mail.ru Groupのセールスがクライアントに、まもなく『VKontakte』で広告を販売し始めると約束していることを知った。"
+    },
+    {
+      "id": 35,
+      "ru": "Второй звонок прогремел как гонг на ринге.",
+      "en": "The second bell thundered like a gong in the ring.",
+      "zh": "第二个警钟像擂台上的锣声一样轰鸣。",
+      "ja": "二度目のベルはリングのゴングのように轟いた。"
+    },
+    {
+      "id": 36,
+      "ru": "Корреспондент Forbes Андрей Бабицкий брал интервью у Гришина и поинтересовался, что тот думает о будущем «ВКонтакте».",
+      "en": "Forbes correspondent Andrey Babitsky was interviewing Grishin and asked what he thought about the future of \"VKontakte\".",
+      "zh": "《福布斯》记者安德烈·巴比茨基采访格里申时，询问他对“VKontakte”未来的看法。",
+      "ja": "フォーブスの特派員アンドレイ・バビツキーがグリシンにインタビューし、『VKontakte』の将来についてどう考えているか尋ねた。"
+    },
+    {
+      "id": 37,
+      "ru": "Гришин, не моргнув глазом, ответил: «Стратегически для нас правильно приобрести контроль в социальной сети, а лучше даже выкупить все 100 %».",
+      "en": "Grishin, without blinking an eye, replied: \"Strategically it is right for us to acquire control in the social network, and even better to buy out all 100%.\"",
+      "zh": "格里申眼睛都没眨一下，回答说：“从战略上讲，我们要获得社交网络的控制权是正确的，最好甚至是收购 100%。”",
+      "ja": "グリシンは瞬き一つせず答えた。「戦略的に、我々にとってソーシャルネットワークの支配権を獲得することは正しく、さらに言えば100％買い取ることが望ましい」"
+    },
+    {
+      "id": 38,
+      "ru": "Тратить время на диверсии не входило в планы тотема.",
+      "en": "Wasting time on sabotage was not in the plans of the totem.",
+      "zh": "把时间浪费在破坏活动上并不在图腾的计划之内。",
+      "ja": "妨害工作に時間を費やすことは、トーテムの計画にはなかった。"
+    },
+    {
+      "id": 39,
+      "ru": "Он по-прежнему желал изобретать новые штуки в кругу единомышленников, но после взорвавшейся",
+      "en": "He still wished to invent new things in the circle of like-minded people, but after the exploded...",
+      "zh": "他仍然希望与志同道合的人一起发明新东西，但在爆炸之后……",
+      "ja": "彼は相変わらず同志の輪の中で新しいものを発明したいと願っていたが、爆発した……"
+    }
+  ],
+  "translator_notes": [
+    "Sentence 1 continues from page 76.",
+    "The 'author of Alfa Romeo game' refers to Dmitry Grishin's early coding project.",
+    "Milner's consolidation of assets into Mail.ru Group created the conflict by giving Grishin power over VK shares.",
+    "Grishin's public declaration of intent to buy 100% of VK (in Forbes) was the breaking point."
+  ],
+  "total_sentences": 39,
+  "page_type": "narrative"
+}
