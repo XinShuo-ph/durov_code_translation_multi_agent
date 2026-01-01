@@ -1,0 +1,5 @@
+# Python dependencies for Durov Code translation project
+PyMuPDF>=1.26.0
+reportlab>=4.4.0
+fpdf2>=2.8.0
+pillow>=12.0.0
