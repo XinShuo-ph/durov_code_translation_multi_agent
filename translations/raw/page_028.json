@@ -1,0 +1,158 @@
+{
+  "page": 28,
+  "chapter": 2,
+  "section": "Chapter 2 - The Architect",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Нет, конечно, не будем забывать про инстинкты – ставим анимешную девицу наверх, приоткрываем ей декольте, подчеркиваем талию, бедра, ресницы уже прорисованы. Пафос не должен отрываться от земли, от базовых потребностей, иначе его носителя легко троллить за высокодуховность.",
+      "en": "No, of course, let's not forget about instincts - we put an anime girl on top, open her décolletage a bit, emphasize the waist, hips, eyelashes already drawn. Pathos should not detach from the ground, from basic needs, otherwise its bearer is easy to troll for being too highbrow.",
+      "zh": "不，当然，我们不要忘记本能——把一个动漫女孩放在顶部，稍微露出她的胸口，强调腰部、臀部，睫毛已经画好了。激情不应该脱离现实，脱离基本需求，否则它的承载者很容易因为太高尚而被嘲弄。",
+      "ja": "いや、もちろん、本能を忘れないでおこう——アニメ少女を上に置き、デコルテを少し開け、ウエスト、ヒップを強調し、まつげはもう描いてある。パトスは地面から、基本的なニーズから離れてはいけない、さもないとその持ち主は高尚すぎるとからかわれやすい。"
+    },
+    {
+      "id": 2,
+      "ru": "Сам Дуров тоже троллил и стебал. Они с Перекопским выписали диск с «Тупым, еще тупее» – без дубляжа и субтитров; тотем писал курсовую по англоязычному юмору.",
+      "en": "Durov himself also trolled and mocked. He and Perekopsky ordered a disk with 'Dumb and Dumber' - without dubbing or subtitles; the totem was writing a term paper on English-language humor.",
+      "zh": "杜罗夫自己也会挖苦和嘲弄。他和佩列科普斯基订购了一张《阿呆与阿瓜》的碟——没有配音或字幕；这位图腾正在写一篇关于英语幽默的学期论文。",
+      "ja": "ドゥーロフ自身もトロールし、からかった。彼とペレコプスキーは『ダム・アンド・ダマー』のディスクを注文した——吹き替えも字幕もなし；トーテムは英語のユーモアについて学期論文を書いていた。"
+    },
+    {
+      "id": 3,
+      "ru": "Если кто не помнит, сюжет заключается в том, что два болвана, ужасно предприимчивых и обладающих каким-то хтоническим чувством прекрасного, выполняют миссию – доставляют брошенный в аэропорту чемоданчик незнакомке.",
+      "en": "If anyone doesn't remember, the plot is that two idiots, terribly enterprising and possessing some kind of chthonic sense of beauty, carry out a mission - they deliver a briefcase left at the airport to a stranger.",
+      "zh": "如果有人不记得，剧情是两个笨蛋，非常有进取心，有着某种原始的审美感，执行一项任务——把机场遗留的公文包送给一个陌生人。",
+      "ja": "覚えていない人のために言うと、プロットは二人の馬鹿——ひどく進取の気性があり、何かクトニックな美的感覚を持つ——がミッションを実行する——空港に置き忘れたブリーフケースを見知らぬ女性に届ける。"
+    },
+    {
+      "id": 4,
+      "ru": "И вот настает время продать форум людям. Звонит будильник. (Проснись, Нео.) Дуров сворачивает плакаты в рулон, берет чемоданчик, натягивает бейсболку.",
+      "en": "And now it's time to sell the forum to people. The alarm rings. (Wake up, Neo.) Durov rolls up the posters, takes his briefcase, pulls on a baseball cap.",
+      "zh": "现在是向人们推销论坛的时候了。闹钟响了。（醒醒，尼奥。）杜罗夫把海报卷起来，拿起公文包，戴上棒球帽。",
+      "ja": "そして今、フォーラムを人々に売り込む時が来た。目覚ましが鳴る。（目覚めろ、ネオ。）ドゥーロフはポスターを巻いて、ブリーフケースを持ち、ベースボールキャップをかぶる。"
+    },
+    {
+      "id": 5,
+      "ru": "(Нео выходит из телефонной будки, чтобы принести людям веру в их неограниченные возможности, под «Wake Up» Rage Against The Machine.)",
+      "en": "(Neo exits the phone booth to bring people faith in their unlimited possibilities, to 'Wake Up' by Rage Against The Machine.)",
+      "zh": "（尼奥走出电话亭，在Rage Against The Machine的《Wake Up》音乐中，给人们带来对无限可能的信念。）",
+      "ja": "（ネオは電話ボックスを出て、Rage Against The Machineの「Wake Up」に乗せて、人々に無限の可能性への信仰をもたらす。）"
+    },
+    {
+      "id": 6,
+      "ru": "Спускается на лифте и видит, что какой-то урод опять поставил машину у подъезда – приходится ее огибать.",
+      "en": "He goes down in the elevator and sees that some jerk has parked his car at the entrance again - he has to go around it.",
+      "zh": "他乘电梯下去，看到某个混蛋又把车停在入口处——他不得不绕道而行。",
+      "ja": "彼はエレベーターで降り、またどこかのバカが入り口に車を停めているのを見る——迂回しなければならない。"
+    },
+    {
+      "id": 7,
+      "ru": "(«Посмотрите в окно, это закат человечества, а будущее за нами, – наставляет пленного Морфеуса его враг, агент Смит. – Я хочу поделиться теорией. Все животные приспосабливаются к среде обитания, но человек не таков. Заняв какой-то участок, вы размножаетесь. Чтобы выжить, вам приходится захватывать все новые и новые территории. Есть один организм на земле со сходной повадкой. Знаете какой? Вирус. Человечество – это болезнь, раковая опухоль планеты. А мы – лекарство».)",
+      "en": "('Look out the window, this is the sunset of humanity, and the future is ours', his enemy Agent Smith instructs the captive Morpheus. 'I want to share a theory. All animals adapt to their environment, but humans are different. Having occupied some area, you multiply. To survive, you have to conquer more and more territories. There is one organism on earth with a similar habit. Know which one? A virus. Humanity is a disease, a cancer of the planet. And we are the cure.')",
+      "zh": "（'看看窗外，这是人类的末日，而未来是我们的'，他的敌人史密斯特工对被俘的墨菲斯说。'我想分享一个理论。所有动物都适应它们的环境，但人类不同。占据某个区域后，你们繁殖。为了生存，你们必须征服越来越多的领土。地球上有一种生物有类似的习性。知道是什么吗？病毒。人类是一种疾病，是星球的癌症。而我们是治疗方法。'）",
+      "ja": "（「窓の外を見ろ、これは人類の黄昏だ、そして未来は我々のものだ」と敵のエージェント・スミスは囚われのモーフィアスに説く。「理論を共有したい。すべての動物は環境に適応するが、人間は違う。ある領域を占領すると、繁殖する。生き残るために、次々と新しい領土を征服しなければならない。地球上に似たような習性を持つ生物がいる。どれか分かるか？ウイルスだ。人類は病気だ、惑星の癌だ。そして我々が治療薬だ」）"
+    },
+    {
+      "id": 8,
+      "ru": "Дуров мстит достойному сыну автомобилизации – вытаскивает из кармана гвоздь, царапает борт и продолжает свой путь.",
+      "en": "Durov takes revenge on a worthy son of automobilization - pulls a nail from his pocket, scratches the side and continues on his way.",
+      "zh": "杜罗夫对这个汽车化的优秀产物进行报复——从口袋里掏出一颗钉子，划破车身，然后继续赶路。",
+      "ja": "ドゥーロフは自動車化のふさわしい息子に復讐する——ポケットから釘を取り出し、車体を引っ掻いて道を続ける。"
+    },
+    {
+      "id": 9,
+      "ru": "Заброшенный аэродром, где он сидел с книгой, начали застраивать – потребительское общество возводит вавилонские моллы. В маршрутке он не платит – считает, что право студента на бесплатный проезд распространяется и на нее.",
+      "en": "The abandoned airfield where he sat with a book has begun to be developed - consumer society is building Babylonian malls. On the minibus he doesn't pay - he believes that a student's right to free travel extends to it as well.",
+      "zh": "他曾经拿着书坐着的废弃机场开始被开发——消费社会正在建造巴比伦式的购物中心。在小巴上他不付钱——他认为学生免费乘车的权利也适用于小巴。",
+      "ja": "彼が本を持って座っていた廃棄された飛行場は開発され始めた——消費社会がバビロンのモールを建てている。ミニバスでは彼は払わない——学生の無料乗車の権利はそれにも及ぶと考えている。"
+    },
+    {
+      "id": 10,
+      "ru": "Если громила-водитель орет: «Кто не передал?» – встает и выходит.",
+      "en": "If the thug driver yells: 'Who didn't pay?' - he gets up and leaves.",
+      "zh": "如果粗暴的司机大喊：'谁没付钱？'——他就站起来离开。",
+      "ja": "もしゴロツキ運転手が「誰が払ってないんだ？」と叫んだら——彼は立ち上がって降りる。"
+    },
+    {
+      "id": 11,
+      "ru": "Через полчаса он у цели. Холл экономфака, где бродят стада студенток со стаканчиками кофе, конспектами, сигаретами. Кто-то болтает по телефону, кто-то вполголоса материт опаздывающего старосту, кто-то сдает в раздевалку пальто.",
+      "en": "Half an hour later he's at his destination. The economics faculty hall, where herds of female students wander with coffee cups, notebooks, cigarettes. Someone is chatting on the phone, someone is quietly cursing the late class representative, someone is checking their coat at the cloakroom.",
+      "zh": "半小时后他到达目的地。经济学院的大厅，成群的女学生拿着咖啡杯、笔记本、香烟走来走去。有人在打电话，有人在低声咒骂迟到的班长，有人在寄存外套。",
+      "ja": "30分後、彼は目的地に着いた。経済学部のホール、女子学生の群れがコーヒーカップ、ノート、タバコを持ってうろついている。誰かが電話でおしゃべりしている、誰かが遅刻した級長を小声で罵っている、誰かがクロークにコートを預けている。"
+    },
+    {
+      "id": 12,
+      "ru": "Трафик. Живой трафик, люди, которым бывает сложно создавать связи в жизни.",
+      "en": "Traffic. Live traffic, people who sometimes find it difficult to make connections in life.",
+      "zh": "流量。活生生的流量，那些有时很难在生活中建立联系的人们。",
+      "ja": "トラフィック。生きたトラフィック、人生でつながりを作るのが難しいことがある人々。"
+    },
+    {
+      "id": 13,
+      "ru": "(«Я знаю, ты здесь. Я знаю, что ты боишься. Боишься нас. Боишься перемен. Я не знаю будущего. Я не могу рассказать тебе, каким оно будет. Но я могу показать тебе, как начать его менять. Я покажу мир без контроля и границ, мир, где возможно все».)",
+      "en": "('I know you're out there. I know that you're afraid. Afraid of us. Afraid of change. I don't know the future. I can't tell you how it's going to end. But I can show you how to start changing it. I'll show a world without control and borders, a world where anything is possible.')",
+      "zh": "（'我知道你在那里。我知道你害怕。害怕我们。害怕改变。我不知道未来。我无法告诉你它会怎样结束。但我可以告诉你如何开始改变它。我将展示一个没有控制和边界的世界，一个一切皆有可能的世界。'）",
+      "ja": "（「君がそこにいることは分かっている。君が怖がっていることも分かっている。私たちを恐れている。変化を恐れている。私は未来を知らない。それがどう終わるかは言えない。でも、それを変え始める方法は見せられる。コントロールも国境もない世界、すべてが可能な世界を見せよう」）"
+    },
+    {
+      "id": 14,
+      "ru": "Доступ к трафику лимитирован вахтером. Студбилет филолога на него не действует. Дуров предельно вежлив, показывает афишу, рассказывает про сайт и улыбается, улыбается, улыбается, мысленно посылая привет американцам из бара «Идиот».",
+      "en": "Access to the traffic is limited by the security guard. A philologist's student ID doesn't work on him. Durov is extremely polite, shows the poster, tells about the site and smiles, smiles, smiles, mentally saying hello to the Americans from the Idiot bar.",
+      "zh": "进入流量区域受到门卫的限制。语言学系的学生证对他不起作用。杜罗夫极其礼貌，展示海报，讲述网站，微笑，微笑，微笑，心里向白痴酒吧的美国人问好。",
+      "ja": "トラフィックへのアクセスは警備員によって制限されている。文献学者の学生証は彼には効かない。ドゥーロフは極めて礼儀正しく、ポスターを見せ、サイトについて話し、微笑み、微笑み、微笑む、心の中で「イディオット」バーのアメリカ人たちに挨拶を送りながら。"
+    },
+    {
+      "id": 15,
+      "ru": "Это не всегда срабатывает, но экономический вахтер не слишком подозрителен и впускает человека с чемоданчиком.",
+      "en": "This doesn't always work, but the economics guard is not too suspicious and lets in the man with the briefcase.",
+      "zh": "这并不总是有效，但经济学院的门卫不太多疑，放进了这个拿着公文包的人。",
+      "ja": "これは常にうまくいくわけではないが、経済学部の警備員はあまり疑い深くなく、ブリーフケースを持った男を入れた。"
+    },
+    {
+      "id": 16,
+      "ru": "Дуров ищет точку, с которой просматривается тусовочный пятачок. Изучает лица, одежду, стиль, жестикуляцию. Мы вербуем сторонников, которые расклеят афиши.",
+      "en": "Durov looks for a spot from which the hangout area is visible. Studies faces, clothes, style, gestures. We recruit supporters who will put up posters.",
+      "zh": "杜罗夫寻找一个可以看到社交区域的位置。研究面孔、衣服、风格、手势。我们招募会贴海报的支持者。",
+      "ja": "ドゥーロフはたまり場が見える場所を探す。顔、服装、スタイル、ジェスチャーを研究する。私たちはポスターを貼る支持者を募集する。"
+    },
+    {
+      "id": 17,
+      "ru": "Если плакатики сорвут, пришпилим новые – и так, пока администрации не станет ясно, что форум ей не переупрямить.",
+      "en": "If the posters get torn down, we'll pin up new ones - and so on, until the administration realizes that the forum cannot be out-stubborned.",
+      "zh": "如果海报被撕掉，我们就贴新的——就这样，直到行政部门明白他们无法和论坛较劲。",
+      "ja": "もしポスターが剥がされたら、新しいのを貼る——そうやって、管理部門がフォーラムに頑固さで勝てないと分かるまで。"
+    },
+    {
+      "id": 18,
+      "ru": "Кто может быть сторонником? Гламурная девица с клатчем? Нет, в их глазах золото, думает Дуров, одни деньги, такие об улучшении мира не размышляют, все больше о том, как захомутать богатенького.",
+      "en": "Who can be a supporter? A glamorous girl with a clutch? No, there's gold in their eyes, thinks Durov, only money, such people don't think about improving the world, more about how to snag a rich guy.",
+      "zh": "谁可以成为支持者？一个拿着手包的时髦女孩？不，她们眼里只有金子，杜罗夫想，只有钱，这样的人不会考虑改善世界，更多的是想着如何钓个金龟婿。",
+      "ja": "誰が支持者になれるか？クラッチバッグを持ったグラマラスな女の子？いや、彼女たちの目には金がある、とドゥーロフは思う、金だけだ、そういう人は世界を良くすることなど考えない、金持ちをどう捕まえるかばかり考えている。"
+    },
+    {
+      "id": 19,
+      "ru": "Он вспоминает, как зашел на день рождения к однокурснице и услышал, как она с подругами размазывала по стенке парня, которому нравилась, – а когда тот позвонил в дверь, преобразилась, мило улыбаясь, приняла подарки и т. д.",
+      "en": "He remembers how he came to a classmate's birthday and heard her smearing a guy she liked with her friends - and when he rang the doorbell, she transformed, smiled sweetly, accepted gifts and so on.",
+      "zh": "他记得有一次去一个同学的生日派对，听到她和朋友们在背后说一个她喜欢的男孩的坏话——而当那个男孩按门铃时，她变了个人，甜甜地微笑，接受礼物等等。",
+      "ja": "彼は、同級生の誕生日に行って、彼女が友達と一緒に好きな男を陰口しているのを聞いたことを思い出す——そしてその男がドアベルを鳴らすと、彼女は変身し、可愛く微笑み、プレゼントを受け取った、など。"
+    }
+  ],
+  "translator_notes": [
+    "Page 28 continues Durov's mission to recruit for the forum",
+    "Dumb and Dumber (1994) - American comedy film",
+    "Chthonic - relating to the underworld, primordial/elemental",
+    "Rage Against The Machine - American rock band, 'Wake Up' played at end of The Matrix",
+    "The Agent Smith speech is from The Matrix - famous monologue about humans as viruses",
+    "Neo's final speech about showing a world without control is from The Matrix ending",
+    "Babylonian malls - reference to consumer excess and Tower of Babel",
+    "The narrative style alternates between Durov's reality and Matrix parallels",
+    "Durov scratching the car shows his disdain for car culture and thoughtless parking",
+    "His strategy of targeting 'outsiders' rather than 'glamorous girls' shows grassroots thinking"
+  ],
+  "research_used": [
+    "The Matrix (1999) - Agent Smith monologue and Neo's final speech",
+    "Dumb and Dumber (1994) - Farrelly Brothers comedy",
+    "Rage Against The Machine - Wake Up (1992)",
+    "Russian student transportation rights in early 2000s"
+  ]
+}
