@@ -1,0 +1,91 @@
+{
+  "page": 3,
+  "chapter": 0,
+  "title": "Contents / Table of Contents",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Содержание",
+      "en": "Contents",
+      "zh": "目录",
+      "ja": "目次"
+    },
+    {
+      "id": 2,
+      "ru": "Предисловие ... 5",
+      "en": "Preface ... 5",
+      "zh": "前言 ... 5",
+      "ja": "序文 ... 5"
+    },
+    {
+      "id": 3,
+      "ru": "Пролог ... 7",
+      "en": "Prologue ... 7",
+      "zh": "序幕 ... 7",
+      "ja": "プロローグ ... 7"
+    },
+    {
+      "id": 4,
+      "ru": "Глава 1 ... 13",
+      "en": "Chapter 1 ... 13",
+      "zh": "第一章 ... 13",
+      "ja": "第1章 ... 13"
+    },
+    {
+      "id": 5,
+      "ru": "Глава 2 ... 23",
+      "en": "Chapter 2 ... 23",
+      "zh": "第二章 ... 23",
+      "ja": "第2章 ... 23"
+    },
+    {
+      "id": 6,
+      "ru": "Глава 3 ... 38",
+      "en": "Chapter 3 ... 38",
+      "zh": "第三章 ... 38",
+      "ja": "第3章 ... 38"
+    },
+    {
+      "id": 7,
+      "ru": "Глава 4 ... 51",
+      "en": "Chapter 4 ... 51",
+      "zh": "第四章 ... 51",
+      "ja": "第4章 ... 51"
+    },
+    {
+      "id": 8,
+      "ru": "Глава 5 ... 65",
+      "en": "Chapter 5 ... 65",
+      "zh": "第五章 ... 65",
+      "ja": "第5章 ... 65"
+    },
+    {
+      "id": 9,
+      "ru": "Глава 6 ... 79",
+      "en": "Chapter 6 ... 79",
+      "zh": "第六章 ... 79",
+      "ja": "第6章 ... 79"
+    },
+    {
+      "id": 10,
+      "ru": "Глава 7 ... 92",
+      "en": "Chapter 7 ... 92",
+      "zh": "第七章 ... 92",
+      "ja": "第7章 ... 92"
+    },
+    {
+      "id": 11,
+      "ru": "Об авторе ... 99",
+      "en": "About the Author ... 99",
+      "zh": "关于作者 ... 99",
+      "ja": "著者について ... 99"
+    }
+  ],
+  "translator_notes": [
+    "Table of contents - structural page",
+    "Page numbers preserved from original"
+  ],
+  "translation_quality": "professional",
+  "translator_id": "e5f7",
+  "review_cycles": 1
+}
