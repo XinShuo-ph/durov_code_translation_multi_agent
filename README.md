@@ -1,105 +1,101 @@
 # Durov Code Book Translation Project
 
-**Multi-Agent Parallel Translation System**
+**Multi-Agent Parallel Translation System v2.0**
 
 ## Overview
 
-This project translates "Код Дурова" (Durov Code) by Nikolai Kononov into a multilingual edition featuring Russian, English, Chinese, and Japanese in parallel.
+This project translates "Код Дурова" (Durov Code) by Nikolai Kononov into a multilingual edition featuring Russian, English, Chinese, and Japanese.
 
-## Multi-Agent Architecture
+## v2.0 Improvements
 
-This project uses **multiple AI agents working in parallel**, each on their own git branch.
+This is version 2.0, redesigned after analyzing the failure modes of the first 16-agent run:
 
-### Branch Discovery (Dynamic)
-
-Branches are created by Cursor with random names like:
-```
-cursor/multi-agent-parallel-translation-cca9
-cursor/durov-book-translation-plan-7379
-cursor/some-task-description-xxxx
-```
-
-**Active workers** are identified by the presence of `WORKER_STATE.md` on their branch.
-
-### Communication Method
-
-Agents communicate via **git commits, pushes, and pulls**—using git as a message-passing interface (similar to MPI for distributed computing).
-
-### Worker Identity
-
-- **Branch Name**: Full branch name (e.g., `cursor/multi-agent-parallel-translation-cca9`)
-- **Short ID**: Last 4 characters (e.g., `cca9`) - used in commit messages
-
-### Key Files
-
-| File | Purpose |
-|------|---------|
-| `PROTOCOL.md` | Communication protocol for inter-agent coordination |
-| `instructions.md` | Detailed task instructions and workflows |
-| `STATE.md` | Global project state (shared) |
-| `WORKER_STATE.md` | Individual worker state (per branch) - **REGISTERS worker** |
-| `WORKER_STATE_TEMPLATE.md` | Template for new workers |
+| Problem in v1.0 | Solution in v2.0 |
+|-----------------|------------------|
+| Consensus deadlock | No consensus required |
+| Complex M0→M1→M2→M3 phases | Single phase: translate |
+| Workers waiting for sync | Independent operation |
+| Re-extracting PDF 16 times | Pre-extracted text provided |
+| Protocol too complex | Minimal protocol |
 
 ## Quick Start for Workers
 
-1. **Identify yourself**:
-   ```bash
-   MY_BRANCH=$(git branch --show-current)
-   MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
-   echo "I am: $MY_SHORT_ID on branch $MY_BRANCH"
-   ```
+### 1. You Already Have Everything
 
-2. **Create WORKER_STATE.md**: Copy from template and fill in your info
+- **Extracted text**: `extracted/pages/page_XXX.txt`
+- **Research docs**: `research/` directory
+- **Output format**: JSON (see instructions.md)
 
-3. **Commit and push**: This registers you as an active worker!
+### 2. Your Only Task
 
-4. **Discover other workers**:
-   ```bash
-   git fetch origin --all --prune
-   for b in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||'); do
-     git show "origin/${b}:WORKER_STATE.md" &>/dev/null && echo "Active: $b"
-   done
-   ```
+Translate pages from Russian to English, Chinese, and Japanese.
 
-5. **Begin work**: Follow instructions.md for your milestone
+### 3. Simple Workflow
 
-## Project Milestones
+```bash
+# 1. Find next untranslated page
+ls translations/
 
-| Milestone | Description | Execution Mode |
-|-----------|-------------|----------------|
-| M0 | Setup & Research | Parallel (all workers) |
-| M1 | Format Exploration | Parallel with consensus |
-| M2 | Translation (99 pages) | Parallel page assignment |
-| M3 | Final Assembly | Leader + verifiers |
+# 2. Read the Russian text
+cat extracted/pages/page_013.txt
 
-## Target Output
+# 3. Translate (in your agent memory)
+# ... translate each sentence to en, zh, ja ...
 
-A multilingual PDF where each original Russian page is followed by 1-2 pages of translation, with each sentence appearing in four languages, color-coded:
+# 4. Save as JSON
+# ... write to translations/page_013.json ...
 
-- **Russian**: Black
-- **English**: Blue  
-- **Chinese**: Red
-- **Japanese**: Green
+# 5. Commit and push
+git add translations/page_013.json
+git commit -m "[YOUR_ID] Translated page 013"
+git push origin HEAD
+```
 
-## Communication Frequency
+### 4. No Waiting Required
 
-- **Pull all branches**: Every 60-120 seconds
-- **Push updates**: After every significant action
-- **Heartbeat**: Every 5 minutes minimum
-
-## Consensus
-
-- Quorum = >50% of **active workers** (those with WORKER_STATE.md)
-- Not a fixed number - based on who's online
+- No consensus voting
+- No synchronization with other workers
+- No setup tasks (already done)
+- Just translate and save
 
 ## Files
 
-- `durov_code_book.pdf` - Original Russian book (99 pages)
-- `PROTOCOL.md` - Communication protocol
-- `instructions.md` - Detailed instructions
-- `STATE.md` - Global state
-- `WORKER_STATE.md` - Your worker state (create this!)
+| File | Purpose |
+|------|---------|
+| `instructions.md` | Detailed translation instructions |
+| `PROTOCOL.md` | Multi-agent coordination (minimal) |
+| `extracted/pages/` | Pre-extracted Russian text |
+| `research/` | Context and reference materials |
+| `translations/` | Your output JSON files |
+
+## Output Format
+
+Each page produces a JSON file:
+
+```json
+{
+  "page": 13,
+  "chapter": 1,
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Russian text...",
+      "en": "English translation...",
+      "zh": "中文翻译...",
+      "ja": "日本語訳..."
+    }
+  ]
+}
+```
+
+## Target Output
+
+A multilingual document where each original Russian sentence is followed by translations in all four languages.
+
+## Project Status
+
+See `STATE.md` for current progress tracking.
 
 ---
 
-*See `PROTOCOL.md` for detailed communication rules and `instructions.md` for task details.*
+*Read `instructions.md` for complete details. Then start translating!*
