@@ -3,8 +3,8 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-056e
 - **Short ID**: 056e
-- **Heartbeat**: 1767253200
-- **Status**: online
+- **Heartbeat**: 1767253300
+- **Status**: idle
 
 ## Current Work
 - **Claimed Page**: none
@@ -36,4 +36,4 @@
 | 7030     | translating | 41           | 1767252480     |
 
 ## Notes
-Completed pages 38, 40, 42, 44, 45.
+Session ended. Completed pages 38, 40, 42, 44, 45.
