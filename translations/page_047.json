@@ -1,0 +1,323 @@
+{
+  "page": 47,
+  "chapter": 3,
+  "chapter_title": "Мафия открывает глаза (The Mafia Opens Its Eyes)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Консультант «подкрутил параметры», и первая версия запустилась.",
+      "en": "The consultant \"tweaked the parameters,\" and the first version launched.",
+      "zh": "顾问「调整了参数」，第一版启动了。",
+      "ja": "コンサルタントが「パラメータを調整」し、最初のバージョンが起動した。"
+    },
+    {
+      "id": 3,
+      "ru": "«Дуровы все быстро поняли и через три месяца перестали советоваться, – резюмировал Бунин. – Мы показали, куда копать, и они перекопали нас».",
+      "en": "\"The Durovs understood everything quickly and stopped consulting after three months,\" Bunin summarized. \"We showed them where to dig, and they out-dug us.\"",
+      "zh": "「杜罗夫兄弟很快就明白了一切，三个月后就不再咨询了，」布宁总结道。「我们告诉他们往哪挖，他们挖得比我们还深。」",
+      "ja": "「ドゥーロフ兄弟はすべてをすぐに理解し、3ヶ月後には相談しなくなった」とブーニンはまとめた。「我々はどこを掘るか示したが、彼らは我々より深く掘った」"
+    },
+    {
+      "id": 4,
+      "ru": "Мы встретились на конференции HighLoad-2011.",
+      "en": "We met at the HighLoad-2011 conference.",
+      "zh": "我们在HighLoad-2011会议上相遇。",
+      "ja": "私たちはHighLoad-2011カンファレンスで会った。"
+    },
+    {
+      "id": 5,
+      "ru": "«ВКонтакте» прислала разработчика Андрея Илларионова, и набитый битком зал задавал ему недоуменные вопросы по их системе распределения нагрузок.",
+      "en": "VKontakte sent developer Andrei Illarionov, and the packed hall asked him puzzled questions about their load distribution system.",
+      "zh": "VKontakte派来了开发人员安德烈·伊拉里奥诺夫，挤满人的大厅向他询问关于他们负载分配系统的困惑问题。",
+      "ja": "VKontakteは開発者アンドレイ・イラリオノフを派遣し、満員のホールは彼らの負荷分散システムについて困惑した質問をしていた。"
+    },
+    {
+      "id": 6,
+      "ru": "Некоторые решения не то что не приходили никому в голову – даже после выступления не стало яснее, как они работают.",
+      "en": "Some solutions hadn't just never occurred to anyone—even after the presentation it wasn't clearer how they worked.",
+      "zh": "有些解决方案不仅没人想到过——即使在演讲之后也不清楚它们是如何工作的。",
+      "ja": "いくつかの解決策は誰も思いつかなかっただけでなく、プレゼンテーションの後でもどう機能するか明確にならなかった。"
+    },
+    {
+      "id": 7,
+      "ru": "«Когда общаешься с обычным человеком, почти всегда представляешь, что он ответит, – говорил Бунин.",
+      "en": "\"When you talk to an ordinary person, you almost always can imagine what they'll answer,\" Bunin said.",
+      "zh": "「当你和普通人交谈时，你几乎总能想象他们会怎么回答，」布宁说。",
+      "ja": "「普通の人と話すとき、ほぼ常に彼らが何と答えるか想像できる」とブーニンは言った。"
+    },
+    {
+      "id": 8,
+      "ru": "– Павел постоянно думал по-другому и масштабно.",
+      "en": "\"Pavel constantly thought differently and on a large scale.",
+      "zh": "「帕维尔总是以不同的方式和大规模思考。",
+      "ja": "「パーヴェルは常に違う方法で、大きなスケールで考えていた。"
+    },
+    {
+      "id": 9,
+      "ru": "Знаете, как Цукерберг в фильме „Социальная сеть“ – когда девушка его отвергла, приятель хочет посочувствовать, а он уже думает о своей сети: „Пора расширяться“.",
+      "en": "You know, like Zuckerberg in the film 'The Social Network'—when the girl rejected him, his friend wants to sympathize, but he's already thinking about his network: 'Time to expand.'",
+      "zh": "你知道，就像电影《社交网络》中的扎克伯格——当女孩拒绝他时，朋友想表示同情，但他已经在想他的网络了：『是时候扩张了』。",
+      "ja": "映画『ソーシャル・ネットワーク』のザッカーバーグのようにね——女の子に振られたとき、友達は同情したいのに、彼はもう自分のネットワークのことを考えている：『拡大の時だ』"
+    },
+    {
+      "id": 10,
+      "ru": "Дуров – такой же».",
+      "en": "Durov is the same.\"",
+      "zh": "杜罗夫也是这样。」",
+      "ja": "ドゥーロフも同じだ」"
+    },
+    {
+      "id": 11,
+      "ru": "Это наблюдение Бунина повторяли разные деятели рунета.",
+      "en": "This observation by Bunin was repeated by various figures of Runet.",
+      "zh": "布宁的这一观察被俄罗斯互联网界的各种人物重复。",
+      "ja": "このブーニンの観察はRunetの様々な人物によって繰り返された。"
+    },
+    {
+      "id": 12,
+      "ru": "Способность думать иначе стала краеугольным камнем для дуровской команды, спровоцировала изменения личности ее участников и привела к неминуемому конфликту с окружающей реальностью.",
+      "en": "The ability to think differently became a cornerstone for Durov's team, provoked personality changes in its members, and led to an inevitable conflict with surrounding reality.",
+      "zh": "以不同方式思考的能力成为杜罗夫团队的基石，引发了成员性格的改变，并导致了与周围现实不可避免的冲突。",
+      "ja": "異なる考え方をする能力はドゥーロフのチームの礎となり、メンバーの性格変化を引き起こし、周囲の現実との避けられない対立につながった。"
+    },
+    {
+      "id": 13,
+      "ru": "Но тогда, первой зимой «ВКонтакте», сентенции Дурова выдавали лишь оригинальный ум.",
+      "en": "But then, during VKontakte's first winter, Durov's maxims only revealed an original mind.",
+      "zh": "但那时，在VKontakte的第一个冬天，杜罗夫的格言只显示出一个独创的头脑。",
+      "ja": "しかし当時、VKontakteの最初の冬には、ドゥーロフの格言は独創的な知性を示すだけだった。"
+    },
+    {
+      "id": 14,
+      "ru": "Для интернет-тусовки соцсеть выглядела не более чем любопытным проектом с пассионарным основателем, уверенным, что выведет сайт в топ популярных ресурсов.",
+      "en": "For the internet crowd, the social network looked like nothing more than a curious project with a passionate founder confident that he would bring the site to the top of popular resources.",
+      "zh": "对于互联网圈子来说，这个社交网络看起来只不过是一个有着充满激情的创始人的有趣项目，他确信会把网站带入热门资源的顶端。",
+      "ja": "インターネット界にとって、このソーシャルネットワークは情熱的な創設者を持つ興味深いプロジェクトにすぎず、彼はサイトを人気リソースのトップに導くと確信していた。"
+    },
+    {
+      "id": 15,
+      "ru": "Дуровы советовались с консультантами, но вызывали их все реже.",
+      "en": "The Durovs consulted with consultants, but called them less and less frequently.",
+      "zh": "杜罗夫兄弟与顾问们商量，但越来越少找他们了。",
+      "ja": "ドゥーロフ兄弟はコンサルタントに相談していたが、呼ぶ頻度はどんどん少なくなった。"
+    },
+    {
+      "id": 16,
+      "ru": "«Какие-то вещи я сразу сделал, как считал нужным, – рассказывал Николай.",
+      "en": "\"Some things I did right away as I saw fit,\" Nikolai said.",
+      "zh": "「有些事情我立刻就按照自己认为正确的方式做了，」尼古拉说。",
+      "ja": "「いくつかのことは、自分が適切だと思うようにすぐにやった」とニコライは語った。"
+    },
+    {
+      "id": 17,
+      "ru": "– Например, Бунин советовал хранить фотографии на одном домене и пропускать все через один сервер.",
+      "en": "\"For example, Bunin advised storing photos on one domain and routing everything through one server.",
+      "zh": "「例如，布宁建议把照片存储在一个域名上，所有东西都通过一台服务器。",
+      "ja": "「例えば、ブーニンは写真を1つのドメインに保存し、すべてを1つのサーバーを通すことを勧めた。"
+    },
+    {
+      "id": 18,
+      "ru": "А я предложил отдавать фото с того сервера, где они находятся».",
+      "en": "But I suggested serving photos from the server where they're located.\"",
+      "zh": "但我建议从存储照片的服务器直接提供照片。」",
+      "ja": "しかし私は、写真がある場所のサーバーから直接配信することを提案した」"
+    },
+    {
+      "id": 19,
+      "ru": "Счетчик посещаемости крутился как бешеный, пока однажды февральским вечером Павел Дуров не набил в браузере vkontakte.ru и не обнаружил вместо соцсети «ошибку 502».",
+      "en": "The visitor counter was spinning like crazy until one February evening Pavel Durov typed vkontakte.ru in his browser and discovered \"Error 502\" instead of the social network.",
+      "zh": "访问量计数器疯狂转动，直到一个二月的晚上，帕维尔·杜罗夫在浏览器中输入vkontakte.ru，发现的不是社交网络，而是「502错误」。",
+      "ja": "訪問者カウンターは狂ったように回っていたが、ある2月の夜、パーヴェル・ドゥーロフがブラウザにvkontakte.ruと入力すると、ソーシャルネットワークの代わりに「502エラー」が表示された。"
+    },
+    {
+      "id": 20,
+      "ru": "Вход на сайт для пользователей оказался закрыт.",
+      "en": "Access to the site for users was closed.",
+      "zh": "用户进入网站被关闭了。",
+      "ja": "ユーザーのサイトへのアクセスは閉鎖された。"
+    },
+    {
+      "id": 21,
+      "ru": "Дуров набрал телефон хостинг-провайдера.",
+      "en": "Durov called the hosting provider.",
+      "zh": "杜罗夫打电话给托管服务商。",
+      "ja": "ドゥーロフはホスティングプロバイダーに電話した。"
+    },
+    {
+      "id": 22,
+      "ru": "Трубку взял дежурный инженер.",
+      "en": "The duty engineer answered.",
+      "zh": "值班工程师接了电话。",
+      "ja": "当直のエンジニアが電話に出た。"
+    },
+    {
+      "id": 23,
+      "ru": "– Алло, привет. Мы висим.",
+      "en": "\"Hello, hi. We're down.\"",
+      "zh": "「喂，你好。我们挂了。」",
+      "ja": "「もしもし。ダウンしている」"
+    },
+    {
+      "id": 24,
+      "ru": "– Привет, сейчас разберемся. (Пауза.) Так. Идет огромный поток запросов к сайту, волна полтора гигабита. Канал забился.",
+      "en": "\"Hi, we'll figure it out. (Pause.) OK. There's a huge flow of requests to the site, a wave of one and a half gigabits. The channel is clogged.\"",
+      "zh": "「你好，我们来查查。（停顿）好的。有大量请求涌向网站，一波1.5吉比特的流量。通道堵塞了。」",
+      "ja": "「こんにちは、調べます。（間）はい。サイトへの大量のリクエストがあります、1.5ギガビットの波です。チャンネルが詰まっています」"
+    },
+    {
+      "id": 25,
+      "ru": "– Есть идеи, что делать?",
+      "en": "\"Any ideas what to do?\"",
+      "zh": "「有什么办法吗？」",
+      "ja": "「何かできることは？」"
+    },
+    {
+      "id": 26,
+      "ru": "– Если честно, нет.",
+      "en": "\"Honestly, no.\"",
+      "zh": "「老实说，没有。」",
+      "ja": "「正直、ありません」"
+    },
+    {
+      "id": 27,
+      "ru": "Звонить в Бонн поздно, брат наверняка ушел из лаборатории.",
+      "en": "It's too late to call Bonn, his brother has surely left the lab.",
+      "zh": "打电话到波恩太晚了，哥哥肯定已经离开实验室了。",
+      "ja": "ボンに電話するには遅すぎる、兄は確実にラボを出ているだろう。"
+    },
+    {
+      "id": 28,
+      "ru": "Пальто, штиблеты, ключ, деньги, такси.",
+      "en": "Coat, boots, key, money, taxi.",
+      "zh": "大衣、靴子、钥匙、钱、出租车。",
+      "ja": "コート、ブーツ、鍵、お金、タクシー。"
+    },
+    {
+      "id": 29,
+      "ru": "Дуров ворвался в прохладную комнату со стеклянными стеллажами, нашел свои сервера и перезагрузил их.",
+      "en": "Durov burst into the cool room with glass racks, found his servers and rebooted them.",
+      "zh": "杜罗夫冲进装有玻璃机架的冷却室，找到自己的服务器并重启了它们。",
+      "ja": "ドゥーロフはガラスラックのある涼しい部屋に飛び込み、自分のサーバーを見つけて再起動した。"
+    },
+    {
+      "id": 30,
+      "ru": "Волна шла из Китая, Южной Америки, Украины.",
+      "en": "The wave was coming from China, South America, Ukraine.",
+      "zh": "攻击来自中国、南美、乌克兰。",
+      "ja": "波は中国、南米、ウクライナから来ていた。"
+    },
+    {
+      "id": 31,
+      "ru": "Даже если передать провайдерам списки IP-адресов, участвовавших в атаке, чтобы те их заблокировали, – все равно шансы на успех мизерны.",
+      "en": "Even if they gave providers lists of IP addresses participating in the attack to block them, the chances of success were still minuscule.",
+      "zh": "即使把参与攻击的IP地址列表交给服务商让他们封锁，成功的机会仍然微乎其微。",
+      "ja": "攻撃に参加しているIPアドレスのリストをプロバイダーに渡してブロックしてもらっても、成功の可能性は極めて小さい。"
+    },
+    {
+      "id": 32,
+      "ru": "Соперник не идиот, атакует с других компьютеров.",
+      "en": "The adversary isn't an idiot, attacking from other computers.",
+      "zh": "对手不是傻瓜，会从其他电脑发起攻击。",
+      "ja": "敵はバカではない、別のコンピュータから攻撃してくる。"
+    },
+    {
+      "id": 33,
+      "ru": "Утром Дуров известил брата, и они начали суматошно перебирать способы защиты.",
+      "en": "In the morning Durov notified his brother, and they frantically started going through protection methods.",
+      "zh": "早上杜罗夫通知了哥哥，他们开始慌乱地寻找防护方法。",
+      "ja": "朝、ドゥーロフは兄に知らせ、彼らは慌ただしく防御方法を検討し始めた。"
+    },
+    {
+      "id": 34,
+      "ru": "Сначала арендовали маршрутизатор, который идентифицирует врага.",
+      "en": "First they rented a router that identifies the enemy.",
+      "zh": "首先他们租了一个能识别攻击者的路由器。",
+      "ja": "まず敵を識別するルーターをレンタルした。"
+    },
+    {
+      "id": 35,
+      "ru": "Зная провайдера, можно его блокировать – но, опять же, провайдеров-то тысячи.",
+      "en": "Knowing the provider, you can block them—but again, there are thousands of providers.",
+      "zh": "知道服务商就可以封锁它——但是，服务商有成千上万个。",
+      "ja": "プロバイダーが分かればブロックできる——しかし、プロバイダーは何千もある。"
+    },
+    {
+      "id": 36,
+      "ru": "Ночами они с Николаем, который еще не дописал диссер, созванивались и ломали головы, что бы предпринять.",
+      "en": "At night he and Nikolai, who hadn't yet finished his dissertation, would call each other and rack their brains about what to do.",
+      "zh": "晚上他和还没写完论文的尼古拉通电话，绞尽脑汁想办法。",
+      "ja": "夜には、まだ学位論文を書き終えていないニコライと電話で、何をすべきか頭を悩ませた。"
+    },
+    {
+      "id": 37,
+      "ru": "Атаки продолжались – их старались заваливать запросами ближе к ночи.",
+      "en": "The attacks continued—they tried to overwhelm them with requests closer to night.",
+      "zh": "攻击持续着——他们试图在接近夜晚时用请求淹没服务器。",
+      "ja": "攻撃は続いた——夜に近づくとリクエストで圧倒しようとしていた。"
+    },
+    {
+      "id": 38,
+      "ru": "Особой популярностью пользовался вечер пятницы, когда в офисе провайдера оставался только дежурный.",
+      "en": "Friday evening was especially popular, when only the duty officer remained at the provider's office.",
+      "zh": "周五晚上特别受欢迎，因为那时服务商办公室只剩下值班人员。",
+      "ja": "特に人気があったのは金曜の夜で、プロバイダーのオフィスには当直者だけが残っていた。"
+    },
+    {
+      "id": 39,
+      "ru": "На форуме СПбГУ жаловались, что «ВКонтакте» лежит, сочувствовали, но ничего посоветовать не могли.",
+      "en": "On the SPbSU forum they complained that VKontakte was down, sympathized, but couldn't offer any advice.",
+      "zh": "在圣彼得堡大学论坛上，人们抱怨VKontakte宕机了，表示同情，但无法提供任何建议。",
+      "ja": "サンクトペテルブルク大学のフォーラムでは、VKontakteがダウンしていると不満を言い、同情していたが、何もアドバイスできなかった。"
+    },
+    {
+      "id": 40,
+      "ru": "Слава и Лев вели свое расследование, и им даже слили переписку с исполнителями атаки, однако установить заказчика не удалось.",
+      "en": "Slava and Lev conducted their own investigation, and someone even leaked correspondence with the attack executors, but they couldn't identify who ordered it.",
+      "zh": "斯拉瓦和列夫进行了自己的调查，甚至有人泄露了与攻击执行者的通信，但他们无法确定是谁下的订单。",
+      "ja": "スラヴァとレフは独自の調査を行い、攻撃実行者との通信さえ漏洩されたが、依頼者を特定することはできなかった。"
+    },
+    {
+      "id": 41,
+      "ru": "Дуров написал письмо юзерам:",
+      "en": "Durov wrote a letter to users:",
+      "zh": "杜罗夫给用户写了一封信：",
+      "ja": "ドゥーロフはユーザーに手紙を書いた："
+    },
+    {
+      "id": 42,
+      "ru": "«В течение прошедшего дня (18.02.2007) активность доходила до фантастической отметки в 2 млн запросов в минуту.",
+      "en": "\"During the past day (18.02.2007) activity reached the fantastic level of 2 million requests per minute.",
+      "zh": "「在过去的一天（2007年2月18日），活动达到了每分钟200万次请求的惊人水平。",
+      "ja": "「昨日（2007年2月18日）、アクティビティは1分間200万リクエストという驚異的なレベルに達した。"
+    },
+    {
+      "id": 43,
+      "ru": "Это позволило предположить, что весомая доля запросов была создана искусственно для",
+      "en": "This allowed us to assume that a significant portion of requests was created artificially to",
+      "zh": "这让我们推测，相当一部分请求是人为制造的，目的是",
+      "ja": "これにより、リクエストのかなりの部分が人工的に作成されたと推測できた"
+    }
+  ],
+  "translator_notes": [
+    "Page 47 describes VK's first major DDoS attack in February 2007",
+    "HighLoad - annual Russian conference on high-load systems (highload.ru)",
+    "Andrei Illarionov - VK developer who presented at HighLoad-2011",
+    "Comparison to Zuckerberg from 'The Social Network' film (2010)",
+    "Bonn, Germany - where Nikolai was doing his PhD at the time",
+    "'Error 502' - HTTP error indicating bad gateway, common in DDoS",
+    "1.5 Gbps attack wave - significant for 2007",
+    "Friday night attacks - exploiting reduced staffing",
+    "SPbSU (СПбГУ) - St. Petersburg State University",
+    "February 18, 2007 - date of major attack reaching 2M requests/minute",
+    "The attackers' identity was never confirmed despite investigation"
+  ],
+  "total_sentences": 43,
+  "page_type": "narrative"
+}
