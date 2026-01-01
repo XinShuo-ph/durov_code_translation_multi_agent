@@ -1,0 +1,311 @@
+{
+  "page": 93,
+  "chapter": 7,
+  "chapter_title": "Rorschach Blot",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Эпоха приложений для мобильных платформ подтолкнула массовый твикинг всего.",
+      "en": "The era of mobile platform apps spurred mass tweaking of everything.",
+      "zh": "移动平台应用时代推动了对一切事物的大规模优化。(Yídòng píngtái yìngyòng shídài tuīdòngle duì yīqiè shìwù de dàguīmó yōuhuà.)",
+      "ja": "モバイルプラットフォームアプリの時代が、あらゆるものの大規模なツイーキングを促した。"
+    },
+    {
+      "id": 2,
+      "ru": "Фотосервис Instagram – типичный пример.",
+      "en": "The photo service Instagram is a typical example.",
+      "zh": "照片服务Instagram是一个典型的例子。(Zhàopiàn fúwù Instagram shì yīgè diǎnxíng de lìzi.)",
+      "ja": "写真サービスInstagramは典型的な例だ。"
+    },
+    {
+      "id": 3,
+      "ru": "Учиться фотографировать – долго, техника дорога, освоить Photoshop дано не каждому; при этом камера встроена в большинство телефонов.",
+      "en": "Learning to photograph takes long, equipment is expensive, mastering Photoshop isn't for everyone; yet a camera is built into most phones.",
+      "zh": "学习摄影需要很长时间，设备很贵，不是每个人都能掌握Photoshop；然而大多数手机都内置了摄像头。(Xuéxí shèyǐng xūyào hěn cháng shíjiān, shèbèi hěn guì, bùshì měi gèrén dōu néng zhǎngwò Photoshop; rán'ér dàduōshù shǒujī dōu nèizhìle shèxiàngtóu.)",
+      "ja": "写真を学ぶには時間がかかり、機材は高価で、Photoshopを習得できるのは誰でもではない。しかしカメラはほとんどの電話に内蔵されている。"
+    },
+    {
+      "id": 4,
+      "ru": "Следовательно, надо дать возможность преобразить натюрморт с завтраком из подгорелых тостов или нерезкий автопортрет в искусство – с помощью фильтров.",
+      "en": "Therefore, one must provide the ability to transform a still life of a breakfast of burnt toast or a blurry selfie into art—with the help of filters.",
+      "zh": "因此，必须提供一种能力，通过滤镜将烧焦吐司早餐的静物画或模糊的自拍变成艺术。(Yīncǐ, bìxū tígōng yī zhǒng nénglì, tōngguò lǜjìng jiāng shāo jiāo tǔsī zǎocān de jìngwù huà huò móhú de zìpāi biànchéng yìshù.)",
+      "ja": "したがって、焦げたトーストの朝食の静物画やピンぼけの自撮りをフィルターを使ってアートに変える機能を提供しなければならない。"
+    },
+    {
+      "id": 5,
+      "ru": "Размышляя об этом, Дуров трезво оценивал себя и понимал, что он не великий творец, а твикер.",
+      "en": "Reflecting on this, Durov soberly assessed himself and understood that he was not a great creator, but a tweaker.",
+      "zh": "思考这些时，杜罗夫冷静地评估自己，明白他不是伟大的创造者，而是一个优化者。(Sīkǎo zhèxiē shí, Dùluófū lěngjìng de pínggū zìjǐ, míngbái tā bùshì wěidà de chuàngzàozhě, ér shì yīgè yōuhuà zhě.)",
+      "ja": "これについて考えながら、ドゥーロフは冷静に自分を評価し、自分は偉大な創造者ではなく、ツイーカーだと理解していた。"
+    },
+    {
+      "id": 6,
+      "ru": "Пять лет назад он твикнул для России идею Facebook, а теперь задавал себе вопрос – как бы я хотел, чтобы выглядел телефон?",
+      "en": "Five years ago he tweaked the Facebook idea for Russia, and now he was asking himself—how would I want a phone to look?",
+      "zh": "五年前他为俄罗斯优化了Facebook的想法，现在他在问自己——我希望手机是什么样子的？(Wǔ nián qián tā wèi Éluósī yōuhuàle Facebook de xiǎngfǎ, xiànzài tā zài wèn zìjǐ——wǒ xīwàng shǒujī shì shénme yàngzi de?)",
+      "ja": "5年前、彼はロシア向けにFacebookのアイデアをツイークした。今、彼は自問していた——電話はどう見えるべきか？"
+    },
+    {
+      "id": 7,
+      "ru": "Что он должен уметь?",
+      "en": "What should it be able to do?",
+      "zh": "它应该能做什么？(Tā yīnggāi néng zuò shénme?)",
+      "ja": "何ができるべきか？"
+    },
+    {
+      "id": 8,
+      "ru": "Какие есть в мобильнике упущения и анахронизмы?",
+      "en": "What omissions and anachronisms are there in mobile phones?",
+      "zh": "手机有哪些遗漏和过时之处？(Shǒujī yǒu nǎxiē yílòu hé guòshí zhī chù?)",
+      "ja": "携帯電話にはどんな欠落や時代遅れがあるのか？"
+    },
+    {
+      "id": 9,
+      "ru": "Как продолжить идеи социальных сетей в телефоне?",
+      "en": "How to continue the ideas of social networks in the phone?",
+      "zh": "如何在手机上延续社交网络的理念？(Rúhé zài shǒujī shàng yánxù shèjiāo wǎngluò de lǐniàn?)",
+      "ja": "電話でソーシャルネットワークのアイデアをどう続けるか？"
+    },
+    {
+      "id": 10,
+      "ru": "Еще не оставив планов экспансии «ВКонтакте», он попробовал получить глобальное признание.",
+      "en": "Not yet having abandoned plans for VKontakte's expansion, he tried to gain global recognition.",
+      "zh": "在还没有放弃VKontakte扩张计划的时候，他试图获得全球认可。(Zài hái méiyǒu fàngqì VKontakte kuòzhāng jìhuà de shíhòu, tā shìtú huòdé quánqiú rènkě.)",
+      "ja": "VKの拡張計画をまだ諦めていない中、彼はグローバルな認知を得ようとした。"
+    },
+    {
+      "id": 11,
+      "ru": "Написал в Wikimedia Foundation письмо, что хочет пожертвовать Wikipedia 1 млн долларов.",
+      "en": "He wrote to the Wikimedia Foundation saying he wanted to donate $1 million to Wikipedia.",
+      "zh": "他给维基媒体基金会写信，说想向维基百科捐赠100万美元。(Tā gěi Wéijī méitǐ jījīnhuì xiě xìn, shuō xiǎng xiàng Wéijī bǎikē juānzèng 100 wàn měiyuán.)",
+      "ja": "彼はウィキメディア財団に手紙を書き、ウィキペディアに100万ドルを寄付したいと述べた。"
+    },
+    {
+      "id": 12,
+      "ru": "Основатель сетевой энциклопедии Уэйлс как раз собирался выступать в Мюнхене на конференции DLD.",
+      "en": "The founder of the online encyclopedia, Wales, was just about to speak in Munich at the DLD conference.",
+      "zh": "网络百科全书的创始人威尔士正准备在慕尼黑的DLD会议上发言。(Wǎngluò bǎikē quánshū de chuàngshǐrén Wēi'ěrshì zhèng zhǔnbèi zài Mùníhēi de DLD huìyì shàng fāyán.)",
+      "ja": "オンライン百科事典の創設者ウェールズは、ちょうどミュンヘンのDLD会議で講演する予定だった。"
+    },
+    {
+      "id": 13,
+      "ru": "Дурова вписали в программу рядом с ним.",
+      "en": "Durov was added to the program alongside him.",
+      "zh": "杜罗夫被安排在他旁边的节目中。(Dùluófū bèi ānpái zài tā pángbiān de jiémù zhōng.)",
+      "ja": "ドゥーロフは彼の隣のプログラムに加えられた。"
+    },
+    {
+      "id": 14,
+      "ru": "Тотем старался.",
+      "en": "The totem tried hard.",
+      "zh": "图腾很努力。(Túténg hěn nǔlì.)",
+      "ja": "トーテムは懸命に努力した。"
+    },
+    {
+      "id": 15,
+      "ru": "Возникнув на сцене в черном – штиблеты, жилет с капюшоном – он с улыбкой пережил конферанс «приветствуем клон Facebook из страны медведей и водки» и рассказал о «ВКонтакте», не без сарказма поясняя слайды о ее аудиторном величии.",
+      "en": "Appearing on stage in black—boots, hooded vest—he smiled through the introduction 'welcome the Facebook clone from the land of bears and vodka' and spoke about VKontakte, explaining slides about its audience greatness with no small amount of sarcasm.",
+      "zh": "他身穿黑色登上舞台——靴子、连帽背心——他微笑着接受了'欢迎来自熊和伏特加之国的Facebook克隆'的介绍，并介绍了VKontakte，带着相当的讽刺解释关于其受众规模的幻灯片。(Tā shēn chuān hēisè dēng shàng wǔtái——xuēzi, lián mào bèixīn——tā wéixiàozhe jiēshòule 'huānyíng láizì xióng hé fútèjiā zhī guó de Facebook kèlóng' de jièshào, bìng jièshàole VKontakte, dàizhe xiāngdāng de fěngcì jiěshì guānyú qí shòuzhòng guīmó de huàndēngpiàn.)",
+      "ja": "黒い服——ブーツ、フード付きベスト——で舞台に登場し、彼は「熊とウォッカの国からのFacebookクローンを歓迎します」という紹介を笑顔で乗り越え、VKについて話し、そのオーディエンスの偉大さを示すスライドを皮肉たっぷりに説明した。"
+    },
+    {
+      "id": 16,
+      "ru": "Vk.com номер один среди соцсетей по времени, которое пользователь проводит внутри.",
+      "en": "Vk.com is number one among social networks for time users spend inside.",
+      "zh": "Vk.com在用户停留时间方面是社交网络中的第一名。(Vk.com zài yònghù tíngliú shíjiān fāngmiàn shì shèjiāo wǎngluò zhōng de dì yī míng.)",
+      "ja": "Vk.comはユーザーが中で過ごす時間でソーシャルネットワークの中でナンバーワンだ。"
+    },
+    {
+      "id": 17,
+      "ru": "«Если хотите профукивать еще больше времени, будьте любезны, присоединяйтесь к нам».",
+      "en": "'If you want to waste even more time, please, join us.'",
+      "zh": "'如果你想浪费更多时间，欢迎加入我们。'('Rúguǒ nǐ xiǎng làngfèi gèng duō shíjiān, huānyíng jiārù wǒmen.')",
+      "ja": "「もっと時間を無駄にしたいなら、どうぞ、私たちに参加してください」"
+    },
+    {
+      "id": 18,
+      "ru": "Затем он перескочил на величие Wikipedia, сказал, что 70 % его личного поиска информации в интернете заканчиваются в творении Уэйлса.",
+      "en": "Then he jumped to the greatness of Wikipedia, saying that 70% of his personal internet searches end up at Wales's creation.",
+      "zh": "然后他跳转到维基百科的伟大，说他在互联网上70%的个人信息搜索都以威尔士的创作为终点。(Ránhòu tā tiàozhuǎn dào Wéijī bǎikē de wěidà, shuō tā zài hùliánwǎng shàng 70% de gèrén xìnxī sōusuǒ dōu yǐ Wēi'ěrshì de chuàngzuò wéi zhōngdiǎn.)",
+      "ja": "それから彼はウィキペディアの偉大さに飛び、インターネットでの個人的な情報検索の70%がウェールズの創作物で終わると述べた。"
+    },
+    {
+      "id": 19,
+      "ru": "Показал график, на котором полезные, образовательные сервисы оказали человечеству бо́льшую услугу, чем развлекательные.",
+      "en": "He showed a graph on which useful, educational services had provided humanity a greater service than entertainment ones.",
+      "zh": "他展示了一张图表，显示有用的教育服务对人类的贡献比娱乐服务更大。(Tā zhǎnshìle yī zhāng túbiǎo, xiǎnshì yǒuyòng de jiàoyù fúwù duì rénlèi de gòngxiàn bǐ yúlè fúwù gèng dà.)",
+      "ja": "彼は、有用な教育サービスが娯楽サービスよりも人類に大きな貢献をしたというグラフを見せた。"
+    },
+    {
+      "id": 20,
+      "ru": "Под конец речи он анонсировал пожертвование фонду Wikimedia, и конференция зааплодировала.",
+      "en": "At the end of his speech he announced the donation to the Wikimedia Foundation, and the conference applauded.",
+      "zh": "在演讲结束时，他宣布向维基媒体基金会捐款，会议报以掌声。(Zài yǎnjiǎng jiéshù shí, tā xuānbù xiàng Wéijī méitǐ jījīnhuì juānkuǎn, huìyì bào yǐ zhǎngshēng.)",
+      "ja": "スピーチの最後に彼はウィキメディア財団への寄付を発表し、会議は拍手した。"
+    },
+    {
+      "id": 21,
+      "ru": "Дав зрителям похлопать, Дуров сбил аплодисменты и уступил место Уэйлсу.",
+      "en": "Letting the audience clap, Durov cut off the applause and yielded the floor to Wales.",
+      "zh": "让观众鼓掌后，杜罗夫中断了掌声，把舞台让给了威尔士。(Ràng guānzhòng gǔzhǎng hòu, Dùluófū zhōngduànle zhǎngshēng, bǎ wǔtái ràng gěile Wēi'ěrshì.)",
+      "ja": "観客に拍手させた後、ドゥーロフは拍手を止め、ウェールズに場を譲った。"
+    },
+    {
+      "id": 22,
+      "ru": "Тому надлежало выказать осмотрительность и не бросаться в объятия черного человека.",
+      "en": "Wales had to show caution and not rush into the arms of the man in black.",
+      "zh": "威尔士必须表现出谨慎，不能急于投入这个黑衣人的怀抱。(Wēi'ěrshì bìxū biǎoxiàn chū jǐnshèn, bùnéng jí yú tóurù zhège hēi yī rén de huáibào.)",
+      "ja": "ウェールズは慎重さを示し、黒い服の男の腕に飛び込まないようにする必要があった。"
+    },
+    {
+      "id": 23,
+      "ru": "Вы такой молодой, сказал он, двадцать семь лет, и спускаете миллион долларов.",
+      "en": "You're so young, he said, twenty-seven years old, and you're spending a million dollars.",
+      "zh": "'你这么年轻，'他说，'二十七岁，就花掉一百万美元。'('Nǐ zhème niánqīng,' tā shuō, 'èrshíqī suì, jiù huā diào yībǎi wàn měiyuán.')",
+      "ja": "「あなたはとても若い」と彼は言った、「27歳で100万ドルを使っている」"
+    },
+    {
+      "id": 24,
+      "ru": "Уэйлс намекнул, что в курсе сложных отношений «ВКонтакте» с правообладателями и полицией морали.",
+      "en": "Wales hinted that he was aware of VKontakte's complicated relationships with rights holders and the morality police.",
+      "zh": "威尔士暗示他知道VKontakte与版权持有者和道德警察之间复杂的关系。(Wēi'ěrshì ànshì tā zhīdào VKontakte yǔ bǎnquán chíyǒu zhě hé dàodé jǐngchá zhījiān fùzá de guānxì.)",
+      "ja": "ウェールズは、VKの権利保有者やモラル警察との複雑な関係を知っていることを示唆した。"
+    },
+    {
+      "id": 25,
+      "ru": "Дуров отреагировал как всегда: мы действуем строго по закону.",
+      "en": "Durov reacted as always: we operate strictly according to the law.",
+      "zh": "杜罗夫像往常一样回应：我们严格按照法律行事。(Dùluófū xiàng wǎngcháng yīyàng huíyìng: wǒmen yángé ànzhào fǎlǜ xíngshì.)",
+      "ja": "ドゥーロフはいつものように反応した：我々は法律に厳格に従って運営している。"
+    },
+    {
+      "id": 26,
+      "ru": "После выступления его интервьюировал Businessweek.",
+      "en": "After the speech, Businessweek interviewed him.",
+      "zh": "演讲后，《商业周刊》采访了他。(Yǎnjiǎng hòu, 'Shāngyè zhōukān' cǎifǎngle tā.)",
+      "ja": "講演後、ビジネスウィークが彼にインタビューした。"
+    },
+    {
+      "id": 27,
+      "ru": "Вопросы те же – контент, контент, контент; легкое недоверие.",
+      "en": "The questions were the same—content, content, content; mild distrust.",
+      "zh": "问题还是一样——内容、内容、内容；轻微的不信任。(Wèntí háishi yīyàng——nèiróng, nèiróng, nèiróng; qīngwéi de bù xìnrèn.)",
+      "ja": "質問は同じだった——コンテンツ、コンテンツ、コンテンツ。軽い不信感。"
+    },
+    {
+      "id": 28,
+      "ru": "Дуров включил доброжелательность на максимум, бурно жестикулировал, вертел в руках невидимый кубик Рубика, и вспомнил историю со Spotify.",
+      "en": "Durov turned his friendliness up to maximum, gesticulated vigorously, twisted an invisible Rubik's cube in his hands, and recalled the story with Spotify.",
+      "zh": "杜罗夫把友好度开到最大，大力做手势，双手转动着看不见的魔方，并回忆起与Spotify的故事。(Dùluófū bǎ yǒuhǎo dù kāi dào zuìdà, dàlì zuò shǒushì, shuāng shǒu zhuàndòngzhe kàn bùjiàn de mófāng, bìng huíyì qǐ yǔ Spotify de gùshì.)",
+      "ja": "ドゥーロフは友好度を最大にし、激しく身振りをし、見えないルービックキューブを手で回しながら、Spotifyとの話を思い出した。"
+    },
+    {
+      "id": 29,
+      "ru": "Мол, приезжали, а мы им р-раз – и от ворот поворот, потому что у нас музыки больше, чем у них.",
+      "en": "Like, they came, and we gave them the boot, because we have more music than them.",
+      "zh": "'就像，他们来了，我们把他们拒之门外，因为我们的音乐比他们多。'('Jiù xiàng, tāmen láile, wǒmen bǎ tāmen jù zhī mén wài, yīnwèi wǒmen de yīnyuè bǐ tāmen duō.')",
+      "ja": "「彼らは来たけど、僕らは門前払いにした。だって僕らの方が音楽が多いから」という感じで。"
+    },
+    {
+      "id": 30,
+      "ru": "Законы не нарушаем, нет-нет.",
+      "en": "We don't break the law, no-no.",
+      "zh": "我们不违法，不不。(Wǒmen bù wéifǎ, bù bù.)",
+      "ja": "法律は破っていない、いやいや。"
+    },
+    {
+      "id": 31,
+      "ru": "Уэйлс принял миллион, но отношение к «ВКонтакте» не изменилось.",
+      "en": "Wales accepted the million, but the attitude toward VKontakte didn't change.",
+      "zh": "威尔士接受了那一百万，但对VKontakte的态度没有改变。(Wēi'ěrshì jiēshòule nà yībǎi wàn, dàn duì VKontakte de tàidù méiyǒu gǎibiàn.)",
+      "ja": "ウェールズは100万ドルを受け取ったが、VKに対する態度は変わらなかった。"
+    },
+    {
+      "id": 32,
+      "ru": "Facebook засобирался на IPO, и журнал Wired нарисовал карту конкурентов Цукерберга.",
+      "en": "Facebook was preparing for its IPO, and Wired magazine drew a map of Zuckerberg's competitors.",
+      "zh": "Facebook正在准备IPO，《连线》杂志绘制了扎克伯格竞争对手的地图。(Facebook zhèngzài zhǔnbèi IPO, 'Liánxiàn' zázhì huìzhìle Zhākèbógé jìngzhēng duìshǒu de dìtú.)",
+      "ja": "FacebookはIPOの準備を進めており、Wired誌はザッカーバーグの競合他社の地図を描いた。"
+    },
+    {
+      "id": 33,
+      "ru": "В России, констатировал автор, соцсеть безнадежно проигрывает команде из Зингера.",
+      "en": "In Russia, the author noted, the social network was hopelessly losing to the team from the Singer House.",
+      "zh": "作者指出，在俄罗斯，这个社交网络无可救药地输给了辛格大厦的团队。(Zuòzhě zhǐchū, zài Éluósī, zhège shèjiāo wǎngluò wú kě jiùyào de shū gěile Xīngé dàshà de tuánduì.)",
+      "ja": "著者は、ロシアでは、このソーシャルネットワークはジンガーハウスのチームに絶望的に負けていると述べた。"
+    },
+    {
+      "id": 34,
+      "ru": "«ВКонтакте» он описывал как копию раннего Facebook.",
+      "en": "He described VKontakte as a copy of early Facebook.",
+      "zh": "他将VKontakte描述为早期Facebook的复制品。(Tā jiāng VKontakte miáoshù wéi zǎoqī Facebook de fùzhìpǐn.)",
+      "ja": "彼はVKを初期のFacebookのコピーとして描写した。"
+    },
+    {
+      "id": 35,
+      "ru": "Автор ностальгировал, но его всхлипы отдавали сарказмом.",
+      "en": "The author was nostalgic, but his sobs had an air of sarcasm.",
+      "zh": "作者很怀旧，但他的叹息带着讽刺的意味。(Zuòzhě hěn huáijiù, dàn tā de tànxī dàizhe fěngcì de yìwèi.)",
+      "ja": "著者は懐かしがっていたが、その嘆きには皮肉の雰囲気があった。"
+    },
+    {
+      "id": 36,
+      "ru": "«Я хотел бы совершить небольшую революцию в том, как люди общаются, – рассказывал Дуров, сидя в баре на последнем этаже Ritz, который оккупировали пожилые американцы.",
+      "en": "'I would like to make a small revolution in how people communicate,' Durov said, sitting in the bar on the top floor of the Ritz, which had been occupied by elderly Americans.",
+      "zh": "'我想在人们的交流方式上进行一场小革命，'杜罗夫坐在丽思酒店顶层的酒吧里说，那里被年长的美国人占据了。('Wǒ xiǎng zài rénmen de jiāoliú fāngshì shàng jìnxíng yī chǎng xiǎo gémìng,' Dùluófū zuò zài Lìsī jiǔdiàn dǐngcéng de jiǔbā lǐ shuō, nàlǐ bèi niánzhǎng de Měiguó rén zhànjùle.)",
+      "ja": "「人々のコミュニケーション方法に小さな革命を起こしたい」とドゥーロフは、高齢のアメリカ人に占拠されたリッツの最上階のバーに座りながら語った。"
+    },
+    {
+      "id": 37,
+      "ru": "– „ВКонтакте" вряд ли будет перерождаться.",
+      "en": "'VKontakte probably won't be reborn.",
+      "zh": "'VKontakte大概不会重生。('VKontakte dàgài bù huì chóngshēng.)",
+      "ja": "「VKはおそらく生まれ変わらないだろう。"
+    },
+    {
+      "id": 38,
+      "ru": "Из зайца нельзя сделать слона.",
+      "en": "You can't make an elephant out of a hare.",
+      "zh": "你不能把兔子变成大象。(Nǐ bùnéng bǎ tùzi biànchéng dàxiàng.)",
+      "ja": "ウサギからゾウは作れない。"
+    },
+    {
+      "id": 39,
+      "ru": "Мне жаль Цукерберга и Брина – они построили империи и теперь стареют на глазах.",
+      "en": "I feel sorry for Zuckerberg and Brin—they built empires and now they're aging before our eyes.",
+      "zh": "我为扎克伯格和布林感到遗憾——他们建立了帝国，现在正在我们眼前老去。(Wǒ wèi Zhākèbógé hé Bùlín gǎndào yíhàn——tāmen jiànlìle dìguó, xiànzài zhèngzài wǒmen yǎnqián lǎo qù.)",
+      "ja": "ザッカーバーグとブリンに同情する——彼らは帝国を築いたが、今や目の前で老いている。"
+    },
+    {
+      "id": 40,
+      "ru": "Они не могут отключиться и сфокусироваться на том, что важно сейчас.",
+      "en": "They can't disconnect and focus on what's important now.",
+      "zh": "他们无法脱身，专注于当下重要的事情。(Tāmen wúfǎ tuōshēn, zhuānzhù yú dāngxià zhòngyào de shìqíng.)",
+      "ja": "彼らは切り離して、今重要なことに集中することができない。"
+    },
+    {
+      "id": 41,
+      "ru": "Дорси ушел из Twitter и тогда изобрел Square».",
+      "en": "Dorsey left Twitter and then invented Square.'",
+      "zh": "多西离开了Twitter，然后发明了Square。'(Duōxī líkāile Twitter, ránhòu fāmíngle Square.')",
+      "ja": "ドーシーはTwitterを去り、それからSquareを発明した」"
+    },
+    {
+      "id": 42,
+      "ru": "Кто-то из американцев поперхнулся чаем, и остальные с громкими криками застучали его по спине.",
+      "en": "One of the Americans choked on tea, and the others began slapping him on the back with loud cries.",
+      "zh": "其中一个美国人被茶呛住了，其他人大声喊叫着拍他的背。(Qízhōng yīgè Měiguó rén bèi chá qiāng zhùle, qítā rén dàshēng hǎnjiàozhe pāi tā de bèi.)",
+      "ja": "アメリカ人の一人がお茶でむせ、他の人たちは大声で叫びながら彼の背中を叩き始めた。"
+    },
+    {
+      "id": 43,
+      "ru": "«У Цукерберга – дом, семья, кампус, – пробормотал Дуров, оборачиваясь, чтобы разглядеть соседей. – А я живу в съемной квартире, чтобы не быть ни к чему привязанным».",
+      "en": "'Zuckerberg has a house, family, campus,' Durov muttered, turning to look at the neighbors. 'But I live in a rented apartment so I'm not tied to anything.'",
+      "zh": "'扎克伯格有房子、家庭、园区，'杜罗夫喃喃道，转身看着邻桌的人。'而我住在租来的公寓里，这样我就不被任何东西束缚。'('Zhākèbógé yǒu fángzi, jiātíng, yuánqū,' Dùluófū nánnán dào, zhuǎnshēn kànzhe lín zhuō de rén. 'Ér wǒ zhù zài zū lái de gōngyù lǐ, zhèyàng wǒ jiù bù bèi rènhé dōngxī shùfù.')",
+      "ja": "「ザッカーバーグには家、家族、キャンパスがある」とドゥーロフは隣人を見ようと振り返りながらつぶやいた。「でも僕は賃貸アパートに住んでいる、何にも縛られないために」"
+    }
+  ],
+  "translator_notes": "This page continues the 'tweaking' theme with Instagram as the paradigm of mobile-era improvements. Durov's self-assessment as a 'tweaker' rather than 'great creator' is remarkably honest. The DLD conference scene is key: Durov's $1M donation to Wikipedia was a PR gambit for global recognition, but Wales's cautious reception and persistent Western skepticism about VK's piracy/porn image show it failed. The 'Facebook clone from the land of bears and vodka' introduction captures Western prejudice. Durov's contrast with 'aging' founders (Zuckerberg, Brin) and praise for Dorsey leaving Twitter to create Square foreshadows his own pivot. The 'hare to elephant' Russian idiom means VK can't become something fundamentally different.",
+  "total_sentences": 43,
+  "page_type": "narrative"
+}
