@@ -52,8 +52,8 @@ done
 | Status | Count | Pages |
 |--------|-------|-------|
 | Completed | 1 | 1 |
-| In Progress | 0 | - |
-| Available | 98 | 2-99 |
+| In Progress | 1 | 2 |
+| Available | 97 | 3-99 |
 
 ## M3 Assembly Status
 - **Leader**: Not elected
