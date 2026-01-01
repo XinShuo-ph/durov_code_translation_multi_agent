@@ -5,9 +5,9 @@
 *.toc
 *.synctex.gz
 
-# Generated PDFs (regenerate from JSON)
-output/*.pdf
-output/*.tex
+# LaTeX auxiliary files in output
+output/*.aux
+output/*.log
 
 # Python
 __pycache__/
