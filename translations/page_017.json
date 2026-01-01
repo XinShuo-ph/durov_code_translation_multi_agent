@@ -1,0 +1,334 @@
+{
+  "page": 17,
+  "chapter": 1,
+  "chapter_title": "Ботанический сад (Botanical Garden)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Дурова, может быть, это и волновало, но вида он не показывал, иронически улыбаясь массовым развлечениям.",
+      "en": "Perhaps this worried Durov, but he didn't show it, smiling ironically at mass entertainment.",
+      "zh": "也许这让杜罗夫担忧，但他没有表现出来，只是对大众娱乐报以讽刺的微笑。",
+      "ja": "おそらくこれはドゥーロフを悩ませていたが、彼はそれを見せず、大衆娯楽に皮肉な笑みを浮かべていた。"
+    },
+    {
+      "id": 3,
+      "ru": "Его одолевали собственные идеи об успехе и власти.",
+      "en": "He was preoccupied with his own ideas about success and power.",
+      "zh": "他沉浸在自己关于成功和权力的想法中。",
+      "ja": "彼は成功と権力についての自分自身のアイデアに夢中だった。"
+    },
+    {
+      "id": 4,
+      "ru": "Сидя на крыше бункера у аэродрома, он штудировал Кастанеду в компании с Наполеоном Хиллом.",
+      "en": "Sitting on the roof of a bunker near the airfield, he studied Castaneda in the company of Napoleon Hill.",
+      "zh": "坐在飞机场附近地堡的屋顶上，他研读卡斯塔涅达和拿破仑·希尔的作品。",
+      "ja": "飛行場近くのバンカーの屋根に座って、カスタネダとナポレオン・ヒルを勉強していた。"
+    },
+    {
+      "id": 5,
+      "ru": "«Ты – то, что ты думаешь; думай и богатей».",
+      "en": "\"You are what you think; think and grow rich.\"",
+      "zh": ""你就是你所想的；思考致富。"",
+      "ja": "「あなたはあなたの考えるものである。考えて豊かになれ。」"
+    },
+    {
+      "id": 6,
+      "ru": "Однажды класс проходил «Обломова».",
+      "en": "One day the class was studying \"Oblomov.\"",
+      "zh": "有一天，班上正在学习《奥勃洛莫夫》。",
+      "ja": "ある日、クラスは『オブローモフ』を学んでいた。"
+    },
+    {
+      "id": 7,
+      "ru": "Илья Ильич как зеркало русской души.",
+      "en": "Ilya Ilyich as a mirror of the Russian soul.",
+      "zh": "伊利亚·伊里奇是俄罗斯灵魂的镜子。",
+      "ja": "イリヤ・イリイチはロシアの魂の鏡として。"
+    },
+    {
+      "id": 8,
+      "ru": "Дискуссия.",
+      "en": "Discussion.",
+      "zh": "讨论。",
+      "ja": "議論。"
+    },
+    {
+      "id": 9,
+      "ru": "Большинство соглашается, что главный герой добр, безвреден, а Штольц вполне бездушный немчура, механизм и чужеродное тело на славянских просторах.",
+      "en": "Most agree that the main character is kind, harmless, while Stolz is a rather soulless German, a mechanism and a foreign body on the Slavic expanses.",
+      "zh": "大多数人认为主人公善良无害，而施托尔茨是个相当无情的德国人，是斯拉夫大地上的机械和异物。",
+      "ja": "大多数は主人公が優しく無害であることに同意し、シュトルツはかなり冷酷なドイツ人、機械、スラブの大地における異物だと考えた。"
+    },
+    {
+      "id": 10,
+      "ru": "Руководил обсуждением Николай Гуськов, учитель словесности, известный тем, что любил средневековую литературу.",
+      "en": "The discussion was led by Nikolai Guskov, a literature teacher known for loving medieval literature.",
+      "zh": "讨论由尼古拉·古斯科夫主持，他是一位以热爱中世纪文学著称的文学老师。",
+      "ja": "議論を率いたのはニコライ・グスコフ、中世文学を愛することで知られる文学教師だった。"
+    },
+    {
+      "id": 11,
+      "ru": "Итальянцу Дурову нравилось, что Гуськов фокусируется на малоизвестных течениях – например, прованских или ломбардских трубадурах.",
+      "en": "The Italian Durov liked that Guskov focused on lesser-known movements—for example, Provençal or Lombard troubadours.",
+      "zh": "作为在意大利长大的人，杜罗夫喜欢古斯科夫专注于鲜为人知的流派——例如普罗旺斯或伦巴第的游吟诗人。",
+      "ja": "イタリア育ちのドゥーロフは、グスコフがあまり知られていない流派——例えばプロヴァンスやロンバルディアのトルバドゥール——に焦点を当てることを気に入っていた。"
+    },
+    {
+      "id": 12,
+      "ru": "Правда, эта симпатия не отменяла его «идеи фикс» – быть во всем contrarian, противоположным общепринятому взгляду на вещи.",
+      "en": "However, this sympathy did not cancel his \"idée fixe\"—to be a contrarian in everything, opposite to the conventional view of things.",
+      "zh": "然而，这种好感并没有改变他的"固定观念"——在所有事情上都做一个逆向思维者，与公认的观点相反。",
+      "ja": "しかし、この好感は彼の「固定観念」を打ち消すものではなかった——すべてにおいて逆張りであり、通説と反対の立場を取ること。"
+    },
+    {
+      "id": 13,
+      "ru": "Выслушав про нежную душу Обломова, Дуров (о русские дворянские фамилии!) поднял руку.",
+      "en": "Having listened about the tender soul of Oblomov, Durov (oh, Russian noble surnames!) raised his hand.",
+      "zh": "听完关于奥勃洛莫夫温柔灵魂的讨论后，杜罗夫（哦，这俄罗斯贵族姓氏！）举起了手。",
+      "ja": "オブローモフの優しい魂について聞いた後、ドゥーロフ（ああ、ロシアの貴族の姓よ！）は手を挙げた。"
+    },
+    {
+      "id": 14,
+      "ru": "Гуськов дал слово.",
+      "en": "Guskov gave him the floor.",
+      "zh": "古斯科夫让他发言。",
+      "ja": "グスコフは発言を許した。"
+    },
+    {
+      "id": 15,
+      "ru": "«Я считаю, что произведение, поэтизирующее лень, следует исключить из школьной программы», – проговорил Дуров.",
+      "en": "\"I believe that a work that poeticizes laziness should be excluded from the school curriculum,\" Durov declared.",
+      "zh": ""我认为，一部美化懒惰的作品应该从学校课程中删除，"杜罗夫说道。",
+      "ja": "「怠惰を詩的に美化する作品は学校のカリキュラムから除外されるべきだと思います」とドゥーロフは宣言した。"
+    },
+    {
+      "id": 16,
+      "ru": "Класс вздрогнул и вышел из оцепенения.",
+      "en": "The class shuddered and snapped out of its stupor.",
+      "zh": "全班一惊，从麻木中清醒过来。",
+      "ja": "クラスは身震いし、昏迷から目覚めた。"
+    },
+    {
+      "id": 17,
+      "ru": "Дискуссия свернула на непредсказуемую дорожку.",
+      "en": "The discussion veered onto an unpredictable path.",
+      "zh": "讨论转向了不可预测的方向。",
+      "ja": "議論は予測不可能な道へと逸れた。"
+    },
+    {
+      "id": 18,
+      "ru": "«Лень упрятана глубоко у нас в культуре – „работа не волк" и т. д., но людская лень – это все ж таки плохо с точки зрения развития экономики, науки и искусства, – продолжал менторствовать Дуров.",
+      "en": "\"Laziness is hidden deep in our culture—'work isn't a wolf' and so on, but human laziness is still bad from the standpoint of developing the economy, science, and art,\" Durov continued to lecture.",
+      "zh": ""懒惰深深植根于我们的文化中——'工作又不会跑掉'等等，但从经济、科学和艺术发展的角度来看，人类的懒惰终究是不好的，"杜罗夫继续说教道。",
+      "ja": "「怠惰は私たちの文化に深く隠されている——『仕事は逃げない』など。しかし、経済、科学、芸術の発展という観点からは、人間の怠惰はやはり悪いものだ」とドゥーロフは説教を続けた。"
+    },
+    {
+      "id": 19,
+      "ru": "– Ничегонеделанье ведет к регрессу и распаду.",
+      "en": "\"Doing nothing leads to regression and decay.",
+      "zh": ""无所事事会导致倒退和衰败。",
+      "ja": "「何もしないことは退行と崩壊につながる。"
+    },
+    {
+      "id": 20,
+      "ru": "Поэтому для всей нашей страны, да и культуры, было бы лучше, если бы люди были по возможности менее ленивыми.",
+      "en": "Therefore, for our entire country, and culture too, it would be better if people were less lazy whenever possible.",
+      "zh": "因此，对于我们整个国家和文化来说，如果人们能尽可能少一些懒惰，那会更好。",
+      "ja": "したがって、私たちの国全体、そして文化にとっても、人々ができるだけ怠惰でなければより良いだろう。"
+    },
+    {
+      "id": 21,
+      "ru": "А что делает Гончаров?",
+      "en": "And what does Goncharov do?",
+      "zh": "那冈察洛夫做了什么？",
+      "ja": "そしてゴンチャロフは何をしたか？"
+    },
+    {
+      "id": 22,
+      "ru": "Он поэтизирует лень.",
+      "en": "He poeticizes laziness.",
+      "zh": "他美化懒惰。",
+      "ja": "彼は怠惰を詩的に美化している。"
+    },
+    {
+      "id": 23,
+      "ru": "Заставляет ей сочувствовать с помощью милого Обломова.",
+      "en": "He makes us sympathize with it through the sweet Oblomov.",
+      "zh": "通过可爱的奥勃洛莫夫让我们对懒惰产生同情。",
+      "ja": "かわいいオブローモフを通じて私たちにそれに同情させる。"
+    },
+    {
+      "id": 24,
+      "ru": "Активную жизненную позицию он, напротив, дискредитирует с помощью механистичного Штольца.",
+      "en": "An active life stance, on the contrary, he discredits through the mechanistic Stolz.",
+      "zh": "相反，他通过机械化的施托尔茨来贬低积极的人生态度。",
+      "ja": "反対に、積極的な人生観は機械的なシュトルツを通じて信用を落としている。"
+    },
+    {
+      "id": 25,
+      "ru": "В итоге роман не мог не отразиться негативно на многих сферах человеческой деятельности в нашей чудной стране».",
+      "en": "As a result, the novel couldn't help but have a negative impact on many spheres of human activity in our wonderful country.\"",
+      "zh": "结果，这部小说不可能不对我们这个奇妙国家的许多人类活动领域产生负面影响。"",
+      "ja": "結果として、この小説は私たちの素晴らしい国の多くの人間活動の分野に悪影響を及ぼさずにはいられなかった。」"
+    },
+    {
+      "id": 26,
+      "ru": "Гуськов не удивился.",
+      "en": "Guskov was not surprised.",
+      "zh": "古斯科夫并不惊讶。",
+      "ja": "グスコフは驚かなかった。"
+    },
+    {
+      "id": 27,
+      "ru": "Он привык, что резонер не просто гонит против всех, а ищет аргументы и доказывает.",
+      "en": "He was used to the fact that the moralizer didn't simply rail against everyone, but sought arguments and proved his points.",
+      "zh": "他习惯了这个说教者不只是反对所有人，而是寻找论据并加以证明。",
+      "ja": "彼はこの議論好きが単に皆に反対するのではなく、論拠を探し証明することに慣れていた。"
+    },
+    {
+      "id": 28,
+      "ru": "Кроме Гончарова под шквал ругани уже попадал Достоевский: «Я считаю, что он ужасный писатель, потому что…»",
+      "en": "Besides Goncharov, Dostoevsky had already come under a barrage of criticism: \"I believe he's a terrible writer because...\"",
+      "zh": "除了冈察洛夫，陀思妥耶夫斯基也遭到了猛烈抨击："我认为他是一个糟糕的作家，因为……"",
+      "ja": "ゴンチャロフの他に、ドストエフスキーもすでに批判の嵐を受けていた：「私は彼がひどい作家だと思う、なぜなら……」"
+    },
+    {
+      "id": 29,
+      "ru": "Дальше шло доказательство через психологию, неувязки в сюжете, избыточность языка.",
+      "en": "Then followed proof through psychology, plot inconsistencies, and linguistic excess.",
+      "zh": "然后是通过心理学、情节矛盾和语言冗余来证明。",
+      "ja": "その後、心理学、プロットの矛盾、言語の過剰さによる証明が続いた。"
+    },
+    {
+      "id": 30,
+      "ru": "В другой раз класс чуть не передрался из-за «Вишневого сада».",
+      "en": "Another time the class nearly came to blows over \"The Cherry Orchard.\"",
+      "zh": "还有一次，全班差点因为《樱桃园》打起来。",
+      "ja": "別の時、クラスは『桜の園』をめぐってほぼ殴り合いになった。"
+    },
+    {
+      "id": 31,
+      "ru": "Интеллигентные дети порицали купечество в лице Лопахина, влезшее сапогами в кружевную душу Раневской, а Дуров орал, что Лопахин – человек дела; помещики сами сгубили сад по лени и бездарности.",
+      "en": "The intelligent children condemned the merchant class in the person of Lopakhin, who trampled with boots on the lacy soul of Ranevskaya, while Durov yelled that Lopakhin was a man of action; the landowners themselves ruined the garden through laziness and incompetence.",
+      "zh": "有教养的孩子们谴责以洛帕欣为代表的商人阶层，说他用靴子践踏了拉涅夫斯卡娅精致的灵魂，而杜罗夫则大喊洛帕欣是一个实干家；是地主们自己因为懒惰和无能毁了果园。",
+      "ja": "知的な子供たちはラネーフスカヤの繊細な魂をブーツで踏みにじった商人階級をロパーヒンの姿で非難したが、ドゥーロフはロパーヒンは行動の人だと叫んだ。地主たちは怠惰と無能で自ら庭園を滅ぼしたのだと。"
+    },
+    {
+      "id": 32,
+      "ru": "Один из его прадедов был дворянином и помещиком, а другой – зажиточным земледельцем.",
+      "en": "One of his great-grandfathers was a nobleman and landowner, and another was a prosperous farmer.",
+      "zh": "他的一位曾祖父是贵族和地主，另一位是富裕的农民。",
+      "ja": "彼の曽祖父の一人は貴族で地主であり、もう一人は裕福な農民だった。"
+    },
+    {
+      "id": 33,
+      "ru": "Обоих лишили собственности красные иждивенцы.",
+      "en": "Both were deprived of their property by the red dependents.",
+      "zh": "两人的财产都被红色寄生虫剥夺了。",
+      "ja": "両者とも赤い寄生虫たちに財産を奪われた。"
+    },
+    {
+      "id": 34,
+      "ru": "Поэтому нелюбовь к грязи, получающей все, содержалась в крови Дурова изначально.",
+      "en": "Therefore, a dislike for riffraff who get everything was in Durov's blood from the start.",
+      "zh": "因此，对那些不劳而获的底层人的厌恶从一开始就流淌在杜罗夫的血液里。",
+      "ja": "したがって、すべてを手に入れるクズへの嫌悪は、最初からドゥーロフの血に流れていた。"
+    },
+    {
+      "id": 35,
+      "ru": "Позже, в университете, он отправится в дискуссионный клуб, где позицию оратора выбирает жребий и считается удачей защитить, к примеру, фашизм.",
+      "en": "Later, at university, he would go to a debate club where the speaker's position was chosen by lottery and it was considered a stroke of luck to defend, for example, fascism.",
+      "zh": "后来，在大学里，他会参加一个辩论俱乐部，在那里演讲者的立场由抽签决定，能够为例如法西斯主义辩护被认为是一种幸运。",
+      "ja": "後に大学で、彼はディベートクラブに行くことになる。そこでは演説者の立場はくじで選ばれ、例えばファシズムを擁護することは幸運とみなされた。"
+    },
+    {
+      "id": 36,
+      "ru": "Личные убеждения многие отобьют – а как насчет тех, что признаны преступными?..",
+      "en": "Many can defend their personal convictions—but what about those recognized as criminal?...",
+      "zh": "许多人能够捍卫个人信念——但那些被认为是犯罪的信念呢？……",
+      "ja": "個人的な信念を守ることは多くの人ができる——しかし犯罪的とされるものについてはどうか？……"
+    },
+    {
+      "id": 37,
+      "ru": "Гуськов был доволен – спор заполыхал, девочки набросились на Дурова, доказывая, что Обломов хоть и слабый человек, но порядочный, добрый и т. д.",
+      "en": "Guskov was pleased—the argument blazed, the girls attacked Durov, proving that Oblomov, though a weak person, was decent, kind, etc.",
+      "zh": "古斯科夫很满意——争论激烈起来，女孩们攻击杜罗夫，证明奥勃洛莫夫虽然是个软弱的人，但正派、善良等等。",
+      "ja": "グスコフは満足だった——議論は白熱し、女子たちはオブローモフは弱い人間だが、まともで、優しいなどと証明しながらドゥーロフに攻撃した。"
+    },
+    {
+      "id": 38,
+      "ru": "Директор привлекал таких, как Гуськов, всеми правдами и неправдами.",
+      "en": "The director attracted people like Guskov by hook or by crook.",
+      "zh": "校长不择手段地吸引古斯科夫这样的人。",
+      "ja": "校長はあらゆる手段を使ってグスコフのような人を集めた。"
+    },
+    {
+      "id": 39,
+      "ru": "Сам Медников был опытным учителем математики, дети его обожали и называли за глаза и в школьном фольклоре Гризом (от медведя гризли).",
+      "en": "Mednikov himself was an experienced math teacher, the children adored him and called him Griz (from grizzly bear) behind his back and in school folklore.",
+      "zh": "梅德尼科夫本人是一位经验丰富的数学老师，孩子们都很喜欢他，在背后和校园传说中称他为"灰熊"（来自灰熊的俄语缩写）。",
+      "ja": "メドニコフ自身は経験豊富な数学教師で、子供たちは彼を崇拝し、陰では「グリズ」（グリズリーベアから）と呼んでいた。"
+    },
+    {
+      "id": 40,
+      "ru": "Он быстро все понял про Дурова и не давил на ученика, подбрасывая задачи посложнее.",
+      "en": "He quickly understood everything about Durov and didn't pressure the student, throwing in more challenging problems.",
+      "zh": "他很快就了解了杜罗夫的一切，没有给学生施压，而是布置更难的题目。",
+      "ja": "彼はすぐにドゥーロフのすべてを理解し、生徒にプレッシャーをかけず、より難しい問題を与えた。"
+    },
+    {
+      "id": 41,
+      "ru": "Когда удавалось заразить идеей, Дуров приносил невиданные объемы решенного.",
+      "en": "When he managed to infect him with an idea, Durov would bring unprecedented volumes of solved work.",
+      "zh": "当成功激发他的兴趣时，杜罗夫会完成大量前所未见的题目。",
+      "ja": "アイデアに感染させることができると、ドゥーロフは前例のない量の解答を持ってきた。"
+    },
+    {
+      "id": 42,
+      "ru": "Будучи незаинтригованным, показывал средние результаты.",
+      "en": "When not intrigued, he showed average results.",
+      "zh": "如果没有引起兴趣，他的成绩就一般。",
+      "ja": "興味を引かれなければ、平均的な成績を示した。"
+    },
+    {
+      "id": 43,
+      "ru": "Медников приглашал ученых, способных рассказывать детям всякие занимательные штуки.",
+      "en": "Mednikov invited scientists capable of telling children all sorts of fascinating things.",
+      "zh": "梅德尼科夫邀请能够给孩子们讲述各种有趣事物的科学家。",
+      "ja": "メドニコフは子供たちにあらゆる興味深いことを話せる科学者を招いた。"
+    },
+    {
+      "id": 44,
+      "ru": "Так в классы угодил Евгений Нинбург – известный гидробиолог, который увлекал детей тем, что был не кабинетным теоретиком, а месяцами пропадал на Белом море и возил недорослей в экспедиции.",
+      "en": "Thus Evgeny Ninburg ended up in the classes—a famous hydrobiologist who fascinated children by being not an armchair theorist, but one who would disappear for months at the White Sea and take youngsters on expeditions.",
+      "zh": "就这样，著名水生生物学家叶夫根尼·宁堡来到了班级——他吸引孩子们的地方在于他不是一个书斋理论家，而是会在白海消失数月，带着年轻人去探险。",
+      "ja": "こうしてエフゲニー・ニンブルクがクラスにやってきた——有名な水生生物学者で、机上の理論家ではなく、何ヶ月も白海で過ごし、若者たちを探検に連れて行くことで子供たちを魅了した。"
+    },
+    {
+      "id": 45,
+      "ru": "Нинбург преподавал теорию популяции и эволюции.",
+      "en": "Ninburg taught population and evolution theory.",
+      "zh": "宁堡教授种群和进化理论。",
+      "ja": "ニンブルクは集団論と進化論を教えた。"
+    }
+  ],
+  "translator_notes": [
+    "Castaneda - Carlos Castaneda, author of mystical/shamanic books popular in counterculture",
+    "Napoleon Hill - 'Think and Grow Rich' author, self-help/success literature",
+    "Oblomov - classic Russian novel by Goncharov about a nobleman paralyzed by laziness",
+    "Stolz - the German-Russian character in Oblomov who represents action and enterprise",
+    "'Work isn't a wolf' (работа не волк) - Russian proverb meaning 'work won't run away'",
+    "The Cherry Orchard - Chekhov's play about declining aristocracy vs. rising merchant class",
+    "White Sea - Arctic sea in northwest Russia, site of biological research",
+    "Durov's contrarian nature and defense of industriousness vs. Russian romanticization of idleness"
+  ],
+  "total_sentences": 45,
+  "page_type": "narrative"
+}
