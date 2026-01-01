@@ -1,0 +1,42 @@
+{
+  "page": 99,
+  "chapter": 8,
+  "chapter_title": "Об авторе (About the Author)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Николай Кононов – журналист, главный редактор ежедневного издания о предпринимательстве Hopes&Fears (hopesandfears.com).",
+      "en": "Nikolai Kononov is a journalist, editor-in-chief of the daily publication about entrepreneurship Hopes&Fears (hopesandfears.com).",
+      "zh": "尼古拉·科诺诺夫——记者，关于创业的每日出版物 Hopes&Fears (hopesandfears.com) 的主编。",
+      "ja": "ニコライ・コノノフはジャーナリストであり、起業家精神に関する日刊誌『Hopes&Fears』（hopesandfears.com）の編集長である。"
+    },
+    {
+      "id": 2,
+      "ru": "Окончил МГУ, работал репортером в газетах «Известия» и «Столичная вечерняя».",
+      "en": "Graduated from Moscow State University, worked as a reporter in the newspapers \"Izvestia\" and \"Stolichnaya Vechernyaya\".",
+      "zh": "毕业于莫斯科国立大学，曾在《消息报》和《首都晚报》担任记者。",
+      "ja": "モスクワ国立大学を卒業し、新聞『イズベスチヤ』や『ストリーチナヤ・ヴェチェルニャヤ』で記者として働いた。"
+    },
+    {
+      "id": 3,
+      "ru": "Писал о бизнесменах разного масштаба – от деревенских подвижников до миллиардеров – сначала в журнале «Эксперт», а затем на протяжении семи лет в российском издании Forbes.",
+      "en": "He wrote about businessmen of various scales – from village ascetics to billionaires – first in the magazine \"Expert\", and then for seven years in the Russian edition of Forbes.",
+      "zh": "他先后在《专家》杂志和《福布斯》俄罗斯版工作了七年，撰写了关于各种规模商人的文章——从乡村苦行者到亿万富翁。",
+      "ja": "彼は、村の禁欲主義者から億万長者まで、さまざまな規模のビジネスマンについて、最初は雑誌『エキスパート』で、その後7年間はロシア版『フォーブス』で執筆した。"
+    },
+    {
+      "id": 4,
+      "ru": "Автор книги «Бог без машины: Истории 20 сумасшедших, сделавших в России бизнес с нуля».",
+      "en": "Author of the book \"God without a Machine: Stories of 20 Madmen Who Built a Business from Scratch in Russia\".",
+      "zh": "《没有机器的神：20 个在俄罗斯白手起家的疯子的故事》一书的作者。",
+      "ja": "著書に『機械仕掛けでない神：ロシアでゼロからビジネスを立ち上げた20人の狂人たちの物語』がある。"
+    }
+  ],
+  "translator_notes": [
+    "Final page: About the Author.",
+    "Nikolai Kononov's biography and credentials.",
+    "Mention of his previous works and journalistic career (Forbes, Expert, Hopes&Fears)."
+  ],
+  "total_sentences": 4,
+  "page_type": "about_author"
+}
