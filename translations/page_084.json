@@ -1,0 +1,240 @@
+{
+  "page": 84,
+  "chapter": 7,
+  "chapter_title": "Запрещенный прием (Sucker Punch)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Вслед за Дорси Цукерберг внедрил находку создателя Livejournal Брэда Фитцпатрика – односторонние связи.",
+      "en": "Following Dorsey, Zuckerberg implemented Livejournal creator Brad Fitzpatrick's invention—one-way connections.",
+      "zh": "继多尔西之后，扎克伯格实施了Livejournal创建者布拉德·菲茨帕特里克的发明——单向连接。",
+      "ja": "ドーシーに続いて、ザッカーバーグはLivejournalの創設者ブラッド・フィッツパトリックの発明を実装した——一方向の接続を。"
+    },
+    {
+      "id": 3,
+      "ru": "Чтобы читать публичные посты интересного тебе автора, ты не обязательно должен получить его одобрение насчет дружбы.",
+      "en": "To read the public posts of an author you're interested in, you don't necessarily need to get their approval for friendship.",
+      "zh": "要阅读你感兴趣的作者的公开帖子，你不一定需要获得他们的友谊认可。",
+      "ja": "興味のある著者の公開投稿を読むために、必ずしも友達として承認を得る必要はない。"
+    },
+    {
+      "id": 4,
+      "ru": "Дуров колебался. Его бесили новости.",
+      "en": "Durov hesitated. The news infuriated him.",
+      "zh": "杜罗夫犹豫了。新闻让他愤怒。",
+      "ja": "ドゥーロフは躊躇した。ニュースが彼を激怒させた。"
+    },
+    {
+      "id": 5,
+      "ru": "Он спрятал из ленты всех друзей, кто увлекался обсуждением злободневных тем.",
+      "en": "He hid from his feed all friends who were into discussing current events.",
+      "zh": "他从自己的信息流中隐藏了所有喜欢讨论时事话题的朋友。",
+      "ja": "彼はフィードから、時事問題の議論に熱中しているすべての友人を非表示にした。"
+    },
+    {
+      "id": 6,
+      "ru": "Внедрять то, что необходимо тебе самому; делать соцсеть для себя – он исповедовал эту стратегию, и это приносило успех.",
+      "en": "Implement what you yourself need; make the social network for yourself—he practiced this strategy, and it brought success.",
+      "zh": "实施你自己需要的东西；为自己制作社交网络——他奉行这一策略，这带来了成功。",
+      "ja": "自分自身に必要なものを実装する；自分のためにソーシャルネットワークを作る——彼はこの戦略を実践し、成功をもたらした。"
+    },
+    {
+      "id": 7,
+      "ru": "Односторонние связи ему понравились, и, следуя за желанием еще сильнее облучать аудиторию своими идеями, он убедил кодеров, что необходимо перевести желающих стать друзьями юзера в его подписчиков.",
+      "en": "He liked one-way connections, and following the desire to irradiate the audience even more with his ideas, he convinced the coders that it was necessary to convert users wanting to become friends into subscribers.",
+      "zh": "他喜欢单向连接，出于更强烈地向受众传播自己想法的愿望，他说服程序员有必要将想成为朋友的用户转换为订阅者。",
+      "ja": "彼は一方向の接続を気に入り、オーディエンスに自分のアイデアをさらに強く照射したいという願望に従って、友達になりたいユーザーを購読者に変換する必要があるとコーダーを説得した。"
+    },
+    {
+      "id": 8,
+      "ru": "Настройка приватности, над которой по-прежнему тряслось большинство пользователей, осуществлялась выбором режима записи – если хочешь писать для друзей, пиши.",
+      "en": "Privacy settings, which most users still worried about, were done by choosing the posting mode—if you want to write for friends, write.",
+      "zh": "大多数用户仍然担心的隐私设置通过选择发布模式来实现——如果你想为朋友写，就写。",
+      "ja": "ほとんどのユーザーがまだ心配していたプライバシー設定は、投稿モードを選択することで行われた——友達のために書きたいなら、書けばいい。"
+    },
+    {
+      "id": 9,
+      "ru": "Но с news feed Дурову было трудно переубедить себя.",
+      "en": "But with the news feed, Durov found it hard to convince himself.",
+      "zh": "但在新闻源方面，杜罗夫很难说服自己。",
+      "ja": "しかしニュースフィードについては、ドゥーロフは自分自身を説得するのが難しかった。"
+    },
+    {
+      "id": 10,
+      "ru": "На выходные он поехал в Милан и бродил по улицам, размышляя, стоит ли превращать стартовую страницу из личной в поток ссылок на контент, расшаренный друзьями.",
+      "en": "On the weekend, he went to Milan and wandered the streets, pondering whether to turn the start page from personal to a stream of links to content shared by friends.",
+      "zh": "周末，他去了米兰，在街上闲逛，思考是否将起始页面从个人页面转变为朋友分享的内容链接流。",
+      "ja": "週末、彼はミラノに行き、街を歩き回りながら、スタートページを個人的なものから友達が共有したコンテンツへのリンクの流れに変えるべきかどうか考えた。"
+    },
+    {
+      "id": 11,
+      "ru": "Он помнил, как Слава вбрасывал идею обыгрывать событийную картиную дня чем-то вроде «Яндекс. Новости».",
+      "en": "He remembered how Slava had thrown in the idea of playing on the day's news picture with something like 'Yandex News.'",
+      "zh": "他记得斯拉瓦曾提出用类似「Yandex新闻」的东西来处理每日新闻图片的想法。",
+      "ja": "彼はスラヴァが「Yandexニュース」のようなもので一日のニュース画像を活用するアイデアを投げ込んだことを覚えていた。"
+    },
+    {
+      "id": 12,
+      "ru": "Дурову не нравилось, когда ему навязывали идеи.",
+      "en": "Durov didn't like having ideas pushed on him.",
+      "zh": "杜罗夫不喜欢别人强加给他想法。",
+      "ja": "ドゥーロフはアイデアを押し付けられるのが嫌いだった。"
+    },
+    {
+      "id": 13,
+      "ru": "Тем более когда это проходит в Славином стиле – внедрять предложения постепенно, возвращаясь к одним и тем же темам.",
+      "en": "Especially when it was done in Slava's style—gradually introducing suggestions, returning to the same topics.",
+      "zh": "尤其是当这是以斯拉瓦的风格进行时——逐渐引入建议，回到相同的话题。",
+      "ja": "特にそれがスラヴァのスタイルで行われる時——徐々に提案を導入し、同じトピックに戻る。"
+    },
+    {
+      "id": 14,
+      "ru": "Архитектор терпел повторы, пока не взрывался и не отвечал на мягкое давление категоричным письмом.",
+      "en": "The architect tolerated the repetitions until he exploded and responded to the soft pressure with a categorical letter.",
+      "zh": "建筑师忍受着重复，直到他爆发并以断然的信件回应软性压力。",
+      "ja": "建築家は繰り返しを我慢したが、ついに爆発し、柔らかい圧力に断固とした手紙で応えた。"
+    },
+    {
+      "id": 15,
+      "ru": "На звонки он по-прежнему отвечал не всегда, воспитывая акционеров.",
+      "en": "He still didn't always answer calls, disciplining the shareholders.",
+      "zh": "他仍然不总是接电话，教育股东。",
+      "ja": "彼は相変わらず電話に常に出るわけではなく、株主を教育していた。"
+    },
+    {
+      "id": 16,
+      "ru": "Часть проблемы заключалась в том, что новости не просто толкали пользователей на создание добавочной стоимости к ним – в виде картинок, смешных подписей и т. д.",
+      "en": "Part of the problem was that news didn't just push users to create added value to them—in the form of pictures, funny captions, etc.",
+      "zh": "问题的一部分是，新闻不仅仅是推动用户创造附加价值——以图片、有趣的标题等形式。",
+      "ja": "問題の一部は、ニュースが単にユーザーに付加価値を作らせるだけでなかったことだ——画像、面白いキャプションなどの形で。"
+    },
+    {
+      "id": 17,
+      "ru": "Они влекли «премиальную» аудиторию.",
+      "en": "They attracted the 'premium' audience.",
+      "zh": "它们吸引了「优质」受众。",
+      "ja": "それらは「プレミアム」オーディエンスを引き付けた。"
+    },
+    {
+      "id": 18,
+      "ru": "Facebook агрессивно захватывал мозг отечественных медиаменеджеров, предлагая им красивые виджеты, которые можно было вставлять на их сайты, чтобы одной кнопкой рекламировать статьи и фото.",
+      "en": "Facebook was aggressively capturing the minds of domestic media managers, offering them beautiful widgets that could be embedded on their sites to promote articles and photos with one button.",
+      "zh": "Facebook正在积极地占领国内媒体经理的头脑，为他们提供可以嵌入其网站的漂亮小部件，一键推广文章和照片。",
+      "ja": "Facebookは国内のメディアマネージャーの心を積極的に獲得していた、ワンボタンで記事や写真を宣伝できる美しいウィジェットを提供して、サイトに埋め込めるようにしていた。"
+    },
+    {
+      "id": 19,
+      "ru": "«Образованная и хорошо зарабатывающая публика использует Facebook для коммуникации с иноязычными друзьями», сладкие рекламные возможности, многократная мантра «во „ВКонтакте” сидит школота, а администрация ненавидит журналистов» – все это перетягивало сетевых авторитетов к Цукербергу.",
+      "en": "\"The educated and well-earning public uses Facebook for communication with foreign-language friends,\" sweet advertising opportunities, the repeated mantra \"VKontakte is full of schoolkids, and the administration hates journalists\"—all this was pulling online influencers toward Zuckerberg.",
+      "zh": "「受过教育且收入丰厚的公众使用Facebook与外语朋友交流」，甜蜜的广告机会，反复的咒语「VKontakte里都是学生，管理层讨厌记者」——所有这些都在将网络权威人士拉向扎克伯格。",
+      "ja": "「教育を受けた高収入の層は外国語の友人とのコミュニケーションにFacebookを使っている」、甘い広告機会、「VKontakteには学生しかいない、管理部はジャーナリストを嫌っている」という繰り返されるマントラ——これらすべてがネットワークのインフルエンサーをザッカーバーグに引き寄せていた。"
+    },
+    {
+      "id": 20,
+      "ru": "Российские медиа охотились за полумифической «премиальной» аудиторией Facebook, исчислявшейся парой миллионов юзеров, и сами начали загонять своих читателей к Цукербергу – создавая брендированные страницы СМИ.",
+      "en": "Russian media hunted for the semi-mythical 'premium' audience of Facebook, numbering a couple of million users, and themselves began driving their readers to Zuckerberg—creating branded media pages.",
+      "zh": "俄罗斯媒体追逐Facebook的半神话般的「优质」受众——只有几百万用户，他们自己开始将读者推向扎克伯格——创建品牌媒体页面。",
+      "ja": "ロシアのメディアは、数百万人のユーザーからなるFacebookの半神話的な「プレミアム」オーディエンスを追いかけ、自分たちで読者をザッカーバーグに駆り立て始めた——ブランド化されたメディアページを作成して。"
+    },
+    {
+      "id": 21,
+      "ru": "Во «ВКонтакте» царили Виктория Боня и сонм поп-звезд.",
+      "en": "Victoria Bonya and a host of pop stars reigned on VKontakte.",
+      "zh": "维多利亚·博尼亚和一大群流行歌星统治着VKontakte。",
+      "ja": "VKontakteではヴィクトリア・ボーニャと多くのポップスターが君臨していた。"
+    },
+    {
+      "id": 22,
+      "ru": "Дуров отправил на переговоры Цыплухина.",
+      "en": "Durov sent Tsyplukhin to negotiate.",
+      "zh": "杜罗夫派齐普卢欣去谈判。",
+      "ja": "ドゥーロフはツィプルヒンを交渉に送った。"
+    },
+    {
+      "id": 23,
+      "ru": "Редакторы не сразу поняли, что им втирает хипстер в очках и клетчатой рубашке.",
+      "en": "The editors didn't immediately understand what the hipster in glasses and a plaid shirt was trying to sell them.",
+      "zh": "编辑们没有立即理解这个戴眼镜、穿格子衬衫的时髦人士在推销什么。",
+      "ja": "編集者たちは、眼鏡とチェックのシャツを着たヒップスターが何を売り込もうとしているのかすぐには理解しなかった。"
+    },
+    {
+      "id": 24,
+      "ru": "«ВКонтакте» – это школьники и студенты, а нам какое дело?",
+      "en": "\"VKontakte is schoolkids and students, what do we care?\"",
+      "zh": "「VKontakte是中小学生和大学生，这跟我们有什么关系？」",
+      "ja": "「VKontakteは中高生と大学生だ、我々に何の関係がある？」"
+    },
+    {
+      "id": 25,
+      "ru": "Цыплухин раскинул офлайновую сеть связей и добился, чтобы к статьям и роликам выдавались кнопки «ВКонтакте», а СМИ завели группы в его соцсети.",
+      "en": "Tsyplukhin spread an offline network of connections and achieved getting VKontakte buttons added to articles and videos, and media outlets created groups on his social network.",
+      "zh": "齐普卢欣建立了线下关系网络，成功地让文章和视频添加VKontakte按钮，媒体在他的社交网络上创建了群组。",
+      "ja": "ツィプルヒンはオフラインの人脈ネットワークを広げ、記事や動画にVKontakteボタンを追加させ、メディアが彼のソーシャルネットワークにグループを作成するようにした。"
+    },
+    {
+      "id": 26,
+      "ru": "Но проблема заключался в тренде потребления информации, а он был неумолим – Facebook сменил модель уютной сети для друзей на модель глобальной газеты.",
+      "en": "But the problem lay in the trend of information consumption, and it was relentless—Facebook had changed from the model of a cozy network for friends to a model of a global newspaper.",
+      "zh": "但问题在于信息消费的趋势，而这是无情的——Facebook已经从舒适的朋友网络模式转变为全球报纸模式。",
+      "ja": "しかし問題は情報消費のトレンドにあり、それは容赦なかった——Facebookは友達のための居心地の良いネットワークのモデルからグローバルな新聞のモデルに変わっていた。"
+    },
+    {
+      "id": 27,
+      "ru": "Дуров решил, что сопротивляться бессмысленно.",
+      "en": "Durov decided that resistance was pointless.",
+      "zh": "杜罗夫认为抵抗毫无意义。",
+      "ja": "ドゥーロフは抵抗が無意味だと判断した。"
+    },
+    {
+      "id": 28,
+      "ru": "Он заменил стартовую страницу с личного профиля на поток новостей от друзей.",
+      "en": "He replaced the start page from personal profile to a stream of news from friends.",
+      "zh": "他将起始页面从个人资料改为朋友的新闻流。",
+      "ja": "彼はスタートページを個人プロフィールから友達のニュースのストリームに変更した。"
+    },
+    {
+      "id": 29,
+      "ru": "Затем велел переписать фото – чтобы снимки расхлопывались почти на весь экран и группировались в альбомах более симпатичным образом.",
+      "en": "Then he ordered photos to be rewritten—so that pictures would expand to almost the full screen and be grouped in albums in a more attractive way.",
+      "zh": "然后他命令重写照片功能——使图片几乎扩展到全屏，并以更吸引人的方式在相册中分组。",
+      "ja": "次に彼は写真を書き直すよう命じた——写真がほぼ全画面に展開し、アルバムでより魅力的な方法でグループ化されるように。"
+    },
+    {
+      "id": 30,
+      "ru": "Спустя год журналист Wired заглянул во «ВКонтакте» и был поражен сходством с Facebook образца 2005 года.",
+      "en": "A year later, a Wired journalist looked into VKontakte and was struck by the resemblance to 2005-era Facebook.",
+      "zh": "一年后，一位《连线》杂志记者查看了VKontakte，对它与2005年版Facebook的相似性感到震惊。",
+      "ja": "1年後、Wiredの記者がVKontakteを覗いて、2005年のFacebookとの類似性に驚いた。"
+    },
+    {
+      "id": 31,
+      "ru": "Но потом, вглядевшись, написал, что «это как если бы Facebook оставил черты сети „для своих”, но при этом выполнял роль информационного хаба с удобным просмотром картинок и библиотекой пиратского видео».",
+      "en": "But then, looking closer, wrote that \"it's as if Facebook had retained the features of a network 'for insiders,' but at the same time performed the role of an information hub with convenient picture viewing and a library of pirated video.\"",
+      "zh": "但后来，仔细观察后，他写道「就好像Facebook保留了'内部人'网络的特征，但同时扮演着信息中心的角色，有便捷的图片浏览和盗版视频库。」",
+      "ja": "しかしその後、よく見ると、「まるでFacebookが『仲間内』のネットワークの特徴を残しながら、便利な画像閲覧と海賊版ビデオのライブラリを備えた情報ハブの役割を果たしているかのようだ」と書いた。"
+    }
+  ],
+  "translator_notes": [
+    "Page 84 - News feed evolution, Facebook competition, media strategy",
+    "Brad Fitzpatrick - Livejournal creator, invented one-way following",
+    "'Irradiate audience with ideas' - Durov's desire to broadcast views",
+    "Milan weekend - Durov contemplating product direction",
+    "Slava's gradual pressure - investor tactics that frustrated Durov",
+    "'Disciplining shareholders' - not answering calls to train investors",
+    "'Premium audience' - educated, wealthy Facebook users media wanted",
+    "Victoria Bonya - Russian reality TV star, VK's celebrity face",
+    "Tsyplukhin as negotiator - building media relationships",
+    "'Schoolkids and students' - VK's perceived demographic disadvantage",
+    "Wired comparison - VK seen as 2005 Facebook with pirated content",
+    "'Information hub with pirate video library' - accurate VK description"
+  ],
+  "total_sentences": 31,
+  "page_type": "narrative"
+}
