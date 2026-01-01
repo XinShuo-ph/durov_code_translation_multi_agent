@@ -8,7 +8,7 @@
 
 ## Current Milestone
 - **Milestone**: M0
-- **Status**: starting
+- **Status**: completed
 
 ## M0 Task Status
 | Task ID | Description | Status | Result Hash |
@@ -19,7 +19,7 @@
 | M0.4 | Research: Durov bio | done | a3f8b2c1 |
 | M0.5 | Research: VK history | done | f2d7c3a8 |
 | M0.6 | Research: Russia context | done | b5e8c4d2 |
-| M0.7 | Create chapter summaries | pending | - |
+| M0.7 | Create chapter summaries | done | c8f4d9a2 |
 
 ## M1 Task Status
 | Task ID | Description | Status | Result |
