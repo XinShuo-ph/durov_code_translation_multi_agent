@@ -1,0 +1,303 @@
+{
+  "page": 45,
+  "chapter": 3,
+  "chapter_title": "Мафия открывает глаза (The Mafia Opens Its Eyes)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "«Тема Лебедев может ругаться на наш логотип, – почти кричал Дуров, уворачиваясь от идущих по Невскому прохожих.",
+      "en": "\"Tema Lebedev can swear at our logo,\" Durov nearly shouted, dodging passersby on Nevsky Prospekt.",
+      "zh": "「列别捷夫可以骂我们的标志，」杜罗夫几乎大喊着，躲避着涅夫斯基大街上的行人。",
+      "ja": "「テーマ・レベデフは我々のロゴに文句を言える」とドゥーロフはネフスキー大通りの通行人を避けながらほぼ叫んだ。"
+    },
+    {
+      "id": 3,
+      "ru": "– Ну и что!",
+      "en": "\"So what!",
+      "zh": "「那又怎样！",
+      "ja": "「だから何だ！"
+    },
+    {
+      "id": 4,
+      "ru": "Леонардо да Винчи, наверное, тоже ругал строителей древнеримских дорог – типа „почему их будто по прямой прокладывали?“ – а строители создавали инфраструктуру».",
+      "en": "Leonardo da Vinci probably also criticized the builders of ancient Roman roads—like 'why did they lay them in a straight line?'—while the builders were creating infrastructure.\"",
+      "zh": "达·芬奇可能也骂过古罗马道路的建造者——像『为什么他们要把路修成直的？』——而建造者们正在创造基础设施。」",
+      "ja": "レオナルド・ダ・ヴィンチもおそらく古代ローマの道路建設者を批判しただろう——『なぜ彼らは道を直線に敷いたのか？』と——しかし建設者たちはインフラを構築していた」"
+    },
+    {
+      "id": 5,
+      "ru": "Светофор, на противоположном берегу проспекта двери штаба, Казанский за спиной.",
+      "en": "Traffic light, the headquarters doors on the opposite side of the avenue, Kazan Cathedral behind.",
+      "zh": "红绿灯，大街对面是总部的门，喀山大教堂在身后。",
+      "ja": "信号機、大通りの向かい側には本部の入り口、背後にはカザン大聖堂。"
+    },
+    {
+      "id": 6,
+      "ru": "Дуров помолчал, затем снял кепку, быстрым движением пригладил волосы и водрузил ее обратно.",
+      "en": "Durov paused, then took off his cap, quickly smoothed his hair, and put it back on.",
+      "zh": "杜罗夫沉默了一下，然后摘下帽子，快速地整理了一下头发，又戴了回去。",
+      "ja": "ドゥーロフは黙り、それから帽子を脱ぎ、素早く髪を撫で、また被り直した。"
+    },
+    {
+      "id": 7,
+      "ru": "«По крайней мере я никогда не копировал, не применяя мозг».",
+      "en": "\"At least I never copied without using my brain.\"",
+      "zh": "「至少我从不不动脑子地复制。」",
+      "ja": "「少なくとも、私は脳を使わずにコピーしたことはない」"
+    },
+    {
+      "id": 8,
+      "ru": "***",
+      "en": "***",
+      "zh": "***",
+      "ja": "***"
+    },
+    {
+      "id": 9,
+      "ru": "1 ноября 2006 года «ВКонтакте» открылся для узкого круга пользователей.",
+      "en": "On November 1, 2006, VKontakte opened for a narrow circle of users.",
+      "zh": "2006年11月1日，VKontakte向一小群用户开放。",
+      "ja": "2006年11月1日、VKontakteは限られたユーザーに公開された。"
+    },
+    {
+      "id": 10,
+      "ru": "Первые id распространили между владельцами и группой «Мафия».",
+      "en": "The first IDs were distributed among the owners and the Mafia group.",
+      "zh": "第一批ID分配给了所有者和「黑手党」小组。",
+      "ja": "最初のIDはオーナーたちとマフィアグループに配布された。"
+    },
+    {
+      "id": 11,
+      "ru": "Где-то со второго десятка примкнули старые форумчане.",
+      "en": "Somewhere from the second dozen, old forum members joined.",
+      "zh": "大约从第二个十名开始，老论坛用户加入了。",
+      "ja": "およそ20番目からは、古いフォーラムメンバーが参加した。"
+    },
+    {
+      "id": 12,
+      "ru": "Конкуренты из MoiFakultet.ru не спали и медленно, но все-таки расширяли аудиторию.",
+      "en": "Competitors from MoiFakultet.ru weren't sleeping and were slowly but steadily expanding their audience.",
+      "zh": "MoiFakultet.ru的竞争对手没有闲着，虽然缓慢但仍在扩大受众。",
+      "ja": "MoiFakultet.ruの競合他社は眠っておらず、ゆっくりだが確実にオーディエンスを拡大していた。"
+    },
+    {
+      "id": 13,
+      "ru": "Дуров понимал, что ему предстоит не просто внедрить элегантный и понятный человеку инструмент.",
+      "en": "Durov understood that he had to do more than just introduce an elegant and human-friendly tool.",
+      "zh": "杜罗夫明白，他不仅仅是要推出一个优雅且用户友好的工具。",
+      "ja": "ドゥーロフは、エレガントで人間に分かりやすいツールを導入するだけでは不十分だと理解していた。"
+    },
+    {
+      "id": 14,
+      "ru": "Надо было затащить во «ВКонтакте» незнакомую с ним, университетским демиургом, аудиторию.",
+      "en": "He had to draw into VKontakte an audience unfamiliar with him, the university demiurge.",
+      "zh": "他必须把不认识他这个大学造物主的受众拉进VKontakte。",
+      "ja": "彼は、大学のデミウルゴスである自分を知らないオーディエンスをVKontakteに引き込む必要があった。"
+    },
+    {
+      "id": 15,
+      "ru": "Для этого следовало отстроиться от имиджа петербургского локального ресурса.",
+      "en": "For this, he needed to distance himself from the image of a local St. Petersburg resource.",
+      "zh": "为此，他需要摆脱圣彼得堡本地资源的形象。",
+      "ja": "そのためには、サンクトペテルブルクのローカルリソースというイメージから離れる必要があった。"
+    },
+    {
+      "id": 16,
+      "ru": "Специалисты только что образованного IT-сообщества «Хабрахабр» были единодушны: новую социальную сеть создавать бессмысленно, так как тема социальных сетей на 146 % исчерпана сетями «Мой круг» и «Одноклассники».",
+      "en": "Specialists from the newly formed IT community Habrahabr were unanimous: creating a new social network was pointless, since the social network topic was 146% exhausted by Moi Krug and Odnoklassniki.",
+      "zh": "刚成立的IT社区Habrahabr的专家们一致认为：创建新的社交网络毫无意义，因为社交网络这个话题已经被Moi Krug和Odnoklassniki消耗了146%。",
+      "ja": "新たに設立されたITコミュニティHabrahabrの専門家たちは一致していた：新しいソーシャルネットワークを作ることは無意味だ、なぜならソーシャルネットワークのテーマはMoi KrugとOdnoklassnikiによって146%使い尽くされているから。"
+    },
+    {
+      "id": 17,
+      "ru": "«Как это часто бывает, эксперты хорошо предсказали прошлое», – ухмылялся Дуров.",
+      "en": "\"As often happens, the experts did a great job predicting the past,\" Durov smirked.",
+      "zh": "「和往常一样，专家们很好地预测了过去，」杜罗夫讥笑道。",
+      "ja": "「よくあることだが、専門家たちは過去を予測するのがうまい」とドゥーロフはにやりとした。"
+    },
+    {
+      "id": 18,
+      "ru": "Он списался с форумом «Дубинушка» физфака МГУ.",
+      "en": "He connected with the Dubinushka forum of the MSU Physics Faculty.",
+      "zh": "他联系了莫斯科大学物理系的Dubinushka论坛。",
+      "ja": "彼はモスクワ大学物理学部のDubinushkaフォーラムと連絡を取った。"
+    },
+    {
+      "id": 19,
+      "ru": "Он даже купил у физиков рекламные баннеры – не столько ради рекламы, сколько ради лояльности москвичей.",
+      "en": "He even bought advertising banners from the physicists—not so much for advertising, but for the loyalty of Muscovites.",
+      "zh": "他甚至从物理学家那里购买了广告横幅——与其说是为了广告，不如说是为了赢得莫斯科人的好感。",
+      "ja": "彼は物理学者たちから広告バナーを購入した——広告のためというより、モスクワ市民のロイヤルティのために。"
+    },
+    {
+      "id": 20,
+      "ru": "Раньше гуру social media он сообразил, что прямая реклама среды, где люди коммуницируют без преград, – бессмысленна.",
+      "en": "Earlier than social media gurus, he figured out that direct advertising of an environment where people communicate without barriers is pointless.",
+      "zh": "他比社交媒体大师们更早意识到，在一个人们无障碍交流的环境中做直接广告是没有意义的。",
+      "ja": "ソーシャルメディアの第一人者たちより早く、彼は人々が障壁なくコミュニケーションする環境での直接広告は無意味だと気づいた。"
+    },
+    {
+      "id": 21,
+      "ru": "Работает только искренний интерес, только сарафанное радио.",
+      "en": "Only genuine interest works, only word of mouth.",
+      "zh": "只有真正的兴趣才有效，只有口碑传播。",
+      "ja": "本当の興味だけが機能する、口コミだけが効く。"
+    },
+    {
+      "id": 22,
+      "ru": "Активность на форумах МГУ выстрелила.",
+      "en": "Activity on MSU forums took off.",
+      "zh": "在莫斯科大学论坛上的活动爆发了。",
+      "ja": "モスクワ大学のフォーラムでの活動が爆発的に広がった。"
+    },
+    {
+      "id": 23,
+      "ru": "Конечно, во «ВКонтакте» регистрировалось больше питерцев, но московская диаспора также росла.",
+      "en": "Of course, more St. Petersburg residents registered on VKontakte, but the Moscow diaspora was also growing.",
+      "zh": "当然，VKontakte上注册的圣彼得堡人更多，但莫斯科群体也在增长。",
+      "ja": "もちろん、VKontakteに登録するサンクトペテルブルク市民の方が多かったが、モスクワのディアスポラも成長していた。"
+    },
+    {
+      "id": 24,
+      "ru": "Через месяц Дуров открыл сайт для всех.",
+      "en": "A month later, Durov opened the site to everyone.",
+      "zh": "一个月后，杜罗夫向所有人开放了网站。",
+      "ja": "1ヶ月後、ドゥーロフはサイトを全員に開放した。"
+    },
+    {
+      "id": 25,
+      "ru": "Единственным требованием к новоприбывшему он выставил приглашение со стороны уже зарегистрированного пользователя.",
+      "en": "The only requirement for newcomers was an invitation from an already registered user.",
+      "zh": "对新来者的唯一要求是已注册用户的邀请。",
+      "ja": "新参者への唯一の条件は、すでに登録しているユーザーからの招待だった。"
+    },
+    {
+      "id": 26,
+      "ru": "Эта мера втыкала решетку перед мордами троллей и давала привкус элитарности, что заставляло стремиться во «ВКонтакте» тысячи студентов – хотя бы поглядеть, как там внутри.",
+      "en": "This measure put a grill in front of the trolls' faces and gave a taste of exclusivity, which made thousands of students eager to join VKontakte—if only to see what it's like inside.",
+      "zh": "这项措施在喷子面前竖起了栅栏，并带来了精英感，这使成千上万的学生渴望加入VKontakte——哪怕只是看看里面是什么样的。",
+      "ja": "この措置はトロールの顔の前に格子を置き、排他性の味わいを与え、何千人もの学生がVKontakteに参加したがるようになった——少なくとも中がどうなっているか見るために。"
+    },
+    {
+      "id": 27,
+      "ru": "Я услышал о «ВКонтакте» весной 2007 года на тусовке бывших одноклассников.",
+      "en": "I heard about VKontakte in the spring of 2007 at a gathering of former classmates.",
+      "zh": "我是在2007年春天的一次老同学聚会上听说VKontakte的。",
+      "ja": "私は2007年春、元同級生の集まりでVKontakteのことを聞いた。"
+    },
+    {
+      "id": 28,
+      "ru": "Когда школьные товарищи нравственно обнялись, распрощались и одной рукой уже залезли в пальто, кто-то крикнул: «А давайте зафрендимся в социальной сети!",
+      "en": "When school friends had morally hugged, said their goodbyes and were already getting into their coats, someone shouted: \"Let's friend each other on a social network!",
+      "zh": "当同学们亲切地拥抱、告别，一只手已经伸进大衣时，有人喊道：「我们在社交网络上加好友吧！",
+      "ja": "学校の友人たちが心を込めて抱擁し、別れを告げ、片手でもうコートに手を入れていたとき、誰かが叫んだ：「ソーシャルネットワークで友達になろう！"
+    },
+    {
+      "id": 29,
+      "ru": "„Чтобы не теряться“».",
+      "en": "'So we don't lose touch.'\"",
+      "zh": "『这样我们就不会失联了』」",
+      "ja": "『連絡を絶やさないように』」"
+    },
+    {
+      "id": 30,
+      "ru": "Несколько человек среагировали – клевая идея, давайте в «Одноклассниках», мы там уже есть.",
+      "en": "Several people reacted—great idea, let's do it on Odnoklassniki, we're already there.",
+      "zh": "有几个人回应——好主意，我们去Odnoklassniki吧，我们已经在那里了。",
+      "ja": "何人かが反応した——いいアイデアだ、Odnoklassnikiでやろう、もういるから。"
+    },
+    {
+      "id": 31,
+      "ru": "Пара умников сказала: нет, ЖЖ интереснее.",
+      "en": "A couple of smart alecks said: no, LiveJournal is more interesting.",
+      "zh": "几个自作聪明的人说：不，LiveJournal更有意思。",
+      "ja": "何人かの知ったかぶりが言った：いや、LiveJournalの方が面白い。"
+    },
+    {
+      "id": 32,
+      "ru": "Внезапно две отличницы (детсадовский воспитатель и бухгалтер) предложили: «Лучше во „ВКонтакте“, там легче искать по школам-классам-факультетам-годам выпуска».",
+      "en": "Suddenly two straight-A students (a kindergarten teacher and an accountant) suggested: \"Better on VKontakte, it's easier to search by schools-classes-faculties-graduation years.\"",
+      "zh": "突然两个优等生（一个幼儿园老师和一个会计）建议：「还是VKontakte好，那里更容易按学校-班级-院系-毕业年份搜索。」",
+      "ja": "突然、二人の優等生（幼稚園の先生と会計士）が提案した：「VKontakteの方がいい、学校・クラス・学部・卒業年で検索しやすい」"
+    },
+    {
+      "id": 33,
+      "ru": "– «Можно еще встречи назначать и фотоальбомы составлять».",
+      "en": "\"You can also schedule meetings and create photo albums.\"",
+      "zh": "「还可以安排聚会和创建相册。」",
+      "ja": "「ミーティングの予定を立てたり、フォトアルバムを作ったりもできる」"
+    },
+    {
+      "id": 34,
+      "ru": "На том и договорились.",
+      "en": "And that's what they agreed on.",
+      "zh": "就这么说定了。",
+      "ja": "それで決まった。"
+    },
+    {
+      "id": 35,
+      "ru": "Именно такая аудитория – не программисты, а люди, оценившие удобство и интуитивно ясный интерфейс, – повалила тысячами в день.",
+      "en": "It was precisely this audience—not programmers, but people who appreciated convenience and an intuitively clear interface—that poured in by the thousands per day.",
+      "zh": "正是这样的受众——不是程序员，而是欣赏便利性和直观界面的人——每天成千上万地涌入。",
+      "ja": "まさにこのオーディエンス——プログラマーではなく、便利さと直感的に分かりやすいインターフェースを評価する人々——が1日に何千人も押し寄せた。"
+    },
+    {
+      "id": 36,
+      "ru": "«ВКонтакте» трудно было бы сделать человеку не из студенческой среды, – писал Дуров.",
+      "en": "\"VKontakte would have been hard to make for someone not from the student environment,\" Durov wrote.",
+      "zh": "「一个不是来自学生群体的人很难做出VKontakte，」杜罗夫写道。",
+      "ja": "「学生環境出身でない人にはVKontakteを作るのは難しかっただろう」とドゥーロフは書いた。"
+    },
+    {
+      "id": 37,
+      "ru": "– Я делал для себя».",
+      "en": "\"I was making it for myself.\"",
+      "zh": "「我是为自己做的。」",
+      "ja": "「私は自分のために作っていた」"
+    },
+    {
+      "id": 38,
+      "ru": "Первые два месяца он лично поддерживал сайт и отвечал на вопросы, а потом передал эту работу id2, Александре Владимировой.",
+      "en": "For the first two months he personally supported the site and answered questions, then passed this work to id2, Alexandra Vladimirova.",
+      "zh": "头两个月他亲自维护网站并回答问题，然后把这项工作交给了id2——亚历山德拉·弗拉基米罗娃。",
+      "ja": "最初の2ヶ月間、彼は自らサイトをサポートし質問に答えていたが、その後この仕事をid2のアレクサンドラ・ウラジミロワに引き継いだ。"
+    },
+    {
+      "id": 39,
+      "ru": "Население «ВКонтакте» за два месяца выросло до сотни тысяч пользователей.",
+      "en": "VKontakte's population grew to a hundred thousand users in two months.",
+      "zh": "VKontakte的用户在两个月内增长到了十万人。",
+      "ja": "VKontakteの人口は2ヶ月で10万ユーザーに成長した。"
+    },
+    {
+      "id": 40,
+      "ru": "Внизу каждой страницы соцсети стояла подпись – «Павел Дуров».",
+      "en": "At the bottom of every social network page was the signature—\"Pavel Durov.\"",
+      "zh": "在社交网络每一页的底部都有签名——「帕维尔·杜罗夫」。",
+      "ja": "ソーシャルネットワークのすべてのページの下部には署名があった——「パーヴェル・ドゥーロフ」。"
+    }
+  ],
+  "translator_notes": [
+    "Tema Lebedev (Артемий Лебедев) - famous Russian designer known for his studio and controversial opinions",
+    "Nevsky Prospekt - the main avenue in St. Petersburg",
+    "Kazan Cathedral (Казанский собор) - famous cathedral on Nevsky Prospekt",
+    "VKontakte officially launched November 1, 2006 to a closed circle",
+    "Habrahabr (now Habr) - major Russian IT community/blog platform",
+    "'146%' - Russian meme from 2011 election fraud, used ironically for 'completely'",
+    "'Moi Krug' (Мой круг) - early Russian professional social network",
+    "Dubinushka - famous Russian folk song, also MSU Physics forum name",
+    "'Sarafannoe radio' (сарафанное радио) - Russian idiom for word-of-mouth",
+    "ЖЖ (LiveJournal) - very popular in Russia in mid-2000s",
+    "id2 Alexandra Vladimirova - second user registered on VK, first support person",
+    "The invitation-only model created artificial scarcity and exclusivity"
+  ],
+  "total_sentences": 40,
+  "page_type": "narrative"
+}
