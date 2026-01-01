@@ -1,0 +1,242 @@
+{
+  "page": 21,
+  "chapter": 1,
+  "chapter_title_ru": "Ботанический сад",
+  "chapter_title_en": "The Botanical Garden",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Нельзя утверждать, что Дуров свирепо завидовал старшему брату, но конкуренция с ним подстегивала.",
+      "en": "One can't claim that Durov fiercely envied his older brother, but competition with him spurred him on.",
+      "zh": "不能说杜罗夫对哥哥有强烈的嫉妒，但与他的竞争激励着他。",
+      "ja": "ドゥーロフが兄を激しく羨んでいたとは言えないが、兄との競争が彼を駆り立てた。"
+    },
+    {
+      "id": 2,
+      "ru": "Он тоже записался в кружок программирования и летом съездил на Зеркальное.",
+      "en": "He also enrolled in a programming circle and went to Zerkalnoye in the summer.",
+      "zh": "他也报名参加了编程兴趣班，夏天去了镜湖。",
+      "ja": "彼もプログラミングサークルに登録し、夏にはゼルカリノエに行った。"
+    },
+    {
+      "id": 3,
+      "ru": "Там его попросили прочесть лекцию о языке паскаль.",
+      "en": "There they asked him to give a lecture about the Pascal language.",
+      "zh": "在那里，他们请他做一个关于Pascal语言的讲座。",
+      "ja": "そこで彼はPascal言語についての講義を頼まれた。"
+    },
+    {
+      "id": 4,
+      "ru": "Дуров вышел перед несколькими десятками незнакомцев, обвел аудиторию рассеянным взглядом и, запинаясь, начал вещать.",
+      "en": "Durov stepped out before several dozen strangers, swept the audience with an absent-minded gaze, and, stuttering, began to speak.",
+      "zh": "杜罗夫走到几十个陌生人面前，心不在焉地扫视了一下听众，结结巴巴地开始讲话。",
+      "ja": "ドゥーロフは数十人の見知らぬ人の前に出て、ぼんやりした目で聴衆を見渡し、つっかえながら話し始めた。"
+    },
+    {
+      "id": 5,
+      "ru": "Прошло несколько минут, и, почувствовав, что слушают, он заговорил более уверенно и после лекции свободно отвечал на вопросы.",
+      "en": "A few minutes passed and, sensing that they were listening, he spoke more confidently and answered questions freely after the lecture.",
+      "zh": "几分钟后，他感觉到大家在听，就更自信地说起来，讲座后也自如地回答问题。",
+      "ja": "数分が過ぎ、聞いてもらえていると感じると、彼はより自信を持って話し、講義後は自由に質問に答えた。"
+    },
+    {
+      "id": 6,
+      "ru": "Он превращался из худого мальчика, согнувшегося над партой, в более общительного, но по-прежнему отстраненного товарища.",
+      "en": "He was transforming from a thin boy hunched over his desk into a more sociable, but still detached, companion.",
+      "zh": "他从一个趴在课桌上的瘦小男孩，变成了一个更善于交际但仍然疏离的同伴。",
+      "ja": "彼は机に向かってかがみ込んでいた痩せた少年から、より社交的だが依然として距離を置く仲間へと変わっていった。"
+    },
+    {
+      "id": 7,
+      "ru": "Портрет со слов одноклассников: Всегда находил способ быть отдельным; Некомандный человек; Никогда не был органичен; Внутри него шла работа, которая наружу не прорывалась.",
+      "en": "A portrait from classmates' words: Always found a way to be separate; Not a team player; Was never organic; Inside him there was work going on that never broke through to the outside.",
+      "zh": "同学们的描述：总能找到与众不同的方式；不是团队型的人；从来不自然；他内心有某种东西在运作，但从不外露。",
+      "ja": "クラスメートの言葉によるポートレート：「常に孤立する方法を見つけた」「チームプレイヤーではない」「決して自然ではなかった」「内側では外に出てこない何かが進行していた」。"
+    },
+    {
+      "id": 8,
+      "ru": "Дурова захватывала идея эффективности. Как успевать на отлично сразу по нескольким предметам - это было продолжение вызова кастанедовско-хилловского: Ты можешь все.",
+      "en": "Durov was captivated by the idea of efficiency. How to excel in several subjects at once - this was a continuation of the Castaneda-Hill challenge: You can do anything.",
+      "zh": "杜罗夫被效率的理念所吸引。如何同时在多门课程中取得优异成绩——这是卡斯塔内达-希尔挑战的延续：你可以做任何事。",
+      "ja": "ドゥーロフは効率性のアイデアに夢中になった。複数の科目で同時に優秀になるにはどうすればいいか——これはカスタネダ＝ヒルの挑戦の続きだった：「君は何でもできる」。"
+    },
+    {
+      "id": 9,
+      "ru": "Дуров концентрировался на учебе, и даже программирование, которое затягивало его все сильнее, отошло на второй план.",
+      "en": "Durov concentrated on studying, and even programming, which was drawing him in more and more, took a back seat.",
+      "zh": "杜罗夫专注于学习，即使是越来越吸引他的编程也退居其次。",
+      "ja": "ドゥーロフは勉強に集中し、ますます引きつけられていたプログラミングさえ二の次になった。"
+    },
+    {
+      "id": 10,
+      "ru": "Из всего класса на серебряную медаль тянули двоих - его и Аню Бертову.",
+      "en": "Of the entire class, two were being considered for the silver medal - him and Anya Bertova.",
+      "zh": "在整个班级中，有两个人有望获得银牌——他和安雅·贝尔托娃。",
+      "ja": "クラス全体の中で、銀メダル候補は二人だった——彼とアーニャ・ベルトワ。"
+    },
+    {
+      "id": 11,
+      "ru": "Впрочем, они, как и большинство учеников, разговаривали без всяких Ань - только на вы и по отчеству.",
+      "en": "However, they, like most students, spoke without any informal Anyas - only using the formal you and patronymic.",
+      "zh": "不过，他们和大多数学生一样，说话时不用任何亲昵称呼——只用敬语和父称。",
+      "ja": "しかし、彼らは他の生徒と同様、親しみを込めた「アーニャ」などは使わず——「ヴィ」（敬称）と父称だけで話していた。"
+    },
+    {
+      "id": 12,
+      "ru": "Это были интеллигентные дети, инфильтрованные диссидентством и порожденным им чувством избранности.",
+      "en": "These were intelligent children, infiltrated by dissidence and the sense of being chosen that it engendered.",
+      "zh": "这些都是聪明的孩子，被异见精神及其产生的精英意识所熏陶。",
+      "ja": "彼らは知的な子供たちで、反体制主義とそれが生み出した選民意識に浸透されていた。"
+    },
+    {
+      "id": 13,
+      "ru": "Здравствуйте, Павел Валерьевич. - Добрый вечер, Анна Дмитриевна.",
+      "en": "Good day, Pavel Valeryevich. - Good evening, Anna Dmitrievna.",
+      "zh": "\"您好，帕维尔·瓦列里耶维奇。\"——\"晚上好，安娜·德米特里耶夫娜。\"",
+      "ja": "「こんにちは、パーヴェル・ヴァレリエヴィチ」「こんばんは、アンナ・ドミトリエヴナ」。"
+    },
+    {
+      "id": 14,
+      "ru": "После уроков с ними занимался Гриз.",
+      "en": "After classes, Griz worked with them.",
+      "zh": "放学后，灰熊为他们辅导。",
+      "ja": "放課後、グリズが彼らと勉強した。"
+    },
+    {
+      "id": 15,
+      "ru": "Закончив тесты, они шли домой и болтали на нравственно-этические темы.",
+      "en": "After finishing tests, they would walk home and chat about moral and ethical topics.",
+      "zh": "考试结束后，他们一起走回家，聊道德伦理话题。",
+      "ja": "テストを終えると、彼らは家に帰りながら道徳的・倫理的な話題について話した。"
+    },
+    {
+      "id": 16,
+      "ru": "Дуров утверждал, что ежели кто беден, то потому, что ленив и неспособен поднять зад для великих свершений.",
+      "en": "Durov claimed that if someone is poor, it's because they're lazy and incapable of getting off their ass for great achievements.",
+      "zh": "杜罗夫断言，如果一个人贫穷，那是因为他懒惰，不愿意为了伟大的成就而振作起来。",
+      "ja": "ドゥーロフは、誰かが貧しいのは、怠惰で偉大な業績のために腰を上げられないからだと主張した。"
+    },
+    {
+      "id": 17,
+      "ru": "Бертова приводила в пример родителей, астрономов, которые вели себя отнюдь не пассивно, но жили не в роскоши.",
+      "en": "Bertova gave the example of her parents, astronomers, who didn't behave passively at all, but didn't live in luxury.",
+      "zh": "贝尔托娃以她的父母——天文学家——为例，他们一点也不消极，但生活并不富裕。",
+      "ja": "ベルトワは例として両親——天文学者——を挙げた。彼らは全く受動的ではなかったが、贅沢な暮らしをしていなかった。"
+    },
+    {
+      "id": 18,
+      "ru": "Так они спорили до июня, когда получили по серебряной медали - золотая оказалась недостижимой.",
+      "en": "So they argued until June, when they each received a silver medal - the gold turned out to be unattainable.",
+      "zh": "他们就这样争论到六月，各自获得了银牌——金牌是无法企及的。",
+      "ja": "こうして彼らは6月まで議論し、それぞれ銀メダルを受け取った——金は手の届かないものだった。"
+    },
+    {
+      "id": 19,
+      "ru": "Бертова как воплощенная педагогическая идея о человеке Ренессанса готовилась на матмех, но потом внезапно передумала и без усилий прошла на японскую филологию.",
+      "en": "Bertova, as the embodiment of the pedagogical idea of a Renaissance person, was preparing for the math faculty, but then suddenly changed her mind and effortlessly got into Japanese philology.",
+      "zh": "贝尔托娃作为文艺复兴式人才的教育理念的化身，本来准备报考数学系，但突然改变了主意，轻松进入了日语语言学系。",
+      "ja": "ベルトワは、ルネサンス人という教育理念の体現として数学学部を目指していたが、突然気が変わり、苦労なく日本語文献学に入った。"
+    },
+    {
+      "id": 20,
+      "ru": "Дуров перестал сторониться самодеятельности.",
+      "en": "Durov stopped avoiding amateur activities.",
+      "zh": "杜罗夫不再回避业余活动。",
+      "ja": "ドゥーロフは自主活動を避けなくなった。"
+    },
+    {
+      "id": 21,
+      "ru": "Если на снимке 8-го класса (был день рождения у Бертовой) он единственный из всех намеренно и гордо смотрит мимо камеры вдаль, то теперь, перед выпуском, как с иронией заметила одна из звезд класса, с ним уже можно было общаться.",
+      "en": "If in the 8th grade photo (it was Bertova's birthday) he was the only one of all deliberately and proudly looking past the camera into the distance, then now, before graduation, as one of the class stars ironically noted, you could already communicate with him.",
+      "zh": "如果在八年级的照片中（那是贝尔托娃的生日），他是唯一一个故意骄傲地看向远方而不看镜头的人，那么现在，在毕业前，正如班上的一位明星讽刺地指出的那样，\"已经可以和他交流了\"。",
+      "ja": "8年生の写真（ベルトワの誕生日だった）では、彼だけが意図的に誇らしげにカメラを通り過ぎて遠くを見ていたが、今や卒業前には、クラスのスターの一人が皮肉を込めて言ったように、「彼とはもう話せるようになった」。"
+    },
+    {
+      "id": 22,
+      "ru": "Он написал пьесу для утренника по мотивам программы Кто хочет стать миллионером и сыграл в ней роль саркастичного ведущего.",
+      "en": "He wrote a play for a morning event based on Who Wants to Be a Millionaire and played the role of the sarcastic host.",
+      "zh": "他写了一个以《谁想成为百万富翁》为主题的晨会剧本，并扮演了讽刺的主持人角色。",
+      "ja": "彼は「ミリオネア」をモチーフにした朝のイベント用の劇を書き、皮肉な司会者の役を演じた。"
+    },
+    {
+      "id": 23,
+      "ru": "Ощущение того, что классы и их обитатели вечно гонимы, не сплачивало его ни с кем, когда речь касалась зависимости его воли от коллективного разума.",
+      "en": "The feeling that the classes and their inhabitants were eternally persecuted didn't unite him with anyone when it came to his will depending on the collective mind.",
+      "zh": "当涉及到他的意志要服从集体意志时，班级及其成员永远被迫害的感觉并没有使他与任何人团结在一起。",
+      "ja": "クラスとその住人が永遠に迫害されているという感覚は、彼の意志が集団の精神に依存することに関しては、誰とも彼を団結させなかった。"
+    },
+    {
+      "id": 24,
+      "ru": "Перед выпуском параллель хотела сняться для альбома, чтобы каждый получил по экземпляру на память.",
+      "en": "Before graduation, the parallel wanted to take photos for an album so everyone would get a copy as a keepsake.",
+      "zh": "毕业前，平行班想拍照做相册，每人都能得到一本作为纪念。",
+      "ja": "卒業前に、並行クラスはアルバム用に写真を撮りたがった。全員が記念に1冊ずつもらえるように。"
+    },
+    {
+      "id": 25,
+      "ru": "Староста приступил к Дурову насчет участия в общем котле.",
+      "en": "The class monitor approached Durov about participating in the common pool.",
+      "zh": "班长找杜罗夫商量参加集资。",
+      "ja": "学級委員がドゥーロフに共同出資への参加について話しかけた。"
+    },
+    {
+      "id": 26,
+      "ru": "- Какой альбом? - спросил Дуров. - Ну, вот такой, где мы все. - А почему именно так будут снимать? - Ну, вот так договорились. - Нет, я не буду. - Ты что, с ума сошел?",
+      "en": "What album? asked Durov. Well, this kind, where we're all in it. And why will they photograph it that way? Well, that's what was agreed. No, I won't do it. Are you crazy?",
+      "zh": "\"什么相册？\"杜罗夫问。\"就是那种，我们都在里面的。\"\"为什么要那样拍？\"\"嗯，就是这么商定的。\"\"不，我不参加。\"\"你疯了吗？\"",
+      "ja": "「何のアルバム？」とドゥーロフは尋ねた。「まあ、みんなが写るやつだよ」「なぜそうやって撮るんだ？」「まあ、そう決まったんだ」「いや、僕はやらない」「頭おかしいのか？」"
+    },
+    {
+      "id": 27,
+      "ru": "- Не буду, и все! - заорал Дуров, взбешенный, что его ставят перед фактом. - Бараны вы этакие, я не хочу, как вы, всем стадом сдавать!",
+      "en": "I won't, and that's it! yelled Durov, furious that he was being presented with a fait accompli. You sheep, I don't want to hand in with the whole herd like you!",
+      "zh": "\"我不参加，就这样！\"杜罗夫大喊道，因为被迫接受既成事实而愤怒。\"你们这些羊，我不想像你们一样，整群人一起交！\"",
+      "ja": "「やらない、それだけだ！」とドゥーロフは叫んだ。既成事実を突きつけられて激怒していた。「お前らは羊だ、お前らみたいに群れ全体で提出なんかしたくない！」"
+    },
+    {
+      "id": 28,
+      "ru": "Альбом напечатали без него.",
+      "en": "The album was printed without him.",
+      "zh": "相册印刷时没有他。",
+      "ja": "アルバムは彼なしで印刷された。"
+    },
+    {
+      "id": 29,
+      "ru": "Ночью после выпускного они гуляли по набережным Петроградской стороны.",
+      "en": "On the night after graduation, they walked along the embankments of the Petrograd Side.",
+      "zh": "毕业典礼后的那个夜晚，他们沿着彼得格勒区的河堤散步。",
+      "ja": "卒業式の夜、彼らはペトログラード側の堤防沿いを歩いた。"
+    },
+    {
+      "id": 30,
+      "ru": "Под утро добрались до квартиры Гриза, пили на кухне чай и по традиции рассказывали, кто кем видит себя в будущем.",
+      "en": "Toward morning they reached Griz's apartment, drank tea in the kitchen, and by tradition told who they saw themselves becoming in the future.",
+      "zh": "快到早上时，他们来到灰熊的公寓，在厨房喝茶，按传统讲述各自对未来的憧憬。",
+      "ja": "朝方にグリズのアパートに着き、台所でお茶を飲み、伝統に従って将来何になりたいかを語り合った。"
+    },
+    {
+      "id": 31,
+      "ru": "Дуров молчал.",
+      "en": "Durov was silent.",
+      "zh": "杜罗夫沉默不语。",
+      "ja": "ドゥーロフは黙っていた。"
+    }
+  ],
+  "translator_notes": [
+    "Zerkalnoye - Lake Zerkalnoye, site of summer programming camps",
+    "Pascal - programming language popular in 1990s-2000s education",
+    "Castaneda-Hill - Carlos Castaneda and Napoleon Hill, authors who influenced young Durov",
+    "Silver medal - Soviet/Russian academic award for excellent grades (gold is highest)",
+    "Patronymic - Russian naming convention using father's name",
+    "Matmekh - Mathematics and Mechanics Faculty",
+    "Renaissance person - someone with broad knowledge and abilities",
+    "Who Wants to Be a Millionaire - TV game show franchise",
+    "Petrograd Side - historic district of St. Petersburg",
+    "Griz - Director Mednikov's nickname"
+  ],
+  "research_used": [
+    "Russian education traditions",
+    "St. Petersburg geography",
+    "Soviet academic awards"
+  ]
+}
