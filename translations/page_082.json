@@ -1,0 +1,275 @@
+{
+  "page": 82,
+  "chapter": 7,
+  "chapter_title": "Запрещенный прием (Sucker Punch)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "том же Roem.ru: «Все очень просто, files.mail.ru является безвкусным складом вирусов и вареза, как и любые другие обменники».",
+      "en": "the same Roem.ru: \"It's very simple, files.mail.ru is a tasteless warehouse of viruses and warez, like any other file-sharing sites.\"",
+      "zh": "同一个Roem.ru：「很简单，files.mail.ru是一个乏味的病毒和盗版软件仓库，就像任何其他文件共享网站一样。」",
+      "ja": "同じRoem.ruで：「非常にシンプルだ、files.mail.ruは他のファイル共有サイトと同様に、ウイルスとワレズの無味乾燥な倉庫だ」。"
+    },
+    {
+      "id": 3,
+      "ru": "Mail.ru подвис от такой наглости.",
+      "en": "Mail.ru froze from such audacity.",
+      "zh": "Mail.ru被这种厚颜无耻惊呆了。",
+      "ja": "Mail.ruはそのような厚かましさに凍りついた。"
+    },
+    {
+      "id": 4,
+      "ru": "Через какое-то время «ВКонтакте» обвинили, что принадлежащий Льву и Славе провайдер «Селектел» закупал серверы у своих же компаний, то есть нарушал условия честной конкуренции и выводил таким образом деньги в карманы акционерам.",
+      "en": "After some time, VKontakte was accused that Selectel, the provider belonging to Lev and Slava, was buying servers from their own companies, violating fair competition conditions and thus funneling money into shareholders' pockets.",
+      "zh": "过了一段时间，VKontakte被指控，属于列夫和斯拉瓦的供应商Selectel从他们自己的公司购买服务器，违反公平竞争条件，从而将钱转移到股东的口袋里。",
+      "ja": "しばらくして、VKontakteは、レフとスラヴァが所有するプロバイダーSelectelが自社から サーバーを購入し、公正な競争条件に違反し、株主のポケットに金を流していると非難された。"
+    },
+    {
+      "id": 5,
+      "ru": "Дуров вновь посетил комментарии и назвал выпад Гришина «словами типичного менеджера».",
+      "en": "Durov again visited the comments and called Grishin's attack \"words of a typical manager.\"",
+      "zh": "杜罗夫再次访问评论区，称格里申的攻击是「典型经理的话」。",
+      "ja": "ドゥーロフは再びコメント欄を訪れ、グリシンの攻撃を「典型的なマネージャーの言葉」と呼んだ。"
+    },
+    {
+      "id": 6,
+      "ru": "Что касается вывода денег, он ограничился репликой, мол, смешно комментировать подозрения в махинациях с сотнями тысяч рублей со стороны долларовых миллионеров.",
+      "en": "As for the money withdrawal, he limited himself to a remark that it was funny to comment on suspicions of fraud involving hundreds of thousands of rubles from dollar millionaires.",
+      "zh": "至于资金转移，他只是说，美元百万富翁就涉及数十万卢布的欺诈嫌疑发表评论是很可笑的。",
+      "ja": "資金引き出しについては、ドル百万長者が数十万ルーブルの詐欺疑惑についてコメントするのは滑稽だ、という発言に留めた。"
+    },
+    {
+      "id": 7,
+      "ru": "Когда я спросил у Гришина, почему он не стал нажимать на «ВКонтакте» и доказывать обвинения насчет серверов, тот ушел от ответа.",
+      "en": "When I asked Grishin why he didn't press VKontakte and prove the accusations about the servers, he evaded the answer.",
+      "zh": "当我问格里申为什么他不继续向VKontakte施压并证明关于服务器的指控时，他回避了这个问题。",
+      "ja": "グリシンに、なぜVKontakteに圧力をかけてサーバーについての告発を証明しなかったのかと尋ねると、彼は回答を避けた。"
+    },
+    {
+      "id": 8,
+      "ru": "Мол, мы в одной лодке и, несмотря на натянутые отношения, стараемся вести себя интеллигентно – в отличие от Дурова, заигравшегося в шоу-бизнес и пиар.",
+      "en": "He said, we're in the same boat and, despite strained relations, we try to behave intelligently—unlike Durov, who got carried away with show business and PR.",
+      "zh": "他说，我们在同一条船上，尽管关系紧张，我们还是尽量表现得有教养——不像杜罗夫，沉迷于娱乐业和公关。",
+      "ja": "彼は、我々は同じ船に乗っていて、緊張した関係にもかかわらず、知的に振る舞おうとしている——ショービジネスとPRに夢中になっているドゥーロフとは違って、と言った。"
+    },
+    {
+      "id": 9,
+      "ru": "Выгода от операции с серверами и правда не шла ни в какое сравнение с масштабами бизнеса «ВКонтакте» – 114 млн долларов выручки за 2011 год.",
+      "en": "The profit from the server operation indeed didn't compare to the scale of VKontakte's business—$114 million in revenue for 2011.",
+      "zh": "服务器交易的利润确实无法与VKontakte的业务规模相比——2011年收入1.14亿美元。",
+      "ja": "サーバー取引からの利益は、VKontakteのビジネス規模——2011年の売上1億1400万ドル——とは確かに比較にならなかった。"
+    },
+    {
+      "id": 10,
+      "ru": "Тотем по-прежнему с трудом отвоевывал прибыль, чтобы пустить ее на строительство дата-центра и каналов связи, которые считал дорогами будущего.",
+      "en": "The totem still struggled to win back profits to put into building a data center and communication channels, which he considered the roads of the future.",
+      "zh": "图腾仍在艰难地争取利润，用于建设数据中心和通信渠道，他认为这些是未来的道路。",
+      "ja": "トーテムは依然として利益を奪還して、彼が未来の道と考えるデータセンターと通信チャネルの建設に充てようと奮闘していた。"
+    },
+    {
+      "id": 11,
+      "ru": "Гришин все же выступил с ответными обвинениями.",
+      "en": "Grishin did come out with counter-accusations.",
+      "zh": "格里申确实进行了反击指控。",
+      "ja": "グリシンは結局、反論の告発を行った。"
+    },
+    {
+      "id": 12,
+      "ru": "Правда, сделал он это неконкретно и обтекаемо – без имен-фамилий.",
+      "en": "True, he did it vaguely and evasively—without naming names.",
+      "zh": "确实，他做得含糊且模棱两可——没有指名道姓。",
+      "ja": "確かに、彼は曖昧で回りくどくやった——名前を挙げずに。"
+    },
+    {
+      "id": 13,
+      "ru": "Дуров радостно загасил поднятую над кортом «свечу», повторив тезис, что это речь типичного скользкого менеджера.",
+      "en": "Durov gladly smashed the \"lob\" raised over the court, repeating the thesis that this was the speech of a typical slippery manager.",
+      "zh": "杜罗夫高兴地扣杀了这个「高球」，重复了这是典型滑头经理的演讲的论点。",
+      "ja": "ドゥーロフはコートの上に上げられた「ロブ」を喜んで叩き落とし、これは典型的な滑りやすいマネージャーのスピーチだという論点を繰り返した。"
+    },
+    {
+      "id": 14,
+      "ru": "Разделив мир с точки зрения ценностей на чужих и своих, Дуров сколотил преданную команду.",
+      "en": "Having divided the world in terms of values into outsiders and insiders, Durov assembled a devoted team.",
+      "zh": "从价值观的角度将世界分为外人和自己人后，杜罗夫组建了一支忠诚的团队。",
+      "ja": "価値観の観点から世界を外部者と内部者に分けて、ドゥーロフは献身的なチームを結成した。"
+    },
+    {
+      "id": 15,
+      "ru": "Рассуждая о своем кумире-военачальнике, он говорил: «Джобс – шестидесятник; его ценностями были свобода, человек – хозяин своей судьбы, художник с мини-компьютером.",
+      "en": "Discussing his idol-commander, he said: \"Jobs was a sixties person; his values were freedom, man as master of his own destiny, an artist with a mini-computer.",
+      "zh": "在谈到他的偶像指挥官时，他说：「乔布斯是六十年代的人；他的价值观是自由，人是自己命运的主人，带着迷你电脑的艺术家。",
+      "ja": "彼のアイドルである司令官について語る時、彼は言った：「ジョブズは60年代の人間だった；彼の価値観は自由、人は自分の運命の主人、ミニコンピューターを持つアーティストだった。"
+    },
+    {
+      "id": 16,
+      "ru": "Та же реклама „1984”.",
+      "en": "The same '1984' commercial.",
+      "zh": "同样的「1984」广告。",
+      "ja": "同じ「1984」のCMだ。"
+    },
+    {
+      "id": 17,
+      "ru": "Apple – пираты, дающие бой протухшему „айбиэму”.",
+      "en": "Apple—pirates battling the rotten 'IBM.'",
+      "zh": "Apple——与腐烂的「IBM」作战的海盗。",
+      "ja": "Apple——腐った「IBM」と戦う海賊たち。"
+    },
+    {
+      "id": 18,
+      "ru": "Захват продуктом широких слоев населения.",
+      "en": "Capturing broad segments of the population with the product.",
+      "zh": "用产品征服广大人群。",
+      "ja": "製品で幅広い人口層を獲得する。"
+    },
+    {
+      "id": 19,
+      "ru": "Айфон против уродства и безвкусия мобильных устройств.",
+      "en": "iPhone against the ugliness and tastelessness of mobile devices.",
+      "zh": "iPhone对抗移动设备的丑陋和无品味。",
+      "ja": "iPhoneはモバイルデバイスの醜さと無趣味に対抗する。"
+    },
+    {
+      "id": 20,
+      "ru": "Мы тоже восстали против тухлого дизайна, застоя, коррупции и повальной монетизации».",
+      "en": "We too rebelled against rotten design, stagnation, corruption, and rampant monetization.\"",
+      "zh": "我们也反抗腐烂的设计、停滞、腐败和疯狂的货币化。」",
+      "ja": "我々も腐ったデザイン、停滞、汚職、蔓延するマネタイズに反抗した」。"
+    },
+    {
+      "id": 21,
+      "ru": "Внутренних диссидентов – тех членов команды, кто восставал против ее ценностей, – Дуров выжигал огнем.",
+      "en": "Internal dissidents—those team members who rebelled against its values—Durov burned out with fire.",
+      "zh": "内部异见者——那些反对团队价值观的成员——杜罗夫用火焰清除。",
+      "ja": "内部の異論者——チームの価値観に反抗するメンバー——をドゥーロフは火で焼き払った。"
+    },
+    {
+      "id": 22,
+      "ru": "Например, одному из старожилов, Кузнецову-Кузе, надоело работать в ритме стартапа, и он ослабил хватку.",
+      "en": "For example, one of the old-timers, Kuznetsov-Kuzya, got tired of working at startup pace and loosened his grip.",
+      "zh": "例如，老员工之一库兹涅佐夫-库贾厌倦了以创业节奏工作，放松了抓力。",
+      "ja": "例えば、古参の一人であるクズネツォフ＝クージャは、スタートアップのペースで働くことに疲れ、緩んだ。"
+    },
+    {
+      "id": 23,
+      "ru": "Тотем терпел, но когда однажды Кузнецов забрел к нему, чем-то занятому, в кабинет, жуя колбасу, и что-то расслабленно начал спрашивать, рассвирепел.",
+      "en": "The totem tolerated it, but when one day Kuznetsov wandered into his office while he was busy, chewing sausage and casually starting to ask something, he flew into a rage.",
+      "zh": "图腾忍受着，但有一天，当库兹涅佐夫走进他正忙着的办公室，嚼着香肠，随意地开始问问题时，他勃然大怒。",
+      "ja": "トーテムは我慢していたが、ある日クズネツォフが何かに忙しい彼のオフィスにふらりと入ってきて、ソーセージを噛みながらリラックスして何かを聞き始めた時、激怒した。"
+    },
+    {
+      "id": 24,
+      "ru": "– Выйди, пожалуйста.",
+      "en": "\"Please leave.\"",
+      "zh": "「请出去。」",
+      "ja": "「出て行ってくれ」。"
+    },
+    {
+      "id": 25,
+      "ru": "– Почему я должен выходить?",
+      "en": "\"Why should I leave?\"",
+      "zh": "「我为什么要出去？」",
+      "ja": "「なぜ出て行かなければならない？」"
+    },
+    {
+      "id": 26,
+      "ru": "– Выйди, ты меня раздражаешь.",
+      "en": "\"Leave, you're irritating me.\"",
+      "zh": "「出去，你让我烦躁。」",
+      "ja": "「出て行け、イライラする」。"
+    },
+    {
+      "id": 27,
+      "ru": "– Не буду.",
+      "en": "\"I won't.\"",
+      "zh": "「我不会的。」",
+      "ja": "「嫌だ」。"
+    },
+    {
+      "id": 28,
+      "ru": "Дуров вскочил со своего архитекторского кресла, схватил Кузнецова за грудки и вытолкал из кабинета.",
+      "en": "Durov jumped from his architect's chair, grabbed Kuznetsov by the collar and pushed him out of the office.",
+      "zh": "杜罗夫从他的建筑师椅子上跳起来，抓住库兹涅佐夫的衣领，把他推出了办公室。",
+      "ja": "ドゥーロフは建築家の椅子から飛び上がり、クズネツォフの胸ぐらを掴んでオフィスから押し出した。"
+    },
+    {
+      "id": 29,
+      "ru": "Тот подал заявление об уходе.",
+      "en": "He submitted his resignation.",
+      "zh": "他提交了辞职申请。",
+      "ja": "彼は辞表を提出した。"
+    },
+    {
+      "id": 30,
+      "ru": "На юбилей соцсети, совпадающий с его днем рождения, Дуров снял ресторан.",
+      "en": "For the social network's anniversary, which coincided with his birthday, Durov rented a restaurant.",
+      "zh": "在与他生日重合的社交网络周年纪念日，杜罗夫租了一家餐厅。",
+      "ja": "ソーシャルネットワークの記念日は彼の誕生日と重なっており、ドゥーロフはレストランを借り切った。"
+    },
+    {
+      "id": 31,
+      "ru": "Как всегда, стол утопал во фруктах, парни созвали своих девушек, алкоголь и сигареты отсутствовали.",
+      "en": "As always, the table was drowning in fruit, the guys invited their girlfriends, alcohol and cigarettes were absent.",
+      "zh": "像往常一样，桌子上满是水果，男孩们邀请了他们的女朋友，没有酒精和香烟。",
+      "ja": "いつものように、テーブルはフルーツで溢れ、男たちはガールフレンドを招待し、アルコールとタバコはなかった。"
+    },
+    {
+      "id": 32,
+      "ru": "Кто-то из программистов решил сфотографировать Дурова, жующего кусок дыни, и тот показал в камеру fuck.",
+      "en": "One of the programmers decided to photograph Durov chewing a piece of melon, and he showed the camera the finger.",
+      "zh": "一个程序员决定拍摄杜罗夫吃西瓜的照片，他对着镜头竖起了中指。",
+      "ja": "プログラマーの一人がメロンを食べているドゥーロフを撮影しようとしたら、彼はカメラに中指を立てた。"
+    },
+    {
+      "id": 33,
+      "ru": "Из персонажей внешнего мира он мог взаимодействовать с кем угодно, даже с представителями государства – лишь бы это приносило пользу и не касалось инструмента коммуникации, над которым друзья валькирий корпели день и ночь.",
+      "en": "From characters in the outside world, he could interact with anyone, even government representatives—as long as it was beneficial and didn't touch the communication tool that the valkyries' friends toiled over day and night.",
+      "zh": "在外界人物中，他可以与任何人互动，甚至是政府代表——只要这是有益的，并且不涉及女武神的朋友们日夜苦心经营的通信工具。",
+      "ja": "外の世界の登場人物の中で、彼は誰とでも交流できた、政府の代表者でさえも——それが有益であり、ヴァルキリーの友人たちが日夜苦労していたコミュニケーションツールに触れない限り。"
+    },
+    {
+      "id": 34,
+      "ru": "Когда Мирилашвили уехали из России в Израиль, перед «ВКонтакте» встал вопрос об отношениях с властью.",
+      "en": "When the Mirilashvilis left Russia for Israel, VKontakte faced the question of relations with the authorities.",
+      "zh": "当米里拉什维利一家离开俄罗斯去以色列时，VKontakte面临与当局关系的问题。",
+      "ja": "ミリラシヴィリ一家がロシアを去ってイスラエルに行った時、VKontakteは当局との関係という問題に直面した。"
+    },
+    {
+      "id": 35,
+      "ru": "Попасть в зависимость от Mail.ru казалось Дурову синонимом краха, и тогда Цыплухин взялся наладить связи с Кремлем.",
+      "en": "Becoming dependent on Mail.ru seemed to Durov synonymous with collapse, and so Tsyplukhin undertook to establish ties with the Kremlin.",
+      "zh": "依赖Mail.ru对杜罗夫来说似乎等同于崩溃，因此齐普卢欣着手与克里姆林宫建立联系。",
+      "ja": "Mail.ruに依存することはドゥーロフにとって崩壊と同義に思えた、そこでツィプルヒンがクレムリンとの関係を構築することになった。"
+    },
+    {
+      "id": 36,
+      "ru": "Точнее, с человеком, курировавшим",
+      "en": "More precisely, with the person who oversaw",
+      "zh": "更准确地说，与负责监督的人",
+      "ja": "より正確には、監督していた人物と"
+    }
+  ],
+  "translator_notes": [
+    "Page 82 - Mail.ru conflict escalates, Jobs comparison, Kuzya incident",
+    "Files.mail.ru - Mail.ru's file-sharing service, called virus/warez storage",
+    "Selectel server accusations - counter-attack on VK shareholders",
+    "$114 million - VK's 2011 revenue",
+    "'Typical slippery manager' - Durov's repeated insult to Grishin",
+    "Jobs as 'sixties person' - counterculture values comparison",
+    "'1984' commercial - Apple's famous Super Bowl ad",
+    "Kuznetsov-Kuzya - early VK employee forced out for laziness",
+    "Sausage incident - emblematic of clash between Durov's intensity and relaxed attitude",
+    "No alcohol/cigarettes at parties - VK's health-focused culture",
+    "Mirilashvilis to Israel - investors leaving Russia",
+    "Kremlin connections - VK seeking government protection from Mail.ru"
+  ],
+  "total_sentences": 36,
+  "page_type": "narrative"
+}
