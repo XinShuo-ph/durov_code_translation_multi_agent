@@ -1,0 +1,3 @@
+# Python dependencies for tooling (optional; M0 can run without pip installs)
+# Keep this lean; prefer system tools like pdftotext where possible.
+
