@@ -1,0 +1,159 @@
+{
+  "page": 8,
+  "chapter": 0,
+  "chapter_title_ru": "Пролог",
+  "chapter_title_en": "Prologue",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Черт возьми, я думал, что мы работаем с инновационной компанией, а вы торгуетесь, как на базаре, - чеканил тип.",
+      "en": "\"Damn it, I thought we were working with an innovative company, but you're haggling like we're in a bazaar,\" the guy hammered out.",
+      "zh": "\"该死，我以为我们是在和一家创新公司合作，但你们讨价还价跟菜市场似的，\"那个家伙一字一顿地说。",
+      "ja": "「くそっ、俺はイノベーティブな会社と仕事してると思ったのに、バザールみたいに値切るなんて」と、その男は言い放った。"
+    },
+    {
+      "id": 2,
+      "ru": "Мы создаем новое, совершенное средство коммуникации, а вы... что вы тут вообще устраиваете?!",
+      "en": "\"We're creating a new, perfect means of communication, and you... what the hell are you doing here?!\"",
+      "zh": "\"我们在创造一种全新、完美的通讯方式，而你们……你们到底在搞什么鬼？！\"",
+      "ja": "「俺たちは新しい、完璧なコミュニケーション手段を作ってるんだ、それなのにお前らは……一体何をしてるんだ？！」"
+    },
+    {
+      "id": 3,
+      "ru": "Иностранец лихорадочно соображал, как себя вести: исполнитель роли attack dog сидел совсем не там, где он предполагал, и напал неожиданно.",
+      "en": "The foreigner frantically tried to figure out how to behave: the one playing the attack dog role was sitting in a completely different place than he'd expected, and had attacked unexpectedly.",
+      "zh": "外国人拼命在想该怎么办：扮演\"恶犬\"角色的人根本不在他预想的位置上，而且突然发起了攻击。",
+      "ja": "外国人は必死にどう対応すべきか考えていた——アタックドッグ役の人物は、彼が予想していた場所とはまったく違う場所に座っており、不意に攻撃してきたのだ。"
+    },
+    {
+      "id": 4,
+      "ru": "Ему говорили, что плохого следователя играет стриженый очкарик, а этот, якобы гениальный программист, всегда вежлив.",
+      "en": "He'd been told that the short-haired guy with glasses played the bad cop, and that this one, the supposedly genius programmer, was always polite.",
+      "zh": "有人告诉他，扮演\"坏警察\"的是那个戴眼镜的短发男，而这位据说是天才程序员的人一向很有礼貌。",
+      "ja": "短髪のメガネが悪役の取調官を演じ、この天才プログラマーと言われる人物はいつも礼儀正しいと聞かされていた。"
+    },
+    {
+      "id": 5,
+      "ru": "Хотя чего думать, надо успокаивать чертова неврастеника, пока не сбежал.",
+      "en": "But why think - he needed to calm down the damn neurotic before he ran off.",
+      "zh": "但想那么多干嘛，得赶紧安抚这个该死的神经质，趁他还没跑掉。",
+      "ja": "だが考えている場合じゃない、このくそ神経質野郎が逃げ出す前に落ち着かせなければ。"
+    },
+    {
+      "id": 6,
+      "ru": "Подождите, Павел, - экспат примиряюще развел руками. - Я прекрасно вас понимаю и ценю ваш продукт, вы работаете на переднем крае технологий...",
+      "en": "\"Wait, Pavel,\" the expat spread his hands placatingly. \"I understand you perfectly and I value your product, you're working at the cutting edge of technology...\"",
+      "zh": "\"等一下，帕维尔，\"外国高管和解地张开双臂说道。\"我完全理解你，也很欣赏你们的产品，你们处于技术的最前沿……\"",
+      "ja": "「待ってください、パーヴェル」と外国人は宥めるように両手を広げた。「あなたのことはよく理解していますし、製品も評価しています。最先端の技術を扱っているのですから……」"
+    },
+    {
+      "id": 7,
+      "ru": "...продолжал он, краем глаза фиксируя, что гений вернулся на стул, сбросил бейсболку, быстрым движением пригладил черные волосы и водрузил кепку обратно.",
+      "en": "...he continued, noting out of the corner of his eye that the genius had returned to his chair, tossed off his baseball cap, quickly smoothed his black hair, and put the cap back on.",
+      "zh": "……他继续说着，眼角余光注意到那位天才回到了椅子上，摘下棒球帽，快速地抚平了一下黑发，然后又把帽子戴回去。",
+      "ja": "……と続けながら、視界の端でその天才が椅子に戻り、野球帽を取り、素早く黒髪を整え、また帽子をかぶり直すのを見ていた。"
+    },
+    {
+      "id": 8,
+      "ru": "Удивительно, что за два часа у этого человека несколько раз тасовались, как карты, личности.",
+      "en": "It was remarkable that over two hours, this person's personalities had shuffled like cards several times.",
+      "zh": "令人惊讶的是，在两个小时里，这个人的人格像洗牌一样换了好几次。",
+      "ja": "驚くべきことに、2時間の間にこの人物の人格はトランプのように何度も入れ替わっていた。"
+    },
+    {
+      "id": 9,
+      "ru": "Первая - подросток, глядящий черными глазами куда-то вбок, растерянный; подбирает слова; неестественность, выпирающие углы жестов, то плавных, то стремительных, выдают тлеющее внутри безумие.",
+      "en": "The first - a teenager, looking somewhere to the side with black eyes, confused; choosing his words; the unnaturalness, the jutting angles of gestures that were now smooth, now swift, betrayed a smoldering madness within.",
+      "zh": "第一种——一个少年，用黑色的眼睛茫然地看向一边；斟酌着用词；不自然的动作，忽而流畅忽而急促的尖锐姿态，暴露出内心深处燃烧的疯狂。",
+      "ja": "最初は——黒い目でどこか横を見つめる、戸惑った少年。言葉を選んでいる。不自然さ、時に滑らかで時に素早いジェスチャーの尖った角度が、内に燻る狂気を露呈していた。"
+    },
+    {
+      "id": 10,
+      "ru": "Вторая - нагловатый бизнесмен.",
+      "en": "The second - an arrogant businessman.",
+      "zh": "第二种——傲慢的商人。",
+      "ja": "二つ目は——生意気なビジネスマン。"
+    },
+    {
+      "id": 11,
+      "ru": "Третья - интеллигент, с лету разбирающийся в проблеме и способах ее решения.",
+      "en": "The third - an intellectual who instantly grasped the problem and ways to solve it.",
+      "zh": "第三种——一个知识分子，能立刻理解问题并找到解决方案。",
+      "ja": "三つ目は——問題とその解決方法を即座に理解するインテリ。"
+    },
+    {
+      "id": 12,
+      "ru": "Об этом человеке говорили, что выше всего он ценит кодеров, а остальных людей в компании считает вторым сортом.",
+      "en": "It was said about this man that he valued coders above all else, and considered everyone else in the company second-class.",
+      "zh": "据说这个人最看重程序员，公司里其他人在他眼里都是二等公民。",
+      "ja": "この人物はコーダーを何より重視し、会社の他の人間は二流だと考えていると言われていた。"
+    },
+    {
+      "id": 13,
+      "ru": "Впрочем, много что рассказывали про его социальную сеть.",
+      "en": "Then again, many things were said about his social network.",
+      "zh": "不过，关于他的社交网络，人们有很多说法。",
+      "ja": "とはいえ、彼のソーシャルネットワークについては様々なことが語られていた。"
+    },
+    {
+      "id": 14,
+      "ru": "Что нигде нет программистов такого класса, чтобы тридцать человек поддерживали сложную архитектуру серверов и присутствие десятков миллионов юзеров.",
+      "en": "That nowhere else were there programmers of such caliber that thirty people could maintain complex server architecture and the presence of tens of millions of users.",
+      "zh": "说的是没有任何地方有这种水平的程序员，三十个人就能维护复杂的服务器架构和数千万用户的访问。",
+      "ja": "30人で複雑なサーバーアーキテクチャと数千万のユーザーを支えられるほどのレベルのプログラマーは他にいない、と。"
+    },
+    {
+      "id": 15,
+      "ru": "Что ВКонтакте создали масоны. Или, наоборот, чекисты, а Павел Дуров - выдуманный персонаж.",
+      "en": "That VKontakte was created by Freemasons. Or, on the contrary, by secret service agents, and Pavel Durov was a fictional character.",
+      "zh": "说VKontakte是共济会创建的。或者恰恰相反，是特工创建的，帕维尔·杜罗夫是个虚构人物。",
+      "ja": "VKontakteはフリーメイソンが作った、と。あるいは逆に、秘密警察が作り、パーヴェル・ドゥーロフは架空の人物だ、と。"
+    },
+    {
+      "id": 16,
+      "ru": "Экспат взял себя в руки, отбросил иррациональную симпатию, которую вызывал нахальный противник, и аргументировал: наша компания тоже высокотехнологичная, но бизнес-резоны одинаковы для любой отрасли.",
+      "en": "The expat pulled himself together, cast aside the irrational sympathy the brash opponent evoked, and argued: our company is also high-tech, but business rationale is the same for any industry.",
+      "zh": "外国高管镇定下来，抛开对这个无礼对手产生的非理性好感，争辩道：我们公司也是高科技企业，但商业逻辑对任何行业都是一样的。",
+      "ja": "外国人は気を取り直し、この生意気な相手に対する不合理な共感を振り払い、主張した——私たちの会社もハイテク企業だが、ビジネスの論理はどの業界でも同じだ。"
+    },
+    {
+      "id": 17,
+      "ru": "Переговорщик кивал. Буря эго стихла. Можно повторить насчет 5 %.",
+      "en": "The negotiator nodded. The ego storm had subsided. He could try again with the 5%.",
+      "zh": "谈判者点点头。自我风暴平息了。可以再试试5%的条件。",
+      "ja": "交渉担当者はうなずいた。エゴの嵐は収まった。5%の件を再度持ち出せる。"
+    },
+    {
+      "id": 18,
+      "ru": "Но Дуров опять подскочил: Вы считаете, будто мы набиваем себе цену. Вы просто тратите наше время.",
+      "en": "But Durov jumped up again: \"You think we're just inflating our price. You're simply wasting our time.\"",
+      "zh": "但杜罗夫又跳了起来：\"你以为我们在漫天要价。你在浪费我们的时间。\"",
+      "ja": "だがドゥーロフはまた飛び上がった。「あなたは私たちが値段をつり上げていると思っているんでしょう。時間の無駄だ。」"
+    },
+    {
+      "id": 19,
+      "ru": "Два часа я слушаю вас, хотя мы могли бы договориться и запустить эксперимент. Хватит! - и опять направился к двери.",
+      "en": "\"I've been listening to you for two hours, when we could have reached an agreement and launched the experiment. Enough!\" - and again headed for the door.",
+      "zh": "\"我听你说了两个小时，本来我们可以达成协议开始实验。够了！\"——说着又朝门口走去。",
+      "ja": "「2時間もあなたの話を聞いている、合意して実験を始められたはずなのに。もう十分だ！」——そしてまたドアに向かった。"
+    },
+    {
+      "id": 20,
+      "ru": "В мозгу экспата столкнулись и заискрили несколько соображений.",
+      "en": "Several thoughts collided and sparked in the expat's brain.",
+      "zh": "外国高管脑中几个想法碰撞在一起，迸出火花。",
+      "ja": "外国人の脳内でいくつかの考えがぶつかり合い、火花を散らした。"
+    }
+  ],
+  "translator_notes": [
+    "Attack dog - negotiation term for aggressive/bad cop role",
+    "Expat (экспат) - foreign executive working in Russia",
+    "Masony (масоны) - Freemasons, common Russian conspiracy theory subject",
+    "Chekisty (чекисты) - secret service agents (from Cheka, Soviet secret police)",
+    "The scene continues the negotiation from page 7, showing Durov's theatrical negotiation style"
+  ],
+  "research_used": [
+    "VKontakte negotiation culture",
+    "Russian business negotiation practices"
+  ]
+}
