@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-d536
 - **Short ID**: d536
-- **Heartbeat**: 1767252403
+- **Heartbeat**: 1767252593
 - **Status**: translating
 
 ## Current Work
-- **Claimed Page**: 8
-- **Started At**: 1767252403
+- **Claimed Page**: 9
+- **Started At**: 1767252593
 
 ## Completed Pages
 | Page | Completed At | Hash |
@@ -20,10 +20,11 @@
 | 5    | 1767252165 | 52f62a35 |
 | 6    | 1767252253 | e3991fb6 |
 | 7    | 1767252403 | 62c7cde3 |
+| 8    | 1767252593 | 97bf094d |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
 |----------|--------|--------------|----------------|
 
 ## Notes
-Completed pages 1-7. Now translating page 8 (prologue continues).
+Completed pages 1-8. Now translating page 9. Prologue continues.
