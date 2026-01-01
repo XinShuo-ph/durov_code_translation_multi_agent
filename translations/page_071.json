@@ -1,0 +1,338 @@
+{
+  "page": 71,
+  "chapter": 5,
+  "chapter_title": "Стена (The Wall)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "(«Менеджерье плевало на наши идеи, жируют при хозяине. Уверены, что, если я откажусь сейчас, приползу позже…»)",
+      "en": "('The managers spit on our ideas, fattening themselves under the boss. They're sure that if I refuse now, I'll crawl back later...')",
+      "zh": "（"这些经理对我们的想法不屑一顾，靠着老板养肥自己。他们确信，如果我现在拒绝，以后会爬回来的……"）",
+      "ja": "（「マネージャー連中は我々のアイデアを無視し、ボスの下で肥え太っている。今拒否しても、後で這い戻ってくると確信している…」）"
+    },
+    {
+      "id": 2,
+      "ru": "– Это все, что вы можете предложить?",
+      "en": "'Is that all you can offer?'",
+      "zh": ""这就是你们能提供的全部吗？"",
+      "ja": "「それがあなたたちの提案できるすべてですか？」"
+    },
+    {
+      "id": 3,
+      "ru": "– Да.",
+      "en": "'Yes.'",
+      "zh": ""是的。"",
+      "ja": "「はい」"
+    },
+    {
+      "id": 4,
+      "ru": "Дуров удержался от того, чтобы выдернуть чеку из воображаемой гранаты и взорвать офис к чертовой матери.",
+      "en": "Durov restrained himself from pulling the pin from an imaginary grenade and blowing the office to kingdom come.",
+      "zh": "杜罗夫忍住了没有拔掉想象中手榴弹的保险销把办公室炸上天。",
+      "ja": "ドゥーロフは想像上の手榴弾のピンを抜いてオフィスを爆破することを我慢した。"
+    },
+    {
+      "id": 5,
+      "ru": "Недавно он смотрел фильм «Святые из трущоб», где братья-ирландцы после убийства девочки на глазах у струсивших обывателей берутся за оружие и вершат правосудие.",
+      "en": "He had recently watched the film 'The Boondock Saints,' where Irish brothers, after a girl's murder witnessed by cowardly civilians, take up arms and dispense justice.",
+      "zh": "他最近看了电影《处刑人》，讲述了爱尔兰兄弟在懦弱的旁观者面前目睹一个女孩被杀后，拿起武器伸张正义的故事。",
+      "ja": "彼は最近映画『処刑人』を見た。臆病な一般人が見ている前で少女が殺された後、アイルランド人の兄弟が武器を取って正義を執行する話だ。"
+    },
+    {
+      "id": 6,
+      "ru": "Братья врываются в суд, который намерен оправдать мафиози, приставляют к его затылку дуло и произносят: «Теперь вы примете нас.",
+      "en": "The brothers burst into court, which intends to acquit a mafioso, put a gun to his head and say: 'Now you shall receive us.",
+      "zh": "兄弟俩闯入法庭——那里准备释放一个黑手党分子——用枪抵住他的后脑勺说："现在你们要接受我们。",
+      "ja": "兄弟たちはマフィアを無罪にしようとしている法廷に乱入し、銃を彼の後頭部に突きつけて言う：「今、あなたたちは我々を受け入れるだろう。"
+    },
+    {
+      "id": 7,
+      "ru": "Нам не нужны бедные и голодные.",
+      "en": "We do not need the poor and hungry.",
+      "zh": "我们不需要贫穷和饥饿的人。",
+      "ja": "我々は貧しく飢えた者を必要としない。"
+    },
+    {
+      "id": 8,
+      "ru": "Нам не нужны уставшие и больные.",
+      "en": "We do not need the tired and sick.",
+      "zh": "我们不需要疲惫和生病的人。",
+      "ja": "我々は疲れ病んだ者を必要としない。"
+    },
+    {
+      "id": 9,
+      "ru": "Мы взыщем с продажных.",
+      "en": "We will exact vengeance on the corrupt.",
+      "zh": "我们将向腐败者复仇。",
+      "ja": "我々は腐敗した者から報復を取り立てる。"
+    },
+    {
+      "id": 10,
+      "ru": "Мы взыщем со злодеев.",
+      "en": "We will exact vengeance on evildoers.",
+      "zh": "我们将向恶人复仇。",
+      "ja": "我々は悪人から報復を取り立てる。"
+    },
+    {
+      "id": 11,
+      "ru": "Пусть ваши мелкие гнусности не выходят за рамки и не переходят границ настоящей скверны, которой занимаемся мы.",
+      "en": "Let your petty vileness not cross the boundaries of the true filth that we deal with.",
+      "zh": "让你们的小恶不要越界，不要跨入我们所处理的真正邪恶的领域。",
+      "ja": "あなたたちのささいな卑劣さが、我々が扱う真の悪の境界を越えないようにせよ。"
+    },
+    {
+      "id": 12,
+      "ru": "Ибо если это случится, то однажды вы обернетесь и увидите нас троих, и в этот день вы пожнете плоды».",
+      "en": "For if this happens, one day you will turn and see us three, and on that day you will reap what you sow.'",
+      "zh": "因为如果发生这种情况，有一天你们会转身看到我们三个，那一天你们将自食其果。"",
+      "ja": "もしそうなれば、いつの日かあなたたちは振り向いて我々3人を見るだろう。その日、あなたたちは報いを受ける」"
+    },
+    {
+      "id": 13,
+      "ru": "Дуров встал и отодвинул стул.",
+      "en": "Durov stood up and pushed back his chair.",
+      "zh": "杜罗夫站起来，推开椅子。",
+      "ja": "ドゥーロフは立ち上がり、椅子を押し退けた。"
+    },
+    {
+      "id": 14,
+      "ru": "Перед ним, конечно, не злодеи, а корпоративная шушера, но их манипуляции мешают «ВКонтакте» расти.",
+      "en": "Before him, of course, were not villains but corporate small fry, but their manipulations hindered VKontakte's growth.",
+      "zh": "当然，站在他面前的不是恶棍，而是企业小角色，但他们的操纵阻碍了VKontakte的发展。",
+      "ja": "もちろん目の前にいるのは悪人ではなく企業の小物だが、彼らの操作はVKontakteの成長を妨げていた。"
+    },
+    {
+      "id": 15,
+      "ru": "Пришел черед произнести свою речь.",
+      "en": "It was time to deliver his own speech.",
+      "zh": "是时候发表他自己的演讲了。",
+      "ja": "自分のスピーチをする番が来た。"
+    },
+    {
+      "id": 16,
+      "ru": "Побелев от гнева, он сказал: «Мы уходим.",
+      "en": "Turning white with anger, he said: 'We're leaving.",
+      "zh": "他气得脸色发白，说道："我们走。",
+      "ja": "怒りで顔を白くしながら、彼は言った：「我々は帰る。"
+    },
+    {
+      "id": 17,
+      "ru": "Вы нарушаете законы России.",
+      "en": "You are violating Russian laws.",
+      "zh": "你们违反了俄罗斯法律。",
+      "ja": "あなたたちはロシアの法律に違反している。"
+    },
+    {
+      "id": 18,
+      "ru": "Я пожалуюсь на вас в антимонопольную службу.",
+      "en": "I will file a complaint against you with the antimonopoly service.",
+      "zh": "我会向反垄断部门投诉你们。",
+      "ja": "私はあなたたちを独占禁止局に告発する。"
+    },
+    {
+      "id": 19,
+      "ru": "Вы выкручиваете руки стартапам.",
+      "en": "You're twisting the arms of startups.",
+      "zh": "你们在压榨初创公司。",
+      "ja": "あなたたちはスタートアップの腕をねじっている。"
+    },
+    {
+      "id": 20,
+      "ru": "Вы действуете не в русле высказываний президента, который говорил о помощи высотехнологичному бизнесу».",
+      "en": "You are not acting in line with the president's statements about helping high-tech business.'",
+      "zh": "你们的行为与总统关于帮助高科技企业的讲话背道而驰。"",
+      "ja": "あなたたちはハイテクビジネスを支援すると述べた大統領の発言に沿って行動していない」"
+    },
+    {
+      "id": 21,
+      "ru": "Переговорщики открыли рты.",
+      "en": "The negotiators' jaws dropped.",
+      "zh": "谈判者们张大了嘴。",
+      "ja": "交渉者たちは口を開けた。"
+    },
+    {
+      "id": 22,
+      "ru": "Вместе с ними застыл Лев, почувствовав, что Дуров зажег спичку и вот-вот бросит ее на мост.",
+      "en": "Along with them, Lev froze, sensing that Durov had lit a match and was about to throw it on the bridge.",
+      "zh": "列夫和他们一起僵住了，感觉到杜罗夫点燃了火柴，即将把它扔到桥上。",
+      "ja": "レフも一緒に固まった。ドゥーロフがマッチに火をつけ、まさに橋に投げようとしていると感じた。"
+    },
+    {
+      "id": 23,
+      "ru": "«Более того, – холодно продолжил Дуров. – Я считаю, что вы ведете себя как уголовники.",
+      "en": "'Moreover,' Durov continued coldly, 'I believe you are behaving like criminals.",
+      "zh": ""此外，"杜罗夫冷冷地继续说，"我认为你们的行为像罪犯。",
+      "ja": "「さらに」とドゥーロフは冷たく続けた。「私はあなたたちが犯罪者のように振る舞っていると考えている。"
+    },
+    {
+      "id": 24,
+      "ru": "Следует подумать о том, чтобы отдать вас под суд, потому что, похоже, вы ставите свои интересы выше интересов акционеров „Голден Телекома"».",
+      "en": "We should consider taking you to court, because it seems you are putting your interests above those of Golden Telecom's shareholders.'",
+      "zh": "应该考虑把你们告上法庭，因为看起来你们把自己的利益置于"黄金电信"股东利益之上。"",
+      "ja": "あなたたちを法廷に引きずり出すことを考えるべきだ。なぜなら、あなたたちは自分たちの利益をゴールデンテレコムの株主の利益より上に置いているようだから」"
+    },
+    {
+      "id": 25,
+      "ru": "Мост вспыхнул, и змейка огня побежала к противоположному берегу.",
+      "en": "The bridge burst into flames, and a snake of fire ran toward the opposite shore.",
+      "zh": "桥燃烧起来，火蛇向对岸蔓延。",
+      "ja": "橋が炎に包まれ、火の蛇が対岸に向かって走った。"
+    },
+    {
+      "id": 26,
+      "ru": "Оппоненты выходили из ступора.",
+      "en": "The opponents emerged from their stupor.",
+      "zh": "对手们从震惊中恢复过来。",
+      "ja": "相手方は呆然自失から抜け出した。"
+    },
+    {
+      "id": 27,
+      "ru": "Первым очнулся линейный менеджер и возмутился: этот наглец рассказывает, как нам вести бизнес!",
+      "en": "The first to recover was a line manager who protested: this upstart is telling us how to run our business!",
+      "zh": "第一个清醒过来的是一个部门经理，他愤怒地说：这个狂妄的家伙在教我们怎么做生意！",
+      "ja": "最初に我に返ったのはラインマネージャーで、憤慨した：この生意気な奴が我々にビジネスの仕方を教えている！"
+    },
+    {
+      "id": 28,
+      "ru": "Видимо, в голове директора всплыли словосочетания «худой мир» и «добрая ссора», и он затоптал огонь: «Давайте не торопиться».",
+      "en": "Apparently in the director's head the phrases 'a lean peace' and 'a good quarrel' surfaced, and he stamped out the fire: 'Let's not rush.'",
+      "zh": "显然，总监脑海中浮现出"瘦弱的和平"和"好的争吵"这样的词组，他踩灭了火："让我们不要着急。"",
+      "ja": "ディレクターの頭には「痩せた平和」と「良い喧嘩」というフレーズが浮かんだようで、彼は火を踏み消した：「急がないでおきましょう」"
+    },
+    {
+      "id": 29,
+      "ru": "Но было поздно, Дуров вылетел из кабинета.",
+      "en": "But it was too late; Durov flew out of the office.",
+      "zh": "但已经太晚了，杜罗夫冲出了办公室。",
+      "ja": "しかし遅すぎた。ドゥーロフはオフィスから飛び出した。"
+    },
+    {
+      "id": 30,
+      "ru": "Вслед за ним, попрощавшись, исчез Лев.",
+      "en": "Following him, after saying goodbye, Lev disappeared.",
+      "zh": "在他身后，列夫道别后也消失了。",
+      "ja": "彼に続いて、別れを告げてレフも消えた。"
+    },
+    {
+      "id": 31,
+      "ru": "Шагая по коридору, архитектор проговорил: «Ищем других провайдеров и перевозим серверы».",
+      "en": "Walking down the corridor, the architect said: 'We find other providers and move the servers.'",
+      "zh": "走在走廊里，建筑师说道："我们找其他提供商，搬走服务器。"",
+      "ja": "廊下を歩きながら、アーキテクトは言った：「他のプロバイダーを探してサーバーを移動する」"
+    },
+    {
+      "id": 32,
+      "ru": "Лев не стал возражать.",
+      "en": "Lev didn't object.",
+      "zh": "列夫没有反对。",
+      "ja": "レフは反対しなかった。"
+    },
+    {
+      "id": 33,
+      "ru": "Спустя несколько дней они встретились с человеком из «Ростелекома».",
+      "en": "Several days later they met with a person from Rostelecom.",
+      "zh": "几天后，他们会见了一位来自"Rostelecom"的人。",
+      "ja": "数日後、彼らはロステレコムの人物と会った。"
+    },
+    {
+      "id": 34,
+      "ru": "Тот обещал найти канал на 60 Мбит.",
+      "en": "He promised to find a 60 Mbit channel.",
+      "zh": "他承诺找到60Mbit的通道。",
+      "ja": "彼は60Mbitのチャネルを見つけると約束した。"
+    },
+    {
+      "id": 35,
+      "ru": "Нашлось в итоге на 25, но «ВКонтакте» договорилась с другими провайдерами, в сумме набрав необходимые мощности.",
+      "en": "In the end only 25 was found, but VKontakte negotiated with other providers and together gathered the necessary capacity.",
+      "zh": "最终只找到25Mbit，但VKontakte与其他提供商协商，总共获得了所需的容量。",
+      "ja": "結局25しか見つからなかったが、VKontakteは他のプロバイダーと交渉し、合計で必要な容量を確保した。"
+    },
+    {
+      "id": 36,
+      "ru": "Лев вызвонил автобус, и демонтаж серверов закончил их роман с «Голденом».",
+      "en": "Lev called for the bus, and the dismantling of servers ended their romance with Golden.",
+      "zh": "列夫叫来了巴士，服务器的拆除结束了他们与"黄金"的关系。",
+      "ja": "レフはバスを呼び、サーバーの撤去がゴールデンとのロマンスを終わらせた。"
+    },
+    {
+      "id": 37,
+      "ru": "Менеджеры, правда, выкатили претензии, что «ВКонтакте» им недоплатила, и попытались взыскать около 15 млн рублей.",
+      "en": "The managers, however, filed claims that VKontakte had underpaid them and tried to collect about 15 million rubles.",
+      "zh": "不过，经理们提出VKontakte少付了他们的钱，并试图追讨约1500万卢布。",
+      "ja": "しかしマネージャーたちは、VKontakteが未払いだと主張し、約1500万ルーブルを回収しようとした。"
+    },
+    {
+      "id": 38,
+      "ru": "Но Дуров платить отказался; тяжба продолжается до сих пор.",
+      "en": "But Durov refused to pay; the litigation continues to this day.",
+      "zh": "但杜罗夫拒绝支付；诉讼至今仍在继续。",
+      "ja": "しかしドゥーロフは支払いを拒否した。訴訟は今日まで続いている。"
+    },
+    {
+      "id": 39,
+      "ru": "Тогда же акционеры «ВКонтакте» убедились, что нужно строить свои каналы – «дороги будущего», – чтобы не зависеть ни от кого.",
+      "en": "At the same time, VKontakte shareholders became convinced that they needed to build their own channels—'roads of the future'—to depend on no one.",
+      "zh": "与此同时，VKontakte的股东们确信需要建设自己的通道——"未来之路"——以不依赖任何人。",
+      "ja": "同時に、VKontakteの株主たちは、誰にも依存しないために自分たちのチャネル——「未来の道」——を構築する必要があると確信した。"
+    },
+    {
+      "id": 40,
+      "ru": "Слава и Лев создали компанию «Селектел» и занялись развитием независимого хостинг-провайдера.",
+      "en": "Slava and Lev created the company Selectel and got into developing an independent hosting provider.",
+      "zh": "斯拉瓦和列夫创建了Selectel公司，开始发展独立的托管服务商。",
+      "ja": "スラヴァとレフはSelectel社を設立し、独立したホスティングプロバイダーの開発に乗り出した。"
+    },
+    {
+      "id": 41,
+      "ru": "Дуров написал и передал письмо президенту Дмитрию Медведеву.",
+      "en": "Durov wrote and delivered a letter to President Dmitry Medvedev.",
+      "zh": "杜罗夫给德米特里·梅德韦杰夫总统写了一封信并递交了。",
+      "ja": "ドゥーロフはドミトリー・メドヴェージェフ大統領に手紙を書いて渡した。"
+    },
+    {
+      "id": 42,
+      "ru": "Телекоммуникационный картель искусственно завышает цены.",
+      "en": "The telecom cartel artificially inflates prices.",
+      "zh": "电信卡特尔人为抬高价格。",
+      "ja": "テレコムカルテルは人為的に価格を吊り上げている。"
+    },
+    {
+      "id": 43,
+      "ru": "Надо строить дороги XXI века, а не гнобить интернет-компании.",
+      "en": "We need to build roads of the 21st century, not oppress internet companies.",
+      "zh": "我们需要建设21世纪的道路，而不是打压互联网公司。",
+      "ja": "21世紀の道路を建設すべきであり、インターネット企業を抑圧すべきではない。"
+    },
+    {
+      "id": 44,
+      "ru": "У русских продуктов недостаточный авторитет в глазах журналистов, которые восхищаются всем западным.",
+      "en": "Russian products have insufficient authority in the eyes of journalists who admire everything Western.",
+      "zh": "俄罗斯产品在崇拜一切西方事物的记者眼中缺乏权威。",
+      "ja": "ロシア製品は、西洋のすべてを賞賛するジャーナリストの目には十分な権威がない。"
+    },
+    {
+      "id": 45,
+      "ru": "Мы рассуждаем о модернизации, а истинная модернизация – снизу; ей нужно помогать и т. д.",
+      "en": "We talk about modernization, but true modernization is from below; it needs to be helped, etc.",
+      "zh": "我们谈论现代化，但真正的现代化是自下而上的；它需要帮助等等。",
+      "ja": "我々は近代化について語るが、真の近代化は下からのものである。それを助ける必要がある、等々。"
+    }
+  ],
+  "translator_notes": [
+    "Page 71 continues the Golden Telecom confrontation",
+    "Boondock Saints movie reference - vigilante justice film",
+    "Famous prayer from the movie quoted in full",
+    "Durov's dramatic walkout from negotiation",
+    "Reference to President (Medvedev) and high-tech business support",
+    "'Burning bridges' metaphor - Durov destroyed relationship",
+    "Rostelecom - state telecom company, alternative provider",
+    "Only found 25 Mbit vs promised 60 Mbit",
+    "Selectel founded by Slava and Lev - independent hosting",
+    "15 million ruble lawsuit from Golden Telecom",
+    "Letter to President Medvedev about telecom cartel",
+    "Modernization 'from below' philosophy"
+  ],
+  "total_sentences": 45,
+  "page_type": "narrative"
+}

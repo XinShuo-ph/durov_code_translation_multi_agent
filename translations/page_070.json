@@ -1,0 +1,371 @@
+{
+  "page": 70,
+  "chapter": 5,
+  "chapter_title": "Стена (The Wall)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Лев кивнул сисадмину и направился по проходу между сиденьями.",
+      "en": "Lev nodded to the sysadmin and headed down the aisle between seats.",
+      "zh": "列夫向系统管理员点了点头，沿着座位之间的过道走去。",
+      "ja": "レフはシスアドにうなずき、座席の間の通路を歩いて行った。"
+    },
+    {
+      "id": 2,
+      "ru": "В автобус набились безмолвные пассажиры.",
+      "en": "Silent passengers were packed into the bus.",
+      "zh": "巴士里挤满了沉默的乘客。",
+      "ja": "バスには無言の乗客が詰め込まれていた。"
+    },
+    {
+      "id": 3,
+      "ru": "Еще недавно вкалывавшие, работавшие, так сказать, с огоньком, они умолкли и заснули, откинувшись на спинки кресел.",
+      "en": "Having recently been toiling, working, so to speak, with enthusiasm, they fell silent and dozed off, leaning back in their seats.",
+      "zh": "不久前还在辛勤工作、可以说充满热情的他们，现在安静下来，靠在椅背上睡着了。",
+      "ja": "つい最近まで熱心に働いていた彼らは、黙り込んで座席にもたれかかって眠りについた。"
+    },
+    {
+      "id": 4,
+      "ru": "Лев встал у дверей и, отдышавшись, еще раз посчитал перетащенный им и коллегами груз.",
+      "en": "Lev stood at the doors and, catching his breath, once again counted the cargo he and colleagues had moved.",
+      "zh": "列夫站在门口，喘了口气，又数了一遍他和同事们搬运的货物。",
+      "ja": "レフはドアのところに立ち、息を整えながら、彼と同僚が運んだ荷物をもう一度数えた。"
+    },
+    {
+      "id": 5,
+      "ru": "Все были на месте: в креслах ехали серверы, которые предстояло развезти нескольким хостинг-провайдерам.",
+      "en": "Everyone was in place: sitting in the seats were servers that needed to be delivered to several hosting providers.",
+      "zh": "都在位置上：座位上放着要送往几家托管服务商的服务器。",
+      "ja": "全員そろっていた：座席には複数のホスティングプロバイダーに届けるサーバーが乗っていた。"
+    },
+    {
+      "id": 6,
+      "ru": "Он вернулся к водителю, убежденный, что ничего не забыли.",
+      "en": "He returned to the driver, convinced that nothing was forgotten.",
+      "zh": "他回到司机那里，确信什么都没落下。",
+      "ja": "彼は何も忘れていないと確信して運転手のところに戻った。"
+    },
+    {
+      "id": 7,
+      "ru": "Как ни странно, Лев был рад, будто недавно подрался и хотел бы продолжить.",
+      "en": "Strangely, Lev was happy, as if he had just been in a fight and wanted to continue.",
+      "zh": "奇怪的是，列夫很高兴，就好像他刚刚打了一架还想继续一样。",
+      "ja": "不思議なことに、レフは喜んでいた。まるで喧嘩をしたばかりで、続けたいかのように。"
+    },
+    {
+      "id": 8,
+      "ru": "«Давить, – сказал ему Дуров перед началом операции. – Давить этот чертов картель.",
+      "en": "'Crush them,' Durov told him before the operation began. 'Crush this damn cartel.",
+      "zh": ""碾碎他们，"杜罗夫在行动开始前告诉他，"碾碎这该死的卡特尔。",
+      "ja": "「叩き潰せ」作戦開始前にドゥーロフは彼に言った。「このくそったれのカルテルを叩き潰せ。"
+    },
+    {
+      "id": 9,
+      "ru": "Пусть засунут себе свой трафик куда-нибудь».",
+      "en": "Let them shove their traffic somewhere.'",
+      "zh": "让他们把自己的流量塞到别处去。"",
+      "ja": "奴らのトラフィックをどこかに突っ込ませろ」"
+    },
+    {
+      "id": 10,
+      "ru": "Водитель повернул ключ, и автобус с серверами отчалил.",
+      "en": "The driver turned the key, and the bus with servers departed.",
+      "zh": "司机转动钥匙，载着服务器的巴士出发了。",
+      "ja": "運転手がキーを回し、サーバーを載せたバスが出発した。"
+    },
+    {
+      "id": 11,
+      "ru": "Безумное путешествие было продолжением противостояния.",
+      "en": "The mad journey was a continuation of the confrontation.",
+      "zh": "这场疯狂的旅程是对抗的延续。",
+      "ja": "この狂気の旅は対立の続きだった。"
+    },
+    {
+      "id": 12,
+      "ru": "Не столько с Mail.ru, сколько с тем, что Дуров считал злом.",
+      "en": "Not so much with Mail.ru as with what Durov considered evil.",
+      "zh": "与其说是与Mail.ru对抗，不如说是与杜罗夫认为的邪恶对抗。",
+      "ja": "Mail.ruとというよりは、ドゥーロフが悪と見なすものとの。"
+    },
+    {
+      "id": 13,
+      "ru": "«ВКонтакте» вырос настолько, что вторгался в сферу интересов и власти, и конкурентов, и просто отраслей, с которыми соприкасался и на которые влиял не так, как хотелось бы оппонентам.",
+      "en": "VKontakte had grown so much that it encroached on the sphere of interests of government, competitors, and simply industries it touched and influenced in ways opponents didn't like.",
+      "zh": "VKontakte发展到如此规模，以至于侵入了政府、竞争对手和它所接触和影响的各行业的利益范围，而这种影响方式是对手们不喜欢的。",
+      "ja": "VKontakteは非常に大きくなり、権力、競合他社、そして接触し影響を与えた業界の利益領域に侵入していた——対抗者が望まない方法で。"
+    },
+    {
+      "id": 14,
+      "ru": "Казалось, реальность ополчилась против них.",
+      "en": "It seemed reality had turned against them.",
+      "zh": "现实似乎与他们为敌了。",
+      "ja": "現実が彼らに敵対しているように見えた。"
+    },
+    {
+      "id": 15,
+      "ru": "Впрочем, Дуров не искал в том, что на него посыпалось, политики или происков каких-то автохтонных сил.",
+      "en": "However, Durov didn't look for politics or machinations of some autochthonous forces in what was raining down on him.",
+      "zh": "然而，杜罗夫并没有在落在他头上的事情中寻找政治或某些本土势力的阴谋。",
+      "ja": "しかし、ドゥーロフは降りかかってきたことの中に政治や先住の勢力の陰謀を探さなかった。"
+    },
+    {
+      "id": 16,
+      "ru": "«Что есть зло? – писал он в блоге.",
+      "en": "'What is evil?' he wrote on his blog.",
+      "zh": ""什么是邪恶？"他在博客中写道。",
+      "ja": "「悪とは何か？」彼はブログに書いた。"
+    },
+    {
+      "id": 17,
+      "ru": "– Зло – это наш враг.",
+      "en": "'Evil is our enemy.",
+      "zh": ""邪恶就是我们的敌人。",
+      "ja": "「悪とは我々の敵だ。"
+    },
+    {
+      "id": 18,
+      "ru": "Добро – это мы.",
+      "en": "Good is us.",
+      "zh": "善就是我们。",
+      "ja": "善とは我々だ。"
+    },
+    {
+      "id": 19,
+      "ru": "Если увеличить масштаб, можно понять простую истину: то, что в итоге побеждает, становится добром.",
+      "en": "If you zoom out, you can understand a simple truth: what ultimately wins becomes good.",
+      "zh": "如果放大来看，你可以理解一个简单的道理：最终获胜的就成为了善。",
+      "ja": "ズームアウトすると、シンプルな真実が分かる：最終的に勝つものが善になる。"
+    },
+    {
+      "id": 20,
+      "ru": "Побеждать и вытеснять врага – его основная характеристика.",
+      "en": "To conquer and displace the enemy is its main characteristic.",
+      "zh": "战胜并取代敌人是其主要特征。",
+      "ja": "敵を征服し駆逐することがその主な特徴だ。"
+    },
+    {
+      "id": 21,
+      "ru": "Поэтому язычество и рабство – зло, а монотеизм и общество потребления – добро.",
+      "en": "Therefore paganism and slavery are evil, while monotheism and consumer society are good.",
+      "zh": "因此异教和奴隶制是邪恶，而一神教和消费社会是善。",
+      "ja": "だから異教と奴隷制は悪であり、一神教と消費社会は善なのだ。"
+    },
+    {
+      "id": 22,
+      "ru": "Почему они победили?",
+      "en": "Why did they win?",
+      "zh": "它们为什么获胜了？",
+      "ja": "なぜ彼らは勝ったのか？"
+    },
+    {
+      "id": 23,
+      "ru": "Потому что оказались более эффективными в изменяющихся условиях».",
+      "en": "Because they turned out to be more effective in changing conditions.'",
+      "zh": "因为它们在不断变化的条件下更有效。"",
+      "ja": "変化する条件下でより効果的だったからだ」"
+    },
+    {
+      "id": 24,
+      "ru": "История с автобусом началась, когда растущей «ВКонтакте» понадобился хостинг-провайдер для обслуживания серверов.",
+      "en": "The bus story began when the growing VKontakte needed a hosting provider to service its servers.",
+      "zh": "巴士的故事始于不断壮大的VKontakte需要一个托管服务商来维护其服务器。",
+      "ja": "バスの話は、成長するVKontakteがサーバーのサービスを提供するホスティングプロバイダーを必要としたときに始まった。"
+    },
+    {
+      "id": 25,
+      "ru": "Мильнер указал партнерам на «Голден Телеком».",
+      "en": "Milner pointed the partners to Golden Telecom.",
+      "zh": "米尔纳向合伙人指出了"黄金电信"。",
+      "ja": "ミルナーはパートナーたちにゴールデンテレコムを示した。"
+    },
+    {
+      "id": 26,
+      "ru": "Дуров согласился, не до конца понимая рисков.",
+      "en": "Durov agreed, not fully understanding the risks.",
+      "zh": "杜罗夫同意了，但没有完全理解风险。",
+      "ja": "ドゥーロフはリスクを完全に理解せずに同意した。"
+    },
+    {
+      "id": 27,
+      "ru": "«Голден» входил в неформальный клуб трех крупнейших провайдеров страны и фиксировал цены на выгодном себе уровне.",
+      "en": "Golden was part of an informal club of the three largest providers in the country and fixed prices at levels advantageous to itself.",
+      "zh": ""黄金"是该国三大提供商的非正式俱乐部的一员，将价格固定在对自己有利的水平。",
+      "ja": "ゴールデンは国内最大の3つのプロバイダーの非公式クラブの一員で、自分たちに有利なレベルで価格を固定していた。"
+    },
+    {
+      "id": 28,
+      "ru": "Когда версия «ВКонтакте» для телефонов раскрутилась, трафик пошел мимо «Голдена» к сотовым операторам.",
+      "en": "When VKontakte's mobile version took off, traffic went past Golden to mobile operators.",
+      "zh": "当VKontakte的手机版起飞后，流量绕过"黄金"流向了移动运营商。",
+      "ja": "VKontakteのモバイル版が離陸すると、トラフィックはゴールデンを迂回してモバイルオペレーターに向かった。"
+    },
+    {
+      "id": 29,
+      "ru": "Провайдер начал давить на клиента.",
+      "en": "The provider began pressuring the client.",
+      "zh": "提供商开始向客户施压。",
+      "ja": "プロバイダーはクライアントに圧力をかけ始めた。"
+    },
+    {
+      "id": 30,
+      "ru": "Смысл – сделать так, чтобы соцсеть работала только через него.",
+      "en": "The point was to make the social network work only through them.",
+      "zh": "目的是让社交网络只能通过它们运行。",
+      "ja": "目的は、ソーシャルネットワークを自分たちを通してのみ動作させることだった。"
+    },
+    {
+      "id": 31,
+      "ru": "Несколько раз серверы падали на два-три часа – провайдер отвечал, что не имеет возможности расширить канал вовремя.",
+      "en": "Several times servers went down for two to three hours—the provider replied that they had no ability to expand capacity in time.",
+      "zh": "服务器几次宕机两三个小时——提供商回应说他们无法及时扩展容量。",
+      "ja": "何度かサーバーが2〜3時間ダウンした——プロバイダーは時間内に容量を拡大する能力がないと答えた。"
+    },
+    {
+      "id": 32,
+      "ru": "Затем присылал письма, что поднимет стоимость обслуживания в десять раз.",
+      "en": "Then they sent letters saying they would raise service costs tenfold.",
+      "zh": "然后他们发来信函，称将把服务成本提高十倍。",
+      "ja": "その後、サービス費用を10倍に引き上げるという手紙を送ってきた。"
+    },
+    {
+      "id": 33,
+      "ru": "Не нравится?",
+      "en": "Don't like it?",
+      "zh": "不喜欢？",
+      "ja": "気に入らない？"
+    },
+    {
+      "id": 34,
+      "ru": "Уходите.",
+      "en": "Leave.",
+      "zh": "走人。",
+      "ja": "出て行け。"
+    },
+    {
+      "id": 35,
+      "ru": "Компаньоны взяли билеты в Москву.",
+      "en": "The partners got tickets to Moscow.",
+      "zh": "合伙人们买了去莫斯科的票。",
+      "ja": "パートナーたちはモスクワ行きのチケットを取った。"
+    },
+    {
+      "id": 36,
+      "ru": "Лев вспоминал, что дорогой они настраивались на победу: «Паша стоял твердо, что или мы их ломаем, или мы должны оказаться достаточно сильными, чтобы послать на фиг».",
+      "en": "Lev recalled that on the way they were setting themselves up for victory: 'Pasha stood firm that either we break them, or we have to be strong enough to tell them to go to hell.'",
+      "zh": "列夫回忆说，在路上他们为胜利做好了准备："帕沙坚定地认为，要么我们打败他们，要么我们必须足够强大，可以让他们滚蛋。"",
+      "ja": "レフは道中で勝利に向けて気持ちを整えていたことを思い出した：「パーシャは断固としていた。彼らを打ち負かすか、地獄に行けと言えるほど強くなるかだと」"
+    },
+    {
+      "id": 37,
+      "ru": "Офис.",
+      "en": "Office.",
+      "zh": "办公室。",
+      "ja": "オフィス。"
+    },
+    {
+      "id": 38,
+      "ru": "Круг стульев.",
+      "en": "Circle of chairs.",
+      "zh": "一圈椅子。",
+      "ja": "椅子の輪。"
+    },
+    {
+      "id": 39,
+      "ru": "Напротив бледного юноши, наряженного в черное, расположились импозантные мужчины – менеджеры подразделения, курировавшего интернет-трафик.",
+      "en": "Opposite the pale young man dressed in black sat imposing men—managers of the division overseeing internet traffic.",
+      "zh": "在身穿黑色服装的苍白年轻人对面，坐着几位气势逼人的男士——负责互联网流量的部门经理。",
+      "ja": "黒い服を着た青白い青年の向かいには、威厳のある男たちが座っていた——インターネットトラフィックを監督する部門のマネージャーたちだ。"
+    },
+    {
+      "id": 40,
+      "ru": "– Предлагаю подписать эксклюзивный договор на пять лет, – начал директор.",
+      "en": "'I propose signing an exclusive contract for five years,' the director began.",
+      "zh": ""我建议签署一份五年期的独家合同，"总监开始说。",
+      "ja": "「5年間の独占契約を提案します」とディレクターは始めた。"
+    },
+    {
+      "id": 41,
+      "ru": "«Уверены, что у нас нет вариантов», – подумал Дуров.",
+      "en": "'They're sure we have no options,' Durov thought.",
+      "zh": ""他们确信我们别无选择，"杜罗夫想。",
+      "ja": "「彼らは我々に選択肢がないと確信している」とドゥーロフは思った。"
+    },
+    {
+      "id": 42,
+      "ru": "– Вы не расширяете каналы вовремя.",
+      "en": "'You don't expand channels on time.",
+      "zh": ""你们不能及时扩展容量。",
+      "ja": "「あなたたちはチャネルを時間通りに拡大しない。"
+    },
+    {
+      "id": 43,
+      "ru": "Есть гарантии, что это не повторится?",
+      "en": "Are there guarantees this won't happen again?'",
+      "zh": "有保证这不会再发生吗？"",
+      "ja": "これが繰り返されないという保証はありますか？」"
+    },
+    {
+      "id": 44,
+      "ru": "– Поймите, мало ли что может случиться, у нас много подрядчиков.",
+      "en": "'Understand, anything can happen, we have many contractors.'",
+      "zh": ""你要理解，什么事都可能发生，我们有很多承包商。"",
+      "ja": "「ご理解ください、何が起こるか分かりません、多くの請負業者がいます」"
+    },
+    {
+      "id": 45,
+      "ru": "(«Монополисты, создали систему, когда все, кто от них не зависит, гонят трафик через Европу и переплачивают».)",
+      "en": "('Monopolists, they've created a system where everyone who doesn't depend on them routes traffic through Europe and overpays.')",
+      "zh": "（"垄断者，他们创建了一个系统，让所有不依赖他们的人都要通过欧洲路由流量并多付钱。"）",
+      "ja": "（「独占者め、彼らに依存しない者は皆ヨーロッパ経由でトラフィックを送り、過払いするシステムを作った」）"
+    },
+    {
+      "id": 46,
+      "ru": "– В таком случае нам выгоднее сотрудничать с несколькими независимыми провайдерами.",
+      "en": "'In that case, it's more advantageous for us to cooperate with several independent providers.'",
+      "zh": ""那样的话，我们与几个独立的提供商合作更有利。"",
+      "ja": "「その場合、複数の独立したプロバイダーと協力する方が有利です」"
+    },
+    {
+      "id": 47,
+      "ru": "– Сомневаюсь, Павел.",
+      "en": "'I doubt it, Pavel.'",
+      "zh": ""我表示怀疑，帕维尔。"",
+      "ja": "「疑わしいですね、パーヴェル」"
+    },
+    {
+      "id": 48,
+      "ru": "(«Понимают, что у независимых нет столько мощностей, сколько нам надо».)",
+      "en": "('They understand that the independents don't have as much capacity as we need.')",
+      "zh": "（"他们知道独立提供商没有我们需要的那么多容量。"）",
+      "ja": "（「独立系には我々が必要なほどの容量がないと分かっている」）"
+    },
+    {
+      "id": 49,
+      "ru": "– Привязываться на пять лет к одному оператору – это слишком!",
+      "en": "'Being tied to one operator for five years—that's too much!'",
+      "zh": ""绑定一个运营商五年——太过分了！"",
+      "ja": "「一つのオペレーターに5年間縛られるのは——多すぎる！」"
+    },
+    {
+      "id": 50,
+      "ru": "– ОК, подпишем эксклюзив на три года.",
+      "en": "'OK, we'll sign an exclusive for three years.'",
+      "zh": ""好吧，我们签三年的独家合同。"",
+      "ja": "「OK、3年間の独占契約を結びましょう」"
+    }
+  ],
+  "translator_notes": [
+    "Page 70 begins the 'server bus' story - breaking from Golden Telecom",
+    "Servers transported by bus to multiple hosting providers",
+    "Durov's blog post about good vs evil - philosophical reflection",
+    "'What wins becomes good' - Darwinian view of morality",
+    "Golden Telecom - part of informal 'cartel' of 3 major providers",
+    "Mobile version success led to traffic bypassing Golden",
+    "Monopoly tactics: server downtime, 10x price increase threats",
+    "5-year exclusive contract demand",
+    "Durov's internal thoughts shown in parentheses",
+    "'Pale young man in black' - classic Durov description"
+  ],
+  "total_sentences": 50,
+  "page_type": "narrative"
+}

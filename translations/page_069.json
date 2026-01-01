@@ -1,0 +1,281 @@
+{
+  "page": 69,
+  "chapter": 5,
+  "chapter_title": "Стена (The Wall)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Вторая версия гласит, что Чумаченко не очень-то хотелось трудиться с Гришиным, а вот создать свой бизнес – другое дело.",
+      "en": "The second version states that Chumachenko didn't really want to work with Grishin, but creating her own business was another matter.",
+      "zh": "第二个版本说，楚马琴科不太想和格里申一起工作，但创建自己的业务是另一回事。",
+      "ja": "2つ目のバージョンによると、チュマチェンコはグリシンと一緒に働きたくなかったが、自分のビジネスを作ることは別だった。"
+    },
+    {
+      "id": 2,
+      "ru": "Найдя инвестора (Мацанюк не подтверждает, что Game Insight создан на его деньги), она начала писать свои собственные игры.",
+      "en": "Finding an investor (Matsanyuk doesn't confirm that Game Insight was created with his money), she began writing her own games.",
+      "zh": "找到投资者后（马察纽克不确认Game Insight是用他的钱创建的），她开始编写自己的游戏。",
+      "ja": "投資家を見つけて（マツァニュクはGame Insightが彼の資金で作られたことを確認していない）、彼女は自分のゲームを書き始めた。"
+    },
+    {
+      "id": 3,
+      "ru": "Ни у кого ничего не копировала, а Гришин, мол, выдумал копирайтные войны, чтобы выжить Мацанюка до IPO, на котором тот бы заработал больше, чем при выкупе акций до выхода на биржу.",
+      "en": "She copied nothing from anyone, and Grishin supposedly invented the copyright wars to push Matsanyuk out before the IPO, at which he would have earned more than with a share buyback before going public.",
+      "zh": "她没有抄袭任何人的东西，据说格里申发明了版权战争是为了在IPO前赶走马察纽克，这样他赚的钱就会比上市前股份回购少。",
+      "ja": "彼女は誰からも何もコピーしておらず、グリシンはマツァニュクをIPO前に追い出すために著作権戦争を仕掛けたとされる。そうすれば上場前の株式買い戻しより多く稼げたからだ。"
+    },
+    {
+      "id": 4,
+      "ru": "Конфликт перестал быть тайной и взорвался в публичной сфере, когда на сайте разработчиков Mail.ru был опубликован сворованный, по мнению холдинга, кусок кода.",
+      "en": "The conflict ceased to be secret and exploded into the public sphere when, on Mail.ru's developer site, the holding published what it considered a stolen piece of code.",
+      "zh": "当Mail.ru在开发者网站上发布了据该控股公司认为被盗的代码片段时，冲突不再是秘密，在公共领域爆发了。",
+      "ja": "紛争は秘密でなくなり、Mail.ruの開発者サイトにホールディングスが盗まれたと考えるコードの一部が公開されたとき、公の場で爆発した。"
+    },
+    {
+      "id": 5,
+      "ru": "За несколько дней до этого Гришин пошел на манипуляцию, схожую с дуровской.",
+      "en": "A few days before this, Grishin resorted to manipulation similar to Durov's.",
+      "zh": "在此之前几天，格里申采取了类似杜罗夫的操纵手段。",
+      "ja": "この数日前、グリシンはドゥーロフに似た操作に出た。"
+    },
+    {
+      "id": 6,
+      "ru": "«ВКонтакте» поставили в известность, что код краденый, и затребовали исключение игр Game Insight из сети.",
+      "en": "VKontakte was informed that the code was stolen and demanded the exclusion of Game Insight games from the network.",
+      "zh": "VKontakte被告知代码是被盗的，并要求将Game Insight的游戏从网络中删除。",
+      "ja": "VKontakteはコードが盗まれたと通知され、Game Insightのゲームをネットワークから除外するよう要求された。"
+    },
+    {
+      "id": 7,
+      "ru": "Когда Дурову сообщили об этом, он спросил, правда ли код тупо скопирован, и, получив ответ «нет», велел отказать Mail.ru.",
+      "en": "When Durov was told about this, he asked if the code was really stupidly copied, and upon receiving the answer 'no,' ordered them to refuse Mail.ru.",
+      "zh": "当杜罗夫被告知此事时，他问代码是否真的只是简单地复制了，得到"没有"的回答后，他下令拒绝Mail.ru。",
+      "ja": "ドゥーロフがこれを知らされると、彼はコードが本当に単純にコピーされたのかと尋ね、「いいえ」という答えを受けて、Mail.ruを拒否するよう命じた。"
+    },
+    {
+      "id": 8,
+      "ru": "Вскоре на его айфоне высветился звонок – беспокоил Гришин.",
+      "en": "Soon a call lit up on his iPhone—Grishin was calling.",
+      "zh": "很快他的iPhone上显示了一个来电——是格里申打来的。",
+      "ja": "まもなく彼のiPhoneに着信が表示された——グリシンからだった。"
+    },
+    {
+      "id": 9,
+      "ru": "Дуров привык брать трубку далеко не всегда и воспитывал этим Льва со Славой и других менеджеров.",
+      "en": "Durov was accustomed to not always answering calls and disciplined Lev and Slava and other managers this way.",
+      "zh": "杜罗夫习惯于并不总是接电话，以此来教育列夫、斯拉瓦和其他经理人。",
+      "ja": "ドゥーロフは常に電話に出るわけではなく、これでレフとスラヴァや他のマネージャーを躾けていた。"
+    },
+    {
+      "id": 10,
+      "ru": "Теперь он применил это к сопернику.",
+      "en": "Now he applied this to his rival.",
+      "zh": "现在他把这招用在了对手身上。",
+      "ja": "今、彼はこれを競争相手に適用した。"
+    },
+    {
+      "id": 11,
+      "ru": "Гришин перезвонил еще пару раз и прекратил попытки.",
+      "en": "Grishin called back a couple more times and gave up.",
+      "zh": "格里申又回拨了几次后放弃了。",
+      "ja": "グリシンはもう数回かけ直したが、諦めた。"
+    },
+    {
+      "id": 12,
+      "ru": "Еще через некоторое время Дурову набрал Мильнер.",
+      "en": "Some time later, Milner called Durov.",
+      "zh": "过了一段时间，米尔纳给杜罗夫打了电话。",
+      "ja": "しばらくして、ミルナーがドゥーロフに電話した。"
+    },
+    {
+      "id": 13,
+      "ru": "В подобных случаях тотем брал трубку.",
+      "en": "In such cases, the totem picked up.",
+      "zh": "在这种情况下，图腾会接电话。",
+      "ja": "このような場合、トーテムは電話に出た。"
+    },
+    {
+      "id": 14,
+      "ru": "Поговорив о том о сем, инвестор намекнул вундеркинду, что неплохо бы снять спорные игры.",
+      "en": "After chatting about this and that, the investor hinted to the wunderkind that it would be good to remove the disputed games.",
+      "zh": "聊了些闲话后，投资者向这位神童暗示，最好删除有争议的游戏。",
+      "ja": "あれこれ話した後、投資家は神童に、問題のゲームを削除した方がいいとほのめかした。"
+    },
+    {
+      "id": 15,
+      "ru": "Дуров хоть и ненавидел переливание из пустого в порожнее, когда ответ уже дан, но в важных разговорах умел маскировать нежелание идти на компромисс выжидающей позицией.",
+      "en": "Although Durov hated beating around the bush when an answer was already given, in important conversations he knew how to mask his unwillingness to compromise with a wait-and-see position.",
+      "zh": "尽管杜罗夫讨厌在答案已经给出后还说废话，但在重要的对话中，他知道如何用观望态度掩盖自己不愿妥协的立场。",
+      "ja": "ドゥーロフは答えがすでに出ているときに空論を嫌ったが、重要な会話では妥協したくない意思を様子見の姿勢で隠す方法を知っていた。"
+    },
+    {
+      "id": 16,
+      "ru": "Да-да, разработчики посмотрят код, разберемся объективно.",
+      "en": "Yes-yes, the developers will look at the code, we'll sort it out objectively.",
+      "zh": "是是，开发者会看看代码，我们会客观地处理。",
+      "ja": "はいはい、開発者がコードを見て、客観的に判断します。"
+    },
+    {
+      "id": 17,
+      "ru": "Разумеется, итоги разбора были предсказуемы.",
+      "en": "Of course, the results of the review were predictable.",
+      "zh": "当然，审查的结果是可以预见的。",
+      "ja": "もちろん、レビューの結果は予測できるものだった。"
+    },
+    {
+      "id": 18,
+      "ru": "Дуров понял, что военные действия начались и следует не держаться за позиции, а нападать первым.",
+      "en": "Durov understood that hostilities had begun and he should attack first rather than hold positions.",
+      "zh": "杜罗夫明白敌对行动已经开始，应该主动进攻，而不是固守阵地。",
+      "ja": "ドゥーロフは敵対行為が始まったことを理解し、陣地を守るのではなく先に攻撃すべきだと悟った。"
+    },
+    {
+      "id": 19,
+      "ru": "Если пойти на уступки Гришину – все, съедят.",
+      "en": "If he gave in to Grishin—that's it, they'd eat him alive.",
+      "zh": "如果向格里申让步——那就完了，会被吃掉。",
+      "ja": "グリシンに譲歩したら——おしまいだ、食われてしまう。"
+    },
+    {
+      "id": 20,
+      "ru": "Надо подчеркнуто твердо отказаться убирать игры.",
+      "en": "He needed to emphatically refuse to remove the games.",
+      "zh": "必须明确地拒绝删除游戏。",
+      "ja": "ゲームを削除することを断固として拒否する必要があった。"
+    },
+    {
+      "id": 21,
+      "ru": "Дуров открыл ноутбук, зашел в систему рекламы и на свои деньги создал кампанию играм Game Insight.",
+      "en": "Durov opened his laptop, went into the advertising system, and with his own money created a campaign for Game Insight games.",
+      "zh": "杜罗夫打开笔记本电脑，进入广告系统，用自己的钱为Game Insight游戏创建了一个广告活动。",
+      "ja": "ドゥーロフはノートパソコンを開き、広告システムに入り、自分のお金でGame Insightのゲームのキャンペーンを作成した。"
+    },
+    {
+      "id": 22,
+      "ru": "Затем он вызвал недавно нанятого пресс-секретаря Влада Цыплухина и велел предупредить Чумаченко, что со дня на день Mail.ru опубликует скандальный пост о краже кода и под этим предлогом отключит монетизацию их игр.",
+      "en": "Then he called the recently hired press secretary Vlad Tsyplukhin and ordered him to warn Chumachenko that any day now Mail.ru would publish a scandalous post about code theft and use this pretext to disable monetization of their games.",
+      "zh": "然后他叫来了最近雇用的新闻秘书弗拉德·齐普卢欣，让他警告楚马琴科，Mail.ru很快就会发布一篇关于代码盗窃的丑闻帖子，并以此为借口关闭他们游戏的变现功能。",
+      "ja": "それから彼は最近雇った広報担当のヴラド・ツィプルヒンを呼び、チュマチェンコに警告するよう命じた。まもなくMail.ruがコード盗難についてのスキャンダラスな投稿を公開し、それを口実に彼らのゲームの収益化を無効にするだろうと。"
+    },
+    {
+      "id": 23,
+      "ru": "О кампании за счет начальника Влад не знал.",
+      "en": "About the campaign at the boss's expense, Vlad didn't know.",
+      "zh": "弗拉德不知道老板自掏腰包做广告活动的事。",
+      "ja": "上司の費用によるキャンペーンについて、ヴラドは知らなかった。"
+    },
+    {
+      "id": 24,
+      "ru": "Он предупредил Game Insight, и игровики встретили скандал во всеоружии.",
+      "en": "He warned Game Insight, and the game developers met the scandal fully armed.",
+      "zh": "他警告了Game Insight，游戏开发者们做好了充分准备迎接丑闻。",
+      "ja": "彼はGame Insightに警告し、ゲーム開発者たちはスキャンダルに万全の態勢で臨んだ。"
+    },
+    {
+      "id": 25,
+      "ru": "Для них решение Mail.ru лишить их средств к проживанию – более половины выручки капало с платформы Гришина – выглядело едва ли не смертельным.",
+      "en": "For them, Mail.ru's decision to deprive them of their livelihood—more than half of revenue dripped from Grishin's platform—looked almost fatal.",
+      "zh": "对他们来说，Mail.ru剥夺他们生计的决定——超过一半的收入来自格里申的平台——看起来几乎是致命的。",
+      "ja": "彼らにとって、Mail.ruが彼らの生計を奪う決定——収益の半分以上がグリシンのプラットフォームから来ていた——はほぼ致命的に見えた。"
+    },
+    {
+      "id": 26,
+      "ru": "Конфликт закончился недружелюбными переговорами и поиском посредника для замирения сторон.",
+      "en": "The conflict ended with unfriendly negotiations and a search for a mediator to pacify the sides.",
+      "zh": "冲突以不友好的谈判和寻找调解人来平息双方告终。",
+      "ja": "紛争は不友好な交渉と、両者を和解させる仲介者の探索で終わった。"
+    },
+    {
+      "id": 27,
+      "ru": "Впрочем, потом Чумаченко утверждала, что эта история заставила ее взглянуть на новые рынки – социальные игры на платформе Google Android и в джобсовском AppStore.",
+      "en": "However, later Chumachenko claimed that this story made her look at new markets—social games on the Google Android platform and in Jobs's AppStore.",
+      "zh": "不过，楚马琴科后来声称，这件事让她看到了新市场——谷歌安卓平台和乔布斯的AppStore上的社交游戏。",
+      "ja": "しかし、後にチュマチェンコは、この出来事が新しい市場——Google Androidプラットフォームとジョブズのアップストアでのソーシャルゲーム——に目を向けさせたと主張した。"
+    },
+    {
+      "id": 28,
+      "ru": "Именно там Game Insight издала свои лучшие приложения и стала одной из крупнейших игровых компаний в России.",
+      "en": "It was there that Game Insight released its best apps and became one of the largest gaming companies in Russia.",
+      "zh": "正是在那里，Game Insight发布了其最佳应用，成为俄罗斯最大的游戏公司之一。",
+      "ja": "そこでGame Insightは最高のアプリをリリースし、ロシア最大のゲーム会社の一つになった。"
+    },
+    {
+      "id": 29,
+      "ru": "От «ВКонтакте» Чумаченко получала все меньше дохода, потому что сконцентрировалась на мировом рынке.",
+      "en": "From VKontakte, Chumachenko received less and less revenue because she concentrated on the global market.",
+      "zh": "楚马琴科从VKontakte获得的收入越来越少，因为她专注于全球市场。",
+      "ja": "チュマチェンコはVKontakteからの収益がどんどん減っていったが、それは彼女がグローバル市場に集中したからだ。"
+    },
+    {
+      "id": 30,
+      "ru": "Если с Game Insight Гришин наладил какие-никакие отношения, то с Дуровым мира не предвиделось.",
+      "en": "While Grishin established some sort of relations with Game Insight, no peace with Durov was in sight.",
+      "zh": "虽然格里申与Game Insight建立了某种关系，但与杜罗夫的和平是不可预见的。",
+      "ja": "グリシンはGame Insightとなんとか関係を築いたが、ドゥーロフとの平和は見込めなかった。"
+    },
+    {
+      "id": 31,
+      "ru": "Отложив боевые действия на потом, Гришин с помощью Мильнера нанял сильного продакт-менеджера Илью Широкова перезапускать «Одноклассников» – соцсеть, которая могла бы покончить с гегемонией «ВКонтакте» в стране.",
+      "en": "Postponing hostilities for later, Grishin with Milner's help hired a strong product manager Ilya Shirokov to relaunch Odnoklassniki—a social network that could end VKontakte's hegemony in the country.",
+      "zh": "将敌对行动推迟到以后，格里申在米尔纳的帮助下雇用了强大的产品经理伊利亚·希罗科夫来重新启动"同学网"——这个社交网络可能终结VKontakte在该国的霸权。",
+      "ja": "敵対行為を後に延ばし、グリシンはミルナーの助けを借りて、強力なプロダクトマネージャーのイリヤ・シロコフを雇い、オドノクラスニキを再ローンチさせた——この国でのVKontakteの覇権を終わらせる可能性のあるソーシャルネットワークだ。"
+    },
+    {
+      "id": 32,
+      "ru": "Mail.ru приготовился к затяжной осаде дома Зингера.",
+      "en": "Mail.ru prepared for a prolonged siege of the Singer House.",
+      "zh": "Mail.ru准备好了对辛格大厦的持久围攻。",
+      "ja": "Mail.ruはジンガーハウスへの長期包囲戦の準備を整えた。"
+    },
+    {
+      "id": 33,
+      "ru": "– Все здесь?",
+      "en": "'Everyone here?'",
+      "zh": ""都在这儿了吗？"",
+      "ja": "「全員いる？」"
+    },
+    {
+      "id": 34,
+      "ru": "– Вроде все.",
+      "en": "'Seems like everyone.'",
+      "zh": ""好像都在。"",
+      "ja": "「全員いるみたい」"
+    },
+    {
+      "id": 35,
+      "ru": "– Ты считал?",
+      "en": "'Did you count?'",
+      "zh": ""你数过了吗？"",
+      "ja": "「数えた？」"
+    },
+    {
+      "id": 36,
+      "ru": "– Да, конечно.",
+      "en": "'Yes, of course.",
+      "zh": ""是的，当然了。",
+      "ja": "「うん、もちろん。"
+    },
+    {
+      "id": 37,
+      "ru": "Если хочешь, пересчитай сам.",
+      "en": "If you want, count them yourself.'",
+      "zh": "如果你想的话，自己数一遍。"",
+      "ja": "良かったら、自分で数えて」"
+    }
+  ],
+  "translator_notes": [
+    "Page 69 details the Game Insight conflict and Durov's counter-tactics",
+    "Two versions of the Chumachenko/Matsanyuk departure",
+    "Mail.ru demanded VK remove Game Insight games",
+    "Durov asked if code was actually copied - answer was no",
+    "Durov's habit of not answering calls to discipline people",
+    "Milner called as intermediary but Durov temporized",
+    "Durov secretly paid for Game Insight ads out of his own pocket",
+    "Vlad Tsyplukhin - VK's new press secretary (later famous)",
+    "Game Insight pivoted to Android/iOS and succeeded globally",
+    "Ilya Shirokov hired to relaunch Odnoklassniki",
+    "Siege metaphor for Mail.ru's campaign against VK"
+  ],
+  "total_sentences": 37,
+  "page_type": "narrative"
+}

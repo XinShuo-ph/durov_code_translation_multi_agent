@@ -1,0 +1,276 @@
+{
+  "page": 76,
+  "chapter": 5,
+  "chapter_title": "Стена (The Wall)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "сень валькирий».",
+      "en": "the shadow of the Valkyries.'",
+      "zh": "女武神的羽翼下"。",
+      "ja": "ヴァルキリーの翼の下」に"
+    },
+    {
+      "id": 2,
+      "ru": "Рядом трудились Илларионов и проходящий по качеству футбола в дубль «Зенита» Игорь Жуков.",
+      "en": "Nearby worked Illarionov and Igor Zhukov, who could qualify for Zenit's reserve team in soccer.",
+      "zh": "旁边工作的是伊拉里奥诺夫和足球水平能进泽尼特预备队的伊戈尔·朱可夫。",
+      "ja": "近くではイラリオノフと、サッカーの腕前ではゼニトの2軍に入れるイーゴリ・ジューコフが働いていた。"
+    },
+    {
+      "id": 3,
+      "ru": "Эти превосходно социализированные юноши оттеняли не бросающуюся в глаза гостю комнату со странными людьми.",
+      "en": "These excellently socialized young men offset a room with strange people that didn't catch visitors' attention.",
+      "zh": "这些社交能力极强的年轻人与一间不引人注目的、住着奇怪人物的房间形成对比。",
+      "ja": "これらの見事に社会化された若者たちは、訪問者の目に留まらない奇妙な人々のいる部屋を引き立てていた。"
+    },
+    {
+      "id": 4,
+      "ru": "Территория оптимизации высоких нагрузок и антиспама выглядела местом с искаженными временны́ми и пространственными характеристиками.",
+      "en": "The territory of high load optimization and anti-spam looked like a place with distorted temporal and spatial characteristics.",
+      "zh": "高负载优化和反垃圾邮件的区域看起来像一个时间和空间特征都被扭曲的地方。",
+      "ja": "高負荷最適化とアンチスパムの領域は、時間と空間の特性が歪んだ場所のように見えた。"
+    },
+    {
+      "id": 5,
+      "ru": "Люди разговаривали обрывками кода и птичьим языком.",
+      "en": "People spoke in code fragments and bird language.",
+      "zh": "人们用代码片段和鸟语交谈。",
+      "ja": "人々はコードの断片と鳥の言葉で話していた。"
+    },
+    {
+      "id": 6,
+      "ru": "Задав вопрос, здесь стоило рассчитывать на ответ не ранее чем через десять минут.",
+      "en": "After asking a question, one could expect an answer no sooner than ten minutes.",
+      "zh": "在这里问一个问题，至少要等十分钟才能期待得到回答。",
+      "ja": "質問をすると、ここでは少なくとも10分は待たないと答えを期待できなかった。"
+    },
+    {
+      "id": 7,
+      "ru": "Просто обитатели привыкли очень хорошо думать.",
+      "en": "The inhabitants were simply accustomed to thinking very well.",
+      "zh": "住在这里的人只是习惯了非常认真地思考。",
+      "ja": "住人たちは単に非常によく考えることに慣れていただけだ。"
+    },
+    {
+      "id": 8,
+      "ru": "Дуров с Равдоникасом на их фоне выглядели образцами нормы.",
+      "en": "Durov and Ravdonikas looked like models of normalcy against their background.",
+      "zh": "与他们相比，杜罗夫和拉夫多尼卡斯看起来是正常的典范。",
+      "ja": "ドゥーロフとラヴドニカスは彼らと比べると正常さの模範に見えた。"
+    },
+    {
+      "id": 9,
+      "ru": "Например, среди «сишников» работал человек, который не отзывался ни на какие внешние раздражители, кроме голоса Николая.",
+      "en": "For example, among the C programmers worked a person who didn't respond to any external stimuli except Nikolai's voice.",
+      "zh": "例如，在C程序员中有一个人，除了尼古拉的声音外，他对任何外部刺激都没有反应。",
+      "ja": "例えば、Cプログラマーの中にはニコライの声以外のいかなる外部刺激にも反応しない人がいた。"
+    },
+    {
+      "id": 10,
+      "ru": "Он исправно писал на С++, но, например, Дурова-младшего не воспринимал.",
+      "en": "He dutifully wrote in C++, but, for example, didn't perceive the younger Durov.",
+      "zh": "他认真地用C++编程，但例如，他感知不到小杜罗夫。",
+      "ja": "彼は忠実にC++で書いていたが、例えば弟のドゥーロフは認識しなかった。"
+    },
+    {
+      "id": 11,
+      "ru": "Также он ходил днями в бессменной одежде, размышляя, видимо, о горнем.",
+      "en": "He also wore the same clothes for days, apparently contemplating higher matters.",
+      "zh": "他也穿着同样的衣服好几天，显然在思考更高层次的事物。",
+      "ja": "また彼は何日も同じ服を着て、おそらく高尚なことを考えていた。"
+    },
+    {
+      "id": 12,
+      "ru": "К этому диковатому племени примкнул тренер сборной России по программированию и друг Николая Дурова Андрей Лопатин.",
+      "en": "To this wild tribe joined Andrey Lopatin, coach of the Russian national programming team and friend of Nikolai Durov.",
+      "zh": "俄罗斯编程国家队教练、尼古拉·杜罗夫的朋友安德烈·洛帕丁加入了这个野蛮的部落。",
+      "ja": "この野性的な部族に、ロシアプログラミング代表チームのコーチでニコライ・ドゥーロフの友人であるアンドレイ・ロパーチンが加わった。"
+    },
+    {
+      "id": 13,
+      "ru": "Помимо high load он вел холивар против сетей ботов, а также помогал приятелю не терять остатки человечности в окружении нёрдов.",
+      "en": "Besides high load, he waged holy war against bot networks and also helped his friend not lose the remnants of humanity among the nerds.",
+      "zh": "除了高负载工作外，他还对机器人网络发动圣战，并帮助他的朋友在书呆子们中间不失去最后一点人性。",
+      "ja": "高負荷の仕事の他に、彼はボットネットワークに対する聖戦を行い、また友人がナードたちの中で人間性の残りを失わないよう助けていた。"
+    },
+    {
+      "id": 14,
+      "ru": "Сам Николай не сменил поля деятельности – мать, по-прежнему вникающая в происходящее с проектом сыновей, убедила его, что надо полноценно помогать брату, получать приличные деньги, а на науку выкраивать время от основной работы.",
+      "en": "Nikolai himself didn't change his field of activity—his mother, still following her sons' project, convinced him that he should fully help his brother, earn decent money, and carve out time for science from the main job.",
+      "zh": "尼古拉本人没有改变工作领域——他的母亲仍然关注着儿子们的项目，说服他应该全力帮助弟弟，赚取体面的收入，并从主要工作中挤出时间做科学研究。",
+      "ja": "ニコライ自身は活動分野を変えなかった——息子たちのプロジェクトを追い続ける母親は、弟を全面的に助け、まともな金を稼ぎ、本業の合間に科学のための時間を作るべきだと彼を説得した。"
+    },
+    {
+      "id": 15,
+      "ru": "Готовясь возвести новую стену, Дуров переехал из кабинета под стеклянным глобусом в тесную комнату напротив соковыжималки и взял в товарищи Равдоникаса.",
+      "en": "Preparing to erect the new wall, Durov moved from the office under the glass globe to a cramped room opposite the juicer and took Ravdonikas as his companion.",
+      "zh": "在准备建造新墙时，杜罗夫从玻璃球下的办公室搬到了榨汁机对面的一间狭小房间，并让拉夫多尼卡斯做他的伙伴。",
+      "ja": "新しい壁を構築する準備をしながら、ドゥーロフはガラスの球体の下のオフィスからジューサーの向かいの狭い部屋に移り、ラヴドニカスを仲間にした。"
+    },
+    {
+      "id": 16,
+      "ru": "Тот днями корпел над «словесным оформлением сайта», а ночами выкладывал в сеть стихи.",
+      "en": "The latter spent days toiling over the 'verbal design of the site' and nights posting poetry online.",
+      "zh": "后者白天埋头于"网站的文字设计"，晚上在网上发布诗歌。",
+      "ja": "後者は日中「サイトの言葉のデザイン」に取り組み、夜はネットに詩を投稿していた。"
+    },
+    {
+      "id": 17,
+      "ru": "Позже, смирившись с тем, что во «ВКонтакте» люди не воспринимают буквы без пиктограммы, начал пририсовывать что-нибудь к своим хореям – авторучкой на клетчатой бумаге.",
+      "en": "Later, accepting that on VKontakte people don't perceive letters without pictures, he began adding drawings to his trochees—with a ballpoint pen on graph paper.",
+      "zh": "后来，他接受了在VKontakte上人们不喜欢没有图片的文字，开始在他的抑扬格诗旁边画些东西——用圆珠笔在方格纸上。",
+      "ja": "後に、VKontakteでは人々が絵文字なしの文字を認識しないことを受け入れ、彼は自分のトロカイオスに何かを描き足すようになった——方眼紙にボールペンで。"
+    },
+    {
+      "id": 18,
+      "ru": "После истории со стеной Равдоникас запостил полотно с избиением младенцев и подписал: «Саша (слева), Игорь (по центру) и Вася (справа) отнимают у пользователей стену, новости и поклонников соответственно. 1625/26; Paris, Musée du Petit Palais».",
+      "en": "After the wall story, Ravdonikas posted a painting of the massacre of the innocents and captioned it: 'Sasha (left), Igor (center) and Vasya (right) take away from users the wall, news and fans respectively. 1625/26; Paris, Musée du Petit Palais.'",
+      "zh": "在墙的事件之后，拉夫多尼卡斯发布了一幅屠杀婴儿的画作，并配文："萨沙（左）、伊戈尔（中）和瓦西亚（右）分别从用户那里夺走了墙、新闻和粉丝。1625/26年；巴黎，小皇宫博物馆"。",
+      "ja": "壁の件の後、ラヴドニカスは幼児虐殺の絵を投稿し、キャプションを付けた：「サーシャ（左）、イーゴリ（中央）、ヴァシャ（右）がそれぞれユーザーから壁、ニュース、ファンを奪う。1625/26年；パリ、プティ・パレ美術館」"
+    },
+    {
+      "id": 19,
+      "ru": "Час икс пробил 20 октября.",
+      "en": "The hour struck on October 20th.",
+      "zh": "关键时刻在10月20日到来。",
+      "ja": "決定的瞬間は10月20日に訪れた。"
+    },
+    {
+      "id": 20,
+      "ru": "Зингер превратился в блестящую капсулу, готовую к взлету.",
+      "en": "The Singer building transformed into a gleaming capsule ready for takeoff.",
+      "zh": "辛格大厦变成了一个闪闪发光的太空舱，准备起飞。",
+      "ja": "ジンガーは輝くカプセルに変わり、離陸の準備ができていた。"
+    },
+    {
+      "id": 21,
+      "ru": "Шар зловеще поблескивал, валькирии заметно нервничали.",
+      "en": "The globe ominously gleamed, the Valkyries visibly nervous.",
+      "zh": "球体不祥地闪烁着，女武神们明显紧张。",
+      "ja": "球体は不吉に輝き、ヴァルキリーたちは明らかに緊張していた。"
+    },
+    {
+      "id": 22,
+      "ru": "Команда пристегнулась, проверила ремни безопасности, убедилась, что все системы функционируют нормально, готовность три, два, один…",
+      "en": "The team fastened their seatbelts, checked their safety harnesses, made sure all systems were functioning normally, countdown three, two, one...",
+      "zh": "团队系好安全带，检查安全带，确保所有系统正常运行，倒计时三、二、一……",
+      "ja": "チームはシートベルトを締め、安全ハーネスをチェックし、すべてのシステムが正常に機能していることを確認した。カウントダウン3、2、1…"
+    },
+    {
+      "id": 23,
+      "ru": "Дуров совершил вояж по кабинетам, отметил, что люди горят духом, и запалил шнур.",
+      "en": "Durov made a tour of the offices, noted that people were burning with spirit, and lit the fuse.",
+      "zh": "杜罗夫在各个办公室巡视了一圈，注意到人们精神高涨，然后点燃了导火索。",
+      "ja": "ドゥーロフはオフィスを巡回し、人々が燃えるような精神を持っていることを確認し、導火線に火をつけた。"
+    },
+    {
+      "id": 24,
+      "ru": "Старые стены рухнули, и на их месте проступили водяные знаки микроблога.",
+      "en": "The old walls collapsed, and in their place emerged the watermarks of the microblog.",
+      "zh": "旧墙倒塌了，取而代之的是微博的水印。",
+      "ja": "古い壁が崩れ落ち、その場所にマイクロブログの透かしが現れた。"
+    },
+    {
+      "id": 25,
+      "ru": "Дуров настучал в макбуке: «С сегодняшнего дня мы включаем этот режим для всех страниц.",
+      "en": "Durov typed on his MacBook: 'From today we are enabling this mode for all pages.",
+      "zh": "杜罗夫在MacBook上敲打着："从今天起，我们为所有页面启用这种模式。",
+      "ja": "ドゥーロフはMacBookで打ち込んだ：「本日より、すべてのページでこのモードを有効にします。"
+    },
+    {
+      "id": 26,
+      "ru": "Для большей части активных пользователей „ВКонтакте" переход пройдет незамеченным, так как порядка 70 % уже включили режим микроблога в настройках».",
+      "en": "For most active VKontakte users, the transition will go unnoticed, as about 70% have already enabled microblog mode in settings.'",
+      "zh": "对于大多数活跃的VKontakte用户来说，这个过渡将不被察觉，因为约70%的用户已经在设置中启用了微博模式。"",
+      "ja": "VKontakteのほとんどのアクティブユーザーにとって、この移行は気づかれないでしょう。約70%がすでに設定でマイクロブログモードを有効にしているからです」"
+    },
+    {
+      "id": 27,
+      "ru": "(Цифру кое-как натянули – на самом деле абсолютный процент пользователей, перешедших на микроблог, был ниже.)",
+      "en": "(The figure was stretched—in reality the absolute percentage of users who switched to microblog was lower.)",
+      "zh": "（这个数字有些夸大——实际上切换到微博的用户绝对百分比更低。）",
+      "ja": "（この数字は引き伸ばされていた——実際にマイクロブログに切り替えたユーザーの絶対的な割合はもっと低かった。）"
+    },
+    {
+      "id": 28,
+      "ru": "Сеть отреагировала мгновенно.",
+      "en": "The network reacted instantly.",
+      "zh": "网络立即做出反应。",
+      "ja": "ネットワークは即座に反応した。"
+    },
+    {
+      "id": 29,
+      "ru": "Юзеры создали сотни групп с призывом вернуть старую стену.",
+      "en": "Users created hundreds of groups calling to bring back the old wall.",
+      "zh": "用户创建了数百个群组，呼吁恢复旧墙。",
+      "ja": "ユーザーは古い壁を復活させることを呼びかける何百ものグループを作った。"
+    },
+    {
+      "id": 30,
+      "ru": "Многие администраторы использовали возможности микроблога и рекрутировали друзей в движение против микроблога.",
+      "en": "Many administrators used microblog features to recruit friends into the movement against the microblog.",
+      "zh": "许多管理员利用微博功能招募朋友加入反对微博的运动。",
+      "ja": "多くの管理者がマイクロブログの機能を使って友人をマイクロブログ反対運動に勧誘した。"
+    },
+    {
+      "id": 31,
+      "ru": "Команда с чувством глубокого удовлетворения вводила в строку разработанного Николаем поиска запрос «Дуров» и знакомилась с трехэтажными ругательствами.",
+      "en": "The team, with deep satisfaction, entered the query 'Durov' into Nikolai's search bar and acquainted themselves with three-story swear words.",
+      "zh": "团队带着深深的满足感，在尼古拉开发的搜索栏中输入"杜罗夫"这个查询词，然后熟悉了三层楼高的脏话。",
+      "ja": "チームは深い満足感を持って、ニコライが開発した検索バーに「ドゥーロフ」というクエリを入力し、3階建ての悪口と知り合った。"
+    },
+    {
+      "id": 32,
+      "ru": "Равдоникас, следивший за пользовательской реакцией чуть более пристально, чем кодеры, не смог остановить льющуюся из него литературу:",
+      "en": "Ravdonikas, who watched user reactions slightly more closely than the coders, couldn't stop the literature pouring out of him:",
+      "zh": "拉夫多尼卡斯比程序员们更仔细地观察用户反应，无法阻止从他身上涌出的文学：",
+      "ja": "ラヴドニカスは、コーダーたちよりもわずかに注意深くユーザーの反応を見ていたが、彼から溢れ出る文学を止められなかった："
+    },
+    {
+      "id": 33,
+      "ru": "«22.02. Возле Казанского собора начинает собираться толпа.",
+      "en": "'22.02. A crowd begins to gather near Kazan Cathedral.",
+      "zh": ""22.02。人群开始在喀山大教堂附近聚集。",
+      "ja": "「22:02。カザン大聖堂の近くに群衆が集まり始める。"
+    },
+    {
+      "id": 34,
+      "ru": "В отсветах факелов там и тут поблескивают вилы.",
+      "en": "In the reflections of torches, pitchforks glitter here and there.",
+      "zh": "在火炬的反光中，草叉到处闪烁。",
+      "ja": "松明の光の中で、あちこちで熊手がきらめいている。"
+    },
+    {
+      "id": 35,
+      "ru": "Люди преимущественно спокойны и сосредоточенны, песен и лозунгов не слышно.",
+      "en": "People are mostly calm and focused, no songs or slogans heard.",
+      "zh": "人们大多平静而专注，没有听到歌曲或口号。",
+      "ja": "人々は主に落ち着いて集中しており、歌やスローガンは聞こえない。"
+    },
+    {
+      "id": 36,
+      "ru": "Висит недобрая тишина, нарушаемая глухим кашлем и шумом дождя.",
+      "en": "An ominous silence hangs, broken by muffled coughing and the sound of rain.",
+      "zh": "不祥的寂静笼罩着，只被低沉的咳嗽声和雨声打破。",
+      "ja": "不吉な沈黙が漂い、くぐもった咳と雨の音だけが聞こえる。"
+    }
+  ],
+  "translator_notes": [
+    "Page 76 continues describing VK team and The Wall launch",
+    "Valkyries - nickname for VK team members",
+    "Zenit's reserve team - major St. Petersburg football club",
+    "'C programmers room' - developers who only respond to Nikolai",
+    "Andrey Lopatin - Russian national programming team coach",
+    "Mother convinced Nikolai to stay helping Pavel",
+    "Ravdonikas - 'verbal design' of site, also a poet",
+    "Trochees - type of poetry meter",
+    "Massacre of innocents painting - dark humor about taking features",
+    "October 20th - forced microblog launch date",
+    "70% figure was exaggerated",
+    "Three-story swear words - Russian idiom for elaborate cursing",
+    "Ravdonikas's mock siege report at Kazan Cathedral"
+  ],
+  "total_sentences": 36,
+  "page_type": "narrative"
+}

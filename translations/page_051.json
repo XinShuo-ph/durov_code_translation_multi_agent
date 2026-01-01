@@ -1,0 +1,286 @@
+{
+  "page": 51,
+  "chapter": 4,
+  "chapter_title": "Сок черешни (Cherry Juice)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Глава 4. Сок черешни",
+      "en": "Chapter 4. Cherry Juice",
+      "zh": "第四章 樱桃汁",
+      "ja": "第4章 チェリージュース"
+    },
+    {
+      "id": 2,
+      "ru": "Это была странная квартира.",
+      "en": "It was a strange apartment.",
+      "zh": "那是一套奇怪的公寓。",
+      "ja": "それは奇妙なアパートだった。"
+    },
+    {
+      "id": 3,
+      "ru": "Едва не в полтораста квадратных метров, с четырьмя комнатами, глядящими узкими вытянутыми окнами во двор-колодец.",
+      "en": "Almost 150 square meters, with four rooms whose narrow elongated windows looked out onto a courtyard well.",
+      "zh": "将近150平方米，有四个房间，狭长的窗户望向天井式庭院。",
+      "ja": "約150平方メートルで、4つの部屋があり、細長い窓は井戸のような中庭に面していた。"
+    },
+    {
+      "id": 4,
+      "ru": "Со стороны фасада шумел и клокотал человеческий трафик Невского.",
+      "en": "From the facade side, the human traffic of Nevsky rumbled and churned.",
+      "zh": "正面这边是涅夫斯基大街喧嚣沸腾的人流。",
+      "ja": "ファサード側では、ネフスキー通りの人通りがざわめき、渦巻いていた。"
+    },
+    {
+      "id": 5,
+      "ru": "Население квартиры менялось от одного до десяти постояльцев.",
+      "en": "The apartment's population varied from one to ten residents.",
+      "zh": "公寓的居住人数从一人到十人不等。",
+      "ja": "アパートの住人は1人から10人の間で変動した。"
+    },
+    {
+      "id": 6,
+      "ru": "Средоточием жизни служила тесная комнатушка.",
+      "en": "A cramped little room served as the center of life.",
+      "zh": "一间狭小的房间是生活的中心。",
+      "ja": "狭い小部屋が生活の中心だった。"
+    },
+    {
+      "id": 7,
+      "ru": "За сдвинутыми столами стучали клавишами люди, останавливаясь лишь в шесть утра, когда по провайдерскому обыкновению падала сеть.",
+      "en": "At pushed-together tables, people hammered at keyboards, stopping only at six in the morning when, as was the provider's custom, the network went down.",
+      "zh": "人们在拼起来的桌子后敲击键盘，只在早上六点停下来——因为按照惯例提供商那时会断网。",
+      "ja": "くっつけたテーブルで人々がキーボードを叩き、プロバイダーの習慣でネットワークが落ちる朝6時にだけ止まった。"
+    },
+    {
+      "id": 8,
+      "ru": "Тогда люди обсуждали богословские вопросы типа: «Какой должна быть платформа для разработчиков?» или «Что хотят люди от соцсети?»",
+      "en": "Then people discussed theological questions like: \"What should a developer platform be?\" or \"What do people want from a social network?\"",
+      "zh": "那时人们会讨论一些神学式的问题，比如："开发者平台应该是什么样的？"或者"人们想从社交网络得到什么？"",
+      "ja": "そして人々は「開発者プラットフォームはどうあるべきか？」や「人々はソーシャルネットワークに何を求めているか？」といった神学的な問題を議論した。"
+    },
+    {
+      "id": 9,
+      "ru": "Затем, утомленные кодом и схоластикой, валились на кровати и спали до часа дня.",
+      "en": "Then, exhausted by code and scholasticism, they collapsed onto beds and slept until one in the afternoon.",
+      "zh": "然后，被代码和学术讨论累坏了，他们倒在床上睡到下午一点。",
+      "ja": "そしてコードとスコラ哲学に疲れ果て、ベッドに倒れ込み、午後1時まで眠った。"
+    },
+    {
+      "id": 10,
+      "ru": "Чтобы попасть во двор, Лев свернул с проспекта в подворотню с дверями неясного назначения и крадущимися по стенам проводами.",
+      "en": "To reach the courtyard, Lev turned off the avenue into a gateway with doors of unclear purpose and wires creeping along the walls.",
+      "zh": "为了进入院子，列夫从大街拐进一个门洞，那里有用途不明的门和沿墙爬行的电线。",
+      "ja": "中庭に入るため、レフは大通りから目的不明のドアと壁を這う配線のある門の下をくぐった。"
+    },
+    {
+      "id": 11,
+      "ru": "Раньше дом занимали контора и квартиры банкира Блокка, который реконструировал здание и воздвиг на фасаде аллегории Правосудия и Адвокатуры.",
+      "en": "The building had previously housed the office and apartments of banker Blokk, who had reconstructed the building and erected allegories of Justice and Advocacy on the facade.",
+      "zh": "这栋建筑以前是银行家布洛克的办公室和公寓，他重建了这座建筑，并在正面竖立了正义与辩护的寓言雕像。",
+      "ja": "以前この建物には銀行家ブロックの事務所とアパートがあり、彼は建物を再建し、ファサードに正義と弁護のアレゴリーを建てた。"
+    },
+    {
+      "id": 12,
+      "ru": "Дуров питал слабость к символике, и наличие аллегорий сыграло роль в выборе квартиры, к которой, гулко топая по лестнице, поднимался акционер его компании, нагруженный коробками.",
+      "en": "Durov had a weakness for symbolism, and the presence of allegories played a role in choosing the apartment, to which his company's shareholder, loaded with boxes, was now climbing with echoing footsteps on the stairs.",
+      "zh": "杜罗夫对象征主义有偏爱，这些寓言雕像在选择公寓时起了作用，他公司的股东正扛着箱子，脚步咚咚地爬上楼梯。",
+      "ja": "ドゥーロフは象徴主義に弱く、アレゴリーの存在はアパート選びに影響した。そのアパートに向かって、箱を抱えた彼の会社の株主が階段を響かせながら上っていった。"
+    },
+    {
+      "id": 13,
+      "ru": "Часто ночами одна из теней отвлекалась от ноутбука и бросала клич: «Кто за суши?»",
+      "en": "Often at night, one of the shadows would look up from their laptop and call out: \"Who's up for sushi?\"",
+      "zh": "经常在深夜，其中一个影子会从笔记本电脑前抬起头喊道："谁要去吃寿司？"",
+      "ja": "夜になると、しばしば影の一人がノートパソコンから目を上げて叫んだ：「寿司に行く人？」"
+    },
+    {
+      "id": 14,
+      "ru": "Коллеги неохотно отрывались от экранов и выдвигались в сторону двери и вниз по лестнице – к бару на углу Фонтанки и Невского.",
+      "en": "Colleagues reluctantly tore themselves from screens and headed toward the door and down the stairs—to the bar at the corner of Fontanka and Nevsky.",
+      "zh": "同事们不情愿地从屏幕前离开，走向门口，下楼——去丰坦卡河和涅夫斯基大街拐角处的酒吧。",
+      "ja": "同僚たちは渋々画面から離れ、ドアに向かい階段を下りた——フォンタンカとネフスキーの角にあるバーへ。"
+    },
+    {
+      "id": 15,
+      "ru": "Но в эту ночь они были заняты настолько, что Дуров набрал номер Льва и попросил привезти еды.",
+      "en": "But on this night they were so busy that Durov dialed Lev's number and asked him to bring food.",
+      "zh": "但这天晚上他们太忙了，杜罗夫拨打了列夫的电话，请他送食物过来。",
+      "ja": "しかしこの夜は彼らは非常に忙しく、ドゥーロフはレフの番号に電話して食べ物を持ってきてくれるよう頼んだ。"
+    },
+    {
+      "id": 16,
+      "ru": "Лев добрался до двери, перевел дыхание.",
+      "en": "Lev reached the door and caught his breath.",
+      "zh": "列夫走到门口，喘了口气。",
+      "ja": "レフはドアにたどり着き、息を整えた。"
+    },
+    {
+      "id": 17,
+      "ru": "Позвонил.",
+      "en": "He rang.",
+      "zh": "按了门铃。",
+      "ja": "呼び鈴を鳴らした。"
+    },
+    {
+      "id": 18,
+      "ru": "Шаги.",
+      "en": "Footsteps.",
+      "zh": "脚步声。",
+      "ja": "足音。"
+    },
+    {
+      "id": 19,
+      "ru": "«Пи-иццу заказывали?» – крикнул он.",
+      "en": "\"Did someone order pi-izza?\" he shouted.",
+      "zh": ""有人点披萨吗？"他喊道。",
+      "ja": "「ピ〜ザのご注文ですか？」と彼は叫んだ。"
+    },
+    {
+      "id": 20,
+      "ru": "Дверь отворил Дуров и, улыбаясь, отошел в сторону.",
+      "en": "Durov opened the door and, smiling, stepped aside.",
+      "zh": "杜罗夫打开门，微笑着让到一边。",
+      "ja": "ドゥーロフがドアを開け、微笑みながら脇に退いた。"
+    },
+    {
+      "id": 21,
+      "ru": "Лев, хоть и не впервые заглядывал сюда, с удивлением осмотрел пустующую квартиру.",
+      "en": "Lev, though not visiting for the first time, looked around the empty apartment with surprise.",
+      "zh": "虽然列夫不是第一次来这里，但他还是惊讶地环顾着空荡荡的公寓。",
+      "ja": "レフは初めての訪問ではなかったが、空っぽのアパートを驚いて見回した。"
+    },
+    {
+      "id": 22,
+      "ru": "Его приход будто не заметили.",
+      "en": "His arrival seemed to go unnoticed.",
+      "zh": "他的到来似乎没有被注意到。",
+      "ja": "彼の到着は気づかれなかったようだ。"
+    },
+    {
+      "id": 23,
+      "ru": "Программисты сгрудились в каком-то чулане.",
+      "en": "The programmers were huddled in some kind of closet.",
+      "zh": "程序员们挤在一个类似储藏室的地方。",
+      "ja": "プログラマーたちは物置のような場所に固まっていた。"
+    },
+    {
+      "id": 24,
+      "ru": "Николай восседал в кресле и стучал по клавиатуре, время от времени прикладываясь к шоколадному батончику.",
+      "en": "Nikolai sat enthroned in an armchair, hammering at the keyboard, occasionally taking bites of a chocolate bar.",
+      "zh": "尼古拉坐在扶手椅里敲击键盘，不时咬一口巧克力棒。",
+      "ja": "ニコライは肘掛け椅子に座り、キーボードを叩きながら、時折チョコレートバーをかじっていた。"
+    },
+    {
+      "id": 25,
+      "ru": "За самым большим из сдвинутых столов согнулся кто-то худой и растрепанный.",
+      "en": "At the largest of the pushed-together tables, someone thin and disheveled was hunched over.",
+      "zh": "在拼起来的最大的桌子后面，弯着腰坐着一个又瘦又蓬头垢面的人。",
+      "ja": "くっつけたテーブルの中で一番大きいものの前に、痩せてぼさぼさ頭の誰かがかがんでいた。"
+    },
+    {
+      "id": 26,
+      "ru": "Некоторые из аутистов все-таки поздоровались, но, взяв еду, вернулись к коду.",
+      "en": "Some of the autistics did say hello, but after taking food, returned to their code.",
+      "zh": "一些自闭症似的人还是打了招呼，但拿了食物后就回去写代码了。",
+      "ja": "自閉症的な人々の何人かは挨拶したが、食べ物を受け取るとコードに戻った。"
+    },
+    {
+      "id": 27,
+      "ru": "Лев поговорил с предводителем, по которому было видно, что он тоже не прочь уткнуться в десктоп.",
+      "en": "Lev talked with the leader, who clearly also wanted to get back to his desktop.",
+      "zh": "列夫和领导者聊了聊，能看出他也想回去盯着他的电脑。",
+      "ja": "レフはリーダーと話したが、彼も明らかにデスクトップに戻りたがっていた。"
+    },
+    {
+      "id": 28,
+      "ru": "Впрочем, Дуров, как всегда, был вежлив и прохладно приветлив.",
+      "en": "However, Durov, as always, was polite and coolly friendly.",
+      "zh": "不过，杜罗夫一如既往地礼貌而冷淡友好。",
+      "ja": "しかし、ドゥーロフはいつものように礼儀正しく、クールに友好的だった。"
+    },
+    {
+      "id": 29,
+      "ru": "Висело ощущение шабаша, на который заглянула человеческая душа.",
+      "en": "There hung a feeling of a coven that a human soul had wandered into.",
+      "zh": "有一种人类灵魂闯入巫魔会的感觉。",
+      "ja": "まるで人間の魂が魔女の集会に迷い込んだような雰囲気が漂っていた。"
+    },
+    {
+      "id": 30,
+      "ru": "Лев чувствовал себя не совсем уютно.",
+      "en": "Lev felt not entirely comfortable.",
+      "zh": "列夫感到不太自在。",
+      "ja": "レフは居心地の悪さを感じた。"
+    },
+    {
+      "id": 31,
+      "ru": "После сделки с Мильнером осенью 2007 года Дуров получил на счет деньги и с помощью матери, устроившейся риелтором, вложил их в квартиры – одну купил недалеко от дома, другую как офис, в сердце города.",
+      "en": "After the deal with Milner in fall 2007, Durov received money in his account and with his mother's help—she had become a realtor—invested it in apartments, buying one near home and another as an office in the heart of the city.",
+      "zh": "2007年秋天与米尔纳交易后，杜罗夫账户里有了钱，在当房产经纪人的母亲帮助下投资了公寓——一套买在家附近，另一套作为办公室买在市中心。",
+      "ja": "2007年秋のミルナーとの取引後、ドゥーロフは口座に資金を受け取り、不動産業者になっていた母親の助けを借りてアパートに投資した——一つは自宅近く、もう一つは市の中心部にオフィスとして購入した。"
+    },
+    {
+      "id": 32,
+      "ru": "Николай вернулся в Петербург, и вот они с братом осматривали анфиладу комнат – две спальни, гостиная, подобие чулана для прислуги, кухня.",
+      "en": "Nikolai returned to Petersburg, and the brothers were surveying the enfilade of rooms—two bedrooms, a living room, something like a servant's closet, a kitchen.",
+      "zh": "尼古拉回到彼得堡，兄弟俩在视察这一排房间——两间卧室、一间客厅、一个类似佣人储藏室的地方、一间厨房。",
+      "ja": "ニコライはペテルブルクに戻り、兄弟は続き部屋を見て回った——2つの寝室、リビング、使用人の物置のようなもの、キッチン。"
+    },
+    {
+      "id": 33,
+      "ru": "Дуров как истинный петербуржец привык жить в декорациях к историческим спектаклям, хотя, впрочем, признавал, что в последнее время репертуар измельчал и театр пробавляется одноактными оперетками про весенние сосули.",
+      "en": "Durov, as a true Petersburger, was used to living amid scenery for historical performances, though he admitted that lately the repertoire had grown shallow and the theater was subsisting on one-act operettas about spring icicles.",
+      "zh": "作为一个真正的彼得堡人，杜罗夫习惯了生活在历史剧的布景中，尽管他承认最近剧目变得肤浅，剧院只能靠关于春天冰柱的独幕轻歌剧维持。",
+      "ja": "真のペテルブルク人としてドゥーロフは歴史劇の舞台装置の中で暮らすことに慣れていたが、最近はレパートリーが薄っぺらくなり、劇場は春のつららについての一幕物オペレッタでしのいでいると認めた。"
+    },
+    {
+      "id": 34,
+      "ru": "Команда расширялась, и вскоре в девятиметровом пенале за сдвинутыми столами толкались четыре человека.",
+      "en": "The team was expanding, and soon four people were jostling at pushed-together tables in the nine-square-meter pencil case.",
+      "zh": "团队在扩张，很快在九平方米的狭长房间里，四个人挤在拼起来的桌子后面。",
+      "ja": "チームは拡大し、まもなく9平方メートルの細長い部屋で、くっつけたテーブルに4人がひしめいていた。"
+    },
+    {
+      "id": 35,
+      "ru": "Изредка кто-то уходил на кухню и кодил за столом для готовки.",
+      "en": "Occasionally someone would go to the kitchen and code at the cooking table.",
+      "zh": "偶尔有人会去厨房，在料理台上写代码。",
+      "ja": "時々誰かがキッチンに行き、調理台でコーディングした。"
+    },
+    {
+      "id": 36,
+      "ru": "Прочие метры оставались невостребованными.",
+      "en": "The other square meters remained unused.",
+      "zh": "其他的空间都闲置着。",
+      "ja": "残りの平米数は使われないままだった。"
+    },
+    {
+      "id": 37,
+      "ru": "Четырьмя годами позже я сел в лифт, напоминавший золоченую клетку, устланную коврами в духе советского министерства тяжелой промышленности, и поднялся на один из двух этажей «ВКонтакте» в доме Зингера.",
+      "en": "Four years later, I got into an elevator resembling a gilded cage, carpeted in the style of a Soviet Ministry of Heavy Industry, and went up to one of VKontakte's two floors in the Singer Building.",
+      "zh": "四年后，我走进一部像镀金笼子一样的电梯，铺着苏联重工业部风格的地毯，上到歌手大厦VKontakte两层楼中的一层。",
+      "ja": "4年後、私はソ連重工業省風のカーペットが敷かれた金色の鳥籠のようなエレベーターに乗り、シンガービルにあるVKontakteの2フロアのうちの1つに上がった。"
+    },
+    {
+      "id": 38,
+      "ru": "Перед дуровской бандой здесь обитали юристы,",
+      "en": "Before Durov's gang, lawyers had lived here,",
+      "zh": "在杜罗夫帮派之前，这里住着律师们，",
+      "ja": "ドゥーロフのギャングの前には、ここに弁護士たちが住んでいた、"
+    }
+  ],
+  "translator_notes": [
+    "Page 51 begins Chapter 4 'Cherry Juice' (Сок черешни)",
+    "Describes the cramped apartment office on Nevsky Prospect",
+    "Courtyard well (двор-колодец) - typical St. Petersburg apartment courtyard",
+    "Fontanka - river in St. Petersburg",
+    "Banker Blokk - historical owner of the building",
+    "Allegories on facade influenced Durov's choice (symbolism)",
+    "The 'pencil case' (пенал) refers to the narrow 9sqm room",
+    "Singer Building (Дом Зингера) - famous building on Nevsky, later VK headquarters",
+    "'Spring icicles' operetta - satirical reference to trivial Petersburg concerns"
+  ],
+  "total_sentences": 38,
+  "page_type": "narrative"
+}
