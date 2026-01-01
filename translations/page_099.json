@@ -1,0 +1,45 @@
+{
+  "page": 99,
+  "chapter": null,
+  "chapter_title": "About the Author",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Об авторе",
+      "en": "About the Author",
+      "zh": "关于作者 (Guānyú zuòzhě)",
+      "ja": "著者について"
+    },
+    {
+      "id": 2,
+      "ru": "Николай Кононов – журналист, главный редактор ежедневного издания о предпринимательстве Hopes&Fears (hopesandfears.com).",
+      "en": "Nikolai Kononov is a journalist, editor-in-chief of the daily publication on entrepreneurship Hopes&Fears (hopesandfears.com).",
+      "zh": "尼古拉·科诺诺夫是一名记者，创业日报Hopes&Fears (hopesandfears.com) 的主编。(Níkǔlā Kēnuònuòfū shì yī míng jìzhě, chuàngyè rìbào Hopes&Fears (hopesandfears.com) de zhǔbiān.)",
+      "ja": "ニコライ・コノノフはジャーナリストであり、起業家精神に関する日刊出版物Hopes&Fears（hopesandfears.com）の編集長である。"
+    },
+    {
+      "id": 3,
+      "ru": "Окончил МГУ, работал репортером в газетах «Известия» и «Столичная вечерняя».",
+      "en": "He graduated from Moscow State University and worked as a reporter at the newspapers Izvestia and Stolichnaya Vechernyaya.",
+      "zh": "他毕业于莫斯科国立大学，曾在《消息报》和《首都晚报》担任记者。(Tā bìyè yú Mòsīkē guólì dàxué, céng zài 'Xiāoxi bào' hé 'Shǒudū wǎnbào' dānrèn jìzhě.)",
+      "ja": "モスクワ国立大学を卒業し、イズベスチヤ紙とストリーチナヤ・ヴェチェルニャヤ紙で記者として働いた。"
+    },
+    {
+      "id": 4,
+      "ru": "Писал о бизнесменах разного масштаба – от деревенских подвижников до миллиардеров – сначала в журнале «Эксперт», а затем на протяжении семи лет в российском издании Forbes.",
+      "en": "He wrote about businessmen of various scales—from village pioneers to billionaires—first at Expert magazine, and then for seven years at the Russian edition of Forbes.",
+      "zh": "他撰写过关于各种规模商人的文章——从乡村先驱到亿万富翁——先是在《专家》杂志，然后在《福布斯》俄罗斯版工作了七年。(Tā zhuànxiě guò guānyú gè zhǒng guīmó shāngrén de wénzhāng——cóng xiāngcūn xiānqū dào yìwàn fùwēng——xiān shì zài 'Zhuānjiā' zázhì, ránhòu zài 'Fúbùsī' Éluósī bǎn gōngzuòle qī nián.)",
+      "ja": "彼は様々な規模のビジネスマン——村の先駆者から億万長者まで——について書いた。最初はエクスペルト誌で、その後7年間フォーブス・ロシア版で。"
+    },
+    {
+      "id": 5,
+      "ru": "Автор книги «Бог без машины: Истории 20 сумасшедших, сделавших в России бизнес с нуля».",
+      "en": "Author of the book 'God Without a Machine: Stories of 20 Madmen Who Built Businesses from Scratch in Russia.'",
+      "zh": "著有《没有机器的上帝：20个在俄罗斯白手起家的疯子的故事》一书。(Zhùyǒu 'Méiyǒu jīqì de shàngdì: 20 gè zài Éluósī báishǒu qǐjiā de fēngzi de gùshì' yī shū.)",
+      "ja": "著書に『機械なしの神：ロシアでゼロからビジネスを作った20人の狂人の物語』がある。"
+    }
+  ],
+  "translator_notes": "This is the author biography page. Nikolai Kononov is a respected Russian business journalist. MGU (Moscow State University) is Russia's most prestigious university. Izvestia is a major Russian national newspaper. Expert is an influential Russian business magazine. His previous book 'God Without a Machine' (Бог без машины) features 20 Russian entrepreneurs. The title plays on 'deus ex machina' (god from the machine) - these entrepreneurs succeeded without divine intervention or systemic support. Hopes&Fears was a popular Russian digital media startup covering business and entrepreneurship.",
+  "total_sentences": 5,
+  "page_type": "backmatter"
+}
