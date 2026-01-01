@@ -28,8 +28,8 @@
 | M1.2 | Explore Python approach | done | Success (reportlab) |
 | M1.3 | Design color/font scheme | done | RU:Black, EN:Blue, ZH:Red, JA:Green |
 | M1.4 | Create demo template | done | tools/compile_pages.py |
-| M1.5 | Translate page 13 demo | done | fce2b949 |
-| M1.6 | Translate page 43 demo | done | 12a32cbf |
+| M1.5 | Translate page 13 demo | done | 87f8e918 |
+| M1.6 | Translate page 43 demo | done | 12895326 |
 | M1.7 | Document approach | done | tools/README.md |
 
 ## M2 Page Claims

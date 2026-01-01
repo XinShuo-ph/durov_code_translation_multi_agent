@@ -68,6 +68,13 @@ def create_pdf(json_path, output_path):
         story.append(Paragraph("-" * 50, styles['Normal']))
         story.append(Spacer(1, 12))
 
+    # Add Translator Notes if any
+    if 'translator_notes' in data and data['translator_notes']:
+        story.append(PageBreak())
+        story.append(Paragraph("Translator Notes", styles['Heading2']))
+        for note in data['translator_notes']:
+            story.append(Paragraph(f"- {note}", styles['Normal']))
+
     doc.build(story)
     print(f"PDF created at {output_path}")
 
