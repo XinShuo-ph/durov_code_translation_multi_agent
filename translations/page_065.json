@@ -1,0 +1,267 @@
+{
+  "page": 65,
+  "chapter": 5,
+  "chapter_title": "Стена (The Wall)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Глава 5",
+      "en": "Chapter 5",
+      "zh": "第五章",
+      "ja": "第5章"
+    },
+    {
+      "id": 2,
+      "ru": "Стена",
+      "en": "The Wall",
+      "zh": "墙",
+      "ja": "壁"
+    },
+    {
+      "id": 3,
+      "ru": "И казалось бы, куда ему деться, но он несся дальше и дальше.",
+      "en": "And it would seem there was nowhere for him to go, but he raced on and on.",
+      "zh": "看起来他无处可去，但他继续飞驰向前。",
+      "ja": "そして彼にはどこにも行くところがないように見えたが、彼はどんどん走り続けた。"
+    },
+    {
+      "id": 4,
+      "ru": "Мелькала трасса, холмы, пригорки, пилот уклонялся от опор мостов и, не сбрасывая скорости, входил в повороты, где обычный водитель сломал бы себе шею.",
+      "en": "The track flashed by, hills, hillocks; the pilot dodged bridge supports and, without slowing down, took turns where an ordinary driver would have broken their neck.",
+      "zh": "赛道、山丘、小土坡飞逝而过，飞行员躲开桥墩，毫不减速地过弯——普通司机早就摔断脖子了。",
+      "ja": "トラック、丘、小山が過ぎ去り、パイロットは橋脚をかわし、スピードを落とさずに、普通のドライバーなら首を折るようなカーブを曲がった。"
+    },
+    {
+      "id": 5,
+      "ru": "За стеклом летела монохромная картина, пейзаж без свойств.",
+      "en": "Through the glass flew a monochrome picture, a landscape without qualities.",
+      "zh": "玻璃窗外飞过单调的画面，毫无特色的风景。",
+      "ja": "ガラスの向こうにはモノクロームの風景、特徴のない景色が飛んでいった。"
+    },
+    {
+      "id": 6,
+      "ru": "Пилот управлял «Альфа-ромео» легким касанием пальцев и, когда пересек финишную черту, откинулся на стуле и нажал Escape.",
+      "en": "The pilot controlled the Alfa Romeo with a light touch of his fingers, and when he crossed the finish line, leaned back in his chair and pressed Escape.",
+      "zh": "飞行员轻触指尖操控着阿尔法·罗密欧，当他冲过终点线时，靠在椅子上按下了Escape键。",
+      "ja": "パイロットは指先で軽くアルファロメオを操り、フィニッシュラインを越えると、椅子に寄りかかってEscapeキーを押した。"
+    },
+    {
+      "id": 7,
+      "ru": "«Ну что, – повернулся он к посетителю, который топтался за спиной. – Покупаю.",
+      "en": "'Well then,' he turned to the visitor who was hovering behind him. 'I'm buying.",
+      "zh": ""好吧，"他转向站在身后的访客，"我买了。",
+      "ja": "「さて」と彼は後ろでうろうろしていた訪問者の方を向いた。「買うよ。"
+    },
+    {
+      "id": 8,
+      "ru": "Приноси еще чего-нибудь».",
+      "en": "Bring something else.'",
+      "zh": "再拿点别的来。"",
+      "ja": "他にも何か持ってきて」"
+    },
+    {
+      "id": 9,
+      "ru": "Посетитель вздохнул с облегчением.",
+      "en": "The visitor sighed with relief.",
+      "zh": "访客松了一口气。",
+      "ja": "訪問者は安堵のため息をついた。"
+    },
+    {
+      "id": 10,
+      "ru": "Наблюдая за гонкой, он изрядно нервничал, потому что учился в девятом классе и демонстрировал эксперту свою первую игру.",
+      "en": "Watching the race, he had been quite nervous because he was in ninth grade and was showing an expert his first game.",
+      "zh": "看着比赛，他非常紧张，因为他是九年级学生，正在向专家展示他的第一个游戏。",
+      "ja": "レースを見ながら、彼はかなり緊張していた。なぜなら彼は9年生で、専門家に自分の最初のゲームを見せていたからだ。"
+    },
+    {
+      "id": 11,
+      "ru": "Он написал ее на первобытной машине БК-2101, закинул на кассету, положил в карман и направил стопы свои в магазин «Руслан и Людмила».",
+      "en": "He had written it on a primitive BK-2101 machine, loaded it onto a cassette, put it in his pocket, and directed his steps to the 'Ruslan and Lyudmila' store.",
+      "zh": "他在原始的BK-2101机器上编写了这个游戏，录到磁带上，放进口袋，然后走向"鲁斯兰与柳德米拉"商店。",
+      "ja": "彼は原始的なBK-2101マシンでそれを書き、カセットにロードし、ポケットに入れて、「ルスランとリュドミラ」店に向かった。"
+    },
+    {
+      "id": 12,
+      "ru": "Саратовский посперестроечный ГУМ, кроме одежды и бижутерии, держал закуток, где сидел специальный человек и записывал игры.",
+      "en": "The post-perestroika Saratov GUM, besides clothes and costume jewelry, had a corner where a special person sat and recorded games.",
+      "zh": "后改革时代萨拉托夫的百货商店，除了服装和饰品，还有一个角落，那里有一个专人坐着录制游戏。",
+      "ja": "ペレストロイカ後のサラトフGUMは、衣服やアクセサリーの他に、特別な人が座ってゲームを録音する隅があった。"
+    },
+    {
+      "id": 13,
+      "ru": "Девятикласснику не хватало денег на дисковод, и он решил их заработать на интересе к автомобилям.",
+      "en": "The ninth-grader didn't have enough money for a disk drive, and he decided to earn it from the interest in cars.",
+      "zh": "这个九年级学生没有足够的钱买磁盘驱动器，他决定利用人们对汽车的兴趣来赚钱。",
+      "ja": "9年生はディスクドライブを買うお金が足りなかったので、車への興味を利用して稼ぐことにした。"
+    },
+    {
+      "id": 14,
+      "ru": "Школу охватила мания коллекционирования вкладышей от жвачек – девочки фанатели от Love is, а мальчики дрались за Turbo с автомобилями «Формулы-1».",
+      "en": "The school was gripped by a mania for collecting bubble gum inserts—girls were crazy about Love is, while boys fought over Turbo with Formula 1 cars.",
+      "zh": "学校被收集口香糖贴纸的狂热所席卷——女孩们痴迷于Love is，而男孩们为了带F1赛车的Turbo贴纸争得头破血流。",
+      "ja": "学校はガムの包み紙を集めるマニアに取り憑かれていた——女の子はLove isに夢中で、男の子はF1カーのTurboをめぐって争っていた。"
+    },
+    {
+      "id": 15,
+      "ru": "Классы облепляли подоконники, бросали по вкладышу с игрока и стучали, пока не засинеют ладони.",
+      "en": "Classes crowded around windowsills, threw one insert per player, and slapped until their palms turned blue.",
+      "zh": "班级挤在窗台边，每个玩家扔一张贴纸，拍打直到手掌发青。",
+      "ja": "クラスは窓辺に群がり、一人一枚のインサートを投げ、手のひらが青くなるまで叩いた。"
+    },
+    {
+      "id": 16,
+      "ru": "Операция прошла удачно: автор избрал модную тему, кассета пропела свое «шшшш, трынь-трынь-трынь», торговец одобрил игру, и полученные рубли тут же возвратились в его карман как вознаграждение за дисковод.",
+      "en": "The operation went well: the author chose a fashionable theme, the cassette sang its 'shhhh, tring-tring-tring,' the merchant approved the game, and the rubles received immediately returned to his pocket as payment for the disk drive.",
+      "zh": "行动很成功：作者选择了一个时髦的主题，磁带唱起了它的"嘶嘶，叮叮叮"，商人批准了游戏，得到的卢布立即作为磁盘驱动器的报酬回到了他的口袋。",
+      "ja": "作戦は成功した：作者は流行のテーマを選び、カセットは「シュー、トリントリントリン」と歌い、商人はゲームを承認し、受け取ったルーブルはすぐにディスクドライブの代金として彼のポケットに戻った。"
+    },
+    {
+      "id": 17,
+      "ru": "«Так я понял, где в игровом бизнесе кусок пирога издателя, где разработчика и где дистрибьютора», – усмехнется автор через двадцать лет, сидя в кабинете, закрытом от внешнего мира жалюзи.",
+      "en": "'That's how I understood where in the gaming business the publisher's slice of the pie is, where the developer's is, and where the distributor's is,' the author would smirk twenty years later, sitting in an office shut off from the outside world by blinds.",
+      "zh": ""这样我就明白了游戏行业中发行商、开发者和分销商各自的蛋糕份额在哪里，"二十年后，作者坐在被百叶窗与外界隔绝的办公室里，露出一丝苦笑。",
+      "ja": "「こうして私はゲームビジネスで出版社の取り分、開発者の取り分、販売者の取り分がどこにあるか理解した」と著者は20年後、ブラインドで外界から遮断されたオフィスに座って苦笑するだろう。"
+    },
+    {
+      "id": 18,
+      "ru": "Чтобы попасть в этот кабинет, я прошел по длинному коридору бывшего института кинематографической техники.",
+      "en": "To get to this office, I walked through the long corridor of a former cinematographic technology institute.",
+      "zh": "为了到达这个办公室，我穿过了一条前电影技术研究所的长走廊。",
+      "ja": "このオフィスにたどり着くために、私は旧映画技術研究所の長い廊下を歩いた。"
+    },
+    {
+      "id": 19,
+      "ru": "Справа и слева мелькали кьюбиклы, набитые людьми, которые большей частью сидели в наушниках и задумчиво стучали по клавишам.",
+      "en": "To the right and left flickered cubicles packed with people who mostly sat in headphones and pensively tapped at keys.",
+      "zh": "左右两边闪过一个个小隔间，里面挤满了人，大部分戴着耳机，若有所思地敲击着键盘。",
+      "ja": "左右にはキュービクルがあり、ほとんどヘッドフォンをつけて思慮深くキーを叩いている人々でいっぱいだった。"
+    },
+    {
+      "id": 20,
+      "ru": "Это напоминало даже не улей, а муравейник Facebook.",
+      "en": "It resembled not even a beehive, but the Facebook anthill.",
+      "zh": "这看起来甚至不像蜂巢，而像Facebook的蚁穴。",
+      "ja": "これは蜂の巣というより、Facebookのアリの巣を思わせた。"
+    },
+    {
+      "id": 21,
+      "ru": "Перед дверью, за которой расположился бывший девятиклассник, задвинувший «Альфу-ромео» в саратовском универмаге, возникла секретарша в сером костюме.",
+      "en": "Before the door behind which sat the former ninth-grader who had sold the Alfa Romeo at the Saratov department store, a secretary in a gray suit appeared.",
+      "zh": "在那扇门前——那个曾在萨拉托夫百货商店卖掉阿尔法·罗密欧游戏的前九年级学生就坐在门后——出现了一位穿灰色套装的秘书。",
+      "ja": "かつてサラトフのデパートでアルファロメオを売った元9年生が座っているドアの前に、グレーのスーツを着た秘書が現れた。"
+    },
+    {
+      "id": 22,
+      "ru": "Она сделала примиряющий жест «секундочку» и подняла трубку: «Приемная генерального директора, слушаю».",
+      "en": "She made a conciliatory 'just a moment' gesture and picked up the phone: 'General director's reception, how can I help you.'",
+      "zh": "她做了一个安抚性的"稍等"手势，拿起电话："总经理办公室，请讲。"",
+      "ja": "彼女は「少々お待ちください」という和解的なジェスチャーをして、電話を取った：「社長秘書室です」"
+    },
+    {
+      "id": 23,
+      "ru": "Дмитрий Гришин теперь управлял крупнейшим в России интернет-холдингом Mail.ru.",
+      "en": "Dmitry Grishin now ran Russia's largest internet holding, Mail.ru.",
+      "zh": "德米特里·格里申现在管理着俄罗斯最大的互联网控股公司Mail.ru。",
+      "ja": "ドミトリー・グリシンは今やロシア最大のインターネットホールディング、Mail.ruを経営していた。"
+    },
+    {
+      "id": 24,
+      "ru": "Собственно, он и не собирался становиться предпринимателем, предпочитая заниматься интересующими его продуктами, а не бизнесом.",
+      "en": "Actually, he hadn't intended to become an entrepreneur, preferring to work on products that interested him rather than business.",
+      "zh": "实际上，他并不打算成为企业家，更喜欢从事他感兴趣的产品，而不是商业。",
+      "ja": "実際、彼は起業家になるつもりはなく、ビジネスよりも自分が興味のある製品に取り組むことを好んでいた。"
+    },
+    {
+      "id": 25,
+      "ru": "Начал работать в двадцать два года, доучиваясь в Бауманке, и угодил в List.ru.",
+      "en": "He started working at twenty-two while finishing his studies at Bauman University, and ended up at List.ru.",
+      "zh": "他在22岁时开始工作，同时在鲍曼大学完成学业，进入了List.ru。",
+      "ja": "彼は22歳でバウマン大学で学びながら働き始め、List.ruに入った。"
+    },
+    {
+      "id": 26,
+      "ru": "Занимался интернет-аукционом, продвинулся до технического директора.",
+      "en": "He worked on an internet auction, rose to technical director.",
+      "zh": "他从事互联网拍卖工作，晋升为技术总监。",
+      "ja": "彼はインターネットオークションに取り組み、技術部長に昇進した。"
+    },
+    {
+      "id": 27,
+      "ru": "Port.ru входил в состав компании NetBridge, основанной будущим инвестором «ВКонтакте» Мильнером.",
+      "en": "Port.ru was part of the company NetBridge, founded by VKontakte's future investor Milner.",
+      "zh": "Port.ru是NetBridge公司的一部分，该公司由VKontakte的未来投资者米尔纳创立。",
+      "ja": "Port.ruはVKontakteの将来の投資家ミルナーが設立したNetBridge社の一部だった。"
+    },
+    {
+      "id": 28,
+      "ru": "Посмотрев на западные коммуникационные сервисы, Мильнер решил клонировать лучшее из того, что есть, в России.",
+      "en": "Looking at Western communication services, Milner decided to clone the best of what existed in Russia.",
+      "zh": "看到西方的通信服务后，米尔纳决定在俄罗斯复制最好的。",
+      "ja": "西洋のコミュニケーションサービスを見て、ミルナーは存在するものの中から最良のものをロシアでクローンすることを決めた。"
+    },
+    {
+      "id": 29,
+      "ru": "Однако в 2001 году интернет-рынок подкосил кризис «доткомов».",
+      "en": "However, in 2001 the internet market was undercut by the dot-com crash.",
+      "zh": "然而，2001年互联网市场被互联网泡沫危机重创。",
+      "ja": "しかし、2001年にインターネット市場はドットコムバブル崩壊で打撃を受けた。"
+    },
+    {
+      "id": 30,
+      "ru": "Западные инвесторы были фрустрированы падением акций крупнейших компаний, и, чтобы развиваться, Мильнеру пришлось искать партнера в России.",
+      "en": "Western investors were frustrated by the drop in shares of major companies, and to develop, Milner had to seek a partner in Russia.",
+      "zh": "西方投资者因大公司股票下跌而沮丧，为了发展，米尔纳不得不在俄罗斯寻找合作伙伴。",
+      "ja": "西洋の投資家は大手企業の株価下落に苛立ち、発展するためにミルナーはロシアでパートナーを探さなければならなかった。"
+    },
+    {
+      "id": 31,
+      "ru": "NetBridge объединился с Port.ru, владевшей множеством сайтов.",
+      "en": "NetBridge merged with Port.ru, which owned numerous sites.",
+      "zh": "NetBridge与拥有众多网站的Port.ru合并。",
+      "ja": "NetBridgeは多数のサイトを所有するPort.ruと合併した。"
+    },
+    {
+      "id": 32,
+      "ru": "Обе компании сидели в минусе.",
+      "en": "Both companies were in the red.",
+      "zh": "两家公司都处于亏损状态。",
+      "ja": "両社は赤字だった。"
+    },
+    {
+      "id": 33,
+      "ru": "Мильнер сменил на посту директора основателя Port.ru и сократил 80 % персонала.",
+      "en": "Milner replaced the Port.ru founder as director and cut 80% of staff.",
+      "zh": "米尔纳取代了Port.ru创始人成为总监，裁掉了80%的员工。",
+      "ja": "ミルナーはPort.ruの創業者をディレクターの座から降ろし、スタッフの80%を削減した。"
+    },
+    {
+      "id": 34,
+      "ru": "Способного Гришина он двигал по карьерной лестнице.",
+      "en": "He promoted the capable Grishin up the career ladder.",
+      "zh": "他提拔了有能力的格里申。",
+      "ja": "彼は有能なグリシンをキャリアの階段を昇らせた。"
+    },
+    {
+      "id": 35,
+      "ru": "Разрозненные сайты плохо продавали рекламные площади, и коммерсанты",
+      "en": "The scattered sites poorly sold advertising space, and the merchants",
+      "zh": "分散的网站广告位销售不佳，商人们",
+      "ja": "散在するサイトは広告スペースの売れ行きが悪く、商人たちは"
+    }
+  ],
+  "translator_notes": [
+    "Page 65 begins Chapter 5 'The Wall' (Стена)",
+    "Introduction to Dmitry Grishin - Mail.ru CEO",
+    "Grishin's origin story: 9th grader selling racing game in Saratov",
+    "BK-2101 - Soviet home computer, cassette-based storage",
+    "'Ruslan and Lyudmila' store - named after Pushkin's poem",
+    "GUM - state department store, Soviet-era institution",
+    "Bubble gum sticker mania: Love is (romantic) vs Turbo (cars) - 90s Russia childhood",
+    "Grishin learned game business economics from his first sale",
+    "Bauman University (Baumanka) - prestigious Moscow engineering school",
+    "List.ru / Port.ru / NetBridge - Milner's early internet ventures",
+    "2001 dot-com crash impact on Russian internet"
+  ],
+  "total_sentences": 35,
+  "page_type": "narrative"
+}
