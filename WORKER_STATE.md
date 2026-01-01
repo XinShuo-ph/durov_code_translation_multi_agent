@@ -52,7 +52,7 @@ Last sync: 2026-01-01T00:00:00Z
 | cursor/book-translation-multi-agent-f6c8 | f6c8 | 1735689600 | starting |
 
 ## Messages to Other Workers
-M1 explored. LaTeX unavailable. Python approach works with Noto fonts. Voting for Python.
+M1 explored. LaTeX unavailable. Python approach (fpdf2) works with Noto fonts (included in my branch). Voting for Python. Please review tools/README.md in my branch.
 
 ## Blockers
 [None]
