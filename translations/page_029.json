@@ -1,0 +1,297 @@
+{
+  "page": 29,
+  "chapter": 2,
+  "chapter_title": "Архитектор (The Architect)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Нет, не наша клиентура – Дуров анализирует трафик, – если девочка, то должна быть неформалка.",
+      "en": "No, not our clientele—Durov analyzes the traffic—if it's a girl, she should be an alternative type.",
+      "zh": "不，不是我们的客户群——杜罗夫分析着人流——如果是女孩，应该是非主流的。",
+      "ja": "いや、うちの客層じゃない——ドゥーロフはトラフィックを分析する——女の子なら、非主流派であるべきだ。"
+    },
+    {
+      "id": 2,
+      "ru": "Пусть не модель, но с харизмой.",
+      "en": "Maybe not a model, but with charisma.",
+      "zh": "也许不是模特，但要有魅力。",
+      "ja": "モデルじゃなくても、カリスマ性があればいい。"
+    },
+    {
+      "id": 3,
+      "ru": "Наконец мелькает умный взгляд, приближается интеллигентный вроде тип и не ботан.",
+      "en": "Finally a smart gaze flashes by, an apparently intelligent type approaches, and not a nerd.",
+      "zh": "终于出现了一个聪明的目光，一个看起来有智慧而不是书呆子的人走过来。",
+      "ja": "ようやく賢そうな視線がちらつき、知的に見えるタイプが近づいてくる、オタクではない。"
+    },
+    {
+      "id": 4,
+      "ru": "Запускаем программу знакомства.",
+      "en": "We launch the getting-to-know-you program.",
+      "zh": "我们启动结交程序。",
+      "ja": "知り合いになるプログラムを起動する。"
+    },
+    {
+      "id": 5,
+      "ru": "Алгоритм прост: подходим с невинным вопросом. Выказываем интерес. Начинаем обсуждать факультет.",
+      "en": "The algorithm is simple: approach with an innocent question. Show interest. Start discussing the faculty.",
+      "zh": "算法很简单：用一个无害的问题接近。表现出兴趣。开始讨论学院。",
+      "ja": "アルゴリズムはシンプルだ：無邪気な質問で近づく。興味を示す。学部について話し始める。"
+    },
+    {
+      "id": 6,
+      "ru": "А я с филфака, заходите, у нас дворик неплохой, декан собирает скульптуры, да.",
+      "en": "I'm from the philology faculty, come visit, we have a nice courtyard, the dean collects sculptures, yes.",
+      "zh": "我是语文系的，来参观吧，我们的庭院不错，院长收集雕塑，是的。",
+      "ja": "私は文献学部から来ました、遊びに来てください、うちには素敵な中庭があります、学部長が彫刻を集めているんです、ええ。"
+    },
+    {
+      "id": 7,
+      "ru": "Вы, может быть, слышали, он у нас большой оригинал, на день филолога приехал на карете, ряженный в камзол, в том году на «Харлее», а в позапрошлом вообще на воздушном шаре этаким богом из машины.",
+      "en": "You may have heard, he's quite an eccentric, on Philologist's Day he arrived in a carriage, dressed in a doublet, last year on a Harley, and the year before that on a hot air balloon like a deus ex machina.",
+      "zh": "你可能听说过，他是个大怪人，在语文学家日那天他乘马车到达，穿着紧身短上衣，去年骑哈雷，前年干脆乘热气球像机械之神一样降临。",
+      "ja": "聞いたことがあるかもしれませんが、彼はかなりの変わり者で、言語学者の日に馬車で来て、ダブレットを着て、去年はハーレーで、一昨年は熱気球でまるでデウス・エクス・マキナのように。"
+    },
+    {
+      "id": 8,
+      "ru": "Система пропусков есть, приходите, закажем.",
+      "en": "There's a pass system, come by, we'll arrange it.",
+      "zh": "有通行证系统，来吧，我们会安排的。",
+      "ja": "パスシステムがあります、来てください、手配します。"
+    },
+    {
+      "id": 9,
+      "ru": "Знакомство состоялось, и возникает тема форума.",
+      "en": "The introduction is made, and the topic of the forum arises.",
+      "zh": "结识完成，论坛的话题出现了。",
+      "ja": "紹介が済み、フォーラムの話題が出てくる。"
+    },
+    {
+      "id": 10,
+      "ru": "Из чемоданчика появляются афиши.",
+      "en": "Posters appear from the briefcase.",
+      "zh": "海报从公文包里出现。",
+      "ja": "ブリーフケースからポスターが現れる。"
+    },
+    {
+      "id": 11,
+      "ru": "Избранник рассказывает про профком, оппозицию – весь расклад сил на факультете и тусовки, где вертятся личности, притягивающие глаза и уши.",
+      "en": "The recruit tells about the trade union, the opposition—the whole balance of power at the faculty and the hangouts where personalities that attract eyes and ears circulate.",
+      "zh": "被选中者讲述工会、反对派——学院的整个权力格局以及吸引眼球和耳朵的人物聚集的地方。",
+      "ja": "選ばれた人は労働組合、反対派について話す——学部の権力バランス全体と、目と耳を引く人物がいるたまり場について。"
+    },
+    {
+      "id": 12,
+      "ru": "Если избранник оказывается лидером, прекрасно. Если нет, Дуров добирается через него до агентов влияния.",
+      "en": "If the recruit turns out to be a leader, great. If not, Durov reaches the agents of influence through them.",
+      "zh": "如果被选中者是领导者，太好了。如果不是，杜罗夫通过他们接触到有影响力的人。",
+      "ja": "選ばれた人がリーダーなら素晴らしい。そうでなければ、ドゥーロフは彼らを通じて影響力のあるエージェントに到達する。"
+    },
+    {
+      "id": 13,
+      "ru": "На филфаке вокруг него теперь тусовались не только одногруппницы, но и активные писатели форума.",
+      "en": "At the philology faculty, not only his classmates but also active forum writers now hung around him.",
+      "zh": "在语文系，现在围着他的不仅是同班同学，还有论坛上活跃的写手。",
+      "ja": "文献学部では、クラスメートだけでなく、フォーラムの活発な書き込み者も彼の周りに集まるようになった。"
+    },
+    {
+      "id": 14,
+      "ru": "Между лекциями они собирались во дворе и болтали о высоком – например, про ценности либертарианства.",
+      "en": "Between lectures they gathered in the courtyard and chatted about lofty topics—for example, about the values of libertarianism.",
+      "zh": "课间他们在庭院里聚集，聊高深的话题——比如自由意志主义的价值观。",
+      "ja": "講義の合間に彼らは中庭に集まり、高尚な話題について語り合った——例えば、リバタリアニズムの価値について。"
+    },
+    {
+      "id": 15,
+      "ru": "Эти споры продолжались в онлайне.",
+      "en": "These debates continued online.",
+      "zh": "这些辩论在网上继续。",
+      "ja": "これらの議論はオンラインでも続いた。"
+    },
+    {
+      "id": 16,
+      "ru": "Дуров повесил на свой аккаунт картинку с золотым орлом на красном поле и подписался The Architect (архитектор).",
+      "en": "Durov put up an image of a golden eagle on a red field on his account and signed it The Architect.",
+      "zh": "杜罗夫在他的账户上放了一张红色背景上的金鹰图片，并署名为\"建筑师\"。",
+      "ja": "ドゥーロフは自分のアカウントに赤い背景に金色の鷲の画像を設定し、「アーキテクト」と署名した。"
+    },
+    {
+      "id": 17,
+      "ru": "«Какое-то время я старался разжигать огонь, – вспоминал он. – Человек приходил на форум – а ничего нет, пусто и мертвые с косами стоят.",
+      "en": "\"For a while I tried to stoke the fire,\" he recalled. \"A person would come to the forum—and there's nothing, it's empty and grim reapers are standing around.",
+      "zh": "\"有一段时间我努力煽风点火，\"他回忆道。\"一个人来到论坛——什么都没有，空荡荡的，死神拿着镰刀站在那里。",
+      "ja": "「しばらくの間、私は火をつけようとしていた」と彼は回想した。「人がフォーラムに来る——何もない、空っぽで死神が鎌を持って立っている。"
+    },
+    {
+      "id": 18,
+      "ru": "И он не оставлял сообщения, уходил.",
+      "en": "And he wouldn't leave a message, he'd leave.",
+      "zh": "他就不留言，走了。",
+      "ja": "そして彼はメッセージを残さずに去る。"
+    },
+    {
+      "id": 19,
+      "ru": "Надо было создать иллюзию наличия критической массы.",
+      "en": "It was necessary to create the illusion of critical mass.",
+      "zh": "需要创造出临界质量的错觉。",
+      "ja": "臨界質量があるという幻想を作り出す必要があった。"
+    },
+    {
+      "id": 20,
+      "ru": "Я использовал заголовки, которые являются стопроцентным попаданием: возможна ли дружба между мужчиной и женщиной и т. д.",
+      "en": "I used titles that are a hundred percent hits: is friendship between a man and a woman possible, etc.",
+      "zh": "我使用百分之百命中的标题：男人和女人之间有没有可能有友谊，等等。",
+      "ja": "私は百パーセント当たるタイトルを使った：男女間の友情は可能か、などなど。"
+    },
+    {
+      "id": 21,
+      "ru": "Спорщиков приходилось зацеплять.",
+      "en": "Debaters had to be hooked.",
+      "zh": "必须把争论者钩住。",
+      "ja": "議論好きな人たちを引っ掛ける必要があった。"
+    },
+    {
+      "id": 22,
+      "ru": "Если с оратором все согласятся, он почувствует, что он красавчик, делать тут больше нечего, и уйдет.",
+      "en": "If everyone agrees with a speaker, he'll feel like a stud, there's nothing more to do here, and he'll leave.",
+      "zh": "如果每个人都同意演讲者的观点，他会觉得自己很帅，这里没什么事可做了，然后离开。",
+      "ja": "発言者に皆が同意すれば、彼はイケてると感じ、ここでやることはもうないと思って去る。"
+    },
+    {
+      "id": 23,
+      "ru": "Если поспорят с ним, немного унизив, – вернется, чтобы доказать, что он лучший».",
+      "en": "If they argue with him, humiliating him a bit—he'll come back to prove he's the best.\"",
+      "zh": "如果他们和他争论，稍微羞辱他一下——他会回来证明自己是最好的。\"",
+      "ja": "もし彼と議論して、少し屈辱を与えれば——彼は自分が最高だと証明するために戻ってくる」"
+    },
+    {
+      "id": 24,
+      "ru": "Однако шпионские истории с проникновением на факультеты и скандальные темы не привели к необходимому эффекту.",
+      "en": "However, spy stories about infiltrating faculties and scandalous topics didn't produce the necessary effect.",
+      "zh": "然而，关于渗透学院的间谍故事和丑闻话题并没有产生必要的效果。",
+      "ja": "しかし、学部に潜入するスパイ物語やスキャンダラスな話題は、必要な効果を生まなかった。"
+    },
+    {
+      "id": 25,
+      "ru": "Посещаемость сайта росла, количество высказываний – тоже, но недостаточно быстро.",
+      "en": "Site visits were growing, the number of posts too, but not fast enough.",
+      "zh": "网站访问量在增长，发帖数量也在增长，但不够快。",
+      "ja": "サイトの訪問者数は増えていた、投稿数も増えていた、しかし十分な速さではなかった。"
+    },
+    {
+      "id": 26,
+      "ru": "Некоторые факультеты (например, истфак) сидели на своих площадках.",
+      "en": "Some faculties (for example, the history faculty) stayed on their own platforms.",
+      "zh": "一些学院（例如历史系）仍然留在自己的平台上。",
+      "ja": "一部の学部（例えば歴史学部）は自分たちのプラットフォームに留まっていた。"
+    },
+    {
+      "id": 27,
+      "ru": "А самое главное, среднестатистический студент редко лазал в интернете.",
+      "en": "And most importantly, the average student rarely browsed the internet.",
+      "zh": "最重要的是，普通学生很少上网。",
+      "ja": "そして最も重要なのは、平均的な学生はめったにインターネットを見なかった。"
+    },
+    {
+      "id": 28,
+      "ru": "Следовательно, нужен катализатор в офлайне – чтобы затянуть людей в онлайн.",
+      "en": "Therefore, an offline catalyst was needed—to pull people online.",
+      "zh": "因此，需要一个线下催化剂——把人们拉到线上。",
+      "ja": "したがって、オフラインの触媒が必要だった——人々をオンラインに引き込むために。"
+    },
+    {
+      "id": 29,
+      "ru": "Что бы это могло быть?",
+      "en": "What could that be?",
+      "zh": "那会是什么呢？",
+      "ja": "それは何だろう？"
+    },
+    {
+      "id": 30,
+      "ru": "Куранты на башне, с которой не удосужились снять рубиновые звезды, пробили 2004 год.",
+      "en": "The chimes on the tower, from which no one had bothered to remove the ruby stars, struck 2004.",
+      "zh": "塔楼上的钟声，那座没人费心去除红宝石星的塔楼，敲响了2004年。",
+      "ja": "ルビーの星を外す手間をかけなかった塔の鐘が2004年を告げた。"
+    },
+    {
+      "id": 31,
+      "ru": "Дуров не знал, что на другом полушарии, в заснеженном Гарварде, раскручивалась история, которая превратила своего демиурга из сетевого задрота в одного из влиятельнейших людей мира.",
+      "en": "Durov didn't know that on the other hemisphere, in snowy Harvard, a story was unfolding that would turn its demiurge from a network geek into one of the most influential people in the world.",
+      "zh": "杜罗夫不知道在另一个半球，在积雪覆盖的哈佛，一个故事正在展开，它将把它的创造者从一个网络怪胎变成世界上最有影响力的人之一。",
+      "ja": "ドゥーロフは知らなかった。反対側の半球、雪深いハーバードで、そのデミウルゴスをネットオタクから世界で最も影響力のある人物の一人に変える物語が展開されていることを。"
+    },
+    {
+      "id": 32,
+      "ru": "Марк Цукерберг хакнул сервер с фотографиями студенток, выкачал файлы и написал программу, которая позволяла выбирать из двух расположенных рядом снимков тот, где более привлекательная девушка.",
+      "en": "Mark Zuckerberg hacked a server with photos of female students, downloaded the files, and wrote a program that allowed choosing from two side-by-side photos the one with the more attractive girl.",
+      "zh": "马克·扎克伯格入侵了一个存有女学生照片的服务器，下载了文件，并编写了一个程序，可以从两张并排的照片中选择更有吸引力的女孩。",
+      "ja": "マーク・ザッカーバーグは女子学生の写真があるサーバーをハッキングし、ファイルをダウンロードし、並んだ二枚の写真からより魅力的な女の子を選べるプログラムを書いた。"
+    },
+    {
+      "id": 33,
+      "ru": "Общежития прилипли к мониторам, выбирая всенародную мисс Гарвард, и локальная сеть рухнула.",
+      "en": "The dorms were glued to their monitors, choosing the people's Miss Harvard, and the local network crashed.",
+      "zh": "宿舍楼里的人都盯着显示器，选择全民哈佛小姐，局域网崩溃了。",
+      "ja": "寮はモニターに釘付けになり、全員参加のミス・ハーバードを選んでいた、そしてローカルネットワークがクラッシュした。"
+    },
+    {
+      "id": 34,
+      "ru": "Именно в эти дни Дуров перебирал варианты, как раскрутиться через громкое событие.",
+      "en": "It was precisely in these days that Durov was sorting through options for how to get publicity through a big event.",
+      "zh": "正是在这些日子里，杜罗夫在思考如何通过一个重大事件来扩大知名度。",
+      "ja": "まさにこの頃、ドゥーロフは大きなイベントを通じてどうやって知名度を上げるか選択肢を検討していた。"
+    },
+    {
+      "id": 35,
+      "ru": "В конце концов его мысли отправились в том же направлении, что у Цукерберга.",
+      "en": "In the end, his thoughts went in the same direction as Zuckerberg's.",
+      "zh": "最终，他的想法与扎克伯格的方向一致。",
+      "ja": "結局、彼の考えはザッカーバーグと同じ方向に向かった。"
+    },
+    {
+      "id": 36,
+      "ru": "Новичок рассматривал кружок вокруг парня в черном.",
+      "en": "The newcomer was observing the circle around the guy in black.",
+      "zh": "新人在观察围着那个穿黑衣人的圈子。",
+      "ja": "新参者は黒い服の男の周りのサークルを見ていた。"
+    },
+    {
+      "id": 37,
+      "ru": "Тусовка едва умещалась на «Седьмом небе», узком коридоре третьего этажа, бывшем чердаке.",
+      "en": "The crowd barely fit in \"Seventh Heaven,\" a narrow corridor on the third floor, a former attic.",
+      "zh": "人群勉强挤在\"第七天堂\"——三楼的一条狭窄走廊，以前是阁楼。",
+      "ja": "群衆は「セブンスヘブン」——三階の狭い廊下、元屋根裏——にかろうじて収まっていた。"
+    },
+    {
+      "id": 38,
+      "ru": "Забавно, что некоторые участники копировали лидера и тоже носили траур.",
+      "en": "Amusingly, some participants were copying the leader and also wore black.",
+      "zh": "有趣的是，一些参与者在模仿领导者，也穿着黑色。",
+      "ja": "面白いことに、参加者の中にはリーダーを真似て黒い服を着ている者もいた。"
+    },
+    {
+      "id": 39,
+      "ru": "Любопытство заставило новичка познакомиться – так же, как когда-то толкнуло заниматься нетипичными для филолога вещами: торговать джинсами, редактировать газету «Метростроевец» и разучивать аргентинское танго.",
+      "en": "Curiosity made the newcomer introduce himself—just as it once pushed him to do things atypical for a philologist: selling jeans, editing the newspaper \"Metrostroevets,\" and learning Argentine tango.",
+      "zh": "好奇心使新人去结识——就像曾经推动他做对语文学家来说不寻常的事情：卖牛仔裤、编辑《地铁建设者》报纸和学习阿根廷探戈。",
+      "ja": "好奇心が新参者を知り合いにさせた——かつて言語学者には珍しいことをさせたのと同じように：ジーンズを売る、「メトロストロエヴェツ」新聞を編集する、アルゼンチンタンゴを習う。"
+    },
+    {
+      "id": 40,
+      "ru": "Принадлежность к виду «юноша с филфака» в нем подчеркивали стихи и проза – непременные атрибуты гения, который",
+      "en": "His belonging to the species \"young man from the philology faculty\" was emphasized by poetry and prose—the essential attributes of a genius who",
+      "zh": "诗歌和散文强调了他作为\"语文系青年\"的身份——天才必备的属性，",
+      "ja": "「文献学部の若者」という種に属することは、詩と散文によって強調されていた——天才の必須属性であり、"
+    }
+  ],
+  "translator_notes": [
+    "Page 29 describes Durov's recruitment methods and the parallel rise of Facebook",
+    "Ruby stars - Soviet symbols remaining on Kremlin towers",
+    "FaceMash - Zuckerberg's first site that preceded Facebook",
+    "'Seventh Heaven' - a hangout spot at the philology faculty",
+    "'Metrostroevets' - a newspaper about metro construction workers",
+    "The 'Architect' handle references The Matrix character who designed the virtual world"
+  ],
+  "total_sentences": 40,
+  "page_type": "narrative"
+}
