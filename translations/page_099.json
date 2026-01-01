@@ -1,0 +1,59 @@
+{
+  "page": 99,
+  "chapter": 0,
+  "chapter_title": "Об авторе (About the Author)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Об авторе",
+      "en": "About the Author",
+      "zh": "关于作者",
+      "ja": "著者について"
+    },
+    {
+      "id": 3,
+      "ru": "Николай Кононов – журналист, главный редактор ежедневного издания о предпринимательстве Hopes&Fears (hopesandfears.com).",
+      "en": "Nikolai Kononov is a journalist, editor-in-chief of the daily publication about entrepreneurship Hopes&Fears (hopesandfears.com).",
+      "zh": "尼古拉·科诺诺夫是一名记者，创业日刊Hopes&Fears（hopesandfears.com）的主编。",
+      "ja": "ニコライ・コノノフはジャーナリストで、起業家精神についての日刊誌Hopes&Fears（hopesandfears.com）の編集長である。"
+    },
+    {
+      "id": 4,
+      "ru": "Окончил МГУ, работал репортером в газетах «Известия» и «Столичная вечерняя».",
+      "en": "He graduated from MSU, worked as a reporter for the newspapers Izvestia and Stolichnaya Vechernyaya.",
+      "zh": "他毕业于莫斯科国立大学，曾在《消息报》和《首都晚报》担任记者。",
+      "ja": "モスクワ国立大学を卒業し、新聞『イズベスチヤ』と『ストリーチナヤ・ヴェチェールニャヤ』で記者として働いた。"
+    },
+    {
+      "id": 5,
+      "ru": "Писал о бизнесменах разного масштаба – от деревенских подвижников до миллиардеров – сначала в журнале «Эксперт», а затем на протяжении семи лет в российском издании Forbes.",
+      "en": "He wrote about businesspeople of various scales—from village entrepreneurs to billionaires—first in Expert magazine, then for seven years in the Russian edition of Forbes.",
+      "zh": "他撰写了关于各种规模商人的文章——从乡村创业者到亿万富翁——先是在《专家》杂志，然后在俄罗斯版《福布斯》工作了七年。",
+      "ja": "彼は様々な規模のビジネスマンについて書いた——村の起業家から億万長者まで——最初は『エキスパート』誌で、その後7年間ロシア版フォーブスで。"
+    },
+    {
+      "id": 6,
+      "ru": "Автор книги «Бог без машины: Истории 20 сумасшедших, сделавших в России бизнес с нуля».",
+      "en": "Author of the book \"God Without a Machine: Stories of 20 Crazy People Who Built Businesses from Scratch in Russia.\"",
+      "zh": "著有《没有机器的上帝：20个在俄罗斯从零开始创业的疯子的故事》一书。",
+      "ja": "著書に『機械なき神：ロシアでゼロからビジネスを作った20人の狂人の物語』がある。"
+    }
+  ],
+  "translator_notes": [
+    "MSU (МГУ) - Moscow State University, Russia's most prestigious university",
+    "Izvestia (Известия) - major Russian daily newspaper founded in 1917",
+    "Stolichnaya Vechernyaya (Столичная вечерняя) - 'Capital Evening' newspaper",
+    "Expert (Эксперт) - Russian business and political weekly magazine",
+    "Hopes&Fears - bilingual (Russian/English) online publication about entrepreneurship and urban culture",
+    "'God Without a Machine' title - play on 'deus ex machina' theatrical device"
+  ],
+  "total_sentences": 6,
+  "page_type": "back_matter"
+}
