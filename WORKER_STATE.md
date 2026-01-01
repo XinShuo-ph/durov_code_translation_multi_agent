@@ -3,16 +3,17 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-f4a6
 - **Short ID**: f4a6
-- **Heartbeat**: 1767251872
+- **Heartbeat**: 1767251947
 - **Status**: translating
 
 ## Current Work
-- **Claimed Page**: 2
-- **Started At**: 1767251872
+- **Claimed Page**: 3
+- **Started At**: 1767251947
 
 ## Completed Pages
 | Page | Completed At | Hash |
 |------|--------------|------|
+| 2    | 1767251947 | b41b4ea4 |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
@@ -38,4 +39,4 @@
 Final translations completed: pages 7, 8, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22
 
 ## Notes
-Starting fresh - claiming page 2 (title page/annotation). Page 1 is empty.
+Page 2 completed. Now working on page 3 (Table of Contents).
