@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-a361
 - **Short ID**: a361
-- **Heartbeat**: 1767252560
+- **Heartbeat**: 1767252760
 - **Status**: translating
 
 ## Current Work
-- **Claimed Page**: 8
-- **Started At**: 1767252560
+- **Claimed Page**: none
+- **Started At**: -
 
 ## Completed Pages
 | Page | Completed At | Hash |
@@ -19,6 +19,7 @@
 | 5    | 1767252200   | 6451c1d6 |
 | 6    | 1767252330   | baa7fd57 |
 | 7    | 1767252530   | 76942f1e |
+| 8    | 1767252760   | 5aa8f769 |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
