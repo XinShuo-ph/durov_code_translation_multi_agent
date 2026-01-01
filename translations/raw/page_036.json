@@ -1,0 +1,183 @@
+{
+  "page": 36,
+  "chapter": 2,
+  "section": "Chapter 2 - The Architect",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "человеку не нужно подчеркивать, что он твой друг. А вот посторонние, «тыкнув», получали намек, что так обращаться не следует.",
+      "en": "you don't need to emphasize that he's your friend. But outsiders, using the informal 'you', would get a hint that they shouldn't address you that way.",
+      "zh": "你不需要强调他是你的朋友。但外人用非正式的'你'，会得到暗示不应该这样称呼你。",
+      "ja": "その人が友人だと強調する必要はない。しかし部外者が「君」を使うと、そのような呼び方はすべきではないというヒントを受け取った。"
+    },
+    {
+      "id": 2,
+      "ru": "– Убери компьютер и не выпендривайся!",
+      "en": "'Put away the computer and don't show off!'",
+      "zh": "'把电脑收起来，别炫耀！'",
+      "ja": "「コンピューターをしまって、見せびらかさないで！」"
+    },
+    {
+      "id": 3,
+      "ru": "Дуров заглянул в глаза надсмотрщице и стальным голосом произнес: «Заткнись, дура, мы пять лет учились, а ты нам мешаешь, коза закомплексованная».",
+      "en": "Durov looked into the eyes of the supervisor and said in a steely voice: 'Shut up, fool, we've been studying for five years and you're interfering with us, you insecure goat.'",
+      "zh": "杜罗夫看着监督员的眼睛，用钢铁般的声音说：'闭嘴，蠢货，我们学了五年，你却在打扰我们，你这个自卑的山羊。'",
+      "ja": "ドゥーロフは監督者の目を見つめ、鋼のような声で言った：「黙れ、馬鹿、俺たちは5年間勉強してきたのに、お前が邪魔している、コンプレックス持ちのヤギめ」"
+    },
+    {
+      "id": 4,
+      "ru": "Перекопский заспешил добавить что-то более учтивое, но поезд ушел. Аспирантка взбешенно простучала каблуками в деканат. Сдавшим на отлично компаньонам влепили неуды.",
+      "en": "Perekopsky hurried to add something more polite, but the train had left. The graduate student furiously clicked her heels to the dean's office. The companions who had done excellently were given failing grades.",
+      "zh": "佩列科普斯基急忙补充了一些更礼貌的话，但为时已晚。研究生愤怒地踩着高跟鞋走进院长办公室。考得很好的同伴们被打了不及格。",
+      "ja": "ペレコプスキーはもっと丁寧なことを付け加えようと急いだが、電車は行ってしまった。大学院生は激怒してヒールを鳴らして学部長室に行った。優秀だった仲間たちは不合格を食らった。"
+    },
+    {
+      "id": 5,
+      "ru": "Холодея от жажды мести, они сели в буфете и набросали план расследования. Кто такая. Каковы слабые места в позиции деканата.",
+      "en": "Chilling with thirst for revenge, they sat in the buffet and sketched out an investigation plan. Who she is. What are the weak points in the dean's office position.",
+      "zh": "他们冷静下来，怀着复仇的渴望，坐在自助餐厅里，草拟了调查计划。她是谁。院长办公室立场的弱点是什么。",
+      "ja": "復讐への渇望で冷えながら、彼らはビュッフェに座り、調査計画をスケッチした。彼女は誰か。学部長室の立場の弱点は何か。"
+    },
+    {
+      "id": 6,
+      "ru": "Забросили удочки в форум. Доброжелатели подсказали, куда копать, – через несколько рук они добрались до знания, что в ходе экзамена аспирантка должны была помочь остолопам с платного отделения, незаметно подсунув ответы.",
+      "en": "They cast their lines in the forum. Well-wishers suggested where to dig - through several hands they reached the knowledge that during the exam the graduate student was supposed to help the dunces from the paid department by secretly slipping them answers.",
+      "zh": "他们在论坛上撒网。好心人告诉他们往哪里挖——通过几个人，他们得知考试期间研究生应该帮助付费部门的笨蛋，偷偷给他们答案。",
+      "ja": "彼らはフォーラムに釣り糸を垂らした。善意の人々がどこを掘るべきか示唆した——何人かを経由して、彼らは試験中に大学院生が有料部門の馬鹿者たちにこっそり答えを滑り込ませて助けるはずだったという知識にたどり着いた。"
+    },
+    {
+      "id": 7,
+      "ru": "Мафиози явились на кафедру и выдвинули против обвинений свои обвинения. В ситуации, когда слово споткнулось о слово, а одной из сторон был сын уважаемого завкафедрой, факультет сдал назад.",
+      "en": "The mafiosi appeared at the department and put forward their accusations against the accusations. In a situation where word clashed against word, and one of the parties was the son of a respected department head, the faculty backed down.",
+      "zh": "黑手党成员来到系里，提出了反驳指控的反指控。在一个词对词的情况下，一方是受人尊敬的系主任的儿子，学院退缩了。",
+      "ja": "マフィオージたちは学科に現れ、告発に対して告発を提出した。言葉が言葉にぶつかり、一方が尊敬される学科長の息子であるという状況で、学部は後退した。"
+    },
+    {
+      "id": 8,
+      "ru": "Нахалы получили объективные оценки, а их врагу был объявлен строгий выговор.",
+      "en": "The insolent ones received objective grades, and their enemy was given a stern reprimand.",
+      "zh": "这些厚脸皮的人获得了客观的成绩，而他们的敌人被严厉斥责。",
+      "ja": "厚かましい者たちは客観的な成績を得て、彼らの敵は厳しい叱責を受けた。"
+    },
+    {
+      "id": 9,
+      "ru": "«Я не чувствую стыда за свои поступки, потому что, если и случались какие-то эпизоды, я давно выкинул их из памяти», – отмахнется позже Дуров.",
+      "en": "'I don't feel shame for my actions, because if there were any episodes, I threw them out of my memory long ago', Durov would dismiss later.",
+      "zh": "'我不为自己的行为感到羞耻，因为如果有什么事件的话，我早就把它们从记忆中清除了'，杜罗夫后来不屑地说。",
+      "ja": "「自分の行動に恥を感じない、なぜならエピソードがあったとしても、とっくに記憶から捨てたから」とドゥーロフは後に片付けた。"
+    },
+    {
+      "id": 10,
+      "ru": "Когда я спросил декана о конфликте, Богданов уклончиво и витиевато, но все же намекнул, что Дуров, безусловно, хам, но и аспирантка не без греха.",
+      "en": "When I asked the dean about the conflict, Bogdanov evasively and ornately, but still hinted that Durov was certainly a boor, but the graduate student was not without sin either.",
+      "zh": "当我问院长关于这场冲突时，博格达诺夫含糊而华丽地暗示，杜罗夫当然是个粗人，但研究生也不是无辜的。",
+      "ja": "私が学部長に紛争について尋ねると、ボグダノフは回りくどく装飾的に、しかしドゥーロフは確かに無礼者だが、大学院生も罪がないわけではないとほのめかした。"
+    },
+    {
+      "id": 11,
+      "ru": "Декана больше занимала другая тема. Битых полчаса он рассказывал о своем изобретении, которое считал прообразом «ВКонтакте».",
+      "en": "The dean was more occupied with another topic. For a good half hour he talked about his invention, which he considered the prototype of VKontakte.",
+      "zh": "院长更关心另一个话题。他花了足足半个小时谈论他认为是VKontakte原型的发明。",
+      "ja": "学部長は別のトピックにより関心があった。たっぷり30分、彼は自分がVKontakteの原型だと考える発明について話した。"
+    },
+    {
+      "id": 12,
+      "ru": "Это был гигантский складень, «левкас 14 метров, самый большой в мире, 350 лиц». Богданов вклеил туда фотографии всех своих друзей, авторов прочитанных книг и, кажется, даже киноартистов, а также лики святых.",
+      "en": "It was a giant folding icon, 'levkas 14 meters, the biggest in the world, 350 faces.' Bogdanov glued in photographs of all his friends, authors of books he'd read and, it seems, even movie stars, as well as the faces of saints.",
+      "zh": "这是一个巨大的折叠圣像，'14米的石膏底，世界上最大的，有350张脸'。博格达诺夫把他所有朋友的照片、他读过的书的作者，似乎还有电影明星，以及圣人的面孔都粘在了上面。",
+      "ja": "それは巨大な折りたたみ聖像だった、「レフカス14メートル、世界最大、350の顔」。ボグダノフはそこに全ての友人の写真、読んだ本の著者、そしておそらく映画俳優、また聖人の顔を貼り付けた。"
+    },
+    {
+      "id": 13,
+      "ru": "«Идея в том, что каждое индивидуальное существование состоит из множества чужих, – вещал Богданов. – Друзей, врагов, героев, лиц, с которыми я еще встречусь, тех, кого я читал, – и я могу это расширить до человечества.",
+      "en": "'The idea is that each individual existence consists of many others', Bogdanov proclaimed. 'Friends, enemies, heroes, people I will still meet, those I've read - and I can expand this to humanity.",
+      "zh": "'这个想法是，每个人的存在都由许多其他人组成'，博格达诺夫宣称。'朋友、敌人、英雄、我还会遇到的人、我读过的人——我可以把这扩展到全人类。",
+      "ja": "「アイデアは、各個人の存在は多くの他者で構成されているということだ」とボグダノフは述べた。「友人、敵、英雄、まだ会う人々、読んだ人々——そして私はこれを人類にまで拡大できる。"
+    },
+    {
+      "id": 14,
+      "ru": "Я даже терял сознание перед складнем – как я мог знать это все?»",
+      "en": "I even lost consciousness in front of the folding icon - how could I know all this?'",
+      "zh": "我甚至在折叠圣像前晕倒过——我怎么能知道这一切？'",
+      "ja": "私は折りたたみ聖像の前で意識を失ったことさえある——どうやってこれを全て知ることができたのか？」"
+    },
+    {
+      "id": 15,
+      "ru": "В глубинах полок его шкафа блестели рамки, в которые были вставлены фотографии студенческих праздников – Богданов в камзоле, на осле, на воздушном шаре.",
+      "en": "In the depths of his cabinet shelves, frames gleamed with photographs of student holidays - Bogdanov in a doublet, on a donkey, on a hot air balloon.",
+      "zh": "在他柜子架子的深处，闪烁着学生节日照片的相框——博格达诺夫穿着紧身上衣，骑着驴，在热气球上。",
+      "ja": "彼のキャビネットの棚の奥には、学生の祝日の写真が入った額が輝いていた——ダブレットを着たボグダノフ、ロバに乗って、熱気球に乗って。"
+    },
+    {
+      "id": 16,
+      "ru": "«Паша Дуров сделал гораздо более значимую вещь, – продолжил он, стуча карандашом по столу. – Форум, а потом и 'ВКонтакте' – это форма коллективного существования, которая позволяет не просто, стоя рядом с артефактом, чувствовать его, а жить в одном пространстве с людьми, которые что-то для тебя значат.",
+      "en": "'Pasha Durov did a much more significant thing', he continued, tapping a pencil on the table. 'The forum, and then VKontakte - this is a form of collective existence that allows you not just to feel an artifact while standing next to it, but to live in the same space with people who mean something to you.",
+      "zh": "'帕沙·杜罗夫做了一件更有意义的事'，他继续说，用铅笔敲着桌子。'论坛，然后是VKontakte——这是一种集体存在的形式，它不仅允许你站在一件艺术品旁边感受它，而且可以与对你有意义的人生活在同一个空间里。",
+      "ja": "「パシャ・ドゥーロフはずっと重要なことをした」と彼は続け、鉛筆でテーブルを叩いた。「フォーラム、そしてVKontakte——これは集団的存在の形式であり、アーティファクトの隣に立ってそれを感じるだけでなく、自分にとって意味のある人々と同じ空間に住むことを可能にする。"
+    },
+    {
+      "id": 17,
+      "ru": "Паша воплотил недоступным мне способом идею всей моей жизни. И он сделал ее доступным инструментом для огромного количества людей».",
+      "en": "Pasha embodied in a way inaccessible to me the idea of my whole life. And he made it an accessible tool for a huge number of people.'",
+      "zh": "帕沙以一种我无法企及的方式体现了我一生的想法。他把它变成了大量人可以使用的工具。'",
+      "ja": "パシャは私には手の届かない方法で私の生涯のアイデアを体現した。そして彼はそれを膨大な数の人々にとって利用可能なツールにした」"
+    },
+    {
+      "id": 18,
+      "ru": "За университетским дипломом Дуров так и не пришел. Необходимость тратить время на административную волокиту отвратила его.",
+      "en": "Durov never came for his university diploma. The necessity of spending time on administrative red tape repelled him.",
+      "zh": "杜罗夫从未来领取他的大学文凭。花时间处理行政繁琐手续让他反感。",
+      "ja": "ドゥーロフは大学の卒業証書を取りに来なかった。行政的な煩雑な手続きに時間を費やす必要性が彼を嫌悪させた。"
+    },
+    {
+      "id": 19,
+      "ru": "Не то чтобы он боялся контактировать с бюрократией – просто, развязавшись с учебой, Дуров окончательно разделил волнующие и не волнующие его вещи.",
+      "en": "It's not that he was afraid to contact the bureaucracy - it's just that, having finished with studies, Durov finally separated things that excited him from things that didn't.",
+      "zh": "不是他害怕与官僚机构接触——只是，完成学业后，杜罗夫最终将让他兴奋的事情和不让他兴奋的事情分开了。",
+      "ja": "官僚制度に接触することを恐れていたわけではない——ただ、学業を終えて、ドゥーロフは彼を興奮させるものとさせないものを最終的に分離した。"
+    },
+    {
+      "id": 20,
+      "ru": "Перекопский подначивал: спорим, у тебя через год не будет миллиона долларов, а у меня будет. Дуров уловил вопрос, но оставил где-то на периферии сознания.",
+      "en": "Perekopsky teased: bet you won't have a million dollars in a year, but I will. Durov caught the question but left it somewhere on the periphery of consciousness.",
+      "zh": "佩列科普斯基挑衅道：打赌一年后你不会有一百万美元，但我会有。杜罗夫听到了这个问题，但把它留在了意识的边缘某处。",
+      "ja": "ペレコプスキーはからかった：賭けよう、1年後に君は100万ドル持ってないだろう、でも僕は持ってる。ドゥーロフはその問いを捉えたが、意識の周辺のどこかに置いた。"
+    },
+    {
+      "id": 21,
+      "ru": "Его мысли занимали изменения, происходящие с миром из-за проникновения интернета. Пока они не массовые. Например, в «Википедии» торчат одни гики, но очевидно, что аудитория людей, которые пишут туда статьи, редактируют, спорят, – все они, так или иначе, учатся договариваться и формируют свой авторитет на базе замеченных сообществом поступков, а не лозунгов и деклараций.",
+      "en": "His thoughts were occupied by the changes happening to the world due to the penetration of the internet. So far they're not mass-scale. For example, Wikipedia is full of geeks, but it's obvious that the audience of people who write articles there, edit, argue - they're all, one way or another, learning to negotiate and forming their authority based on actions noticed by the community, not slogans and declarations.",
+      "zh": "他的思绪被互联网渗透给世界带来的变化所占据。到目前为止它们还没有大规模。例如，维基百科都是极客，但很明显，在那里写文章、编辑、争论的人——他们都在以某种方式学习协商，并基于社区注意到的行动而非口号和宣言来建立权威。",
+      "ja": "彼の思考はインターネットの浸透によって世界に起きている変化で占められていた。今のところ大規模ではない。例えば、ウィキペディアはギークだらけだが、そこで記事を書き、編集し、議論する人々——彼らはみな、何らかの形で交渉することを学び、スローガンや宣言ではなく、コミュニティに注目された行動に基づいて権威を形成している。"
+    },
+    {
+      "id": 22,
+      "ru": "Ключевое слово в викономике – «делиться». Обогащая среду, ты делаешь себя же сильнее и работаешь на свое будущее.",
+      "en": "The key word in wikinomics is 'share'. By enriching the environment, you make yourself stronger and work for your own future.",
+      "zh": "维基经济学中的关键词是'分享'。通过丰富环境，你让自己更强大，为自己的未来工作。",
+      "ja": "ウィキノミクスのキーワードは「共有」だ。環境を豊かにすることで、自分自身を強くし、自分の将来のために働く。"
+    },
+    {
+      "id": 23,
+      "ru": "Дурову нравилось наблюдать, как созданная им среда для общения жила сама по себе, но он понимал, что инструмент коллаборации «форум» устаревает. Какой будет следующая ступень эволюции в том, как люди обмениваются информацией? Он перебирал разные",
+      "en": "Durov liked watching how the communication environment he created lived on its own, but he understood that the collaboration tool 'forum' was becoming obsolete. What would be the next step of evolution in how people exchange information? He went through various",
+      "zh": "杜罗夫喜欢观察他创建的交流环境如何自己生存，但他明白'论坛'这个协作工具正在过时。人们交换信息方式的下一步进化是什么？他审视了各种",
+      "ja": "ドゥーロフは、自分が作ったコミュニケーション環境が独自に生きているのを見るのが好きだったが、コラボレーションツール「フォーラム」が時代遅れになりつつあることを理解していた。人々が情報を交換する方法の次の進化のステップは何だろうか？彼は様々な"
+    }
+  ],
+  "translator_notes": [
+    "Page 36 ends Chapter 2 with the exam confrontation resolution and reflections",
+    "Levkas - gesso/ground layer used in icon painting, here referring to a folding icon",
+    "Dean Bogdanov's folding icon concept parallels social network ideas",
+    "Durov never picked up his diploma - reflecting his disregard for bureaucracy",
+    "Wikinomics - term from book by Don Tapscott about collaborative economy",
+    "Wikipedia as example of community-based authority building",
+    "The million dollar bet foreshadows the future VKontakte success",
+    "Page ends mid-sentence, continues on page 37"
+  ],
+  "research_used": [
+    "Wikinomics (2006) - Don Tapscott and Anthony D. Williams",
+    "Wikipedia governance and community dynamics",
+    "Russian Orthodox icon traditions (levkas, folding icons)"
+  ]
+}
