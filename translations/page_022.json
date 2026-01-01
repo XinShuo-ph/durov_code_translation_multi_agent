@@ -1,0 +1,58 @@
+{
+  "page": 22,
+  "chapter": 1,
+  "chapter_title": "Ботанический сад (Botanical Garden)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Диевский задвинул про математику, Паперно – про лингвистику, Русин визионировал насчет кораблестроения, постебались над айкидисткой Бертовой.",
+      "en": "Dievsky went on about mathematics, Paperno about linguistics, Rusin had visions of shipbuilding, they joked about aikido practitioner Bertova.",
+      "zh": "迪耶夫斯基谈起了数学，帕佩尔诺谈起了语言学，鲁辛展望了造船业，他们拿练合气道的贝尔托娃开玩笑。",
+      "ja": "ディエフスキーは数学について語り、パペルノは言語学について、ルシンは造船について構想を語り、合気道をやるベルトワをからかった。"
+    },
+    {
+      "id": 3,
+      "ru": "Когда Дурова спросили, кем себя видит в будущем, он прервал молчание и сказал, улыбаясь: «Тотемом».",
+      "en": "When Durov was asked who he saw himself as in the future, he broke his silence and said, smiling: \"A totem.\"",
+      "zh": "当被问到杜罗夫将来想成为什么样的人时，他打破沉默，微笑着说："图腾。"",
+      "ja": "ドゥーロフに将来自分を何として見ているか尋ねられたとき、彼は沈黙を破り、微笑みながら言った：「トーテムだ」。"
+    },
+    {
+      "id": 4,
+      "ru": "Его желания, страсти, умения сложились в одну формулу.",
+      "en": "His desires, passions, and skills had come together into one formula.",
+      "zh": "他的愿望、激情和技能汇聚成一个公式。",
+      "ja": "彼の願望、情熱、スキルは一つの公式に収束した。"
+    },
+    {
+      "id": 5,
+      "ru": "Все неинтересное и ненужное отсеялось.",
+      "en": "Everything uninteresting and unnecessary had been filtered out.",
+      "zh": "所有无趣和不必要的东西都被过滤掉了。",
+      "ja": "興味のないもの、不要なものはすべてふるい落とされた。"
+    },
+    {
+      "id": 6,
+      "ru": "Он повторил то, что окружающие расценили как шутку, не подозревая, что произнесенная фраза определит все, что произойдет дальше: «Я хочу стать интернет-тотемом».",
+      "en": "He repeated what those around him took as a joke, not suspecting that the uttered phrase would define everything that would happen next: \"I want to become an internet totem.\"",
+      "zh": "他重复了周围人认为是玩笑的话，没有人怀疑这句话将决定接下来发生的一切："我想成为互联网图腾。"",
+      "ja": "彼は周囲が冗談だと思ったことを繰り返した。その言葉がこれから起こるすべてを決定することになるとは誰も疑わなかった：「私はインターネットのトーテムになりたい」。"
+    }
+  ],
+  "translator_notes": [
+    "This page concludes Chapter 1 'Botanical Garden' with Durov's pivotal declaration",
+    "Totem - a symbol of identity, leadership, or worship; Durov's aspiration to become a defining figure of the internet",
+    "Internet totem (интернет-тотем) - Durov's unique self-coined term combining native spiritual symbolism with digital ambition",
+    "Dievsky, Paperno, Rusin - Durov's classmates sharing their future ambitions",
+    "The chapter ends with this prophetic statement that foreshadows VKontakte and Telegram"
+  ],
+  "total_sentences": 6,
+  "page_type": "narrative"
+}
