@@ -1,0 +1,56 @@
+% Multilingual parallel-sentence demo (RU/EN/ZH/JA)
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=1.5cm]{geometry}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{enumitem}
+
+\setmainfont{Noto Serif}
+\setsansfont{Noto Sans}
+
+% CJK: prefer Noto CJK families (installed via fonts-noto-cjk).
+% If your system font names differ, adjust here.
+\setCJKmainfont{Noto Serif CJK SC}
+\newCJKfontfamily\CJKjp{Noto Serif CJK JP}
+
+\definecolor{enblue}{HTML}{1E5AA8}
+\definecolor{zhred}{HTML}{B01E1E}
+\definecolor{jagreen}{HTML}{167A3A}
+
+\newcommand{\ru}[1]{\textcolor{black}{#1}}
+\newcommand{\en}[1]{\textcolor{enblue}{#1}}
+\newcommand{\zh}[1]{\textcolor{zhred}{#1}}
+\newcommand{\ja}[1]{{\CJKjp\textcolor{jagreen}{#1}}}
+
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*,itemsep=0.6em}
+\linespread{1.05}
+
+\begin{document}
+
+{\large \textbf{Format demo — parallel sentences}}\par
+\vspace{0.8em}
+
+\begin{itemize}
+  \item \ru{Русский: Пример одного предложения из книги.}
+  
+        \en{English: A sample sentence from the book.}
+  
+        \zh{中文：书中的一句示例。}
+  
+        \ja{日本語：本からのサンプル文。}
+
+  \item \ru{Русский: Здесь будет второй пример, чтобы проверить переносы строк и шрифты.}
+  
+        \en{English: Here is a second example to test line breaks and fonts.}
+  
+        \zh{中文：再来一句，用来检查换行与字体。}
+  
+        \ja{日本語：もう一文で、改行とフォントを確認します。}
+\end{itemize}
+
+\end{document}
+
