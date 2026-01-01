@@ -25,7 +25,7 @@ done
 ---
 
 ## Global Milestone Status
-- **Current Milestone**: M1 (Format Exploration)
+- **Current Milestone**: M2 (Professional Translation)
 - **Status**: in_progress
 
 ## M0 Completion Tracker
@@ -42,11 +42,11 @@ done
 ## M1 Completion Tracker
 | Task | Description | Status |
 |------|-------------|--------|
-| Format Decision | Vote on LaTeX/Python | pending |
-| Page 13 Demo | Demo translation | pending |
-| Page 43 Demo | Demo translation | pending |
-| Documentation | Technical pipeline docs | pending |
-| Cross-Verification | All workers verified | pending |
+| Format Decision | Vote on LaTeX/Python | LaTeX (991c) |
+| Page 13 Demo | Demo translation | done (991c) |
+| Page 43 Demo | Demo translation | done (991c) |
+| Documentation | Technical pipeline docs | done (991c) |
+| Cross-Verification | All workers verified | done (991c) |
 
 ## M2 Page Status (99 pages total)
 | Status | Count | Pages |

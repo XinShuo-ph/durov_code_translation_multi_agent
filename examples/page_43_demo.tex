@@ -1,0 +1,60 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{xltxtra}
+\usepackage{xeCJK}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{parskip}
+
+\geometry{left=2cm,right=2cm,top=2cm,bottom=2cm}
+
+% Fonts
+\setmainfont{Noto Serif}
+\setCJKmainfont{Noto Serif CJK SC}
+\newCJKfontfamily\zhfont{Noto Serif CJK SC}
+\newCJKfontfamily\jafont{Noto Serif CJK JP}
+
+% Colors
+\definecolor{rucolor}{RGB}{0,0,0}      % Black
+\definecolor{encolor}{RGB}{0,0,139}    % DarkBlue
+\definecolor{zhcolor}{RGB}{139,0,0}    % DarkRed
+\definecolor{jacolor}{RGB}{0,100,0}    % DarkGreen
+
+% Translation Macro
+\newcommand{\parallelsentence}[4]{
+    \noindent
+    \textbf{\textcolor{rucolor}{RU:}} #1 \\
+    \textbf{\textcolor{encolor}{EN:}} #2 \\
+    \textbf{\textcolor{zhcolor}{ZH:}} {\zhfont #3} \\
+    \textbf{\textcolor{jacolor}{JA:}} {\jafont #4}
+    \vspace{0.5cm}
+}
+
+\begin{document}
+
+\section*{Page 43 Translation}
+\parallelsentence
+{Автор: durov 4.12.2006, 13:02}
+{Author: durov 12/4/2006, 13:02}
+{作者：durov 2006年12月4日，13:02}
+{著者：durov 2006年12月4日、13:02}
+
+\parallelsentence
+{Не надоело сыпать клевету и ложь?}
+{Aren't you tired of spewing slander and lies?}
+{你们不厌倦散布诽谤和谎言吗？}
+{中傷や嘘をばら撒くのに飽きないのか？}
+
+\parallelsentence
+{Ребята, посмотрите сайт facebook.com и оцените, что кто у кого скопировал и когда =]}
+{Guys, look at the site facebook.com and evaluate who copied whom and when =]}
+{伙计们，看看 facebook.com 这个网站，评估一下是谁抄袭了谁，以及是什么时候抄袭的 =]}
+{みんな、facebook.comのサイトを見て、誰が誰をいつコピーしたか評価してみてくれ =]}
+
+\parallelsentence
+{В СОТЫЙ РАЗ ПОВТОРЯЮ: Я ЭТОГО НЕ РАЗМЕЩАЛ}
+{I REPEAT FOR THE HUNDREDTH TIME: I DID NOT POST THIS}
+{我第一百次重复：我没有发布这个}
+{100回繰り返すが、私はこれを投稿していない}
+
+\end{document}

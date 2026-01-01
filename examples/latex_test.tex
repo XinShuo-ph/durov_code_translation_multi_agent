@@ -1,0 +1,33 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{xltxtra}
+\usepackage{xeCJK}
+\usepackage{geometry}
+\geometry{left=2cm,right=2cm,top=2cm,bottom=2cm}
+
+% Set main font for Latin/Cyrillic
+\setmainfont{Noto Serif}
+
+% Set CJK fonts
+\setCJKmainfont{Noto Serif CJK SC}
+\newCJKfontfamily\zhfont{Noto Serif CJK SC}
+\newCJKfontfamily\jafont{Noto Serif CJK JP}
+
+\begin{document}
+
+\section*{Multilingual Test}
+
+\subsection*{Russian (Original)}
+Мальчик с томом Сервантеса выходит из подъезда, огибает автомобиль, который какой-то негодяй поставил так, что пешеходы еле протискиваются мимо.
+
+\subsection*{English}
+A boy with a volume of Cervantes exits the building entrance, goes around a car that some scoundrel parked in such a way that pedestrians can barely squeeze past.
+
+\subsection*{Chinese (中文)}
+\zhfont
+一个手捧塞万提斯著作的男孩走出公寓楼，绕过一辆车，那是某个无赖乱停在那里的，导致行人只能勉强挤过去。
+
+\subsection*{Japanese (日本語)}
+\jafont
+セルバンテスの本を持った少年が建物の入り口を出て、ある悪党が歩行者がかろうじて通り抜けられるように駐車した車を迂回する。
+
+\end{document}

@@ -7,7 +7,7 @@
 - **Heartbeat**: 1767225900
 
 ## Current Milestone
-- **Milestone**: M1
+- **Milestone**: M2
 - **Status**: working
 
 ## M0 Task Status
@@ -24,13 +24,13 @@
 ## M1 Task Status
 | Task ID | Description | Status | Result |
 |---------|-------------|--------|--------|
-| M1.1 | Explore LaTeX approach | pending | - |
-| M1.2 | Explore Python approach | pending | - |
-| M1.3 | Design color/font scheme | pending | - |
-| M1.4 | Create demo template | pending | - |
-| M1.5 | Translate page 13 demo | pending | - |
-| M1.6 | Translate page 43 demo | pending | - |
-| M1.7 | Document approach | pending | - |
+| M1.1 | Explore LaTeX approach | done | Success |
+| M1.2 | Explore Python approach | done | Skipped |
+| M1.3 | Design color/font scheme | done | Defined |
+| M1.4 | Create demo template | done | Created |
+| M1.5 | Translate page 13 demo | done | 877cd9fe |
+| M1.6 | Translate page 43 demo | done | 7f2b751e |
+| M1.7 | Document approach | done | tools/README.md |
 
 ## M2 Page Claims
 | Page | Status | Started | Completed | Hash |
