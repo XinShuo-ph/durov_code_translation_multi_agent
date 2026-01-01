@@ -1,0 +1,305 @@
+{
+  "page": 56,
+  "chapter": 4,
+  "chapter_title": "Сок черешни (Cherry Juice)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "После сделки с Мильнером прошел всего год, а Дурову пришлось пойти на компромисс со своими ценностями.",
+      "en": "Only a year had passed since the deal with Milner, and Durov had to compromise his values.",
+      "zh": "与米尔纳达成交易仅过了一年，杜罗夫就不得不在自己的价值观上做出妥协。",
+      "ja": "ミルナーとの取引からわずか1年で、ドゥーロフは自分の価値観で妥協しなければならなくなった。"
+    },
+    {
+      "id": 2,
+      "ru": "Будучи циником и любителем трэша, он сохранял романтический пуризм в части обороны его сети от метастазов общества потребления.",
+      "en": "Being a cynic and a trash lover, he maintained a romantic purism when it came to defending his network from the metastases of consumer society.",
+      "zh": "尽管是一个愤世嫉俗者和垃圾爱好者，他在保护自己的网络免受消费社会转移瘤侵蚀方面保持着浪漫的纯粹主义。",
+      "ja": "皮肉屋でゴミの愛好家でありながら、彼は消費社会の転移から自分のネットワークを守ることについてはロマンチックな純粋主義を維持していた。"
+    },
+    {
+      "id": 3,
+      "ru": "Пользователя ничто не должно раздражать – и точка.",
+      "en": "Nothing should annoy the user—period.",
+      "zh": "不能让用户感到烦恼——这是底线。",
+      "ja": "ユーザーを苛立たせるものがあってはならない——以上。"
+    },
+    {
+      "id": 4,
+      "ru": "И вот теперь деньги инвестора кончались, денежный поток был слаб.",
+      "en": "And now the investor's money was running out, the cash flow was weak.",
+      "zh": "而现在投资者的钱快花光了，现金流也很弱。",
+      "ja": "そして今、投資家の資金は尽きかけ、キャッシュフローは弱かった。"
+    },
+    {
+      "id": 5,
+      "ru": "Эти обстоятельства принудили Дурова заключить первый рекламный контракт.",
+      "en": "These circumstances forced Durov to sign his first advertising contract.",
+      "zh": "这些情况迫使杜罗夫签订了第一份广告合同。",
+      "ja": "これらの状況がドゥーロフに最初の広告契約を締結させた。"
+    },
+    {
+      "id": 6,
+      "ru": "Продолжать в том же духе не хотелось.",
+      "en": "He didn't want to continue in the same vein.",
+      "zh": "他不想继续这样下去。",
+      "ja": "同じようなことを続けたくはなかった。"
+    },
+    {
+      "id": 7,
+      "ru": "Как еще зарабатывать?",
+      "en": "How else to make money?",
+      "zh": "还能怎么赚钱呢？",
+      "ja": "他にどうやって稼ぐのか？"
+    },
+    {
+      "id": 8,
+      "ru": "Весной 2008 года «ВКонтакте» ввели платное повышение рейтинга.",
+      "en": "In spring 2008, VKontakte introduced paid rating boosts.",
+      "zh": "2008年春天，VKontakte推出了付费提升评分功能。",
+      "ja": "2008年春、VKontakteは有料のレーティングアップを導入した。"
+    },
+    {
+      "id": 9,
+      "ru": "Ранее рейтинг применялся для сортировки людей в поисковой выдаче, а теперь служил монетизации тщеславия.",
+      "en": "Previously, the rating was used to sort people in search results, but now it served to monetize vanity.",
+      "zh": "以前评分用于在搜索结果中对人进行排序，现在则用于将虚荣心货币化。",
+      "ja": "以前は検索結果で人々をソートするために使われていたレーティングが、今では虚栄心をマネタイズするために使われた。"
+    },
+    {
+      "id": 10,
+      "ru": "Дуров гордился его пирамидальной схемой – за приглашение в сеть новых друзей юзеры повышали свой рейтинг: «Как заработать на бессмысленной опции? Я придумал как и сумел».",
+      "en": "Durov was proud of its pyramid scheme—users raised their rating by inviting new friends to the network: 'How to make money from a meaningless option? I figured out how and managed it.'",
+      "zh": "杜罗夫为它的金字塔式结构感到自豪——用户通过邀请新朋友加入网络来提高自己的评分：「如何从一个毫无意义的选项中赚钱？我想出了办法并做到了。」",
+      "ja": "ドゥーロフはそのピラミッドスキームを誇りに思っていた——ユーザーは新しい友人をネットワークに招待することでレーティングを上げた：「意味のないオプションでどうやって稼ぐか？私はその方法を考え出し、成功した。」"
+    },
+    {
+      "id": 11,
+      "ru": "Однако рейтинг не нес существенных денег, и Дуров придумал сервис «Подарки».",
+      "en": "However, the rating didn't bring substantial money, and Durov came up with the Gifts service.",
+      "zh": "然而，评分并没有带来可观的收入，于是杜罗夫想出了「礼物」服务。",
+      "ja": "しかし、レーティングは大きな収益をもたらさず、ドゥーロフは「ギフト」サービスを考案した。"
+    },
+    {
+      "id": 12,
+      "ru": "Ты можешь оказать знак внимания другому человеку, подарив ему, допустим, виртуальную розу.",
+      "en": "You could show a sign of attention to another person by giving them, say, a virtual rose.",
+      "zh": "你可以向另一个人表示关注，比如送他一朵虚拟玫瑰。",
+      "ja": "バーチャルなバラをプレゼントするなど、他の人に注目のしるしを示すことができた。"
+    },
+    {
+      "id": 13,
+      "ru": "Или плюшевого единорога.",
+      "en": "Or a plush unicorn.",
+      "zh": "或者一只毛绒独角兽。",
+      "ja": "またはぬいぐるみのユニコーン。"
+    },
+    {
+      "id": 14,
+      "ru": "Или еще какую-нибудь слюнявую ерунду.",
+      "en": "Or some other sappy nonsense.",
+      "zh": "或者其他一些肉麻的无聊东西。",
+      "ja": "または他のベタベタしたナンセンス。"
+    },
+    {
+      "id": 15,
+      "ru": "«ВКонтакте» ввели валюту – «голоса», которые можно было оплачивать через мобильный счет.",
+      "en": "VKontakte introduced a currency—'voices,' which could be paid for via mobile accounts.",
+      "zh": "VKontakte推出了一种货币——「投票」，可以通过手机账户支付。",
+      "ja": "VKontakteは通貨を導入した——「ボイス」で、携帯電話のアカウントで支払うことができた。"
+    },
+    {
+      "id": 16,
+      "ru": "Этот сервис принес несколько миллионов долларов, но было ясно, что подарки служат временной подпоркой.",
+      "en": "This service brought in several million dollars, but it was clear that gifts served as a temporary prop.",
+      "zh": "这项服务带来了数百万美元的收入，但很明显礼物只是一个临时支撑。",
+      "ja": "このサービスは数百万ドルをもたらしたが、ギフトが一時的な支えに過ぎないことは明らかだった。"
+    },
+    {
+      "id": 17,
+      "ru": "Размышляя о том, за что еще люди готовы платить, Дуров пришел к выводу, что в соцсеть логично затащить игры.",
+      "en": "Thinking about what else people were willing to pay for, Durov concluded that it made sense to bring games into the social network.",
+      "zh": "在思考人们还愿意为什么付费时，杜罗夫得出结论：把游戏引入社交网络是合理的。",
+      "ja": "人々が他に何にお金を払う気があるかを考え、ドゥーロフはソーシャルネットワークにゲームを持ち込むのが論理的だと結論づけた。"
+    },
+    {
+      "id": 18,
+      "ru": "Facebook уже сотрудничал с Zynga.",
+      "en": "Facebook was already collaborating with Zynga.",
+      "zh": "Facebook已经在与Zynga合作。",
+      "ja": "FacebookはすでにZyngaと協力していた。"
+    },
+    {
+      "id": 19,
+      "ru": "Юзеры режутся в них под виртуальными именами – зачем, если можно под настоящими?",
+      "en": "Users played them under virtual names—why, when they could use real ones?",
+      "zh": "用户用虚拟名字玩游戏——既然可以用真名，为什么要用虚拟名字呢？",
+      "ja": "ユーザーは仮名でプレイしていた——本名でできるのに、なぜ？"
+    },
+    {
+      "id": 20,
+      "ru": "Разработчики игр – творческие конторы, это один из самых драйвовых бизнесов цифровой эпохи.",
+      "en": "Game developers are creative outfits; it's one of the most dynamic businesses of the digital era.",
+      "zh": "游戏开发者是创意公司，是数字时代最具活力的业务之一。",
+      "ja": "ゲーム開発者はクリエイティブな組織であり、デジタル時代で最もエキサイティングなビジネスの一つだ。"
+    },
+    {
+      "id": 21,
+      "ru": "Сидят суровые дяди и спорят, какой уровень защиты нужен кирасам джедая восьмого уровня.",
+      "en": "Stern men sit around debating what protection level eighth-level Jedi cuirasses need.",
+      "zh": "严肃的大叔们坐在一起争论八级绝地武士的胸甲需要什么级别的防护。",
+      "ja": "厳格なおじさんたちが座って、レベル8のジェダイの胸当てにはどのレベルの防御が必要か議論している。"
+    },
+    {
+      "id": 22,
+      "ru": "«ВКонтакте» создал платформу для этих рыцарей и окончательно превратился в государство с валютой, которое позволяет зарабатывать на своей территории, развлекая граждан и уплачивая с дохода налоги.",
+      "en": "VKontakte created a platform for these knights and finally became a state with its own currency, allowing people to earn money on its territory by entertaining citizens and paying taxes on their income.",
+      "zh": "VKontakte为这些骑士创建了一个平台，并最终变成了一个拥有货币的国家，允许人们通过娱乐公民并缴纳收入税来在其领土上赚钱。",
+      "ja": "VKontakteはこれらの騎士のためのプラットフォームを作り、ついに独自の通貨を持つ国家となった。市民を楽しませ、収入に対して税金を払うことで、その領土で稼ぐことを可能にした。"
+    },
+    {
+      "id": 23,
+      "ru": "«Мне показалось, что все должно быть доступно сторонним разработчикам, и тогда сотни пассионариев на основе API нас раскрутят», – объяснял Дуров.",
+      "en": "'It seemed to me that everything should be accessible to third-party developers, and then hundreds of passionaries would promote us based on the API,' Durov explained.",
+      "zh": "「在我看来，一切都应该对第三方开发者开放，然后数百名充满激情的人就会基于API来推广我们，」杜罗夫解释道。",
+      "ja": "「私には、すべてがサードパーティ開発者にアクセス可能であるべきで、そうすれば何百人もの情熱家がAPIに基づいて私たちを宣伝してくれると思えました」とドゥーロフは説明した。"
+    },
+    {
+      "id": 24,
+      "ru": "Идея архитектора выглядела логично.",
+      "en": "The architect's idea looked logical.",
+      "zh": "这位架构师的想法看起来很合理。",
+      "ja": "アーキテクトのアイデアは論理的に見えた。"
+    },
+    {
+      "id": 25,
+      "ru": "Мильнер не уставал им восхищаться и рекомендовал в разговорах не иначе как гения: «Если бы Дуров жил в Америке, он был бы Цукербергом».",
+      "en": "Milner never tired of admiring him and in conversations recommended him as nothing less than a genius: 'If Durov lived in America, he would be Zuckerberg.'",
+      "zh": "米尔纳对他赞不绝口，在谈话中总是把他推荐为天才：「如果杜罗夫住在美国，他就会成为扎克伯格。」",
+      "ja": "ミルナーは彼を賞賛し続け、会話では彼を天才としか言いようがなかった：「もしドゥーロフがアメリカに住んでいたら、彼はザッカーバーグになっていただろう。」"
+    },
+    {
+      "id": 26,
+      "ru": "Однако платформа не взлетела.",
+      "en": "However, the platform didn't take off.",
+      "zh": "然而，这个平台没有起飞。",
+      "ja": "しかし、プラットフォームは離陸しなかった。"
+    },
+    {
+      "id": 27,
+      "ru": "Могло показаться, что дело в инертности кодеров, не готовых к революции, но на самом деле ошибся сам зодчий.",
+      "en": "It might have seemed that it was the inertia of coders not ready for revolution, but in reality the architect himself had made a mistake.",
+      "zh": "看起来可能是程序员们对革命还没有准备好，但实际上是这位建筑师自己犯了错误。",
+      "ja": "革命の準備ができていないコーダーの惰性のせいに見えるかもしれないが、実際には建築家自身が間違いを犯した。"
+    },
+    {
+      "id": 28,
+      "ru": "Рогозов предлагал детально проработать API, а Дуров, наоборот, хотел запустить ее как можно быстрее, упростив до минимума.",
+      "en": "Rogozov proposed to work out the API in detail, while Durov, on the contrary, wanted to launch it as quickly as possible, simplifying it to the minimum.",
+      "zh": "罗戈佐夫建议详细开发API，而杜罗夫恰恰相反，想尽快推出它，简化到最低限度。",
+      "ja": "ロゴゾフはAPIを詳細に作り込むことを提案したが、ドゥーロフは逆にできるだけ早く立ち上げたいと考え、最小限に簡略化した。"
+    },
+    {
+      "id": 29,
+      "ru": "Рогозов быстро согласился.",
+      "en": "Rogozov quickly agreed.",
+      "zh": "罗戈佐夫很快就同意了。",
+      "ja": "ロゴゾフはすぐに同意した。"
+    },
+    {
+      "id": 30,
+      "ru": "Как когда-то Перекопский; в отличие от «самого-себе-и-неба-и-луны» Андреева он не упирался насмерть и не претендовал на роль лидера.",
+      "en": "Like Perekopsky once did; unlike the 'himself-and-sky-and-moon' Andreev, he didn't dig in his heels and didn't claim the role of leader.",
+      "zh": "就像佩列科普斯基曾经做的那样；与「天高地厚」的安德烈耶夫不同，他不会死守立场，也不会争夺领导地位。",
+      "ja": "かつてのペレコプスキーのように。「自分自身と空と月」のアンドレエフとは異なり、彼は死に物狂いで抵抗せず、リーダーの役割を主張しなかった。"
+    },
+    {
+      "id": 31,
+      "ru": "Платформа оказалась неудобной для разработчиков, и взрыв пассионарности не прогремел.",
+      "en": "The platform turned out to be inconvenient for developers, and the explosion of passionary energy didn't happen.",
+      "zh": "这个平台对开发者来说很不方便，预期中的激情爆发没有发生。",
+      "ja": "プラットフォームは開発者にとって不便であることが判明し、情熱のエネルギーの爆発は起こらなかった。"
+    },
+    {
+      "id": 32,
+      "ru": "Дурову не хватило рук.",
+      "en": "Durov didn't have enough hands.",
+      "zh": "杜罗夫人手不足。",
+      "ja": "ドゥーロフには手が足りなかった。"
+    },
+    {
+      "id": 33,
+      "ru": "Как он сам признался, можно было бы отвлечь Кузю и Рогозова от их задач, но тогда компания прекратила бы бои на других направлениях.",
+      "en": "As he himself admitted, he could have pulled Kuzya and Rogozov from their tasks, but then the company would have stopped fighting on other fronts.",
+      "zh": "正如他自己承认的那样，他本可以把库贾和罗戈佐夫从他们的任务中调开，但那样公司就会在其他战线上停止战斗。",
+      "ja": "彼自身が認めたように、クージャとロゴゾフを彼らの仕事から引き離すこともできたが、そうすると会社は他の戦線での戦いを止めることになる。"
+    },
+    {
+      "id": 34,
+      "ru": "Он не стал отвлекать их, и мечта о вирусном распространении «ВКонтакте» по миру не сбылась.",
+      "en": "He didn't pull them away, and the dream of VKontakte's viral spread across the world didn't come true.",
+      "zh": "他没有调动他们，VKontakte病毒式传播到全世界的梦想没有实现。",
+      "ja": "彼は彼らを引き離さず、VKontakteが世界中にバイラルに広がるという夢は実現しなかった。"
+    },
+    {
+      "id": 35,
+      "ru": "Это был драматический момент, потому что в 2008 году Facebook еще не захватил мир и пока штурмовал высоту «150 млн пользователей».",
+      "en": "This was a dramatic moment, because in 2008 Facebook had not yet conquered the world and was still storming the '150 million users' height.",
+      "zh": "这是一个戏剧性的时刻，因为2008年Facebook还没有征服世界，当时正在冲击「1.5亿用户」的高峰。",
+      "ja": "これは劇的な瞬間だった。2008年、Facebookはまだ世界を征服しておらず、「1億5000万ユーザー」という高みを攻略中だった。"
+    },
+    {
+      "id": 36,
+      "ru": "Если бы у Дурова с его 20 млн получился идеальный API с кроссплатформенной авторизацией и другими возможностями, соответствующими тренду сближения разных устройств, платформ, сервисов, – неизвестно, как бы выглядел расклад соцсетей.",
+      "en": "If Durov with his 20 million had created a perfect API with cross-platform authorization and other capabilities matching the trend of converging devices, platforms, and services—it's unknown how the social network landscape would look.",
+      "zh": "如果杜罗夫用他的2000万用户创建了一个完美的API，具有跨平台授权和其他符合设备、平台、服务融合趋势的功能——不知道社交网络的格局会是什么样子。",
+      "ja": "もしドゥーロフが2000万人のユーザーで、クロスプラットフォーム認証やデバイス、プラットフォーム、サービスの融合トレンドに合った機能を持つ完璧なAPIを作っていたら——ソーシャルネットワークの状況がどうなっていたかは分からない。"
+    },
+    {
+      "id": 37,
+      "ru": "По крайней мере, гегемония Facebook выглядела бы не столь однозначно.",
+      "en": "At least, Facebook's hegemony would not have looked so clear-cut.",
+      "zh": "至少，Facebook的霸权地位不会看起来如此明确。",
+      "ja": "少なくとも、Facebookの覇権はそれほど明確には見えなかっただろう。"
+    },
+    {
+      "id": 38,
+      "ru": "С другой стороны, пассионарии и без платформы осознали «ВКонтакте» как инструмент распространения информации и организации событий.",
+      "en": "On the other hand, passionaries even without the platform recognized VKontakte as a tool for spreading information and organizing events.",
+      "zh": "另一方面，即使没有这个平台，充满激情的人们也把VKontakte视为传播信息和组织活动的工具。",
+      "ja": "一方で、情熱家たちはプラットフォームなしでもVKontakteを情報を広め、イベントを組織するツールとして認識した。"
+    },
+    {
+      "id": 39,
+      "ru": "Сервис, назначающий встречи, был страшно популярен, а количество групп неуклонно росло.",
+      "en": "The event scheduling service was hugely popular, and the number of groups steadily grew.",
+      "zh": "安排聚会的服务非常受欢迎，群组数量稳步增长。",
+      "ja": "ミーティングを設定するサービスは非常に人気があり、グループの数は着実に増加した。"
+    },
+    {
+      "id": 40,
+      "ru": "Сначала юзеры подражали Facebook, регистрируя группы узконаправленного веселья типа «Группа для тех, кто любит пылесосить и петь знаменным распевом».",
+      "en": "At first users imitated Facebook, registering groups for narrowly targeted fun like 'Group for those who love vacuuming and singing Znamenny chant.'",
+      "zh": "起初用户模仿Facebook，注册一些小众娱乐群组，比如「喜欢吸尘和唱知名圣歌的人的群组」。",
+      "ja": "最初、ユーザーはFacebookを真似て、「掃除機をかけながらズナメニー聖歌を歌うのが好きな人のグループ」のような狭いターゲットの楽しみのためのグループを登録した。"
+    },
+    {
+      "id": 41,
+      "ru": "Затем в соцсеть",
+      "en": "Then into the social network",
+      "zh": "然后进入社交网络",
+      "ja": "その後ソーシャルネットワークに"
+    }
+  ],
+  "translator_notes": [
+    "Zynga was the dominant Facebook game developer, known for FarmVille and other social games",
+    "The 'voices' (голоса) currency system was VKontakte's virtual currency before cryptocurrency era",
+    "Passionary (пассионарий) is from Gumilev's theory - meaning people with excess bioenergy who drive historical change",
+    "The missed API opportunity is presented as a 'what if' moment in Russian internet history",
+    "At this time (2008), Facebook had about 150 million users globally while VKontakte had 20 million",
+    "Znamenny chant is a traditional Russian Orthodox liturgical chant - the group name is satirizing Facebook's absurd niche groups",
+    "The 'himself-and-sky-and-moon' is a Russian expression for someone who thinks very highly of themselves"
+  ],
+  "total_sentences": 41,
+  "page_type": "narrative"
+}
