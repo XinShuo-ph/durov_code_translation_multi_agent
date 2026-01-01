@@ -1,0 +1,124 @@
+{
+  "page": 13,
+  "chapter": 1,
+  "chapter_title_ru": "Ботанический сад",
+  "chapter_title_en": "The Botanical Garden",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Глава 1. Ботанический сад",
+      "en": "Chapter 1. The Botanical Garden",
+      "zh": "第一章 植物园",
+      "ja": "第1章 植物園"
+    },
+    {
+      "id": 2,
+      "ru": "Мальчик с томом Сервантеса выходит из подъезда, огибает автомобиль, который какой-то негодяй поставил так, что пешеходы еле протискиваются мимо, и сворачивает за угол.",
+      "en": "A boy carrying a volume of Cervantes exits the building entrance, squeezes past a car some jerk parked so badly that pedestrians can barely get by, and turns the corner.",
+      "zh": "一个手捧塞万提斯著作的男孩走出公寓楼入口，绕过一辆被某个混蛋停得行人几乎无法通行的汽车，转过街角。",
+      "ja": "セルバンテスの本を持った少年が建物の入り口を出て、歩行者がやっと通れるほどひどい停め方をした車を避けて、角を曲がる。"
+    },
+    {
+      "id": 3,
+      "ru": "Перед ним пустынные кварталы, поля и высоковольтные вышки, а в физиономию дует ветер – как везде в Петербурге, но в этом районе особенно.",
+      "en": "Before him stretch deserted blocks, fields, and high-voltage towers, with wind blowing in his face - as everywhere in Petersburg, but especially fierce in this neighborhood.",
+      "zh": "眼前是荒凉的街区、田野和高压电塔，风吹在脸上——像彼得堡各处一样，但这个区域尤其猛烈。",
+      "ja": "目の前には荒れた街区、野原、高圧送電塔が広がり、顔に風が吹き付ける——ペテルブルクではどこでもそうだが、この地区では特にひどい。"
+    },
+    {
+      "id": 4,
+      "ru": "Рядом море.",
+      "en": "The sea is nearby.",
+      "zh": "大海就在不远处。",
+      "ja": "海が近い。"
+    },
+    {
+      "id": 5,
+      "ru": "Архитектор раскрасил панели домов в оранжевый и бордовый, чтобы однообразное серое не свело район с ума.",
+      "en": "The architect painted the building panels orange and burgundy so the monotonous gray wouldn't drive the neighborhood crazy.",
+      "zh": "建筑师把楼房的墙板涂成橙色和酒红色，以免单调的灰色让整个街区发疯。",
+      "ja": "建築家は建物のパネルをオレンジとバーガンディに塗った——単調な灰色でこの地区が狂わないように。"
+    },
+    {
+      "id": 6,
+      "ru": "Расстояния между корпусами напоминают о заполярных городах, где возводить что-либо можно лишь на сопках, а дворы имеют сторону в километр.",
+      "en": "The distances between buildings recall Arctic cities, where you can only build on hillocks, and courtyards stretch a kilometer across.",
+      "zh": "楼与楼之间的距离让人想起北极城市，那里只能在山丘上建房，院子一边就有一公里长。",
+      "ja": "建物間の距離は北極圏の都市を思わせる——そこでは丘の上にしか建てられず、中庭は一辺が1キロもある。"
+    },
+    {
+      "id": 7,
+      "ru": "Летом они зарастают одуванчиками, разнотравьем и камышом.",
+      "en": "In summer they become overgrown with dandelions, wild grasses, and reeds.",
+      "zh": "夏天，它们被蒲公英、杂草和芦苇覆盖。",
+      "ja": "夏になるとタンポポや雑草、葦で覆われる。"
+    },
+    {
+      "id": 8,
+      "ru": "Вокруг осушенные болота.",
+      "en": "All around are drained swamps.",
+      "zh": "周围是排干的沼泽地。",
+      "ja": "周りには干拓された湿地が広がる。"
+    },
+    {
+      "id": 9,
+      "ru": "Сканируя пространство на предмет гопников, мальчик с книгой идет к трассе.",
+      "en": "Scanning the area for gopniks, the boy with the book walks toward the highway.",
+      "zh": "男孩拿着书，一边警惕着小混混，一边朝公路走去。",
+      "ja": "ゴプニクがいないか周囲を見回しながら、本を持った少年は幹線道路に向かって歩く。"
+    },
+    {
+      "id": 10,
+      "ru": "Некоторые многоэтажки недостроены, а улицы недочерчены.",
+      "en": "Some high-rises are unfinished, and streets are left incomplete.",
+      "zh": "有些高楼还没建完，街道也没画完线。",
+      "ja": "高層ビルには未完成のものがあり、道路も途中で途切れている。"
+    },
+    {
+      "id": 11,
+      "ru": "У одного корпуса поставили стилобат, а потом, видимо, куда-то просадили деньги - осталась бетонная коробка.",
+      "en": "They laid the foundation for one building, but then apparently blew the money somewhere - only a concrete shell remains.",
+      "zh": "有一栋楼打好了地基，后来钱显然被挪用了——只剩下一个水泥壳子。",
+      "ja": "ある建物は基礎だけ作られたが、どうやら資金がどこかに消えたらしく——コンクリートの箱だけが残っている。"
+    },
+    {
+      "id": 12,
+      "ru": "Внутри нее горят костры и сидят парни, курят, треплются и малюют граффити.",
+      "en": "Inside, bonfires burn and guys sit around smoking, chatting, and scrawling graffiti.",
+      "zh": "里面点着篝火，一群人坐在那里抽烟、闲聊、涂鸦。",
+      "ja": "中では焚き火が燃え、若者たちが座ってタバコを吸い、おしゃべりをし、グラフィティを描いている。"
+    },
+    {
+      "id": 13,
+      "ru": "Весной разливаются лужи, и парни сколачивают плоты, чтобы перебраться с континента Камышовая на континент Ситцевая.",
+      "en": "In spring the puddles flood, and the guys build rafts to cross from the continent of Kamyshovaya to the continent of Sitsevaya.",
+      "zh": "春天水洼泛滥，小伙子们搭起木筏，从芦苇大陆渡到印花布大陆。",
+      "ja": "春になると水たまりがあふれ、若者たちはカムィショヴァヤ大陸からシツェヴァヤ大陸へ渡るためにいかだを作る。"
+    },
+    {
+      "id": 14,
+      "ru": "Маячат котлованы, наполненные мутной водой.",
+      "en": "Foundation pits filled with murky water loom ahead.",
+      "zh": "前方隐约可见注满浑水的基坑。",
+      "ja": "濁った水で満たされた掘削穴がぼんやりと見える。"
+    },
+    {
+      "id": 15,
+      "ru": "За ними чернеет лес.",
+      "en": "Beyond them, the forest looms dark.",
+      "zh": "在它们后面，森林黑压压地矗立着。",
+      "ja": "その向こうには暗い森が広がる。"
+    }
+  ],
+  "translator_notes": [
+    "Gopniks - Russian street thugs, working-class youth known for aggression",
+    "Kamyshovaya/Sitsevaya - actual street names in St. Petersburg, translated literally as Reed/Calico",
+    "The chapter title Botanical Garden is ironic - botanik means both botanist and nerd in Russian",
+    "References to unfinished Soviet-era construction common in 1990s St. Petersburg"
+  ],
+  "research_used": [
+    "St. Petersburg geography and climate",
+    "Soviet-era panel housing construction",
+    "Russian youth subculture (gopniks vs. nerds)"
+  ]
+}

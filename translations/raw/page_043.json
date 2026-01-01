@@ -1,0 +1,116 @@
+{
+  "page": 43,
+  "chapter": 3,
+  "chapter_title_ru": "Мафия открывает глаза",
+  "chapter_title_en": "The Mafia Opens Its Eyes",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "...предложили купить базу данных, от которой я, разумеется, отказался. Но я отказался, а кто-то согласится.",
+      "en": "...they offered to sell me the database, which I naturally declined. But I refused, and someone else might accept.",
+      "zh": "……他们提出卖给我数据库，我当然拒绝了。但我拒绝了，别人可能会同意。",
+      "ja": "……データベースを売ると持ちかけられたが、当然断った。でも私は断ったが、誰かは受け入れるかもしれない。"
+    },
+    {
+      "id": 2,
+      "ru": "Почему предложили мне - я один из создателей проекта ВКонтакте.ру.",
+      "en": "Why they offered it to me - I am one of the creators of the VKontakte.ru project.",
+      "zh": "为什么找上我——因为我是VKontakte.ru项目的创建者之一。",
+      "ja": "なぜ私に持ちかけたのか——私はVKontakte.ruプロジェクトの創設者の一人だからだ。"
+    },
+    {
+      "id": 3,
+      "ru": "Этот сайт, как и moifakultet, является клоном американского сайта facebook.com, однако мы создаем наш, российский сайт со своей спецификой и рядом функций.",
+      "en": "This site, like moifakultet, is a clone of the American site facebook.com, but we are creating our own Russian site with its own specifics and features.",
+      "zh": "这个网站和moifakultet一样，是美国网站facebook.com的克隆版，但我们正在创建我们自己的俄罗斯网站，有自己的特色和一系列功能。",
+      "ja": "このサイトはmoifakultetと同様、アメリカのfacebook.comのクローンだが、私たちは独自の特徴と機能を持つロシアのサイトを作っている。"
+    },
+    {
+      "id": 4,
+      "ru": "Если вас заинтересовал moifakultet, но вам не нравятся баги, слабая функциональность, корявость в альтернативных браузерах и т.д., я советую использовать ВКонтакте.ру.",
+      "en": "If you were interested in moifakultet, but you don't like the bugs, weak functionality, clunkiness in alternative browsers, etc., I advise you to use VKontakte.ru.",
+      "zh": "如果你对moifakultet感兴趣，但不喜欢它的bug、功能薄弱、在其他浏览器上的兼容问题等等，我建议你使用VKontakte.ru。",
+      "ja": "もしmoifakultetに興味があるが、バグや機能の弱さ、他のブラウザでの表示の問題などが気に入らないなら、VKontakte.ruの使用をお勧めする。"
+    },
+    {
+      "id": 5,
+      "ru": "Друзья, если вы посмотрите сайт и согласитесь, что vkontakte.ru - проект более серьезный и профессиональный, прошу пригласить туда друзей и предупредить их о том, о чем я рассказал.",
+      "en": "Friends, if you look at the site and agree that vkontakte.ru is a more serious and professional project, please invite your friends there and warn them about what I've told you.",
+      "zh": "朋友们，如果你们看过网站后同意vkontakte.ru是一个更专业、更认真的项目，请邀请你们的朋友加入，并告诉他们我说的这些事。",
+      "ja": "友人たちよ、サイトを見てvkontakte.ruがより本格的でプロフェッショナルなプロジェクトだと同意するなら、友人を招待し、私が話したことを伝えてほしい。"
+    },
+    {
+      "id": 6,
+      "ru": "Для всех нас очень важна ваша поддержка - без нее проект и все наши старания бессмысленны.",
+      "en": "Your support is very important to all of us - without it, the project and all our efforts are meaningless.",
+      "zh": "你们的支持对我们所有人都非常重要——没有它，这个项目和我们所有的努力都毫无意义。",
+      "ja": "皆さんのサポートは私たち全員にとって非常に重要だ——それがなければ、プロジェクトと私たちのすべての努力は無意味になる。"
+    },
+    {
+      "id": 7,
+      "ru": "Пожалуйста, напишите, что вы думаете об этом. Автор: durov 4.12.2006, 7:44",
+      "en": "Please write what you think about this. Author: durov 4.12.2006, 7:44",
+      "zh": "请写下你们对此的看法。作者：durov 2006年12月4日，7:44",
+      "ja": "これについてどう思うか書いてください。投稿者：durov 2006年12月4日 7:44"
+    },
+    {
+      "id": 8,
+      "ru": "UPDATE! Только что мне рассказали, что администратор сайта moifakultet.ru теперь обвиняет нас в том, что мы его якобы злостно взломали. Приехали, называется...",
+      "en": "UPDATE! I was just told that the administrator of moifakultet.ru is now accusing us of allegedly maliciously hacking them. Here we go...",
+      "zh": "更新！刚才有人告诉我，moifakultet.ru的管理员现在指控我们恶意黑了他们的网站。这下好了……",
+      "ja": "更新！moifakultet.ruの管理者が、私たちが悪意を持って彼らをハッキングしたと非難していると聞いた。まったく……"
+    },
+    {
+      "id": 9,
+      "ru": "Мы сотрудничаем с серьезной командой по информационной безопасности, которая с нами работала некоторое время, - они не занимаются нелегалом.",
+      "en": "We work with a serious information security team that has been working with us for some time - they don't do anything illegal.",
+      "zh": "我们与一个专业的信息安全团队合作，他们已经和我们合作了一段时间——他们不做违法的事。",
+      "ja": "私たちは、しばらく一緒に仕事をしてきた真剣な情報セキュリティチームと協力している——彼らは違法なことはしない。"
+    },
+    {
+      "id": 10,
+      "ru": "Как оказалось, moifakultet взломали хакеры, которые как-то узнали о работе над параллельными проектами и решили через них подзаработать.",
+      "en": "As it turned out, moifakultet was hacked by hackers who somehow learned about the parallel projects and decided to make money through them.",
+      "zh": "结果发现，moifakultet是被黑客攻击的，这些黑客不知怎么知道了我们的并行项目，决定从中捞一笔。",
+      "ja": "判明したところ、moifakultetは並行プロジェクトのことをどこかで知り、それを利用して金儲けしようとしたハッカーにハッキングされたのだ。"
+    },
+    {
+      "id": 11,
+      "ru": "Продать дыры одного сайта владельцу другого и наоборот.",
+      "en": "Sell the vulnerabilities of one site to the owner of another and vice versa.",
+      "zh": "把一个网站的漏洞卖给另一个网站的所有者，反之亦然。",
+      "ja": "あるサイトの脆弱性を別のサイトの所有者に売り、その逆も同様にする。"
+    },
+    {
+      "id": 12,
+      "ru": "Они связались через нашу команду со мной и предложили купить БД незадачливого конкурента. Не получилось - нам это просто не надо.",
+      "en": "They contacted me through our team and offered to sell the database of the unfortunate competitor. It didn't work - we simply don't need it.",
+      "zh": "他们通过我们的团队联系到我，提出要卖那个倒霉竞争对手的数据库。没成功——我们根本不需要。",
+      "ja": "彼らは私たちのチームを通じて連絡してきて、不運な競合相手のデータベースを売ると申し出た。うまくいかなかった——私たちには単に必要ないからだ。"
+    },
+    {
+      "id": 13,
+      "ru": "Не уверен, что та сторона была бы настолько же великодушна, но я хакеров послал.",
+      "en": "I'm not sure the other side would have been as generous, but I sent the hackers away.",
+      "zh": "我不确定对方会不会这么大度，但我把那些黑客打发走了。",
+      "ja": "向こう側がそこまで寛大だったかどうかはわからないが、私はハッカーたちを追い払った。"
+    },
+    {
+      "id": 14,
+      "ru": "А теперь в благодарность распространяются байки про то, что они нас взломали.",
+      "en": "And now in gratitude, stories are being spread that we hacked them.",
+      "zh": "现在作为回报，他们却散布谣言说我们黑了他们。",
+      "ja": "そして今、感謝の代わりに、私たちが彼らをハッキングしたという噂が広まっている。"
+    }
+  ],
+  "translator_notes": [
+    "This page contains forum posts documenting the early VKontakte vs. moifakultet.ru controversy",
+    "The date format 4.12.2006 is European (December 4, 2006)",
+    "BD/БД = Database (база данных)",
+    "The tone is defensive but confident - classic Durov style"
+  ],
+  "research_used": [
+    "Early VKontakte launch controversy",
+    "Russian internet startup culture 2006"
+  ]
+}
