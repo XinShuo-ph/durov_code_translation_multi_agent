@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-d536
 - **Short ID**: d536
-- **Heartbeat**: 1767257360
+- **Heartbeat**: 1767257551
 - **Status**: translating
 
 ## Current Work
-- **Claimed Page**: 86
-- **Started At**: 1767257360
+- **Claimed Page**: 87
+- **Started At**: 1767257551
 
 ## Completed Pages
 | Page | Completed At | Hash |
@@ -48,6 +48,7 @@
 | 83   | 1767256979 | e0ac0f8b |
 | 84   | 1767257165 | 2747794b |
 | 85   | 1767257360 | f15edb07 |
+| 86   | 1767257551 | 79ae66b6 |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
@@ -58,4 +59,4 @@
 | c68e     | active | 37           | recent |
 
 ## Notes
-Completed 35 pages (1-15, 17-22, 26-27, 30-35, 80-85). Page 85: Spotify/Ek rejection, Durov-Grishin meeting, Usmanov at Sheremetev Palace, buyout negotiations.
+Completed 36 pages (1-15, 17-22, 26-27, 30-35, 80-86). Page 86: Usmanov-Durov deal proposal, Grishin meeting, Mail.ru buyout offer rejected.

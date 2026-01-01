@@ -1,0 +1,323 @@
+{
+  "page": 86,
+  "chapter": 4,
+  "chapter_title": "Штаб (Headquarters)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Помимо Дурова Усманов пригласил во дворец Гришина, финдиректора Mail.ru Верди Исраэляна, «смотрящего» за телекоммуникационными активами Ивана Стрешинского и представителя в «Мегафоне» Ивана Таврина.",
+      "en": "Besides Durov, Usmanov invited to the palace Grishin, Mail.ru's CFO Verdi Israelyan, the 'overseer' of telecommunications assets Ivan Streshinsky, and the representative at MegaFon Ivan Tavrin.",
+      "zh": "除了杜罗夫，乌斯马诺夫还邀请了格里辛、Mail.ru的首席财务官韦尔迪·伊斯拉埃良、电信资产的"监督者"伊万·斯特列辛斯基以及在MegaFon的代表伊万·塔夫林到宫殿。",
+      "ja": "ドゥーロフのほかにも、ウスマノフは宮殿にグリシン、Mail.ruのCFOヴェルディ・イスラエリャン、通信資産の「監督者」イヴァン・ストレシンスキー、そしてメガフォンの代表イヴァン・タヴリンを招いた。"
+    },
+    {
+      "id": 3,
+      "ru": "О чем беседовали Усманов и Дуров, обе стороны рассказывать отказались.",
+      "en": "What Usmanov and Durov talked about, both sides refused to say.",
+      "zh": "乌斯马诺夫和杜罗夫谈了什么，双方都拒绝透露。",
+      "ja": "ウスマノフとドゥーロフが何を話したかについて、両者とも語ることを拒否した。"
+    },
+    {
+      "id": 4,
+      "ru": "Однако, сопоставляя данные из источников, близких к ним, канву удалось восстановить.",
+      "en": "However, by comparing data from sources close to them, the outline was reconstructed.",
+      "zh": "然而，通过对比接近他们的消息来源的数据，对话的轮廓得以重建。",
+      "ja": "しかし、彼らに近い情報源からのデータを照合することで、概要を再構成することができた。"
+    },
+    {
+      "id": 5,
+      "ru": "Беседа развивалась примерно так – с учетом лексики Усманова, которая поразила коллег из Forbes в ходе интервью:",
+      "en": "The conversation developed approximately like this—taking into account Usmanov's vocabulary, which struck colleagues from Forbes during an interview:",
+      "zh": "对话大致是这样发展的——考虑到乌斯马诺夫的词汇，这在福布斯采访中让同事们印象深刻：",
+      "ja": "会話はおおよそこのように展開した——フォーブスのインタビュー中に同僚を驚かせたウスマノフの語彙を考慮すると："
+    },
+    {
+      "id": 6,
+      "ru": "– Будете расти?",
+      "en": "\"Will you grow?\"",
+      "zh": ""你们会增长吗？"",
+      "ja": "「成長するのか？」"
+    },
+    {
+      "id": 7,
+      "ru": "– Будем.",
+      "en": "\"We will.\"",
+      "zh": ""会的。"",
+      "ja": "「します」"
+    },
+    {
+      "id": 8,
+      "ru": "– На биржу когда можно пойти?",
+      "en": "\"When can you go to the stock exchange?\"",
+      "zh": ""什么时候可以上市？"",
+      "ja": "「証券取引所にはいつ行ける？」"
+    },
+    {
+      "id": 9,
+      "ru": "– Ну, года через три.",
+      "en": "\"Well, in about three years.\"",
+      "zh": ""嗯，大约三年后。"",
+      "ja": "「まあ、3年後くらいに」"
+    },
+    {
+      "id": 10,
+      "ru": "– Ладно, твои пассажиры [Левиев и Мирилашвили] торгуются – но ты-то чего хочешь?",
+      "en": "\"Okay, your passengers [Leviev and Mirilashvili] are bargaining—but what do you want?\"",
+      "zh": ""好吧，你的乘客们[列维耶夫和米里拉什维利]在讨价还价——但你想要什么？"",
+      "ja": "「わかった、お前の乗客たち[レヴィエフとミリラシュヴィリ]は交渉中だ——だがお前は何が欲しいんだ？」"
+    },
+    {
+      "id": 11,
+      "ru": "– Есть вариант: мне контроль над принятием решений, вам контроль над собственностью.",
+      "en": "\"There's an option: decision-making control for me, ownership control for you.",
+      "zh": ""有一个选择：我控制决策权，你们控制所有权。",
+      "ja": "「選択肢がある：私には意思決定権、あなた方には所有権だ。"
+    },
+    {
+      "id": 12,
+      "ru": "В таком раскладе все выигрывают – у меня остается мой пакет, а у вас, если парни продадут, больше 50 %.",
+      "en": "In this scenario everyone wins—I keep my stake, and you, if the guys sell, get more than 50%.",
+      "zh": "在这种情况下每个人都赢——我保留我的股份，而你们，如果那些人卖掉的话，得到超过50%。",
+      "ja": "このシナリオなら全員が勝つ——私は自分の持分を保持し、あなた方は彼らが売れば50%以上を得る。"
+    },
+    {
+      "id": 13,
+      "ru": "«ВКонтакте» будет расти.",
+      "en": "VKontakte will grow.\"",
+      "zh": "VKontakte会增长。"",
+      "ja": "VKontakteは成長する」"
+    },
+    {
+      "id": 14,
+      "ru": "– Хорошо, подумаю, а ты тряхни своих друзей.",
+      "en": "\"Good, I'll think about it, and you shake up your friends.\"",
+      "zh": ""好的，我考虑一下，你去摇一摇你的朋友们。"",
+      "ja": "「よし、考えよう。お前は友人たちを揺さぶれ」"
+    },
+    {
+      "id": 15,
+      "ru": "Когда Гришин спросил Усманова о результате разговора, тот, вероятно, ответил что-то такое, из чего глава холдинга заключил, что «ВКонтакте» готовы продаться Mail.ru.",
+      "en": "When Grishin asked Usmanov about the result of the conversation, he probably answered something from which the head of the holding concluded that VKontakte was ready to sell itself to Mail.ru.",
+      "zh": "当格里辛问乌斯马诺夫谈话结果时，他可能说了一些让控股公司负责人得出VKontakte准备卖给Mail.ru的结论。",
+      "ja": "グリシンがウスマノフに会話の結果を尋ねた時、彼はおそらく、ホールディングの責任者がVKontakteはMail.ruに売却する準備ができていると結論づけるような何かを答えた。"
+    },
+    {
+      "id": 16,
+      "ru": "Дурова позвали продолжить разговор.",
+      "en": "Durov was called to continue the conversation.",
+      "zh": "杜罗夫被叫去继续谈话。",
+      "ja": "ドゥーロフは会話を続けるよう呼ばれた。"
+    },
+    {
+      "id": 17,
+      "ru": "Перед встречей в кабинете напротив башен-близнецов он заехал к юристам прояснить свои права и возможности, если доли в компании будут меняться.",
+      "en": "Before the meeting in the office opposite the twin towers, he stopped by lawyers to clarify his rights and options if shares in the company were to change.",
+      "zh": "在双子塔对面办公室会面之前，他去律师那里澄清如果公司股份发生变化他的权利和选择。",
+      "ja": "ツインタワーの向かいのオフィスでの会議の前に、彼は弁護士に立ち寄り、会社の株式が変更される場合の自分の権利と選択肢を明確にした。"
+    },
+    {
+      "id": 18,
+      "ru": "В дверь постучали.",
+      "en": "There was a knock at the door.",
+      "zh": "有人敲门。",
+      "ja": "ドアがノックされた。"
+    },
+    {
+      "id": 19,
+      "ru": "Переговорщики прервались, и секретарь внес тарелки.",
+      "en": "The negotiators paused, and the secretary brought in plates.",
+      "zh": "谈判者们暂停了，秘书端来了盘子。",
+      "ja": "交渉者たちは中断し、秘書が皿を運び入れた。"
+    },
+    {
+      "id": 20,
+      "ru": "Дуров прикидывал сценарии переговоров.",
+      "en": "Durov was calculating negotiation scenarios.",
+      "zh": "杜罗夫正在考虑谈判方案。",
+      "ja": "ドゥーロフは交渉シナリオを計算していた。"
+    },
+    {
+      "id": 21,
+      "ru": "Его раздражала уверенность Гришина, что холдинг съест его детище, как эту ловкую, но угодившую на сковороду рыбину.",
+      "en": "He was irritated by Grishin's confidence that the holding would devour his brainchild like this nimble fish that had ended up in the frying pan.",
+      "zh": "格里辛那种控股公司会吞噬他的心血之作的自信让他恼火，就像这条灵巧但落入煎锅的鱼一样。",
+      "ja": "ホールディングが彼の創造物をこの敏捷だがフライパンに落ちてしまった魚のように食い尽くすというグリシンの自信が彼を苛立たせた。"
+    },
+    {
+      "id": 22,
+      "ru": "Впрочем, Гришин лишь менеджер.",
+      "en": "However, Grishin was only a manager.",
+      "zh": "不过，格里辛只是一个经理人。",
+      "ja": "しかし、グリシンは単なるマネージャーに過ぎない。"
+    },
+    {
+      "id": 23,
+      "ru": "За ним стоит Усманов, с которым прекрасно сотрудничал Мильнер и почему бы не посотрудничать ему самому.",
+      "en": "Behind him stood Usmanov, with whom Milner had cooperated excellently, so why shouldn't he cooperate himself.",
+      "zh": "他背后是乌斯马诺夫，米尔纳与他合作得很好，他自己为什么不能合作呢。",
+      "ja": "彼の背後にはウスマノフがいて、ミルナーは見事に協力していた。なぜ自分も協力しないのか。"
+    },
+    {
+      "id": 24,
+      "ru": "Если повести себя с менеджером чрезмерно агрессивно, можно лишиться возможности наладить отношения с собственным акционером.",
+      "en": "If he behaved too aggressively with the manager, he could lose the opportunity to establish relations with his own shareholder.",
+      "zh": "如果对经理人表现得过于激进，可能会失去与自己股东建立关系的机会。",
+      "ja": "マネージャーに対してあまりにも攻撃的に振る舞えば、自社の株主との関係を築く機会を失う可能性がある。"
+    },
+    {
+      "id": 25,
+      "ru": "Подчеркивая, что ничего личного, только бизнес, Дуров повторил, что слияние с Mail.ru нежелательно, и повернул разговор в сторону глобальных трендов и т. д. – подальше от темы слияния.",
+      "en": "Emphasizing that it was nothing personal, just business, Durov repeated that a merger with Mail.ru was undesirable and turned the conversation toward global trends, etc.—away from the topic of merger.",
+      "zh": "强调这不是针对个人，只是生意，杜罗夫重申与Mail.ru合并是不可取的，并将话题转向全球趋势等——远离合并话题。",
+      "ja": "個人的なことではなく、ビジネスだと強調しながら、ドゥーロフはMail.ruとの合併は望ましくないと繰り返し、会話をグローバルトレンドなどに向けた——合併の話題から離れて。"
+    },
+    {
+      "id": 26,
+      "ru": "Ему показалось, что Гришин понял.",
+      "en": "It seemed to him that Grishin understood.",
+      "zh": "他觉得格里辛理解了。",
+      "ja": "彼にはグリシンが理解したように思えた。"
+    },
+    {
+      "id": 27,
+      "ru": "Однако это был тупик и спор на разных языках.",
+      "en": "However, this was a dead end and an argument in different languages.",
+      "zh": "然而，这是一个僵局，是不同语言的争论。",
+      "ja": "しかし、これは行き止まりであり、異なる言語での議論だった。"
+    },
+    {
+      "id": 28,
+      "ru": "В нем, как и во всем конфликте, не было злых и добрых.",
+      "en": "In it, as in the entire conflict, there were no villains and heroes.",
+      "zh": "在这场冲突中，就像在整个冲突中一样，没有坏人和好人。",
+      "ja": "それには、紛争全体と同様に、悪役も善人もいなかった。"
+    },
+    {
+      "id": 29,
+      "ru": "Столкнулись настолько разные типы, менталитеты, что понимания между ними возникнуть не могло.",
+      "en": "Such different types and mentalities collided that understanding between them couldn't arise.",
+      "zh": "如此不同的类型和心态发生了碰撞，以至于他们之间不可能产生理解。",
+      "ja": "あまりにも異なるタイプとメンタリティが衝突したため、彼らの間に理解が生まれることはなかった。"
+    },
+    {
+      "id": 30,
+      "ru": "Менеджер убеждал предпринимателя, что тому стоит перейти из «состояния независимости» в «состояние подчинения».",
+      "en": "The manager was convincing the entrepreneur that he should transition from a 'state of independence' to a 'state of subordination.'",
+      "zh": "经理人在说服企业家，他应该从"独立状态"转变为"从属状态"。",
+      "ja": "マネージャーは起業家に、「独立状態」から「従属状態」に移行すべきだと説得していた。"
+    },
+    {
+      "id": 31,
+      "ru": "Гришин искренне думал, что Дуров выторговывает шоколадные условия продажи «ВКонтакте» – ведь все имеет цену.",
+      "en": "Grishin genuinely thought that Durov was negotiating for sweet terms for selling VKontakte—after all, everything has a price.",
+      "zh": "格里辛真诚地认为杜罗夫正在为出售VKontakte谈判甜蜜的条件——毕竟，一切都有价格。",
+      "ja": "グリシンは心からドゥーロフがVKontakte売却の好条件を交渉していると思っていた——結局、すべてには価格がある。"
+    },
+    {
+      "id": 32,
+      "ru": "Неудивительно, что, вернувшись к валькириям и глобусу, Дуров получил письмо.",
+      "en": "Unsurprisingly, upon returning to the valkyries and the globe, Durov received a letter.",
+      "zh": "不出所料，回到瓦尔基里和地球仪旁边后，杜罗夫收到了一封信。",
+      "ja": "当然のことながら、ワルキューレと地球儀のところに戻ると、ドゥーロフは手紙を受け取った。"
+    },
+    {
+      "id": 33,
+      "ru": "Mail.ru предлагал вариант: он становится акционером холдинга, продав долю во «ВКонтакте».",
+      "en": "Mail.ru offered an option: he would become a shareholder of the holding by selling his stake in VKontakte.",
+      "zh": "Mail.ru提出了一个方案：通过出售VKontakte的股份，他将成为控股公司的股东。",
+      "ja": "Mail.ruは選択肢を提示した：VKontakteの持分を売却することでホールディングの株主になる。"
+    },
+    {
+      "id": 34,
+      "ru": "Архитектора взбесило, что ему опять пихают деньги.",
+      "en": "The architect was infuriated that they were again pushing money at him.",
+      "zh": "建筑师被再次向他塞钱的行为激怒了。",
+      "ja": "建築家は、また金を押し付けられていることに激怒した。"
+    },
+    {
+      "id": 35,
+      "ru": "Прямым текстом он дал понять: зеленые бумажки – совсем не то, чего он хочет.",
+      "en": "He made it clear in plain terms: green paper was not at all what he wanted.",
+      "zh": "他直截了当地表明：绿色纸币根本不是他想要的。",
+      "ja": "彼は率直に言った：緑の紙幣は彼が欲しいものではまったくない。"
+    },
+    {
+      "id": 36,
+      "ru": "И в данный момент, и в жизни.",
+      "en": "Neither at this moment nor in life.",
+      "zh": "无论是现在，还是在生活中。",
+      "ja": "今この瞬間も、人生においても。"
+    },
+    {
+      "id": 37,
+      "ru": "В конце концов, он уже миллионер.",
+      "en": "After all, he was already a millionaire.",
+      "zh": "毕竟，他已经是百万富翁了。",
+      "ja": "結局、彼はすでにミリオネアだった。"
+    },
+    {
+      "id": 38,
+      "ru": "Мало того, соглашение подразумевало, что, если Дуров продолжит плохо себя вести – негативно высказываться о компании, – ему устроят ата-та и поставят в угол.",
+      "en": "Moreover, the agreement implied that if Durov continued to behave badly—speaking negatively about the company—they would give him a spanking and put him in the corner.",
+      "zh": "更重要的是，协议暗示如果杜罗夫继续表现不好——对公司发表负面言论——他们会给他一顿打并让他站墙角。",
+      "ja": "さらに、契約は、ドゥーロフが悪い行動を続けた場合——会社について否定的に発言するなど——おしおきをして隅に立たせることを意味していた。"
+    },
+    {
+      "id": 39,
+      "ru": "Отнимут долю, например.",
+      "en": "Take away his stake, for example.",
+      "zh": "例如，拿走他的股份。",
+      "ja": "例えば、持分を取り上げる。"
+    },
+    {
+      "id": 40,
+      "ru": "Дуров вдохнул поглубже, распахнул дверь в общежитие с люстрой-крабом, устроился в своей комнате и открыл почту на айфоне.",
+      "en": "Durov took a deep breath, opened the door to the dormitory with the crab chandelier, settled into his room, and opened his email on his iPhone.",
+      "zh": "杜罗夫深吸一口气，打开有螃蟹吊灯的宿舍门，在自己的房间里安顿下来，在iPhone上打开了邮件。",
+      "ja": "ドゥーロフは深呼吸し、カニのシャンデリアがある寮のドアを開け、自分の部屋に落ち着き、iPhoneでメールを開いた。"
+    },
+    {
+      "id": 41,
+      "ru": "Главное – спокойно объяснить, на английском языке, выбирая точные слова, почему эта сделка невозможна.",
+      "en": "The main thing was to calmly explain, in English, choosing precise words, why this deal was impossible.",
+      "zh": "关键是要冷静地用英语，选择精确的词语，解释为什么这笔交易是不可能的。",
+      "ja": "重要なのは、冷静に英語で、正確な言葉を選んで、なぜこの取引が不可能なのかを説明することだった。"
+    },
+    {
+      "id": 42,
+      "ru": "То есть невозможна никогда.",
+      "en": "That is, impossible ever.",
+      "zh": "也就是说，永远不可能。",
+      "ja": "つまり、永遠に不可能だということだ。"
+    },
+    {
+      "id": 43,
+      "ru": "Указываем, что вся история",
+      "en": "Stating that the entire history",
+      "zh": "指出整个历史",
+      "ja": "全体の歴史が"
+    }
+  ],
+  "translator_notes": [
+    "Verdi Israelyan - Mail.ru CFO",
+    "Ivan Streshinsky - manages USM Holdings' telecom investments",
+    "Ivan Tavrin - managed Usmanov's stake in MegaFon mobile operator",
+    "MegaFon - major Russian mobile operator partially owned by USM Holdings",
+    "Passengers (пассажиры) - Usmanov's slang for minority investors",
+    "Leviev - Lev Leviev, diamond magnate, co-investor with Mirilashvili",
+    "Twin towers - likely refers to Moscow City business complex",
+    "Green paper (зеленые бумажки) - slang for US dollars",
+    "Ата-та - childish Russian expression for a spanking/punishment",
+    "The crab chandelier and valkyries - references to VK office from earlier pages",
+    "Writing in English - significant as international investor communications are conducted in English"
+  ],
+  "total_sentences": 43,
+  "page_type": "narrative"
+}
