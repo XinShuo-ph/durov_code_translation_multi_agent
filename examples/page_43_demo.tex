@@ -1,0 +1,79 @@
+% Page 43 Demo Translation - Durov Code
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage[russian,english]{babel}
+\usepackage{xcolor}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{parskip}
+
+\setmainfont{DejaVu Serif}
+\setCJKmainfont{Noto Sans CJK SC}
+\newCJKfontfamily\cjkjapanese{Noto Sans CJK JP}
+
+\definecolor{russiancolor}{RGB}{0,0,0}
+\definecolor{englishcolor}{RGB}{0,51,153}
+\definecolor{chinesecolor}{RGB}{204,0,0}
+\definecolor{japanesecolor}{RGB}{0,102,51}
+
+\newcommand{\ru}[1]{\textcolor{russiancolor}{#1}}
+\newcommand{\en}[1]{\textcolor{englishcolor}{#1}}
+\newcommand{\zh}[1]{\textcolor{chinesecolor}{#1}}
+\newcommand{\ja}[1]{\textcolor{japanesecolor}{\cjkjapanese #1}}
+
+\newenvironment{mlsentence}
+  {\begin{quote}\small}
+  {\end{quote}}
+
+\begin{document}
+
+\section*{Page 43 — VKontakte Launch Context}
+
+\hrule
+\vspace{0.5cm}
+
+\textit{Original page 43 — Demo translation showing Durov's early blog post}
+
+\vspace{0.5cm}
+
+\begin{mlsentence}
+\ru{Почему предложили мне – я один из создателей проекта ВКонтакте.ру.}
+
+\en{Why did they approach me – I am one of the creators of the VKontakte.ru project.}
+
+\zh{为什么找我呢？因为我是VKontakte.ru项目的创始人之一。}
+
+\ja{なぜ私に提案したのか—私はVKontakte.ruプロジェクトの創設者の一人だからだ。}
+\end{mlsentence}
+
+\begin{mlsentence}
+\ru{Этот сайт, как и moifakultet, является клоном американского сайта facebook.com, однако мы создаем наш, российский сайт со своей спецификой и рядом функций.}
+
+\en{This site, like moifakultet, is a clone of the American site facebook.com, but we are creating our own Russian site with its own specifics and features.}
+
+\zh{这个网站，像moifakultet一样，是美国网站facebook.com的克隆，但我们正在创建具有自己特色和功能的俄罗斯网站。}
+
+\ja{このサイトはmoifakultetと同様、アメリカのサイトfacebook.comのクローンだが、私たちは独自の特徴と機能を持つロシアのサイトを作っている。}
+\end{mlsentence}
+
+\begin{mlsentence}
+\ru{Автор: durov 4.12.2006, 7:44}
+
+\en{Author: durov 4.12.2006, 7:44}
+
+\zh{作者：durov 2006年12月4日 7:44}
+
+\ja{著者：durov 2006年12月4日 7:44}
+\end{mlsentence}
+
+\vspace{1cm}
+\hrule
+\vspace{0.3cm}
+
+\textit{\small Context: December 2006 blog post by Pavel Durov addressing accusations during VKontakte's early days. This page shows the competitive and controversial atmosphere surrounding VK's launch.}
+
+\vspace{0.3cm}
+\textit{\small Demo translation by worker e5f7 — M1 format demonstration}
+
+\end{document}

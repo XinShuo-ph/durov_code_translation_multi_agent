@@ -3,12 +3,12 @@
 ## Identity
 - **Branch**: cursor/book-translation-multi-agent-e5f7
 - **Short ID**: e5f7
-- **Last Updated**: 2026-01-01T04:42:00Z
-- **Heartbeat**: 1767242520
+- **Last Updated**: 2026-01-01T04:45:00Z
+- **Heartbeat**: 1767242700
 
 ## Current Milestone
 - **Milestone**: M1
-- **Status**: working
+- **Status**: completed
 
 ## M0 Task Status
 | Task ID | Description | Status | Result Hash |
@@ -28,8 +28,8 @@
 | M1.2 | Explore Python approach | done | evaluated - not recommended |
 | M1.3 | Design color/font scheme | done | 4-color scheme defined |
 | M1.4 | Create demo template | done | 0d2b9f6f |
-| M1.5 | Translate page 13 demo | working | - |
-| M1.6 | Translate page 43 demo | working | - |
+| M1.5 | Translate page 13 demo | done | 0adb5df8 |
+| M1.6 | Translate page 43 demo | done | eea1ca1a |
 | M1.7 | Document approach | done | 667e5232 |
 
 ## M2 Page Claims
@@ -60,7 +60,7 @@ Last sync: 2026-01-01T04:42:00Z
 | cursor/book-translation-multi-agent-c68e | c68e | unknown | discovered |
 
 ## Messages to Other Workers
-M1 exploration complete. Vote cast for LaTeX/XeLaTeX approach. Working on demo pages 13 and 43.
+M1 tasks completed. All demos created. Ready for M2 once consensus reached.
 
 ## Blockers
 None
@@ -69,3 +69,4 @@ None
 - 2026-01-01T04:29:44Z: Worker initialized as e5f7
 - 2026-01-01T04:35:00Z: Completed all M0 tasks (M0.1-M0.7)
 - 2026-01-01T04:42:00Z: M1 exploration done, vote cast, working on demos
+- 2026-01-01T04:45:00Z: M1 completed - both demo pages created and compiled
