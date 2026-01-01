@@ -1,0 +1,265 @@
+{
+  "page": 83,
+  "chapter": 4,
+  "chapter_title": "Штаб (Headquarters)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "информационную повестку страны, – Владиславом Сурковым.",
+      "en": "the country's information agenda—Vladislav Surkov.",
+      "zh": "国家的信息议程——弗拉迪斯拉夫·苏尔科夫。",
+      "ja": "国の情報アジェンダを——ウラジスラフ・スルコフと。"
+    },
+    {
+      "id": 3,
+      "ru": "Дуров согласился.",
+      "en": "Durov agreed.",
+      "zh": "杜罗夫同意了。",
+      "ja": "ドゥーロフは同意した。"
+    },
+    {
+      "id": 4,
+      "ru": "Ему, в общем, было все равно, кто им поможет.",
+      "en": "In general, he didn't care who helped them.",
+      "zh": "总的来说，他不在乎谁帮助他们。",
+      "ja": "一般的に、彼は誰が助けてくれるかは気にしなかった。"
+    },
+    {
+      "id": 5,
+      "ru": "Сурков, руливший политическими событиями в стране, казался ему умным человеком.",
+      "en": "Surkov, who steered political events in the country, seemed to him an intelligent person.",
+      "zh": "苏尔科夫，掌控国家政治事件的人，在他看来是个聪明人。",
+      "ja": "国の政治的出来事を操っていたスルコフは、彼にとって賢い人物に見えた。"
+    },
+    {
+      "id": 6,
+      "ru": "Вполне искренне Дуров считал, что власть имеет дело с полукрепостной страной, изуродованной рабством и тоталитаризмом, и поэтому на политическом поле нет партий, которые предлагали что-то толковое.",
+      "en": "Quite sincerely, Durov believed that the authorities were dealing with a half-serf country, disfigured by slavery and totalitarianism, and therefore there were no parties in the political field that offered anything sensible.",
+      "zh": "杜罗夫非常真诚地认为，当局面对的是一个半农奴制国家，被奴役和极权主义所扭曲，因此在政治领域没有任何政党提出过任何明智的建议。",
+      "ja": "ドゥーロフはごく真剣に、当局は奴隷制と全体主義によって歪められた半農奴制の国を相手にしており、そのため政治の場には何かまともなことを提案する政党はないと考えていた。"
+    },
+    {
+      "id": 7,
+      "ru": "Первую встречу с Сурковым назначил Мильнер.",
+      "en": "Milner arranged the first meeting with Surkov.",
+      "zh": "米尔纳安排了与苏尔科夫的第一次会面。",
+      "ja": "ミルナーがスルコフとの最初の会談を手配した。"
+    },
+    {
+      "id": 8,
+      "ru": "Политтехнолог помог сделать так, чтобы государство и близкие ему деятели не мешали развиваться «ВКонтакте» по дуровскому плану.",
+      "en": "The political technologist helped ensure that the state and figures close to it didn't interfere with VKontakte's development according to Durov's plan.",
+      "zh": "这位政治技术专家帮助确保国家和与之亲近的人物不干涉VKontakte按照杜罗夫的计划发展。",
+      "ja": "この政治技術者は、国家とその近しい人物がドゥーロフの計画に従ったVKontakteの発展を妨げないようにするのを助けた。"
+    },
+    {
+      "id": 9,
+      "ru": "Второй разговор организовал Цыплухин, подгадав приезд кремлевского деятеля в Петербург и зазвав в штаб.",
+      "en": "Tsyplukhin organized the second conversation, timing it to the Kremlin figure's visit to Petersburg and inviting him to headquarters.",
+      "zh": "齐普卢欣组织了第二次谈话，赶在克里姆林宫人物访问彼得堡之际邀请他到总部。",
+      "ja": "ツィプルーヒンが2回目の会話を手配し、このクレムリンの人物のペテルブルク訪問に合わせて本部に招いた。"
+    },
+    {
+      "id": 10,
+      "ru": "Сурков поднялся в золоченой клетке на шестой этаж, не без удовольствия осмотрел переговорную с механизмом для скрепления сделок кровью.",
+      "en": "Surkov ascended in the gilded cage to the sixth floor, examining with some pleasure the meeting room with the mechanism for sealing deals with blood.",
+      "zh": "苏尔科夫乘坐镀金电梯上到六楼，饶有兴趣地参观了那个用于以血签约的机制的会议室。",
+      "ja": "スルコフは金色の籠で6階に上がり、血で契約を結ぶ仕掛けのある会議室を楽しげに見回した。"
+    },
+    {
+      "id": 11,
+      "ru": "Затем Влад пригласил его заглянуть к кодерам, предусмотрительно обогнув резервацию «сишников».",
+      "en": "Then Vlad invited him to look in on the coders, prudently bypassing the C programmers' reservation.",
+      "zh": "然后弗拉德邀请他去看看程序员，谨慎地绕过了C语言程序员的保留区。",
+      "ja": "その後ヴラドは彼をコーダーたちのところに案内し、慎重にC言語プログラマーの居留地を避けて通った。"
+    },
+    {
+      "id": 12,
+      "ru": "Увидев диван с валиками-коровами, Сурков поинтересовался у Дурова: «Это, конечно, вы выдумали?»",
+      "en": "Seeing the couch with cow-shaped cushions, Surkov asked Durov: \"You came up with this, of course?\"",
+      "zh": "看到带有牛形抱枕的沙发，苏尔科夫问杜罗夫："当然是你想出来的？"",
+      "ja": "牛の形のクッションがついたソファを見て、スルコフはドゥーロフに尋ねた：「これはもちろん、あなたが考えたのですか？」"
+    },
+    {
+      "id": 13,
+      "ru": "Откинувшись в кресле, он посмотрел на тотема и произнес: «Мне говорили, что вы гений».",
+      "en": "Leaning back in his chair, he looked at the totem and said: \"I've been told you're a genius.\"",
+      "zh": "他靠在椅子上，看着图腾说："有人告诉我你是天才。"",
+      "ja": "椅子にもたれかかって、彼はトーテムを見て言った：「あなたは天才だと聞いています」"
+    },
+    {
+      "id": 14,
+      "ru": "Дуров постарался, чтобы мышцы лица не отреагировали на лесть, и ответил: «Ну, про нас многое говорят».",
+      "en": "Durov tried to keep his facial muscles from reacting to the flattery and replied: \"Well, they say a lot of things about us.\"",
+      "zh": "杜罗夫努力不让面部肌肉对恭维作出反应，回答道："嗯，人们对我们说了很多。"",
+      "ja": "ドゥーロフは顔の筋肉がお世辞に反応しないよう努め、答えた：「まあ、私たちについては色々言われていますから」"
+    },
+    {
+      "id": 15,
+      "ru": "Гостя волновали две вещи.",
+      "en": "Two things concerned the guest.",
+      "zh": "客人关心两件事。",
+      "ja": "ゲストは2つのことを気にかけていた。"
+    },
+    {
+      "id": 16,
+      "ru": "Первая неслась на гребне информационной волны – создание аналога GPS «Глонасс», смартфона от «Ситроникс» и т. д., а также ажиотаж вокруг государственных высокотехнологических проектов.",
+      "en": "The first rode the crest of an information wave—creating the GPS analog GLONASS, a smartphone from Sitronics, etc., as well as the hype around state high-tech projects.",
+      "zh": "第一个是信息浪潮的顶峰——创建GPS的类似物格洛纳斯、Sitronics的智能手机等，以及围绕国家高科技项目的炒作。",
+      "ja": "1つ目は情報の波の頂上を走っていた——GPS相当のGLONASSの開発、Sitronicsのスマートフォンなど、そして国家のハイテクプロジェクトを巡る熱狂だ。"
+    },
+    {
+      "id": 17,
+      "ru": "Дуров пожал плечами – он концентрировался на своей цифровой стране и только теоретически мог о чем-то рассуждать.",
+      "en": "Durov shrugged—he was concentrating on his digital country and could only theoretically discuss anything.",
+      "zh": "杜罗夫耸了耸肩——他专注于自己的数字国家，只能从理论上讨论任何事情。",
+      "ja": "ドゥーロフは肩をすくめた——彼は自分のデジタル国家に集中しており、理論的にしか何も議論できなかった。"
+    },
+    {
+      "id": 18,
+      "ru": "Второй вопрос, который волновал Суркова, – как развивать проект «Сколково».",
+      "en": "The second question that concerned Surkov was how to develop the Skolkovo project.",
+      "zh": "苏尔科夫关心的第二个问题是如何发展斯科尔科沃项目。",
+      "ja": "スルコフが気にかけていた2つ目の問題は、スコルコヴォプロジェクトをどう発展させるかだった。"
+    },
+    {
+      "id": 19,
+      "ru": "Дуров сослался на своего любимого писателя Пола Грэма – точнее, на текст о том, как создавать инкубаторы для инноваций.",
+      "en": "Durov referenced his favorite writer Paul Graham—more precisely, a text on how to create incubators for innovation.",
+      "zh": "杜罗夫引用了他最喜欢的作家保罗·格雷厄姆——更确切地说，是关于如何创建创新孵化器的文章。",
+      "ja": "ドゥーロフはお気に入りの作家ポール・グレアムを引用した——より正確には、イノベーションのためのインキュベーターをどう作るかについてのテキストを。"
+    },
+    {
+      "id": 20,
+      "ru": "Кроме этого, добавил Дуров, произнося «Скол-ко-во», иностранец сломает язык.",
+      "en": "Besides, added Durov, pronouncing 'Skol-ko-vo,' a foreigner will break their tongue.",
+      "zh": "此外，杜罗夫补充说，发音'斯科尔-科-沃'，外国人会把舌头打结。",
+      "ja": "さらに、とドゥーロフは付け加えた、「スコル・コ・ヴォ」と発音すると、外国人は舌を噛むだろう。"
+    },
+    {
+      "id": 21,
+      "ru": "Другое дело – «Со-чи».",
+      "en": "Another matter is 'So-chi.'",
+      "zh": "另一回事是'索-契'。",
+      "ja": "別の話は「ソ・チ」だ。"
+    },
+    {
+      "id": 22,
+      "ru": "Если строить русскую долину, то в теплом климате, у моря.",
+      "en": "If building a Russian valley, then in a warm climate, by the sea.",
+      "zh": "如果要建立俄罗斯硅谷，那就在温暖的气候下，靠近大海。",
+      "ja": "ロシアのバレーを作るなら、温暖な気候で、海のそばに。"
+    },
+    {
+      "id": 23,
+      "ru": "Шаттлы от Ростова и Краснодара снимут транспортную проблему.",
+      "en": "Shuttles from Rostov and Krasnodar will solve the transportation problem.",
+      "zh": "从罗斯托夫和克拉斯诺达尔的班车将解决交通问题。",
+      "ja": "ロストフとクラスノダールからのシャトルで交通問題は解決する。"
+    },
+    {
+      "id": 24,
+      "ru": "Собеседники расстались, удовлетворенные друг другом.",
+      "en": "The conversationalists parted, satisfied with each other.",
+      "zh": "谈话者们分别时，彼此都很满意。",
+      "ja": "二人は互いに満足して別れた。"
+    },
+    {
+      "id": 25,
+      "ru": "Оба умели нравиться и понравились.",
+      "en": "Both knew how to be likeable and were liked.",
+      "zh": "双方都懂得如何讨人喜欢，也确实让对方喜欢。",
+      "ja": "二人とも好かれる術を知っており、好かれた。"
+    },
+    {
+      "id": 26,
+      "ru": "Политтехнолог помог сделать так, чтобы «ВКонтакте» государство и близкие ему деятели не мешали развивать по дуровскому плану.",
+      "en": "The political technologist helped ensure that VKontakte wasn't hindered by the state and figures close to it from developing according to Durov's plan.",
+      "zh": "这位政治技术专家帮助确保国家和与之亲近的人物不阻碍VKontakte按照杜罗夫的计划发展。",
+      "ja": "政治技術者は、国家とその近しい人物がドゥーロフの計画に従ったVKontakteの発展を妨げないよう手助けした。"
+    },
+    {
+      "id": 27,
+      "ru": "Когда я попросил Суркова об интервью насчет его роли в судьбе «ВКонтакте», он уклонился от разговора.",
+      "en": "When I asked Surkov for an interview about his role in VKontakte's fate, he dodged the conversation.",
+      "zh": "当我请求苏尔科夫就他在VKontakte命运中的角色接受采访时，他回避了谈话。",
+      "ja": "VKontakteの運命における彼の役割についてスルコフにインタビューを依頼したとき、彼は会話を避けた。"
+    },
+    {
+      "id": 28,
+      "ru": "Продукт под названием «социальная сеть» эволюционировал.",
+      "en": "The product called 'social network' was evolving.",
+      "zh": "名为'社交网络'的产品在不断演变。",
+      "ja": "「ソーシャルネットワーク」と呼ばれる製品は進化していた。"
+    },
+    {
+      "id": 29,
+      "ru": "Однажды Дуров заметил странное изменение ленты новостей.",
+      "en": "One day Durov noticed a strange change in the news feed.",
+      "zh": "有一天杜罗夫注意到新闻源的奇怪变化。",
+      "ja": "ある日ドゥーロフはニュースフィードの奇妙な変化に気づいた。"
+    },
+    {
+      "id": 30,
+      "ru": "Раньше друзья постили больше личного, а теперь выросла доля статей и ссылок на медиа.",
+      "en": "Previously, friends posted more personal content, but now the share of articles and links to media had grown.",
+      "zh": "以前，朋友们发布更多个人内容，但现在文章和媒体链接的比例增长了。",
+      "ja": "以前は友人たちはもっと個人的なものを投稿していたが、今では記事やメディアへのリンクの割合が増えていた。"
+    },
+    {
+      "id": 31,
+      "ru": "Это объяснялось тем, что журналисты и их работодатели осваивали новые каналы распространения своих творений.",
+      "en": "This was explained by the fact that journalists and their employers were mastering new channels for distributing their creations.",
+      "zh": "这是因为记者和他们的雇主正在掌握分发其作品的新渠道。",
+      "ja": "これはジャーナリストとその雇用主が作品を配信する新しいチャネルを習得していたことで説明された。"
+    },
+    {
+      "id": 32,
+      "ru": "Но тренд заключался далеко не только в этом – значительная часть пользователей привыкла не только потреблять, но и распространять информацию в Facebook и особенно Twitter.",
+      "en": "But the trend was far from only about this—a significant portion of users had become accustomed not only to consuming but also to spreading information on Facebook and especially Twitter.",
+      "zh": "但趋势远不止于此——相当一部分用户不仅习惯了消费信息，还习惯了在Facebook尤其是Twitter上传播信息。",
+      "ja": "しかしトレンドはそれだけではなかった——かなりの割合のユーザーが、Facebookや特にTwitterで情報を消費するだけでなく、拡散することにも慣れていた。"
+    },
+    {
+      "id": 33,
+      "ru": "Создатель последней, Джек Дорси, устроил свою сеть микроблогов так, чтобы люди могли делиться новостями, ссылками, картинками за считаные секунды, а лента с новыми событиями ползла вниз сама, без лишних кликов.",
+      "en": "The creator of the latter, Jack Dorsey, designed his microblogging network so that people could share news, links, pictures in a matter of seconds, and the feed with new events would scroll down on its own, without extra clicks.",
+      "zh": "后者的创始人杰克·多西设计了他的微博网络，让人们可以在几秒钟内分享新闻、链接、图片，而新事件的信息流会自动向下滚动，无需额外点击。",
+      "ja": "後者の創設者ジャック・ドーシーは、人々が数秒でニュース、リンク、画像を共有でき、新しいイベントのフィードが余分なクリックなしに自動的にスクロールするようにマイクロブログネットワークを設計した。"
+    },
+    {
+      "id": 34,
+      "ru": "Казалось бы, в эпоху социальных медиа новости перестали существовать, став общим достоянием, но Дорси придумал инструмент для их генерации.",
+      "en": "It would seem that in the era of social media, news had ceased to exist, becoming common property, but Dorsey invented a tool for generating them.",
+      "zh": "在社交媒体时代，新闻似乎不复存在，成为公共财产，但多西发明了一种生成新闻的工具。",
+      "ja": "ソーシャルメディアの時代にはニュースは存在しなくなり、共有財産になったかに見えたが、ドーシーはそれらを生成するツールを発明した。"
+    },
+    {
+      "id": 35,
+      "ru": "Следуя за ним, Цукерберг внедрил виджеты для сайтов традиционных медиа, а также опцию подсасывания красивой картинки к ссылке и некоторые другие шаги – в общем, все, чтобы превратить Facebook в персонализированную газету, оставив Twitter поле информагентства.",
+      "en": "Following him, Zuckerberg introduced widgets for traditional media sites, as well as the option to pull a nice picture to a link and some other steps—in general, everything to turn Facebook into a personalized newspaper, leaving Twitter the field of a news agency.",
+      "zh": "跟随他的脚步，扎克伯格为传统媒体网站引入了小工具，以及将漂亮图片拉取到链接的选项和其他一些步骤——总之，一切都是为了将Facebook变成个性化报纸，把Twitter留作通讯社的领域。",
+      "ja": "彼に続いて、ザッカーバーグは伝統的なメディアサイト用のウィジェットを導入し、リンクにきれいな画像を取り込むオプションやその他のいくつかのステップを追加した——つまり、Facebookをパーソナライズされた新聞にし、Twitterには通信社の分野を残すためのすべて。"
+    }
+  ],
+  "translator_notes": [
+    "Vladislav Surkov - influential Kremlin 'grey cardinal', oversaw domestic politics and media under Putin",
+    "GLONASS - Russian satellite navigation system, alternative to GPS",
+    "Sitronics - Russian tech company that attempted to create domestic smartphone",
+    "Skolkovo - Russia's answer to Silicon Valley, innovation hub near Moscow",
+    "Paul Graham - Y Combinator co-founder, influential tech essayist",
+    "Sochi - Black Sea resort city, Durov's suggestion for an alternative tech hub location",
+    "The 'blood contract mechanism' and 'cow cushions' - references to VK office quirks from earlier pages",
+    "Political technologist (политтехнолог) - Russian term for political consultant/spin doctor",
+    "Jack Dorsey - Twitter co-founder, created real-time microblogging format"
+  ],
+  "total_sentences": 35,
+  "page_type": "narrative"
+}
