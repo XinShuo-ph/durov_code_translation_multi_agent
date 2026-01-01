@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-d536
 - **Short ID**: d536
-- **Heartbeat**: 1767253858
+- **Heartbeat**: 1767254011
 - **Status**: translating
 
 ## Current Work
-- **Claimed Page**: 18
-- **Started At**: 1767253858
+- **Claimed Page**: 19
+- **Started At**: 1767254011
 
 ## Completed Pages
 | Page | Completed At | Hash |
@@ -29,10 +29,14 @@
 | 14   | 1767253504 | 4ee29a3f |
 | 15   | 1767253672 | edb53c95 |
 | 17   | 1767253858 | 67b0ddb2 |
+| 18   | 1767254011 | ac9ecfad |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
 |----------|--------|--------------|----------------|
+| 8fb2     | active | 51+          | 1767253947 |
+| b9fb     | active | 59+          | 1767253939 |
+| f4a6     | active | 29           | 1767253951 |
 
 ## Notes
-Completed 16 pages total (1-15, 17). Chapter 1 continues.
+Completed 17 pages total (1-15, 17-18). Chapter 1 continues. Page 18 covers evolutionary psychology, monkey experiment, Eysenck, VK design choices.
