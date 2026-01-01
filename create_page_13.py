@@ -1,0 +1,274 @@
+import json
+
+page_content = {
+  "page": 13,
+  "chapter": 1,
+  "chapter_title": "Ботанический сад (Botanical Garden)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Мальчик с томом Сервантеса выходит из подъезда, огибает автомобиль, который какой-то негодяй поставил так, что пешеходы еле протискиваются мимо, и сворачивает за угол.",
+      "en": "A boy with a volume of Cervantes exits the building entrance, skirts around a car that some scoundrel parked so that pedestrians can barely squeeze past, and turns the corner.",
+      "zh": "一个手捧塞万提斯著作的男孩走出公寓楼门口，绕过一辆车——某个混蛋把它停得让人行道上的行人几乎挤不过去——然后拐过了街角。",
+      "ja": "セルバンテスの本を抱えた少年が建物の入り口から出て、歩行者がやっとのことで通り抜けられるような場所に誰かの悪党が停めた車を避け、角を曲がる。"
+    },
+    {
+      "id": 2,
+      "ru": "Перед ним пустынные кварталы, поля и высоковольтные вышки, а в физиономию дует ветер – как везде в Петербурге, но в этом районе особенно.",
+      "en": "Before him stretch deserted blocks, fields, and high-voltage pylons, and the wind blows in his face – as everywhere in St. Petersburg, but especially in this district.",
+      "zh": "在他面前是荒凉的街区、田野和高压电塔，风直吹在他脸上——就像圣彼得堡的任何地方一样，但在这个区域尤为猛烈。",
+      "ja": "目の前には荒涼とした街区、野原、高圧送電線が広がり、顔には風が吹き付ける――サンクトペテルブルクのどこでもそうだが、この地区では特に強い。"
+    },
+    {
+      "id": 3,
+      "ru": "Рядом море.",
+      "en": "The sea is nearby.",
+      "zh": "大海就在附近。",
+      "ja": "海が近いのだ。"
+    },
+    {
+      "id": 4,
+      "ru": "Архитектор раскрасил панели домов в оранжевый и бордовый, чтобы однообразное серое не свело район с ума.",
+      "en": "The architect painted the house panels in orange and burgundy so that the monotonous gray wouldn't drive the district crazy.",
+      "zh": "建筑师将房屋的面板涂成橙色和酒红色，以免单调的灰色让整个街区发疯。",
+      "ja": "建築家は、単調な灰色がこの地区を狂わせないように、団地のパネルをオレンジ色とワインレッドに塗った。"
+    },
+    {
+      "id": 5,
+      "ru": "Расстояния между корпусами напоминают о заполярных городах, где возводить что-либо можно лишь на сопках, а дворы имеют сторону в километр.",
+      "en": "The distances between the buildings remind one of polar cities, where anything can only be built on hills, and courtyards have sides a kilometer long.",
+      "zh": "建筑物之间的距离让人想起极地城市，在那里只能在山丘上建造房屋，院子的边长可达一公里。",
+      "ja": "建物同士の間隔は、丘の上にしか建設ができず中庭の一辺が1キロメートルもあるような、極地の都市を思わせる。"
+    },
+    {
+      "id": 6,
+      "ru": "Летом они зарастают одуванчиками, разнотравьем и камышом.",
+      "en": "In summer, they are overgrown with dandelions, mixed grasses, and reeds.",
+      "zh": "夏天，它们长满了蒲公英、杂草和芦苇。",
+      "ja": "夏になると、そこはタンポポや雑草、葦で覆われる。"
+    },
+    {
+      "id": 7,
+      "ru": "Вокруг осушенные болота.",
+      "en": "Around are drained swamps.",
+      "zh": "周围是干涸的沼泽。",
+      "ja": "周囲には干上がった沼地が広がっている。"
+    },
+    {
+      "id": 8,
+      "ru": "Сканируя пространство на предмет гопников, мальчик с книгой идет к трассе.",
+      "en": "Scanning the space for gopniks, the boy with the book walks toward the highway.",
+      "zh": "那个拿着书的男孩一边扫视四周提防着街头小混混（gopniks），一边走向公路。",
+      "ja": "ゴプニク（不良たち）がいないか周囲をうかがいながら、本を持った少年は幹線道路へと歩いていく。"
+    },
+    {
+      "id": 9,
+      "ru": "Некоторые многоэтажки недостроены, а улицы недочерчены.",
+      "en": "Some high-rises are unfinished, and streets are undrawn.",
+      "zh": "有些高层建筑尚未完工，街道也还没规划好。",
+      "ja": "高層ビルの中には未完成のものもあり、道路もまだ整備されていない。"
+    },
+    {
+      "id": 10,
+      "ru": "У одного корпуса поставили стилобат, а потом, видимо, куда-то просадили деньги – осталась бетонная коробка.",
+      "en": "At one building they laid a stylobate, but then, apparently, squandered the money somewhere – only a concrete box remained.",
+      "zh": "在一栋楼前他们建了个基座，但后来，显然把钱挥霍到了别处——只留下了一个混凝土盒子。",
+      "ja": "ある建物のところには基壇が設置されたが、その後どうやら資金がどこかに消えてしまったらしく、コンクリートの箱だけが残された。"
+    },
+    {
+      "id": 11,
+      "ru": "Внутри нее горят костры и сидят парни, курят, треплются и малюют граффити.",
+      "en": "Inside it, bonfires burn and guys sit, smoke, chat, and paint graffiti.",
+      "zh": "在那里面，燃着篝火，一群家伙坐着抽烟、闲聊、涂鸦。",
+      "ja": "その中では焚き火が燃え、男たちが座ってタバコを吸い、無駄話をし、落書きをしている。"
+    },
+    {
+      "id": 12,
+      "ru": "Весной разливаются лужи, и парни сколачивают плоты, чтобы перебраться с континента «Камышовая» на континент «Ситцевая».",
+      "en": "In spring, puddles overflow, and the guys hammer together rafts to cross from the continent of 'Kamyshovaya' to the continent of 'Sittsevaya'.",
+      "zh": "春天，水洼泛滥，这群家伙就钉木筏，以便从“芦苇洲”渡到“印花布洲”。",
+      "ja": "春には水たまりが溢れ、彼らは「カミショヴァヤ（葦）」大陸から「シツェヴァヤ（更紗）」大陸へと渡るためにいかだを組む。"
+    },
+    {
+      "id": 13,
+      "ru": "Маячат котлованы, наполненные мутной водой.",
+      "en": "Excavation pits filled with murky water loom nearby.",
+      "zh": "充满浑水的基坑若隐若现。",
+      "ja": "濁った水で満たされた掘削穴が見え隠れする。"
+    },
+    {
+      "id": 14,
+      "ru": "За ними чернеет лес.",
+      "en": "Behind them, the forest looms black.",
+      "zh": "它们后面是黑压压的森林。",
+      "ja": "その向こうには森が黒く広がっている。"
+    },
+    {
+      "id": 15,
+      "ru": "Перепрыгивая через лужи, мальчик проходит недострой и выбирается к дороге, по которой век назад возили торф.",
+      "en": "Jumping over puddles, the boy passes the unfinished construction and emerges onto a road along which peat was transported a century ago.",
+      "zh": "男孩跳过水洼，穿过烂尾楼，来到一条一个世纪前运送泥炭的路上。",
+      "ja": "水たまりを飛び越え、少年は未完成の建物を通り過ぎ、一世紀前に泥炭が運ばれていた道へと出る。"
+    },
+    {
+      "id": 16,
+      "ru": "Справа забор кладбища и березки у надгробий.",
+      "en": "On the right is a cemetery fence and small birches by the tombstones.",
+      "zh": "右边是墓地的围栏和墓碑旁的白桦树。",
+      "ja": "右手には墓地の塀があり、墓石のそばには白樺が生えている。"
+    },
+    {
+      "id": 17,
+      "ru": "Слева перекопанная площадь, окруженная скелетами панельных многоквартирных гигантов.",
+      "en": "On the left is a dug-up square surrounded by the skeletons of giant panel apartment blocks.",
+      "zh": "左边是一个被挖掘过的广场，四周环绕着巨型板式公寓楼的骨架。",
+      "ja": "左手には掘り返された広場があり、巨大なパネル式集合住宅の骨組みに囲まれている。"
+    },
+    {
+      "id": 18,
+      "ru": "Гиганты глядят свысока на рабочих в отсыревшей одежде, которые поднимаются из-под земли, где вот-вот – ожидание затянулось на годы – откроется новая станция, последняя на ветке.",
+      "en": "The giants look down on workers in damp clothes emerging from underground, where any moment now – the wait has dragged on for years – a new station, the last on the line, is set to open.",
+      "zh": "这些巨人们俯视着穿着潮湿衣服的工人，他们正从地下冒出来，那里——尽管等待已延续多年——一条新地铁线的终点站即将开通。",
+      "ja": "巨人たちは、湿った服を着た労働者たちが地下から上がってくるのを見下ろしている。そこでは、もうすぐ――その待機は何年にも及んでいるが――路線の終点となる新しい駅が開業しようとしている。"
+    },
+    {
+      "id": 19,
+      "ru": "Несколько лет мальчик ходил к площади по грязной тропинке, и ему казалось, что он перемещается в предместье Аида: перед ним возникал строй теней – пенсионеры и несуны с завода продавали метизы, подшипники и еще что-то из подвергшихся насилию металлов; когда метро наконец ожило, тени исчезли.",
+      "en": "For several years the boy walked to the square along a dirty path, and it seemed to him that he was moving into the suburbs of Hades: a line of shadows appeared before him – pensioners and pilferers from the factory selling hardware, bearings, and other violated metals; when the metro finally came alive, the shadows vanished.",
+      "zh": "好几年里，男孩都沿着泥泞的小路走向广场，他觉得仿佛正走进冥界的郊区：面前出现一排阴影——退休人员和工厂的小偷在兜售五金件、轴承以及其他遭受过暴力的金属制品；当地铁终于通车时，这些阴影便消失了。",
+      "ja": "数年間、少年は汚れた小道を歩いて広場へと向かっていたが、それはまるで冥界の郊外へと移動しているかのように思えた。彼の前には影の列が現れる――年金受給者や工場からの横領者たちが、金具やベアリング、その他暴力にさらされた金属製品を売っていたのだ。地下鉄がついに動き出すと、影たちは消え去った。"
+    },
+    {
+      "id": 20,
+      "ru": "Пока же метро не открылось, дорога мальчика к ближайшей станции и оттуда до школы лежит через подболоченное поле, засеянное бетонными столбами и их обломками.",
+      "en": "But while the metro has not yet opened, the boy's way to the nearest station and from there to school lies through a swampy field sown with concrete pillars and their debris.",
+      "zh": "而在地铁尚未开通之时，男孩去最近的车站以及去学校的路，要穿过一片布满混凝土柱子及其碎片的沼泽地。",
+      "ja": "しかし地下鉄がまだ開通していない間、最寄りの駅へ、そしてそこから学校へと続く少年の道のりは、コンクリートの柱とその破片が散らばる沼地を通るものだった。"
+    },
+    {
+      "id": 21,
+      "ru": "Наверху в проводах гудит электричество.",
+      "en": "Overhead, electricity hums in the wires.",
+      "zh": "头顶的电线里电流嗡嗡作响。",
+      "ja": "頭上では電線の中で電気がうなっている。"
+    },
+    {
+      "id": 22,
+      "ru": "Сереют трубы, а зиккурат фабрики, выпускающей фотоаппараты, сбегает вниз ступеньками – тупыми серыми блоками.",
+      "en": "Pipes loom gray, and the ziggurat of the camera factory runs down in steps – dull gray blocks.",
+      "zh": "灰色的管道隐约可见，生产照相机的工厂像金字塔神塔一样呈阶梯状向下延伸——那是些钝重的灰色方块。",
+      "ja": "パイプが灰色に霞み、カメラを製造する工場のジッグラト（聖塔）が、鈍い灰色のブロックの階段となって下へと続いている。"
+    },
+    {
+      "id": 23,
+      "ru": "Оглянувшись, мальчик форсирует торфяную дорогу и упирается в поле.",
+      "en": "Looking back, the boy forces his way across the peat road and runs into a field.",
+      "zh": "男孩回头看了一眼，穿过泥炭路，来到一片田野前。",
+      "ja": "振り返ると、少年は泥炭の道を強行突破し、野原へと突き当たる。"
+    },
+    {
+      "id": 24,
+      "ru": "Перед ним заброшенный аэродром и остатки военной базы.",
+      "en": "Before him lie an abandoned airfield and the remains of a military base.",
+      "zh": "在他面前是一个废弃的机场和军事基地的遗迹。",
+      "ja": "目の前には放棄された飛行場と軍事基地の跡地がある。"
+    },
+    {
+      "id": 25,
+      "ru": "Бомбоубежища, накрытые искусственными холмами, и закрытые на замок корпуса, бункеры.",
+      "en": "Bomb shelters covered by artificial hills, and locked buildings, bunkers.",
+      "zh": "被这一座座人造小山丘覆盖的防空洞，还有紧锁的建筑、掩体。",
+      "ja": "人工の丘に覆われた防空壕、そして鍵のかかった建物やバンカー。"
+    },
+    {
+      "id": 26,
+      "ru": "Он взбирается на холм и разглядывает дымящиеся горы мусора вдали.",
+      "en": "He climbs a hill and examines the smoking mountains of trash in the distance.",
+      "zh": "他爬上一座小山，注视着远处冒烟的垃圾山。",
+      "ja": "彼は丘に登り、遠くで煙を上げているゴミの山を眺める。"
+    },
+    {
+      "id": 27,
+      "ru": "Когда ветер дует неудачно, сталкер ощущает присутствие ужаса квартирных маклеров – помойки.",
+      "en": "When the wind blows unfortunately, the stalker senses the presence of the real estate agents' horror – the dump.",
+      "zh": "当风向不佳时，这位潜行者（stalker）就能感觉到房地产经纪人的噩梦——垃圾场的存在。",
+      "ja": "風向きが悪いと、ストーカー（探索者）は不動産屋にとっての恐怖、つまりゴミ捨て場の存在を感じ取る。"
+    },
+    {
+      "id": 28,
+      "ru": "Пейзаж как бы говорит: больше трэша, больше ада.",
+      "en": "The landscape seems to say: more trash, more hell.",
+      "zh": "这片风景仿佛在说：多点垃圾，多点地狱。",
+      "ja": "その風景はまるで、「もっとゴミを、もっと地獄を」と言っているかのようだ。"
+    },
+    {
+      "id": 29,
+      "ru": "Но в этот раз дым не долетает, пахнет морем.",
+      "en": "But this time the smoke doesn't reach him; it smells of the sea.",
+      "zh": "但这一次烟没有飘过来，空气中闻起来有海的味道。",
+      "ja": "しかし今回は煙は届かず、海の匂いがする。"
+    },
+    {
+      "id": 30,
+      "ru": "Мальчик, устраиваясь на крыше бункера, открывает книгу и погружается в нее.",
+      "en": "The boy, settling on the roof of a bunker, opens his book and immerses himself in it.",
+      "zh": "男孩在掩体顶上安顿下来，打开书，沉浸其中。",
+      "ja": "少年はバンカーの屋根に落ち着くと、本を開き、その世界へと没頭する。"
+    },
+    {
+      "id": 31,
+      "ru": "Гопники сюда не забредают, да и вообще кругом живет мало людей.",
+      "en": "Gopniks don't wander here, and in general, few people live around here.",
+      "zh": "小混混们不会逛到这儿来，而且这周围本来也没住多少人。",
+      "ja": "ゴプニクたちはここには迷い込んでこないし、そもそも周りにはほとんど人が住んでいない。"
+    },
+    {
+      "id": 32,
+      "ru": "Он худой, невысокий, не различает буквы на третьей строчке снизу; логопед не плакал по нему, а пожалуй, справлял тризну.",
+      "en": "He is thin, short, and cannot distinguish letters on the third line from the bottom; the speech therapist didn't just weep for him, but rather celebrated a funeral feast.",
+      "zh": "他瘦弱、个子不高，看不清视力表倒数第三行的字母；语言矫正师对他岂止是失望流泪，简直是在给他办丧礼（彻底放弃了）。",
+      "ja": "彼は痩せていて背が低く、視力検査表の下から3行目の文字も判別できない。言語聴覚士は彼のために泣くどころか、むしろ葬儀の宴を催したことだろう（それほど見込みがなかった）。"
+    },
+    {
+      "id": 33,
+      "ru": "И он торчит часами на крыше в одиночестве, если не считать Сервантеса.",
+      "en": "And he hangs out for hours on the roof in solitude, if you don't count Cervantes.",
+      "zh": "如果不算塞万提斯的话，他独自一人在屋顶上待了好几个小时。",
+      "ja": "そして彼は、セルバンテスを除けば孤独に、屋根の上で何時間も過ごすのだ。"
+    },
+    {
+      "id": 34,
+      "ru": "Он мог бы пригласить с собой братьев, но старший, сводный, Михаил – взрослый, жил отдельно от матери, а средний, Николай, был настолько умен, что не интересовался аэродромом.",
+      "en": "He could have invited his brothers, but the eldest, half-brother Mikhail, was an adult and lived apart from their mother, and the middle one, Nikolai, was so smart that he wasn't interested in the airfield.",
+      "zh": "他本可以邀请兄弟们一起来，但同母异父的大哥米哈伊尔已经成年，不和母亲住在一起，而二哥尼古拉太聪明了，对机场不感兴趣。",
+      "ja": "彼は兄弟を誘うこともできたが、異父兄である長男のミハイルは大人で母親とは別に暮らしており、次男のニコライはあまりに賢すぎて、飛行場には興味を示さなかった。"
+    },
+    {
+      "id": 35,
+      "ru": "Когда Николаю было три года, родители сажали его на свободное место в троллейбусе и выдавали книгу – например, «Популярную астрономию».",
+      "en": "When Nikolai was three years old, his parents would seat him in a vacant seat on the trolleybus and hand him a book – for example, 'Popular Astronomy'.",
+      "zh": "当尼古拉三岁的时候，父母会把他放在无轨电车的空座上，给他一本书——比如《大众天文学》。",
+      "ja": "ニコライが3歳のとき、両親は彼をトロリーバスの空席に座らせ、本――例えば『ポピュラー天文学』などを手渡していた。"
+    },
+    {
+      "id": 36,
+      "ru": "Никто из попутчиков не верил, что ребенок ее читает, – рассматривает, поди, – но Николай читал.",
+      "en": "None of the fellow passengers believed that the child was reading it – 'just looking at pictures, surely' – but Nikolai was reading.",
+      "zh": "同车的乘客没人相信这孩子在读书——估计是在看图吧——但尼古拉确实在读。",
+      "ja": "乗り合わせた客は誰も、子供がそれを読んでいるとは信じなかった――ただ眺めているだけだろうと――しかし、ニコライは読んでいたのだ。"
+    }
+  ],
+  "translator_notes": [
+    "Chapter 1 opens with young Pavel Durov's childhood in St. Petersburg's Primorsky district.",
+    "'Gopniks' refers to street thugs, a specific subculture in Russia.",
+    "Kamyshovaya and Sittsevaya refer to street names (Kamyshovaya Street, Sittsevaya Street) which effectively formed 'continents' separated by mud/water.",
+    "The 'ziggurat' refers to the LOMO factory building which has a stepped shape.",
+    "Reference to 'Stalker' likely alludes to the Strugatsky brothers' novel or Tarkovsky's film, implying a dangerous, strange zone.",
+    "The speech therapist comment implies his speech impediment was severe/hopeless."
+  ],
+  "total_sentences": 36,
+  "page_type": "narrative"
+}
+
+with open("translations/page_013.json", "w", encoding="utf-8") as f:
+    json.dump(page_content, f, indent=2, ensure_ascii=False)

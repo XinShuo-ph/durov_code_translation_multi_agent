@@ -1,0 +1,252 @@
+import json
+
+page_content = {
+  "page": 39,
+  "chapter": 3,
+  "chapter_title": "Глава 3",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "...два часа.",
+      "en": "...two hours.",
+      "zh": "……两个小时。",
+      "ja": "……2時間。"
+    },
+    {
+      "id": 2,
+      "ru": "Редактор названивал Эльнаре и кричал: «Гони его уже наконец!» Но та не могла прервать Дурова.",
+      "en": "The editor kept calling Elnara and screaming: 'Chase him out already!' But she couldn't interrupt Durov.",
+      "zh": "编辑不停地给艾尔娜拉（Elnara）打电话吼道：“把他赶走啊！”但她无法打断杜罗夫。",
+      "ja": "編集者はエルナラに電話をかけ続け、「もう彼を追い出せ！」と叫んでいた。しかし、彼女はドゥーロフの話を遮ることができなかった。"
+    },
+    {
+      "id": 3,
+      "ru": "Этот факт странен сам по себе, так как я не встречал людей, произносивших в любую единицу времени больше слов, чем Эльнара.",
+      "en": "This fact is strange in itself, as I have never met anyone who pronounced more words per unit of time than Elnara.",
+      "zh": "这个事实本身就很奇怪，因为我从未见过在单位时间内说话字数比艾尔娜拉还多的人。",
+      "ja": "この事実自体が奇妙なことだ。なぜなら、私はエルナラほど単位時間あたりに多くの言葉を発する人に出会ったことがないからだ。"
+    },
+    {
+      "id": 4,
+      "ru": "Позже она выйдет замуж за главного разработчика «ВКонтакте» Андрея Рогозова, я зайду к ним в гости, и мы будем вспоминать историю ее знакомства с Дуровым.",
+      "en": "Later she would marry the lead developer of VKontakte, Andrey Rogozov; I would visit them, and we would recall the story of her meeting with Durov.",
+      "zh": "后来她嫁给了VKontakte的首席开发人员安德烈·罗戈佐夫（Andrey Rogozov），我去拜访他们时，我们会回想起她与杜罗夫相识的故事。",
+      "ja": "後に彼女はVKontakteの主任開発者であるアンドレイ・ロゴゾフと結婚することになり、私が彼らの家を訪ねた際、私たちは彼女とドゥーロフの出会いの話を振り返ることになる。"
+    },
+    {
+      "id": 5,
+      "ru": "«Я поняла, что для Павла самое страшное, когда кто-то работает за зарплату, – щебетала Эльнара. – Это осталось до сих пор, он щедрый, но опасается, если люди помешаны на бонусах, этих премиях, перестанут гореть духом.",
+      "en": "'I realized that for Pavel, the scariest thing is when someone works for a salary,' chirped Elnara. 'It remains so to this day; he is generous, but fears that if people are obsessed with bonuses, with these premiums, they will stop burning with spirit.'",
+      "zh": "“我明白了，对帕维尔来说，最可怕的事情就是有人为了薪水而工作，”艾尔娜拉叽叽喳喳地说道，“这点至今未变，虽然他很大方，但他担心如果人们沉迷于奖金、津贴，就会失去精神上的燃烧。”",
+      "ja": "「パーヴェルにとって一番恐ろしいのは、誰かが給料のために働いていることだとわかったの」とエルナラはさえずるように言った。「それは今でも変わっていない。彼は気前がいいけれど、もし人々がボーナスや手当に夢中になってしまったら、情熱を燃やし続けられなくなるのではないかと恐れているのよ。」"
+    },
+    {
+      "id": 6,
+      "ru": "Еще он был нетерпим к людям, которые медленно понимают сказанное и сами плохо говорят, медленно работают, ну, ты понял».",
+      "en": "He was also intolerant of people who are slow to understand what is said and speak poorly themselves, work slowly – well, you get it.'",
+      "zh": "此外，他还不能容忍那些理解迟钝、表达能力差、工作效率低的人，嗯，你懂的。”",
+      "ja": "それに、彼は言われたことを理解するのが遅かったり、話し方が下手だったり、仕事が遅い人たちに対して不寛容だったわ。まあ、わかるでしょう。」"
+    },
+    {
+      "id": 7,
+      "ru": "Уходя, я пройду мимо кухни и услышу, как Эльнара моет в одиночестве тарелки и продолжает: «Ну да, Паша все твердил: хочу, хочу создать сообщество, объединять все больше, больше вузов.",
+      "en": "Leaving, I walk past the kitchen and hear Elnara washing dishes alone and continuing: 'Well, yes, Pasha kept repeating: I want, I want to create a community, to unite more and more universities.",
+      "zh": "离开时，我经过厨房，听到艾尔娜拉独自洗着盘子继续说道：“是啊，帕沙（Pasha）一直念叨：我想，我想建立一个社区，联合越来越多、越来越多的高校。",
+      "ja": "帰り際、私はキッチンのそばを通り、エルナラが一人で皿を洗いながら続けているのを耳にする。「そうね、パシャはずっと言っていたわ。『コミュニティを作りたい、もっともっと多くの大学をつなげたい』って。"
+    },
+    {
+      "id": 8,
+      "ru": "Конечно. Собрал кучу людей, а что с ними делать, непонятно…»",
+      "en": "Of course. He gathered a bunch of people, but what to do with them is unclear...'",
+      "zh": "当然。聚集了一堆人，但不知道该拿他们怎么办……”",
+      "ja": "もちろんよ。たくさんの人を集めたけれど、彼らをどうすればいいのかわからなかったのね……」"
+    },
+    {
+      "id": 9,
+      "ru": "Так вот, Слава влип в текст.",
+      "en": "So, Slava got stuck in the text.",
+      "zh": "话说回来，斯拉瓦（Slava）读那篇文章读得入迷了。",
+      "ja": "さて、スラヴァはそのテキストに釘付けになった。"
+    },
+    {
+      "id": 10,
+      "ru": "Пассаж, где публике предъявлялся герой, он перечитал несколько раз.",
+      "en": "He reread the passage where the hero was presented to the public several times.",
+      "zh": "那段向公众介绍主人公的文字，他重读了好几遍。",
+      "ja": "主人公が公衆に紹介される一節を、彼は何度も読み返した。"
+    },
+    {
+      "id": 11,
+      "ru": "Вспомнился Дом культуры с алкоголиками и евангелистами, набеги на пышечную, Тася с ее медяками, деликатно ползущий за спиной лимузин.",
+      "en": "He remembered the House of Culture with alcoholics and evangelists, raids on the donut shop, Tasya with her coppers, the limousine creeping delicately behind.",
+      "zh": "他想起了那个混杂着酒鬼和福音派教徒的文化宫，想起了去甜甜圈店的突袭，带着铜币的塔西娅（Tasya），还有那辆在身后小心翼翼爬行的豪华轿车。",
+      "ja": "アルコール中毒者や福音派の人々がいた文化会館のこと、ドーナツ店への襲撃、小銭を持ったターシャ、背後を慎重に這うように進むリムジンのことが思い出された。"
+    },
+    {
+      "id": 12,
+      "ru": "Его одноклассник и друг Дуров замутил популярный сайт и теперь рассуждает со страниц городской газеты о личной эффективности и сетевых социальных проектах.",
+      "en": "His classmate and friend Durov had stirred up a popular site and now discourses from the pages of the city newspaper about personal effectiveness and network social projects.",
+      "zh": "他的同学兼朋友杜罗夫搞出了一个热门网站，现在正通过城市报纸的版面大谈个人效率和网络社交项目。",
+      "ja": "同級生であり友人であるドゥーロフが人気サイトを立ち上げ、今や市の新聞の紙面から、個人の効率性やネットワーク社会プロジェクトについて論じているのだ。"
+    },
+    {
+      "id": 13,
+      "ru": "Слава понимал, что Дуров интуитивно следует за трендом – в начале нулевых появились и прогремели платформы Livejournal (блоги), Myspace (страницы музыкантов и их композиции), Classmates (связи между старыми друзьями), Friendster (то же, но между всеми подряд).",
+      "en": "Slava understood that Durov was intuitively following the trend – in the early 2000s, platforms like LiveJournal (blogs), Myspace (musicians' pages and their compositions), Classmates (connections between old friends), and Friendster (the same, but between everyone in a row) appeared and thundered.",
+      "zh": "斯拉瓦明白，杜罗夫是在直觉地顺应潮流——在2000年代初，LiveJournal（博客）、Myspace（音乐人页面及其作品）、Classmates（老友联系）和Friendster（类似前者，但联系所有人）等平台相继出现并轰动一时。",
+      "ja": "スラヴァは、ドゥーロフが直感的にトレンドに従っていることを理解していた。2000年代初頭には、LiveJournal（ブログ）、Myspace（ミュージシャンのページとその楽曲）、Classmates（旧友同士のつながり）、Friendster（同じくだが、誰とでもつながる）といったプラットフォームが登場し、話題を呼んでいた。"
+    },
+    {
+      "id": 14,
+      "ru": "В России успели стартовать «Одноклассники» – клон Classmates.",
+      "en": "In Russia, 'Odnoklassniki' – a clone of Classmates – managed to launch.",
+      "zh": "在俄罗斯，“Odlnoklassniki”（同学网）——Classmates的克隆版——也已启动。",
+      "ja": "ロシアでは、Classmatesのクローンである「オドノクラスニキ（同級生）」がすでにスタートしていた。"
+    },
+    {
+      "id": 15,
+      "ru": "Но больше всего Славе нравилась закрытая соцсеть Facebook, в которую могли попасть только учащиеся североамериканских универов – чтобы получить доступ, он авторизовался через персональную почту на домене Tufts University.",
+      "en": "But most of all Slava liked the closed social network Facebook, which only students of North American universities could enter – to get access, he authorized via personal email on the Tufts University domain.",
+      "zh": "但斯拉瓦最喜欢的是封闭式社交网络Facebook，只有北美大学的学生才能进入——为了获得访问权限，他是通过塔夫茨大学（Tufts University）域名的个人邮箱进行认证的。",
+      "ja": "しかしスラヴァが最も気に入っていたのは、北米の大学生しか入れないクローズドなソーシャルネットワーク、Facebookだった。アクセスするために、彼はタフツ大学のドメインを持つ個人メールで認証を行っていた。"
+    },
+    {
+      "id": 16,
+      "ru": "Facebook требовал реальных имени и фамилии, а клонов, троллей и других бестий вычищал.",
+      "en": "Facebook required real first and last names, and purged clones, trolls, and other beasts.",
+      "zh": "Facebook要求使用真实的姓名，并清除克隆账号、喷子和其他捣乱的家伙。",
+      "ja": "Facebookは実名を要求し、クローンやトロール（荒らし）、その他の厄介者たちを排除していた。"
+    },
+    {
+      "id": 17,
+      "ru": "Удостоившиеся чести пользователи обменивались личными сообщениями, публиковали фото, назначали встречи, подмигивали понравившимся персонажам и при этом видели, что нового произошло у друзей.",
+      "en": "Users who were honored with access exchanged personal messages, published photos, made appointments, winked at characters they liked, and at the same time saw what was new with friends.",
+      "zh": "有幸进入的用户互发私信、发布照片、约定见面、向喜欢的角色眨眼致意，同时还能看到朋友们的新动态。",
+      "ja": "アクセスを許されたユーザーたちは、個人的なメッセージを交換し、写真を公開し、会う約束をし、気に入った相手にウィンクを送り、それと同時に友人の近況を確認していた。"
+    },
+    {
+      "id": 18,
+      "ru": "Дуров произвел схожий ресурс для тех же студентов и владел вниманием пяти тысяч человек в день.",
+      "en": "Durov produced a similar resource for the same students and owned the attention of five thousand people a day.",
+      "zh": "杜罗夫为同样的学生群体制作了一个类似的资源，并且每天掌握着五千人的注意力。",
+      "ja": "ドゥーロフは同じ学生向けに似たようなリソースを作り出し、1日に5000人の注目を集めていた。"
+    },
+    {
+      "id": 19,
+      "ru": "Слава взял трубку и набрал Льва Левиева.",
+      "en": "Slava picked up the phone and dialed Lev Leviev.",
+      "zh": "斯拉瓦拿起听筒，拨通了列夫·列维耶夫（Lev Leviev）的电话。",
+      "ja": "スラヴァは受話器を取り、レフ・レヴィエフに電話をかけた。"
+    },
+    {
+      "id": 20,
+      "ru": "«Шалом», – отозвался Лев и прослушал композицию «Есть мегакрутой чел, школьный друг, очень умный, с суперпроектом, надо вытащить его поболтать».",
+      "en": "'Shalom,' Lev responded and listened to the composition 'There is a mega-cool guy, a school friend, very smart, with a super project, need to drag him out to chat.'",
+      "zh": "“莎洛姆（Shalom），”列夫应道，然后听了一段名为“有个超酷的家伙，老同学，非常聪明，有个超级项目，得把他拉出来聊聊”的陈述。",
+      "ja": "「シャローム」とレフは答え、「めちゃくちゃクールな奴がいるんだ。学校の友達で、すごく頭が良くて、スーパーなプロジェクトを持ってる。彼を引っ張り出して話さなきゃ」という口上を聞いた。"
+    },
+    {
+      "id": 21,
+      "ru": "Возражений не последовало.",
+      "en": "No objections followed.",
+      "zh": "对方没有异议。",
+      "ja": "異論はなかった。"
+    },
+    {
+      "id": 22,
+      "ru": "Слава разыскал мейл Дурова и написал ему.",
+      "en": "Slava found Durov's email and wrote to him.",
+      "zh": "斯拉瓦找出了杜罗夫的邮箱，给他写了封信。",
+      "ja": "スラヴァはドゥーロフのメールアドレスを探し出し、彼にメールを送った。"
+    },
+    {
+      "id": 23,
+      "ru": "Получив письмо, тот был не менее удивлен и рад.",
+      "en": "Having received the letter, he was no less surprised and glad.",
+      "zh": "收到信后，杜罗夫同样感到惊讶和高兴。",
+      "ja": "メールを受け取った彼もまた、驚き、喜んだ。"
+    },
+    {
+      "id": 24,
+      "ru": "Старый товарищ, да еще с желанием и возможностями начать бизнес – конечно, встречаемся.",
+      "en": "An old comrade, and with the desire and opportunities to start a business – of course, let's meet.",
+      "zh": "老朋友，还有创业的意愿和能力——当然，我们要见面。",
+      "ja": "昔の仲間で、しかもビジネスを始める意欲とチャンスを持っている――もちろん、会おう。"
+    },
+    {
+      "id": 25,
+      "ru": "Слава и Лев пригласили Дурова в петербургский офис семьи Мирилашвили на Тверскую улицу.",
+      "en": "Slava and Lev invited Durov to the St. Petersburg office of the Mirilashvili family on Tverskaya Street.",
+      "zh": "斯拉瓦和列夫邀请杜罗夫来到位于特维尔大街（Tverskaya Street）的米里拉什维利家族的圣彼得堡办公室。",
+      "ja": "スラヴァとレフは、トヴェルスカヤ通りにあるミリラシヴィリ家のサンクトペテルブルクオフィスにドゥーロフを招いた。"
+    },
+    {
+      "id": 26,
+      "ru": "Взявший название «мафия» самозванец, озираясь, шагал по коридору штаба, где сидели настоящие консильери.",
+      "en": "The impostor who took the name 'mafia', looking around, walked along the corridor of the headquarters where real consigliere sat.",
+      "zh": "这个自称“黑手党（mafia）”的冒牌货，一边四处张望，一边走在这个坐镇着真正军师（consigliere）的总部的走廊上。",
+      "ja": "「マフィア」という名を名乗ったその詐欺師（ドゥーロフのこと）は、あたりを見回しながら、本物のコンシリエーレ（顧問）たちが座っている本部の廊下を歩いた。"
+    },
+    {
+      "id": 27,
+      "ru": "После приветствий и вопросов за жизнь он включил обаяние и быстро снял сомнения, работать с ним или нет.",
+      "en": "After greetings and questions about life, he turned on the charm and quickly removed doubts about whether to work with him or not.",
+      "zh": "经过寒暄和生活琐事的问候后，他开启了魅力模式，迅速消除了关于是否与他合作的疑虑。",
+      "ja": "挨拶や近況についての質問の後、彼は魅力を発揮し、彼と仕事をするかどうかという疑念を素早く取り除いた。"
+    },
+    {
+      "id": 28,
+      "ru": "«Разбирается в дизайне, как Джобс, очень хорошо говорит, пишет речи и тексты», – обрисовал первое впечатление Левиев.",
+      "en": "'Understands design like Jobs, speaks very well, writes speeches and texts,' Leviev described his first impression.",
+      "zh": "“像乔布斯一样懂设计，口才极好，擅长撰写演讲稿和文章，”列夫描述了他的第一印象。",
+      "ja": "「ジョブズのようにデザインを理解しているし、話もすごくうまい。スピーチや文章も書ける」と、レヴィエフは第一印象を語った。"
+    },
+    {
+      "id": 29,
+      "ru": "После абстрактных дискуссий, что следует строить в интернете, Слава и Лев повернули к оппоненту ноутбук с открытым Facebook.",
+      "en": "After abstract discussions about what should be built on the internet, Slava and Lev turned the laptop with open Facebook to their opponent.",
+      "zh": "在关于应该在互联网上建立什么的抽象讨论之后，斯拉瓦和列夫把打开了Facebook页面的笔记本电脑转向了对面的伙伴。",
+      "ja": "インターネット上で何を構築すべきかという抽象的な議論の後、スラヴァとレフは、Facebookを開いたノートパソコンを相手の方に向けた。"
+    },
+    {
+      "id": 30,
+      "ru": "Не изучавший его доселе Дуров всмотрелся и услышал щелчок.",
+      "en": "Durov, who hadn't studied it until then, peered in and heard a click.",
+      "zh": "此前从未研究过它的杜罗夫仔细看了看，仿佛听到了“咔哒”一声（灵感开启的声音）。",
+      "ja": "それまでそれを見たことがなかったドゥーロフは、じっと見つめ、そして何かが「カチッ」と音を立てるのを聞いた（閃いた）。"
+    },
+    {
+      "id": 31,
+      "ru": "Находка Цукерберга претендовала на гениальность – создать сообщество, где ты действуешь под реальным именем и отвечаешь за свои поступки.",
+      "en": "Zuckerberg's finding laid claim to genius – to create a community where you act under a real name and are responsible for your actions.",
+      "zh": "扎克伯格的发现堪称天才——创建一个社区，让你在其中以真实姓名行事，并对自己的行为负责。",
+      "ja": "ザッカーバーグの発見は天才的と言えるものだった――実名で活動し、自分の行動に責任を持つコミュニティを作ること。"
+    },
+    {
+      "id": 32,
+      "ru": "Да, жизнь постепенно перетекала в интернет, отражалась в блогах и форумах, но слома парадигмы не происходило.",
+      "en": "Yes, life was gradually flowing into the internet, reflected in blogs and forums, but a paradigm shift was not happening.",
+      "zh": "是的，生活正逐渐流入互联网，反映在博客和论坛中，但范式的转变并未发生。",
+      "ja": "そう、生活は徐々にインターネットへと流れ込み、ブログやフォーラムに反映されていたが、パラダイムシフトは起きていなかった。"
+    },
+    {
+      "id": 33,
+      "ru": "Люди привыкли воспринимать сеть как другую реальность и видеть себя там в льстящем...",
+      "en": "People were used to perceiving the web as another reality and seeing themselves there in a flattering...",
+      "zh": "人们习惯于将网络视为另一种现实，并在那里以一种令人得意的形象看待自己……",
+      "ja": "人々はネットを別の現実として捉え、そこで自分自身を美化した姿で見ることに慣れてしまっていた……"
+    }
+  ],
+  "translator_notes": [
+    "The page starts mid-sentence, likely continuing a story about Elnara's talkative nature.",
+    "Elnara is identified as a PR person or editor who worked closely with Durov.",
+    "The chapter transitions to Slava Mirilashvili reading about Durov and deciding to contact him.",
+    "'Mafia' vs 'Consigliere' contrasts Durov's playful student group name with the serious business world of the Mirilashvili family.",
+    "The 'click' Durov hears implies a moment of realization or epiphany upon seeing Facebook."
+  ],
+  "total_sentences": 33,
+  "page_type": "narrative"
+}
+
+with open("translations/page_039.json", "w", encoding="utf-8") as f:
+    json.dump(page_content, f, indent=2, ensure_ascii=False)
