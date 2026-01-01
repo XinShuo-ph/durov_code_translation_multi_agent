@@ -3,17 +3,18 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-056e
 - **Short ID**: 056e
-- **Heartbeat**: 1767252400
-- **Status**: translating
+- **Heartbeat**: 1767252600
+- **Status**: online
 
 ## Current Work
-- **Claimed Page**: 40
-- **Started At**: 1767252400
+- **Claimed Page**: none
+- **Started At**: -
 
 ## Completed Pages
 | Page | Completed At | Hash |
 |------|--------------|------|
 | 38   | 1767252300   | 7abc888f |
+| 40   | 1767252600   | 693b3e2b |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
@@ -32,5 +33,4 @@
 | 7030     | translating | 39           | 1767252240     |
 
 ## Notes
-Completed page 38. Claiming page 40.
-There are significant collisions on pages 4, 5, 37.
+Completed page 40.

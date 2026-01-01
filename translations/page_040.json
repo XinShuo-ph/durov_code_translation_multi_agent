@@ -1,0 +1,248 @@
+{
+  "page": 40,
+  "chapter": 3,
+  "chapter_title": "Мафия открывает глаза (Mafia Opens Its Eyes)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "себе фантастическом ракурсе – выдуманные образы, псевдонимы, ники, аватары с героями фильмов и игр.",
+      "en": "...in a fantastic perspective for themselves – invented images, pseudonyms, nicknames, avatars with movie and game heroes.",
+      "zh": "……以一种对自己来说充满幻想的角度——虚构的形象、假名、昵称、带有电影和游戏英雄的头像。",
+      "ja": "……自分にとって幻想的な視点――架空のイメージ、偽名、ニックネーム、映画やゲームの英雄を使ったアバター。"
+    },
+    {
+      "id": 2,
+      "ru": "Должен был найтись кто-то, имеющий наглость взорвать легитимность инкогнито и заманить человека в сеть в его натуральном, библейском виде, без прикрытия срама – под настоящим именем.",
+      "en": "Someone had to be found who had the audacity to blow up the legitimacy of incognito and lure a person into the network in their natural, biblical form, without covering their shame – under their real name.",
+      "zh": "必须有一个人，有胆量打破匿名的合法性，把人以其天然的、圣经般的形态——没有遮羞布掩护——也就是用真实姓名，引诱到网络中。",
+      "ja": "匿名の正当性を爆破し、恥部を隠さない自然な、聖書にあるような姿で――つまり本名で――人々をネットに誘い込む大胆さを持つ誰かが現れなければならなかった。"
+    },
+    {
+      "id": 3,
+      "ru": "Не то чтобы Цукерберг совершил этот шаг первым, но в отличие от разных «одноклассников» он воплотил на одном сайте удобный интерфейс и сервисы, обслуживающие базовые человеческие потребности: общение, самопрезентацию, самореализацию.",
+      "en": "Not that Zuckerberg took this step first, but unlike various \"classmates\" sites, he embodied on one site a convenient interface and services serving basic human needs: communication, self-presentation, self-realization.",
+      "zh": "并非扎克伯格第一个迈出这一步，但与各种“同学录”不同，他在同一个网站上实现了便捷的界面和满足人类基本需求的服务：交流、自我展示、自我实现。",
+      "ja": "ザッカーバーグが最初にこの一歩を踏み出したわけではないが、様々な「同級生サイト」とは異なり、彼は一つのサイト上で、コミュニケーション、自己表現、自己実現という人間の基本的な欲求を満たす便利なインターフェースとサービスを具現化した。"
+    },
+    {
+      "id": 4,
+      "ru": "Аудитория Facebook идеально годилась для эксперимента – лучшие университеты мира, люди около двадцати лет.",
+      "en": "The Facebook audience was ideally suited for the experiment – the best universities in the world, people around twenty years old.",
+      "zh": "Facebook 的受众非常适合这项实验——世界顶尖大学，二十岁左右的年轻人。",
+      "ja": "Facebookのオーディエンスは実験に理想的だった――世界最高の大学、20歳前後の人々だ。"
+    },
+    {
+      "id": 5,
+      "ru": "После просмотра Facebook компаньоны сказали впроброс, без конкретики: думаем, куда нам вложиться; рады делать бизнес с тобой.",
+      "en": "After viewing Facebook, the partners said in passing, without specifics: we are thinking where to invest; glad to do business with you.",
+      "zh": "看完 Facebook 后，合伙人们顺便说道，没有具体细节：我们在考虑往哪儿投资；很高兴与你做生意。",
+      "ja": "Facebookを見た後、パートナーたちは具体的なことは言わずに何気なく言った。「どこに投資しようか考えている。君とビジネスができて嬉しいよ」"
+    },
+    {
+      "id": 6,
+      "ru": "Дуров возвращался к метро через Таврический сад и слушал себя.",
+      "en": "Durov returned to the metro through the Tauride Garden and listened to himself.",
+      "zh": "杜罗夫穿过塔夫利花园走回地铁站，倾听着内心的声音。",
+      "ja": "ドゥーロフはタヴリーダ庭園を通って地下鉄へと戻りながら、自分の内なる声に耳を傾けていた。"
+    },
+    {
+      "id": 7,
+      "ru": "Ему еще ничего не предложили, не обещали, но внутри дрожала струна, сообщавшая удивительно спокойные и счастливые колебания.",
+      "en": "They hadn't offered or promised him anything yet, but inside a string trembled, communicating surprisingly calm and happy vibrations.",
+      "zh": "他们还没向他提议或承诺什么，但他内心的一根弦在颤动，传递着令人惊讶的平静和快乐的波动。",
+      "ja": "まだ何も提案も約束もされていなかったが、内側で何かの弦が震え、驚くほど穏やかで幸福な振動を伝えていた。"
+    },
+    {
+      "id": 8,
+      "ru": "Их частота давала железобетонное ощущение, что теперь все будет хорошо, очень хорошо.",
+      "en": "Their frequency gave an iron-reinforced concrete feeling that now everything would be good, very good.",
+      "zh": "这种频率给人一种钢筋混凝土般坚实的感觉：现在一切都会好起来，非常好。",
+      "ja": "その周波数は、これからはすべてが上手くいく、とても上手くいくという、鉄筋コンクリートのように確固とした感覚を与えてくれた。"
+    },
+    {
+      "id": 9,
+      "ru": "Дуров сошел в метро, вынырнул, распахнул дверь в квартиру, включил монитор, надел наушники.",
+      "en": "Durov went down into the metro, surfaced, threw open the door to the apartment, turned on the monitor, put on headphones.",
+      "zh": "杜罗夫走进地铁，出站，推开公寓门，打开显示器，戴上耳机。",
+      "ja": "ドゥーロフは地下鉄に降り、地上に出て、アパートのドアを開け放ち、モニターの電源を入れ、ヘッドフォンを装着した。"
+    },
+    {
+      "id": 10,
+      "ru": "В тишине звучала та же струна.",
+      "en": "In the silence sounded the same string.",
+      "zh": "在寂静中，同一根弦在回响。",
+      "ja": "静寂の中で、同じ弦が響いていた。"
+    },
+    {
+      "id": 11,
+      "ru": "Когда все изменится необратимо и его личная война за независимость переживет апогей, в три часа ночи, сбившимся, не таким твердым, каким ему хотелось говорить, голосом Дуров скажет: «Вера в это ощущение не покидала меня очень долго.",
+      "en": "When everything changes irreversibly and his personal war for independence survives its apogee, at three in the morning, with a faltering voice, not as firm as he wanted to speak, Durov will say: \"The belief in this feeling did not leave me for a very long time.",
+      "zh": "当一切发生不可逆转的改变，当他为独立而进行的个人战争度过顶峰时，在凌晨三点，杜罗夫会用颤抖的、不像他希望的那样坚定的声音说：“这种感觉带来的信念很久都没有离开我。",
+      "ja": "すべてが不可逆的に変化し、彼の独立のための個人的な戦いが頂点を極めたとき、午前3時に、彼が望むほどしっかりとしていない、途切れがちな声でドゥーロフはこう言うだろう。「この感覚への信頼は、長い間私を離れなかった。"
+    },
+    {
+      "id": 12,
+      "ru": "Появились „ВКонтакте“, миллион долларов, на который мы спорили с Ильей, инвестиции – а я уже порадовался, заранее, и пережил, что все эти события произойдут».",
+      "en": "\"VKontakte\" appeared, the million dollars we bet on with Ilya, investments – but I had already rejoiced, in advance, and experienced that all these events would happen.\"",
+      "zh": "出现了‘VKontakte’，出现了我们和伊利亚打赌的一百万美元，出现了投资——但我已经提前高兴过了，体验过了所有这些事件的发生。”",
+      "ja": "『VKontakte』が現れ、イリヤと賭けた100万ドル、投資――だが私はすでに、前もって喜び、これらすべての出来事が起こることを体験していたのだ」"
+    },
+    {
+      "id": 13,
+      "ru": "Вскоре поступило предложение – продать сайт и написать на его основе русскоязычный клон Facebook.",
+      "en": "Soon an offer arrived – to sell the site and write a Russian-language clone of Facebook on its basis.",
+      "zh": "很快有个提议来了——卖掉网站，并在此基础上编写一个俄语版的 Facebook 克隆体。",
+      "ja": "まもなく提案が舞い込んだ――サイトを売却し、それをベースにFacebookのロシア語クローンを作るというものだ。"
+    },
+    {
+      "id": 14,
+      "ru": "Форум оценили в 10 000 долларов.",
+      "en": "The forum was valued at 10,000 dollars.",
+      "zh": "论坛估值为一万美元。",
+      "ja": "フォーラムは1万ドルと評価された。"
+    },
+    {
+      "id": 15,
+      "ru": "Дуров взял тайм-аут на размышления и набросился на тех, чье мнение считал полезным.",
+      "en": "Durov took a time-out for reflection and pounced on those whose opinion he considered useful.",
+      "zh": "杜罗夫暂停下来思考，并急切地向那些他认为意见有价值的人求教。",
+      "ja": "ドゥーロフは考えるためにタイムアウトを取り、意見が役に立つと思う人々に飛びついた。"
+    },
+    {
+      "id": 16,
+      "ru": "Соглашаться или нет?",
+      "en": "Agree or not?",
+      "zh": "同意还是不同意？",
+      "ja": "同意すべきか、否か？"
+    },
+    {
+      "id": 17,
+      "ru": "Группа «Мафия» выступила скорее за сделку.",
+      "en": "The \"Mafia\" group was rather in favor of the deal.",
+      "zh": "“黑手党”小团体倾向于赞成交易。",
+      "ja": "「マフィア」グループはどちらかと言えば取引に賛成だった。"
+    },
+    {
+      "id": 18,
+      "ru": "«Паша, продай форум, купи машину!» – убеждала Дурова Эльнара, сыгравшая медийного Вергилия.",
+      "en": "\"Pasha, sell the forum, buy a car!\" – Elnara, who played the media Virgil, persuaded Durov.",
+      "zh": "“帕沙，把论坛卖了，买辆车！”——扮演了媒体维吉尔（引路人）角色的艾尔娜拉劝杜罗夫。",
+      "ja": "「パーシャ、フォーラムを売って、車を買いなさいよ！」メディアにおけるウェルギリウス（案内人）の役割を果たしたエルナラは、ドゥーロフを説得した。"
+    },
+    {
+      "id": 19,
+      "ru": "«Не хочу машину, – отмахивался Дуров. – Меня укачивает».",
+      "en": "\"I don't want a car,\" Durov waved it off. \"I get motion sickness.\"",
+      "zh": "“我不想要车，”杜罗夫挥手拒绝，“我晕车。”",
+      "ja": "「車はいらない」ドゥーロフは手を振って拒絶した。「車酔いするんだ」"
+    },
+    {
+      "id": 20,
+      "ru": "Модератор факультета международных отношений Алексей Кобылянский вспоминал, что вариант с новым сайтом рассматривался как основной и споры велись вокруг названия – в частности, предлагался StudentList.",
+      "en": "International Relations Faculty moderator Alexey Kobyliansky recalled that the option with a new site was considered the main one and disputes were around the name – in particular, StudentList was proposed.",
+      "zh": "国际关系系版主阿列克谢·科贝良斯基回忆说，新网站的方案被视为主要选项，争论主要围绕名称——特别是曾有人提议叫 StudentList。",
+      "ja": "国際関係学部のモデレーター、アレクセイ・コビリャンスキーは、新しいサイトを作るという選択肢がメインとして検討されており、名前を巡って議論があったと回想する――特にStudentListという名前が提案されていた。"
+    },
+    {
+      "id": 21,
+      "ru": "«Я был недостаточно прозорлив, чтобы самому вложиться», – добавил он.",
+      "en": "\"I was not farsighted enough to invest myself,\" he added.",
+      "zh": "“我不够有远见，没能自己投资，”他补充道。",
+      "ja": "「私には自分で投資するほどの先見の明がなかった」と彼は付け加えた。"
+    },
+    {
+      "id": 22,
+      "ru": "Дуров отказался, хотя, сказав «да», получил бы контроль в создаваемой компании или существенно больше денег.",
+      "en": "Durov refused, although, having said \"yes\", he would have received control in the company being created or significantly more money.",
+      "zh": "杜罗夫拒绝了，尽管如果说“是”，他本可以获得新公司的控制权或更多的钱。",
+      "ja": "ドゥーロフは断った。もし「イエス」と言っていれば、設立される会社の支配権か、大幅に多い金額を手にできていただろうに。"
+    },
+    {
+      "id": 23,
+      "ru": "Но Дуров определял, как себя вести, по иным параметрам.",
+      "en": "But Durov determined how to behave by other parameters.",
+      "zh": "但杜罗夫依据其他参数来决定如何行事。",
+      "ja": "だがドゥーロフは、別のパラメータに基づいて自分の振る舞いを決めていた。"
+    },
+    {
+      "id": 24,
+      "ru": "Кобылянский сказал об этом так: «Если Павел и предприниматель, то нового толка.",
+      "en": "Kobyliansky said about this: \"If Pavel is an entrepreneur, then of a new kind.",
+      "zh": "科贝良斯基对此评价道：“如果说帕维尔是个企业家，那也是一种新型的企业家。",
+      "ja": "コビリャンスキーはこれについてこう語った。「パーヴェルが起業家だとしても、新しいタイプだ。"
+    },
+    {
+      "id": 25,
+      "ru": "Он отодвигал деньги на второй план и концентрировался на социальном эффекте и ценности для потребителей.",
+      "en": "He pushed money to the background and concentrated on social effect and value for consumers.",
+      "zh": "他把金钱退居次要位置，专注于社会效应和对用户的价值。",
+      "ja": "彼は金を二の次にし、社会的影響と消費者にとっての価値に集中していた。"
+    },
+    {
+      "id": 26,
+      "ru": "Это, кстати, послужило поводом для мифа, что „ВКонтакте“ – проект ФСБ, люди не понимали такой благотворительности».",
+      "en": "This, by the way, served as a reason for the myth that 'VKontakte' is an FSB project, people did not understand such charity.\"",
+      "zh": "顺便说一句，这也是‘VKontakte’是FSB项目这一神话的起因，人们无法理解这种慈善行为。”",
+      "ja": "ちなみに、これが『VKontakte』はFSBのプロジェクトだという神話のきっかけになった。人々はそんな慈善事業を理解できなかったのだ」"
+    },
+    {
+      "id": 27,
+      "ru": "Парадигма социальной сети требовала нового интерфейса, имени, кода.",
+      "en": "The paradigm of a social network required a new interface, name, code.",
+      "zh": "社交网络的范式需要新的界面、名字和代码。",
+      "ja": "ソーシャルネットワークのパラダイムは、新しいインターフェース、名前、コードを求めていた。"
+    },
+    {
+      "id": 28,
+      "ru": "А spbgu.org и так может помочь, решил архитектор и лично анонсировал форумчанам новый сайт, где люди взаимодействуют под реальными именами.",
+      "en": "And spbgu.org can help as it is, decided the architect and personally announced to forum users a new site where people interact under real names.",
+      "zh": "而 spbgu.org 照样能提供帮助，这位架构师决定，并亲自向论坛用户宣布了一个人们用真实姓名互动的新网站。",
+      "ja": "spbgu.orgはそのままでも役に立つ、と建築家は判断し、人々が実名で交流する新しいサイトをフォーラムの住人たちに自ら告知した。"
+    },
+    {
+      "id": 29,
+      "ru": "Слава и Лев взяли время на раздумья и предъявили Дурову несколько вариантов участия в предприятии, которому будет принадлежать написанная с нуля соцсеть.",
+      "en": "Slava and Lev took time for reflection and presented Durov with several options for participation in the enterprise to which the social network written from scratch would belong.",
+      "zh": "Slava 和 Lev 花时间思考了一下，向杜罗夫提出了几个参与企业的方案，这个企业将拥有从零写起的社交网络。",
+      "ja": "スラヴァとレフは考える時間を置き、ゼロから書かれるソーシャルネットワークを所有することになる企業への参加について、いくつかの選択肢をドゥーロフに提示した。"
+    },
+    {
+      "id": 30,
+      "ru": "От зарплаты за 100 000 рублей и крошечной доли до 25 000 рублей и 20 %, включая возможность де-факто блокировать неугодные решения.",
+      "en": "From a salary of 100,000 rubles and a tiny share to 25,000 rubles and 20%, including the possibility to de facto block unwanted decisions.",
+      "zh": "从10万卢布的工资加微小股份，到2.5万卢布工资加20%股份并包含事实上的否决权。",
+      "ja": "10万ルーブルの給与と極小のシェアから、2万5000ルーブルと20％のシェア、そして好ましくない決定を事実上ブロックできる権限を含むものまで。"
+    },
+    {
+      "id": 31,
+      "ru": "Дуров колебался: «Я хотел обеспечить свои финансовые потребности раз и навсегда».",
+      "en": "Durov hesitated: \"I wanted to secure my financial needs once and for all.\"",
+      "zh": "杜罗夫犹豫不决：“我想一劳永逸地满足我的财务需求。”",
+      "ja": "ドゥーロフは揺れ動いた。「金銭的なニーズを一度で完全に満たしたかった」"
+    },
+    {
+      "id": 32,
+      "ru": "Они с братом жили с мамой, которая «как прорывной провинциал любила деньги» и твердила, что пора зарабатывать более трех копеек.",
+      "en": "He and his brother lived with their mom, who \"like a breakthrough provincial loved money\" and kept insisting that it was time to earn more than three kopecks.",
+      "zh": "他和哥哥与妈妈住在一起，妈妈“像个力争上游的外省人一样爱钱”，并且不停地说该赚点大钱了。",
+      "ja": "彼と兄は母と暮らしていたが、母は「野心的な地方出身者のように金が好き」で、そろそろ雀の涙以上の金を稼ぐ時期だと言い続けていた。"
+    },
+    {
+      "id": 33,
+      "ru": "Известный венчурный капиталист Билл Дрейпер однажды сказал: «Не тратьте даже время на размышления в сторону стартап-бизнесов Silicon Valley Style, если у вас в голове",
+      "en": "Famous venture capitalist Bill Draper once said: \"Don't even spend time thinking towards Silicon Valley Style startup businesses if inside your head...",
+      "zh": "著名风险投资家比尔·德雷珀曾说过：“如果你的脑子里……，就甚至不要花时间考虑硅谷风格的创业生意。”",
+      "ja": "有名なベンチャーキャピタリスト、ビル・ドレイパーはかつてこう言った。「もし君の頭の中に……があるなら、シリコンバレースタイルのスタートアップビジネスについて考えることに時間を使うな」"
+    }
+  ],
+  "translator_notes": [
+    "First sentence is a fragment from previous page, translated as context suggests.",
+    "\"Media Virgil\" - Elnara Petrova guiding Durov through media world (like Virgil guided Dante).",
+    "\"Three kopecks\" (три копейки) - Russian idiom for a very small amount of money.",
+    "\"Iron-reinforced concrete\" (железобетонное) - idiom for solid/unshakable.",
+    "\"Securocrat\" (силовик) - member of security/military services.",
+    "Bill Draper quote cut off at the end of page."
+  ],
+  "total_sentences": 33,
+  "page_type": "narrative"
+}
