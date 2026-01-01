@@ -1,0 +1,300 @@
+{
+  "page": 87,
+  "chapter": 4,
+  "chapter_title": "Штаб (Headquarters)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "спровоцирована Mail.ru, и ставим в копию Мильнера, чтобы он видел: мои мотивы прозрачны, агрессии нет.",
+      "en": "was provoked by Mail.ru, and we CC Milner so he can see: my motives are transparent, there is no aggression.",
+      "zh": "是由Mail.ru挑起的，我们抄送米尔纳，让他看到：我的动机是透明的，没有攻击性。",
+      "ja": "Mail.ruによって挑発された、そしてミルナーをCCに入れて、彼が見られるようにする：私の動機は透明で、攻撃性はない。"
+    },
+    {
+      "id": 3,
+      "ru": "Переговоры завершены.",
+      "en": "Negotiations are over.",
+      "zh": "谈判结束。",
+      "ja": "交渉は終了だ。"
+    },
+    {
+      "id": 4,
+      "ru": "Нажав «Отправить», Дуров задумался.",
+      "en": "After pressing 'Send,' Durov pondered.",
+      "zh": "按下"发送"后，杜罗夫陷入了沉思。",
+      "ja": "「送信」を押した後、ドゥーロフは考え込んだ。"
+    },
+    {
+      "id": 5,
+      "ru": "Чего-то не хватало.",
+      "en": "Something was missing.",
+      "zh": "缺了点什么。",
+      "ja": "何かが足りなかった。"
+    },
+    {
+      "id": 6,
+      "ru": "Красивого широкого жеста, коды.",
+      "en": "A beautiful broad gesture, a coda.",
+      "zh": "一个漂亮的大手笔，一个尾声。",
+      "ja": "美しく大きなジェスチャー、コーダが。"
+    },
+    {
+      "id": 7,
+      "ru": "Отбросив пару вариантов, он покрутил пришедшую в голову мысль.",
+      "en": "Discarding a couple of options, he turned over a thought that came to mind.",
+      "zh": "抛开几个选项后，他在脑海中转了转一个想法。",
+      "ja": "いくつかの選択肢を捨てて、彼は頭に浮かんだ考えを巡らせた。"
+    },
+    {
+      "id": 8,
+      "ru": "Мысль вызывала защитную реакцию – с Усмановым не хотелось портить отношения.",
+      "en": "The thought triggered a defensive reaction—he didn't want to spoil relations with Usmanov.",
+      "zh": "这个想法引发了防御反应——他不想破坏与乌斯马诺夫的关系。",
+      "ja": "その考えは防御反応を引き起こした——ウスマノフとの関係を悪化させたくなかった。"
+    },
+    {
+      "id": 9,
+      "ru": "Но, извините, пакостит не он, а менеджеры, выдумывающие схемы поглощения и унизительные условия, о которых мы не договаривались.",
+      "en": "But, excuse me, it's not him who's causing trouble, but the managers inventing acquisition schemes and humiliating terms that we didn't agree on.",
+      "zh": "但是，对不起，搞事的不是他，而是那些发明收购计划和羞辱性条款的经理人，这些我们没有商量过。",
+      "ja": "しかし、失礼ですが、トラブルを起こしているのは彼ではなく、我々が合意していない買収スキームや屈辱的な条件を考え出しているマネージャーたちだ。"
+    },
+    {
+      "id": 10,
+      "ru": "«ОК», – подумал Дуров и запросил у службы тыла фугас.",
+      "en": "\"OK,\" thought Durov, and requested a bomb from the rear service.",
+      "zh": "\"好吧，\"杜罗夫想，并向后勤部门要了一颗炸弹。",
+      "ja": "「OK」とドゥーロフは思い、後方支援に爆弾を要求した。"
+    },
+    {
+      "id": 11,
+      "ru": "Фото с праздника в ресторане упало в ящик, и он открыл Twitter.",
+      "en": "The photo from the celebration at the restaurant landed in his inbox, and he opened Twitter.",
+      "zh": "餐厅庆祝活动的照片落进了收件箱，他打开了Twitter。",
+      "ja": "レストランでのお祝いの写真が受信トレイに届き、彼はTwitterを開いた。"
+    },
+    {
+      "id": 12,
+      "ru": "Подпись сформулировалась сразу: «Официальный ответ трэш-холдингу Mail.ru на его попытки поглотить „ВКонтакте"».",
+      "en": "The caption formulated immediately: \"Official response to trash-holding Mail.ru on its attempts to absorb VKontakte.\"",
+      "zh": "标题立即形成了："对垃圾控股公司Mail.ru试图吞并VKontakte的官方回应。"",
+      "ja": "キャプションはすぐにできた：「VKontakteを吸収しようとするゴミホールディングMail.ruへの公式回答」"
+    },
+    {
+      "id": 13,
+      "ru": "Картинка нерезкая, зато демонстрируемый fuck не вызовет двояких толкований.",
+      "en": "The picture was blurry, but the displayed 'fuck' wouldn't cause any ambiguous interpretations.",
+      "zh": "图片模糊，但展示的中指不会引起任何歧义。",
+      "ja": "画像は不鮮明だが、示されている「ファック」は曖昧な解釈を招かないだろう。"
+    },
+    {
+      "id": 14,
+      "ru": "Все разделилось вокруг на чужое и наше.",
+      "en": "Everything around divided into theirs and ours.",
+      "zh": "周围的一切都分成了他们的和我们的。",
+      "ja": "周りのすべてが敵と味方に分かれた。"
+    },
+    {
+      "id": 15,
+      "ru": "Жмем «Tweet».",
+      "en": "Press 'Tweet.'",
+      "zh": "按下"推文"。",
+      "ja": "「ツイート」を押す。"
+    },
+    {
+      "id": 16,
+      "ru": "Фотографию мгновенно заметили информагентства.",
+      "en": "News agencies instantly noticed the photograph.",
+      "zh": "新闻机构立即注意到了这张照片。",
+      "ja": "通信社はすぐにその写真に気づいた。"
+    },
+    {
+      "id": 17,
+      "ru": "Когда я разговаривал с Гришиным, Широковым и другими людьми из Mail.ru, их реакция была ошеломленно-прибитой.",
+      "en": "When I talked with Grishin, Shirokov, and other people from Mail.ru, their reaction was stunned-beaten.",
+      "zh": "当我与格里辛、希罗科夫和Mail.ru的其他人交谈时，他们的反应是目瞪口呆。",
+      "ja": "グリシン、シロコフ、その他のMail.ruの人々と話した時、彼らの反応は唖然として打ちのめされていた。"
+    },
+    {
+      "id": 18,
+      "ru": "Как публичная компания, холдинг не мог перевести конфликт в медийную сферу.",
+      "en": "As a public company, the holding couldn't transfer the conflict to the media sphere.",
+      "zh": "作为上市公司，控股公司无法将冲突转移到媒体领域。",
+      "ja": "上場企業として、ホールディングは紛争をメディアの領域に持ち込むことができなかった。"
+    },
+    {
+      "id": 19,
+      "ru": "Поведение Дурова нарушало все возможные этики и эстетики.",
+      "en": "Durov's behavior violated all possible ethics and aesthetics.",
+      "zh": "杜罗夫的行为违反了所有可能的道德和美学标准。",
+      "ja": "ドゥーロフの行動は、ありとあらゆる倫理と美学に違反していた。"
+    },
+    {
+      "id": 20,
+      "ru": "Консолидированное мнение менеджеров: парень зарвался и ведет себя как гопник с высоким IQ.",
+      "en": "The consolidated opinion of managers: the guy got too big for his boots and behaves like a hooligan with a high IQ.",
+      "zh": "经理人们的一致意见：这家伙太自大了，表现得像个高智商的小混混。",
+      "ja": "マネージャーたちの一致した意見：この男は調子に乗りすぎて、高IQのチンピラのように振る舞っている。"
+    },
+    {
+      "id": 21,
+      "ru": "Не уверен, что тогда Дуров сознавал это, но на самом деле ситуацией управлял он.",
+      "en": "I'm not sure Durov was aware of this at the time, but in reality he was controlling the situation.",
+      "zh": "我不确定杜罗夫当时是否意识到这一点，但实际上他在控制着局面。",
+      "ja": "ドゥーロフが当時それを意識していたかわからないが、実際には彼が状況をコントロールしていた。"
+    },
+    {
+      "id": 22,
+      "ru": "Журналист Forbes Валерий Игуменов брал интервью у Ивана Стрешинского, который отвечал у Усманова за интернет, и тот, совершив реверансы перед талантами Дурова, сказал:",
+      "en": "Forbes journalist Valery Igumenov was interviewing Ivan Streshinsky, who was responsible for internet at Usmanov's, and he, having paid respects to Durov's talents, said:",
+      "zh": "福布斯记者瓦列里·伊古梅诺夫正在采访伊万·斯特列辛斯基，他在乌斯马诺夫那里负责互联网，他在向杜罗夫的才华致敬后说：",
+      "ja": "フォーブスのジャーナリスト、ヴァレリー・イグメノフがウスマノフのところでインターネットを担当するイヴァン・ストレシンスキーにインタビューしていた。彼はドゥーロフの才能に敬意を表した後、こう言った："
+    },
+    {
+      "id": 23,
+      "ru": "«Он считает программистов творцами, а всех остальных – людьми второго сорта.",
+      "en": "\"He considers programmers to be creators, and everyone else to be second-class people.",
+      "zh": "\"他认为程序员是创造者，而其他所有人都是二等人。",
+      "ja": "「彼はプログラマーを創造者と考え、それ以外の全員を二流の人間と考えている。"
+    },
+    {
+      "id": 24,
+      "ru": "Интернет-бизнес так устроен, что огромное значение имеют компетенции, которыми мы не владеем.",
+      "en": "The internet business is structured such that competencies we don't possess have enormous importance.",
+      "zh": "互联网业务的结构是这样的，我们不具备的能力具有巨大的重要性。",
+      "ja": "インターネットビジネスは、我々が持っていない能力が非常に重要になるように構造化されている。"
+    },
+    {
+      "id": 25,
+      "ru": "Условно говоря, если начнутся недружелюбные действия по отношению к „ВКонтакте", Дуров может выключить рубильник и уйти».",
+      "en": "Roughly speaking, if hostile actions against VKontakte begin, Durov can switch off the power and leave.\"",
+      "zh": "粗略地说，如果对VKontakte开始采取敌对行动，杜罗夫可以关掉开关然后离开。\"",
+      "ja": "大まかに言えば、VKontakteに対する敵対的な行動が始まれば、ドゥーロフはスイッチを切って去ることができる」"
+    },
+    {
+      "id": 26,
+      "ru": "Фобии Стрешинского выглядели знаковыми.",
+      "en": "Streshinsky's phobias looked symbolic.",
+      "zh": "斯特列辛斯基的恐惧看起来很有象征意义。",
+      "ja": "ストレシンスキーの恐怖症は象徴的に見えた。"
+    },
+    {
+      "id": 27,
+      "ru": "Сильные мира сего не придали значения трещине, которая рассекала мир и пробиралась из стран с развитой демократией в государства с вертикалью власти, – высокие технологии по природе своей отдавали власть интеллекту и способствовали распространению демократии.",
+      "en": "The powers that be didn't attach importance to the crack that was splitting the world and creeping from countries with developed democracies into states with vertical power structures—high technology by its nature gave power to intellect and promoted the spread of democracy.",
+      "zh": "权贵们没有重视那条正在分裂世界、从发达民主国家蔓延到垂直权力结构国家的裂缝——高科技本质上将权力赋予智慧，促进民主的传播。",
+      "ja": "権力者たちは、世界を分断し、発達した民主主義国から垂直的な権力構造を持つ国家へと忍び寄る亀裂に重要性を見出さなかった——ハイテクはその本質上、知性に権力を与え、民主主義の普及を促進した。"
+    },
+    {
+      "id": 28,
+      "ru": "Нёрды захватили ноосферу.",
+      "en": "Nerds had captured the noosphere.",
+      "zh": "书呆子们占领了智慧圈。",
+      "ja": "ナードたちはヌースフェアを占領した。"
+    },
+    {
+      "id": 29,
+      "ru": "То, как понимал «ВКонтакте» менеджер Усманов, говорит о средневековье в уме даже очень хитрых людей.",
+      "en": "The way Usmanov's manager understood VKontakte speaks of medievalism in the minds of even very cunning people.",
+      "zh": "乌斯马诺夫的经理人理解VKontakte的方式说明，即使是非常狡猾的人，思维中也存在中世纪的观念。",
+      "ja": "ウスマノフのマネージャーがVKontakteを理解する方法は、非常に狡猾な人々の頭の中にさえ中世的な考えがあることを示している。"
+    },
+    {
+      "id": 30,
+      "ru": "Проклятые маги сидят, варят свое зелье, и как президент держит в чемоданчике ядерную кнопку, так эти очкарики где-то спрятали рубильник, который в случае опасности выключает все.",
+      "en": "Cursed mages sit brewing their potion, and just as the president keeps the nuclear button in his briefcase, these glasses-wearers have hidden somewhere a switch that turns everything off in case of danger.",
+      "zh": "被诅咒的魔法师坐着熬制他们的药水，就像总统在公文包里放着核按钮一样，这些戴眼镜的人在某个地方藏了一个开关，一旦有危险就能关掉一切。",
+      "ja": "呪われた魔法使いたちは座って薬を煮ている。大統領がブリーフケースに核ボタンを持っているように、このメガネをかけた連中は危険な場合にすべてを止めるスイッチをどこかに隠している。"
+    },
+    {
+      "id": 31,
+      "ru": "Бизнес стоимостью в миллиарды долларов рушится, в стране полыхают восстания.",
+      "en": "A business worth billions of dollars collapses, revolts blaze across the country.",
+      "zh": "价值数十亿美元的业务崩溃，全国爆发起义。",
+      "ja": "数十億ドルの価値があるビジネスが崩壊し、国中で反乱が燃え上がる。"
+    },
+    {
+      "id": 32,
+      "ru": "Пользователи бегут во враждебный Facebook – хорошо, что небольшой кусочек этой сети Усманов купил заранее.",
+      "en": "Users flee to hostile Facebook—good thing Usmanov bought a small piece of that network in advance.",
+      "zh": "用户逃向敌对的Facebook——幸好乌斯马诺夫提前买了那个网络的一小块。",
+      "ja": "ユーザーは敵対的なFacebookに逃げる——幸い、ウスマノフはそのネットワークの一部を事前に購入していた。"
+    },
+    {
+      "id": 33,
+      "ru": "Интернет дал власть интеллекту, но, чтобы воплощать свои идеи в России, требовались твердость и умение контролировать страх, схожее с тем, каким владеют альпинисты, привыкшие лезть вверх по стене, имея под ногами километровую пропасть.",
+      "en": "The internet gave power to intellect, but to realize ideas in Russia required firmness and the ability to control fear, similar to what climbers possess who are used to climbing up a wall with a kilometer-deep abyss beneath their feet.",
+      "zh": "互联网赋予了智慧权力，但要在俄罗斯实现想法需要坚定和控制恐惧的能力，类似于习惯攀爬墙壁、脚下是一公里深渊的登山者所拥有的能力。",
+      "ja": "インターネットは知性に力を与えたが、ロシアでアイデアを実現するには、足元に1キロメートルの深淵を持ちながら壁を登ることに慣れた登山家が持つような、確固たる意志と恐怖をコントロールする能力が必要だった。"
+    },
+    {
+      "id": 34,
+      "ru": "Дуров обладал тем и другим.",
+      "en": "Durov possessed both.",
+      "zh": "杜罗夫两者兼备。",
+      "ja": "ドゥーロフは両方を持っていた。"
+    },
+    {
+      "id": 35,
+      "ru": "Подувшись на строптивого ботаника, менеджеры Усманова продолжили переговоры.",
+      "en": "Having sulked at the obstinate nerd, Usmanov's managers continued negotiations.",
+      "zh": "对这个固执的书呆子生了会儿气后，乌斯马诺夫的经理人继续谈判。",
+      "ja": "頑固なオタクに腹を立てた後、ウスマノフのマネージャーたちは交渉を続けた。"
+    },
+    {
+      "id": 36,
+      "ru": "Убедившись, что Слава со Львом готовы обсуждать оценку стоимости компании, но не готовы продаться Mail.ru, они нацелились на вход в акционеры самого олигарха.",
+      "en": "Having made sure that Slava and Lev were ready to discuss the company's valuation but not ready to sell to Mail.ru, they aimed to become shareholders of the oligarch himself.",
+      "zh": "确认斯拉瓦和列夫愿意讨论公司估值但不愿意卖给Mail.ru后，他们瞄准了成为寡头本人的股东。",
+      "ja": "スラヴァとレフが会社の評価額を議論する準備はあるがMail.ruに売却する準備はないことを確認した後、彼らはオリガルヒ自身の株主になることを目指した。"
+    },
+    {
+      "id": 37,
+      "ru": "Россию штормило.",
+      "en": "Russia was being stormed.",
+      "zh": "俄罗斯正在经历风暴。",
+      "ja": "ロシアは嵐に見舞われていた。"
+    },
+    {
+      "id": 38,
+      "ru": "Подходил к концу первый срок президента в синем костюме с айпадом под мышкой.",
+      "en": "The first term of the president in a blue suit with an iPad under his arm was coming to an end.",
+      "zh": "那位穿蓝色西装、腋下夹着iPad的总统的第一个任期即将结束。",
+      "ja": "青いスーツを着てiPadを脇に抱えた大統領の最初の任期が終わりを迎えようとしていた。"
+    },
+    {
+      "id": 39,
+      "ru": "Страна имела в анамнезе волнения в городах-миллионниках.",
+      "en": "The country had a history of unrest in million-plus cities.",
+      "zh": "该国有百万人口城市发生动荡的历史。",
+      "ja": "国は百万人以上の都市での不安の病歴を持っていた。"
+    },
+    {
+      "id": 40,
+      "ru": "Средний класс разбогател и хотел повысить качество государственных услуг, а также лишить чиновников коррупционной ренты.",
+      "en": "The middle class had grown wealthy and wanted to improve the quality of government services, as well as deprive officials of their corruption rent.",
+      "zh": "中产阶级变富了，想要提高政府服务质量，并剥夺官员的腐败收益。",
+      "ja": "中産階級は裕福になり、政府サービスの質を向上させ、官僚から汚職による収入を奪いたいと考えていた。"
+    }
+  ],
+  "translator_notes": [
+    "The famous middle finger tweet - Durov's 'official response' to Mail.ru became a symbol of his defiance",
+    "Trash-holding (трэш-холдинг) - wordplay on 'holding company' and 'trash'",
+    "Shirokov - likely another Mail.ru executive",
+    "Gopnik - Russian slang for street hooligan/thug, often from lower class areas",
+    "Noosphere - philosophical concept of the sphere of human thought, coined by Teilhard de Chardin and Vernadsky",
+    "The 'switch' fear - executives worried Durov could destroy VK's value by leaving",
+    "President in blue suit with iPad - refers to Dmitry Medvedev, known for his tech-savvy image",
+    "Million-plus cities (города-миллионники) - cities with over 1 million population",
+    "The 2011-2012 protests - largest demonstrations in Russia since the 1990s"
+  ],
+  "total_sentences": 40,
+  "page_type": "narrative"
+}
