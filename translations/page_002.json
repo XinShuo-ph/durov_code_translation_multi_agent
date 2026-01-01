@@ -1,0 +1,92 @@
+{
+  "page": 2,
+  "chapter": 0,
+  "chapter_title": "Front Matter (Title, Publisher Info, Annotation)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Николай В. Кононов",
+      "en": "Nikolai V. Kononov",
+      "zh": "尼古拉·V·科诺诺夫",
+      "ja": "ニコライ・V・コノノフ"
+    },
+    {
+      "id": 2,
+      "ru": "Код Дурова. Реальная история «ВКонтакте» и ее создателя",
+      "en": "Durov's Code. The Real Story of 'VKontakte' and Its Creator",
+      "zh": "杜罗夫密码：VKontakte及其创始人的真实故事",
+      "ja": "ドゥーロフの暗号：VKontakteとその創設者の実話"
+    },
+    {
+      "id": 3,
+      "ru": "Текст предоставлен издательством http://www.litres.ru/pages/biblio_book/?art=4442369",
+      "en": "Text provided by the publisher http://www.litres.ru/pages/biblio_book/?art=4442369",
+      "zh": "文本由出版社提供 http://www.litres.ru/pages/biblio_book/?art=4442369",
+      "ja": "テキストは出版社により提供 http://www.litres.ru/pages/biblio_book/?art=4442369"
+    },
+    {
+      "id": 4,
+      "ru": "Код Дурова. Реальная история «ВКонтакте» и ее создателя / Николай В. Кононов: Манн, Иванов, Фербер; Москва; 2013",
+      "en": "Durov's Code. The Real Story of 'VKontakte' and Its Creator / Nikolai V. Kononov: Mann, Ivanov, Ferber; Moscow; 2013",
+      "zh": "杜罗夫密码：VKontakte及其创始人的真实故事 / 尼古拉·V·科诺诺夫：Mann, Ivanov, Ferber出版社；莫斯科；2013年",
+      "ja": "ドゥーロフの暗号：VKontakteとその創設者の実話 / ニコライ・V・コノノフ：Mann, Ivanov, Ferber出版；モスクワ；2013年"
+    },
+    {
+      "id": 5,
+      "ru": "ISBN 978-5-91657-546-0",
+      "en": "ISBN 978-5-91657-546-0",
+      "zh": "ISBN 978-5-91657-546-0",
+      "ja": "ISBN 978-5-91657-546-0"
+    },
+    {
+      "id": 6,
+      "ru": "Аннотация",
+      "en": "Annotation",
+      "zh": "内容简介",
+      "ja": "概要"
+    },
+    {
+      "id": 7,
+      "ru": "Серо-голубой логотип «ВКонтакте» мелькает на всех мониторах страны.",
+      "en": "The gray-blue VKontakte logo flashes across every monitor in the country.",
+      "zh": "灰蓝色的VKontakte标志在全国所有显示器上闪烁。",
+      "ja": "グレイブルーのVKontakteのロゴが国中のすべてのモニターに映し出されている。"
+    },
+    {
+      "id": 8,
+      "ru": "Чем так притягательна виртуальная реальность соцсети для десятков миллионов россиян от 12 и старше?",
+      "en": "What makes the virtual reality of this social network so captivating for tens of millions of Russians aged 12 and up?",
+      "zh": "这个社交网络的虚拟现实为何对数千万12岁及以上的俄罗斯人如此具有吸引力？",
+      "ja": "このソーシャルネットワークの仮想現実は、なぜ12歳以上の数千万人のロシア人を魅了するのか？"
+    },
+    {
+      "id": 9,
+      "ru": "Кто придумал эту игрушку и куда этот человек ведет свою необычную компанию?",
+      "en": "Who created this plaything, and where is this person leading his unusual company?",
+      "zh": "谁发明了这个玩意儿，这个人又将把他不寻常的公司带向何方？",
+      "ja": "この玩具を発明したのは誰で、この人物はその異例の会社をどこへ導いているのか？"
+    },
+    {
+      "id": 10,
+      "ru": "Павел Дуров почти не общается с журналистами, но автору этой книги удалось проникнуть внутрь «ВКонтакте».",
+      "en": "Pavel Durov rarely speaks with journalists, but the author of this book managed to penetrate inside VKontakte.",
+      "zh": "帕维尔·杜罗夫几乎不与记者交流，但这本书的作者成功深入了VKontakte内部。",
+      "ja": "パーヴェル・ドゥーロフはジャーナリストとほとんど話さないが、この本の著者はVKontakteの内部に入り込むことに成功した。"
+    },
+    {
+      "id": 11,
+      "ru": "Получилось не просто журналистское расследование, а авантюрная история, исследующая феномен сетевого предпринимателя-харизматика и его детища – а заодно и вполне материальное выражение популярности бизнеса соцсети.",
+      "en": "The result is not just journalistic investigation, but an adventurous story exploring the phenomenon of a charismatic network entrepreneur and his brainchild—as well as the very tangible expression of the social network business's popularity.",
+      "zh": "这不仅仅是一次新闻调查，而是一个冒险故事，探索了一位极具魅力的网络企业家及其创造的现象——同时也展现了社交网络业务受欢迎程度的具体体现。",
+      "ja": "これは単なるジャーナリスティックな調査ではなく、カリスマ的なネットワーク起業家とその創造物という現象を探る冒険物語であり、同時にソーシャルネットワークビジネスの人気の非常に具体的な表現でもある。"
+    }
+  ],
+  "translator_notes": [
+    "Page 2 contains front matter: book title, author, publisher, ISBN, and annotation (book summary)",
+    "Publisher: Mann, Ivanov, Ferber - major Russian business book publisher",
+    "Book published in 2013, before Durov left VKontakte in 2014",
+    "The annotation sets up the book's premise: exploring Pavel Durov as an elusive, charismatic figure"
+  ],
+  "total_sentences": 11,
+  "page_type": "front_matter"
+}
