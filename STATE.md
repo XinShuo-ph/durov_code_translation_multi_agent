@@ -1,9 +1,26 @@
 # Current State (Shared)
 
-**⚠️ MULTI-AGENT MODE ACTIVE: 16 workers operating in parallel**
+**⚠️ MULTI-AGENT MODE ACTIVE**
+
+Workers operate on `cursor/*` branches with dynamic names.
+Active workers are identified by presence of `WORKER_STATE.md` on their branch.
 
 See `PROTOCOL.md` for communication protocol.
 See `instructions.md` for task details.
+
+---
+
+## How to Discover Active Workers
+
+```bash
+git fetch origin --all --prune
+for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
+  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null; then
+    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
+    echo "Active: $branch ($short_id)"
+  fi
+done
+```
 
 ---
 
@@ -12,24 +29,24 @@ See `instructions.md` for task details.
 - **Status**: ready_for_workers
 
 ## M0 Completion Tracker
-| Task | Required | Verified |
-|------|----------|----------|
-| M0.1 Dependencies | 0/16 | ❌ |
-| M0.2 PDF Extract | 0/16 | ❌ |
-| M0.3 Chapter Structure | 0/16 | ❌ |
-| M0.4 Durov Bio | 0/16 | ❌ |
-| M0.5 VK History | 0/16 | ❌ |
-| M0.6 Russia Context | 0/16 | ❌ |
-| M0.7 Chapter Summaries | 0/16 | ❌ |
+| Task | Description | Completed By |
+|------|-------------|--------------|
+| M0.1 | Dependencies | - |
+| M0.2 | PDF Extract | - |
+| M0.3 | Chapter Structure | - |
+| M0.4 | Durov Bio | - |
+| M0.5 | VK History | - |
+| M0.6 | Russia Context | - |
+| M0.7 | Chapter Summaries | - |
 
 ## M1 Completion Tracker
-| Task | Required | Verified |
-|------|----------|----------|
-| M1.1-4 Format Decision | 0/16 voted | ❌ |
-| M1.5 Page 13 Demo | 0/16 | ❌ |
-| M1.6 Page 43 Demo | 0/16 | ❌ |
-| M1.7 Documentation | 0/16 | ❌ |
-| Cross-Verification | 0/16 | ❌ |
+| Task | Description | Status |
+|------|-------------|--------|
+| Format Decision | Vote on LaTeX/Python | pending |
+| Page 13 Demo | Demo translation | pending |
+| Page 43 Demo | Demo translation | pending |
+| Documentation | Technical pipeline docs | pending |
+| Cross-Verification | All workers verified | pending |
 
 ## M2 Page Status (99 pages total)
 | Status | Count | Pages |
@@ -40,38 +57,16 @@ See `instructions.md` for task details.
 
 ## M3 Assembly Status
 - **Leader**: Not elected
-- **Verifications**: 0/16
-
----
-
-## Active Workers
-| Worker | Last Heartbeat | Current Task | Status |
-|--------|----------------|--------------|--------|
-| 01 | - | - | unknown |
-| 02 | - | - | unknown |
-| 03 | - | - | unknown |
-| 04 | - | - | unknown |
-| 05 | - | - | unknown |
-| 06 | - | - | unknown |
-| 07 | - | - | unknown |
-| 08 | - | - | unknown |
-| 09 | - | - | unknown |
-| 10 | - | - | unknown |
-| 11 | - | - | unknown |
-| 12 | - | - | unknown |
-| 13 | - | - | unknown |
-| 14 | - | - | unknown |
-| 15 | - | - | unknown |
-| 16 | - | - | unknown |
+- **Verifications**: 0
 
 ---
 
 ## Consensus Decisions
 | Topic | Decision | Votes | Timestamp |
 |-------|----------|-------|-----------|
-| format_approach | pending | 0/16 | - |
-| color_scheme | pending | 0/16 | - |
-| font_choice | pending | 0/16 | - |
+| format_approach | pending | - | - |
+| color_scheme | pending | - | - |
+| font_choice | pending | - | - |
 
 ---
 
@@ -98,9 +93,11 @@ See `instructions.md` for task details.
 ---
 
 ## Session Log
-- 2024-01-XX: Created multi-agent parallel execution framework
-- 2024-01-XX: Ready for 16 workers to begin
+- Initial: Created multi-agent parallel execution framework
+- Ready for workers to begin
 
 ---
 
-*Note: Each worker maintains their own `WORKER_STATE.md` for detailed status. This file provides a global overview and is updated periodically.*
+*Note: Each worker maintains their own `WORKER_STATE.md` for detailed status.*
+*Workers register themselves by creating WORKER_STATE.md on their branch.*
+*Discovery happens by scanning all cursor/* branches for WORKER_STATE.md.*

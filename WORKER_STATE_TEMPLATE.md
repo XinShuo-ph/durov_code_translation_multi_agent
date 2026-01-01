@@ -1,10 +1,10 @@
-# Worker XX State
+# Worker State: [SHORT_ID]
 
 ## Identity
-- **Worker ID**: XX
-- **Branch**: worker/XX/durov-translation
-- **Last Updated**: YYYY-MM-DDTHH:MM:SSZ
-- **Heartbeat**: TIMESTAMP
+- **Branch**: [FULL_BRANCH_NAME, e.g., cursor/multi-agent-parallel-translation-cca9]
+- **Short ID**: [LAST_4_CHARS, e.g., cca9]
+- **Last Updated**: [ISO 8601, e.g., 2024-01-15T10:30:00Z]
+- **Heartbeat**: [UNIX_TIMESTAMP, e.g., 1705312200]
 
 ## Current Milestone
 - **Milestone**: M0
@@ -40,27 +40,11 @@
 | Topic | My Vote | Timestamp |
 |-------|---------|-----------|
 
-## Observed Workers
-Last sync: TIMESTAMP
+## Known Workers
+Last sync: [TIMESTAMP]
 
-| Worker | Heartbeat | Status |
-|--------|-----------|--------|
-| 01 | - | unknown |
-| 02 | - | unknown |
-| 03 | - | unknown |
-| 04 | - | unknown |
-| 05 | - | unknown |
-| 06 | - | unknown |
-| 07 | - | unknown |
-| 08 | - | unknown |
-| 09 | - | unknown |
-| 10 | - | unknown |
-| 11 | - | unknown |
-| 12 | - | unknown |
-| 13 | - | unknown |
-| 14 | - | unknown |
-| 15 | - | unknown |
-| 16 | - | unknown |
+| Branch | Short ID | Last Heartbeat | Status |
+|--------|----------|----------------|--------|
 
 ## Messages to Other Workers
 [None]
@@ -69,8 +53,23 @@ Last sync: TIMESTAMP
 [None]
 
 ## Session Log
-- [timestamp]: Worker XX initialized
+- [timestamp]: Worker initialized
 
 ---
 
-*Update this file frequently. Commit and push after every significant action.*
+## How to Use This Template
+
+1. **Copy this file** to `WORKER_STATE.md`
+2. **Fill in your identity**:
+   ```bash
+   MY_BRANCH=$(git branch --show-current)
+   MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
+   echo "Branch: $MY_BRANCH, Short ID: $MY_SHORT_ID"
+   ```
+3. **Replace placeholders** with your actual values
+4. **Commit and push** immediately - this REGISTERS you as an active worker!
+5. **Update frequently** - after every significant action
+
+---
+
+*Delete this "How to Use" section after creating your WORKER_STATE.md*
