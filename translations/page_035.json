@@ -1,0 +1,284 @@
+{
+  "page": 35,
+  "chapter": 2,
+  "chapter_title": "Песочница (Sandbox)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "у него образовалось бойкое кадровое агентство.",
+      "en": "he had formed a brisk recruitment agency.",
+      "zh": "他成立了一家活跃的人才招聘机构。",
+      "ja": "彼は活発な人材紹介会社を作っていた。"
+    },
+    {
+      "id": 3,
+      "ru": "Сидевший в жюри конкурса торговец компьютерами подбивал мафию открыть магазин в интернете, но Дуров скривился – торговля не для людей в черном; они про новую нервную систему человечества.",
+      "en": "The computer trader who sat on the contest jury urged the mafia to open an online store, but Durov made a face—trading wasn't for men in black; they were about the new nervous system of humanity.",
+      "zh": "坐在比赛评委席上的电脑商鼓动黑手党开一家网店，但杜罗夫皱起了脸——贸易不适合黑衣人；他们是关于人类新的神经系统的。",
+      "ja": "コンテストの審査員席に座っていたコンピュータ商人がマフィアにオンラインストアを開くよう促したが、ドゥーロフは顔をしかめた——商売は黒服の人間には向かない。彼らは人類の新しい神経系統についてなのだ。"
+    },
+    {
+      "id": 4,
+      "ru": "Мама испекла торт на день рождения, и он созвал друзей в буфете.",
+      "en": "Mom baked a birthday cake, and he gathered friends in the cafeteria.",
+      "zh": "妈妈烤了一个生日蛋糕，他在餐厅召集了朋友们。",
+      "ja": "母が誕生日ケーキを焼き、彼はカフェテリアに友人を集めた。"
+    },
+    {
+      "id": 5,
+      "ru": "Это походило на собрание масонской ложи.",
+      "en": "It resembled a Masonic lodge meeting.",
+      "zh": "这看起来像共济会会所的聚会。",
+      "ja": "それはフリーメイソンのロッジの集会に似ていた。"
+    },
+    {
+      "id": 6,
+      "ru": "Действо разворачивалось по сложившемуся ритуалу – Дуров доставал из чемоданчика апельсин, чистил его и раздавал дольки приближенным, по значимости.",
+      "en": "The action unfolded according to an established ritual—Durov would take out an orange from his briefcase, peel it, and distribute segments to his inner circle, by importance.",
+      "zh": "活动按照既定的仪式展开——杜罗夫从公文包里拿出一个橙子，剥皮，然后按重要性把瓣分给亲信。",
+      "ja": "行事は確立された儀式に従って展開された——ドゥーロフはブリーフケースからオレンジを取り出し、皮をむき、重要度に応じて側近に房を分け与えた。"
+    },
+    {
+      "id": 7,
+      "ru": "Своей девушке, Перекопскому, Равдоникасу.",
+      "en": "To his girlfriend, Perekopsky, Ravdonikas.",
+      "zh": "给他的女朋友、佩列科普斯基、拉夫多尼卡斯。",
+      "ja": "彼の恋人、ペレコプスキー、ラヴドニカスに。"
+    },
+    {
+      "id": 8,
+      "ru": "За апельсином следовал торт, и после славословий трапеза целомудренно завершалась.",
+      "en": "The orange was followed by cake, and after eulogies the meal ended chastely.",
+      "zh": "橙子之后是蛋糕，颂词之后，这顿饭纯洁地结束了。",
+      "ja": "オレンジの後にケーキが続き、賛辞の後、食事は貞淑に終わった。"
+    },
+    {
+      "id": 9,
+      "ru": "Вечером в квартире Перекопского на Сенной снималось другое кино.",
+      "en": "In the evening, a different movie was being filmed at Perekopsky's apartment on Sennaya.",
+      "zh": "晚上，在佩列科普斯基位于干草广场的公寓里，正在上演另一出戏。",
+      "ja": "夕方、センナヤにあるペレコプスキーのアパートでは別の映画が撮られていた。"
+    },
+    {
+      "id": 10,
+      "ru": "На диване сидела пятерка победительниц конкурса красоты, и хозяин втирал им, какое блестящее будущее их ждет.",
+      "en": "Five beauty contest winners sat on the couch, and the host was selling them on what a brilliant future awaited them.",
+      "zh": "五位选美比赛获胜者坐在沙发上，主人向她们灌输等待她们的光明未来。",
+      "ja": "ソファには美人コンテストの優勝者5人が座り、ホストは彼女たちにどんな輝かしい未来が待っているかを売り込んでいた。"
+    },
+    {
+      "id": 11,
+      "ru": "Один из участников тусовки вспоминал, как Перекопский невзначай перечислял свои успехи: ищу недвижимость тайскому премьер-министру, подбираю один дом, второй – а ему не нравится!",
+      "en": "One party participant recalled how Perekopsky would casually list his achievements: I'm looking for real estate for the Thai prime minister, finding one house, another—and he doesn't like it!",
+      "zh": "一位聚会参与者回忆说，佩列科普斯基漫不经心地列举自己的成就：我在为泰国总理找房产，找一栋房子，另一栋——他不喜欢！",
+      "ja": "パーティー参加者の一人は、ペレコプスキーがさりげなく自分の成果を列挙していたことを思い出した：タイの首相のために不動産を探している、一軒目、二軒目——気に入らないんだ！"
+    },
+    {
+      "id": 12,
+      "ru": "Музыканты «Под водой» хлестали коньяк.",
+      "en": "Musicians from \"Pod Vodoy\" were guzzling cognac.",
+      "zh": ""水下"乐队的音乐家们在狂饮白兰地。",
+      "ja": "「ポッド・ヴォドイ」のミュージシャンたちはコニャックをあおっていた。"
+    },
+    {
+      "id": 13,
+      "ru": "Равдоникас заперся в ванной с одной из участниц форума и, видимо, преподавал урок риторики.",
+      "en": "Ravdonikas locked himself in the bathroom with one of the forum participants and was apparently giving a rhetoric lesson.",
+      "zh": "拉夫多尼卡斯和一位论坛参与者锁在浴室里，显然在上修辞课。",
+      "ja": "ラヴドニカスはフォーラムの参加者の一人とバスルームに閉じこもり、どうやら修辞学のレッスンをしていたようだ。"
+    },
+    {
+      "id": 14,
+      "ru": "Дуров сидел на диване и пил апельсиновый сок.",
+      "en": "Durov sat on the couch and drank orange juice.",
+      "zh": "杜罗夫坐在沙发上喝橙汁。",
+      "ja": "ドゥーロフはソファに座ってオレンジジュースを飲んでいた。"
+    },
+    {
+      "id": 15,
+      "ru": "Гоп-компания оставалась ночевать, а тотем и его девушка встали и, накинув пальто, покинули квартиру.",
+      "en": "The rowdy crew stayed overnight, while the totem and his girlfriend got up, threw on their coats, and left the apartment.",
+      "zh": "那帮人留下来过夜，而图腾和他的女朋友站起来，披上大衣，离开了公寓。",
+      "ja": "やんちゃな一団は泊まったが、トーテムと彼の恋人は立ち上がり、コートを羽織ってアパートを去った。"
+    },
+    {
+      "id": 16,
+      "ru": "Заканчивался последний курс.",
+      "en": "The final year was ending.",
+      "zh": "最后一学年即将结束。",
+      "ja": "最終学年が終わろうとしていた。"
+    },
+    {
+      "id": 17,
+      "ru": "Spbgu.ru жил своей жизнью.",
+      "en": "Spbgu.ru lived its own life.",
+      "zh": "Spbgu.ru过着自己的生活。",
+      "ja": "Spbgu.ruは独自の生活を送っていた。"
+    },
+    {
+      "id": 18,
+      "ru": "Поколение юзеров, не знавших архитектора лично, считали его едва не привидением.",
+      "en": "A generation of users who didn't know the architect personally considered him almost a ghost.",
+      "zh": "一代不认识建筑师本人的用户认为他几乎是个幽灵。",
+      "ja": "建築家を個人的に知らない世代のユーザーは、彼をほとんど幽霊のように考えていた。"
+    },
+    {
+      "id": 19,
+      "ru": "Иногда против власти тотема создавали коалиции, писали воззвания к народу против верховного модератора и т. д. – но Дуров или не обращал внимания, или отщелкивал оппозиционеров краткими репликами.",
+      "en": "Sometimes coalitions were formed against the totem's power, manifestos to the people were written against the supreme moderator, etc.—but Durov either paid no attention or flicked off the opposition with brief replies.",
+      "zh": "有时人们组成联盟反对图腾的权力，写出针对最高版主的人民宣言等——但杜罗夫要么不理会，要么用简短的回复把反对派打发走。",
+      "ja": "時にはトーテムの権力に対して連合が結成され、最高モデレーターに対する人民へのアピールが書かれたりした——しかしドゥーロフは注意を払わないか、短い返答で反対派をはじき飛ばした。"
+    },
+    {
+      "id": 20,
+      "ru": "Что действительно его волновало – как менять ресурс.",
+      "en": "What really concerned him was how to change the resource.",
+      "zh": "真正让他担心的是如何改变这个资源。",
+      "ja": "彼が本当に気にしていたのは、リソースをどう変えるかだった。"
+    },
+    {
+      "id": 21,
+      "ru": "Идея социальной сети, где люди выступают под настоящими именами, еще не материализовалась, и он сам о ней не думал, хотя интуитивно вводил все больше социальных опций.",
+      "en": "The idea of a social network where people appear under their real names had not yet materialized, and he himself wasn't thinking about it, although he was intuitively introducing more and more social options.",
+      "zh": "人们用真名出现的社交网络的想法尚未成形，他自己也没有想到这一点，尽管他直觉地引入了越来越多的社交选项。",
+      "ja": "人々が本名で登場するソーシャルネットワークのアイデアはまだ具体化しておらず、彼自身もそれについて考えていなかったが、直感的にますます多くのソーシャルオプションを導入していた。"
+    },
+    {
+      "id": 22,
+      "ru": "У каждого пользователя были: профиль с датой рождения, увлечениями; нечто вроде стены, где можно написать отзыв о ее хозяине; возможность написать заметку (особенно полюбил ее Равдоникас, печатавший стихи и рассказы), создать фотоальбом и открыть его, выбрав уровень публичности.",
+      "en": "Each user had: a profile with birthday, interests; something like a wall where you could write a review about its owner; the ability to write a note (Ravdonikas especially loved this, publishing poems and stories), create a photo album, and open it by choosing a publicity level.",
+      "zh": "每个用户都有：带有生日和兴趣爱好的个人资料；类似于墙的东西，可以写下对其主人的评价；写笔记的能力（拉夫多尼卡斯特别喜欢这个功能，发表诗歌和故事），创建相册，并通过选择公开级别来打开它。",
+      "ja": "各ユーザーには：誕生日や趣味のプロフィール、所有者についてのレビューを書けるウォールのようなもの、メモを書く機能（ラヴドニカスは特にこれを気に入り、詩や物語を投稿した）、フォトアルバムを作成し、公開レベルを選んで開く機能があった。"
+    },
+    {
+      "id": 23,
+      "ru": "Сотни юзеров поставили маркеры, отмечающие их дома на виртуальной карте Петербурга, которую тотему помог написать физик Кузнецов, он же Кузя.",
+      "en": "Hundreds of users placed markers noting their homes on a virtual map of Petersburg, which physicist Kuznetsov, aka Kuzya, helped the totem write.",
+      "zh": "数百名用户在圣彼得堡的虚拟地图上放置了标记，标注他们的住所，这张地图是物理学家库兹涅佐夫——又名库兹亚——帮助图腾编写的。",
+      "ja": "何百人ものユーザーが、物理学者クズネツォフ、別名クージャがトーテムと一緒に書いたペテルブルクの仮想地図に、自宅を示すマーカーを置いた。"
+    },
+    {
+      "id": 24,
+      "ru": "Дуров отметил на ней свой дом рядом с аэродромом, где теперь царствовали торговцы в нагромождениях стекла и бетона.",
+      "en": "Durov marked his house on it near the airfield, where now traders reigned in heaps of glass and concrete.",
+      "zh": "杜罗夫在上面标注了他靠近机场的家，那里现在商人们在玻璃和混凝土的堆积中称王称霸。",
+      "ja": "ドゥーロフは飛行場の近くの自宅をそこにマークした。今ではガラスとコンクリートの山の中で商人たちが君臨している場所だ。"
+    },
+    {
+      "id": 25,
+      "ru": "Майским утром он и Перекопский зашли в аудиторию, сели за парту и выложили ноутбуки – неуклюжие, похожие одновременно на станцию управления полетами и режиссерский пульт.",
+      "en": "One May morning he and Perekopsky entered the auditorium, sat at a desk, and laid out their laptops—clumsy, resembling both a flight control station and a director's console.",
+      "zh": "五月的一个早晨，他和佩列科普斯基走进教室，坐在课桌旁，放出他们的笔记本电脑——笨拙的，同时像飞行控制站和导演控制台。",
+      "ja": "5月のある朝、彼とペレコプスキーは講堂に入り、机に座り、ノートパソコンを並べた——不格好で、フライトコントロール・ステーションと監督のコンソールを同時に思わせるものだった。"
+    },
+    {
+      "id": 26,
+      "ru": "Группа ходила с толстыми справочниками и бумажными словарями, а у них стояла программа Lingvo.",
+      "en": "The group came with thick reference books and paper dictionaries, while they had the Lingvo program.",
+      "zh": "其他人带着厚厚的参考书和纸质词典，而他们有Lingvo软件。",
+      "ja": "グループは分厚い参考書と紙の辞書を持っていたが、彼らにはLingvoプログラムがあった。"
+    },
+    {
+      "id": 27,
+      "ru": "Правила разрешали иметь мини-компьютеры при себе, но пользоваться запрещалось.",
+      "en": "The rules allowed having mini-computers with you, but using them was forbidden.",
+      "zh": "规则允许携带迷你电脑，但禁止使用。",
+      "ja": "規則ではミニコンピュータの持参は許可されていたが、使用は禁止されていた。"
+    },
+    {
+      "id": 28,
+      "ru": "Начинался третий этап госэкзамена «Английский письменный».",
+      "en": "The third stage of the state exam \"Written English\" was beginning.",
+      "zh": ""英语写作"国家考试的第三阶段开始了。",
+      "ja": "国家試験「英語筆記」の第3段階が始まろうとしていた。"
+    },
+    {
+      "id": 29,
+      "ru": "Надзирала за их потоком недавно начавшая преподавать аспирантка.",
+      "en": "A graduate student who had recently started teaching was supervising their group.",
+      "zh": "一位刚开始教学的研究生在监督他们这组。",
+      "ja": "最近教え始めた大学院生が彼らのグループを監督していた。"
+    },
+    {
+      "id": 30,
+      "ru": "«Не очень симпатичная», – заметил Перекопский.",
+      "en": "\"Not very pretty,\" noted Perekopsky.",
+      "zh": ""不太漂亮，"佩列科普斯基评论道。",
+      "ja": "「あまり可愛くない」とペレコプスキーは言った。"
+    },
+    {
+      "id": 31,
+      "ru": "Аспирантка нервничала и принялась терроризировать консильери: «Уберите компьютер».",
+      "en": "The graduate student was nervous and began terrorizing the consiglieri: \"Put away the computer.\"",
+      "zh": "研究生很紧张，开始骚扰顾问们："把电脑收起来。"",
+      "ja": "大学院生は緊張していて、コンシリエーレたちを困らせ始めた：「コンピュータをしまってください」"
+    },
+    {
+      "id": 32,
+      "ru": "Отличники проигнорировали.",
+      "en": "The straight-A students ignored her.",
+      "zh": "优等生们无视了她。",
+      "ja": "優等生たちは無視した。"
+    },
+    {
+      "id": 33,
+      "ru": "Их ноуты были захлопнуты.",
+      "en": "Their laptops were closed.",
+      "zh": "他们的笔记本电脑是合上的。",
+      "ja": "彼らのノートパソコンは閉じられていた。"
+    },
+    {
+      "id": 34,
+      "ru": "«Вы слышите? Убирайте компьютеры».",
+      "en": "\"Do you hear? Put away the computers.\"",
+      "zh": ""你们听见了吗？把电脑收起来。"",
+      "ja": "「聞こえてますか？コンピュータをしまってください」"
+    },
+    {
+      "id": 35,
+      "ru": "«Они же выключены», – отозвался Дуров.",
+      "en": "\"They're turned off,\" replied Durov.",
+      "zh": ""它们是关着的，"杜罗夫回答。",
+      "ja": "「電源は切ってありますよ」とドゥーロフは答えた。"
+    },
+    {
+      "id": 36,
+      "ru": "И тогда надзирательница допустила ошибку…",
+      "en": "And then the supervisor made a mistake...",
+      "zh": "然后监考员犯了一个错误……",
+      "ja": "そして監督者は間違いを犯した..."
+    },
+    {
+      "id": 37,
+      "ru": "Тусовка вокруг группы «Мафия» считала приемлемым – как и в общеобразовательных классах – разговаривать на «вы», а «ты» включать лишь с совсем близкими друзьями.",
+      "en": "The crowd around the \"Mafia\" group considered it acceptable—as in the gymnasium classes—to speak using \"vy\" (formal you), and switch to \"ty\" (informal you) only with very close friends.",
+      "zh": "围绕"黑手党"群体的人认为——就像在普通班级一样——用"您"说话是可以接受的，只有和非常亲密的朋友才用"你"。",
+      "ja": "「マフィア」グループの周りの仲間は——ギムナジウムのクラスと同様に——「ヴィ」（敬称の「あなた」）で話すことを適切と考え、「ティ」（親しみのある「君」）は非常に親しい友人にのみ使った。"
+    },
+    {
+      "id": 38,
+      "ru": "Как говорил Равдоникас, высшая степень близости – когда, перейдя с «вы» на «ты», через какое-то время опять начинаешь употреблять «вы»; как бы высшая форма признательности, когда",
+      "en": "As Ravdonikas said, the highest degree of closeness is when, having switched from \"vy\" to \"ty,\" after some time you start using \"vy\" again; as if the highest form of gratitude, when",
+      "zh": "正如拉夫多尼卡斯所说，最高程度的亲密是当你从"您"转到"你"后，过了一段时间又开始用"您"；好像是最高形式的感激，当",
+      "ja": "ラヴドニカスが言うように、最高度の親密さとは、「ヴィ」から「ティ」に切り替えた後、しばらくしてまた「ヴィ」を使い始めること——最高形式の感謝のように、"
+    }
+  ],
+  "translator_notes": [
+    "Pod Vodoy (Под водой) - 'Under Water', Russian rock band",
+    "Lingvo - ABBYY Lingvo, popular Russian electronic dictionary software",
+    "State exam (госэкзамен) - final comprehensive exam for graduation in Russian universities",
+    "The orange ritual - Durov's quasi-Masonic ceremony of distributing orange segments by hierarchy",
+    "Kuzya/Kuznetsov - early collaborator who helped build the virtual map feature",
+    "Vy vs Ty - formal/informal 'you' distinction in Russian, important in the group's etiquette",
+    "The spbgu.ru features (profiles, walls, notes, photo albums) presaged VKontakte's core functionality"
+  ],
+  "total_sentences": 38,
+  "page_type": "narrative"
+}
