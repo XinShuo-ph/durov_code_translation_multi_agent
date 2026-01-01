@@ -1,0 +1,76 @@
+{
+  "page": 8,
+  "chapter": 0,
+  "section": "Prologue",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Они выползали из кабинетов с магнитными досками, где литерами были набраны таблички вроде: Сквот ИЕ. Кости в танке, Наркомпросвет, Злые пользователи, Музей Дурова и т. п.",
+      "en": "They crawled out of offices with magnetic boards where letter tiles spelled out signs like: IE Squat. Bones in the Tank, Narkomprosvet, Angry Users, Durov Museum, and so on.",
+      "zh": "他们从办公室里爬出来，那些办公室门上的磁性白板用字母拼出了这样的标牌：IE占领区·坦克中的骨头、教育人民委员部、愤怒的用户、杜罗夫博物馆等等。",
+      "ja": "彼らはマグネットボードのある部屋から這い出てきた。そのボードには「IEスクワット・戦車の中の骨」「ナルコムプロスヴェート」「怒れるユーザー」「ドゥーロフ博物館」などの看板が文字タイルで綴られていた。"
+    },
+    {
+      "id": 2,
+      "ru": "Большая часть пришедших носила футболки, схваченные ремнями выше пояса, а некоторые гордо застегнули рубашки на верхнюю пуговицу.",
+      "en": "Most of those who came wore t-shirts tucked in with belts above the waist, while some proudly buttoned their shirts all the way to the top.",
+      "zh": "大多数人穿着T恤，用腰带束在高腰处，有些人则骄傲地把衬衫扣到最上面的扣子。",
+      "ja": "やって来た者のほとんどはTシャツをベルトで腰より上に留めており、誇らしげにシャツの一番上のボタンまで留めている者もいた。"
+    },
+    {
+      "id": 3,
+      "ru": "Странные люди выглядели как кодла ботаников родом из эссе Пола Грэма Why Nerds Are Unpopular, которая сбежала с олимпиады по физике и учредила свое государство на необитаемом острове.",
+      "en": "The strange people looked like a pack of nerds straight out of Paul Graham's essay Why Nerds Are Unpopular, who had escaped from a physics olympiad and founded their own state on a desert island.",
+      "zh": "这些奇怪的人看起来像是从保罗·格雷厄姆的文章《为什么书呆子不受欢迎》里走出来的一群书呆子，他们从物理奥林匹克竞赛中逃出来，在一个荒岛上建立了自己的国家。",
+      "ja": "奇妙な人々は、ポール・グレアムのエッセイ『なぜナードは人気がないのか』から飛び出してきたようなオタク集団のようだった。彼らは物理オリンピックから逃げ出し、無人島で自分たちの国を建てたのだ。"
+    },
+    {
+      "id": 4,
+      "ru": "Собравшись в круг, нёрды вслушивались в детали переговоров. Кто-то наливал сок из автомата, выжимавшего апельсины. Кто-то, забыв, зачем пришел, обсуждал возможности языка C++.",
+      "en": "Gathered in a circle, the nerds listened intently to the details of the negotiations. Someone was pouring juice from a machine that squeezed oranges. Someone else, forgetting why they came, was discussing the capabilities of C++.",
+      "zh": "书呆子们围成一圈，仔细聆听谈判的细节。有人从榨橙汁的机器里倒果汁。有人忘了自己来干什么，讨论起C++的功能来。",
+      "ja": "ナードたちは輪になって、交渉の詳細に聞き入っていた。誰かがオレンジを絞る機械からジュースを注いでいた。誰かは何をしに来たか忘れて、C++の機能について議論していた。"
+    },
+    {
+      "id": 5,
+      "ru": "Классный момент был, -- пересказывал главный программист. -- Этот нам: Вы хотите десять, но мы не можем дать больше пяти. А Павел ему: Двадцать! Нёрды заулыбались.",
+      "en": "'There was a great moment,' the lead programmer recounted. 'He says to us: You want ten, but we can't give more than five. And Pavel goes: Twenty!' The nerds smiled.",
+      "zh": "'有一个精彩的时刻，'首席程序员转述道。'他对我们说：你们想要10%，但我们最多只能给5%。然后帕维尔说：20%！'书呆子们都笑了。",
+      "ja": "「すごい瞬間があったんだ」とリードプログラマーが語った。「相手が言うんだ『あなたたちは10%を望んでいるが、5%以上は出せない』と。するとパーヴェルが『20%だ！』とね」ナードたちは微笑んだ。"
+    },
+    {
+      "id": 6,
+      "ru": "Старожилы помнили, как предводитель менял себя и учился вежливо хамить.",
+      "en": "The old-timers remembered how the leader had transformed himself and learned to be politely rude.",
+      "zh": "老员工们还记得领袖如何改变自己，学会了礼貌地无礼。",
+      "ja": "古参たちは、リーダーがどのように自分を変え、礼儀正しく失礼になることを学んだかを覚えていた。"
+    },
+    {
+      "id": 7,
+      "ru": "Так торгашей и надо троллить, -- произнес кто-то. Мы занимаемся важными для будущего вещами, и зачем терять время на какие-то проценты.",
+      "en": "'That's how you should troll merchants,' someone said. 'We're doing things that matter for the future, so why waste time on some percentages.'",
+      "zh": "'就应该这样戏弄商人，'有人说。'我们在做关乎未来的重要事情，何必在什么百分比上浪费时间。'",
+      "ja": "「商人はそうやってからかうべきなんだ」と誰かが言った。「我々は未来にとって重要なことをやっているんだ、なぜパーセンテージごときに時間を無駄にする？」"
+    },
+    {
+      "id": 8,
+      "ru": "Прозрачная позиция отлично работает, -- добавил переговорщик. Да, конечно, -- кивнул лидер, -- когда ты не врешь, тобой нельзя манипулировать.",
+      "en": "'A transparent position works excellently,' the negotiator added. 'Yes, of course,' the leader nodded, 'when you don't lie, you can't be manipulated.'",
+      "zh": "'透明的立场效果很好，'谈判者补充道。'是的，当然，'领袖点头说，'当你不说谎时，别人就无法操纵你。'",
+      "ja": "「透明な姿勢はうまくいく」と交渉担当者が付け加えた。「そうだ、もちろん」とリーダーが頷いた。「嘘をつかなければ、操られることはない」"
+    }
+  ],
+  "translator_notes": [
+    "Page 8 describes the quirky VKontakte office culture",
+    "IE Squat (Сквот ИЕ) - likely reference to Internet Explorer testing/support team",
+    "Narkomprosvet (Наркомпросвет) - Soviet-era Education Ministry, ironic office name",
+    "Paul Graham reference - Y Combinator founder, essay on nerd culture",
+    "C++ discussion - showing programmers prioritize technical talk over business",
+    "Durov's philosophy: 'when you don't lie, you can't be manipulated' - key quote"
+  ],
+  "research_used": [
+    "Paul Graham - Y Combinator founder, wrote 'Why Nerds Are Unpopular'",
+    "Narkomprosvet - People's Commissariat for Education (Soviet era)",
+    "Physics Olympiad - competitive academic competitions popular in Russia"
+  ]
+}
