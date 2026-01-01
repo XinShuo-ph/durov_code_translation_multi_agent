@@ -1,641 +1,377 @@
-# Multi-Agent Communication Protocol
+# Collaborative Translation Protocol
 
 ## Overview
 
-This protocol enables 16 AI agents to work in parallel on the Durov Code translation project. Each agent operates on its own git branch and uses git commit/push/pull as the primary communication mechanism—analogous to MPI (Message Passing Interface) for distributed computing, but with git as the transport layer and time measured in seconds/minutes rather than nanoseconds.
+This protocol enables multiple AI agents to work **collaboratively** on translating the Durov Code book. Workers communicate via git, share progress, and dynamically distribute workload. The protocol is designed to be robust against worker disconnection and reconnection.
+
+**Key Philosophy**: Workers are a team, not isolated freelancers. They know who else is working, what pages are claimed, and can adapt when workers join or leave.
 
 ---
 
-## Core Principles
+## Core Concepts
 
-### 1. Git as Message Passing Interface
-- **Branch = Worker Identity**: Each worker's branch is their unique identifier
-- **Commit = State Broadcast**: Every commit broadcasts state to other workers
-- **Push = Send Message**: Pushing makes your state visible to others
-- **Pull = Receive Messages**: Pulling retrieves other workers' states
+### 1. Worker Identity
+- **Branch Name**: Your full branch (e.g., `cursor/some-task-abc123`)
+- **Short ID**: Last 4 characters of branch name (e.g., `c123`)
+- **Registration**: Creating `WORKER_STATE.md` on your branch registers you as active
 
-### 2. High-Frequency Communication
-Unlike traditional MPI where communication is near-instant, our "clock cycle" is 30-120 seconds (time for push/pull + agent thinking). Therefore:
-- **Commit early, commit often**: Don't batch large changes
-- **Push immediately after meaningful progress**
-- **Pull frequently to stay synchronized**
+### 2. Communication via Git
+| Action | Meaning |
+|--------|---------|
+| Commit + Push | Broadcast your state to the team |
+| Fetch + Read other branches | Receive team updates |
+| WORKER_STATE.md | Your live status file |
 
-### 3. Consensus Before Progress
-For setup tasks (M0/M1), all 16 workers must agree before proceeding. For translation (M2), workers claim pages atomically.
+### 3. Heartbeat System
+- Workers must include a **Unix timestamp** in every commit
+- Heartbeat in WORKER_STATE.md must be updated at least every **5 minutes**
+- Workers with stale heartbeats (>10 minutes) are considered **offline**
 
 ---
 
-## Branch Naming and Worker Discovery
+## The Sync Loop
 
-### Branch Names Are Dynamic
-Branches are created by Cursor with random names like:
+Every worker follows this loop continuously:
+
 ```
-cursor/multi-agent-parallel-translation-cca9
-cursor/durov-book-translation-plan-7379
-cursor/some-other-random-name-xxxx
+┌─────────────────────────────────────────────────────────────┐
+│  1. SYNC: Fetch all branches, discover active workers       │
+│  2. BUILD PICTURE: Who's online? What pages are claimed?    │
+│  3. CLAIM: If I need a page, claim the lowest available     │
+│  4. TRANSLATE: Work on my claimed page                      │
+│  5. BROADCAST: Commit & push my progress                    │
+│  6. REPEAT every 2-3 minutes                                │
+└─────────────────────────────────────────────────────────────┘
 ```
 
-**There is NO fixed naming convention.** Workers must discover each other dynamically.
+**Sync frequency**: Every 2-3 minutes (or after completing each page)
 
-### Worker Identity
-Each worker identifies itself by:
-1. **Branch Name**: The full branch name (e.g., `cursor/multi-agent-parallel-translation-cca9`)
-2. **Short ID**: Last 4 characters of branch name (e.g., `cca9`) - used in commit messages
+---
 
-### Worker Discovery Protocol
+## Worker Discovery
 
-**Step 1: Identify Your Own Branch**
+### Identifying Yourself
 ```bash
 MY_BRANCH=$(git branch --show-current)
 MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
-echo "I am: $MY_BRANCH (short: $MY_SHORT_ID)"
+echo "I am: $MY_SHORT_ID on $MY_BRANCH"
 ```
 
-**Step 2: Discover All Worker Branches**
+### Discovering All Active Workers
 ```bash
-# Fetch all remote branches
-git fetch origin --all
+git fetch origin --prune
 
-# List all cursor/* branches (these are potential workers)
-git branch -r | grep 'origin/cursor/' | sed 's|origin/||'
-```
-
-**Step 3: Check Which Branches Have WORKER_STATE.md**
-Only branches with `WORKER_STATE.md` are active workers:
-```bash
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||'); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null; then
-    echo "Active worker: $branch"
-  fi
-done
-```
-
-### Worker Registration
-When a worker starts, it MUST:
-1. Create `WORKER_STATE.md` on its branch
-2. Commit and push immediately
-3. This registers the worker as "active"
-
-Workers without `WORKER_STATE.md` are not considered part of the parallel execution.
-
----
-
-## Worker State File: `WORKER_STATE.md`
-
-Each worker maintains a `WORKER_STATE.md` file in their branch root. This is the primary state broadcast mechanism AND the registration signal.
-
-**A branch with `WORKER_STATE.md` = An active worker**
-
-### Format
-
-```markdown
-# Worker State: [SHORT_ID]
-
-## Identity
-- **Branch**: [full branch name, e.g., cursor/multi-agent-parallel-translation-cca9]
-- **Short ID**: [last 4 chars, e.g., cca9]
-- **Last Updated**: [ISO 8601 timestamp]
-- **Heartbeat**: [Unix timestamp in seconds]
-
-## Current Milestone
-- **Milestone**: M0 | M1 | M2 | M3
-- **Status**: working | waiting_consensus | blocked | completed
-
-## M0/M1 Task Status
-| Task ID | Description | Status | Result Hash |
-|---------|-------------|--------|-------------|
-| M0.1 | Install dependencies | done/pending/working | [sha256 first 8 chars] |
-| M0.2 | Extract PDF text | done/pending/working | [sha256 first 8 chars] |
-| ... | ... | ... | ... |
-
-## M2 Page Claims
-| Page | Status | Started | Completed |
-|------|--------|---------|-----------|
-| 13 | translating | 2024-01-15T10:30:00Z | - |
-| 14 | done | 2024-01-15T10:00:00Z | 2024-01-15T10:25:00Z |
-
-## Consensus Votes
-| Topic | My Vote | Timestamp |
-|-------|---------|-----------|
-| format_approach | latex_xecjk | 2024-01-15T09:00:00Z |
-| color_scheme | ru_black_en_blue | 2024-01-15T09:05:00Z |
-
-## Known Workers
-[List of discovered worker branches and their last seen status]
-
-## Messages to Other Workers
-[Free-form messages, warnings, or coordination notes]
-
-## Blockers
-[Any issues preventing progress]
-```
-
----
-
-## Commit Message Protocol
-
-All commits must follow this format for machine parsing:
-
-### State Broadcast Commits
-
-```
-[SHORT_ID] [MILESTONE] [ACTION]: [description]
-
-STATE: [milestone].[task] = [status]
-PAGES: [claimed pages, comma-separated]
-HEARTBEAT: [unix timestamp]
-```
-
-Where `SHORT_ID` is the last 4 characters of your branch name.
-
-### Examples
-
-```
-[cca9] M0 COMPLETE: Dependency installation verified
-STATE: M0.1 = done
-HEARTBEAT: 1705312800
-
-[7379] M2 CLAIM: Starting pages 25-27
-STATE: M2.translating
-PAGES: 25,26,27
-HEARTBEAT: 1705315000
-
-[a2b3] M2 DONE: Completed page 42 translation
-STATE: M2.page_done
-PAGES: 42
-HEARTBEAT: 1705318000
-```
-
-### Consensus Commits
-
-```
-[SHORT_ID] VOTE: [topic] = [choice]
-CONSENSUS: [topic] = [choice]
-HEARTBEAT: [unix timestamp]
-```
-
-### Sync Commits
-
-```
-[SHORT_ID] SYNC: Pulled states from all workers
-OBSERVED: [list of short IDs seen]
-HEARTBEAT: [unix timestamp]
-```
-
----
-
-## Communication Frequency Requirements
-
-### Pull Frequency
-| Phase | Minimum Pull Interval | Recommended |
-|-------|----------------------|-------------|
-| M0/M1 (Consensus) | Every 60 seconds | Every 30 seconds |
-| M2 (Translation) | Every 120 seconds | Every 60 seconds |
-| M3 (Assembly) | Every 60 seconds | Every 30 seconds |
-
-### Push Frequency
-| Event | Push Timing |
-|-------|-------------|
-| Task started | Immediately |
-| Task completed | Immediately |
-| Page claimed | Immediately |
-| Page completed | Immediately |
-| Error/blocker | Immediately |
-| Heartbeat (if idle) | Every 5 minutes |
-
----
-
-## Synchronization Protocol
-
-### Step 1: Fetch All Remote Branches
-
-```bash
-# Fetch all remote branches
-git fetch origin --all --prune
-```
-
-### Step 2: Discover Active Workers
-
-```bash
-# Find all cursor/* branches that have WORKER_STATE.md
-ACTIVE_WORKERS=()
+# Find all cursor/* branches with WORKER_STATE.md
 for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null; then
-    ACTIVE_WORKERS+=("$branch")
-    echo "Found active worker: $branch"
+  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
+    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
+    heartbeat=$(git show "origin/${branch}:WORKER_STATE.md" 2>/dev/null | grep -oP 'Heartbeat: \K[0-9]+' | head -1)
+    echo "Active: $short_id ($branch) - Heartbeat: $heartbeat"
   fi
 done
-echo "Total active workers: ${#ACTIVE_WORKERS[@]}"
 ```
 
-### Step 3: Read Other Workers' States
+### Counting Online Workers
+A worker is **online** if:
+1. They have `WORKER_STATE.md` on their branch
+2. Their heartbeat is less than 10 minutes old
 
-```bash
-# For each active worker branch, read their WORKER_STATE.md
-for branch in "${ACTIVE_WORKERS[@]}"; do
-  echo "=== $branch ==="
-  git show "origin/${branch}:WORKER_STATE.md" 2>/dev/null | head -30
-done
-```
-
-### Step 4: Aggregate Global State
-
-Parse all WORKER_STATE.md files to build a global view:
-- Which pages are claimed/done (across all workers)
-- Which tasks are complete
-- Who is blocked
-- Consensus vote tallies
-- Total number of active workers
-
-### Step 5: Update Local Decisions
-
-Based on global state, decide:
-- Which page to work on next (M2)
-- Whether consensus is reached (M0/M1) - need >50% of active workers
-- Who needs help
-- Whether to wait for more workers to come online
+Workers with heartbeats older than 10 minutes are considered **offline** (may have lost connection).
 
 ---
 
-## Milestone 0 & 1: Consensus Protocol
+## Page Assignment
 
-### Task Assignment Strategy
-
-During M0/M1, tasks can be done redundantly. Multiple workers may complete the same task independently.
-
-### Consensus Mechanism
-
-For decisions requiring agreement (e.g., LaTeX vs Python, color scheme):
-
-1. **Propose**: Worker commits their solution with result hash
-2. **Vote**: Other workers review and vote (agree/disagree)
-3. **Quorum**: Need >50% of **active workers** votes for the same solution
-4. **Adopt**: Once quorum reached, all workers adopt that solution
-
-**Important**: Quorum is based on active workers (those with WORKER_STATE.md), not a fixed 16. If only 10 workers are online, need 6 votes.
-
-### Verification Before M2
-
-Before any worker enters M2, they must:
-
-1. **Discover all active worker branches**
-2. **Collect their M0/M1 outputs**
-3. **Run cross-verification tests**:
-   - Execute other workers' test scripts with your outputs
-   - Execute your test scripts with other workers' outputs
-4. **All outputs must match** (hash comparison)
-5. **Commit verification results**:
-   ```
-   [SHORT_ID] VERIFY: M0/M1 cross-check passed
-   VERIFIED_WITH: [list of short IDs]
-   RESULT_HASH: [common hash]
-   READY_FOR_M2: true
-   ```
-6. **Wait for all active workers to report READY_FOR_M2: true**
-
----
-
-## Milestone 2: Parallel Translation Protocol
-
-### Page Assignment Algorithm
-
-**Initial Assignment**: No fixed assignment. Each worker claims the lowest available page.
-
-**Page Claiming Algorithm**:
+### Simple Rule: Claim the Lowest Available Page
 
 ```python
-def claim_next_page(my_short_id, all_worker_states):
-    """
-    1. Scan all active workers' WORKER_STATE.md
-    2. Collect all claimed and completed pages
-    3. Claim the lowest available page
-    """
+# Pseudocode for page claiming
+def get_next_page():
     all_pages = set(range(1, 100))  # Pages 1-99
     
-    claimed = set()
-    completed = set()
+    # Read all active workers' states
+    claimed = set()      # Pages currently being translated
+    completed = set()    # Pages already done (translation exists)
     
-    for worker_state in all_worker_states:
-        claimed.update(worker_state.get_claimed_pages())
-        completed.update(worker_state.get_completed_pages())
+    for worker in active_workers:
+        claimed.update(worker.claimed_pages)
+        completed.update(worker.completed_pages)
+    
+    # Also check translations/ directory for completed work
+    for file in translations/*.json:
+        completed.add(file.page_number)
     
     available = sorted(all_pages - claimed - completed)
-    
-    if available:
-        return available[0]  # Lowest available
-    return None  # All done!
+    return available[0] if available else None
 ```
 
-**Conflict Resolution**:
-- If two workers claim the same page (race condition), the one with earlier commit timestamp wins
-- Tie-breaker: Lexicographically earlier branch name wins
-- Losing worker re-pulls and claims next available page
+### Claim Protocol
 
-### Page Claim Protocol
+1. **Sync first**: Always fetch and read other workers' states before claiming
+2. **Claim one page**: Update WORKER_STATE.md with your claimed page
+3. **Push immediately**: Make your claim visible to others
+4. **Verify**: Re-fetch to check for conflicts (rare but possible)
 
-1. **Pull** latest states from all active workers
-2. **Identify** next available page (lowest unclaimed/uncompleted)
-3. **Commit claim** immediately:
-   ```
-   [SHORT_ID] M2 CLAIM: Starting page YY
-   PAGES: YY
-   HEARTBEAT: [timestamp]
-   ```
-4. **Push** immediately
-5. **Start translating** only after push succeeds
+### Conflict Resolution
+If two workers claim the same page (race condition):
+- **Earlier timestamp wins** (commit timestamp)
+- Losing worker should re-sync and claim next available page
+- This is rare with proper sync discipline
 
-### Page Completion Protocol
+---
 
-1. **Complete translation** (all 4 languages)
-2. **Save translation files** (JSON + PDF)
-3. **Commit completion**:
-   ```
-   [SHORT_ID] M2 DONE: Completed page YY
-   PAGES: YY
-   OUTPUT_HASH: [sha256 of translation JSON]
-   ```
-4. **Push** immediately
-5. **Pull** to check for new page claims
-6. **Claim next page** (goto claim protocol)
+## WORKER_STATE.md Format
 
-### Progress Broadcast Format
-
-After each page completion, update WORKER_STATE.md with:
+Each worker maintains this file on their branch:
 
 ```markdown
-## M2 Progress
-| Page | Status | Translation Hash | PDF Generated |
-|------|--------|------------------|---------------|
-| 5 | done | a8f3b2c1 | yes |
-| 21 | done | c9d4e5f6 | yes |
-| 37 | translating | - | no |
+# Worker: [SHORT_ID]
+
+## Status
+- **Branch**: [full branch name]
+- **Short ID**: [4 chars]
+- **Heartbeat**: [Unix timestamp]
+- **Status**: online | translating | idle
+
+## Current Work
+- **Claimed Page**: [page number or "none"]
+- **Started At**: [timestamp when started this page]
+
+## Completed Pages
+| Page | Completed At | Hash |
+|------|--------------|------|
+| 13   | 1735689600   | a8f3b2c1 |
+| 14   | 1735690200   | c9d4e5f6 |
+
+## Known Workers (Last Sync)
+| Short ID | Status | Claimed Page | Last Heartbeat |
+|----------|--------|--------------|----------------|
+| abc1     | online | 15           | 1735689900     |
+| def2     | online | 16           | 1735689850     |
+| ghi3     | offline| 17           | 1735685000     |
+
+## Notes
+[Any messages for the team]
 ```
 
 ---
 
-## Deadlock Prevention
+## Handling Worker Disconnection
 
-### Timeout Rules
-
-| Situation | Timeout | Action |
-|-----------|---------|--------|
-| Worker claims page but no progress commit | 30 minutes | Page becomes available again |
-| Worker hasn't pushed in | 15 minutes | Consider worker stalled |
-| Waiting for consensus | 20 minutes | Proceed with majority vote |
-| Waiting for verification | 30 minutes | Re-run verification |
-
-### Heartbeat Protocol
-
-Workers must update their `HEARTBEAT` field in WORKER_STATE.md:
-- At least every 5 minutes while active
-- On every commit
-
-If a worker's heartbeat is >15 minutes old, other workers may:
-- Reclaim their pages
-- Proceed without their vote
-- Flag them as potentially stalled
-
-### Stall Recovery
-
-If a worker detects they're stalled (can't push, can't pull):
-1. Log the error in WORKER_STATE.md
-2. Attempt recovery (retry 3x with exponential backoff)
-3. If still blocked, commit blocker status
-4. Other workers will work around them
-
----
-
-## Conflict Resolution Hierarchy
-
-1. **Timestamp Priority**: Earlier commit timestamp wins
-2. **Branch Name Priority**: Lexicographically earlier branch name wins (tiebreaker)
-3. **Hash Comparison**: If outputs differ, workers vote on best version
-4. **Majority Rule**: >50% of active workers agreement adopts solution
-
----
-
-## Agent Startup Sequence
-
-When an agent starts (or resumes):
-
-```
-1. IDENTIFY YOURSELF
-   MY_BRANCH=$(git branch --show-current)
-   MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
-   # Example: cursor/multi-agent-parallel-translation-cca9 → cca9
-
-2. CREATE/UPDATE WORKER_STATE.md
-   - If first time: Create from template, fill in your branch info
-   - If resuming: Update with current timestamp
-   - This file is your registration signal!
-
-3. SYNC - DISCOVER OTHER WORKERS
-   git fetch origin --all --prune
-   # Find all cursor/* branches with WORKER_STATE.md
-   # Read each worker's state
-   # Build global picture: who's online, what's claimed, what's done
-
-4. BROADCAST YOUR PRESENCE
-   git add WORKER_STATE.md
-   git commit -m "[SHORT_ID] SYNC: Starting session
-   HEARTBEAT: $(date +%s)"
-   git push origin HEAD
-
-5. ORIENT
-   - What milestone are we in globally?
-   - How many active workers?
-   - What's my current task?
-   - What tasks/pages are available?
-
-6. EXECUTE
-   - Perform next task based on global state
-   - Commit/push after each significant action
-
-7. REPEAT (goto step 3 every 60-120 seconds)
-```
-
----
-
-## Communication Message Types
-
-All messages use `[SHORT_ID]` prefix (last 4 chars of your branch name).
-
-### INFO (Informational)
-```
-[SHORT_ID] INFO: [message]
-```
-For status updates, progress notes, observations.
-
-### CLAIM (Resource Claim)
-```
-[SHORT_ID] CLAIM: [resource type] = [resource id]
-```
-For claiming pages or tasks.
-
-### DONE (Completion)
-```
-[SHORT_ID] DONE: [task/page description]
-HASH: [output hash for verification]
-```
-
-### VOTE (Consensus)
-```
-[SHORT_ID] VOTE: [topic] = [choice]
-```
-
-### VERIFY (Verification)
-```
-[SHORT_ID] VERIFY: [what was verified]
-RESULT: pass | fail
-DETAILS: [specifics]
-```
-
-### ALERT (Important Notice)
-```
-[SHORT_ID] ALERT: [urgent message]
-```
-For blockers, errors, or coordination issues.
-
-### REQUEST (Asking for Help)
-```
-[SHORT_ID] REQUEST: [what help is needed]
-FROM: [specific short IDs or "ALL"]
-```
-
----
-
-## File Outputs and Hashing
-
-### Hash Calculation
-
-For verification, calculate SHA256 of output files:
-
+### Detecting Offline Workers
+When you sync, check each worker's heartbeat:
 ```bash
-# For translation JSON
-sha256sum translations/raw/page_XXX.json | cut -c1-8
+current_time=$(date +%s)
+worker_heartbeat=1735685000  # From their WORKER_STATE.md
 
-# For compiled PDF
-sha256sum output/page_XXX_translated.pdf | cut -c1-8
+age=$((current_time - worker_heartbeat))
+if [ $age -gt 600 ]; then  # 600 seconds = 10 minutes
+    echo "Worker is OFFLINE (stale heartbeat)"
+fi
 ```
 
-### Shared Output Location
+### Reclaiming Pages from Offline Workers
+If a worker has been offline for **15+ minutes** and has a claimed page:
+1. Their page becomes available for reclaiming
+2. Any online worker can claim it
+3. Note in your WORKER_STATE.md: "Reclaimed page X from [offline_worker]"
 
-Final, agreed-upon outputs should be placed in standard locations so all workers can verify:
+### What the Returning Worker Should Do
+When a worker comes back online after being disconnected:
+1. **Sync first**: Fetch all branches, read all states
+2. **Check your old page**: Is it still yours or was it reclaimed?
+3. **If reclaimed**: Claim the next available page, continue working
+4. **If still yours**: Continue where you left off
+5. **Update heartbeat**: Push immediately to show you're back
 
+---
+
+## Handling Worker Reconnection
+
+### New Worker Joining
+When a new worker starts:
+1. Create WORKER_STATE.md (registers you as active)
+2. Sync to discover existing workers
+3. Build global picture (who has what)
+4. Claim lowest available page
+5. Start translating
+
+### Existing Workers Noticing New Worker
+During regular sync, workers will naturally discover new workers:
+1. Fetch shows new branch with WORKER_STATE.md
+2. Add to "Known Workers" table
+3. No special action needed - workload auto-balances
+
+### Workload Rebalancing
+Workload naturally rebalances as workers join/leave:
+- New workers take the lowest available pages
+- When a worker finishes a page, they take the next lowest available
+- No explicit "rebalancing" needed - it's emergent
+
+---
+
+## Commit Message Format
+
+Use this format for machine-readable commits:
+
+```
+[SHORT_ID] ACTION: Description
+HEARTBEAT: [unix timestamp]
+```
+
+### Action Types
+
+| Action | When to Use |
+|--------|-------------|
+| `SYNC` | Starting session, syncing with team |
+| `CLAIM` | Claiming a page to translate |
+| `PROGRESS` | Partial progress on a page |
+| `DONE` | Completed a page translation |
+| `RECLAIM` | Taking over an abandoned page |
+
+### Examples
+```bash
+# Starting session
+git commit -m "[c123] SYNC: Starting session, discovering workers
+HEARTBEAT: $(date +%s)"
+
+# Claiming a page
+git commit -m "[c123] CLAIM: Starting page 15
+HEARTBEAT: $(date +%s)"
+
+# Completing a page
+git commit -m "[c123] DONE: Completed page 15
+HASH: a8f3b2c1
+HEARTBEAT: $(date +%s)"
+```
+
+---
+
+## Work Product Sharing
+
+### Translation Files
+Completed translations go in `translations/page_XXX.json`:
 ```
 translations/
-  raw/           # First-pass (any worker can write)
-  verified/      # After cross-verification (consensus)
-  final/         # After 3x review (consensus)
+├── page_001.json
+├── page_002.json
+└── ...
 ```
 
----
+### Syncing Work Products
+When you complete a page:
+1. Save `translations/page_XXX.json`
+2. Commit with DONE message
+3. Push to your branch
 
-## Quick Reference: Command Sequences
-
-### Get Your Short ID
+Other workers can see your completed pages by:
 ```bash
-MY_BRANCH=$(git branch --show-current)
-MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
-echo "My Short ID: $MY_SHORT_ID"
+# Check what translations exist on another worker's branch
+git show "origin/$other_branch:translations/page_015.json" 2>/dev/null
 ```
 
-### Discover Active Workers
+### Aggregating All Work
+At the end, all translations can be collected from all worker branches:
 ```bash
-git fetch origin --all --prune
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null; then
-    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    echo "Active: $branch ($short_id)"
-  fi
+for branch in $(git branch -r | grep 'origin/cursor/'); do
+  for page in $(seq 1 99); do
+    file="translations/page_$(printf '%03d' $page).json"
+    if git show "origin/${branch}:$file" &>/dev/null 2>&1; then
+      echo "Found page $page on $branch"
+    fi
+  done
 done
 ```
 
-### Read All Worker States
+---
+
+## Quick Reference Commands
+
+### Startup Sequence
 ```bash
-git fetch origin --all --prune
+# 1. Identify yourself
+MY_BRANCH=$(git branch --show-current)
+MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
+
+# 2. Create WORKER_STATE.md (copy from template, fill in your info)
+cp WORKER_STATE_TEMPLATE.md WORKER_STATE.md
+# Edit WORKER_STATE.md with your details
+
+# 3. Sync and discover
+git fetch origin --prune
+# Read other workers' states...
+
+# 4. Register yourself
+git add WORKER_STATE.md
+git commit -m "[$MY_SHORT_ID] SYNC: Registering as active worker
+HEARTBEAT: $(date +%s)"
+git push origin HEAD
+```
+
+### Regular Sync (Every 2-3 Minutes)
+```bash
+# Fetch all branches
+git fetch origin --prune
+
+# Read each active worker's state
 for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null; then
-    echo "=== $branch ==="
-    git show "origin/${branch}:WORKER_STATE.md" 2>/dev/null | head -25
-  fi
+  git show "origin/${branch}:WORKER_STATE.md" 2>/dev/null | head -30
 done
 ```
 
 ### Claim a Page
 ```bash
-# Update WORKER_STATE.md with claim
+# Update WORKER_STATE.md with your claim
 # Then:
-MY_SHORT_ID=$(git branch --show-current | grep -oE '[^-]+$' | tail -c 5)
 git add WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] M2 CLAIM: Starting page YY
-PAGES: YY
+git commit -m "[$MY_SHORT_ID] CLAIM: Starting page 15
 HEARTBEAT: $(date +%s)"
 git push origin HEAD
 ```
 
 ### Complete a Page
 ```bash
-MY_SHORT_ID=$(git branch --show-current | grep -oE '[^-]+$' | tail -c 5)
-git add translations/raw/page_YY.json output/page_YY_translated.pdf WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] M2 DONE: Completed page YY
-PAGES: YY
-OUTPUT_HASH: $(sha256sum translations/raw/page_YY.json | cut -c1-8)
+git add translations/page_015.json WORKER_STATE.md
+git commit -m "[$MY_SHORT_ID] DONE: Completed page 15
+HASH: $(sha256sum translations/page_015.json | cut -c1-8)
 HEARTBEAT: $(date +%s)"
 git push origin HEAD
 ```
 
-### Check Global Progress
-```bash
-# See which pages are done across all workers
-git fetch origin --all --prune
-git log --remotes --oneline --grep="M2 DONE" | sort
-```
+---
+
+## Timeouts and Thresholds
+
+| Situation | Threshold | Action |
+|-----------|-----------|--------|
+| Sync frequency | 2-3 min | Fetch and read other workers |
+| Heartbeat update | 5 min max | Push a commit to stay "online" |
+| Worker considered offline | 10 min | Not included in workload calc |
+| Page can be reclaimed | 15 min | Other workers can take it |
+| Push after claiming | Immediate | Don't start without pushing |
 
 ---
 
-## Emergency Protocols
+## Anti-Patterns to Avoid
 
-### If You Can't Push (Branch Conflict)
-1. Pull with rebase: `git pull --rebase origin HEAD`
-2. Resolve any conflicts
-3. Push again
-4. If still failing, commit blocker status and wait
-
-### If You See Stale Data
-1. Force fresh fetch: `git fetch origin --prune`
-2. Check network connectivity
-3. If persistent, broadcast ALERT message
-
-### If Consensus Can't Be Reached
-1. Wait additional 10 minutes for votes
-2. If still stuck, worker with lowest ID makes final decision
-3. All workers must adopt that decision
+| Don't Do This | Do This Instead |
+|---------------|-----------------|
+| Claim multiple pages at once | Claim one page, finish it, claim next |
+| Skip syncing before claiming | Always sync first |
+| Forget to push claims | Push immediately after claiming |
+| Let heartbeat go stale | Commit at least every 5 min |
+| Ignore offline workers | Reclaim their pages after 15 min |
+| Work in isolation | Sync regularly, share progress |
 
 ---
 
-## Success Metrics
+## Protocol Summary
 
-The protocol is working correctly when:
-- All active workers can discover and see each other's states
-- No two workers translate the same page
-- Consensus is reached for M0/M1 decisions (>50% of active workers)
-- All workers complete M2 within expected time
-- Final outputs are identical across all branches
+1. **Everyone knows everyone**: Regular syncs keep global awareness
+2. **Simple page assignment**: Lowest available page number
+3. **Heartbeats keep us honest**: Stale = offline
+4. **Graceful disconnection**: Pages get reclaimed, no work lost
+5. **Easy reconnection**: Sync, check status, claim new page
+6. **Work products shared**: Translations visible on each branch
 
----
-
-## Summary: Key Differences from Fixed Naming
-
-| Aspect | Old (Fixed) | New (Dynamic) |
-|--------|-------------|---------------|
-| Branch names | `worker/01/durov-translation` | `cursor/random-name-xxxx` |
-| Worker ID | Fixed 01-16 | Short ID (last 4 chars of branch) |
-| Discovery | Iterate 1-16 | Scan all `cursor/*` branches |
-| Registration | Implicit | WORKER_STATE.md presence |
-| Quorum | 9/16 fixed | >50% of active workers |
-| Conflict tiebreaker | Lower worker ID | Earlier branch name (lexical) |
-
----
-
-*This protocol should be followed by all workers. Do not deviate without coordinating via ALERT messages.*
+This protocol ensures the team works together efficiently while being robust against the realities of distributed systems (workers come and go, connections drop, etc.).

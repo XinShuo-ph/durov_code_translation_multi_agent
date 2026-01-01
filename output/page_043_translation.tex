@@ -1,0 +1,72 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{xltxtra}
+\usepackage{xeCJK}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{parskip}
+
+\geometry{left=2cm,right=2cm,top=2cm,bottom=2cm}
+
+% Fonts
+\setmainfont{Noto Serif}
+\setCJKmainfont{Noto Serif CJK SC}
+\newCJKfontfamily\zhfont{Noto Serif CJK SC}
+\newCJKfontfamily\jafont{Noto Serif CJK JP}
+
+% Colors
+\definecolor{rucolor}{RGB}{0,0,0}      % Black
+\definecolor{encolor}{RGB}{0,0,139}    % DarkBlue
+\definecolor{zhcolor}{RGB}{139,0,0}    % DarkRed
+\definecolor{jacolor}{RGB}{0,100,0}    % DarkGreen
+
+% Translation Macro
+\newcommand{\parallelsentence}[4]{
+    \noindent
+    \textbf{\textcolor{rucolor}{RU:}} #1 \\
+    \textbf{\textcolor{encolor}{EN:}} #2 \\
+    \textbf{\textcolor{zhcolor}{ZH:}} {\zhfont #3} \\
+    \textbf{\textcolor{jacolor}{JA:}} {\jafont #4}
+    \vspace{0.5cm}
+}
+
+\begin{document}
+
+\section*{Page 43 Translation}
+\parallelsentence
+{Facebook подсказал не как надо делать, а как не надо, -- объяснял Дуров. -- Одноклассники -- тоже. Важно было понять, от чего избавиться.}
+{Facebook showed us not how to do things, but how not to, Durov explained. Odnoklassniki too. The key was understanding what to eliminate.}
+{Facebook告诉我们的不是该怎么做，而是不该怎么做，杜罗夫解释道。Odnoklassniki（同学网）也一样。关键是弄清楚该放弃什么。}
+{Facebookは、どうすべきかではなく、どうすべきでないかを教えてくれた、とドゥーロフは説明した。Odnoklassnikiも同様だ。何を排除すべきかを理解することが重要だった。}
+
+\parallelsentence
+{Я понял, что главное -- стартовая страница пользователя. Человек хочет видеть свой профиль, а не ленту происходящего у друзей и предложение разных возможностей, как у Facebook.}
+{I realized that the key was the user's landing page. People want to see their own profile, not a feed of what's happening with friends and suggestions of various features like on Facebook.}
+{我意识到关键在于用户的首页。人们想看到的是自己的个人资料页面，而不是像Facebook那样显示朋友动态和各种功能推荐。}
+{ユーザーのランディングページが鍵だと気づいた。人々は友達の動向フィードやFacebookのような機能提案ではなく、自分のプロフィールを見たいのだ。}
+
+\parallelsentence
+{Надо выводить личную страницу как стартовую, чтобы человек загружал больше личных данных, чтобы лепил идеального себя.}
+{You need to make the personal page the landing page so that users upload more personal data, so they craft their ideal selves.}
+{要把个人页面设为首页，这样用户就会上传更多个人数据，塑造理想中的自己。}
+{個人ページをランディングページにして、ユーザーがより多くの個人データをアップロードし、理想の自分を作り上げられるようにする必要がある。}
+
+\parallelsentence
+{Догадка Дурова не была оригинальной -- с момента возникновения социальных сервисов стало очевидно, что у человека возникают отношения со своей страницей, профилем.}
+{Durov's insight was not entirely original -- since the emergence of social services, it had become obvious that people develop relationships with their pages, their profiles.}
+{杜罗夫的想法并非完全原创——自从社交服务出现以来，人们与自己的页面、个人资料之间产生情感联系这一点已经很明显了。}
+{ドゥーロフの洞察は完全にオリジナルではなかった——ソーシャルサービスの登場以来、人々が自分のページやプロフィールと関係を築くことは明らかになっていた。}
+
+\parallelsentence
+{Люди не только загружают новые фотографии, но и периодически редактируют данные, любимые цитаты, предпочтения, создают свой образ.}
+{People do not just upload new photos -- they periodically edit their data, favorite quotes, preferences, creating their own image.}
+{人们不仅上传新照片，还会定期编辑自己的资料、喜欢的名言、偏好设置，塑造自己的形象。}
+{人々は新しい写真をアップロードするだけでなく、定期的にデータ、好きな引用、好みを編集し、自分のイメージを作り上げる。}
+
+\parallelsentence
+{Но ставить как стартовую страницу сам профиль и стену -- это как раз чисто русская находка.}
+{But making the profile and wall the landing page -- that was a purely Russian innovation.}
+{但把个人资料页和动态墙作为首页——这正是纯粹的俄罗斯式创新。}
+{しかし、プロフィールとウォールをランディングページにすること——それは純粋にロシア的な革新だった。}
+
+\end{document}
