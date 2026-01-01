@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-d536
 - **Short ID**: d536
-- **Heartbeat**: 1767253504
+- **Heartbeat**: 1767253672
 - **Status**: translating
 
 ## Current Work
-- **Claimed Page**: 15
-- **Started At**: 1767253504
+- **Claimed Page**: 17
+- **Started At**: 1767253672
 
 ## Completed Pages
 | Page | Completed At | Hash |
@@ -27,10 +27,13 @@
 | 12   | 1767253142 | 450053a2 |
 | 13   | 1767253317 | 37bcc2a9 |
 | 14   | 1767253504 | 4ee29a3f |
+| 15   | 1767253672 | edb53c95 |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
 |----------|--------|--------------|----------------|
+| 5aa9     | online | ~25          | recent         |
+| f4a6     | online | ~25          | recent         |
 
 ## Notes
-Completed pages 1-14. Chapter 1 continues. Total: 14 pages translated.
+Completed pages 1-15. Skipping to page 17 as page 16 may be taken.
