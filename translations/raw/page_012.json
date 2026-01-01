@@ -1,0 +1,70 @@
+{
+  "page": 12,
+  "chapter": 0,
+  "section": "Prologue",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Когда я искал ответ на вопрос, что движет пользователем Twitter под ником Porn King и его командой, которые затащили в «новую нервную систему» более 100 млн человек, то не предполагал, что история стартапа превратится в триллер о сражении за свободу в двоичном коде, цифровой среде.",
+      "en": "When I was looking for an answer to what drives the Twitter user nicknamed Porn King and his team, who dragged over 100 million people into the 'new nervous system,' I didn't expect that the story of a startup would turn into a thriller about a battle for freedom in binary code, in the digital realm.",
+      "zh": "当我试图弄清是什么驱动着这位推特昵称为'色情之王'的用户和他的团队——他们将超过1亿人拖入了'新神经系统'——我没想到这个创业公司的故事会变成一部关于在二进制代码、数字世界中争取自由的惊险故事。",
+      "ja": "Twitterで「ポルノキング」というニックネームを使うユーザーと彼のチーム——1億人以上を「新しい神経系」に引き込んだ者たち——を動かしているものを探していたとき、スタートアップの物語がバイナリコード、デジタル空間での自由をめぐるスリラーになるとは思わなかった。"
+    },
+    {
+      "id": 2,
+      "ru": "Исследуя путь взбесившегося и анархического государства нёрдов, каковым, безусловно, является «ВКонтакте», я спиной ощущал взгляды персонажей Бека, Вулфа, Капоте и других охотников за выдающимися историями, которые следует поймать, а не придумать.",
+      "en": "Exploring the path of the frenzied and anarchic state of nerds that VKontakte undoubtedly is, I could feel on my back the gazes of the characters of Beck, Wolfe, Capote, and other hunters of outstanding stories that should be caught, not invented.",
+      "zh": "在探索这个狂热而无政府的'书呆子国度'——毫无疑问的VKontakte——的道路时，我能感觉到背后有贝克、沃尔夫、卡波特等杰出故事猎手的目光，这些故事应该被捕捉，而不是被编造。",
+      "ja": "熱狂的で無政府的なオタク国家、間違いなくVKontakteであるものの道を探求する中で、私はベック、ウルフ、カポーティ、そして他の傑出した物語のハンターたちの視線を背中に感じていた——そういう物語は発明するものではなく、捕まえるものなのだ。"
+    },
+    {
+      "id": 3,
+      "ru": "И зачем что-то придумывать, если перед тобой люди, которые построили систему каналов, в которых бежит чужая жизнь и создаются миллионы идентичностей-гомункулов.",
+      "en": "And why invent anything when before you are people who built a system of channels through which others' lives flow and millions of homunculus-identities are created.",
+      "zh": "既然面前就是那些建造了渠道系统的人——他人的生活在这些渠道中流淌，数百万个人造身份在此诞生——又何必编造什么呢？",
+      "ja": "目の前に、他人の人生が流れ、何百万もの分身アイデンティティが作られるチャンネルのシステムを構築した人々がいるのに、何かを創り出す必要があるだろうか。"
+    },
+    {
+      "id": 4,
+      "ru": "Разговаривая с Дуровым, я чувствовал себя режиссером из первой сцены «Пиратов Кремниевой долины», которому Джобс внушает, что предстоит снять не рекламу, а блокбастер об устройстве, которое изменит мир.",
+      "en": "Talking to Durov, I felt like the director from the first scene of 'Pirates of Silicon Valley,' to whom Jobs is explaining that he's about to make not an advertisement, but a blockbuster about a device that will change the world.",
+      "zh": "与杜罗夫交谈时，我感觉自己像是《硅谷海盗》开场戏中的那位导演，乔布斯正向他灌输：他要拍的不是广告，而是一部关于改变世界的设备的大片。",
+      "ja": "ドゥーロフと話していると、自分が『バトル・オブ・シリコンバレー』の最初のシーンに出てくる監督のように感じた——ジョブズが、これから撮るのは広告ではなく、世界を変えるデバイスについての大作映画だと説得しているあのシーンだ。"
+    },
+    {
+      "id": 5,
+      "ru": "Герой оказался сильнодействующим продавцом идей, и автору стоило много труда раскопать слой, лежащий в их основании.",
+      "en": "The hero turned out to be a potent seller of ideas, and it took the author a lot of effort to dig up the layer underlying them.",
+      "zh": "主人公原来是一个极具说服力的思想推销员，作者花了很大力气才挖掘出这些思想的底层。",
+      "ja": "主人公は強力なアイデアの売り込み者であることがわかり、著者はその根底にある層を掘り起こすのに多大な労力を要した。"
+    },
+    {
+      "id": 6,
+      "ru": "Однако я старался отсекать факты о «ВКонтакте» от интерпретаций и подвергал сомнению даже те эпизоды, которые не вызывали вопросов.",
+      "en": "However, I tried to separate facts about VKontakte from interpretations and questioned even those episodes that didn't raise any questions.",
+      "zh": "然而，我努力将关于VKontakte的事实与解读分开，甚至对那些看似毫无疑问的情节也提出质疑。",
+      "ja": "しかし、私はVKontakteに関する事実を解釈から切り離すようにし、疑問を呼ばないエピソードでさえも疑問視した。"
+    },
+    {
+      "id": 7,
+      "ru": "Это было интересно. Как говорится, so long, and thanks for all the fish.",
+      "en": "It was interesting. As they say, so long, and thanks for all the fish.",
+      "zh": "这很有趣。就像人们说的那样，再见了，感谢所有的鱼。",
+      "ja": "興味深かった。言うなれば、さようなら、そしてすべての魚をありがとう。"
+    }
+  ],
+  "translator_notes": [
+    "Page 12 is the final page of the Prologue",
+    "Porn King - Durov's provocative Twitter handle at the time",
+    "Beck, Wolfe, Capote - references to famous American journalists/writers known for immersive journalism",
+    "Pirates of Silicon Valley - 1999 TV film about Apple and Microsoft founders",
+    "Homunculus-identities - referring to online personas/avatars created by users",
+    "So long, and thanks for all the fish - Douglas Adams quote from Hitchhiker's Guide to the Galaxy series, signaling the end of prologue"
+  ],
+  "research_used": [
+    "Pirates of Silicon Valley (1999) - TV movie about Steve Jobs and Bill Gates",
+    "Tom Wolfe - American author known for 'New Journalism' style",
+    "Truman Capote - American novelist and journalist",
+    "Douglas Adams - British author of Hitchhiker's Guide to the Galaxy"
+  ]
+}
