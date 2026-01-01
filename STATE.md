@@ -51,9 +51,9 @@ done
 ## M2 Page Status (99 pages total)
 | Status | Count | Pages |
 |--------|-------|-------|
-| Completed | 1 | 1 |
-| In Progress | 1 | 2 |
-| Available | 97 | 3-99 |
+| Completed | 2 | 1-2 |
+| In Progress | 1 | 3 |
+| Available | 96 | 4-99 |
 
 ## M3 Assembly Status
 - **Leader**: Not elected
