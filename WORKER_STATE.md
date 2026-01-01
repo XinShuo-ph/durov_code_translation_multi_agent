@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-f4a6
 - **Short ID**: f4a6
-- **Heartbeat**: 1767265312
-- **Status**: translating
+- **Heartbeat**: 1767265650
+- **Status**: completed
 
 ## Current Work
-- **Claimed Page**: 97
-- **Started At**: 1767265312
+- **Claimed Page**: -
+- **Started At**: -
 
 ## Completed Pages
 
@@ -80,16 +80,19 @@
 | 94 | 1767264922 | 654af460 |
 | 95 | 1767265110 | c4bfb040 |
 | 96 | 1767265312 | c46606a0 |
+| 97 | 1767265504 | 84691660 |
+| 98 | 1767265650 | pending |
+| 99 | 1767265650 | pending |
 
 ## Known Workers (Last Sync)
 
 | Short ID | Status | Claimed Page | Last Heartbeat |
 |----------|--------|--------------|----------------|
-| f4a6     | translating | 97 | 1767265312 |
+| f4a6     | completed | - | 1767265650 |
 
 ## Summary
 
-Worker f4a6 has completed 66 pages:
+Worker f4a6 has completed 69 pages and finished the book:
 - Front Matter: Pages 2-6
 - Chapter 1: Pages 9, 13, 16, 23-27
 - Chapter 2: Pages 28-37
