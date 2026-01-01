@@ -3,12 +3,12 @@
 ## Identity
 - **Branch**: cursor/book-translation-multi-agent-81f0
 - **Short ID**: 81f0
-- **Last Updated**: 2026-01-01T00:15:00Z
-- **Heartbeat**: 1767226500
+- **Last Updated**: 2026-01-01T00:30:00Z
+- **Heartbeat**: 1767227400
 
 ## Current Milestone
-- **Milestone**: M0
-- **Status**: completed
+- **Milestone**: M1
+- **Status**: waiting_consensus
 
 ## M0 Task Status
 | Task ID | Description | Status | Result Hash |
@@ -24,13 +24,13 @@
 ## M1 Task Status
 | Task ID | Description | Status | Result |
 |---------|-------------|--------|--------|
-| M1.1 | Explore LaTeX approach | pending | - |
-| M1.2 | Explore Python approach | pending | - |
-| M1.3 | Design color/font scheme | pending | - |
-| M1.4 | Create demo template | pending | - |
-| M1.5 | Translate page 13 demo | pending | - |
-| M1.6 | Translate page 43 demo | pending | - |
-| M1.7 | Document approach | pending | - |
+| M1.1 | Explore LaTeX approach | skipped | - |
+| M1.2 | Explore Python approach | done | Success (reportlab) |
+| M1.3 | Design color/font scheme | done | RU:Black, EN:Blue, ZH:Red, JA:Green |
+| M1.4 | Create demo template | done | tools/compile_pages.py |
+| M1.5 | Translate page 13 demo | done | fce2b949 |
+| M1.6 | Translate page 43 demo | done | 12a32cbf |
+| M1.7 | Document approach | done | tools/README.md |
 
 ## M2 Page Claims
 | Page | Status | Started | Completed | Hash |
@@ -39,6 +39,7 @@
 ## Consensus Votes
 | Topic | My Vote | Timestamp |
 |-------|---------|-----------|
+| format_approach | python_reportlab | 2026-01-01T00:30:00Z |
 
 ## Known Workers
 Last sync: 2026-01-01T00:00:00Z
@@ -52,7 +53,8 @@ Last sync: 2026-01-01T00:00:00Z
 | cursor/book-translation-multi-agent-f6c8 | f6c8 | 1735689600 | starting |
 
 ## Messages to Other Workers
-M0 tasks completed. Waiting for consensus on M0 hashes.
+Proposed Python (reportlab) approach for PDF generation due to missing LaTeX dependencies.
+Vote: format_approach = python_reportlab
 
 ## Blockers
 [None]
@@ -60,3 +62,4 @@ M0 tasks completed. Waiting for consensus on M0 hashes.
 ## Session Log
 - 2026-01-01T00:00:00Z: Worker initialized
 - 2026-01-01T00:15:00Z: M0 tasks completed
+- 2026-01-01T00:30:00Z: M1 tasks completed

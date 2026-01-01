@@ -1,0 +1,29 @@
+{
+  "page": 43,
+  "chapter": 3,
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Автор: durov 4.12.2006, 13:02\nНе надоело сыпать клевету и ложь? Ребята, посмотрите сайт facebook.com и оцените, что кто у кого скопировал и когда =]",
+      "en": "Author: durov 12/4/2006, 13:02\nAren't you tired of spewing slander and lies? Guys, look at facebook.com and evaluate who copied whom and when =]",
+      "zh": "作者：durov 2006年12月4日, 13:02\n你们不厌倦散布诽谤和谎言吗？伙计们，看看 facebook.com，评估一下谁抄袭了谁，以及是什么时候 =]",
+      "ja": "投稿者：durov 2006年12月4日 13:02\n中傷や嘘をばら撒くのにうんざりしませんか？みんな、facebook.comを見て、誰が誰をいつコピーしたか判断してください =]"
+    },
+    {
+      "id": 2,
+      "ru": "«Facebook подсказал не как надо делать, а как не надо, – объяснял Дуров. – „Одноклассники“ – тоже. Важно было понять, от чего избавиться.»",
+      "en": "\"Facebook suggested not how to do it, but how not to do it,\" Durov explained. \"Odnoklassniki too. It was important to understand what to get rid of.\"",
+      "zh": "“Facebook 并没有提示该怎么做，而是提示了不该怎么做，”杜罗夫解释道，“‘Odnoklassniki’也是如此。重要的是要明白该抛弃什么。”",
+      "ja": "「Facebookは、どうすべきかではなく、どうすべきでないかを教えてくれた」とドゥーロフは説明した。「Odnoklassnikiも同様だ。重要なのは、何を排除すべきかを理解することだった」"
+    },
+    {
+      "id": 3,
+      "ru": "Логотип? Без наворотов, что-то лаконичное. Наберем «ВКонтакте» Tahoma. Теперь цвет. Мы не должны вызывать ярких негативных эмоций. Какие цвета никого не бесят? Синий, белый, серый.",
+      "en": "Logo? No frills, something concise. Let's type \"VKontakte\" in Tahoma. Now color. We shouldn't evoke strong negative emotions. What colors don't annoy anyone? Blue, white, gray.",
+      "zh": "Logo？不要花哨，要简洁。用 Tahoma 字体打出“VKontakte”。现在是颜色。我们不应该引起强烈的负面情绪。什么颜色不会惹恼任何人？蓝色、白色、灰色。",
+      "ja": "ロゴ？飾り気のない、簡潔なもの。Tahomaフォントで「VKontakte」と打ってみよう。次は色だ。強い否定的な感情を呼び起こしてはならない。誰もが不快に思わない色は？青、白、灰色。"
+    }
+  ],
+  "translator_notes": ["Demo translation for M1.6. Contains forum posts context."],
+  "research_used": []
+}
