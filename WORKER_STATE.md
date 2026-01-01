@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-5aa9
 - **Short ID**: 5aa9
-- **Heartbeat**: 1767252216
-- **Status**: online
+- **Heartbeat**: 1767252250
+- **Status**: translating
 
 ## Current Work
-- **Claimed Page**: none
-- **Started At**: -
+- **Claimed Page**: 6
+- **Started At**: 1767252250
 
 ## Completed Pages
 | Page | Completed At | Hash |
@@ -32,4 +32,4 @@
 | 7030     | online | -            | -              |
 
 ## Notes
-Completed Page 5.
+Working on Page 6 (Preface continued).
