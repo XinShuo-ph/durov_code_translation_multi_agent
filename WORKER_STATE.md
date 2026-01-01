@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-d536
 - **Short ID**: d536
-- **Heartbeat**: 1767256604
+- **Heartbeat**: 1767256797
 - **Status**: translating
 
 ## Current Work
-- **Claimed Page**: 82
-- **Started At**: 1767256604
+- **Claimed Page**: 83
+- **Started At**: 1767256797
 
 ## Completed Pages
 | Page | Completed At | Hash |
@@ -44,6 +44,7 @@
 | 35   | 1767256183 | 2210b413 |
 | 80   | 1767256416 | b9c76ac4 |
 | 81   | 1767256604 | d6d6340d |
+| 82   | 1767256797 | 183e931c |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
@@ -54,4 +55,4 @@
 | c68e     | active | 37           | recent |
 
 ## Notes
-Completed 31 pages (1-15, 17-22, 26-27, 30-35, 80-81). Page 81: VK squat housing, Milner friendship, Mail.ru conflict, Ashmanov on advertising kickbacks.
+Completed 32 pages (1-15, 17-22, 26-27, 30-35, 80-82). Page 82: Durov vs Grishin public fight, Jobs comparison, Kuznetsov/Kuzya expulsion, Kremlin relations via Tsyplukhin.
