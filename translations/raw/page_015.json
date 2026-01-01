@@ -1,0 +1,196 @@
+{
+  "page": 15,
+  "chapter": 1,
+  "chapter_title_ru": "Ботанический сад",
+  "chapter_title_en": "The Botanical Garden",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "...чем-то, что обеспечивает авторитетом, - еще с той поры, когда бил банки. Есть факт, и ничто не должно его затмевать. А факт в том, что... и т. д.",
+      "en": "...with something that provides authority - since the time when he smashed jars. There is a fact, and nothing should overshadow it. And the fact is that... etc.",
+      "zh": "……凭借那些赋予权威的东西——从他砸罐子的那时起就是如此。有事实，就不应该让任何东西掩盖它。事实是……等等。",
+      "ja": "……権威を与える何かに頼る——瓶を割っていた頃からそうだった。事実があり、それを曇らせるものがあってはならない。そして事実は……など。"
+    },
+    {
+      "id": 2,
+      "ru": "Я боролся со страхом, - вспоминал потом Дуров. - Учитель держит всех в магическом оцепенении - если все не замолчат, произойдет что-то ужасное.",
+      "en": "\"I fought against fear,\" Durov later recalled. \"The teacher keeps everyone in magical paralysis - if everyone doesn't shut up, something terrible will happen.\"",
+      "zh": "\"我在与恐惧斗争，\"杜罗夫后来回忆道。\"老师让所有人陷入魔法般的麻痹——如果大家不都闭嘴，就会发生可怕的事情。\"",
+      "ja": "「私は恐怖と戦っていた」とドゥーロフは後に振り返った。「教師は全員を魔法のような麻痺状態に置く——全員が黙らないと何か恐ろしいことが起こる、と。」"
+    },
+    {
+      "id": 3,
+      "ru": "Надо расковырять это ужасное. Ну, встану я и заору - что она может сделать? Исключат из школы?",
+      "en": "\"You have to pick at this terrible thing. So I'll stand up and yell - what can she do? Expel me from school?\"",
+      "zh": "\"必须打破这种恐惧。好吧，我站起来大喊——她能怎么办？把我开除？\"",
+      "ja": "「この恐ろしいものをほじくり返さなければ。立ち上がって叫んでみよう——彼女に何ができる？退学させる？」"
+    },
+    {
+      "id": 4,
+      "ru": "Но даже в этом случае есть плюсы. Я и то и другое огреб - и тройку за год, и исключение. А есть люди, которые боятся самого страха.",
+      "en": "\"But even then there are advantages. I got both - both a C for the year and expulsion. And there are people who fear fear itself.\"",
+      "zh": "\"但即使那样也有好处。我两样都得到了——年度成绩是C，还被开除了。而有些人害怕的是恐惧本身。\"",
+      "ja": "「でもそれでも利点はある。私は両方くらった——年間評価のCと退学と。恐怖そのものを恐れる人々もいる。」"
+    },
+    {
+      "id": 5,
+      "ru": "Родители узнали быстро. Отец подчеркивал, что не надо идти на конфликт, но учителей не защищал.",
+      "en": "The parents found out quickly. The father emphasized that one shouldn't seek conflict, but he didn't defend the teachers.",
+      "zh": "父母很快就知道了。父亲强调不应该制造冲突，但他并没有为老师辩护。",
+      "ja": "両親はすぐに知った。父は対立を求めるべきではないと強調したが、教師を擁護はしなかった。"
+    },
+    {
+      "id": 6,
+      "ru": "Мать сочла, что сыновья разумны и воспитанны и вряд ли ни с того ни с сего станут хамить учителям; очевидно, учителя проявили недостаточный профессионализм - не смогли справиться с сыном.",
+      "en": "The mother concluded that the sons were reasonable and well-mannered and would hardly be rude to teachers for no reason; obviously, the teachers showed insufficient professionalism - they couldn't handle the son.",
+      "zh": "母亲认为儿子们是理性且有教养的，不太可能无缘无故对老师无礼；显然，老师们表现得不够专业——没能应付她的儿子。",
+      "ja": "母は息子たちは理性的で礼儀正しく、理由もなく教師に失礼なことはしないだろうと考えた。明らかに教師たちはプロ意識が不足していた——息子に対処できなかったのだ。"
+    },
+    {
+      "id": 7,
+      "ru": "Ей самой в старших классах однажды прислали другого физика, и она из чувства протеста подбила класс уйти в кино.",
+      "en": "She herself, in high school, once had a substitute physics teacher sent in, and out of protest she convinced the class to leave for the movies.",
+      "zh": "她自己上高中时，有一次来了个代课物理老师，她出于抗议说服全班去看电影了。",
+      "ja": "彼女自身も高校時代、代わりの物理教師が来たとき、抗議の気持ちからクラスを説得して映画を見に行かせたことがあった。"
+    },
+    {
+      "id": 8,
+      "ru": "На других предметах, если ее что-то не устраивало, выходила к доске нарочито вежливо. Отвечайте урок. - Это [допустим, формула] так-то? - Да. - Это [первый ход решения] так-то? - Верно. А дальше? - Я не знаю...",
+      "en": "In other subjects, if something didn't suit her, she would go to the board with exaggerated politeness. \"Answer the lesson.\" \"Is this [say, the formula] like this?\" \"Yes.\" \"Is this [the first step of the solution] like this?\" \"Correct. And then?\" \"I don't know...\"",
+      "zh": "在其他科目上，如果她有什么不满意，就会故作礼貌地走到黑板前。\"回答问题。\"\"这个公式是这样的吗？\"\"是的。\"\"解题的第一步是这样吗？\"\"对。然后呢？\"\"我不知道了……\"",
+      "ja": "他の科目でも、気に入らないことがあると、わざとらしく丁寧に黒板に出た。「授業に答えなさい」「これは（例えば公式）こうですか？」「はい」「これは（解法の最初のステップ）こうですか？」「正解。で、その後は？」「わかりません……」"
+    },
+    {
+      "id": 9,
+      "ru": "Класс понимал, что вожак все знает, но протестует и защищается.",
+      "en": "The class understood that the leader knew everything but was protesting and defending herself.",
+      "zh": "班上同学明白，这位领头人什么都知道，只是在抗议和自卫。",
+      "ja": "クラスは、リーダーがすべてを知っているが抗議し自衛しているのだと理解していた。"
+    },
+    {
+      "id": 10,
+      "ru": "Отличница чувствовала за собой право на саботаж. Она росла в Омске, рядом с переселенцами-немцами, и выучила их язык. Блестящие способности.",
+      "en": "The straight-A student felt entitled to sabotage. She grew up in Omsk, near German settlers, and learned their language. Brilliant abilities.",
+      "zh": "这位优等生觉得自己有权捣乱。她在鄂木斯克长大，周围是德国移民，学会了他们的语言。才华横溢。",
+      "ja": "優等生は自分には妨害する権利があると感じていた。彼女はオムスクで、ドイツ人移民の近くで育ち、彼らの言語を学んだ。素晴らしい才能だった。"
+    },
+    {
+      "id": 11,
+      "ru": "Когда ее мама заболела раком, решила участвовать в изобретении лекарства против опухолей и подала документы в Хабаровск на медицинский.",
+      "en": "When her mother got cancer, she decided to participate in inventing a cure for tumors and applied to medical school in Khabarovsk.",
+      "zh": "当她母亲患上癌症时，她决定参与研发抗癌药物，向哈巴罗夫斯克的医学院递交了申请。",
+      "ja": "母ががんになったとき、彼女は腫瘍の治療薬の発明に参加しようと決め、ハバロフスクの医学部に願書を出した。"
+    },
+    {
+      "id": 12,
+      "ru": "Затем уехала в Ленинград. Выбирая, где учиться, определилась с журфаком и поступила без особых проблем.",
+      "en": "Then she left for Leningrad. Choosing where to study, she decided on the journalism faculty and enrolled without much trouble.",
+      "zh": "然后她去了列宁格勒。在选择学校时，她决定去新闻系，顺利地考上了。",
+      "ja": "その後レニングラードに移った。どこで学ぶか選ぶ際、ジャーナリズム学部に決め、特に問題なく入学した。"
+    },
+    {
+      "id": 13,
+      "ru": "Непонятно, какая школа взяла бы ее сына с трудным характером, если бы действие разворачивалось не в Петербурге - колыбели интеллигенции, которая веками строила социальные связи, чтобы выучить детей в приличных заведениях.",
+      "en": "It's unclear what school would have taken her difficult son if the action hadn't unfolded in Petersburg - the cradle of the intelligentsia, which had built social connections for centuries to educate children in decent institutions.",
+      "zh": "不知道如果不是在彼得堡——这个知识分子的摇篮，几个世纪以来建立了各种社会关系以让孩子进入好学校——还有什么学校会收这个性格倔强的孩子。",
+      "ja": "もし舞台がペテルブルク——何世紀にもわたって子供たちをまともな学校に入れるために社会的つながりを築いてきたインテリゲンチャの揺りかご——でなければ、どの学校が彼女の難しい息子を受け入れたか不明だ。"
+    },
+    {
+      "id": 14,
+      "ru": "Друзья отца, филологи Русаковы, после открытия педагогической вольницы возрождали систему классического дореволюционного образования - в собственной школе.",
+      "en": "The father's friends, the philologists Rusakovs, after the opening of educational freedom, were reviving the system of classical pre-revolutionary education - in their own school.",
+      "zh": "父亲的朋友、语言学家鲁萨科夫夫妇，在教育自由开放后，正在自己的学校里复兴古典的革命前教育体系。",
+      "ja": "父の友人である言語学者のルサコフ夫妻は、教育の自由化後、自分たちの学校で革命前の古典教育システムを復活させていた。"
+    },
+    {
+      "id": 15,
+      "ru": "Тогда, в 1992 году, им повезло - Академической гимназии при университете достался крупный транш от Министерства образования.",
+      "en": "Then, in 1992, they got lucky - the Academic Gymnasium at the university received a large tranche from the Ministry of Education.",
+      "zh": "1992年，他们很幸运——大学附属的学术高中从教育部获得了一大笔资金。",
+      "ja": "そして1992年、彼らは幸運だった——大学付属のアカデミック・ギムナジウムが教育省から大きな資金を受け取った。"
+    },
+    {
+      "id": 16,
+      "ru": "Накал энтузиазма в то время был высок, о пилежке средств речи не шло - поэтому Русаковы под свои общеобразовательные классы получили деньги и арендовали Аничков дворец на Невском.",
+      "en": "The level of enthusiasm at that time was high, there was no talk of embezzlement - so the Rusakovs received money for their general education classes and rented the Anichkov Palace on Nevsky.",
+      "zh": "当时热情高涨，没有人谈论挪用资金——所以鲁萨科夫夫妇为他们的普通教育班获得了资金，租下了涅瓦大街上的阿尼奇科夫宫。",
+      "ja": "当時は熱意が高く、資金の横領など話題にならなかった——そこでルサコフ夫妻は普通教育クラスのための資金を得て、ネフスキー大通りのアニチコフ宮殿を借りた。"
+    },
+    {
+      "id": 17,
+      "ru": "Педагогическая идея в целом выглядела так. Если ребенка учить с малых лет математике и языкам, он научится думать и воспринимать информацию таким образом, что новые науки и умения освоит без труда.",
+      "en": "The pedagogical idea generally looked like this: If you teach a child mathematics and languages from an early age, they will learn to think and absorb information in such a way that they will master new sciences and skills easily.",
+      "zh": "教学理念大致是这样的：如果从小教孩子数学和语言，他就能学会以一种方式思考和吸收信息，从而轻松掌握新的学科和技能。",
+      "ja": "教育理念は概ねこうだった：幼い頃から子供に数学と言語を教えれば、新しい学問やスキルを容易に習得できるような思考と情報吸収の仕方を学ぶ。"
+    },
+    {
+      "id": 18,
+      "ru": "От классического образования оставили латынь, заканчивающуюся в выпускном классе Записками о Галльской войне, английский, французский и немецкий языки, которые вводились последовательно.",
+      "en": "From classical education they kept Latin, ending in the final year with Caesar's Gallic Wars, and English, French, and German languages, which were introduced sequentially.",
+      "zh": "从古典教育中保留了拉丁语，以《高卢战记》作为毕业班的结束内容，还有依次引入的英语、法语和德语。",
+      "ja": "古典教育からはラテン語が残され、最終学年で『ガリア戦記』で終わり、英語、フランス語、ドイツ語が順次導入された。"
+    },
+    {
+      "id": 19,
+      "ru": "Сперва классы жили в роскоши, учеников возили по Европе, и они едва ли не столовались по талончикам в Метрополе.",
+      "en": "At first the classes lived in luxury, students were taken around Europe, and they practically dined at the Metropol on meal tickets.",
+      "zh": "起初，这些班级过着奢华的生活，学生们被带去游历欧洲，几乎是凭餐券在大都会酒店用餐。",
+      "ja": "最初、クラスは贅沢な生活を送り、生徒たちはヨーロッパを旅し、メトロポールで食事券で食事するほどだった。"
+    },
+    {
+      "id": 20,
+      "ru": "Русаковы как люди талантливые, но непрагматичные, считали, что школа должна быть бесплатной - чтобы могли учиться таланты из бедных семей.",
+      "en": "The Rusakovs, being talented but impractical people, believed that the school should be free - so that talented children from poor families could study.",
+      "zh": "鲁萨科夫夫妇是有才华但不切实际的人，他们认为学校应该免费——这样贫困家庭的人才也能学习。",
+      "ja": "ルサコフ夫妻は才能はあるが実際的でない人々で、学校は無料であるべきだと考えていた——貧しい家庭の才能ある子供たちも学べるように。"
+    },
+    {
+      "id": 21,
+      "ru": "Затем деньги иссякли, и энтузиасты съехали в плохо отапливаемые помещения университета.",
+      "en": "Then the money ran out, and the enthusiasts moved to poorly heated university premises.",
+      "zh": "然后资金用完了，这些热心人搬到了大学里供暖不好的房间。",
+      "ja": "その後資金が尽き、熱心な人々は暖房の悪い大学の建物に移った。"
+    },
+    {
+      "id": 22,
+      "ru": "Классы предложили родителям сдавать 83 рубля в месяц - в тот момент минимальная оплата труда, - но родители отказались.",
+      "en": "The classes proposed that parents contribute 83 rubles a month - at that time the minimum wage - but the parents refused.",
+      "zh": "学校提议家长每月交83卢布——当时的最低工资——但家长们拒绝了。",
+      "ja": "クラスは親たちに月83ルーブル——当時の最低賃金——を払うよう提案したが、親たちは拒否した。"
+    },
+    {
+      "id": 23,
+      "ru": "Гимназия поставила экспериментаторам ультиматум: Самоокупаемость или роспуск, и Русаковы ушли. Началась эпоха мытарств.",
+      "en": "The gymnasium gave the experimenters an ultimatum: \"Self-sufficiency or dissolution,\" and the Rusakovs left. An era of tribulations began.",
+      "zh": "高中向这些实验者发出了最后通牒：\"自负盈亏还是解散\"，于是鲁萨科夫夫妇离开了。磨难的时代开始了。",
+      "ja": "ギムナジウムは実験者たちに最後通牒を突きつけた：「自立か解散か」。ルサコフ夫妻は去った。苦難の時代が始まった。"
+    },
+    {
+      "id": 24,
+      "ru": "Тогда профессор Дуров и привел в классы заносчивого младшего сына.",
+      "en": "That's when Professor Durov brought his arrogant younger son to the classes.",
+      "zh": "就在那时，杜罗夫教授把他傲慢的小儿子带进了这些班级。",
+      "ja": "その時、ドゥーロフ教授は傲慢な次男をそのクラスに連れてきた。"
+    },
+    {
+      "id": 25,
+      "ru": "Мальчика пригласили пройти отбор - письменный тест, затем задачи на лингвистическое чутье. Предлагалось ознакомиться с текстом, написанным на...",
+      "en": "The boy was invited to take the selection test - a written exam, then tasks testing linguistic intuition. He was asked to familiarize himself with a text written in...",
+      "zh": "男孩被邀请参加选拔——笔试，然后是测试语言直觉的题目。要求他阅读一段用……写成的文字",
+      "ja": "少年は選抜テストに招待された——筆記試験、次に言語感覚を試す課題。……で書かれたテキストを読むよう求められた"
+    }
+  ],
+  "translator_notes": [
+    "Rusakovs - family friends who founded an experimental classical education program",
+    "Academic Gymnasium - elite school attached to St. Petersburg State University",
+    "Anichkov Palace - historic palace on Nevsky Prospekt, now a children's creative center",
+    "Metropol - famous Moscow/St. Petersburg hotel",
+    "Gallic Wars - Julius Caesar's famous text, traditional Latin curriculum endpoint",
+    "1992 - post-Soviet period of educational experimentation"
+  ],
+  "research_used": [
+    "Russian education reform 1990s",
+    "Academic Gymnasium history",
+    "Classical education tradition"
+  ]
+}
