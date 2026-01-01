@@ -1,0 +1,91 @@
+{
+  "page": 3,
+  "chapter": 0,
+  "chapter_title": "Front Matter - Table of Contents (目录 / 目次)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Содержание",
+      "en": "Contents",
+      "zh": "目录",
+      "ja": "目次"
+    },
+    {
+      "id": 2,
+      "ru": "Предисловие",
+      "en": "Preface",
+      "zh": "序言",
+      "ja": "序文"
+    },
+    {
+      "id": 3,
+      "ru": "Пролог",
+      "en": "Prologue",
+      "zh": "序幕",
+      "ja": "プロローグ"
+    },
+    {
+      "id": 4,
+      "ru": "Глава 1",
+      "en": "Chapter 1",
+      "zh": "第一章",
+      "ja": "第1章"
+    },
+    {
+      "id": 5,
+      "ru": "Глава 2",
+      "en": "Chapter 2",
+      "zh": "第二章",
+      "ja": "第2章"
+    },
+    {
+      "id": 6,
+      "ru": "Глава 3",
+      "en": "Chapter 3",
+      "zh": "第三章",
+      "ja": "第3章"
+    },
+    {
+      "id": 7,
+      "ru": "Глава 4",
+      "en": "Chapter 4",
+      "zh": "第四章",
+      "ja": "第4章"
+    },
+    {
+      "id": 8,
+      "ru": "Глава 5",
+      "en": "Chapter 5",
+      "zh": "第五章",
+      "ja": "第5章"
+    },
+    {
+      "id": 9,
+      "ru": "Глава 6",
+      "en": "Chapter 6",
+      "zh": "第六章",
+      "ja": "第6章"
+    },
+    {
+      "id": 10,
+      "ru": "Глава 7",
+      "en": "Chapter 7",
+      "zh": "第七章",
+      "ja": "第7章"
+    },
+    {
+      "id": 11,
+      "ru": "Об авторе",
+      "en": "About the Author",
+      "zh": "关于作者",
+      "ja": "著者について"
+    }
+  ],
+  "translator_notes": [
+    "Page 3 is the table of contents showing the book structure",
+    "The book has a preface, prologue, 7 chapters, and an author bio section",
+    "Page numbers reference the original Russian edition"
+  ],
+  "total_sentences": 11,
+  "page_type": "front_matter"
+}
