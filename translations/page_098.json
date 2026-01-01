@@ -1,0 +1,135 @@
+{
+  "page": 98,
+  "chapter": 7,
+  "chapter_title": "Пятно Роршаха (Rorschach Inkblot)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "«Любопытно. А что вы имели в виду, когда утверждали, что у вас „мистическое мышление“?»",
+      "en": "\"Curious. And what did you mean when you claimed that you have 'mystical thinking'?\"",
+      "zh": "“真好奇。当您声称自己有‘神秘主义思维’时，您是指什么？”",
+      "ja": "「興味深いですね。『神秘的思考』を持っているとおっしゃったのは、どういう意味ですか？」"
+    },
+    {
+      "id": 2,
+      "ru": "«Ну как. Все, в общем-то, просто, – ответил Дуров. – Нелогично, что я не хочу продавать „ВКонтакте“.",
+      "en": "\"Well, how. Everything, in general, is simple,\" Durov answered. \"It is illogical that I do not want to sell 'VKontakte'.",
+      "zh": "“嗯，怎么说呢。总的来说都很简单，”杜罗夫回答说。“我不想卖掉‘VKontakte’是不合逻辑的。",
+      "ja": "「ああ、それは。概して、すべては単純です」とドゥーロフは答えた。「僕が『VKontakte』を売りたくないというのは非論理的です。"
+    },
+    {
+      "id": 3,
+      "ru": "И я не знаю, почему не закрыл группы перед митингами, – хотя потом все красиво обосновал «Ленте.ру».",
+      "en": "And I don't know why I didn't close the groups before the rallies – although later I justified everything beautifully to Lenta.ru.",
+      "zh": "我也不知道为什么在集会前没有关闭群组——尽管后来我在 Lenta.ru 上把一切都解释得很漂亮。",
+      "ja": "そして、なぜ集会の前にグループを閉鎖しなかったのか、自分でも分かりません――後で『Lenta.ru』にはすべて綺麗に正当化しましたが。"
+    },
+    {
+      "id": 4,
+      "ru": "Смотрите: события происходят или не происходят не из-за умения или неумения все просчитывать.",
+      "en": "Look: events happen or do not happen not because of the ability or inability to calculate everything.",
+      "zh": "你看：事情发生或不发生，并不是因为有能力或没能力算计好一切。",
+      "ja": "いいですか、出来事が起きるか起きないかは、すべてを計算する能力があるかないかによるものではありません。"
+    },
+    {
+      "id": 5,
+      "ru": "Я гляжу на сотрудников и себя. Если есть энтузиазм и вера – все ОК. Чуть-чуть страха – все рушится».",
+      "en": "I look at the employees and myself. If there is enthusiasm and faith – everything is OK. A little bit of fear – everything collapses.\"",
+      "zh": "我看着员工和我自己。如果有热情和信念——一切都好。只要有一点点恐惧——一切都会崩溃。”",
+      "ja": "僕は従業員と自分自身を見ています。もし熱意と信念があれば、すべてはうまくいきます（OK）。少しでも恐怖があれば、すべては崩壊します」"
+    },
+    {
+      "id": 6,
+      "ru": "«Страх ускоряет негативный сценарий?» – продолжил я.",
+      "en": "\"Does fear accelerate the negative scenario?\" I continued.",
+      "zh": "“恐惧会加速负面情况的发生？”我继续问道。",
+      "ja": "「恐怖がネガティブなシナリオを加速させるのですか？」と私は続けた。"
+    },
+    {
+      "id": 7,
+      "ru": "«Да, и я могу объяснить это биологически, но это будет лишь теория. Важно не это.",
+      "en": "\"Yes, and I can explain it biologically, but it will be just a theory. This is not important.",
+      "zh": "“是的，我可以从生物学角度解释这一点，但这只是理论。这并不重要。",
+      "ja": "「ええ、生物学的に説明することもできますが、それは単なる理論に過ぎません。重要なのはそれじゃない。"
+    },
+    {
+      "id": 8,
+      "ru": "Важно знать, что ты на самом деле ничем не владеешь, и быть готовым потерять то, что у тебя якобы есть, – сказал Дуров, протянув на прощание руку. – Что из этого следует?» – спросил он.",
+      "en": "It is important to know that you do not really own anything, and be ready to lose what you allegedly have,\" Durov said, holding out his hand for goodbye. \"What follows from this?\" he asked.",
+      "zh": "重要的是要知道你实际上并不拥有任何东西，并准备好失去你所谓拥有的东西，”杜罗夫说着，伸出手道别。“这说明了什么？”他问道。",
+      "ja": "重要なのは、実際には自分は何も所有していないと知ること、そして自分が持っているとされるものを失う覚悟をすることです」とドゥーロフは言い、別れの手を差し出した。「ここから何が導かれますか？」と彼は尋ねた。"
+    },
+    {
+      "id": 9,
+      "ru": "Из этого следовало со всей возможной в четыре утра ясностью, что отсутствие страха приближает момент, когда ветхие мехи прохудятся и вино выльется само.",
+      "en": "From this it followed with all possible clarity at four in the morning that the absence of fear brings closer the moment when the old wineskins will leak and the wine will pour out itself.",
+      "zh": "由此，在这个凌晨四点，得出了一个尽可能清晰的结论：没有恐惧会加速那个时刻的到来，那时陈旧的皮囊将会破漏，酒会自动流出。",
+      "ja": "そこから、午前4時に可能な限りの明晰さをもって導かれるのは、恐怖の欠如が、古い革袋が破れワインが自ずと溢れ出す瞬間を近づけるということだ。"
+    },
+    {
+      "id": 10,
+      "ru": "Политика не производит интересных лидеров. Часть новых фигур придет из бизнеса, часть – из медиа.",
+      "en": "Politics does not produce interesting leaders. Some of the new figures will come from business, some from the media.",
+      "zh": "政治不再产生有趣的领导人。一部分新人物将来自商界，一部分来自媒体。",
+      "ja": "政治は面白いリーダーを生み出さない。新しい人物の一部はビジネスから、一部はメディアから現れるだろう。"
+    },
+    {
+      "id": 11,
+      "ru": "Необходимое условие для входа – ты должен создать что-то для большого количества граждан.",
+      "en": "A necessary condition for entry is that you must create something for a large number of citizens.",
+      "zh": "进入的必要条件是——你必须为大量公民创造一些东西。",
+      "ja": "参入のための必要条件は、多数の市民のために何かを創り出すことだ。"
+    },
+    {
+      "id": 12,
+      "ru": "Имя этому движению activist capitalism, и Дуров предвосхитил его, описывая в квартире на Сенной изменения в мире, которые принесет смена информационной парадигмы, и дал людям то, чего они хотели.",
+      "en": "The name of this movement is activist capitalism, and Durov anticipated it, describing in the apartment on Sennaya the changes in the world that the change of the information paradigm will bring, and gave people what they wanted.",
+      "zh": "这一运动的名字叫“激进资本主义”（activist capitalism），而杜罗夫预见到了它，他在先纳亚广场的公寓里描述了信息范式转变将带来的世界变化，并给了人们他们想要的东西。",
+      "ja": "この運動の名はアクティビスト・キャピタリズム（活動家的資本主義）であり、ドゥーロフはセンナヤのアパートで情報パラダイムの転換がもたらす世界の変化を描写し、人々が望むものを与えることで、それを予見していた。"
+    },
+    {
+      "id": 13,
+      "ru": "Назначение предпринимательства меняется. Зарабатывая на свое развитие, бизнесмены генерируют интеллектуальный потенциал, притягивая таланты, и конкурируют с политиками, государством, академией.",
+      "en": "The purpose of entrepreneurship is changing. Earning for their development, businessmen generate intellectual potential, attracting talents, and compete with politicians, the state, the academy.",
+      "zh": "创业的目的正在改变。商人在为自身发展赚钱的同时，通过吸引人才产生智力潜力，并与政治家、国家、学术界竞争。",
+      "ja": "起業家精神の目的は変わりつつある。自身の発展のために稼ぎながら、ビジネスマンは才能を引き寄せることで知的ポテンシャルを生み出し、政治家、国家、アカデミーと競争する。"
+    },
+    {
+      "id": 14,
+      "ru": "Новые виноградари должны верить, что будущее невозможно без них. Мы не можем рассказать, каким оно будет. Но мы можем показать, как начать его менять.",
+      "en": "New winegrowers must believe that the future is impossible without them. We cannot tell what it will be like. But we can show how to start changing it.",
+      "zh": "新的葡萄种植者必须相信，未来没有他们是不可能的。我们无法讲述未来会怎样。但我们可以展示如何开始改变它。",
+      "ja": "新しいブドウ栽培者は、未来は彼らなしではあり得ないと信じなければならない。それがどのようなものになるか、我々は語ることはできない。だが、それを変え始める方法を示すことはできる。"
+    },
+    {
+      "id": 15,
+      "ru": "Человеческие потоки пересохли – не более чем на два часа.",
+      "en": "Human streams dried up – for no more than two hours.",
+      "zh": "人流干涸了——不超过两个小时。",
+      "ja": "人の流れは干上がった――せいぜい2時間ほどの間だが。"
+    },
+    {
+      "id": 16,
+      "ru": "Скособочившись и поправив очки на переносице, чайка по имени Павел Дуров во френче с поролоновыми плечами двинула к колоннаде отеля.",
+      "en": "Slumping and adjusting his glasses on the bridge of his nose, a seagull named Pavel Durov in a jacket with foam shoulders moved to the colonnade of the hotel.",
+      "zh": "歪着身子，扶了扶鼻梁上的眼镜，这只名叫帕维尔·杜罗夫的海鸥，穿着带垫肩的中山装，走向酒店的柱廊。",
+      "ja": "体を傾け、鼻梁の眼鏡を直し、パヴェル・ドゥーロフという名のカモメは、パッド入りのフレンチ（軍服風ジャケット）を身にまとい、ホテルの列柱へと向かった。"
+    },
+    {
+      "id": 17,
+      "ru": "Там, прикрывшись от дождя картонным плакатом, спали фанаты, уставшие ждать старых кумиров.",
+      "en": "There, covering themselves from the rain with a cardboard poster, slept fans, tired of waiting for old idols.",
+      "zh": "那里，厌倦了等待旧偶像的粉丝们正盖着纸板海报躲雨睡觉。",
+      "ja": "そこでは、雨を避けるために段ボールのプラカードを被り、古いアイドルを待つのに疲れたファンたちが眠っていた。"
+    }
+  ],
+  "translator_notes": [
+    "Durov explains his 'mystical thinking': intuition and lack of fear dictate decisions, not calculation.",
+    "Fear as the destroyer of success/systems.",
+    "Durov's core philosophy reiterated: true ownership is an illusion; readiness to lose brings freedom.",
+    "The author reflects on 'activist capitalism': entrepreneurs replacing politicians as leaders of change.",
+    "The final metaphor: Durov as a 'seagull' (reference to earlier 'Subvert the Paradigm' image) walking past fans waiting for 'old idols' (Hollywood stars), symbolizing the shift from old to new icons."
+  ],
+  "total_sentences": 17,
+  "page_type": "narrative"
+}
