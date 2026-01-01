@@ -1,0 +1,168 @@
+% Durov Code Multilingual Translation Template
+% Uses XeLaTeX with xeCJK for CJK support
+% Compile with: xelatex format_demo.tex
+
+\documentclass[11pt,a4paper]{article}
+
+% Essential packages
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+% Page geometry
+\geometry{
+    a4paper,
+    left=2cm,
+    right=2cm,
+    top=2.5cm,
+    bottom=2.5cm
+}
+
+% Font settings
+% Main Latin font
+\setmainfont{DejaVu Serif}
+% Sans font for headers
+\setsansfont{DejaVu Sans}
+% Monospace
+\setmonofont{DejaVu Sans Mono}
+
+% CJK fonts
+\setCJKmainfont{Noto Serif CJK SC}[
+    Script=CJK,
+    Language=Chinese Simplified
+]
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans Mono CJK SC}
+
+% Japanese font (fallback)
+\newCJKfontfamily\japanesefont{Noto Serif CJK JP}[
+    Script=CJK,
+    Language=Japanese
+]
+
+% Color scheme for languages
+\definecolor{rucolor}{RGB}{0, 0, 0}        % Russian: Black
+\definecolor{encolor}{RGB}{0, 82, 147}     % English: Blue
+\definecolor{zhcolor}{RGB}{139, 69, 19}    % Chinese: Brown
+\definecolor{jacolor}{RGB}{0, 100, 0}      % Japanese: Green
+
+% Language formatting commands
+\newcommand{\rutext}[1]{{\color{rucolor}\textbf{[RU]} #1}}
+\newcommand{\entext}[1]{{\color{encolor}\textbf{[EN]} #1}}
+\newcommand{\zhtext}[1]{{\color{zhcolor}\textbf{[中]} #1}}
+\newcommand{\jatext}[1]{{\color{jacolor}\textbf{[日]} {\japanesefont #1}}}
+
+% Sentence block environment
+\newenvironment{sentence}[1][]{%
+    \noindent\hrulefill\par
+    \vspace{0.3em}
+}{%
+    \vspace{0.3em}
+    \noindent\hrulefill\par
+    \vspace{0.8em}
+}
+
+% Parallel text block (all 4 languages)
+\newcommand{\paralleltext}[4]{%
+    \begin{sentence}
+    \rutext{#1}\\[0.3em]
+    \entext{#2}\\[0.3em]
+    \zhtext{#3}\\[0.3em]
+    \jatext{#4}
+    \end{sentence}
+}
+
+% Header/Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Код Дурова / Durov Code}
+\fancyhead[R]{\small Page \thepage}
+\fancyfoot[C]{\small Multilingual Edition}
+
+% Title formatting
+\titleformat{\section}{\Large\bfseries\sffamily}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\sffamily}{\thesubsection}{1em}{}
+
+% Document info
+\title{\Huge\textbf{Код Дурова}\\[0.5em]
+\Large Durov Code\\[0.3em]
+\large 杜罗夫密码\\[0.3em]
+\large ドゥーロフ・コード\\[1em]
+\normalsize Multilingual Translation Demo}
+\author{Translated by Multi-Agent System}
+\date{2026}
+
+\begin{document}
+
+\maketitle
+
+\section*{Color Legend}
+\begin{itemize}
+    \item \rutext{Russian (Original)} - Black
+    \item \entext{English Translation} - Blue
+    \item \zhtext{Chinese Translation} - Brown
+    \item \jatext{Japanese Translation} - Green
+\end{itemize}
+
+\newpage
+
+\section*{Page 13 Demo - Chapter 1: Botanical Garden}
+
+\paralleltext
+{Мальчик с томом Сервантеса выходит из подъезда, огибает автомобиль, который какой-то негодяй поставил так, что пешеходы еле протискиваются мимо, и сворачивает за угол.}
+{A boy with a volume of Cervantes exits the building entrance, walks around a car that some scoundrel parked so that pedestrians can barely squeeze past, and turns the corner.}
+{一个手捧塞万提斯著作的男孩走出公寓楼入口，绕过一辆被某个混蛋停得行人几乎无法通过的汽车，拐过街角。}
+{セルバンテスの本を持った少年が建物の入り口を出て、どこかの無礼者が歩行者がやっと通れるほど狭く停めた車を避けて、角を曲がった。}
+
+\paralleltext
+{Перед ним пустынные кварталы, поля и высоковольтные вышки, а в физиономию дует ветер – как везде в Петербурге, но в этом районе особенно.}
+{Before him stretch deserted blocks, fields, and high-voltage towers, with wind blowing in his face—as everywhere in Petersburg, but especially in this district.}
+{眼前是荒凉的街区、田野和高压电塔，风吹在他脸上——彼得堡到处都是如此，但这个地区尤其明显。}
+{目の前には荒涼とした街区、野原、高圧鉄塔が広がり、風が顔に吹きつける——ペテルブルクではどこでもそうだが、この地区では特にひどい。}
+
+\paralleltext
+{Рядом море.}
+{The sea is nearby.}
+{附近就是大海。}
+{近くには海がある。}
+
+\paralleltext
+{Архитектор раскрасил панели домов в оранжевый и бордовый, чтобы однообразное серое не свело район с ума.}
+{The architect painted the building panels orange and burgundy so that the monotonous gray wouldn't drive the district insane.}
+{建筑师把楼房的墙板涂成橙色和酒红色，以免单调的灰色让这个街区发疯。}
+{建築家は、単調な灰色で地区が気が狂わないように、建物のパネルをオレンジ色とワインレッドに塗った。}
+
+\newpage
+
+\section*{Translation Notes}
+
+\subsection*{Cultural Context}
+\begin{itemize}
+    \item \textbf{подъезд} (entrance): Soviet-era apartment buildings have shared stairwell entrances, different from Western lobby concept
+    \item \textbf{Сервантес} (Cervantes): Reference to Don Quixote, Durov's favorite book, symbolizing idealism
+    \item \textbf{панельные дома} (panel buildings): Prefabricated Soviet housing, iconic of Soviet urban planning
+\end{itemize}
+
+\subsection*{Localization Choices}
+\begin{itemize}
+    \item Chinese: Used mainland Simplified Chinese with natural internet-era language
+    \item Japanese: Balanced formal/informal register matching original tone
+    \item English: American English, tech-culture accessible style
+\end{itemize}
+
+\section*{Format Specifications}
+\begin{itemize}
+    \item Paper: A4
+    \item Margins: 2cm left/right, 2.5cm top/bottom
+    \item Languages distinguished by color coding
+    \item Each sentence presented as parallel block
+    \item Clear visual separation between sentences
+\end{itemize}
+
+\end{document}
