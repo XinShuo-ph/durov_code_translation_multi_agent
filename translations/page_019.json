@@ -1,0 +1,288 @@
+{
+  "page": 19,
+  "chapter": 1,
+  "chapter_title": "Ботанический сад (Botanical Garden)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Ночной звонок простучал как пулемет.",
+      "en": "A nighttime phone call rattled like a machine gun.",
+      "zh": "夜间的电话铃声像机关枪一样响起。",
+      "ja": "深夜の電話が機関銃のように鳴り響いた。"
+    },
+    {
+      "id": 3,
+      "ru": "Медников схватил трубку.",
+      "en": "Mednikov grabbed the receiver.",
+      "zh": "梅德尼科夫抓起电话听筒。",
+      "ja": "メドニコフは受話器をつかんだ。"
+    },
+    {
+      "id": 4,
+      "ru": "Человек, отвечавший за безопасность семьи Мирилашвили, извинился за беспокойство, но дальше говорил настойчиво.",
+      "en": "The person responsible for the Mirilashvili family's security apologized for the disturbance but spoke insistently after that.",
+      "zh": "负责米里拉什维利家族安全的人为打扰道歉，但接下来说得很急切。",
+      "ja": "ミリラシュヴィリ家の警備担当者は迷惑をかけたことを詫びたが、その後は切迫した口調で話した。"
+    },
+    {
+      "id": 5,
+      "ru": "Шефа обвиняют в похищении людей, Славу срочно эвакуируют в Израиль.",
+      "en": "The boss is accused of kidnapping, Slava is being urgently evacuated to Israel.",
+      "zh": "老板被指控绑架，斯拉瓦正被紧急撤离到以色列。",
+      "ja": "ボスが誘拐の容疑をかけられている。スラヴァを緊急にイスラエルに避難させなければならない。"
+    },
+    {
+      "id": 6,
+      "ru": "Надо как можно быстрее передать его личное дело и медкарту; насчет помощи школе решим позже.",
+      "en": "His personal file and medical card need to be handed over as soon as possible; we'll decide about help for the school later.",
+      "zh": "需要尽快移交他的个人档案和医疗卡；关于对学校的帮助以后再说。",
+      "ja": "彼の個人ファイルと医療カードをできるだけ早く渡す必要がある。学校への援助については後で決める。"
+    },
+    {
+      "id": 7,
+      "ru": "Дождавшись утра, Медников приехал в свой кабинет, откопал в сейфе нужные бумаги и выдал их прибывшим посланцам.",
+      "en": "Waiting until morning, Mednikov came to his office, dug the necessary papers out of the safe, and handed them over to the messengers who had arrived.",
+      "zh": "等到早上，梅德尼科夫来到他的办公室，从保险柜里翻出所需的文件，交给了前来的使者。",
+      "ja": "朝を待ってメドニコフはオフィスに来て、金庫から必要な書類を掘り出し、到着した使者に渡した。"
+    },
+    {
+      "id": 8,
+      "ru": "Слава улетел, после чего они с Дуровым не виделись семь лет.",
+      "en": "Slava flew away, after which he and Durov didn't see each other for seven years.",
+      "zh": "斯拉瓦飞走了，此后他和杜罗夫七年没见面。",
+      "ja": "スラヴァは飛び去り、その後7年間ドゥーロフとは会わなかった。"
+    },
+    {
+      "id": 9,
+      "ru": "Классам продолжили «делать биографию».",
+      "en": "The classes continued to \"build their biography.\"",
+      "zh": "这些班级继续"创造着自己的传奇"。",
+      "ja": "クラスは引き続き「伝記を作り続けた」。"
+    },
+    {
+      "id": 10,
+      "ru": "Их хотели приручить, посулив новый дом: выселяйте ПТУ у Смоленского кладбища и забирайте помещение.",
+      "en": "They wanted to tame them by promising a new home: evict the vocational school near Smolenskoye Cemetery and take the premises.",
+      "zh": "当局想通过许诺新场所来驯服他们：把斯莫伦斯基墓地附近的职业技术学校赶走，然后占用那个场地。",
+      "ja": "新しい家を約束して手なずけようとした：スモレンスキー墓地近くの職業学校を追い出し、その施設を使え、と。"
+    },
+    {
+      "id": 11,
+      "ru": "Полторы сотни учеников и их родители давно осознали, что они диссиденты и подмоги ждать неоткуда.",
+      "en": "A hundred and fifty students and their parents had long realized they were dissidents and had nowhere to expect help from.",
+      "zh": "一百五十名学生和他们的家长早就意识到他们是异见者，没有地方可以指望得到帮助。",
+      "ja": "150人の生徒とその親たちは、自分たちが反体制派であり、助けを期待できる場所がないことをとうに悟っていた。"
+    },
+    {
+      "id": 12,
+      "ru": "Орда, желавшая учиться по своим законам и у своих учителей, вскрыла замки и вывезла станки.",
+      "en": "The horde that wanted to learn by their own rules and from their own teachers broke open the locks and removed the machinery.",
+      "zh": "这群想按自己的规矩、跟自己的老师学习的人撬开锁，搬走了机器设备。",
+      "ja": "自分たちのルールで、自分たちの教師から学びたかった群衆は、鍵を壊して機械を運び出した。"
+    },
+    {
+      "id": 13,
+      "ru": "Когда Медникову дали подписать устав, он с изумлением обнаружил, что в бумаге проставлен другой адрес.",
+      "en": "When Mednikov was given a charter to sign, he discovered with amazement that a different address was written in the document.",
+      "zh": "当梅德尼科夫被要求签署章程时，他惊讶地发现文件上写的是另一个地址。",
+      "ja": "メドニコフが憲章に署名するよう渡されたとき、彼は驚いて、書類に別の住所が記載されていることに気づいた。"
+    },
+    {
+      "id": 14,
+      "ru": "Власти оказались хитрее диссидентов, выгнали пэтэушников их руками и хотели передать отбитый дом университету.",
+      "en": "The authorities proved cleverer than the dissidents—they used their hands to evict the vocational students and wanted to give the reclaimed building to the university.",
+      "zh": "当局比异见者更狡猾——他们借异见者之手赶走了职校学生，然后想把夺回的建筑交给大学。",
+      "ja": "当局は反体制派より狡猾だった——彼らの手で職業学校の生徒を追い出させ、奪還した建物を大学に渡そうとした。"
+    },
+    {
+      "id": 15,
+      "ru": "Классы подняли бунт, и школу закрыла санэпидемстанция.",
+      "en": "The classes revolted, and the school was closed by the sanitary-epidemiological station.",
+      "zh": "班级起来反抗，学校被卫生防疫站关闭了。",
+      "ja": "クラスは反乱を起こし、学校は衛生防疫局によって閉鎖された。"
+    },
+    {
+      "id": 16,
+      "ru": "Ее визиты были чем-то вроде ритуала.",
+      "en": "Its visits were something like a ritual.",
+      "zh": "它的检查就像是一种仪式。",
+      "ja": "その訪問は一種の儀式のようなものだった。"
+    },
+    {
+      "id": 17,
+      "ru": "Когда мы условились с Медниковым встретиться на Черной Речке, первое, что он сделал при появлении, – протянул мне книжку о классах, с фольклором, славословиями и статьями, зачем обществу нужны люди Ренессанса.",
+      "en": "When I arranged to meet Mednikov at Chyornaya Rechka, the first thing he did upon appearing was hand me a book about the classes, with folklore, eulogies, and articles on why society needs Renaissance people.",
+      "zh": "当我和梅德尼科夫约好在黑河见面时，他出现后做的第一件事就是递给我一本关于这些班级的书，里面有民间传说、颂词和关于社会为何需要文艺复兴式人才的文章。",
+      "ja": "メドニコフとチョールナヤ・レーチカで会う約束をしたとき、彼が現れてまずしたことは、クラスについての本を私に手渡すことだった。民話、賛辞、そしてなぜ社会にルネサンス人が必要かという記事が載っていた。"
+    },
+    {
+      "id": 18,
+      "ru": "Половина песен, которые сочинили ученики, описывала, как среди урока в класс вламываются пожарники, санитары и другие слуги народа.",
+      "en": "Half the songs composed by the students described how in the middle of class, firefighters, sanitary inspectors, and other servants of the people would burst in.",
+      "zh": "学生们创作的歌曲有一半描述的是消防员、卫生检查员和其他"人民公仆"如何在上课时闯入教室。",
+      "ja": "生徒たちが作った歌の半分は、授業中に消防士、衛生検査官、その他の「人民の僕」がどのように教室に乱入してくるかを描写していた。"
+    },
+    {
+      "id": 19,
+      "ru": "Октябрьским утром приехавшие со всего города бунтовщики увидели перед носом замки на дверях.",
+      "en": "One October morning, the rebels who had come from all over the city found locks on the doors right in front of their noses.",
+      "zh": "十月的一个早晨，从全城赶来的反抗者发现门上挂着锁。",
+      "ja": "10月のある朝、市中から集まった反乱者たちは、目の前のドアに錠がかかっているのを見た。"
+    },
+    {
+      "id": 20,
+      "ru": "Учителей отрезали от личных вещей, оставленных в классах.",
+      "en": "The teachers were cut off from their personal belongings left in the classrooms.",
+      "zh": "老师们被隔离在他们留在教室里的个人物品之外。",
+      "ja": "教師たちは教室に残した私物から切り離された。"
+    },
+    {
+      "id": 21,
+      "ru": "Гриз смог войти в здание лишь в январе.",
+      "en": "Griz was only able to enter the building in January.",
+      "zh": "格里兹直到一月份才能进入大楼。",
+      "ja": "グリズは1月になってようやく建物に入ることができた。"
+    },
+    {
+      "id": 22,
+      "ru": "В одну из комнат кто-то из учеников принес цветы и аквариум, когда начинали обустраиваться.",
+      "en": "Into one of the rooms, one of the students had brought flowers and an aquarium when they were first settling in.",
+      "zh": "当他们开始安顿下来时，有一个学生在其中一个房间放了花和鱼缸。",
+      "ja": "落ち着き始めた頃、生徒の誰かが部屋の一つに花と水槽を持ち込んでいた。"
+    },
+    {
+      "id": 23,
+      "ru": "Отперев комнату, директор увидел сухие стебли и глыбы льда с застывшими кусками рваных оранжевых лент.",
+      "en": "Unlocking the room, the director saw dried stems and blocks of ice with frozen pieces of torn orange ribbons.",
+      "zh": "打开房间后，校长看到了干枯的花茎和冰块，冰块里冻着撕碎的橙色条带。",
+      "ja": "部屋を開けると、校長は乾いた茎と、ちぎれたオレンジ色のリボンの断片が凍りついた氷の塊を見た。"
+    },
+    {
+      "id": 24,
+      "ru": "Присмотревшись, он понял, что это замерзшие рыбы.",
+      "en": "Looking closer, he realized these were frozen fish.",
+      "zh": "仔细一看，他意识到那些是冻住的鱼。",
+      "ja": "よく見ると、それが凍った魚であることがわかった。"
+    },
+    {
+      "id": 25,
+      "ru": "Школу приказали размазать по соседним учреждениям.",
+      "en": "The school was ordered to be dispersed among neighboring institutions.",
+      "zh": "学校被命令分散到邻近的机构中。",
+      "ja": "学校は近隣の施設に分散させるよう命じられた。"
+    },
+    {
+      "id": 26,
+      "ru": "Но диссиденты скандалили громко и умело, созвали митинг у Мариинского дворца.",
+      "en": "But the dissidents raised a scandal loudly and skillfully, convening a rally at the Mariinsky Palace.",
+      "zh": "但异见者们大声而巧妙地抗议，在马林斯基宫前召集了一场集会。",
+      "ja": "しかし反体制派は声高に巧みに騒ぎ立て、マリインスキー宮殿前で集会を開いた。"
+    },
+    {
+      "id": 27,
+      "ru": "Город обратил внимание, что из-за склок дети пропускают занятия, и решил вернуть классы гимназии – пусть доучиваются, но новых набирать нельзя.",
+      "en": "The city noticed that because of the squabbles children were missing classes and decided to return the classes to the gymnasium—let them finish their studies, but no new enrollment allowed.",
+      "zh": "市政府注意到由于争吵孩子们错过了上课，决定把班级归还给文理中学——让他们学完，但不能招收新生。",
+      "ja": "市は争いのせいで子供たちが授業を欠席していることに気づき、クラスをギムナジウムに戻すことにした——卒業させるが、新入生は受け入れない。"
+    },
+    {
+      "id": 28,
+      "ru": "В новом здании впервые возник компьютерный класс и начались приключения, связанные с дуровскими штучками.",
+      "en": "In the new building, a computer class emerged for the first time, and adventures connected with Durov's tricks began.",
+      "zh": "在新大楼里，第一次出现了电脑教室，与杜罗夫恶作剧相关的冒险开始了。",
+      "ja": "新しい建物にはじめてコンピュータ教室ができ、ドゥーロフのいたずらに関連する冒険が始まった。"
+    },
+    {
+      "id": 29,
+      "ru": "Павел как раз учился программировать и однажды утром завесил экраны всех компьютеров портретом учителя Михаила Бараза с надписью «Must die».",
+      "en": "Pavel was just learning to program and one morning covered all the computer screens with a portrait of teacher Mikhail Baraz with the caption \"Must die.\"",
+      "zh": "帕维尔当时正在学习编程，有一天早上他把所有电脑屏幕都换成了老师米哈伊尔·巴拉兹的肖像，配有"Must die"的字样。",
+      "ja": "パーヴェルはちょうどプログラミングを学んでいたところで、ある朝、すべてのコンピュータの画面を教師ミハイル・バラズの肖像画で覆い、「Must die」と書いた。"
+    },
+    {
+      "id": 30,
+      "ru": "Начались догонялки.",
+      "en": "A game of cat and mouse began.",
+      "zh": "一场追逐游戏开始了。",
+      "ja": "追いかけっこが始まった。"
+    },
+    {
+      "id": 31,
+      "ru": "Учитель закрывал ученику доступ к сети, а тот раз за разом взламывал пароли.",
+      "en": "The teacher would block the student's network access, and he would crack the passwords again and again.",
+      "zh": "老师封锁学生的网络访问权限，但他一次又一次地破解密码。",
+      "ja": "教師は生徒のネットワークアクセスを遮断し、生徒は何度もパスワードを破った。"
+    },
+    {
+      "id": 32,
+      "ru": "Дуров так надоел Баразу, что тот дал ему задание написать игру – проект на несколько месяцев.",
+      "en": "Durov annoyed Baraz so much that he gave him an assignment to write a game—a project for several months.",
+      "zh": "杜罗夫把巴拉兹烦得够呛，以至于巴拉兹给他布置了一个任务——写一个游戏，这是一个需要几个月的项目。",
+      "ja": "ドゥーロフはバラズをひどく困らせたので、バラズは彼にゲームを書く課題を与えた——数ヶ月かかるプロジェクトだった。"
+    },
+    {
+      "id": 33,
+      "ru": "Две недели информатик отдыхал, но отпуск кончился внезапно – к нему явился Дуров с готовой игрой, написанной во Flash.",
+      "en": "The computer science teacher rested for two weeks, but the vacation ended abruptly—Durov appeared before him with a finished game written in Flash.",
+      "zh": "计算机老师休息了两周，但假期突然结束了——杜罗夫带着一个用Flash编写的完整游戏出现在他面前。",
+      "ja": "情報教師は2週間休んだが、休暇は突然終わった——ドゥーロフがFlashで書いた完成したゲームを持って現れたのだ。"
+    },
+    {
+      "id": 34,
+      "ru": "У хакера был свой раздражитель.",
+      "en": "The hacker had his own irritant.",
+      "zh": "这个黑客也有自己的刺激源。",
+      "ja": "ハッカーには彼自身の刺激物があった。"
+    },
+    {
+      "id": 35,
+      "ru": "Брат Николай попал в систему тех же математических кружков, из которой вырос Григорий Перельман и другие топологи и геометры.",
+      "en": "Brother Nikolai got into the system of the same mathematical circles from which Grigory Perelman and other topologists and geometers had emerged.",
+      "zh": "哥哥尼古拉进入了同一个数学圈子体系，格里戈里·佩雷尔曼和其他拓扑学家、几何学家都是从这个体系中成长起来的。",
+      "ja": "兄のニコライは、グリゴリー・ペレルマンや他のトポロジストや幾何学者を輩出したのと同じ数学サークルのシステムに入った。"
+    },
+    {
+      "id": 36,
+      "ru": "Его вычислил на городской олимпиаде известный тренер Александр Голованов и заманил в кружок не менее известного Сергея Рукшина – учителя Перельмана.",
+      "en": "He was spotted at the city olympiad by famous coach Alexander Golovanov and lured into the circle of the equally famous Sergei Rukshin—Perelman's teacher.",
+      "zh": "著名教练亚历山大·戈洛瓦诺夫在城市奥林匹克竞赛中发现了他，并把他引入了同样著名的谢尔盖·鲁克申——佩雷尔曼的老师——的圈子。",
+      "ja": "彼は市のオリンピックで有名なコーチ、アレクサンドル・ゴロワノフに見出され、同様に有名なセルゲイ・ルクシン——ペレルマンの教師——のサークルに引き込まれた。"
+    },
+    {
+      "id": 37,
+      "ru": "Вскоре после этого Николая рекрутировали в знаменитую «единичку» – спецкласс 239-й школы, где учились призеры олимпиад.",
+      "en": "Soon after, Nikolai was recruited into the famous \"unit\"—the special class of School 239, where olympiad prize winners studied.",
+      "zh": "不久之后，尼古拉被招入著名的"一班"——第239学校的特殊班级，那里聚集着奥林匹克竞赛获奖者。",
+      "ja": "その後まもなく、ニコライは有名な「1組」——オリンピックの受賞者たちが学ぶ239番学校の特別クラスに引き抜かれた。"
+    },
+    {
+      "id": 38,
+      "ru": "Помимо математики он с головой погрузился в программирование.",
+      "en": "Besides mathematics, he immersed himself completely in programming.",
+      "zh": "除了数学，他还全身心投入到编程中。",
+      "ja": "数学に加えて、彼はプログラミングにも没頭した。"
+    }
+  ],
+  "translator_notes": [
+    "Mikhail Mirilashvili - businessman and father of Slava, was accused of kidnapping in early 2000s and imprisoned",
+    "Slava Mirilashvili - later became major VKontakte investor after reconnecting with Durov",
+    "Chyornaya Rechka - 'Black River' district in St. Petersburg, historic site of Pushkin's duel",
+    "Mariinsky Palace - seat of St. Petersburg Legislative Assembly",
+    "Must die - English phrase used in Durov's prank, reflecting his exposure to internet culture",
+    "Mikhail Baraz - computer science teacher who became Durov's first 'adversary' in hacking",
+    "Grigory Perelman - legendary mathematician who proved the Poincaré conjecture and refused Fields Medal",
+    "Alexander Golovanov - famous math olympiad coach in St. Petersburg",
+    "Sergei Rukshin - Perelman's teacher and renowned math circle leader",
+    "School 239 - Physical-Mathematical Lyceum 239, elite STEM school in St. Petersburg",
+    "The 'unit' (единичка) - refers to Class 1, the top specialized math class"
+  ],
+  "total_sentences": 38,
+  "page_type": "narrative"
+}
