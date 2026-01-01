@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-d536
 - **Short ID**: d536
-- **Heartbeat**: 1767258398
+- **Heartbeat**: 1767258598
 - **Status**: translating
 
 ## Current Work
-- **Claimed Page**: 91
-- **Started At**: 1767258398
+- **Claimed Page**: 92
+- **Started At**: 1767258598
 
 ## Completed Pages
 | Page | Completed At | Hash |
@@ -53,6 +53,7 @@
 | 88   | 1767257975 | 34c07925 |
 | 89   | 1767258187 | 2156ced6 |
 | 90   | 1767258398 | 0b5e1a92 |
+| 91   | 1767258598 | 8be0103c |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
@@ -63,4 +64,4 @@
 | c68e     | active | 37           | recent |
 
 ## Notes
-Completed 40 pages (1-15, 17-22, 26-27, 30-35, 80-90). Page 90: VK vs Odnoklassniki competition, Durov's snobby "provincials" comment, Usmanov meeting announcing no merger, Durov's bold 60% request.
+Completed 41 pages (1-15, 17-22, 26-27, 30-35, 80-91). Page 91: Kazakh president's security at Ritz, Durov deletes Slava/Lev's id3/id4 accounts, "virtual murder", friendship destroyed.
