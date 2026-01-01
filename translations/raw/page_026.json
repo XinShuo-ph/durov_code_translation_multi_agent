@@ -1,0 +1,157 @@
+{
+  "page": 26,
+  "chapter": 2,
+  "section": "Chapter 2 - The Architect",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "– Аспен, Калифорния. Это горнолыжный курорт, для очень богатых людей. Они оставляют чаевые. Думаю, может, официантом поехать.",
+      "en": "Aspen, California. It's a ski resort, for very rich people. They leave tips. I'm thinking, maybe, I'll go as a waiter.",
+      "zh": "阿斯彭，加利福尼亚。这是一个滑雪胜地，供非常富有的人使用。他们会给小费。我在想，也许，我可以去当服务员。",
+      "ja": "「アスペン、カリフォルニア。スキーリゾートで、非常に裕福な人々のためのものだ。彼らはチップを置いていく。考えているんだ、多分ウェイターとして行こうかと」"
+    },
+    {
+      "id": 2,
+      "ru": "– Как же, Павел Валерьевич, разве это возможно: вы – и тарелки?",
+      "en": "How so, Pavel Valeryevich, is that even possible: you - and plates?",
+      "zh": "怎么会呢，帕维尔·瓦列里耶维奇，这可能吗：您——和盘子？",
+      "ja": "「まさか、パーヴェル・ヴァレリエヴィチ、そんなことが可能でしょうか：あなたが——お皿を？」"
+    },
+    {
+      "id": 3,
+      "ru": "– Возможно, Анна Дмитриевна, все возможно.",
+      "en": "Perhaps, Anna Dmitrievna, everything is possible.",
+      "zh": "也许可以，安娜·德米特里耶夫娜，一切皆有可能。",
+      "ja": "「おそらく、アンナ・ドミトリエヴナ、すべては可能です」"
+    },
+    {
+      "id": 4,
+      "ru": "Осенним вечером Дуров с Перекопским засиделись допоздна в квартире на Сенной. Они часто учили заданные слова или возились с домашним заданием, а потом трепались, пока не клонило в сон. Первый курс закончился, и грянул второй.",
+      "en": "On an autumn evening, Durov and Perekopsky stayed up late in the apartment on Sennaya. They often studied assigned words or worked on homework, and then chatted until they got sleepy. The first year ended, and the second began.",
+      "zh": "一个秋天的晚上，杜罗夫和佩列科普斯基在森纳亚的公寓里待到很晚。他们经常学习布置的单词或做作业，然后聊天直到困了。第一年结束了，第二年开始了。",
+      "ja": "秋の夕方、ドゥーロフとペレコプスキーはセンナヤのアパートで遅くまで起きていた。彼らはよく課題の単語を勉強したり、宿題に取り組んだりして、それから眠くなるまでおしゃべりをした。1年目が終わり、2年目が始まった。"
+    },
+    {
+      "id": 5,
+      "ru": "Дуров любил проповедовать. Он учил Перекопского правильному отношению к учебе: главное – экзамены и подготовка к ним; если не сдал, не стоит убиваться, следует всегда оставаться хладнокровным.",
+      "en": "Durov loved to preach. He taught Perekopsky the right attitude to studying: the main thing is exams and preparation for them; if you fail, you shouldn't kill yourself over it, you should always remain cool-headed.",
+      "zh": "杜罗夫喜欢说教。他教佩列科普斯基正确对待学习：最重要的是考试和备考；如果没考过，不应该为此自责，应该始终保持冷静。",
+      "ja": "ドゥーロフは説教が好きだった。彼はペレコプスキーに勉強に対する正しい態度を教えた：大切なのは試験とその準備だ；もし落ちても、自分を責めるべきではなく、常に冷静でいるべきだ。"
+    },
+    {
+      "id": 6,
+      "ru": "«Преподов», как и всех людей, надо понимать – в смысле потребностей, какие мотивы ими управляют, – а также четко улавливать, что им нужно от тебя, и предоставлять это.",
+      "en": "You need to understand 'professors', like all people - in terms of needs, what motives drive them - and also clearly perceive what they need from you, and provide it.",
+      "zh": "'老师'和所有人一样需要理解——从需求的角度，是什么动机驱动他们——还要清楚地把握他们需要你做什么，并提供给他们。",
+      "ja": "「教授」も、すべての人と同様に理解する必要がある——彼らのニーズ、何が彼らを動かすのかという観点で——そして彼らがあなたに何を求めているかを明確に把握し、それを提供する。"
+    },
+    {
+      "id": 7,
+      "ru": "«В девяноста девяти случаях знакомств Дуров хочет понравиться, чтобы отношение к нему изменилось в лучшую сторону», – скажет Перекопский позже.",
+      "en": "'In ninety-nine cases of meeting someone, Durov wants to be liked, so that the attitude toward him changes for the better', Perekopsky would say later.",
+      "zh": "'在九十九次认识新人的情况下，杜罗夫都想让人喜欢他，这样对他的态度就会变得更好'，佩列科普斯基后来会这样说。",
+      "ja": "「99回の出会いのうち、ドゥーロフは好かれたいと思っている、自分に対する態度がより良くなるように」とペレコプスキーは後に語る。"
+    },
+    {
+      "id": 8,
+      "ru": "Мы будем сидеть в ресторане на крыше самой дорогой гостиницы Москвы, и за его спиной будут блестеть звезды, а гуляющие на Манежной граждане покажутся кем-то вроде термитов, топчущихся около башен недосягаемого муравейника.",
+      "en": "We would be sitting in a restaurant on the roof of the most expensive hotel in Moscow, and behind him the stars would shine, while the citizens strolling on Manezhnaya would seem like termites, shuffling around the towers of an unreachable anthill.",
+      "zh": "我们会坐在莫斯科最贵酒店屋顶的餐厅里，他身后是闪烁的星星，而在马涅日广场散步的市民看起来就像白蚁，在遥不可及的蚁丘塔楼周围踱步。",
+      "ja": "私たちはモスクワで最も高級なホテルの屋上のレストランに座り、彼の背後には星が輝き、マネージ広場を歩く市民たちは、手の届かない蟻塚の塔の周りをうろうろするシロアリのように見えるだろう。"
+    },
+    {
+      "id": 9,
+      "ru": "Дуров происходил из семьи менее состоятельной, чем у одногруппников, а Перекопский мог позволить себе больше, но и он был ограничен в средствах.",
+      "en": "Durov came from a less wealthy family than his classmates, and Perekopsky could afford more, but he too was limited in means.",
+      "zh": "杜罗夫出身于比同学更不富裕的家庭，佩列科普斯基能负担得起更多，但他的财力也有限。",
+      "ja": "ドゥーロフはクラスメートより裕福でない家庭の出身で、ペレコプスキーはより余裕があったが、彼も手段に限りがあった。"
+    },
+    {
+      "id": 10,
+      "ru": "После того как «ВКонтакте» стала стоить миллиарды долларов, оба оторвались и жили в лучших гостиницах, работали в самом дорогом офисе Петербурга. «Мы сделали этот мир…»",
+      "en": "After VKontakte became worth billions of dollars, both broke free and lived in the best hotels, worked in the most expensive office in St. Petersburg. 'We made this world...'",
+      "zh": "在VKontakte价值数十亿美元之后，两人都脱颖而出，住在最好的酒店，在圣彼得堡最贵的办公室工作。'我们创造了这个世界……'",
+      "ja": "VKontakteが数十億ドルの価値を持つようになった後、二人は羽ばたき、最高のホテルに住み、サンクトペテルブルクで最も高価なオフィスで働いた。「私たちはこの世界を作った…」"
+    },
+    {
+      "id": 11,
+      "ru": "Мантра Дурова касалась информации. Интернет стер прежнюю картину мира, люди загружают в сеть все больше данных, их жизнь перетекает в двоичный код.",
+      "en": "Durov's mantra concerned information. The Internet erased the old picture of the world, people upload more and more data to the network, their lives flow into binary code.",
+      "zh": "杜罗夫的口头禅与信息有关。互联网抹去了旧的世界图景，人们向网络上传越来越多的数据，他们的生活流入二进制代码。",
+      "ja": "ドゥーロフのマントラは情報に関するものだった。インターネットは世界の旧い姿を消し去り、人々はネットワークにますます多くのデータをアップロードし、彼らの生活はバイナリコードに流れ込む。"
+    },
+    {
+      "id": 12,
+      "ru": "Сообща они создают контент и саморегулирующиеся сообщества – тому примером «Википедия». Деньги не главное в свободном интернете. Главное – власть, которая принадлежит тому, кто контролирует потоки информации.",
+      "en": "Together they create content and self-regulating communities - Wikipedia is an example. Money is not the main thing on the free internet. The main thing is power, which belongs to whoever controls the flow of information.",
+      "zh": "他们共同创建内容和自我调节的社区——维基百科就是一个例子。在自由互联网上，金钱不是主要的。主要的是权力，它属于控制信息流的人。",
+      "ja": "共に彼らはコンテンツと自己調整コミュニティを作る——ウィキペディアがその例だ。自由なインターネットでは金が主要ではない。主要なのは権力であり、それは情報の流れを制御する者に属する。"
+    },
+    {
+      "id": 13,
+      "ru": "«Смотри, – проговорил Дуров. – Что такое университет? Это же раздробленная структура с удельными княжествами. Физики в своем Петергофе вообще никого не видят, экономический сидит отдельно, юристы тоже».",
+      "en": "'Look', said Durov. 'What is a university? It's a fragmented structure with appanage principalities. The physicists in their Peterhof don't see anyone at all, the economics faculty sits separately, the lawyers too.'",
+      "zh": "'你看'，杜罗夫说。'大学是什么？这是一个碎片化的结构，有各自的领地。彼得霍夫的物理学家根本看不到任何人，经济学院单独坐着，法律学院也是如此。'",
+      "ja": "「見てくれ」とドゥーロフは言った。「大学とは何だ？これは分邑公国を持つ分断された構造だ。ペテルホフの物理学者たちは誰も見えない、経済学部は別に座り、法学部もそうだ」"
+    },
+    {
+      "id": 14,
+      "ru": "Перекопский подбрасывал апельсин. Фрукт долетал до потолка, но вовремя останавливался и падал в руку. «Я слышал, на истфаке процветает жуткое политиканство, студсовет, политические споры, – добавил Перекопский, пряча зевок. – Все кипит».",
+      "en": "Perekopsky was tossing an orange. The fruit would fly up to the ceiling, but stop in time and fall into his hand. 'I heard that the history faculty has terrible politicking, student council, political disputes', added Perekopsky, hiding a yawn. 'Everything is boiling.'",
+      "zh": "佩列科普斯基抛着一个橙子。水果会飞到天花板，但及时停下来落回手中。'我听说历史系有可怕的政治斗争，学生会，政治争论'，佩列科普斯基补充说，掩饰着哈欠。'一切都在沸腾。'",
+      "ja": "ペレコプスキーはオレンジを投げ上げていた。果物は天井まで飛んでいったが、ちょうどよく止まって手に落ちた。「聞いたところでは、歴史学部ではひどい政治活動、学生評議会、政治的論争が盛んだそうだ」とペレコプスキーはあくびを隠しながら付け加えた。「すべてが沸騰している」"
+    },
+    {
+      "id": 15,
+      "ru": "«Ну да, – кивнул Дуров. – Пассионарная прослойка либо за профком, либо против профкома. Те контролируют бюджет – распределяют деньги на мероприятия. Есть за что бороться.",
+      "en": "'Well yes', nodded Durov. 'The passionate layer is either for the trade union committee or against the trade union committee. They control the budget - distribute money for events. There is something to fight for.",
+      "zh": "'是的'，杜罗夫点点头。'激进的阶层要么支持工会委员会，要么反对工会委员会。他们控制预算——分配活动资金。有值得争取的东西。",
+      "ja": "「そうだな」とドゥーロフはうなずいた。「熱狂的な層は労働組合委員会を支持するか反対するかだ。彼らは予算を管理している——イベントの資金を配分する。戦う価値のあるものがある。"
+    },
+    {
+      "id": 16,
+      "ru": "К тому же людям важны титулы, это же круто – стать во главе профкома или студкома». Последние дни он торчал на форумах факультетов и разбирался в законах, по которым разгорались и затухали дискуссии.",
+      "en": "Besides, titles are important to people, it's cool - to become the head of the trade union or student committee.' The last few days he had been hanging out on faculty forums and figuring out the laws by which discussions flared up and died down.",
+      "zh": "而且头衔对人们很重要，成为工会或学生会主席很酷。'最近几天，他一直泡在学院论坛上，弄清讨论升温和平息的规律。",
+      "ja": "それに、人々にとって肩書きは重要だ、かっこいいじゃないか——労働組合や学生委員会のトップになるのは」最近数日、彼は学部のフォーラムに入り浸り、議論が燃え上がったり消えたりする法則を理解しようとしていた。"
+    },
+    {
+      "id": 17,
+      "ru": "Дуров визионировал: «Мы придумаем площадку для всех факультетов и создадим иллюзию, что все уже здесь. Ключевых людей приглашаем на роль модераторов – вместе с ними к нам придет аудитория».",
+      "en": "Durov envisioned: 'We'll come up with a platform for all faculties and create the illusion that everyone is already here. We invite key people to be moderators - together with them, an audience will come to us.'",
+      "zh": "杜罗夫设想道：'我们会为所有学院设计一个平台，创造出每个人都已经在这里的幻觉。我们邀请关键人物担任版主——与他们一起，观众就会来到我们这里。'",
+      "ja": "ドゥーロフはビジョンを語った：「私たちはすべての学部のためのプラットフォームを考え出し、みんながすでにここにいるという幻想を作る。キーパーソンをモデレーターとして招待する——彼らと一緒に、オーディエンスが私たちのところに来る」"
+    },
+    {
+      "id": 18,
+      "ru": "«М-м-м, – бросок апельсином, – а что их заставит уйти со своих площадок на нашу?»",
+      "en": "'Hmm', an orange toss, 'and what will make them leave their platforms for ours?'",
+      "zh": "'嗯'，扔了一下橙子，'什么能让他们离开自己的平台来到我们这里？'",
+      "ja": "「うーん」オレンジを投げながら「何が彼らを自分たちのプラットフォームから私たちのところに移らせるんだ？」"
+    },
+    {
+      "id": 19,
+      "ru": "«Это будет форум, где можно знакомиться с народом с других факультетов, искать общие темы, создавать альтернативные центры силы, становиться известным, – перечислил Дуров. – Мы будем в двадцать раз сильнее, и каждый из примкнувших к нам сможет найти применение этой силы в бизнесе или личной жизни».",
+      "en": "'It will be a forum where you can meet people from other faculties, find common topics, create alternative centers of power, become famous', listed Durov. 'We will be twenty times stronger, and everyone who joins us will be able to find use for this power in business or personal life.'",
+      "zh": "'这将是一个论坛，你可以认识其他学院的人，寻找共同话题，创建替代的权力中心，成名'，杜罗夫列举道。'我们将强大二十倍，每个加入我们的人都能在商业或个人生活中找到这种力量的用途。'",
+      "ja": "「これは他の学部の人々と知り合い、共通のトピックを見つけ、代替の力の中心を作り、有名になれるフォーラムになる」とドゥーロフは列挙した。「私たちは20倍強くなり、私たちに加わるすべての人がビジネスや私生活でこの力を活用できるようになる」"
+    }
+  ],
+  "translator_notes": [
+    "Page 26 continues Chapter 2 with the origin story of VKontakte",
+    "Aspen reference is playful - Durov's humor about working as a waiter",
+    "Note: Aspen is in Colorado, not California - possible error in original or character's playful inaccuracy",
+    "Sennaya - Sennaya Square, a central area in St. Petersburg",
+    "Manezhnaya Square - central square in Moscow near the Kremlin",
+    "Peterhof - location of the physics faculty of St. Petersburg University",
+    "Appanage principalities (udelnye knyazhestva) - historical reference to fragmented Russian principalities",
+    "Profkom - trade union committee, had significant power in Soviet-era universities",
+    "Studkom - student committee",
+    "This page describes the conceptual birth of VKontakte as a university-wide platform"
+  ],
+  "research_used": [
+    "St. Petersburg State University campus geography",
+    "Russian university governance structures (profkom, studkom)",
+    "The networking effect strategy that would define VKontakte's growth"
+  ]
+}
