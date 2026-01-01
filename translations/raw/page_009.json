@@ -1,0 +1,75 @@
+{
+  "page": 9,
+  "chapter": 0,
+  "section": "Prologue",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Павел, -- спросил один из программистов, -- а правда, что наш инвестор хочет слить бизнесы в один холдинг -- и мы как бы войдем туда? Пауза. Вполне возможно, что так.",
+      "en": "'Pavel,' one of the programmers asked, 'is it true that our investor wants to merge the businesses into one holding company -- and we would somehow be part of it?' A pause. 'Quite possibly so.'",
+      "zh": "'帕维尔，'一位程序员问道，'真的吗，我们的投资人想把各个业务合并成一个控股公司——我们也会被纳入其中？'停顿。'很有可能是这样。'",
+      "ja": "「パーヴェル」と一人のプログラマーが尋ねた。「本当ですか、うちの投資家がビジネスを一つの持株会社に統合しようとしていて、僕たちもそこに入ることになるって？」沈黙。「その可能性は十分にある」"
+    },
+    {
+      "id": 2,
+      "ru": "Еще пауза. Нёрды сознавали, что слияние с корпорацией может принести больше проблем, чем ярость сетевых коммерсантов. Речь шла о возможной войне за независимость, потеря которой означала бы распад их коммуны, живущей по своим законам.",
+      "en": "Another pause. The nerds realized that merging with a corporation could bring more problems than the fury of online merchants. It was about a possible war for independence, the loss of which would mean the dissolution of their commune living by its own laws.",
+      "zh": "又是一阵沉默。书呆子们意识到，与公司合并可能带来的问题比网络商人的愤怒更多。这是关于一场可能的独立战争，失去独立将意味着他们这个按自己法则生活的社群的瓦解。",
+      "ja": "さらに沈黙。ナードたちは、企業との合併がオンライン商人の怒りよりも多くの問題をもたらす可能性があることを悟っていた。それは独立をめぐる戦争の可能性についてであり、それを失うことは、自らの法則で生きる彼らのコミューンの崩壊を意味した。"
+    },
+    {
+      "id": 3,
+      "ru": "Мало кто в доме Зингера догадывался, что война идет с первого года жизни ВКонтакте и имеет свое предназначение.",
+      "en": "Few in the Singer House guessed that the war had been going on since VKontakte's first year and had its own purpose.",
+      "zh": "辛格大楼里很少有人猜到，这场战争从VKontakte诞生的第一年就开始了，并且有其自身的使命。",
+      "ja": "ジンガーハウスでは、VKontakteの初年度から戦争が続いており、それには独自の目的があることに気づいている者はほとんどいなかった。"
+    },
+    {
+      "id": 4,
+      "ru": "Возможно, это знали медные валькирии, но никому не говорили и молчали, взирая на человеческий трафик, который тек под ними, несмотря на то что собор, мосты и весь Петербург погрузились в ночь.",
+      "en": "Perhaps the copper valkyries knew, but they told no one and remained silent, gazing at the human traffic flowing beneath them, even as the cathedral, bridges, and all of St. Petersburg sank into night.",
+      "zh": "也许铜铸的女武神知道，但她们什么都没说，只是沉默地注视着脚下流动的人群，尽管大教堂、桥梁和整个彼得堡都已沉入夜色。",
+      "ja": "おそらく銅のワルキューレたちは知っていたが、誰にも言わず、大聖堂も橋もサンクトペテルブルク全体が夜に沈んでいく中、足元を流れる人々の往来を見つめながら沈黙していた。"
+    },
+    {
+      "id": 5,
+      "ru": "Историю с переговорами мне рассказали ее участники со стороны ВКонтакте, предусмотрительно записавшие беседу на диктофон (их оппонент не отреагировал на просьбу прокомментировать отношения с домом Зингера).",
+      "en": "The story of the negotiations was told to me by its participants from the VKontakte side, who had prudently recorded the conversation on a dictaphone (their opponent did not respond to the request to comment on relations with the Singer House).",
+      "zh": "关于谈判的故事是VKontakte方面的参与者告诉我的，他们谨慎地用录音机录下了对话（对方没有回应评论与辛格大楼关系的请求）。",
+      "ja": "交渉の話は、用意周到にもディクタフォンで会話を録音していたVKontakte側の参加者から聞いた（相手方はジンガーハウスとの関係についてコメントを求める依頼に応じなかった）。"
+    },
+    {
+      "id": 6,
+      "ru": "Я слушал и размышлял о том, что мы не заметили, как нёрды сломали картину мира.",
+      "en": "I listened and reflected on the fact that we hadn't noticed how the nerds had broken the world picture.",
+      "zh": "我一边听，一边思考，我们竟没有注意到书呆子们是如何打破了世界的图景。",
+      "ja": "私は聞きながら、ナードたちがいかにして世界像を打ち壊したか、我々が気づかなかったことについて思いを巡らせていた。"
+    },
+    {
+      "id": 7,
+      "ru": "Сто лет назад человек скакал на лошади к другу, позже пугался прибывающего поезда и плакал, услышав голос в трубке на расстоянии.",
+      "en": "A hundred years ago, a person would ride a horse to visit a friend, later be frightened by an arriving train, and cry upon hearing a voice in a receiver from a distance.",
+      "zh": "一百年前，人们骑马去拜访朋友，后来被进站的火车吓到，听到电话听筒里远方传来的声音时会哭泣。",
+      "ja": "百年前、人は友人を訪ねるために馬に乗り、後に到着する列車に怯え、遠くから受話器で声を聞いて泣いたものだ。"
+    },
+    {
+      "id": 8,
+      "ru": "Знание в пределах одной страны доставлялось днями, часами, наконец, минутами -- теперь люди обмениваются информацией мгновенно.",
+      "en": "Knowledge within a single country was delivered in days, hours, finally minutes -- now people exchange information instantly.",
+      "zh": "一国之内的信息传递曾需要数天、数小时，后来是数分钟——现在人们瞬间交换信息。",
+      "ja": "一国内での知識は日単位、時間単位、そして分単位で届けられていた——今では人々は瞬時に情報を交換する。"
+    }
+  ],
+  "translator_notes": [
+    "Page 9 shifts to author's philosophical reflection on technology's impact",
+    "Singer House copper valkyries - architectural detail on the building's dome, used as literary device",
+    "Reference to the war being fought since VKontakte's founding - foreshadowing investor conflicts",
+    "Author reflecting on how technology changed human consciousness",
+    "The 'commune living by its own laws' - VKontakte's unique corporate culture"
+  ],
+  "research_used": [
+    "Singer House architecture - Art Nouveau building with copper statues",
+    "VKontakte investor history - conflicts with Mail.ru Group",
+    "History of communication technology"
+  ]
+}
