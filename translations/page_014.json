@@ -1,0 +1,320 @@
+{
+  "page": 14,
+  "chapter": 1,
+  "chapter_title": "Ботанический сад (Botanical Garden)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "рано выучился арифметике, а в семь лет щелкал кубические уравнения.",
+      "en": "learned arithmetic early, and at seven was cracking cubic equations.",
+      "zh": "很早就学会了算术，七岁时就能解三次方程。",
+      "ja": "早くから算数を習い、7歳で三次方程式を解いていた。"
+    },
+    {
+      "id": 3,
+      "ru": "Однажды его даже зазвали в телевизор на шоу вундеркиндов.",
+      "en": "Once he was even invited to appear on television on a show for child prodigies.",
+      "zh": "有一次他甚至被邀请参加一个神童电视节目。",
+      "ja": "一度は天才児のテレビ番組に招待されたこともあった。"
+    },
+    {
+      "id": 4,
+      "ru": "Это произошло, уже когда семья перебралась с Балтики на Адриатику.",
+      "en": "This happened after the family had moved from the Baltic to the Adriatic.",
+      "zh": "这发生在全家从波罗的海搬到亚得里亚海之后。",
+      "ja": "これは家族がバルト海からアドリア海へ引っ越した後のことだった。"
+    },
+    {
+      "id": 5,
+      "ru": "Отцу, доктору филологии, предложили учить иностранцев русскому языку в Индии или Италии.",
+      "en": "The father, a Doctor of Philology, was offered a position teaching foreigners Russian in India or Italy.",
+      "zh": "父亲是语言学博士，收到了去印度或意大利教外国人俄语的工作邀请。",
+      "ja": "言語学博士の父親は、インドかイタリアで外国人にロシア語を教える職を提示された。"
+    },
+    {
+      "id": 6,
+      "ru": "Индусы манили поместьем с садом, прислугой, комфортом.",
+      "en": "The Indians enticed with an estate with a garden, servants, and comfort.",
+      "zh": "印度人提供的条件诱人：带花园的庄园、仆人、舒适的生活。",
+      "ja": "インド人は庭付きの邸宅、使用人、快適さで誘った。"
+    },
+    {
+      "id": 7,
+      "ru": "Итальянцы известили, что главу Института русского языка ждут в однокомнатной квартире, но в Турине.",
+      "en": "The Italians informed that the head of the Russian Language Institute would be awaited in a one-room apartment, but in Turin.",
+      "zh": "意大利人通知说，俄语学院院长将入住一套一居室公寓，但在都灵。",
+      "ja": "イタリア人からは、ロシア語学院の長がワンルームアパートで待っていると知らされた。ただしトリノで。"
+    },
+    {
+      "id": 8,
+      "ru": "Что выберет латинист?",
+      "en": "What would a Latinist choose?",
+      "zh": "一位拉丁语学者会选择什么？",
+      "ja": "ラテン語学者は何を選ぶだろうか？"
+    },
+    {
+      "id": 9,
+      "ru": "В общем, «мальчика с Сервантесом» – то есть Павла – не взяли в стесненные условия и оставили бабушке, пока не наладится быт.",
+      "en": "In any case, the \"boy with Cervantes\"—that is, Pavel—was not taken to the cramped conditions and was left with his grandmother until life got settled.",
+      "zh": "总之，"拿着塞万提斯的男孩"——也就是帕维尔——没有被带到那个狭小的环境中，而是留给了奶奶，等生活安顿下来再说。",
+      "ja": "結局、「セルバンテスの少年」——つまりパーヴェル——は狭い環境には連れて行かれず、生活が落ち着くまで祖母のもとに預けられた。"
+    },
+    {
+      "id": 10,
+      "ru": "Та жила на Невском проспекте в тридцатиметровой комнате, окруженной чистилищем коммуналки.",
+      "en": "She lived on Nevsky Prospekt in a thirty-square-meter room, surrounded by the purgatory of a communal apartment.",
+      "zh": "她住在涅瓦大街上一间三十平方米的房间里，周围是公共公寓的炼狱。",
+      "ja": "彼女はネフスキー大通りの30平米の部屋に住んでおり、コミュナルカの煉獄に囲まれていた。"
+    },
+    {
+      "id": 11,
+      "ru": "По блокадной привычке крутила страшное количество консервов и заполоняла полки банками.",
+      "en": "Due to her siege-era habits, she canned a frightening amount of preserves and filled the shelves with jars.",
+      "zh": "由于封锁时期养成的习惯，她制作了大量罐头，架子上摆满了瓶瓶罐罐。",
+      "ja": "封鎖時代の習慣から、彼女は恐ろしい量の保存食を作り、棚を瓶で埋め尽くしていた。"
+    },
+    {
+      "id": 12,
+      "ru": "Семья не сообщила Павлу, что летит в урезанном составе.",
+      "en": "The family did not tell Pavel that they were flying with a reduced party.",
+      "zh": "家人没有告诉帕维尔，他们是减员出发的。",
+      "ja": "家族はパーヴェルに、人数を減らして飛ぶとは告げなかった。"
+    },
+    {
+      "id": 13,
+      "ru": "Когда объявили едва ли не в последний момент, он, четырех лет от роду, не переварил это известие и начал бить банки предательства.",
+      "en": "When they announced it almost at the last moment, he, four years old, couldn't digest this news and began smashing jars of betrayal.",
+      "zh": "当他们几乎在最后一刻才宣布时，四岁的他无法接受这个消息，开始砸那些"背叛之罐"。",
+      "ja": "ほぼ最後の瞬間に告げられた時、4歳の彼はこの知らせを受け入れられず、裏切りの瓶を叩き割り始めた。"
+    },
+    {
+      "id": 14,
+      "ru": "Бабушка паниковала и жаловалась родителям: мальчик капризный и неуправляемый.",
+      "en": "The grandmother panicked and complained to the parents: the boy is capricious and uncontrollable.",
+      "zh": "奶奶惊慌失措，向父母抱怨：这男孩任性又难管教。",
+      "ja": "祖母はパニックになり、両親に愚痴をこぼした。男の子は気まぐれで手に負えないと。"
+    },
+    {
+      "id": 15,
+      "ru": "Среди ночи он щелкал кнопкой телевизора и пялился на экран.",
+      "en": "In the middle of the night he would click the TV button and stare at the screen.",
+      "zh": "半夜他会按下电视按钮，盯着屏幕看。",
+      "ja": "夜中にテレビのボタンを押して、画面を見つめていた。"
+    },
+    {
+      "id": 16,
+      "ru": "Показывали заседание во Дворце съездов, и его, как многих детей, захватывал поток непонятных и интересных слов: «президиум», «кандидат», «перестройка», «гласность», «кооператив».",
+      "en": "They were showing a session at the Palace of Congresses, and like many children, he was captivated by a stream of incomprehensible but interesting words: \"presidium,\" \"candidate,\" \"perestroika,\" \"glasnost,\" \"cooperative.\"",
+      "zh": "电视上正在播放苏维埃宫的会议，和许多孩子一样，他被一连串听不懂但很有趣的词语所吸引："主席团"、"候选人"、"改革"、"公开化"、"合作社"。",
+      "ja": "代議員宮殿での会議が放送されており、多くの子供と同様、彼は理解できないが興味深い言葉の流れに魅了された：「主席団」「候補者」「ペレストロイカ」「グラスノスチ」「協同組合」。"
+    },
+    {
+      "id": 17,
+      "ru": "Его первое воспоминание о себе – как сидел на ковре и строил из кубиков башню.",
+      "en": "His first memory of himself is sitting on a carpet and building a tower from blocks.",
+      "zh": "他对自己最早的记忆是坐在地毯上用积木搭塔。",
+      "ja": "彼の最初の記憶は、カーペットの上に座ってブロックで塔を作っていたことだ。"
+    },
+    {
+      "id": 18,
+      "ru": "Второе – как ставил кости домино одну на другую, стараясь забраться как можно выше, пока стела не рухнула.",
+      "en": "The second—how he stacked dominoes one on top of another, trying to go as high as possible, until the stele collapsed.",
+      "zh": "第二个记忆是把多米诺骨牌一块叠一块，尽量往高处叠，直到这座碑塔倒塌。",
+      "ja": "2番目は、ドミノを一つずつ積み上げ、できるだけ高くしようとして、塔が崩れるまでのこと。"
+    },
+    {
+      "id": 19,
+      "ru": "«Исступленное стремление к созиданию изначально есть практически у всех, просто у меня оно осталось по мере взросления и не было вытеснено псевдоценностями общества потребления, – этот пассаж высветился на экране в половину четвертого одного июньского утра.",
+      "en": "\"A frenzied drive to create is inherent in practically everyone from the start, it's just that in my case it remained as I grew up and wasn't displaced by the pseudo-values of consumer society,\" this passage lit up on the screen at half past three one June morning.",
+      "zh": ""几乎每个人与生俱来都有一种疯狂的创造欲望，只是在我身上，它在成长过程中保留了下来，没有被消费社会的伪价值观所取代，"这段话在六月的一个凌晨三点半出现在屏幕上。",
+      "ja": "「創造への狂おしい衝動は、もともとほぼ全員にある。ただ私の場合、成長しても残っていて、消費社会の疑似価値観に押し出されなかっただけだ」——このパッセージは6月のある朝、3時半に画面に表示された。"
+    },
+    {
+      "id": 20,
+      "ru": "– Возможно, потому что я сохранял голову в чистоте: не смотрел телевизор, не читал газет, не принимал на веру мнение авторитетов».",
+      "en": "\"Possibly because I kept my head clean: I didn't watch TV, didn't read newspapers, didn't take the opinions of authorities on faith.\"",
+      "zh": ""也许是因为我保持头脑清醒：不看电视，不读报纸，不盲目相信权威的意见。"",
+      "ja": "「おそらく、頭を清潔に保っていたからだ。テレビを見なかった、新聞を読まなかった、権威者の意見を鵜呑みにしなかった。」"
+    },
+    {
+      "id": 21,
+      "ru": "Мы переписывались восемь часов подряд, отвлекаясь на разговор с редактором (автор) и консультацию разработчиков (герой).",
+      "en": "We exchanged messages for eight hours straight, pausing for a conversation with the editor (the author) and a consultation with developers (the protagonist).",
+      "zh": "我们连续通信了八个小时，中间穿插着与编辑的交谈（作者这边）和与开发人员的咨询（主人公那边）。",
+      "ja": "私たちは8時間ぶっ続けでメッセージをやり取りし、編集者との会話（著者）や開発者との相談（主人公）で中断した。"
+    },
+    {
+      "id": 22,
+      "ru": "Подумав, Дуров добавил: «А может быть, это не причины, а следствия.",
+      "en": "After thinking, Durov added: \"Or maybe these are not causes, but consequences.",
+      "zh": "想了想，杜罗夫补充道："也许这些不是原因，而是结果。",
+      "ja": "考えた後、ドゥーロフは付け加えた。「あるいは、これらは原因ではなく結果かもしれない。"
+    },
+    {
+      "id": 23,
+      "ru": "Все, ухожу, я сегодня еще не ел».",
+      "en": "Anyway, I'm off, I haven't eaten today yet.\"",
+      "zh": "好了，我先走了，我今天还没吃东西呢。"",
+      "ja": "とにかく、もう行く。今日はまだ何も食べていないんだ。」"
+    },
+    {
+      "id": 24,
+      "ru": "Позднесоветский детский сад мало отличался от современного – раз ты прописан в таком-то районе, значит, твоя тарелка манной каши именно там.",
+      "en": "Late-Soviet kindergarten was little different from today's—if you're registered in such-and-such district, then your bowl of semolina porridge is right there.",
+      "zh": "苏联晚期的幼儿园和现在的差别不大——你在哪个区注册，你那碗粗麦粥就在哪里。",
+      "ja": "後期ソビエトの幼稚園は現代とほとんど変わらなかった——この地区に登録されているなら、セモリナ粥の皿はそこにある。"
+    },
+    {
+      "id": 25,
+      "ru": "Тусклыми утрами мальчик и пожилая женщина выходили из подъезда, пряча глаза от ветра, и ждали троллейбуса.",
+      "en": "On dim mornings the boy and the elderly woman would exit the building entrance, hiding their eyes from the wind, and wait for the trolleybus.",
+      "zh": "在阴暗的早晨，男孩和老妇人走出公寓楼，躲避着风，等待无轨电车。",
+      "ja": "薄暗い朝、少年と年配の女性は建物の入り口から出て、風から目を守りながらトロリーバスを待った。"
+    },
+    {
+      "id": 26,
+      "ru": "Цепляясь за перила, лезли в него, как альпинисты по веревке, и тратили часы своей жизни, чтобы достичь окраины.",
+      "en": "Clutching the handrails, they climbed in like mountaineers on a rope, and spent hours of their lives to reach the outskirts.",
+      "zh": "他们抓着扶手爬上去，就像登山者攀绳一样，花费数小时才能到达郊区。",
+      "ja": "手すりにつかまり、ロープを登る登山家のように乗り込み、郊外に着くまで何時間もの人生を費やした。"
+    },
+    {
+      "id": 27,
+      "ru": "Так Дуров возненавидел бюрократию.",
+      "en": "This is how Durov came to hate bureaucracy.",
+      "zh": "杜罗夫就是这样开始憎恨官僚主义的。",
+      "ja": "こうしてドゥーロフは官僚主義を憎むようになった。"
+    },
+    {
+      "id": 28,
+      "ru": "Через несколько месяцев мать прилетела и забрала его с собой.",
+      "en": "After several months, the mother flew in and took him with her.",
+      "zh": "几个月后，母亲飞回来把他接走了。",
+      "ja": "数ヶ月後、母親が飛んできて彼を連れて行った。"
+    },
+    {
+      "id": 29,
+      "ru": "В итальянской школе детей учили иначе, никакого принуждения.",
+      "en": "In the Italian school children were taught differently, with no coercion.",
+      "zh": "在意大利的学校里，孩子们的教育方式不同，没有任何强制。",
+      "ja": "イタリアの学校では子供たちは違う方法で教育された。強制はなかった。"
+    },
+    {
+      "id": 30,
+      "ru": "Тогда-то педагоги и опознали в его брате Николае вундеркинда, а телевизионщики рекрутировали на телешоу.",
+      "en": "That's when the teachers recognized his brother Nikolai as a child prodigy, and television producers recruited him for a TV show.",
+      "zh": "就在那时，老师们发现他的哥哥尼古拉是个神童，电视台工作人员招募他参加电视节目。",
+      "ja": "その時、教師たちは弟のニコライを神童だと認識し、テレビ制作者がテレビ番組にスカウトした。"
+    },
+    {
+      "id": 31,
+      "ru": "Павла никуда не звали.",
+      "en": "Pavel was not invited anywhere.",
+      "zh": "帕维尔哪儿都没被邀请。",
+      "ja": "パーヴェルはどこにも招かれなかった。"
+    },
+    {
+      "id": 32,
+      "ru": "Но, во-первых, ему перепадало от эрудиции брата.",
+      "en": "But, firstly, he benefited from his brother's erudition.",
+      "zh": "但是，首先，他从哥哥的博学中受益。",
+      "ja": "しかし、まず第一に、彼は兄の博識から恩恵を受けた。"
+    },
+    {
+      "id": 33,
+      "ru": "Родители, уложив их, гасили свет и уходили, после чего старший пересказывал младшему самое интересное из прочитанного за день: созвездия, логарифмы, origin of species и т. д.",
+      "en": "The parents, having put them to bed, would turn off the light and leave, after which the older one would retell to the younger the most interesting things he'd read that day: constellations, logarithms, origin of species, etc.",
+      "zh": "父母安顿好他们后会关灯离开，然后哥哥会给弟弟复述当天读到的最有趣的内容：星座、对数、物种起源等等。",
+      "ja": "両親は二人を寝かせると明かりを消して去り、その後、兄はその日読んだ最も面白いことを弟に語った。星座、対数、種の起源など。"
+    },
+    {
+      "id": 34,
+      "ru": "Они, разумеется, дрались и дулись друг на друга, но старший не жадничал и делился тезаурусом.",
+      "en": "They, of course, fought and sulked at each other, but the older one wasn't stingy and shared his thesaurus.",
+      "zh": "他们当然也会打架和互相生气，但哥哥并不吝啬，愿意分享他的知识宝库。",
+      "ja": "もちろん二人は喧嘩したり拗ねたりしたが、兄は惜しみなく知識の宝庫を共有した。"
+    },
+    {
+      "id": 35,
+      "ru": "А во-вторых, младший брат был одарен по-своему.",
+      "en": "And secondly, the younger brother was gifted in his own way.",
+      "zh": "其次，弟弟有他自己的天赋。",
+      "ja": "そして第二に、弟は弟なりの才能を持っていた。"
+    },
+    {
+      "id": 36,
+      "ru": "Когда в семью приходил гость, он брал карандаш и бумагу и под кухонный диспут рисовал прибывшего.",
+      "en": "When a guest came to the family, he would take a pencil and paper and, during the kitchen discussion, draw the visitor.",
+      "zh": "当有客人来家里时，他会拿起铅笔和纸，在厨房的讨论声中画下来访者。",
+      "ja": "客が家に来ると、彼は鉛筆と紙を取り、キッチンでの議論の間に訪問者を描いた。"
+    },
+    {
+      "id": 37,
+      "ru": "Перед тем как портретируемый собирался прощаться, ему демонстрировали картину – и часто сходство сражало; конечно, если учесть, что автор – первоклассник.",
+      "en": "Before the subject was about to leave, they would show him the picture—and the likeness often struck; of course, considering that the artist was a first-grader.",
+      "zh": "在被画者准备告辞之前，他们会给他展示这幅画——相似度往往令人惊叹；当然，考虑到作者只是个一年级学生。",
+      "ja": "被写体が帰ろうとする前に、絵を見せた——そして似ていることにしばしば驚かされた。もちろん、作者が小学1年生であることを考えると。"
+    },
+    {
+      "id": 38,
+      "ru": "Возвращение на родину далось трудно.",
+      "en": "The return to the homeland was difficult.",
+      "zh": "回到祖国并不容易。",
+      "ja": "故国への帰還は困難だった。"
+    },
+    {
+      "id": 39,
+      "ru": "Павла ждала приличная школа, где он совсем не страдал, пока однажды не понял, что знает английский лучше, чем пришедшая на замену заболевшей англичанке девушка.",
+      "en": "Pavel was headed to a decent school, where he didn't suffer at all, until one day he realized that he knew English better than the girl who came to substitute for the sick English teacher.",
+      "zh": "帕维尔上的是一所不错的学校，在那里他一点也不难受，直到有一天他意识到，他的英语比那个来代替生病的英语老师的女孩更好。",
+      "ja": "パーヴェルはまともな学校に通うことになり、まったく苦しまなかった——ある日、病気の英語教師の代わりに来た女の子より自分の方が英語ができることに気づくまでは。"
+    },
+    {
+      "id": 40,
+      "ru": "Он так и сказал ей: «Вы плохо учите».",
+      "en": "He told her directly: \"You teach badly.\"",
+      "zh": "他直接对她说："你教得不好。"",
+      "ja": "彼は直接彼女に言った。「あなたの教え方は下手です。」"
+    },
+    {
+      "id": 41,
+      "ru": "Похожий конфликт тлел между ним и преподавателем русского.",
+      "en": "A similar conflict smoldered between him and the Russian teacher.",
+      "zh": "他和俄语老师之间也有类似的冲突在酝酿。",
+      "ja": "同様の衝突がロシア語の教師との間でくすぶっていた。"
+    },
+    {
+      "id": 42,
+      "ru": "Ученик плевал на субординацию и считал важным лишь то, что англичанка делает ошибки, – и почему в таком случае директор ждет, что он заткнется?!",
+      "en": "The student didn't care about subordination and considered only the fact that the English teacher was making mistakes important—and why in that case did the principal expect him to shut up?!",
+      "zh": "这个学生不在乎等级制度，认为重要的只是英语老师在犯错——那为什么校长还指望他闭嘴？！",
+      "ja": "生徒は上下関係などどうでもよく、英語教師が間違いを犯しているという事実だけが重要だと考えていた——それなのになぜ校長は彼が黙ることを期待するのか？！"
+    },
+    {
+      "id": 43,
+      "ru": "Возраст он не считал",
+      "en": "He didn't consider age",
+      "zh": "他不认为年龄",
+      "ja": "彼は年齢を"
+    }
+  ],
+  "translator_notes": [
+    "Turin, Italy - where Durov family lived when father taught Russian",
+    "Siege-era habits - reference to Siege of Leningrad (1941-1944), grandmother's generation",
+    "Nevsky Prospekt - main avenue of St. Petersburg, central location",
+    "Kommunalka - Soviet-era communal apartments where multiple families shared facilities",
+    "Palace of Congresses - Kremlin Palace where Soviet congresses were held",
+    "Perestroika/Glasnost - Gorbachev-era reforms that shaped late Soviet childhood",
+    "Origin of Species - Darwin's work, showing intellectual household",
+    "Pavel's early talent for drawing portraits - artistic side later seen in VK's design focus"
+  ],
+  "total_sentences": 43,
+  "page_type": "narrative"
+}
