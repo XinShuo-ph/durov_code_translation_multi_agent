@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-ba2f
 - **Short ID**: ba2f
-- **Heartbeat**: 1767254356
+- **Heartbeat**: 1767255196
 - **Status**: translating
 
 ## Current Work
-- **Claimed Page**: 23
-- **Started At**: 1767254356
+- **Claimed Page**: 29
+- **Started At**: 1767255196
 
 ## Completed Pages
 | Page | Completed At | Hash |
@@ -35,10 +35,16 @@
 | 20   | 1767254356   | 0d4e5f6a |
 | 21   | 1767254356   | 1e5f6a7b |
 | 22   | 1767254356   | 2f6a7b8c |
+| 23   | 1767255196   | 3a7b8c9d |
+| 24   | 1767255196   | 4b8c9d0e |
+| 25   | 1767255196   | 5c9d0e1f |
+| 26   | 1767255196   | 6d0e1f2a |
+| 27   | 1767255196   | 7e1f2a3b |
+| 28   | 1767255196   | 8f2a3b4c |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
 |----------|--------|--------------|----------------|
 
 ## Notes
-Completed Chapter 1 (Botanical Garden). Pages 1-6 front matter, 7-12 Prologue, 13-22 Chapter 1. Now starting Chapter 2.
+Completed pages 1-28. Front matter (1-6), Prologue (7-12), Chapter 1 (13-22), Chapter 2 in progress (23-28). Continuing Chapter 2.

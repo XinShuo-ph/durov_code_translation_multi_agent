@@ -1,0 +1,255 @@
+{
+  "page": 23,
+  "chapter": 2,
+  "chapter_title": "Архитектор (The Architect)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Очередь извивалась от «Капитанского мостика» на лестнице – через коридор «Школы» с ее досками объявлений, завешанными подрагивающими от сквозняков листами («Студенческая карта ISIC», «Семинар по финно-угорским диалектам переносится», «Двоечников, не сдавших хвосты до пятницы, повесят в деканате»), – и тянулась до дверей «Евразии», то есть аудитории № 215.",
+      "en": "The line snaked from the \"Captain's Bridge\" on the staircase—through the corridor of the \"School\" with its bulletin boards covered with papers fluttering in the drafts (\"ISIC Student Card,\" \"Seminar on Finno-Ugric dialects is rescheduled,\" \"Students with failing grades who haven't passed their make-ups by Friday will be hanged in the dean's office\")—and stretched to the doors of \"Eurasia,\" that is, auditorium No. 215.",
+      "zh": "队伍从楼梯上的\"船长桥\"蜿蜒而出——穿过\"学校\"走廊，那里的公告栏上贴满了被穿堂风吹得颤抖的通知（\"ISIC学生卡\"、\"芬兰-乌戈尔语方言研讨会改期\"、\"周五前未补考通过的不及格学生将在教务处被绞死\"）——一直延伸到\"欧亚\"的门口，也就是215教室。",
+      "ja": "行列は階段の「船長の艦橋」から蛇行していた——「学校」の廊下を通り、その掲示板には隙間風で揺れる紙が貼られていた（「ISICスチューデントカード」「フィン・ウゴル方言セミナー延期」「金曜日までに追試に合格しなかった落第生は学部事務室で絞首刑」）——そして「ユーラシア」、つまり215番教室の扉まで続いていた。"
+    },
+    {
+      "id": 2,
+      "ru": "Здесь толкались, делая вид, что с иронией относятся к обстоятельствам, блондинки, брюнетки, рыжие, миниатюрные и дылды – короче, все студентки филфака и востфака, которые сочли себя достойными конкурса.",
+      "en": "Here jostled, pretending to regard the circumstances with irony, blondes, brunettes, redheads, petite girls and tall ones—in short, all female students from the philology and oriental studies faculties who considered themselves worthy of the contest.",
+      "zh": "这里挤满了金发女郎、黑发女郎、红发女郎、娇小的和高大的——简而言之，所有认为自己配得上参加比赛的语文系和东方学系女生，都装作对这种情况抱有讽刺态度。",
+      "ja": "ここでは、状況を皮肉に見ているふりをしながら、ブロンド、ブルネット、赤毛、小柄な子や背の高い子が押し合いへし合いしていた——要するに、コンテストにふさわしいと自認する文献学部と東洋学部のすべての女子学生だ。"
+    },
+    {
+      "id": 3,
+      "ru": "Приклеенная к стене афиша звала на «студенческий конкурс эстетики и дизайна „Олимп"».",
+      "en": "A poster glued to the wall invited people to the \"student contest of aesthetics and design 'Olympus.'\"",
+      "zh": "贴在墙上的海报邀请人们参加\"奥林匹斯学生美学与设计大赛\"。",
+      "ja": "壁に貼られたポスターは「学生美学デザインコンテスト『オリンポス』」への参加を呼びかけていた。"
+    },
+    {
+      "id": 4,
+      "ru": "Внизу ее стояли логотипы спонсоров: Elle, Mary Kay, Motivi.",
+      "en": "At the bottom were sponsors' logos: Elle, Mary Kay, Motivi.",
+      "zh": "底部是赞助商的标志：Elle、玫琳凯、Motivi。",
+      "ja": "下にはスポンサーのロゴがあった：Elle、メアリーケイ、Motivi。"
+    },
+    {
+      "id": 5,
+      "ru": "Время от времени дверь выпускала отстрелявшихся, и к ним подбегали из очереди:",
+      "en": "From time to time the door released those who had finished, and people from the line ran up to them:",
+      "zh": "不时有面试完的人从门里出来，队伍里的人就跑过去问：",
+      "ja": "時々ドアから終わった人が出てきて、列から人々が駆け寄った："
+    },
+    {
+      "id": 6,
+      "ru": "– Что там? Пели-танцевали?",
+      "en": "\"What was it like? Did you have to sing and dance?\"",
+      "zh": "\"里面怎么样？要唱歌跳舞吗？\"",
+      "ja": "「どうだった？歌って踊った？」"
+    },
+    {
+      "id": 7,
+      "ru": "– Да нет, просто говорили.",
+      "en": "\"No, we just talked.\"",
+      "zh": "\"没有，就是聊天。\"",
+      "ja": "「いや、ただ話しただけ」"
+    },
+    {
+      "id": 8,
+      "ru": "– Говорили?",
+      "en": "\"Talked?\"",
+      "zh": "\"聊天？\"",
+      "ja": "「話した？」"
+    },
+    {
+      "id": 9,
+      "ru": "– Ну да, говорили, как собеседование.",
+      "en": "\"Yeah, talked, like an interview.\"",
+      "zh": "\"是的，就像面试一样。\"",
+      "ja": "「うん、面接みたいに話した」"
+    },
+    {
+      "id": 10,
+      "ru": "– А кто они, симпатичные?",
+      "en": "\"And who are they, are they cute?\"",
+      "zh": "\"他们是谁，长得帅吗？\"",
+      "ja": "「で、彼らは誰？かっこいい？」"
+    },
+    {
+      "id": 11,
+      "ru": "– Ну такие, вполне, хи-хи. Дали визитку, смотрите…",
+      "en": "\"Well, they're like, pretty good, hee-hee. They gave me a business card, look...\"",
+      "zh": "\"嗯，还行吧，嘻嘻。他们给了名片，你看……\"",
+      "ja": "「まあ、結構いい感じ、えへへ。名刺もらったよ、見て……」"
+    },
+    {
+      "id": 12,
+      "ru": "Толпа рассматривала черные карточки, напоминавшие те, что имели хождение в гарвардском студенческом клубе.",
+      "en": "The crowd examined black cards that resembled those used in the Harvard student club.",
+      "zh": "人群围观着黑色名片，很像哈佛学生俱乐部使用的那种。",
+      "ja": "群衆はハーバードの学生クラブで使われていたものに似た黒い名刺を見ていた。"
+    },
+    {
+      "id": 13,
+      "ru": "На одной было напечатано «Durov.com Club – Ilya Perekopsky, Vice President».",
+      "en": "One read \"Durov.com Club – Ilya Perekopsky, Vice President.\"",
+      "zh": "一张上面印着\"Durov.com Club – Ilya Perekopsky, Vice President\"。",
+      "ja": "一枚には「Durov.com Club – Ilya Perekopsky, Vice President」と印刷されていた。"
+    },
+    {
+      "id": 14,
+      "ru": "На другой, собственно, – «Pavel Durov, President».",
+      "en": "On the other, naturally—\"Pavel Durov, President.\"",
+      "zh": "另一张上面自然是——\"Pavel Durov, President\"。",
+      "ja": "もう一枚には、当然——「Pavel Durov, President」。"
+    },
+    {
+      "id": 15,
+      "ru": "Ничего больше.",
+      "en": "Nothing else.",
+      "zh": "没有其他内容。",
+      "ja": "それだけだった。"
+    },
+    {
+      "id": 16,
+      "ru": "Те, о ком сплетничала очередь, еле ворочали языком, скулы сводило от болтовни.",
+      "en": "Those whom the line gossiped about could barely move their tongues, their jaws aching from all the talking.",
+      "zh": "那些被队伍议论的人舌头都快说不动了，下巴因为说话太多而酸痛。",
+      "ja": "列で噂されていた二人は、おしゃべりのしすぎで顎が疲れ、舌がほとんど回らなかった。"
+    },
+    {
+      "id": 17,
+      "ru": "Они сидели за партой.",
+      "en": "They sat behind a desk.",
+      "zh": "他们坐在课桌后面。",
+      "ja": "彼らは机の後ろに座っていた。"
+    },
+    {
+      "id": 18,
+      "ru": "Первый – коротко стриженный шатен в поблескивающих оправой очках.",
+      "en": "The first—a short-haired brunette in glasses with a gleaming frame.",
+      "zh": "第一个是短发的棕发男子，戴着闪亮镜框的眼镜。",
+      "ja": "一人目——光る縁の眼鏡をかけた短髪の栗毛の男。"
+    },
+    {
+      "id": 19,
+      "ru": "Второй – бледный брюнет в черном, волосы на прямой пробор, кажется, близорукий.",
+      "en": "The second—a pale brunette in black, hair parted down the middle, seemingly nearsighted.",
+      "zh": "第二个是穿黑衣的苍白黑发男子，头发中分，看起来有点近视。",
+      "ja": "二人目——黒い服を着た青白い黒髪の男、真ん中分けの髪、どうやら近視らしい。"
+    },
+    {
+      "id": 20,
+      "ru": "Солировал он.",
+      "en": "He was the one running the show.",
+      "zh": "主导的是他。",
+      "ja": "彼が主役だった。"
+    },
+    {
+      "id": 21,
+      "ru": "Зашедшую в аудиторию жертву приглашали к парте.",
+      "en": "The victim who entered the auditorium was invited to the desk.",
+      "zh": "走进教室的\"受害者\"被请到课桌前。",
+      "ja": "教室に入ってきた「犠牲者」は机に招かれた。"
+    },
+    {
+      "id": 22,
+      "ru": "Брюнет демонстрировал рассеянную, чуть неестественную, но в целом убедительную улыбку и спрашивал голосом самоуверенного старшеклассника – про литературу, музыку, философию, вкусы.",
+      "en": "The brunette displayed a distracted, slightly unnatural, but overall convincing smile and asked in the voice of a self-assured upperclassman—about literature, music, philosophy, tastes.",
+      "zh": "这个黑发男子露出心不在焉、略显不自然但总体上令人信服的微笑，用自信的高年级学生的声音问关于文学、音乐、哲学和品味的问题。",
+      "ja": "黒髪の男は気が散っているような、少し不自然だが全体的には説得力のある笑顔を見せ、自信に満ちた上級生の声で尋ねた——文学、音楽、哲学、好みについて。"
+    },
+    {
+      "id": 23,
+      "ru": "Какое у вас хобби? Танцы? Ну-ну.",
+      "en": "What's your hobby? Dancing? Well, well.",
+      "zh": "你的爱好是什么？跳舞？哦哦。",
+      "ja": "趣味は何？ダンス？へえ。"
+    },
+    {
+      "id": 24,
+      "ru": "Периодически он сбивал ответчиц парадоксальными вопросами, выставлял их убеждения примитивными – короче, вредничал и издевался.",
+      "en": "Periodically he threw off the respondents with paradoxical questions, made their convictions seem primitive—in short, he was being difficult and mocking.",
+      "zh": "他时不时用悖论问题打断回答者，让她们的信念显得原始——简而言之，他在捣蛋和嘲弄。",
+      "ja": "彼は定期的に逆説的な質問で回答者を困惑させ、彼女たちの信念を原始的に見せた——要するに、意地悪をしてからかっていた。"
+    },
+    {
+      "id": 25,
+      "ru": "Если конкурсантка о чем-то переспрашивала, он смотрел на нее, пока она говорила, кивая и держа взгляд.",
+      "en": "If a contestant asked for clarification, he watched her while she spoke, nodding and holding her gaze.",
+      "zh": "如果参赛者要求澄清什么，他就会在她说话时看着她，点头保持眼神接触。",
+      "ja": "参加者が何か聞き返すと、彼は彼女が話している間じっと見つめ、うなずきながら視線を外さなかった。"
+    },
+    {
+      "id": 26,
+      "ru": "Когда вопрос был задан, он продолжал молчать, чуть щурясь и как бы убеждаясь, что соискательница уже закончила.",
+      "en": "When the question was asked, he continued to remain silent, squinting slightly as if making sure the applicant had finished.",
+      "zh": "当问题问完后，他继续沉默，微微眯着眼，好像在确认申请者已经说完了。",
+      "ja": "質問が終わっても、彼は黙り続け、少し目を細めて、応募者がもう終わったか確認するようだった。"
+    },
+    {
+      "id": 27,
+      "ru": "Если требовались размышления (обычно нет), смотрел в сторону, а потом отвечал слегка разухабистым, напористым, но непременно вежливым тоном, из которого нельзя было понять, прошла девушка в следующий тур или нет.",
+      "en": "If reflection was required (usually not), he looked away, then answered in a slightly casual, assertive, but invariably polite tone from which it was impossible to tell whether the girl had passed to the next round or not.",
+      "zh": "如果需要思考（通常不需要），他就看向别处，然后用略带随意、咄咄逼人但始终礼貌的语气回答，让人无法判断这个女孩是否进入了下一轮。",
+      "ja": "考える必要があれば（通常はなかったが）、横を向いて、それから少しくだけた、押しの強い、しかし必ず礼儀正しい調子で答えた。そこからは、その女の子が次のラウンドに進んだかどうかは分からなかった。"
+    },
+    {
+      "id": 28,
+      "ru": "Товарищ вредного чернеца (им был Дуров), Илья Перекопский, поддакивал и шугал мужской пол, заглядывающий в аудиторию с саркастическими, а иногда идиотскими лицами.",
+      "en": "The companion of the troublesome dark-haired one (who was Durov), Ilya Perekopsky, chimed in and shooed away the males peering into the auditorium with sarcastic, and sometimes idiotic, faces.",
+      "zh": "这个麻烦的黑发男子（就是杜罗夫）的同伴伊利亚·佩列科普斯基，随声附和，同时赶走那些带着讽刺、有时是傻兮兮表情往教室里张望的男性。",
+      "ja": "厄介な黒髪の男（ドゥーロフのことだ）の相棒、イリヤ・ペレコプスキーは同調し、皮肉な、時には馬鹿げた顔で教室を覗き込む男たちを追い払った。"
+    },
+    {
+      "id": 29,
+      "ru": "Кроме этого, он прикидывал, отчего их конкурс выстрелил.",
+      "en": "Besides that, he was figuring out why their contest had taken off.",
+      "zh": "除此之外，他还在琢磨他们的比赛为什么会这么火。",
+      "ja": "それ以外に、彼はなぜ自分たちのコンテストが成功したのかを考えていた。"
+    },
+    {
+      "id": 30,
+      "ru": "Да, на филфаке отсутствовала всякая студенческая активность – и вдруг такое шоу.",
+      "en": "Yes, the philology faculty had zero student activity—and suddenly such a show.",
+      "zh": "是的，语文系一直没有任何学生活动——突然就来了这样一场秀。",
+      "ja": "そう、文献学部には学生活動が全くなかった——そして突然こんなショーだ。"
+    },
+    {
+      "id": 31,
+      "ru": "Да, афиша выглядела не хуже плаката к блокбастеру – черный фон, стальные буквы и логотипы модных спонсоров, которые обещали, что мероприятие статусное.",
+      "en": "Yes, the poster looked no worse than a blockbuster movie ad—black background, steel letters and logos of fashionable sponsors that promised the event was prestigious.",
+      "zh": "是的，海报看起来不逊于大片海报——黑色背景、钢铁色字体和时尚赞助商的标志，承诺这是一场高档活动。",
+      "ja": "そう、ポスターは大作映画の広告に劣らなかった——黒い背景、鋼鉄の文字、ファッショナブルなスポンサーのロゴが、このイベントがステータスのあるものだと約束していた。"
+    },
+    {
+      "id": 32,
+      "ru": "Но аншлаг-то откуда?",
+      "en": "But where did the sold-out crowd come from?",
+      "zh": "但这么多人是从哪里来的？",
+      "ja": "しかし、満員御礼はどこから来たのか？"
+    },
+    {
+      "id": 33,
+      "ru": "Перекопский также размышлял и о том, что, конечно, найдутся обиженные и поднимется народный фронт: «Честные женщины против сомнительного конкурса».",
+      "en": "Perekopsky was also pondering that, of course, there would be offended parties and a popular front would rise up: \"Honest women against a dubious contest.\"",
+      "zh": "佩列科普斯基还在想，当然，会有人不满，会有一个人民阵线站出来：\"正直女性反对可疑比赛\"。",
+      "ja": "ペレコプスキーはまた、もちろん、傷ついた人が出てきて人民戦線が立ち上がるだろうと考えていた：「疑わしいコンテストに反対する誠実な女性たち」。"
+    },
+    {
+      "id": 34,
+      "ru": "Но, во-первых, они покажут декану, на что способны, а во-вторых, как бы то ни было,",
+      "en": "But first, they would show the dean what they were capable of, and second, no matter what,",
+      "zh": "但是，首先，他们会向院长展示他们的能力，其次，无论如何，",
+      "ja": "しかし、第一に、彼らは学部長に自分たちの能力を示すだろうし、第二に、いずれにせよ、"
+    }
+  ],
+  "translator_notes": [
+    "Page 23 begins Chapter 2 'The Architect' describing a beauty contest at university",
+    "Philfak (philology faculty) and Vostfak (oriental studies faculty) - departments at St. Petersburg State University",
+    "The 'School' corridor refers to a section of the philology building",
+    "ISIC - International Student Identity Card",
+    "The joke about 'hanging' failing students in the dean's office is dark Russian academic humor",
+    "The reference to Harvard student club cards is ironic - Durov and Perekopsky were emulating American elite culture"
+  ],
+  "total_sentences": 34,
+  "page_type": "narrative"
+}
