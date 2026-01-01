@@ -1,0 +1,277 @@
+{
+  "page": 33,
+  "chapter": 2,
+  "chapter_title": "Песочница (Sandbox)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Даша была знакома с Дуровым – брала интервью для «Студня».",
+      "en": "Dasha knew Durov—she had interviewed him for \"Studen.\"",
+      "zh": "达莎认识杜罗夫——她曾为《肉冻》采访过他。",
+      "ja": "ダーシャはドゥーロフと知り合いだった——「ストゥーデン」のためにインタビューしたことがあった。"
+    },
+    {
+      "id": 3,
+      "ru": "Ей понравился «горделивый профиль», а также очищенное от стереотипов восприятие мира.",
+      "en": "She liked his \"proud profile\" as well as his perception of the world cleansed of stereotypes.",
+      "zh": "她喜欢他"骄傲的轮廓"，以及他摆脱陈规陋习的世界观。",
+      "ja": "彼女は彼の「誇らしげな横顔」と、ステレオタイプから解放された世界観が気に入った。"
+    },
+    {
+      "id": 4,
+      "ru": "Когда случился скандал с фашистом-модератором, она взяла у декана письмо в стиле «Петренчук подрывает нравственность» и встретилась с Дуровым.",
+      "en": "When the scandal with the fascist moderator happened, she got a letter from the dean in the style of \"Petrenchuk undermines morality\" and met with Durov.",
+      "zh": "当法西斯版主丑闻发生时，她从院长那里拿到了一封"彼得连丘克破坏道德"风格的信，并与杜罗夫会面。",
+      "ja": "ファシスト・モデレーターのスキャンダルが起きたとき、彼女は学部長から「ペトレンチュクは道徳を損なう」というスタイルの手紙を受け取り、ドゥーロフと会った。"
+    },
+    {
+      "id": 5,
+      "ru": "Тот внимательно слушал ее – эффектная девушка вместо надоевшего хулигана; очень, очень вовремя она пришла.",
+      "en": "He listened to her attentively—a striking girl instead of the tiresome hooligan; very, very timely she had come.",
+      "zh": "他专心地听她说——一个引人注目的女孩代替了讨厌的流氓；她来得非常、非常及时。",
+      "ja": "彼は注意深く彼女の話を聞いた——うんざりするフーリガンの代わりに印象的な女性。とても、とてもタイムリーに彼女は来た。"
+    },
+    {
+      "id": 6,
+      "ru": "Очень гладкий, не подкопаться, повод убрать Петренчука.",
+      "en": "A very smooth, unassailable reason to remove Petrenchuk.",
+      "zh": "这是一个非常圆滑、无懈可击的理由来除掉彼得连丘克。",
+      "ja": "ペトレンチュクを排除するための非常にスムーズで、反論の余地のない理由。"
+    },
+    {
+      "id": 7,
+      "ru": "Дуров протянул руку и взял у Даши письмо.",
+      "en": "Durov reached out and took the letter from Dasha.",
+      "zh": "杜罗夫伸出手，从达莎那里接过了信。",
+      "ja": "ドゥーロフは手を伸ばしてダーシャから手紙を受け取った。"
+    },
+    {
+      "id": 8,
+      "ru": "Вскоре Петренчук читал мейл от консильери в духе: «Прости, мне не нравится вмешательство властей, но придется тебя отставить.",
+      "en": "Soon Petrenchuk was reading an email from the consigliere in the spirit of: \"Sorry, I don't like the authorities' interference, but I'll have to remove you.",
+      "zh": "不久，彼得连丘克读到了顾问的一封电子邮件，大意是："抱歉，我不喜欢当局的干预，但我不得不解除你的职务。",
+      "ja": "まもなくペトレンチュクはコンシリエーレからのメールを読んでいた。その趣旨は：「すまない、当局の介入は好きではないが、君を解任しなければならない。"
+    },
+    {
+      "id": 9,
+      "ru": "Тебе не следовало попадать в такую историю.",
+      "en": "You shouldn't have gotten into such a story.",
+      "zh": "你不该卷入这样的事情。",
+      "ja": "君はそんな話に巻き込まれるべきではなかった。"
+    },
+    {
+      "id": 10,
+      "ru": "А теперь – сам понимаешь…»",
+      "en": "And now—you understand...\"",
+      "zh": "现在——你懂的……"",
+      "ja": "そして今——わかるだろう...」"
+    },
+    {
+      "id": 11,
+      "ru": "Биться за власть после столь сердечного разъяснения Петренчук не стал.",
+      "en": "Petrenchuk didn't fight for power after such a heartfelt explanation.",
+      "zh": "在如此真诚的解释之后，彼得连丘克没有为权力而战。",
+      "ja": "そのような心のこもった説明の後、ペトレンチュクは権力のために戦わなかった。"
+    },
+    {
+      "id": 12,
+      "ru": "Спустя четыре года на тусовке выпускников истфака он увидит Дурова, по-прежнему в черном.",
+      "en": "Four years later, at a history faculty alumni party, he would see Durov, still in black.",
+      "zh": "四年后，在历史系校友聚会上，他将看到杜罗夫，仍然穿着黑色。",
+      "ja": "4年後、歴史学部の同窓会パーティーで、彼は相変わらず黒い服を着たドゥーロフを見ることになる。"
+    },
+    {
+      "id": 13,
+      "ru": "Согласно рассказу Петренчука, тот придет с Дашей и, обнимая ее, высокомерно кому-то станет растолковывать про уже взлетевший «ВКонтакте».",
+      "en": "According to Petrenchuk's account, he would come with Dasha and, embracing her, would arrogantly explain to someone about the already soaring VKontakte.",
+      "zh": "根据彼得连丘克的说法，他将和达莎一起来，拥抱着她，傲慢地向某人解释已经起飞的VKontakte。",
+      "ja": "ペトレンチュクの話によると、彼はダーシャと一緒に来て、彼女を抱きしめながら、すでに飛躍したVKontakteについて傲慢に誰かに説明するだろう。"
+    },
+    {
+      "id": 14,
+      "ru": "Макс увидит, как странные, вызывавшие сомнения причины и следствия из прошлого сплетаются в прозрачный сюжет, и с горя напьется.",
+      "en": "Max would see how strange, dubious causes and effects from the past wove into a transparent plot, and would get drunk from grief.",
+      "zh": "马克斯将看到过去那些奇怪的、令人怀疑的因果关系编织成一个透明的情节，然后借酒消愁。",
+      "ja": "マックスは、過去からの奇妙で疑わしい因果関係が透明なプロットに織り込まれていくのを見て、悲しみから酔っ払うだろう。"
+    },
+    {
+      "id": 15,
+      "ru": "Дуров писал в форум все меньше, разве что в дискуссионных темах и закрытых группах или вмешиваясь в конфликты.",
+      "en": "Durov wrote on the forum less and less, except in discussion topics and closed groups or intervening in conflicts.",
+      "zh": "杜罗夫在论坛上的发帖越来越少，除了在讨论话题和封闭群组中，或者干预冲突时。",
+      "ja": "ドゥーロフはフォーラムへの投稿がどんどん減り、ディスカッショントピックやクローズドグループ、または紛争への介入を除いて書かなくなった。"
+    },
+    {
+      "id": 16,
+      "ru": "Он переводил свой стиль мышления в тексты – предельная очищенность от иллюзий, иногда нарочито «тупой-еще-тупее» юмор, краткость и, главное, поворот против очевидности и стереотипов.",
+      "en": "He translated his thinking style into texts—extreme cleansing of illusions, sometimes deliberately \"dumb and dumber\" humor, brevity, and most importantly, a turn against the obvious and stereotypes.",
+      "zh": "他把自己的思维方式转化为文字——极度消除幻觉，有时故意"愚蠢至极"的幽默，简洁，最重要的是，反对显而易见的事物和陈规陋习。",
+      "ja": "彼は自分の思考スタイルをテキストに変換した——幻想の極端な浄化、時には意図的な「バカとバカ」のユーモア、簡潔さ、そして最も重要なのは、自明のことやステレオタイプに対する反転。"
+    },
+    {
+      "id": 17,
+      "ru": "Тогда, в 2004 году, трафик измерялся тысячами посетителей в день.",
+      "en": "Then, in 2004, traffic was measured in thousands of visitors per day.",
+      "zh": "那时，在2004年，流量是以每天数千访问者来衡量的。",
+      "ja": "当時、2004年には、トラフィックは1日数千人の訪問者で測定されていた。"
+    },
+    {
+      "id": 18,
+      "ru": "Перекопский вспоминал, как заставал у Дурова дома семейные сцены.",
+      "en": "Perekopsky recalled how he would come upon family scenes at Durov's home.",
+      "zh": "佩列科普斯基回忆起他在杜罗夫家遇到的家庭场景。",
+      "ja": "ペレコプスキーは、ドゥーロフの家で家族の場面に出くわしたことを思い出した。"
+    },
+    {
+      "id": 19,
+      "ru": "Заглянув в счетчик, мать комментировала: «Павлуша, сегодня что-то очень мало».",
+      "en": "Peeking at the counter, the mother would comment: \"Pavlusha, today there's something very little.\"",
+      "zh": "母亲看了看计数器，评论道："帕夫卢沙，今天好像很少。"",
+      "ja": "カウンターを覗き込んで、母親はコメントした：「パヴルーシャ、今日は何だかとても少ないわね」"
+    },
+    {
+      "id": 20,
+      "ru": "Дуров злился: «Замолчи, пожалуйста, не мешай».",
+      "en": "Durov would get angry: \"Please be quiet, don't disturb me.\"",
+      "zh": "杜罗夫会生气地说："请安静，别打扰我。"",
+      "ja": "ドゥーロフは怒った：「お願いだから黙って、邪魔しないで」"
+    },
+    {
+      "id": 21,
+      "ru": "Когда форум поражала бацилла занудства, Дуров подпускал угара репликами выдуманных персонажей.",
+      "en": "When the forum was struck by the bacillus of boredom, Durov would inject excitement with lines from invented characters.",
+      "zh": "当论坛被无聊的病菌侵袭时，杜罗夫会用虚构角色的台词来增添刺激。",
+      "ja": "フォーラムが退屈のバチルスに襲われたとき、ドゥーロフは架空のキャラクターの台詞で盛り上がりを注入した。"
+    },
+    {
+      "id": 22,
+      "ru": "«Очень сочные виртуалы, в их реальность верили: антифеминистка, гомофоб, сталинист.",
+      "en": "\"Very juicy virtual identities, people believed in their reality: an anti-feminist, a homophobe, a Stalinist.",
+      "zh": ""非常生动的虚拟身份，人们相信他们是真实的：反女权主义者、恐同者、斯大林主义者。",
+      "ja": "「とてもジューシーな仮想アイデンティティ、人々はその現実を信じた：反フェミニスト、同性愛嫌悪者、スターリニスト。"
+    },
+    {
+      "id": 23,
+      "ru": "Я отстаивал их точку зрения.",
+      "en": "I defended their point of view.",
+      "zh": "我捍卫了他们的观点。",
+      "ja": "私は彼らの視点を擁護した。"
+    },
+    {
+      "id": 24,
+      "ru": "На 9 Мая шла моя любимая волна: Сталин преступник; не победа, а поражение; при таких потерях называть случившееся победой – кощунство; лучше бы нас завоевал Гитлер.",
+      "en": "On May 9th my favorite wave would go: Stalin is a criminal; not victory but defeat; with such losses calling what happened a victory is blasphemy; it would have been better if Hitler had conquered us.",
+      "zh": "在五月九日，我最喜欢的浪潮会来：斯大林是罪犯；不是胜利而是失败；损失如此惨重还称之为胜利是亵渎；希特勒征服我们会更好。",
+      "ja": "5月9日には私のお気に入りの波が来た：スターリンは犯罪者だ。勝利ではなく敗北だ。これほどの損失で起こったことを勝利と呼ぶのは冒涜だ。ヒトラーが我々を征服した方がよかった。"
+    },
+    {
+      "id": 25,
+      "ru": "У меня дед прошел всю войну, защищал Ленинград, и мне непросто было принять эту точку зрения.",
+      "en": "My grandfather went through the whole war, defended Leningrad, and it wasn't easy for me to accept this point of view.",
+      "zh": "我的祖父参加了整个战争，保卫了列宁格勒，我不容易接受这种观点。",
+      "ja": "私の祖父は戦争全体を経験し、レニングラードを守った。私にとってこの視点を受け入れるのは簡単ではなかった。"
+    },
+    {
+      "id": 26,
+      "ru": "Но я неплохо вжился в роль, негодовал по поводу оккупации Прибалтики и Польши».",
+      "en": "But I got quite well into the role, indignant about the occupation of the Baltics and Poland.\"",
+      "zh": "但我很好地进入了角色，对波罗的海国家和波兰的占领表示愤慨。"",
+      "ja": "しかし私はかなりうまく役になりきり、バルト諸国とポーランドの占領について憤慨した」"
+    },
+    {
+      "id": 27,
+      "ru": "Виртуалам свято верили, объявляли им джихады, жаловались их создателю.",
+      "en": "People devoutly believed in the virtual identities, declared jihads against them, complained to their creator.",
+      "zh": "人们虔诚地相信这些虚拟身份，对他们宣战，向他们的创造者投诉。",
+      "ja": "人々は仮想アイデンティティを熱心に信じ、彼らにジハードを宣言し、その創造者に苦情を言った。"
+    },
+    {
+      "id": 28,
+      "ru": "А дальше костер горел сам – врукопашную сходились фанаты альтернативных концепций а-ля Анатолий Фоменко, а также тролли с другими перверсиями.",
+      "en": "And then the bonfire burned on its own—fans of alternative concepts à la Anatoly Fomenko clashed hand-to-hand, as well as trolls with other perversions.",
+      "zh": "然后火焰自己燃烧起来——阿纳托利·福缅科式另类概念的粉丝们短兵相接，还有其他变态行为的喷子。",
+      "ja": "そして焚き火はひとりでに燃え続けた——アナトリー・フォメンコ風の代替概念のファンが格闘し、他の倒錯を持つトロールも参戦した。"
+    },
+    {
+      "id": 29,
+      "ru": "Форум получал предложения о рекламе, но Дуров не ставил ее, держа слово, данное на плакате, – «ad free».",
+      "en": "The forum received advertising proposals, but Durov didn't place them, keeping the word given on the poster—\"ad free.\"",
+      "zh": "论坛收到广告提案，但杜罗夫没有投放，信守海报上的承诺——"无广告"。",
+      "ja": "フォーラムは広告の提案を受けたが、ドゥーロフはポスターで約束した「広告なし」を守り、広告を掲載しなかった。"
+    },
+    {
+      "id": 30,
+      "ru": "На жизнь он зарабатывал, рисуя сайты.",
+      "en": "He made a living by designing websites.",
+      "zh": "他靠设计网站谋生。",
+      "ja": "彼はウェブサイトをデザインして生計を立てていた。"
+    },
+    {
+      "id": 31,
+      "ru": "Студенты оживлялись к сессии.",
+      "en": "Students would liven up toward exam time.",
+      "zh": "学生们在考试季节活跃起来。",
+      "ja": "学生たちは試験期間に向けて活気づいた。"
+    },
+    {
+      "id": 32,
+      "ru": "Дурова избрали командиром взвода на военной кафедре – его отделение штудировало США.",
+      "en": "Durov was elected platoon commander at the military department—his section studied the USA.",
+      "zh": "杜罗夫在军事系被选为排长——他的小组研究美国。",
+      "ja": "ドゥーロフは軍事学部で小隊長に選ばれた——彼の班はアメリカを研究していた。"
+    },
+    {
+      "id": 33,
+      "ru": "Разбираясь в истории Штатов, он заинтересовался масонами, сыгравшими важную роль в создании ценностей, воодушевляющих американцев как нацию.",
+      "en": "Studying the history of the States, he became interested in the Masons, who played an important role in creating the values that inspire Americans as a nation.",
+      "zh": "在研究美国历史时，他对共济会产生了兴趣，共济会在创造激励美国人作为一个国家的价值观方面发挥了重要作用。",
+      "ja": "アメリカの歴史を学ぶ中で、彼はアメリカ人を国家として鼓舞する価値観の創造に重要な役割を果たしたフリーメイソンに興味を持った。"
+    },
+    {
+      "id": 34,
+      "ru": "Три года подряд он получал «стипендию Потанина», для чего требовалось побеждать в лидерской игре.",
+      "en": "Three years in a row he received the \"Potanin scholarship,\" for which one had to win in a leadership game.",
+      "zh": "他连续三年获得"波塔宁奖学金"，这需要在领导力游戏中获胜。",
+      "ja": "3年連続で彼は「ポタニン奨学金」を受け取った。これにはリーダーシップゲームで勝つ必要があった。"
+    },
+    {
+      "id": 35,
+      "ru": "Со всего университета селектировали тех, кто не только умен, но и способен вести за собой, и сталкивали в одной комнате, дав какое-нибудь задание.",
+      "en": "From the whole university they selected those who were not only smart but also capable of leading, and put them together in one room, giving them some task.",
+      "zh": "从整个大学选拔那些不仅聪明而且能够领导他人的人，把他们放在一个房间里，给他们一些任务。",
+      "ja": "大学全体から、賢いだけでなくリードする能力のある人を選び、一つの部屋に集めて何かの課題を与えた。"
+    },
+    {
+      "id": 36,
+      "ru": "Смысл – понять по групповой динамике, кто лидер в среде лидеров.",
+      "en": "The point—to understand through group dynamics who is the leader among leaders.",
+      "zh": "目的是——通过群体动态来了解谁是领导者中的领导者。",
+      "ja": "ポイントは——グループダイナミクスを通じて、リーダーの中のリーダーが誰かを理解すること。"
+    },
+    {
+      "id": 37,
+      "ru": "Испытание проходили единицы, и «потанинкой» гордились, как мало чем гордятся на филфаке.",
+      "en": "Only a few passed the test, and the \"Potaninka\" was a source of pride like few things at the philology faculty.",
+      "zh": "只有少数人通过了测试，"波塔宁奖学金"是语言学系为数不多的骄傲之一。",
+      "ja": "試験に合格したのはわずかで、「ポタニンカ」は文献学部で誇れる数少ないものの一つだった。"
+    }
+  ],
+  "translator_notes": [
+    "Studen (Студень) - jellied meat/aspic, the history faculty newspaper name",
+    "May 9th - Victory Day, major Russian holiday celebrating WWII victory over Nazi Germany",
+    "Siege of Leningrad - 872-day siege (1941-1944), one of history's deadliest blockades",
+    "Anatoly Fomenko - mathematician famous for 'New Chronology', a pseudohistorical theory",
+    "Potanin scholarship - prestigious scholarship from Vladimir Potanin Foundation, emphasizing leadership",
+    "Military department (Военная кафедра) - mandatory military training for male university students",
+    "Durov's sockpuppets - he admits creating fake accounts to stir debates and increase engagement"
+  ],
+  "total_sentences": 37,
+  "page_type": "narrative"
+}
