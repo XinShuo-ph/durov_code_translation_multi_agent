@@ -4,11 +4,11 @@
 - **Branch**: cursor/book-translation-multi-agent-c68e
 - **Short ID**: c68e
 - **Last Updated**: 2026-01-01T05:00:00Z
-- **Heartbeat**: 1767243600
+- **Heartbeat**: 1767244200
 
 ## Current Milestone
-- **Milestone**: M1
-- **Status**: completed
+- **Milestone**: M2
+- **Status**: translating
 
 ## M0 Task Status
 | Task ID | Description | Status | Result Hash |
@@ -35,6 +35,7 @@
 ## M2 Page Claims
 | Page | Status | Started | Completed | Hash |
 |------|--------|---------|-----------|------|
+| 6 | translating | 2026-01-01T05:10:00Z | - | - |
 
 ## Consensus Votes
 | Topic | My Vote | Timestamp |
