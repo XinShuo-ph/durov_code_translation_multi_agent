@@ -35,6 +35,7 @@
 ## M2 Page Claims
 | Page | Status | Started | Completed | Hash |
 |------|--------|---------|-----------|------|
+| 8 | claiming | 2026-01-01T04:52:00Z | - | - |
 
 ## Consensus Votes
 | Topic | My Vote | Timestamp |
