@@ -1,0 +1,55 @@
+{
+  "page": 5,
+  "section": "Preface",
+  "author": "Yuri Saprykin",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "С этой книжкой нам очень повезло.",
+      "en": "We are very lucky with this book.",
+      "zh": "我们很幸运有这本书。",
+      "ja": "この本に恵まれて、私たちは非常に幸運だ。"
+    },
+    {
+      "id": 2,
+      "ru": "Нынешняя Россия – это страна потерянных сюжетов: истории шекспировского накала и гомеровского размаха буквально-таки валяются под ногами, да некому подобрать.",
+      "en": "Contemporary Russia is a country of lost stories: tales of Shakespearean intensity and Homeric scale literally lie at our feet, but there's no one to pick them up.",
+      "zh": "当今的俄罗斯是一个失落故事的国度：莎士比亚般激烈、荷马史诗般宏大的故事就躺在脚下，却无人拾起。",
+      "ja": "現代ロシアは失われた物語の国だ。シェイクスピア的な激しさとホメロス的なスケールの物語が文字通り足元に転がっているのに、誰も拾わない。"
+    },
+    {
+      "id": 3,
+      "ru": "Редкое наше везение в том, что одна из происходивших рядом с нами удивительных человеческих историй превратилась в книжку, которую вам сейчас предстоит прочитать.",
+      "en": "Our rare fortune is that one of the amazing human stories unfolding around us has become the book you are about to read.",
+      "zh": "我们难得的幸运在于，在我们身边发生的一个惊人的人类故事变成了你即将阅读的这本书。",
+      "ja": "私たちのまれな幸運は、私たちの周りで起こった驚くべき人間の物語の一つが、あなたがこれから読む本になったことだ。"
+    },
+    {
+      "id": 4,
+      "ru": "Если у вас есть родственники или знакомые младше двадцати, вы наверняка замечали, что в их браузере постоянно мелькает сине-голубой логотип «ВКонтакте».",
+      "en": "If you have relatives or acquaintances under twenty, you've surely noticed the blue VKontakte logo constantly flashing in their browser.",
+      "zh": "如果你有二十岁以下的亲戚或熟人，你肯定注意到VKontakte的蓝色标志不断在他们的浏览器中闪现。",
+      "ja": "もし20歳未満の親戚や知人がいれば、彼らのブラウザに常に青いVKコンタクトのロゴが点滅していることに気づいたはずだ。"
+    },
+    {
+      "id": 5,
+      "ru": "К тому же существует (и будоражит воображение) сама фигура основателя «ВКонтакте», который в двадцать с небольшим заработал миллионы долларов и затащил в свои сети миллионы пользователей.",
+      "en": "Moreover, there exists (and stirs the imagination) the figure of VKontakte's founder himself, who in his early twenties earned millions of dollars and drew millions of users into his network.",
+      "zh": "此外，VKontakte创始人的形象本身就存在（并激发想象力），他在二十出头就赚了数百万美元，并将数百万用户吸引到他的网络中。",
+      "ja": "さらに、VKコンタクトの創業者自身の姿が存在し（想像力をかき立てる）、20代前半で数百万ドルを稼ぎ、数百万人のユーザーを自分のネットワークに引き込んだ。"
+    },
+    {
+      "id": 6,
+      "ru": "Велико искушение на основании всего вышеизложенного объявить Павла Дурова выразителем духа времени и представителем мира будущего.",
+      "en": "There is great temptation, based on all the above, to declare Pavel Durov the embodiment of the zeitgeist and representative of the future world.",
+      "zh": "基于上述所有内容，人们很容易将帕维尔·杜罗夫宣布为时代精神的体现者和未来世界的代表。",
+      "ja": "以上すべてに基づいて、パーヴェル・ドゥーロフを時代精神の体現者であり未来世界の代表者であると宣言したくなる誘惑は大きい。"
+    }
+  ],
+  "translator_notes": [
+    "Preface author: Yuri Saprykin, Russian journalist and cultural critic",
+    "Shakespearean/Homeric: References to Western literary classics, emphasizing epic scale",
+    "VKontakte blue logo: Iconic brand element familiar to Russian users",
+    "Digital elite (цифровая элита): Russian term for tech entrepreneurs"
+  ]
+}
