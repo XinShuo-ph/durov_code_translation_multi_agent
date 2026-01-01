@@ -1,0 +1,36 @@
+{
+  "page": 13,
+  "chapter": 1,
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Мальчик с томом Сервантеса выходит из подъезда, огибает автомобиль, который какой-то негодяй поставил так, что пешеходы еле протискиваются мимо, и сворачивает за угол.",
+      "en": "A boy with a volume of Cervantes steps out of the entrance, skirts a car that some scoundrel parked so that pedestrians barely squeeze by, and turns the corner.",
+      "zh": "一个手捧塞万提斯著作的男孩走出公寓楼，绕过一辆不知哪个混蛋乱停的车——那车停得让人只能勉强挤过去——然后拐过街角。",
+      "ja": "セルバンテスの本を持った少年が建物の入り口を出て、誰か不届き者が停めた車の脇を通り抜ける。歩行者がやっと通れるほどの隙間しかないその車を避け、彼は角を曲がった。"
+    },
+    {
+      "id": 2,
+      "ru": "Перед ним пустынные кварталы, поля и высоковольтные вышки, а в физиономию дует ветер – как везде в Петербурге, но в этом районе особенно.",
+      "en": "Before him lie deserted blocks, fields, and high-voltage pylons, and the wind blows in his face—like everywhere in St. Petersburg, but especially in this district.",
+      "zh": "眼前是空荡荡的街区、田野和高压线塔，风直扑面门——在圣彼得堡到处都是这样，但这片区域尤甚。",
+      "ja": "目の前には人けのない街区、野原、そして高圧送電線が広がり、風が顔に吹き付ける――サンクトペテルブルクではどこでもそうだが、この地区では特に強い。"
+    },
+    {
+      "id": 3,
+      "ru": "Рядом море.",
+      "en": "The sea is nearby.",
+      "zh": "大海就在附近。",
+      "ja": "すぐそばに海がある。"
+    },
+    {
+      "id": 4,
+      "ru": "Архитектор раскрасил панели домов в оранжевый и бордовый, чтобы однообразное серое не свело район с ума.",
+      "en": "The architect painted the house panels orange and burgundy so the monotonous gray wouldn't drive the district crazy.",
+      "zh": "建筑师把房屋面板涂成了橙色和酒红色，以免单调的灰色把整个街区逼疯。",
+      "ja": "建築家は家のパネルをオレンジとワインレッドに塗った。単調な灰色がこの地区を狂わせないようにするためだ。"
+    }
+  ],
+  "translator_notes": ["Don Quixote reference established early on.", "Setting the scene in remote St. Petersburg."],
+  "research_used": ["St. Petersburg geography", "Durov childhood"]
+}
