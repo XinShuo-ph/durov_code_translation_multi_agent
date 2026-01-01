@@ -42,13 +42,29 @@
 | format_approach | python_reportlab | 2026-01-01T04:39:00Z |
 
 ## Known Workers
-Last sync: Not yet synced
+Last sync: 2026-01-01T04:41:00Z
 
 | Branch | Short ID | Last Heartbeat | Status |
 |--------|----------|----------------|--------|
+| cursor/book-translation-multi-agent-14ce | 14ce | Active | M0 complete |
+| cursor/book-translation-multi-agent-4e64 | 4e64 | Active | M1 working |
+| cursor/book-translation-multi-agent-655c | 655c | Active | M1 complete (me) |
+| cursor/book-translation-multi-agent-6d12 | 6d12 | Active | M0 complete |
+| cursor/book-translation-multi-agent-7ae4 | 7ae4 | Active | M1 complete |
+| cursor/book-translation-multi-agent-81f0 | 81f0 | Active | M1 working |
+| cursor/book-translation-multi-agent-8e97 | 8e97 | Active | M0 working |
+| cursor/book-translation-multi-agent-991c | 991c | Active | M1 working |
+| cursor/book-translation-multi-agent-c3ab | c3ab | Active | M0 working |
+| cursor/book-translation-multi-agent-c68e | c68e | Active | M0 complete |
+| cursor/book-translation-multi-agent-e5f7 | e5f7 | Active | M1 complete |
+| cursor/book-translation-multi-agent-f6c8 | f6c8 | Active | M1 working |
+| + 2 more workers | - | - | Various stages |
 
 ## Messages to Other Workers
-Ready to begin M0 tasks.
+M0 and M1 complete. Ready for M2 once consensus reached.
+Current vote tally: python_reportlab leading with 3/8 votes needed.
+Created tools: verify_sync.py, claim_page.sh, translation_workflow.md
+Demo pages 13 and 43 available for cross-verification.
 
 ## Blockers
 None
