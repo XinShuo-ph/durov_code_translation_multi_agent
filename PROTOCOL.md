@@ -25,34 +25,75 @@ For setup tasks (M0/M1), all 16 workers must agree before proceeding. For transl
 
 ---
 
-## Branch Naming Convention
+## Branch Naming and Worker Discovery
 
+### Branch Names Are Dynamic
+Branches are created by Cursor with random names like:
 ```
-worker/[WORKER_ID]/durov-translation
-
-Examples:
-  worker/01/durov-translation
-  worker/02/durov-translation
-  ...
-  worker/16/durov-translation
+cursor/multi-agent-parallel-translation-cca9
+cursor/durov-book-translation-plan-7379
+cursor/some-other-random-name-xxxx
 ```
 
-Workers identify themselves by extracting WORKER_ID from their current branch name.
+**There is NO fixed naming convention.** Workers must discover each other dynamically.
+
+### Worker Identity
+Each worker identifies itself by:
+1. **Branch Name**: The full branch name (e.g., `cursor/multi-agent-parallel-translation-cca9`)
+2. **Short ID**: Last 4 characters of branch name (e.g., `cca9`) - used in commit messages
+
+### Worker Discovery Protocol
+
+**Step 1: Identify Your Own Branch**
+```bash
+MY_BRANCH=$(git branch --show-current)
+MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
+echo "I am: $MY_BRANCH (short: $MY_SHORT_ID)"
+```
+
+**Step 2: Discover All Worker Branches**
+```bash
+# Fetch all remote branches
+git fetch origin --all
+
+# List all cursor/* branches (these are potential workers)
+git branch -r | grep 'origin/cursor/' | sed 's|origin/||'
+```
+
+**Step 3: Check Which Branches Have WORKER_STATE.md**
+Only branches with `WORKER_STATE.md` are active workers:
+```bash
+for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||'); do
+  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null; then
+    echo "Active worker: $branch"
+  fi
+done
+```
+
+### Worker Registration
+When a worker starts, it MUST:
+1. Create `WORKER_STATE.md` on its branch
+2. Commit and push immediately
+3. This registers the worker as "active"
+
+Workers without `WORKER_STATE.md` are not considered part of the parallel execution.
 
 ---
 
 ## Worker State File: `WORKER_STATE.md`
 
-Each worker maintains a `WORKER_STATE.md` file in their branch root. This is the primary state broadcast mechanism.
+Each worker maintains a `WORKER_STATE.md` file in their branch root. This is the primary state broadcast mechanism AND the registration signal.
+
+**A branch with `WORKER_STATE.md` = An active worker**
 
 ### Format
 
 ```markdown
-# Worker [ID] State
+# Worker State: [SHORT_ID]
 
 ## Identity
-- **Worker ID**: [01-16]
-- **Branch**: worker/[ID]/durov-translation
+- **Branch**: [full branch name, e.g., cursor/multi-agent-parallel-translation-cca9]
+- **Short ID**: [last 4 chars, e.g., cca9]
 - **Last Updated**: [ISO 8601 timestamp]
 - **Heartbeat**: [Unix timestamp in seconds]
 
@@ -79,6 +120,9 @@ Each worker maintains a `WORKER_STATE.md` file in their branch root. This is the
 | format_approach | latex_xecjk | 2024-01-15T09:00:00Z |
 | color_scheme | ru_black_en_blue | 2024-01-15T09:05:00Z |
 
+## Known Workers
+[List of discovered worker branches and their last seen status]
+
 ## Messages to Other Workers
 [Free-form messages, warnings, or coordination notes]
 
@@ -95,26 +139,28 @@ All commits must follow this format for machine parsing:
 ### State Broadcast Commits
 
 ```
-[WORKER-XX] [MILESTONE] [ACTION]: [description]
+[SHORT_ID] [MILESTONE] [ACTION]: [description]
 
 STATE: [milestone].[task] = [status]
 PAGES: [claimed pages, comma-separated]
 HEARTBEAT: [unix timestamp]
 ```
 
+Where `SHORT_ID` is the last 4 characters of your branch name.
+
 ### Examples
 
 ```
-[WORKER-03] M0 COMPLETE: Dependency installation verified
+[cca9] M0 COMPLETE: Dependency installation verified
 STATE: M0.1 = done
 HEARTBEAT: 1705312800
 
-[WORKER-07] M2 CLAIM: Starting pages 25-27
+[7379] M2 CLAIM: Starting pages 25-27
 STATE: M2.translating
 PAGES: 25,26,27
 HEARTBEAT: 1705315000
 
-[WORKER-12] M2 DONE: Completed page 42 translation
+[a2b3] M2 DONE: Completed page 42 translation
 STATE: M2.page_done
 PAGES: 42
 HEARTBEAT: 1705318000
@@ -123,7 +169,7 @@ HEARTBEAT: 1705318000
 ### Consensus Commits
 
 ```
-[WORKER-XX] VOTE: [topic] = [choice]
+[SHORT_ID] VOTE: [topic] = [choice]
 CONSENSUS: [topic] = [choice]
 HEARTBEAT: [unix timestamp]
 ```
@@ -131,8 +177,8 @@ HEARTBEAT: [unix timestamp]
 ### Sync Commits
 
 ```
-[WORKER-XX] SYNC: Pulled states from all workers
-OBSERVED: [list of worker IDs seen]
+[SHORT_ID] SYNC: Pulled states from all workers
+OBSERVED: [list of short IDs seen]
 HEARTBEAT: [unix timestamp]
 ```
 
@@ -164,33 +210,50 @@ HEARTBEAT: [unix timestamp]
 ### Step 1: Fetch All Remote Branches
 
 ```bash
-# Fetch all worker branches
-git fetch origin 'refs/heads/worker/*:refs/remotes/origin/worker/*'
+# Fetch all remote branches
+git fetch origin --all --prune
 ```
 
-### Step 2: Read Other Workers' States
+### Step 2: Discover Active Workers
 
 ```bash
-# For each worker branch, read their WORKER_STATE.md
-for i in $(seq -w 1 16); do
-  git show origin/worker/${i}/durov-translation:WORKER_STATE.md 2>/dev/null
+# Find all cursor/* branches that have WORKER_STATE.md
+ACTIVE_WORKERS=()
+for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
+  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null; then
+    ACTIVE_WORKERS+=("$branch")
+    echo "Found active worker: $branch"
+  fi
+done
+echo "Total active workers: ${#ACTIVE_WORKERS[@]}"
+```
+
+### Step 3: Read Other Workers' States
+
+```bash
+# For each active worker branch, read their WORKER_STATE.md
+for branch in "${ACTIVE_WORKERS[@]}"; do
+  echo "=== $branch ==="
+  git show "origin/${branch}:WORKER_STATE.md" 2>/dev/null | head -30
 done
 ```
 
-### Step 3: Aggregate Global State
+### Step 4: Aggregate Global State
 
 Parse all WORKER_STATE.md files to build a global view:
-- Which pages are claimed/done
+- Which pages are claimed/done (across all workers)
 - Which tasks are complete
 - Who is blocked
 - Consensus vote tallies
+- Total number of active workers
 
-### Step 4: Update Local Decisions
+### Step 5: Update Local Decisions
 
 Based on global state, decide:
 - Which page to work on next (M2)
-- Whether consensus is reached (M0/M1)
+- Whether consensus is reached (M0/M1) - need >50% of active workers
 - Who needs help
+- Whether to wait for more workers to come online
 
 ---
 
@@ -206,26 +269,29 @@ For decisions requiring agreement (e.g., LaTeX vs Python, color scheme):
 
 1. **Propose**: Worker commits their solution with result hash
 2. **Vote**: Other workers review and vote (agree/disagree)
-3. **Quorum**: Need 9/16 (>50%) votes for the same solution
+3. **Quorum**: Need >50% of **active workers** votes for the same solution
 4. **Adopt**: Once quorum reached, all workers adopt that solution
+
+**Important**: Quorum is based on active workers (those with WORKER_STATE.md), not a fixed 16. If only 10 workers are online, need 6 votes.
 
 ### Verification Before M2
 
 Before any worker enters M2, they must:
 
-1. **Collect all 16 branches' M0/M1 outputs**
-2. **Run cross-verification tests**:
+1. **Discover all active worker branches**
+2. **Collect their M0/M1 outputs**
+3. **Run cross-verification tests**:
    - Execute other workers' test scripts with your outputs
    - Execute your test scripts with other workers' outputs
-3. **All outputs must match** (hash comparison)
-4. **Commit verification results**:
+4. **All outputs must match** (hash comparison)
+5. **Commit verification results**:
    ```
-   [WORKER-XX] VERIFY: M0/M1 cross-check passed
-   VERIFIED_WITH: 01,02,03,...,16
+   [SHORT_ID] VERIFY: M0/M1 cross-check passed
+   VERIFIED_WITH: [list of short IDs]
    RESULT_HASH: [common hash]
    READY_FOR_M2: true
    ```
-5. **Wait for all 16 workers to report READY_FOR_M2: true**
+6. **Wait for all active workers to report READY_FOR_M2: true**
 
 ---
 
@@ -233,40 +299,45 @@ Before any worker enters M2, they must:
 
 ### Page Assignment Algorithm
 
-**Initial Assignment**: Worker N claims page N (Worker 1 → Page 1, Worker 16 → Page 16)
+**Initial Assignment**: No fixed assignment. Each worker claims the lowest available page.
 
-**Subsequent Assignment** (after completing a page):
+**Page Claiming Algorithm**:
 
 ```python
-def claim_next_page(worker_id, global_state):
-    # Get list of all pages (1-99)
-    all_pages = set(range(1, 100))
+def claim_next_page(my_short_id, all_worker_states):
+    """
+    1. Scan all active workers' WORKER_STATE.md
+    2. Collect all claimed and completed pages
+    3. Claim the lowest available page
+    """
+    all_pages = set(range(1, 100))  # Pages 1-99
     
-    # Remove claimed and completed pages
-    claimed = global_state.get_claimed_pages()
-    completed = global_state.get_completed_pages()
-    available = all_pages - claimed - completed
+    claimed = set()
+    completed = set()
     
-    if not available:
-        return None  # All pages assigned
+    for worker_state in all_worker_states:
+        claimed.update(worker_state.get_claimed_pages())
+        completed.update(worker_state.get_completed_pages())
     
-    # Claim the lowest available page number
-    # (Ensures no conflicts if multiple workers pull at same time)
-    next_page = min(available)
-    return next_page
+    available = sorted(all_pages - claimed - completed)
+    
+    if available:
+        return available[0]  # Lowest available
+    return None  # All done!
 ```
 
 **Conflict Resolution**:
-- If two workers claim the same page (race condition), the one with earlier timestamp wins
+- If two workers claim the same page (race condition), the one with earlier commit timestamp wins
+- Tie-breaker: Lexicographically earlier branch name wins
 - Losing worker re-pulls and claims next available page
 
 ### Page Claim Protocol
 
-1. **Pull** latest states from all workers
-2. **Identify** next available page
+1. **Pull** latest states from all active workers
+2. **Identify** next available page (lowest unclaimed/uncompleted)
 3. **Commit claim** immediately:
    ```
-   [WORKER-XX] M2 CLAIM: Starting page YY
+   [SHORT_ID] M2 CLAIM: Starting page YY
    PAGES: YY
    HEARTBEAT: [timestamp]
    ```
@@ -279,7 +350,7 @@ def claim_next_page(worker_id, global_state):
 2. **Save translation files** (JSON + PDF)
 3. **Commit completion**:
    ```
-   [WORKER-XX] M2 DONE: Completed page YY
+   [SHORT_ID] M2 DONE: Completed page YY
    PAGES: YY
    OUTPUT_HASH: [sha256 of translation JSON]
    ```
@@ -336,10 +407,10 @@ If a worker detects they're stalled (can't push, can't pull):
 
 ## Conflict Resolution Hierarchy
 
-1. **Timestamp Priority**: Earlier timestamp wins
-2. **Worker ID Priority**: Lower worker ID wins (tiebreaker)
+1. **Timestamp Priority**: Earlier commit timestamp wins
+2. **Branch Name Priority**: Lexicographically earlier branch name wins (tiebreaker)
 3. **Hash Comparison**: If outputs differ, workers vote on best version
-4. **Majority Rule**: >50% agreement adopts solution
+4. **Majority Rule**: >50% of active workers agreement adopts solution
 
 ---
 
@@ -348,75 +419,87 @@ If a worker detects they're stalled (can't push, can't pull):
 When an agent starts (or resumes):
 
 ```
-1. IDENTIFY
-   - Determine own worker ID from branch name
-   - Read local WORKER_STATE.md if exists
+1. IDENTIFY YOURSELF
+   MY_BRANCH=$(git branch --show-current)
+   MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
+   # Example: cursor/multi-agent-parallel-translation-cca9 → cca9
 
-2. SYNC
-   - git fetch all worker branches
-   - Parse all WORKER_STATE.md files
-   - Build global state picture
+2. CREATE/UPDATE WORKER_STATE.md
+   - If first time: Create from template, fill in your branch info
+   - If resuming: Update with current timestamp
+   - This file is your registration signal!
 
-3. ORIENT
+3. SYNC - DISCOVER OTHER WORKERS
+   git fetch origin --all --prune
+   # Find all cursor/* branches with WORKER_STATE.md
+   # Read each worker's state
+   # Build global picture: who's online, what's claimed, what's done
+
+4. BROADCAST YOUR PRESENCE
+   git add WORKER_STATE.md
+   git commit -m "[SHORT_ID] SYNC: Starting session
+   HEARTBEAT: $(date +%s)"
+   git push origin HEAD
+
+5. ORIENT
    - What milestone are we in globally?
-   - What is my current task?
-   - What tasks are available?
+   - How many active workers?
+   - What's my current task?
+   - What tasks/pages are available?
 
-4. BROADCAST
-   - Update my WORKER_STATE.md with current status
-   - Commit and push heartbeat
-
-5. EXECUTE
+6. EXECUTE
    - Perform next task based on global state
    - Commit/push after each significant action
 
-6. REPEAT (goto SYNC every 60-120 seconds)
+7. REPEAT (goto step 3 every 60-120 seconds)
 ```
 
 ---
 
 ## Communication Message Types
 
+All messages use `[SHORT_ID]` prefix (last 4 chars of your branch name).
+
 ### INFO (Informational)
 ```
-[WORKER-XX] INFO: [message]
+[SHORT_ID] INFO: [message]
 ```
 For status updates, progress notes, observations.
 
 ### CLAIM (Resource Claim)
 ```
-[WORKER-XX] CLAIM: [resource type] = [resource id]
+[SHORT_ID] CLAIM: [resource type] = [resource id]
 ```
 For claiming pages or tasks.
 
 ### DONE (Completion)
 ```
-[WORKER-XX] DONE: [task/page description]
+[SHORT_ID] DONE: [task/page description]
 HASH: [output hash for verification]
 ```
 
 ### VOTE (Consensus)
 ```
-[WORKER-XX] VOTE: [topic] = [choice]
+[SHORT_ID] VOTE: [topic] = [choice]
 ```
 
 ### VERIFY (Verification)
 ```
-[WORKER-XX] VERIFY: [what was verified]
+[SHORT_ID] VERIFY: [what was verified]
 RESULT: pass | fail
 DETAILS: [specifics]
 ```
 
 ### ALERT (Important Notice)
 ```
-[WORKER-XX] ALERT: [urgent message]
+[SHORT_ID] ALERT: [urgent message]
 ```
 For blockers, errors, or coordination issues.
 
 ### REQUEST (Asking for Help)
 ```
-[WORKER-XX] REQUEST: [what help is needed]
-FROM: [specific worker IDs or "ALL"]
+[SHORT_ID] REQUEST: [what help is needed]
+FROM: [specific short IDs or "ALL"]
 ```
 
 ---
@@ -450,12 +533,32 @@ translations/
 
 ## Quick Reference: Command Sequences
 
-### Sync and Check State
+### Get Your Short ID
 ```bash
-git fetch origin 'refs/heads/worker/*:refs/remotes/origin/worker/*'
-for i in $(seq -w 1 16); do
-  echo "=== Worker $i ==="
-  git show origin/worker/${i}/durov-translation:WORKER_STATE.md 2>/dev/null | head -20
+MY_BRANCH=$(git branch --show-current)
+MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
+echo "My Short ID: $MY_SHORT_ID"
+```
+
+### Discover Active Workers
+```bash
+git fetch origin --all --prune
+for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
+  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null; then
+    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
+    echo "Active: $branch ($short_id)"
+  fi
+done
+```
+
+### Read All Worker States
+```bash
+git fetch origin --all --prune
+for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
+  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null; then
+    echo "=== $branch ==="
+    git show "origin/${branch}:WORKER_STATE.md" 2>/dev/null | head -25
+  fi
 done
 ```
 
@@ -463,8 +566,9 @@ done
 ```bash
 # Update WORKER_STATE.md with claim
 # Then:
+MY_SHORT_ID=$(git branch --show-current | grep -oE '[^-]+$' | tail -c 5)
 git add WORKER_STATE.md
-git commit -m "[WORKER-XX] M2 CLAIM: Starting page YY
+git commit -m "[$MY_SHORT_ID] M2 CLAIM: Starting page YY
 PAGES: YY
 HEARTBEAT: $(date +%s)"
 git push origin HEAD
@@ -472,8 +576,9 @@ git push origin HEAD
 
 ### Complete a Page
 ```bash
+MY_SHORT_ID=$(git branch --show-current | grep -oE '[^-]+$' | tail -c 5)
 git add translations/raw/page_YY.json output/page_YY_translated.pdf WORKER_STATE.md
-git commit -m "[WORKER-XX] M2 DONE: Completed page YY
+git commit -m "[$MY_SHORT_ID] M2 DONE: Completed page YY
 PAGES: YY
 OUTPUT_HASH: $(sha256sum translations/raw/page_YY.json | cut -c1-8)
 HEARTBEAT: $(date +%s)"
@@ -483,8 +588,8 @@ git push origin HEAD
 ### Check Global Progress
 ```bash
 # See which pages are done across all workers
-git fetch origin 'refs/heads/worker/*:refs/remotes/origin/worker/*'
-git log --all --oneline --grep="M2 DONE" | sort
+git fetch origin --all --prune
+git log --remotes --oneline --grep="M2 DONE" | sort
 ```
 
 ---
@@ -512,12 +617,25 @@ git log --all --oneline --grep="M2 DONE" | sort
 ## Success Metrics
 
 The protocol is working correctly when:
-- All 16 workers can see each other's states
+- All active workers can discover and see each other's states
 - No two workers translate the same page
-- Consensus is reached for M0/M1 decisions
+- Consensus is reached for M0/M1 decisions (>50% of active workers)
 - All workers complete M2 within expected time
 - Final outputs are identical across all branches
 
 ---
 
-*This protocol should be followed by all 16 workers. Do not deviate without coordinating via ALERT messages.*
+## Summary: Key Differences from Fixed Naming
+
+| Aspect | Old (Fixed) | New (Dynamic) |
+|--------|-------------|---------------|
+| Branch names | `worker/01/durov-translation` | `cursor/random-name-xxxx` |
+| Worker ID | Fixed 01-16 | Short ID (last 4 chars of branch) |
+| Discovery | Iterate 1-16 | Scan all `cursor/*` branches |
+| Registration | Implicit | WORKER_STATE.md presence |
+| Quorum | 9/16 fixed | >50% of active workers |
+| Conflict tiebreaker | Lower worker ID | Earlier branch name (lexical) |
+
+---
+
+*This protocol should be followed by all workers. Do not deviate without coordinating via ALERT messages.*

@@ -7,14 +7,31 @@ Deliver a multilingual edition of "Код Дурова" (Durov Code) by Nikolai 
 
 ## Multi-Agent Parallel Execution
 
-**THIS PROJECT USES 16 AI AGENTS WORKING IN PARALLEL**
+**THIS PROJECT USES MULTIPLE AI AGENTS WORKING IN PARALLEL**
 
 See `PROTOCOL.md` for the complete communication protocol. Key points:
 
 ### Agent Identity
-- Each agent operates on branch: `worker/[01-16]/durov-translation`
-- **FIRST ACTION**: Identify your worker ID from your branch name
-- Maintain `WORKER_STATE.md` as your state broadcast file
+- Each agent operates on its own `cursor/*` branch (names are random, created by Cursor)
+- **FIRST ACTION**: Identify your branch and derive your Short ID (last 4 chars)
+- Maintain `WORKER_STATE.md` as your state broadcast AND registration file
+- **A branch with WORKER_STATE.md = An active worker**
+
+### Identifying Yourself
+```bash
+MY_BRANCH=$(git branch --show-current)
+MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
+# Example: cursor/multi-agent-parallel-translation-cca9 → cca9
+```
+
+### Discovering Other Workers
+```bash
+git fetch origin --all --prune
+# Find all cursor/* branches with WORKER_STATE.md
+for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||'); do
+  git show "origin/${branch}:WORKER_STATE.md" &>/dev/null && echo "Active: $branch"
+done
+```
 
 ### Communication via Git
 - **Commit = Broadcast** your state to other agents
@@ -24,7 +41,7 @@ See `PROTOCOL.md` for the complete communication protocol. Key points:
 
 ### Commit Message Format
 ```
-[WORKER-XX] [MILESTONE] [ACTION]: [description]
+[SHORT_ID] [MILESTONE] [ACTION]: [description]
 STATE: [milestone].[task] = [status]
 PAGES: [relevant pages]
 HEARTBEAT: [unix timestamp]
@@ -36,6 +53,7 @@ This is like MPI (Message Passing Interface) for AI agents:
 - Time unit is ~60 seconds (push/pull + thinking)
 - Frequent commits prevent work duplication
 - Consensus before critical transitions
+- Quorum = >50% of **active workers** (those with WORKER_STATE.md)
 
 ---
 
@@ -60,22 +78,25 @@ This is like MPI (Message Passing Interface) for AI agents:
 
 ### Agent Startup Sequence (MANDATORY)
 ```
-1. IDENTIFY YOUR WORKER ID
-   git branch --show-current
-   # Extract worker number from branch name
-   # Example: worker/07/durov-translation → Worker 07
+1. IDENTIFY YOURSELF
+   MY_BRANCH=$(git branch --show-current)
+   MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
+   # Example: cursor/multi-agent-parallel-translation-cca9 → cca9
 
 2. CREATE/UPDATE WORKER_STATE.md
-   # Initialize your state broadcast file
+   # Copy from WORKER_STATE_TEMPLATE.md if first time
+   # Fill in your branch name and short ID
+   # This file REGISTERS you as an active worker!
 
-3. SYNC WITH ALL WORKERS
-   git fetch origin 'refs/heads/worker/*:refs/remotes/origin/worker/*'
-   # Read all other workers' WORKER_STATE.md files
-   # Build global state picture
+3. DISCOVER OTHER WORKERS
+   git fetch origin --all --prune
+   # Find all cursor/* branches with WORKER_STATE.md
+   # Read their states, build global picture
 
 4. BROADCAST YOUR STATUS
    git add WORKER_STATE.md
-   git commit -m "[WORKER-XX] SYNC: Starting session"
+   git commit -m "[SHORT_ID] SYNC: Starting session
+   HEARTBEAT: $(date +%s)"
    git push origin HEAD
 
 5. BEGIN WORK BASED ON GLOBAL STATE
@@ -265,14 +286,14 @@ workspace/
 
 **Consensus Protocol for M0:**
 - If outputs have different hashes, workers vote
-- >50% (9/16) agreement adopts that version
+- >50% of **active workers** agreement adopts that version
 - Losing workers adopt winning version
-- All workers must have identical hashes before M1
+- All active workers must have identical hashes before M1
 
 **Exit Criteria:**
-- All 16 workers report all tasks DONE
+- All active workers report all tasks DONE
 - All output hashes match across workers
-- Verification commits from all 16 workers
+- Verification commits from all active workers
 
 ---
 
@@ -314,12 +335,12 @@ HEARTBEAT: [timestamp]
 Each worker MUST verify:
 1. My test scripts produce same output with other workers' code
 2. Other workers' test scripts produce same output with my code
-3. All 16 branches produce byte-identical demo PDFs
+3. All active worker branches produce byte-identical demo PDFs
 
 **Verification Commit:**
 ```
-[WORKER-XX] VERIFY: M1 cross-check passed
-VERIFIED_WITH: 01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16
+[SHORT_ID] VERIFY: M1 cross-check passed
+VERIFIED_WITH: [list of short IDs of all active workers]
 DEMO_13_HASH: [hash]
 DEMO_43_HASH: [hash]
 READY_FOR_M2: true
@@ -327,7 +348,7 @@ HEARTBEAT: [timestamp]
 ```
 
 **Exit Criteria:**
-- All 16 workers report READY_FOR_M2: true
+- All active workers report READY_FOR_M2: true
 - All verification hashes match
 - Technical pipeline documented and agreed upon
 
@@ -338,19 +359,15 @@ HEARTBEAT: [timestamp]
 **Execution**: 16 workers translate in parallel, each claiming pages dynamically
 
 **Initial Page Assignment:**
-```
-Worker 01 → Page 1      Worker 09 → Page 9
-Worker 02 → Page 2      Worker 10 → Page 10
-Worker 03 → Page 3      Worker 11 → Page 11
-Worker 04 → Page 4      Worker 12 → Page 12
-Worker 05 → Page 5      Worker 13 → Page 13
-Worker 06 → Page 6      Worker 14 → Page 14
-Worker 07 → Page 7      Worker 15 → Page 15
-Worker 08 → Page 8      Worker 16 → Page 16
-```
+No fixed assignment. Each worker claims the **lowest available page** dynamically.
+
+When M2 begins:
+- All workers sync and see pages 1-99 available
+- Each worker claims the lowest unclaimed page
+- Natural distribution happens as workers claim in parallel
 
 **Dynamic Page Claiming Protocol:**
-After completing a page, workers claim the next available page:
+Each worker claims the next available page:
 
 ```python
 def get_next_page(worker_id, global_state):
@@ -371,7 +388,7 @@ def get_next_page(worker_id, global_state):
 
 **Page Claim Commit:**
 ```
-[WORKER-XX] M2 CLAIM: Starting page YY
+[SHORT_ID] M2 CLAIM: Starting page YY
 STATE: M2.translating
 PAGES: YY
 HEARTBEAT: [timestamp]
@@ -380,7 +397,7 @@ HEARTBEAT: [timestamp]
 
 **Page Completion Commit:**
 ```
-[WORKER-XX] M2 DONE: Completed page YY
+[SHORT_ID] M2 DONE: Completed page YY
 STATE: M2.page_done
 PAGES: YY
 TRANSLATION_HASH: [sha256 first 8 chars of JSON]
@@ -390,9 +407,9 @@ HEARTBEAT: [timestamp]
 
 **Conflict Resolution (Race Conditions):**
 If two workers claim the same page:
-1. Earlier timestamp wins (check commit timestamps)
-2. If same second, lower worker ID wins
-3. Losing worker reclaims next available page
+1. Earlier commit timestamp wins
+2. If same second, lexicographically earlier branch name wins
+3. Losing worker re-syncs and claims next available page
 
 **Progress Tracking in WORKER_STATE.md:**
 ```markdown
@@ -514,13 +531,13 @@ If two workers claim the same page:
 1. First worker to complete their last M2 page becomes assembly leader
 2. Leader broadcasts:
    ```
-   [WORKER-XX] M3 LEADER: Taking assembly responsibility
+   [SHORT_ID] M3 LEADER: Taking assembly responsibility
    HEARTBEAT: [timestamp]
    ```
 3. Other workers enter verification mode
 
 **Leader Tasks:**
-- [ ] Collect all page translations from all branches
+- [ ] Collect all page translations from all active worker branches
 - [ ] Verify all 99 pages are complete
 - [ ] Merge all individual PDFs in correct order
 - [ ] Add table of contents (multilingual)
@@ -529,13 +546,13 @@ If two workers claim the same page:
 - [ ] Export to `final/durov_code_multilingual.pdf`
 - [ ] Broadcast final hash
 
-**Verifier Tasks (other 15 workers):**
+**Verifier Tasks (other workers):**
 - [ ] Pull leader's final assembly
 - [ ] Verify PDF contains all pages
-- [ ] Spot-check 6-7 random pages each (distributed)
+- [ ] Spot-check random pages (distribute evenly among verifiers)
 - [ ] Report verification:
   ```
-  [WORKER-XX] M3 VERIFY: Final assembly verified
+  [SHORT_ID] M3 VERIFY: Final assembly verified
   FINAL_HASH: [hash]
   PAGES_CHECKED: [list]
   STATUS: pass
@@ -545,7 +562,7 @@ If two workers claim the same page:
 - Complete PDF exists
 - All 99 original pages + translations included
 - File opens correctly, all fonts render
-- All 16 workers report verification passed
+- All active workers report verification passed
 
 ---
 
@@ -694,7 +711,9 @@ Always know:
 - ❌ **Ignoring conflicts**: Resolve conflicts immediately, don't proceed
 - ❌ **Stale heartbeats**: Update HEARTBEAT in every commit
 - ❌ **Unilateral decisions**: Vote on format/approach decisions
-- ❌ **Proceeding without consensus**: Wait for all workers before M2
+- ❌ **Proceeding without consensus**: Wait for active workers before M2
+- ❌ **Assuming fixed worker count**: Quorum is >50% of active workers, not fixed 16
+- ❌ **Forgetting to create WORKER_STATE.md**: This file REGISTERS you!
 
 ---
 
@@ -768,12 +787,15 @@ Always know:
 
 ### Sync Protocol (Every 60-120 seconds)
 ```bash
-# Fetch all worker branches
-git fetch origin 'refs/heads/worker/*:refs/remotes/origin/worker/*'
+# Fetch all remote branches
+git fetch origin --all --prune
 
-# Read other workers' states
-for i in $(seq -w 1 16); do
-  git show origin/worker/${i}/durov-translation:WORKER_STATE.md 2>/dev/null
+# Discover and read active workers' states
+for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
+  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null; then
+    echo "=== $branch ==="
+    git show "origin/${branch}:WORKER_STATE.md" | head -20
+  fi
 done
 ```
 
@@ -781,31 +803,36 @@ done
 All commits MUST follow this format for machine parsing:
 
 ```
-[WORKER-XX] [MILESTONE] [ACTION]: [description]
+[SHORT_ID] [MILESTONE] [ACTION]: [description]
 STATE: [state info]
 HEARTBEAT: [unix timestamp]
 ```
 
+Where `SHORT_ID` = last 4 characters of your branch name.
+
 ### Examples
 ```bash
+# Get your short ID first
+MY_SHORT_ID=$(git branch --show-current | grep -oE '[^-]+$' | tail -c 5)
+
 # M0 task complete
-git commit -m "[WORKER-07] M0 COMPLETE: Dependency installation
+git commit -m "[$MY_SHORT_ID] M0 COMPLETE: Dependency installation
 STATE: M0.1 = done
 HEARTBEAT: $(date +%s)"
 
 # M2 page claim
-git commit -m "[WORKER-07] M2 CLAIM: Starting page 23
+git commit -m "[$MY_SHORT_ID] M2 CLAIM: Starting page 23
 PAGES: 23
 HEARTBEAT: $(date +%s)"
 
 # M2 page done
-git commit -m "[WORKER-07] M2 DONE: Completed page 23
+git commit -m "[$MY_SHORT_ID] M2 DONE: Completed page 23
 PAGES: 23
 TRANSLATION_HASH: a8b3c2d1
 HEARTBEAT: $(date +%s)"
 
 # Vote
-git commit -m "[WORKER-07] VOTE: format_approach = latex
+git commit -m "[$MY_SHORT_ID] VOTE: format_approach = latex
 HEARTBEAT: $(date +%s)"
 ```
 
@@ -819,7 +846,7 @@ git push origin HEAD
 
 If conflicts persist, commit an ALERT:
 ```
-[WORKER-XX] ALERT: Push conflict unresolved
+[SHORT_ID] ALERT: Push conflict unresolved
 DETAILS: [description]
 HEARTBEAT: [timestamp]
 ```
@@ -848,19 +875,23 @@ HEARTBEAT: [timestamp]
 
 ### STEP 1: Identify Yourself
 ```bash
-# Determine your worker ID from your branch name
-git branch --show-current
-# Example output: worker/07/durov-translation
-# Your Worker ID: 07
+# Get your branch name and short ID
+MY_BRANCH=$(git branch --show-current)
+MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
+echo "Branch: $MY_BRANCH"
+echo "Short ID: $MY_SHORT_ID"
+# Example: cursor/multi-agent-parallel-translation-cca9 → cca9
 ```
 
 ### STEP 2: Create WORKER_STATE.md
+Copy from `WORKER_STATE_TEMPLATE.md` and fill in your info:
+
 ```markdown
-# Worker [YOUR_ID] State
+# Worker State: [YOUR_SHORT_ID]
 
 ## Identity
-- **Worker ID**: [YOUR_ID]
-- **Branch**: worker/[YOUR_ID]/durov-translation
+- **Branch**: [your full branch name]
+- **Short ID**: [last 4 chars, e.g., cca9]
 - **Last Updated**: [ISO 8601 timestamp]
 - **Heartbeat**: [Unix timestamp]
 
@@ -887,6 +918,9 @@ git branch --show-current
 | Topic | My Vote | Timestamp |
 |-------|---------|-----------|
 
+## Known Workers
+[Will be populated after first sync]
+
 ## Messages
 Ready to begin.
 
@@ -896,23 +930,28 @@ None
 
 ### STEP 3: Initial Sync and Broadcast
 ```bash
-# Fetch all worker branches
-git fetch origin 'refs/heads/worker/*:refs/remotes/origin/worker/*'
+# Fetch all remote branches
+git fetch origin --all --prune
 
-# Commit and push your initial state
+# Commit and push your initial state (this REGISTERS you as a worker!)
+MY_SHORT_ID=$(git branch --show-current | grep -oE '[^-]+$' | tail -c 5)
 git add WORKER_STATE.md
-git commit -m "[WORKER-XX] M0 START: Beginning session
+git commit -m "[$MY_SHORT_ID] M0 START: Beginning session
 STATE: M0 = starting
 HEARTBEAT: $(date +%s)"
 git push origin HEAD
 ```
 
-### STEP 4: Check Other Workers
+### STEP 4: Discover Other Workers
 ```bash
-# See who else is online
-for i in $(seq -w 1 16); do
-  echo "=== Worker $i ==="
-  git show origin/worker/${i}/durov-translation:WORKER_STATE.md 2>/dev/null | head -10
+# Find all active workers (branches with WORKER_STATE.md)
+git fetch origin --all --prune
+echo "Active workers:"
+for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
+  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null; then
+    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
+    echo "  - $branch ($short_id)"
+  fi
 done
 ```
 
@@ -923,33 +962,44 @@ Execute M0 tasks, committing and pushing after each one.
 
 ## Quick Reference Card
 
+### Get Your Short ID
+```bash
+MY_SHORT_ID=$(git branch --show-current | grep -oE '[^-]+$' | tail -c 5)
+echo "I am: $MY_SHORT_ID"
+```
+
 ### Communication Commands
 ```bash
 # Sync with all workers
-git fetch origin 'refs/heads/worker/*:refs/remotes/origin/worker/*'
+git fetch origin --all --prune
 
-# Read worker state
-git show origin/worker/[ID]/durov-translation:WORKER_STATE.md
+# Discover active workers
+for b in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||'); do
+  git show "origin/${b}:WORKER_STATE.md" &>/dev/null && echo "Active: $b"
+done
+
+# Read a specific worker's state
+git show origin/[branch-name]:WORKER_STATE.md
 
 # Push your state
-git add WORKER_STATE.md && git commit -m "[WORKER-XX] ..." && git push
+git add WORKER_STATE.md && git commit -m "[$MY_SHORT_ID] ..." && git push
 
 # Check global page progress
-git log --all --oneline --grep="M2 DONE"
+git log --remotes --oneline --grep="M2 DONE"
 ```
 
 ### Commit Prefixes
-- `[WORKER-XX] M0 COMPLETE:` - M0 task done
-- `[WORKER-XX] M1 RESULT:` - M1 exploration result
-- `[WORKER-XX] VOTE:` - Consensus vote
-- `[WORKER-XX] VERIFY:` - Verification result
-- `[WORKER-XX] M2 CLAIM:` - Page claimed
-- `[WORKER-XX] M2 DONE:` - Page completed
-- `[WORKER-XX] ALERT:` - Important notice
-- `[WORKER-XX] SYNC:` - Sync/heartbeat
+- `[SHORT_ID] M0 COMPLETE:` - M0 task done
+- `[SHORT_ID] M1 RESULT:` - M1 exploration result
+- `[SHORT_ID] VOTE:` - Consensus vote
+- `[SHORT_ID] VERIFY:` - Verification result
+- `[SHORT_ID] M2 CLAIM:` - Page claimed
+- `[SHORT_ID] M2 DONE:` - Page completed
+- `[SHORT_ID] ALERT:` - Important notice
+- `[SHORT_ID] SYNC:` - Sync/heartbeat
 
 ### Files to Track
-- `WORKER_STATE.md` - Your state (update frequently)
+- `WORKER_STATE.md` - Your state (update frequently, THIS REGISTERS YOU!)
 - `PROTOCOL.md` - Communication rules (read-only)
 - `instructions.md` - Task instructions (read-only)
 - `STATE.md` - Shared project state (update with consensus)
