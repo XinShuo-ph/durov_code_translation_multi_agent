@@ -1,0 +1,38 @@
+{
+  "page": 37,
+  "chapter": 2,
+  "chapter_title": "Глава 2 (Chapter 2 - University Years)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "версии, но не слышал щелчка над ухом, который знаменовал бы качественно новый поворот, в который он так хотел вложить все свое желание воздействовать на реальность.",
+      "en": "versions, but he hadn't heard that click in his ear that would signal a qualitatively new turn—one into which he so wanted to pour all his desire to impact reality.",
+      "zh": "各种版本，但他还没有听到耳边那个标志着质的飞跃的「咔嗒」声——他如此渴望将自己改变现实的全部热望都投入其中。",
+      "ja": "様々なバージョンを検討していたが、彼が現実に影響を与えたいという願望をすべて注ぎ込みたいと切望していた、質的な転換点を告げる「カチッ」という音はまだ聞こえていなかった。"
+    },
+    {
+      "id": 2,
+      "ru": "«Миллион так миллион, – очнулся Дуров и с любопытством посмотрел на Перекопского. – Спорим».",
+      "en": "\"A million it is,\" Durov snapped back to attention and looked at Perekopsky with curiosity. \"You're on.\"",
+      "zh": "「一百万就一百万，」杜罗夫回过神来，好奇地看着佩列科普斯基，「赌就赌。」",
+      "ja": "「100万ドルならそれでいい」とドゥーロフは我に返り、好奇心を込めた目でペレコプスキーを見た。「賭けよう」"
+    },
+    {
+      "id": 3,
+      "ru": "Если бы он знал, что через год, когда Перекопский вспомнит о пари, его жизнь навсегда изменится благодаря одной случайной встрече, – свалился бы в обморок, как декан перед тысячеликим складнем.",
+      "en": "If he had known that a year later, when Perekopsky would remember the bet, his life would be forever changed by a chance encounter—he would have fainted, like the dean before his thousand-faced folding icon.",
+      "zh": "如果他知道一年后，当佩列科普斯基想起这个赌约时，他的人生将因一次偶然的相遇而永远改变——他一定会像那位院长面对千面圣像画时一样晕倒过去。",
+      "ja": "もし1年後、ペレコプスキーがこの賭けを思い出す時、ある偶然の出会いによって彼の人生が永遠に変わることを知っていたなら——あの学部長が千面の折りたたみ聖像画の前で失神したように、彼も気を失っていたことだろう。"
+    }
+  ],
+  "translator_notes": [
+    "Page 37 concludes Chapter 2 with the pivotal bet between Durov and Perekopsky about having a million dollars within a year",
+    "This page continues from page 36 where Durov was contemplating how forums were becoming outdated",
+    "The click metaphor refers to the moment of insight or breakthrough that Durov was seeking",
+    "The thousand-faced folding icon (skladyen) references Dean Bogdanov's art piece described on page 36 - a giant folding icon containing 350 faces",
+    "The chance encounter foreshadows the events that led to VKontakte's founding",
+    "Perekopsky (Ilya Perekopsky) later became VKontakte's vice president for external communications"
+  ],
+  "total_sentences": 3,
+  "page_type": "narrative"
+}
