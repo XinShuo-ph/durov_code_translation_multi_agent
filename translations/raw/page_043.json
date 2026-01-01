@@ -1,0 +1,22 @@
+{
+  "page": 43,
+  "chapter": 3,
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "предложили купить базу данных, от которой я, разумеется, отказался.",
+      "en": "they offered to buy the database, which I, of course, refused.",
+      "zh": "他们提议让我购买数据库，我当然拒绝了。",
+      "ja": "彼らはデータベースを買わないかと持ちかけてきたが、もちろん私は断った。"
+    },
+    {
+      "id": 2,
+      "ru": "Но я отказался, а кто-то согласится.",
+      "en": "But I refused, and someone else might agree.",
+      "zh": "但我拒绝了，别人可能会同意。",
+      "ja": "しかし私が断っても、誰かが同意するかもしれない。"
+    }
+  ],
+  "translator_notes": ["Excerpt from a forum post by 'durov'."],
+  "research_used": ["Conflict with MoiFakultet.ru"]
+}

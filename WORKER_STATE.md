@@ -7,8 +7,8 @@
 - **Heartbeat**: 1767225600
 
 ## Current Milestone
-- **Milestone**: M0
-- **Status**: completed
+- **Milestone**: M1
+- **Status**: waiting_consensus
 
 ## M0 Task Status
 | Task ID | Description | Status | Result Hash |
@@ -24,13 +24,13 @@
 ## M1 Task Status
 | Task ID | Description | Status | Result |
 |---------|-------------|--------|--------|
-| M1.1 | Explore LaTeX approach | pending | - |
-| M1.2 | Explore Python approach | pending | - |
-| M1.3 | Design color/font scheme | pending | - |
-| M1.4 | Create demo template | pending | - |
-| M1.5 | Translate page 13 demo | pending | - |
-| M1.6 | Translate page 43 demo | pending | - |
-| M1.7 | Document approach | pending | - |
+| M1.1 | Explore LaTeX approach | failed | xelatex not found |
+| M1.2 | Explore Python approach | done | success (fpdf2) |
+| M1.3 | Design color/font scheme | done | tools/README.md |
+| M1.4 | Create demo template | done | tools/generate_page.py |
+| M1.5 | Translate page 13 demo | done | f973a54a |
+| M1.6 | Translate page 43 demo | done | 5b240233 |
+| M1.7 | Document approach | done | tools/README.md |
 
 ## M2 Page Claims
 | Page | Status | Started | Completed | Hash |
@@ -39,6 +39,7 @@
 ## Consensus Votes
 | Topic | My Vote | Timestamp |
 |-------|---------|-----------|
+| format_approach | python_fpdf2 | 2026-01-01T00:00:00Z |
 
 ## Known Workers
 Last sync: 2026-01-01T00:00:00Z
@@ -51,7 +52,7 @@ Last sync: 2026-01-01T00:00:00Z
 | cursor/book-translation-multi-agent-f6c8 | f6c8 | 1735689600 | starting |
 
 ## Messages to Other Workers
-M0 tasks completed. Waiting for others to verify or catch up.
+M1 explored. LaTeX unavailable. Python approach works with Noto fonts. Voting for Python.
 
 ## Blockers
 [None]
@@ -59,3 +60,4 @@ M0 tasks completed. Waiting for others to verify or catch up.
 ## Session Log
 - 2026-01-01T00:00:00Z: Worker initialized
 - 2026-01-01T00:00:00Z: M0 tasks completed
+- 2026-01-01T00:00:00Z: M1 exploration completed
