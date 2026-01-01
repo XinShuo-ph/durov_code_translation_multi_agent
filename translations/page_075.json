@@ -1,0 +1,310 @@
+{
+  "page": 75,
+  "chapter": 6,
+  "chapter_title": "Стена (The Wall)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "За неделю до визита в столицу «ВКонтакте» окончательно открыла все записи на личных страницах пользователей и позволила любому юзеру писать на их стенах что угодно.",
+      "en": "A week before the visit to the capital, VKontakte definitively opened all posts on users' personal pages and allowed any user to write anything on their walls.",
+      "zh": "在访问首都前一周，VKontakte最终开放了用户个人页面上的所有帖子，并允许任何用户在他们的墙上写任何东西。",
+      "ja": "首都への訪問の1週間前、VKontakteはユーザーの個人ページのすべての投稿を最終的に公開し、どのユーザーでも彼らの壁に何でも書けるようにした。"
+    },
+    {
+      "id": 3,
+      "ru": "Это можно было ограничить в настройках, но гневные телеги катились тысячами.",
+      "en": "This could be restricted in settings, but angry complaints rolled in by the thousands.",
+      "zh": "这可以在设置中限制，但愤怒的抱怨成千上万地涌来。",
+      "ja": "これは設定で制限できたが、怒りの苦情が何千と押し寄せた。"
+    },
+    {
+      "id": 4,
+      "ru": "Илларионов трясся не зря.",
+      "en": "Illarionov was shaking for good reason.",
+      "zh": "伊拉里奥诺夫的担忧不是没有道理的。",
+      "ja": "イラリオノフが震えていたのは理由があった。"
+    },
+    {
+      "id": 5,
+      "ru": "«Сначала нас ненавидят, потом начнут любить», – перекрикивая лязг вагонов, ответил Дуров.",
+      "en": "\"First they hate us, then they'll start to love us,\" Durov answered, shouting over the clatter of the train cars.",
+      "zh": "「他们先是恨我们，然后会开始爱我们，」杜罗夫大声回答，盖过车厢的轰隆声。",
+      "ja": "「最初は我々を憎むが、やがて愛し始める」とドゥーロフは車両のガタガタという音を越えて答えた。"
+    },
+    {
+      "id": 6,
+      "ru": "Железный голос объявил «Кропоткинскую», и товарищи продрались к дверям.",
+      "en": "A metallic voice announced \"Kropotkinskaya,\" and the comrades pushed their way to the doors.",
+      "zh": "一个金属般的声音宣布「克鲁泡特金站」，同志们挤到门口。",
+      "ja": "金属的な声が「クロポトキンスカヤ」を告げ、仲間たちはドアに向かって押し進んだ。"
+    },
+    {
+      "id": 7,
+      "ru": "Выйдя невредимыми из подземки, они пересекли площадь и зашагали по переулкам, сбегающим к Москве-реке, к залу, где проходило мероприятие HighLoad.",
+      "en": "Emerging unharmed from the subway, they crossed the square and walked through alleys descending to the Moscow River, to the hall where the HighLoad event was taking place.",
+      "zh": "他们毫发无损地从地铁出来，穿过广场，沿着通往莫斯科河的小巷走向举办HighLoad活动的大厅。",
+      "ja": "地下鉄から無事に出て、広場を横切り、モスクワ川に向かって下る路地を歩いて、HighLoadイベントが開催されているホールに向かった。"
+    },
+    {
+      "id": 8,
+      "ru": "Старый знакомый Бунин позвал «ВКонтакте» рассказать, как они оптимизируют высокие нагрузки на серверы.",
+      "en": "Old acquaintance Bunin invited VKontakte to tell how they optimize high server loads.",
+      "zh": "老熟人布宁邀请VKontakte讲述他们如何优化服务器的高负载。",
+      "ja": "旧知のブーニンがVKontakteを招待し、サーバーの高負荷をどのように最適化しているかを話してもらった。"
+    },
+    {
+      "id": 9,
+      "ru": "Соцсеть в сутки навещало около 20 млн человек.",
+      "en": "About 20 million people visited the social network daily.",
+      "zh": "每天约有2000万人访问该社交网络。",
+      "ja": "ソーシャルネットワークには毎日約2000万人が訪れていた。"
+    },
+    {
+      "id": 10,
+      "ru": "Увидев ожидающих его спича программистов, сидящих друг у друга на шее, Илларионов забыл про хейтеров, мысленно пробежал план выступления и взял микрофон.",
+      "en": "Seeing the programmers waiting for his speech, sitting on top of each other, Illarionov forgot about the haters, mentally ran through the presentation plan, and took the microphone.",
+      "zh": "看到等待他演讲的程序员们挤在一起，伊拉里奥诺夫忘记了那些喷子，在脑海中过了一遍演讲计划，拿起了麦克风。",
+      "ja": "スピーチを待っている、互いに重なり合うように座っているプログラマーたちを見て、イラリオノフはヘイターのことを忘れ、頭の中でプレゼンテーションの計画を確認し、マイクを手に取った。"
+    },
+    {
+      "id": 11,
+      "ru": "Самая скандальная реформа «ВКонтакте» началась с того, что Дуров, вышагивая руки-в-черные-брюки мимо апельсинового автомата и коровьего дивана, придумал очередную провокацию.",
+      "en": "VKontakte's most scandalous reform began when Durov, walking hands-in-black-trousers past the orange vending machine and cow sofa, came up with another provocation.",
+      "zh": "VKontakte最具争议的改革始于杜罗夫，他双手插在黑裤子里，走过橙汁自动售货机和奶牛沙发，想出了另一个挑衅。",
+      "ja": "VKontakteの最も物議を醸した改革は、ドゥーロフがオレンジの自動販売機と牛のソファを通り過ぎながら、黒いズボンに手を突っ込んで歩き、また一つの挑発を思いついたことから始まった。"
+    },
+    {
+      "id": 12,
+      "ru": "Он бережно донес ее до двери, за которой сидел Илларионов, и вкрадчиво сказал ему: «А что если открыть все стены?»",
+      "en": "He carefully carried it to the door behind which Illarionov sat, and said to him insinuatingly: \"What if we open all the walls?\"",
+      "zh": "他小心翼翼地把它带到伊拉里奥诺夫坐着的门口，暗示性地对他说：「如果我们开放所有的墙呢？」",
+      "ja": "彼はそれを慎重にイラリオノフが座っているドアまで運び、彼にこっそりと言った：「もしすべての壁を公開したらどうなる？」"
+    },
+    {
+      "id": 13,
+      "ru": "Немедленно был созван консилиум во главе с братом Николаем, который оценил идею как безумную.",
+      "en": "A council was immediately convened, headed by brother Nikolai, who assessed the idea as insane.",
+      "zh": "以兄弟尼古拉为首的委员会立即召开会议，他认为这个想法疯了。",
+      "ja": "兄のニコライを筆頭に会議がすぐに召集され、彼はそのアイデアを狂気だと評価した。"
+    },
+    {
+      "id": 14,
+      "ru": "«Единственное, чего ты добьешься, – это массовые волнения и уход в другие соцсети!»",
+      "en": "\"The only thing you'll achieve is mass unrest and migration to other social networks!\"",
+      "zh": "「你唯一会达到的就是大规模骚乱和用户流失到其他社交网络！」",
+      "ja": "「君が達成できるのは、大規模な騒乱と他のソーシャルネットワークへの流出だけだ！」"
+    },
+    {
+      "id": 15,
+      "ru": "Однако Дуров стоял на своем твердо – он не изобретал велосипед, похожую манипуляцию осуществил Facebook, и ничего, все съели.",
+      "en": "However, Durov stood firm—he wasn't reinventing the wheel, Facebook had carried out a similar manipulation, and nothing happened, everyone swallowed it.",
+      "zh": "然而杜罗夫坚持己见——他不是在重新发明轮子，Facebook进行了类似的操作，什么也没发生，大家都接受了。",
+      "ja": "しかしドゥーロフは断固として譲らなかった——彼は車輪を再発明しているわけではない、Facebookが同様の操作を行い、何も起きず、みんな受け入れた。"
+    },
+    {
+      "id": 16,
+      "ru": "Мир становится более открытым; людей следует приучать к прозрачности намерений и поступков.",
+      "en": "The world is becoming more open; people should be accustomed to transparency of intentions and actions.",
+      "zh": "世界正变得更加开放；人们应该习惯于意图和行为的透明度。",
+      "ja": "世界はより開かれたものになっている；人々は意図と行動の透明性に慣れるべきだ。"
+    },
+    {
+      "id": 17,
+      "ru": "Все, что ты пишешь, а также что друзья написали тебе на стену, надо показывать другим.",
+      "en": "Everything you write, as well as what friends wrote on your wall, should be shown to others.",
+      "zh": "你写的所有内容，以及朋友在你墙上写的内容，都应该展示给其他人。",
+      "ja": "あなたが書いたすべてのこと、そして友達があなたの壁に書いたことは、他の人に見せるべきだ。"
+    },
+    {
+      "id": 18,
+      "ru": "Ограничивать – можно. Но по умолчанию – открывать.",
+      "en": "Restricting is allowed. But by default—open.",
+      "zh": "限制是允许的。但默认——公开。",
+      "ja": "制限することは可能だ。しかしデフォルトでは——公開する。"
+    },
+    {
+      "id": 19,
+      "ru": "За нововведением стояла не только религиозная вера, но и желание сильнее вовлечь людей в интеракции с другими юзерами.",
+      "en": "Behind the innovation stood not only religious faith, but also the desire to more strongly engage people in interactions with other users.",
+      "zh": "这项创新背后不仅有宗教般的信念，还有更强烈地让人们参与与其他用户互动的愿望。",
+      "ja": "革新の背後には宗教的な信念だけでなく、人々を他のユーザーとのインタラクションにより強く引き込みたいという願望もあった。"
+    },
+    {
+      "id": 20,
+      "ru": "Тем самым «ВКонтакте» увеличивала и без того лучшее в Европе вовлечение – пользователи ежесуточно сидели у Дурова часами.",
+      "en": "Thus VKontakte increased its already best-in-Europe engagement—users sat at Durov's site for hours every day.",
+      "zh": "因此VKontakte增加了其在欧洲本已最好的用户参与度——用户每天在杜罗夫的网站上待几个小时。",
+      "ja": "こうしてVKontakteはすでにヨーロッパで最高だったエンゲージメントをさらに高めた——ユーザーは毎日何時間もドゥーロフのサイトに座っていた。"
+    },
+    {
+      "id": 21,
+      "ru": "Несмотря на яростное сопротивление Николая, Кузи и других, Дуров настоял на своем.",
+      "en": "Despite the fierce resistance of Nikolai, Kuzya, and others, Durov insisted on his way.",
+      "zh": "尽管尼古拉、库贾和其他人激烈反对，杜罗夫坚持己见。",
+      "ja": "ニコライ、クージャ、その他の猛烈な抵抗にもかかわらず、ドゥーロフは自分の意見を押し通した。"
+    },
+    {
+      "id": 22,
+      "ru": "Кодеры разработали новую стену и 2 августа показали ее сети.",
+      "en": "The coders developed the new wall and on August 2nd showed it to the network.",
+      "zh": "程序员们开发了新墙，并在8月2日向网络展示。",
+      "ja": "コーダーたちは新しい壁を開発し、8月2日にネットワークに公開した。"
+    },
+    {
+      "id": 23,
+      "ru": "Тотем недооценил пользователей.",
+      "en": "The totem underestimated the users.",
+      "zh": "图腾低估了用户。",
+      "ja": "トーテムはユーザーを過小評価した。"
+    },
+    {
+      "id": 24,
+      "ru": "Как он предсказал несколько лет назад, страница «ВКонтакте» стала второй личностью человека.",
+      "en": "As he had predicted several years ago, the VKontakte page had become a person's second identity.",
+      "zh": "正如他几年前预测的那样，VKontakte页面已经成为一个人的第二身份。",
+      "ja": "彼が数年前に予測したように、VKontakteのページは人の第二の人格になっていた。"
+    },
+    {
+      "id": 25,
+      "ru": "Вмешательство было расценено как покушение на личную жизнь.",
+      "en": "The intervention was regarded as an assault on private life.",
+      "zh": "这种干预被视为对私生活的侵犯。",
+      "ja": "介入はプライバシーへの侵害とみなされた。"
+    },
+    {
+      "id": 26,
+      "ru": "«Дуров ублюдок», «Ты нарушил тайну личной жизни», «Верни все как было», – писали люди.",
+      "en": "\"Durov is a bastard,\" \"You violated the secrecy of private life,\" \"Bring everything back as it was,\" people wrote.",
+      "zh": "「杜罗夫是混蛋」，「你侵犯了私生活的秘密」，「把一切还原」，人们写道。",
+      "ja": "「ドゥーロフはろくでなしだ」、「お前はプライバシーを侵害した」、「すべてを元に戻せ」と人々は書いた。"
+    },
+    {
+      "id": 27,
+      "ru": "Участок народного мозга, отвечающий за фольклор, родил мем: «Проснулся утром, гляжу – а Дуров всю мебель в комнате переставил!»",
+      "en": "The section of the collective brain responsible for folklore gave birth to a meme: \"Woke up in the morning, look—Durov rearranged all the furniture in my room!\"",
+      "zh": "负责民间创作的集体大脑部分诞生了一个模因：「早上醒来，一看——杜罗夫把我房间里的所有家具都重新摆放了！」",
+      "ja": "フォークロアを担当する集団脳の部分がミームを生み出した：「朝起きたら——ドゥーロフが部屋の家具を全部配置換えしていた！」"
+    },
+    {
+      "id": 28,
+      "ru": "Читая это, Дуров ощущал жар костров амбиций.",
+      "en": "Reading this, Durov felt the heat of the bonfires of ambition.",
+      "zh": "读到这些，杜罗夫感受到野心之火的热度。",
+      "ja": "これを読みながら、ドゥーロフは野心の焚き火の熱を感じた。"
+    },
+    {
+      "id": 29,
+      "ru": "Он Доктор Зло. Он персонализирован. Он тотем.",
+      "en": "He was Dr. Evil. He was personalized. He was the totem.",
+      "zh": "他是邪恶博士。他被个性化了。他是图腾。",
+      "ja": "彼はドクター・イーブルだ。彼は人格化されている。彼はトーテムだ。"
+    },
+    {
+      "id": 30,
+      "ru": "Волна негодования не спадала – ее гнали миллионы пользователей.",
+      "en": "The wave of indignation didn't subside—it was driven by millions of users.",
+      "zh": "愤怒的浪潮没有消退——数百万用户推动着它。",
+      "ja": "憤りの波は収まらなかった——何百万人ものユーザーがそれを駆り立てていた。"
+    },
+    {
+      "id": 31,
+      "ru": "Пришлось впервые устроить опрос: хотите микроблог или нет?",
+      "en": "For the first time, they had to hold a poll: do you want the microblog or not?",
+      "zh": "他们不得不第一次进行投票：你想要微博客还是不想要？",
+      "ja": "初めて投票を行わなければならなかった：マイクロブログが欲しいか否か？"
+    },
+    {
+      "id": 32,
+      "ru": "Большинство проголосовавших восстали против микроблога.",
+      "en": "The majority of voters revolted against the microblog.",
+      "zh": "大多数投票者反对微博客。",
+      "ja": "投票者の大多数がマイクロブログに反対した。"
+    },
+    {
+      "id": 33,
+      "ru": "«ВКонтакте» пришлось идти на попятную.",
+      "en": "VKontakte had to back down.",
+      "zh": "VKontakte不得不退让。",
+      "ja": "VKontakteは後退せざるを得なかった。"
+    },
+    {
+      "id": 34,
+      "ru": "Нёрды сделали новую стену опциональной – то есть дали возможность выбирать старую.",
+      "en": "The nerds made the new wall optional—that is, gave the option to choose the old one.",
+      "zh": "极客们把新墙设为可选——也就是说，给了选择旧版的选项。",
+      "ja": "ナードたちは新しい壁をオプショナルにした——つまり、古いものを選ぶオプションを与えた。"
+    },
+    {
+      "id": 35,
+      "ru": "Но это был не более чем обходной маневр.",
+      "en": "But this was nothing more than a bypass maneuver.",
+      "zh": "但这不过是一个迂回策略。",
+      "ja": "しかしこれは迂回作戦に過ぎなかった。"
+    },
+    {
+      "id": 36,
+      "ru": "Дуров только укрепился во мнении, что демократия вредна.",
+      "en": "Durov only strengthened his opinion that democracy is harmful.",
+      "zh": "杜罗夫只是更加坚定了民主有害的观点。",
+      "ja": "ドゥーロフは民主主義は有害だという意見をさらに強めただけだった。"
+    },
+    {
+      "id": 37,
+      "ru": "Разработчики перепиливали новый микроблог, чтобы ввести его принудительно.",
+      "en": "The developers were reworking the new microblog to introduce it by force.",
+      "zh": "开发人员正在重新改造新的微博客，以便强制推行。",
+      "ja": "開発者たちは新しいマイクロブログを強制的に導入するために作り直していた。"
+    },
+    {
+      "id": 38,
+      "ru": "В дом Зингера наняли новых бойцов – партизанская ячейка разрасталась.",
+      "en": "New fighters were hired at Singer House—the partisan cell was growing.",
+      "zh": "辛格之家招募了新战士——游击队细胞在扩大。",
+      "ja": "ジンガーハウスに新しい戦士が雇われた——パルチザンの細胞は拡大していた。"
+    },
+    {
+      "id": 39,
+      "ru": "Прибывшие напоминали кого угодно, но не нёрдов.",
+      "en": "The arrivals resembled anyone but nerds.",
+      "zh": "新来的人看起来像任何人，但不像极客。",
+      "ja": "到着した人々は誰にでも似ていたが、ナードには似ていなかった。"
+    },
+    {
+      "id": 40,
+      "ru": "Вася Бабич, сын академиков, отличник, бегал на работу по набережным в зеленых физкультурных штанах.",
+      "en": "Vasya Babich, son of academics, honor student, ran to work along the embankments in green athletic pants.",
+      "zh": "瓦西亚·巴比奇，学者的儿子，优等生，穿着绿色运动裤沿着河堤跑步上班。",
+      "ja": "ヴァシャ・バビッチ、学者の息子、優等生は、緑の体操用ズボンを履いて堤防沿いを走って出勤していた。"
+    },
+    {
+      "id": 41,
+      "ru": "Эти штаны, а также недовольную физиономию Васи увековечила вирусная реклама, призывающая студентов наниматься «под",
+      "en": "These pants, as well as Vasya's disgruntled face, were immortalized in viral advertising calling students to get hired \"under",
+      "zh": "这条裤子，以及瓦西亚不满的面孔，被一则呼吁学生「在……下」应聘的病毒式广告所永久记录",
+      "ja": "このズボン、そしてヴァシャの不満そうな顔は、学生に「〜の下で」就職するよう呼びかけるバイラル広告で不朽のものとなった"
+    }
+  ],
+  "translator_notes": [
+    "Page 75 - The Wall revolt, user backlash against privacy changes",
+    "Kropotkinskaya - Moscow metro station",
+    "HighLoad - Russian tech conference on high-performance systems",
+    "Bunin - likely organizer of HighLoad conference",
+    "'Orange vending machine and cow sofa' - distinctive VK office furniture",
+    "August 2nd - date of controversial wall launch",
+    "Facebook comparison - Durov referenced similar Facebook privacy changes",
+    "'Reinventing the wheel' - Russian idiom meaning unnecessary work",
+    "Dr. Evil - Austin Powers movie villain reference",
+    "'Durov rearranged furniture' - viral meme about forced changes",
+    "Vasya Babich - new VK employee, son of academics",
+    "Singer House - VK headquarters in St. Petersburg"
+  ],
+  "total_sentences": 41,
+  "page_type": "narrative"
+}
