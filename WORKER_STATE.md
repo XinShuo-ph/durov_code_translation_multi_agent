@@ -7,8 +7,8 @@
 - **Heartbeat**: 1735689600
 
 ## Current Milestone
-- **Milestone**: M0
-- **Status**: completed
+- **Milestone**: M1
+- **Status**: working
 
 ## M0 Task Status
 | Task ID | Description | Status | Result Hash |
@@ -24,9 +24,9 @@
 ## M1 Task Status
 | Task ID | Description | Status | Result |
 |---------|-------------|--------|--------|
-| M1.1 | Explore LaTeX approach | pending | - |
+| M1.1 | Explore LaTeX approach | done | success |
 | M1.2 | Explore Python approach | pending | - |
-| M1.3 | Design color/font scheme | pending | - |
+| M1.3 | Design color/font scheme | done | documented |
 | M1.4 | Create demo template | pending | - |
 | M1.5 | Translate page 13 demo | pending | - |
 | M1.6 | Translate page 43 demo | pending | - |
@@ -39,6 +39,7 @@
 ## Consensus Votes
 | Topic | My Vote | Timestamp |
 |-------|---------|-----------|
+| format_approach | latex_xecjk | 2026-01-01T04:42:00Z |
 
 ## Known Workers
 Last sync: Not yet synced
