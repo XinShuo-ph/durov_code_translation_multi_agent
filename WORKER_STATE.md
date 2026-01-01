@@ -7,7 +7,7 @@
 - **Heartbeat**: 1767225900
 
 ## Current Milestone
-- **Milestone**: M0
+- **Milestone**: M1
 - **Status**: working
 
 ## M0 Task Status
@@ -19,7 +19,7 @@
 | M0.4 | Research: Durov bio | done | 5b98eed3 |
 | M0.5 | Research: VK history | done | 5d831556 |
 | M0.6 | Research: Russia context | done | 8ef1ce25 |
-| M0.7 | Create chapter summaries | working | - |
+| M0.7 | Create chapter summaries | done | f821a9e9 |
 
 ## M1 Task Status
 | Task ID | Description | Status | Result |

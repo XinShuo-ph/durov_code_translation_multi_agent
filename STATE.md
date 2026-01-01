@@ -25,19 +25,19 @@ done
 ---
 
 ## Global Milestone Status
-- **Current Milestone**: M0 (Project Setup)
-- **Status**: ready_for_workers
+- **Current Milestone**: M1 (Format Exploration)
+- **Status**: in_progress
 
 ## M0 Completion Tracker
 | Task | Description | Completed By |
 |------|-------------|--------------|
-| M0.1 | Dependencies | - |
-| M0.2 | PDF Extract | - |
-| M0.3 | Chapter Structure | - |
-| M0.4 | Durov Bio | - |
-| M0.5 | VK History | - |
-| M0.6 | Russia Context | - |
-| M0.7 | Chapter Summaries | - |
+| M0.1 | Dependencies | 991c |
+| M0.2 | PDF Extract | 991c |
+| M0.3 | Chapter Structure | 991c |
+| M0.4 | Durov Bio | 991c |
+| M0.5 | VK History | 991c |
+| M0.6 | Russia Context | 991c |
+| M0.7 | Chapter Summaries | 991c |
 
 ## M1 Completion Tracker
 | Task | Description | Status |
