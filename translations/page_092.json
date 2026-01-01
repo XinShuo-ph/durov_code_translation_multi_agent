@@ -1,0 +1,193 @@
+{
+  "page": 92,
+  "chapter": 7,
+  "chapter_title": "Пятно Роршаха (Rorschach Inkblot)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Чайка совершила круг, примериваясь, куда опуститься, и выбрала жестяной знак, торчавший на парапете набережной.",
+      "en": "The seagull circled, sizing up where to land, and chose a tin sign sticking out on the parapet of the embankment.",
+      "zh": "海鸥盘旋了一圈，盘算着在哪里降落，最后选中了矗立在堤岸护栏上的一块锡制标牌。",
+      "ja": "カモメは一回りして、どこに降りようか狙いを定め、土手の欄干に突き出ていたブリキの看板を選んだ。"
+    },
+    {
+      "id": 2,
+      "ru": "Стоило ей повернуться в профиль, как фотограф, чью личность теперь установить вряд ли возможно, нажал кнопку.",
+      "en": "As soon as it turned in profile, a photographer, whose identity is now hardly possible to establish, pressed the button.",
+      "zh": "它刚一转过身露出侧影，一位现在几乎无法查明身份的摄影师就按下了快门。",
+      "ja": "それが横顔を見せた瞬間、今となっては身元を特定することは不可能に近い写真家がシャッターを切った。"
+    },
+    {
+      "id": 3,
+      "ru": "Кадр расшарили в интернете – птица сидит на знаке, изображающем ее же силуэт, перечеркнутый красным: «Кормить чаек запрещено!»",
+      "en": "The frame was shared on the Internet – the bird is sitting on a sign depicting its own silhouette, crossed out in red: \"Feeding seagulls is prohibited!\"",
+      "zh": "这张照片在互联网上疯传——一只鸟坐在一块画着它自己剪影的标牌上，剪影被红线划掉：“禁止喂食海鸥！”",
+      "ja": "その一コマはインターネットで拡散された――鳥が、自分のシルエットを描いた看板の上に座っている。そのシルエットは赤で消され、「カモメに餌をやるな！」とある。"
+    },
+    {
+      "id": 4,
+      "ru": "Дуров покрутил-повертел снимок. Выбрал черный фон, как у модных картинок-демотиваторов, и приписал снизу лозунг, висевший у его профиля во «ВКонтакте»: Subvert The Paradigm. Разрушь парадигму.",
+      "en": "Durov twirled the picture. Chose a black background, like fashionable demotivator pictures, and added the slogan hanging at his profile in \"VKontakte\" below: Subvert The Paradigm. Destroy the paradigm.",
+      "zh": "杜罗夫摆弄着这张照片。他选择了当时流行的“丧图”（Demotivators）那样的黑色背景，并在下面加上了他“VKontakte”个人资料中挂着的口号：Subvert The Paradigm。颠覆范式。",
+      "ja": "ドゥーロフは写真をあれこれいじった。流行りのデモチベーター画像のように黒い背景を選び、下に『VKontakte』のプロフィールに掲げていたスローガンを書き添えた。「Subvert The Paradigm（パラダイムを破壊せよ）」"
+    },
+    {
+      "id": 5,
+      "ru": "При всей любви к своему детищу архитектор утомился и искал новые идеи.",
+      "en": "With all the love for his brainchild, the architect was tired and was looking for new ideas.",
+      "zh": "尽管深爱着自己的心血结晶，架构师还是感到疲惫，开始寻找新的想法。",
+      "ja": "自分の作品への愛はあっても、建築家は疲れ果て、新しいアイデアを探していた。"
+    },
+    {
+      "id": 6,
+      "ru": "Сначала он, конечно, пробовал запустить глобальную экспансию «ВКонтакте».",
+      "en": "First, of course, he tried to launch the global expansion of \"VKontakte\".",
+      "zh": "当然，起初他试图启动“VKontakte”的全球扩张。",
+      "ja": "もちろん、最初は『VKontakte』の世界的拡大を試みた。"
+    },
+    {
+      "id": 7,
+      "ru": "Купил домен vk.com и почти договорился о приобретении загибающейся студенческой соцсети Studi VZ, первой в Германии.",
+      "en": "Bought the domain vk.com and almost agreed on the acquisition of the dying student social network Studi VZ, the first in Germany.",
+      "zh": "买下了 vk.com 域名，并差点谈妥收购德国第一大、正走向衰落的学生社交网络 Studi VZ。",
+      "ja": "ドメインvk.comを購入し、ドイツで一番だったが衰退しつつあった学生向けソーシャルネットワークStudi VZの買収についてもほぼ合意に至っていた。"
+    },
+    {
+      "id": 8,
+      "ru": "Но выяснилось, что выдающихся программистов из этой компании схантили конкуренты, в том числе Facebook, захвативший местный рынок.",
+      "en": "But it turned out that outstanding programmers from this company were hunted by competitors, including Facebook, which captured the local market.",
+      "zh": "但结果发现，这家公司的杰出程序员已经被竞争对手挖走了，其中包括占据了当地市场的 Facebook。",
+      "ja": "だが、その会社の優秀なプログラマーたちは、現地市場を掌握したFacebookを含む競合他社に引き抜かれていたことが判明した。"
+    },
+    {
+      "id": 9,
+      "ru": "Дурову стало очевидно, что тягаться с Цукербергом бессмысленно – в том числе потому, что русский проект по умолчанию вызывал за рубежом не самые светлые эмоции (все опрошенные мной интернет-предприниматели говорили то же самое).",
+      "en": "It became obvious to Durov that it was pointless to compete with Zuckerberg – including because the Russian project by default caused not the brightest emotions abroad (all Internet entrepreneurs I interviewed said the same thing).",
+      "zh": "杜罗夫很清楚，与扎克伯格竞争毫无意义——部分原因是俄罗斯项目在国外默认不会引起最积极的情绪（我采访的所有互联网企业家都这么说）。",
+      "ja": "ドゥーロフにとって、ザッカーバーグと張り合うことが無意味であることは明らかになった――その理由の一つには、ロシアのプロジェクトというだけで、海外ではあまり良い感情を持たれないということもあった（私がインタビューしたインターネット起業家は皆同じことを言っていた）。"
+    },
+    {
+      "id": 10,
+      "ru": "Плюс к тому шлейф пиратского и порнографического имиджа тянулся за «ВКонтакте» несмотря на то, что «Централ Партнершип» и другие правообладатели подружились с домом Зингера.",
+      "en": "Plus, the trail of pirate and pornographic image stretched behind \"VKontakte\" despite the fact that \"Central Partnership\" and other copyright holders became friends with the Singer house.",
+      "zh": "此外，尽管“中央伙伴关系”和其他版权持有者已经与辛格大楼交好，但盗版和色情形象的阴影仍然笼罩着“VKontakte”。",
+      "ja": "加えて、「セントラル・パートナーシップ」やその他の権利者たちがシンガー・ハウスと友好関係を結んだにもかかわらず、海賊版やポルノというイメージの尾が『VKontakte』には付きまとっていた。"
+    },
+    {
+      "id": 11,
+      "ru": "Он задумался, как зайти на рынок персональных коммуникаций с тыла.",
+      "en": "He wondered how to enter the personal communications market from the rear.",
+      "zh": "他开始思考如何从后方切入个人通讯市场。",
+      "ja": "彼は、パーソナル・コミュニケーション市場にどうやって背後から参入するかを考えた。"
+    },
+    {
+      "id": 12,
+      "ru": "Люди все больше общаются, пользуясь соцсетями, через мобильный интернет.",
+      "en": "People communicate more and more using social networks via mobile Internet.",
+      "zh": "人们越来越多地通过移动互联网使用社交网络进行交流。",
+      "ja": "人々はますますモバイルインターネットを通じてソーシャルネットワークを利用し、コミュニケーションをとるようになっている。"
+    },
+    {
+      "id": 13,
+      "ru": "После переговоров в Шереметьевском дворце Дуров, давая интервью, вскользь упомянул, что можно сначала запустить «остроумное мобильное приложение», позволяющее людям общаться, суперюзабильное и красивое – и распространить его по миру.",
+      "en": "After negotiations in the Sheremetiev Palace, Durov, giving an interview, casually mentioned that one could first launch a \"witty mobile application\" allowing people to communicate, super-usable and beautiful – and distribute it around the world.",
+      "zh": "在舍列梅捷夫宫谈判之后，杜罗夫在接受采访时顺便提到，可以先推出一个“机智的移动应用程序”，让人们交流，超级好用且美观——并将其推广到全世界。",
+      "ja": "シェレメーチエフ宮殿での交渉の後、ドゥーロフはインタビューに答え、まず人々がコミュニケーションをとれる「気の利いたモバイルアプリ」を立ち上げ、超使いやすく美しいものにして、それを世界中に広めることができるとさりげなく言及した。"
+    },
+    {
+      "id": 14,
+      "ru": "Вскоре он уточнил идею: сделать такое приложение для телефона, которое будет удобнее sms– и mms-сервисов и при этом построит социальный граф на основе записной книжки.",
+      "en": "Soon he clarified the idea: to make such an application for the phone, which will be more convenient than sms and mms services and at the same time build a social graph based on the notebook.",
+      "zh": "不久，他明确了这个想法：开发一个手机应用程序，比短信和彩信服务更方便，同时基于通讯录构建社交图谱。",
+      "ja": "間もなく彼はアイデアを具体化した。SMSやMMSサービスより便利で、かつアドレス帳に基づいてソーシャルグラフを構築するような電話用アプリを作ることだ。"
+    },
+    {
+      "id": 15,
+      "ru": "Разумеется, не одни «ВКонтакте» были такими умными.",
+      "en": "Of course, not only \"VKontakte\" were so smart.",
+      "zh": "当然，并不是只有“VKontakte”这么聪明。",
+      "ja": "もちろん、そんなに賢いのは『VKontakte』だけではなかった。"
+    },
+    {
+      "id": 16,
+      "ru": "Apple улучшил на айфонах свои iMessages – картинки красиво отправляются, быстро делишься контактами, телефонная книжка связана с Facebook, можешь прикрутить фото абонента, связать телефонную книжку с Facebook.",
+      "en": "Apple improved its iMessages on iPhones – pictures are sent beautifully, you quickly share contacts, the phone book is connected to Facebook, you can attach a subscriber's photo, connect the phone book to Facebook.",
+      "zh": "苹果在 iPhone 上改进了 iMessages——图片发送美观，可以快速分享联系人，电话簿与 Facebook 关联，可以添加联系人照片，将电话簿与 Facebook 关联。",
+      "ja": "AppleはiPhoneのiMessageを改良した――画像は美しく送信され、連絡先の共有も速く、電話帳はFacebookと連携し、相手の写真を追加したり、電話帳をFacebookとリンクさせたりできる。"
+    },
+    {
+      "id": 17,
+      "ru": "Украинец Ян Кум, эмигрировавший в долину, написал сервис WhatsApp, с которого можно бесплатно посылать тексты, фото и видео другим пользователям приложения.",
+      "en": "Ukrainian Jan Koum, who emigrated to the Valley, wrote the WhatsApp service, from which you can send texts, photos and videos to other users of the application for free.",
+      "zh": "移民到硅谷的乌克兰人扬·库姆编写了 WhatsApp 服务，通过该服务可以免费向其他应用程序用户发送文本、照片和视频。",
+      "ja": "シリコンバレーに移住したウクライナ人のヤン・コウムは、WhatsAppというサービスを書いた。このアプリの他のユーザーにテキスト、写真、動画を無料で送れるものだ。"
+    },
+    {
+      "id": 18,
+      "ru": "Однако эти два конкурента имели бреши.",
+      "en": "However, these two competitors had gaps.",
+      "zh": "然而，这两个竞争对手都有漏洞。",
+      "ja": "だが、これら2つの競合には穴があった。"
+    },
+    {
+      "id": 19,
+      "ru": "Насладиться всеми фишками сервиса Apple можно, только если оба абонента используют iPhone или iPad.",
+      "en": "You can enjoy all the chips of the Apple service only if both subscribers use an iPhone or iPad.",
+      "zh": "只有当双方用户都使用 iPhone 或 iPad 时，才能享受苹果服务的所有功能。",
+      "ja": "Appleのサービスの全機能を享受できるのは、双方がiPhoneかiPadを使っている場合だけだ。"
+    },
+    {
+      "id": 20,
+      "ru": "WhatsApp не желал вкладываться в борьбу с высокими нагрузками и не хранил на своих серверах историю переписки.",
+      "en": "WhatsApp did not want to invest in the fight against high loads and did not store the correspondence history on its servers.",
+      "zh": "WhatsApp 不愿投入资金应对高负载，也不在服务器上存储聊天记录。",
+      "ja": "WhatsAppは高負荷対策に投資することを望まず、サーバー上にメッセージ履歴を保存していなかった。"
+    },
+    {
+      "id": 21,
+      "ru": "Оба сервиса не произвели над телефоном то, что в последние годы обозначалось глаголом «твикнуть».",
+      "en": "Both services did not produce over the phone what in recent years has been designated by the verb \"tweak\".",
+      "zh": "这两项服务都没有对手机进行近年来被称为“tweak”（微调/改进）的操作。",
+      "ja": "両サービスとも、近年「tweak（微調整・改良する）」という動詞で表されるようなことを、電話に対して行っていなかった。"
+    },
+    {
+      "id": 22,
+      "ru": "Это слово – от английского tweak (улучшить) – актуализировал писатель Малькольм Гладуэлл в эпитафии Стиву Джобсу, напечатанной The New Yorker.",
+      "en": "This word – from the English tweak (improve) – was updated by the writer Malcolm Gladwell in the epitaph to Steve Jobs, printed by The New Yorker.",
+      "zh": "这个词——源自英语 tweak（改进）——由作家马尔科姆·格拉德威尔在《纽约客》刊登的史蒂夫·乔布斯悼词中重新流行起来。",
+      "ja": "この言葉は――英語のtweak（改良する）から来ているが――『ニューヨーカー』誌に掲載されたスティーブ・ジョブズへの追悼文の中で、作家マルコム・グラッドウェルによって広められた。"
+    },
+    {
+      "id": 23,
+      "ru": "По его мнению, Джобс не получал по голове яблоком гениальности – он совершенствовал чужие изобретения.",
+      "en": "In his opinion, Jobs did not get hit on the head with an apple of genius – he perfected other people's inventions.",
+      "zh": "在他看来，乔布斯并没有被天才的苹果砸中脑袋——他是在完善别人的发明。",
+      "ja": "彼によれば、ジョブズは天才のリンゴで頭を殴られたわけではない――彼は他人の発明を完成させたのだ。"
+    },
+    {
+      "id": 24,
+      "ru": "Доказывая, что такие люди двигают прогресс сильнее изобретателей, Гладуэлл приводит в пример английскую индустриальную революцию конца XVIII века.",
+      "en": "Proving that such people move progress stronger than inventors, Gladwell cites the example of the English industrial revolution of the late 18th century.",
+      "zh": "为了证明这样的人比发明家更能推动进步，格拉德威尔举了 18 世纪末英国工业革命的例子。",
+      "ja": "そのような人々こそが発明家以上に進歩を推進すると証明するために、グラッドウェルは18世紀末のイギリス産業革命を例に挙げている。"
+    },
+    {
+      "id": 25,
+      "ru": "Нация инженеров улучшала недостаточно продуманные ноу-хау – внедряя докрученные разработки, империя укрепляла позиции правительницы морей.",
+      "en": "The nation of engineers improved insufficiently thought-out know-how – by introducing twisted developments, the empire strengthened the position of the ruler of the seas.",
+      "zh": "这个工程师的民族改进了考虑不周的技术诀窍——通过实施经过改良的开发成果，大英帝国巩固了海上霸主的地位。",
+      "ja": "エンジニアの国は、十分に練られていないノウハウを改良していった――ひねりを加えた開発成果を導入することで、帝国は海の支配者としての地位を強固にしたのだ。"
+    }
+  ],
+  "translator_notes": [
+    "Chapter 7 begins: 'Rorschach Inkblot'.",
+    "Story of the seagull photo which Durov captioned 'Subvert The Paradigm'.",
+    "Durov's failed attempts to expand VK globally (domain purchase, failed StudiVZ acquisition).",
+    "Realization that a Russian social network carries stigma (piracy, porn, politics).",
+    "Pivot to mobile messaging idea: competing with iMessage and WhatsApp.",
+    "Analysis of competitors' weaknesses: iMessage (Apple only), WhatsApp (no history storage).",
+    "Concept of 'tweaking' existing ideas (Gladwell on Jobs) applied to Durov's strategy."
+  ],
+  "total_sentences": 25,
+  "page_type": "narrative"
+}
