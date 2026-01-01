@@ -1,0 +1,250 @@
+{
+  "page": 24,
+  "chapter": 2,
+  "chapter_title": "Архитектор (The Architect)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"The Durov Code. The True Story of VKontakte and Its Creator\"",
+      "zh": "N. V. 科诺诺夫。《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ。『ドゥーロフ・コード：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "перезнакомятся с лучшими красавицами факультета.",
+      "en": "will get to know the best beauties of the faculty.",
+      "zh": "将结识系里最漂亮的美女。",
+      "ja": "学部の最高の美女たちと知り合うことになる。"
+    },
+    {
+      "id": 3,
+      "ru": "Красота – страшная сила, прелестные кадры объединяют компании, вокруг них вьются активные парни.",
+      "en": "Beauty is a terrible force, charming personnel unite companies, active guys hover around them.",
+      "zh": "美丽是一种可怕的力量，迷人的人员将公司团结在一起，活跃的小伙子围着她们转。",
+      "ja": "美は恐るべき力であり、魅力的な人材は仲間を結びつけ、その周りには活発な男たちが群がる。"
+    },
+    {
+      "id": 4,
+      "ru": "Их с Дуровым девушки не принимали участия, считая конкурс чем-то ниже своего достоинства.",
+      "en": "Their girls (Durov's and Perekopsky's) did not participate, considering the contest something beneath their dignity.",
+      "zh": "他和杜罗夫的女友没有参加，认为比赛有损她们的尊严。",
+      "ja": "彼とドゥーロフの彼女たちは、コンテストを自分たちの品位を下げるものだと考えて参加しなかった。"
+    },
+    {
+      "id": 5,
+      "ru": "Но и сцены ревности не закатывали.",
+      "en": "But they didn't make scenes of jealousy either.",
+      "zh": "但她们也没有大吵大闹地吃醋。",
+      "ja": "しかし、嫉妬の場面を演じることもなかった。"
+    },
+    {
+      "id": 6,
+      "ru": "Дуров учил Перекопского, что отношения надо строить так, чтобы женщины не влияли на творческие эксперименты, к которым имеют гораздо меньше способностей, чем мужчины, и не перехватывали власть.",
+      "en": "Durov taught Perekopsky that relationships should be built in such a way that women do not influence creative experiments, for which they have much less ability than men, and do not seize power.",
+      "zh": "杜罗夫教导佩列科普斯基，建立关系的方式必须是：不要让女人影响创造性实验——她们在这方面的能力远不如男人——也不要让她们夺权。",
+      "ja": "ドゥーロフはペレコプスキーに、女性が創造的な実験（彼女たちは男性よりもはるかに能力が低いと彼は考えていた）に影響を与えたり、権力を奪ったりしないように関係を築くべきだと説いた。"
+    },
+    {
+      "id": 7,
+      "ru": "Перекопский был поражен тем, что Дуров как-то в воспитательных целях не разговаривал со своей девушкой две недели.",
+      "en": "Perekopsky was amazed that Durov once did not speak to his girlfriend for two weeks for educational purposes.",
+      "zh": "佩列科普斯基感到惊讶的是，杜罗夫有一次为了教育目的，两个星期没和女友说话。",
+      "ja": "ペレコプスキーは、ドゥーロフがあるとき教育的な目的で、自分の彼女と2週間口をきかなかったことに驚いた。"
+    },
+    {
+      "id": 8,
+      "ru": "Впрочем, резоны «приязнь декана» и «знакомство с бьюти-активом» имели для тандема побочное значение.",
+      "en": "However, the reasons of \"the dean's favor\" and \"acquaintance with the beauty assets\" had secondary importance for the tandem.",
+      "zh": "不过，“系主任的好感”和“结识美女资源”这些理由对于这个二人组来说只是次要的。",
+      "ja": "しかし、「学部長の好意」や「美女資産との出会い」という理由は、このコンビにとっては副次的な意味しか持たなかった。"
+    },
+    {
+      "id": 9,
+      "ru": "Цель находилась в другом месте – и, чтобы попасть в нее, требовалась спланированная публичная кампания, где конкурс выступал лишь эпизодом закрученного сюжета.",
+      "en": "The goal was elsewhere – and to hit it, a planned public campaign was required, where the contest acted only as an episode of a twisted plot.",
+      "zh": "目标在别处——为了达到目标，需要一场有计划的公关活动，而比赛只是这一曲折情节中的一个小插曲。",
+      "ja": "目的は別の場所にあり、それを達成するためには計画的なパブリック・キャンペーンが必要だった。コンテストはその入り組んだ筋書きの一エピソードに過ぎなかった。"
+    },
+    {
+      "id": 10,
+      "ru": "Отсеяв пятьдесят симпатичных и остроязыких филологинь, они выпроводили последнюю конкурсантку, заперли аудиторию и отправились готовиться к следующему туру.",
+      "en": "Having weeded out fifty cute and sharp-tongued philology students, they saw off the last contestant, locked the auditorium, and went to prepare for the next round.",
+      "zh": "在淘汰了五十名漂亮且伶牙俐齿的语言系女生后，他们送走了最后一名参赛者，锁上教室，去准备下一轮比赛。",
+      "ja": "50人のキュートで口の達者な言語学部の女子学生を選別した後、彼らは最後の参加者を見送り、教室に鍵をかけ、次のラウンドの準備に向かった。"
+    },
+    {
+      "id": 11,
+      "ru": "***",
+      "en": "***",
+      "zh": "***",
+      "ja": "***"
+    },
+    {
+      "id": 12,
+      "ru": "Перекопский явился в Петербург из металлургического города Череповца, где окончил лучшее заведение и был натаскан репетиторами.",
+      "en": "Perekopsky arrived in Petersburg from the metallurgical city of Cherepovets, where he graduated from the best institution and was coached by tutors.",
+      "zh": "佩列科普斯基从冶金城市切列波韦茨来到彼得堡，他在那里毕业于最好的学校，并接受过家庭教师的辅导。",
+      "ja": "ペレコプスキーは冶金都市チェレポヴェツからペテルブルクにやってきた。そこで最高級の教育機関を卒業し、家庭教師に鍛えられていた。"
+    },
+    {
+      "id": 13,
+      "ru": "Родители сняли ему квартиру недалеко от Сенной площади и высылали денежное содержание.",
+      "en": "His parents rented him an apartment not far from Sennaya Square and sent him a money allowance.",
+      "zh": "父母在先纳亚广场附近给他租了一套公寓，并寄给他生活费。",
+      "ja": "両親はセンナヤ広場の近くにアパートを借り、仕送りを送っていた。"
+    },
+    {
+      "id": 14,
+      "ru": "Перекопский любил деньги, хотел зарабатывать их много и английский язык учил не ради красот, а для деловых связей.",
+      "en": "Perekopsky loved money, wanted to earn a lot of it, and learned English not for the sake of beauty, but for business connections.",
+      "zh": "佩列科普斯基爱钱，想赚很多钱，学习英语不是为了欣赏美，而是为了商业联系。",
+      "ja": "ペレコプスキーは金が好きで、たくさん稼ぎたいと思っており、英語を学ぶのも美しさのためではなく、ビジネスのコネクションのためだった。"
+    },
+    {
+      "id": 15,
+      "ru": "Главная такая связь его жизни установилась в первый же день.",
+      "en": "The main such connection of his life was established on the very first day.",
+      "zh": "他生命中这种主要联系在第一天就建立了。",
+      "ja": "彼の人生におけるそのような主要なコネクションは、初日に確立された。"
+    },
+    {
+      "id": 16,
+      "ru": "Вместе с толпой поступивших Перекопский влился в узкий холл двухэтажной усадьбы, миновал бюсты первых деканов востфака и филфака Александра Казем-Бека и Бодуэна де Куртене и вскоре очутился во внутреннем дворе.",
+      "en": "Together with the crowd of entrants, Perekopsky poured into the narrow hall of the two-story manor, passed the busts of the first deans of the Oriental and Philological faculties, Alexander Kazem-Bek and Baudouin de Courtenay, and soon found himself in the courtyard.",
+      "zh": "佩列科普斯基随着入学的人群涌入两层庄园狭窄的大厅，经过东方系和语言系首任系主任亚历山大·卡泽姆-贝克和博杜安·德·库尔特内的半身像，很快发现自己站在了内院里。",
+      "ja": "新入生の群衆と共に、ペレコプスキーは2階建ての屋敷の狭いホールに流れ込み、東洋学部と言語学部の初代学部長アレクサンドル・カゼム＝ベクとボードゥアン・ド・クルトネの胸像を通り過ぎ、すぐに中庭に出た。"
+    },
+    {
+      "id": 17,
+      "ru": "Его критический глаз исследовал курс в поисках товарищей.",
+      "en": "His critical eye explored the course in search of comrades.",
+      "zh": "他批判性的目光在年级里搜寻着伙伴。",
+      "ja": "彼の批判的な目は、仲間を探してコース（学年）を探索した。"
+    },
+    {
+      "id": 18,
+      "ru": "Товарищи не находились.",
+      "en": "Comrades were not to be found.",
+      "zh": "伙伴没找到。",
+      "ja": "仲間は見つからなかった。"
+    },
+    {
+      "id": 19,
+      "ru": "Один, когда разговаривал с людьми, смотрел в землю.",
+      "en": "One, when talking to people, looked at the ground.",
+      "zh": "有一个人，跟人说话时看着地面。",
+      "ja": "ある者は、人と話すときに地面を見ていた。"
+    },
+    {
+      "id": 20,
+      "ru": "Другой, как в анекдоте про разницу между программистом-интровертом и программистом-экстравертом, смотрел не в землю, но на туфли оппонента.",
+      "en": "Another, as in the joke about the difference between an introverted programmer and an extroverted programmer, looked not at the ground, but at the opponent's shoes.",
+      "zh": "另一个，就像关于内向程序员和外向程序员区别的笑话里那样，不看地面，而是盯着对方的鞋子。",
+      "ja": "別の者は、内向的なプログラマーと外向的なプログラマーの違いについてのジョークのように、地面ではなく相手の靴を見ていた。"
+    },
+    {
+      "id": 21,
+      "ru": "Третий оказался церемонным мажором.",
+      "en": "The third turned out to be a ceremonious rich kid.",
+      "zh": "第三个是个装腔作势的富家子弟。",
+      "ja": "3人目は気取った金持ちの息子（マジョル）だった。"
+    },
+    {
+      "id": 22,
+      "ru": "Зато наличествовала туча, тьма, стая прекрасных девушек, как и полагается на факультете невест.",
+      "en": "But there was a cloud, a multitude, a flock of beautiful girls, as befits the faculty of brides.",
+      "zh": "但这儿有一大群、无数、一窝美女，正如这所“新娘学院”应有的那样。",
+      "ja": "その代わり、花嫁修業の学部らしく、雲霞のような、闇のような、群れのような美しい少女たちがいた。"
+    },
+    {
+      "id": 23,
+      "ru": "И тут толпа извергла из себя Дурова – этакого джокера без легко считываемых свойств, в белой рубашечке.",
+      "en": "And then the crowd spewed out Durov – a kind of joker without easily readable properties, in a white shirt.",
+      "zh": "这时人群中吐出了杜罗夫——一个穿着白衬衫、没有任何易读特征的某种“小丑”（或“百搭牌”）。",
+      "ja": "すると群衆の中からドゥーロフが吐き出された。白いシャツを着た、読み取りやすい特徴のないジョーカーのような男だ。"
+    },
+    {
+      "id": 24,
+      "ru": "Они как-то стихийно познакомились и разговорились.",
+      "en": "They somehow spontaneously met and started talking.",
+      "zh": "他们不知怎么就自然而然地认识并聊了起来。",
+      "ja": "彼らはどういうわけか自然に知り合い、話し始めた。"
+    },
+    {
+      "id": 25,
+      "ru": "На первой лекции сели вместе, и их объединило легкое жжение от открывавшихся университетом возможностей и вообще от новой жизни, которая началась и продлится пять лет.",
+      "en": "At the first lecture, they sat together, and they were united by a slight burning sensation from the opportunities opened up by the university and in general from the new life that had begun and would last five years.",
+      "zh": "第一堂课他们坐在一起，大学开启的机遇以及即将持续五年的新生活带来的轻微兴奋感将他们联系在了一起。",
+      "ja": "最初の講義で一緒に座り、大学によって開かれた可能性、そして始まり5年間続くであろう新しい生活への軽い高揚感が二人を結びつけた。"
+    },
+    {
+      "id": 26,
+      "ru": "После занятий сутулый мальчик с первой парты шел с новым приятелем через Дворцовый мост до метро «Невский проспект» и, как вспоминал потом Перекопский, трещал про свои общеобразовательные классы и пересказал полжизни.",
+      "en": "After classes, the stooped boy from the first desk walked with his new friend across the Palace Bridge to the Nevsky Prospekt metro station and, as Perekopsky later recalled, chattered about his general education classes and retold half his life.",
+      "zh": "下课后，那个坐在第一排的驼背男孩和新朋友一起走过冬宫桥到“涅夫斯基大道”地铁站，正如佩列科普斯基后来回忆的那样，他喋喋不休地讲述他的普通教育班，讲了半辈子的事。",
+      "ja": "授業の後、一番前の席の猫背の少年は、新しい友人と宮殿橋を渡って地下鉄「ネフスキー大通り」駅まで歩いた。ペレコプスキーが後に回想するように、彼は自分の一般教育クラスについてまくし立て、半生を語って聞かせた。"
+    },
+    {
+      "id": 27,
+      "ru": "Уроженец города хоккея и едкого дыма из труб умудрялся вставлять какие-то фразы в этот монолог, но редко.",
+      "en": "The native of the city of hockey and acrid smoke from chimneys managed to insert some phrases into this monologue, but rarely.",
+      "zh": "这位来自冰球和烟囱刺鼻烟雾之城的本地人设法在这个独白中插几句话，但很少。",
+      "ja": "ホッケーと煙突からの刺激的な煙の街の出身者は、この独白に何とか言葉を挟もうとしたが、それは稀だった。"
+    },
+    {
+      "id": 28,
+      "ru": "Я повторил их путь от филфака до «Невского проспекта»: 3500 метров, полчаса быстрым шагом с поправкой на ветер.",
+      "en": "I repeated their path from the Philological Faculty to Nevsky Prospekt: 3500 meters, half an hour at a brisk pace, adjusting for the wind.",
+      "zh": "我重走了他们从语言系到“涅夫斯基大道”的路：3500米，快步走半小时，还要算上风的阻力。",
+      "ja": "私は言語学部から「ネフスキー大通り」までの彼らの道のりを再現してみた。3500メートル、風を考慮して早足で30分だ。"
+    },
+    {
+      "id": 29,
+      "ru": "Если Дуров столько проболтал с впервые встреченным человеком и увлек его, это означало лишь одно – сидя на первой парте, он прослыл социопатом потому, что в школе мало с кем хотелось говорить.",
+      "en": "If Durov chatted so much with a person he met for the first time and captivated him, this meant only one thing – sitting at the first desk, he was reputed to be a sociopath because in school there were few people he wanted to talk to.",
+      "zh": "如果杜罗夫能跟一个初次见面的人聊这么多并吸引住他，这只能说明一件事——坐在第一排的他之所以被称为反社会者，是因为在学校里几乎没有他想与之交谈的人。",
+      "ja": "もしドゥーロフが初対面の相手とこれほど話し込み、相手を惹きつけたのだとすれば、それは一つのことを意味していた。一番前の席に座って社会不適合者という評判が立ったのは、学校には話したい相手がほとんどいなかったからだ。"
+    },
+    {
+      "id": 30,
+      "ru": "Ни в классах, ни на озере Зеркальном не встретилось удобного характера, устремленного к проектам, напрямую связанным с людьми и их потребностями.",
+      "en": "Neither in the classes nor on Lake Zerkalnoye was there a convenient character striving for projects directly related to people and their needs.",
+      "zh": "无论是在班级里还是在泽卡尔诺耶湖，都没有遇到那种性格相投、致力于与人和他们的需求直接相关的项目的人。",
+      "ja": "教室でもゼルカリノエ湖でも、人々とそのニーズに直接関係するプロジェクトを目指すような、都合の良い性格の人物には出会えなかったのだ。"
+    },
+    {
+      "id": 31,
+      "ru": "Перекопский был удобен.",
+      "en": "Perekopsky was convenient.",
+      "zh": "佩列科普斯基很“方便”（合得来）。",
+      "ja": "ペレコプスキーは都合が良かった。"
+    },
+    {
+      "id": 32,
+      "ru": "Он сразу понял, что Дуров обдумывает далекоидущие идеи и ставит цели точнее, но при этом не любит рутинную работу, необходимую для воплощения этих идей.",
+      "en": "He immediately understood that Durov considers far-reaching ideas and sets goals more precisely, but at the same time does not like the routine work necessary to implement these ideas.",
+      "zh": "他立刻明白，杜罗夫在思考深远的想法，设定的目标更精确，但同时不喜欢实现这些想法所必需的常规工作。",
+      "ja": "彼はすぐに、ドゥーロフが遠大なアイデアを練り、より正確に目標を設定していること、しかし同時に、それらのアイデアを実現するために必要なルーチンワークを好まないことを理解した。"
+    },
+    {
+      "id": 33,
+      "ru": "Роль второго лица в тандеме Перекопского устраивала.",
+      "en": "The role of the second person in the tandem suited Perekopsky.",
+      "zh": "佩列科普斯基对在这个二人组中扮演二把手的角色感到满意。",
+      "ja": "コンビの二番手という役割は、ペレコプスキーにとって好都合だった。"
+    },
+    {
+      "id": 34,
+      "ru": "Как-то раз, отвечая на опрос: «Для чего нужно чего-то добиваться?» – он написал: «Чтобы были деньги. Я их коллекционирую. Нужно же что-то коллекционировать?»",
+      "en": "Once, answering the survey: \"Why is it necessary to achieve something?\" – he wrote: \"To have money. I collect it. One has to collect something, right?\"",
+      "zh": "有一次，在回答问卷“为什么要取得成就？”时，他写道：“为了有钱。我收集钱。总得收集点什么吧？”",
+      "ja": "あるとき、「なぜ何かを成し遂げる必要があるのか？」というアンケートに答えて、彼はこう書いた。「お金のためだ。僕はそれを集めている。何かを集めなきゃいけないだろう？」"
+    }
+  ],
+  "translator_notes": [
+    "Page 24 describes the beauty contest further and then flashes back to the first meeting of Durov and Perekopsky at university."
+  ],
+  "total_sentences": 34,
+  "page_type": "narrative"
+}

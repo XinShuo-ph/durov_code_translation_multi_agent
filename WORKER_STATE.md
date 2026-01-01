@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-5aa9
 - **Short ID**: 5aa9
-- **Heartbeat**: 1767252769
-- **Status**: translating
+- **Heartbeat**: 1767252877
+- **Status**: online
 
 ## Current Work
-- **Claimed Page**: 24
-- **Started At**: 1767252769
+- **Claimed Page**: none
+- **Started At**: -
 
 ## Completed Pages
 | Page | Completed At | Hash |
@@ -21,6 +21,7 @@
 | 13   | 1767252447   | 0c44b8ef |
 | 16   | 1767252592   | f6511739 |
 | 23   | 1767252731   | df86b454 |
+| 24   | 1767252877   | 9b104fc4 |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
@@ -36,4 +37,4 @@
 | 7030     | online | -            | -              |
 
 ## Notes
-Working on Page 24 (Perekopsky and Durov meet).
+Completed Page 24.
