@@ -1,0 +1,48 @@
+{
+  "page": 22,
+  "chapter": 1,
+  "chapter_title_ru": "Ботанический сад",
+  "chapter_title_en": "The Botanical Garden",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Диевский задвинул про математику, Паперно - про лингвистику, Русин визионировал насчет кораблестроения, постебались над айкидисткой Бертовой.",
+      "en": "Dievsky talked about mathematics, Paperno about linguistics, Rusin envisioned shipbuilding, they teased aikido practitioner Bertova.",
+      "zh": "季耶夫斯基谈数学，帕佩尔诺谈语言学，鲁辛憧憬造船业，他们取笑练合气道的贝尔托娃。",
+      "ja": "ジエフスキーは数学について語り、パペルノは言語学について、ルーシンは造船について構想を語り、合気道家のベルトワをからかった。"
+    },
+    {
+      "id": 2,
+      "ru": "Когда Дурова спросили, кем себя видит в будущем, он прервал молчание и сказал, улыбаясь: Тотемом.",
+      "en": "When Durov was asked who he sees himself becoming in the future, he broke his silence and said, smiling: A totem.",
+      "zh": "当被问到杜罗夫将来想成为什么样的人时，他打破沉默，微笑着说：\"图腾。\"",
+      "ja": "ドゥーロフに将来何になりたいかと聞かれたとき、彼は沈黙を破り、微笑みながら言った：「トーテムだ」。"
+    },
+    {
+      "id": 3,
+      "ru": "Его желания, страсти, умения сложились в одну формулу. Все неинтересное и ненужное отсеялось.",
+      "en": "His desires, passions, abilities came together in one formula. Everything uninteresting and unnecessary had been filtered out.",
+      "zh": "他的欲望、热情、能力汇成了一个公式。所有无趣和不必要的东西都被筛选掉了。",
+      "ja": "彼の欲望、情熱、能力が一つの公式に集約された。つまらないもの、不要なものはすべて除外された。"
+    },
+    {
+      "id": 4,
+      "ru": "Он повторил то, что окружающие расценили как шутку, не подозревая, что произнесенная фраза определит все, что произойдет дальше: Я хочу стать интернет-тотемом.",
+      "en": "He repeated what those around him took as a joke, not suspecting that the spoken phrase would determine everything that would happen next: I want to become an internet totem.",
+      "zh": "他重复了周围人认为是玩笑的话，却没有想到这句话将决定此后发生的一切：\"我想成为互联网图腾。\"",
+      "ja": "彼は周りの人々が冗談と受け取ったことを繰り返した。その言葉がその後に起こるすべてを決定づけることを誰も知らなかった：「私はインターネットのトーテムになりたい」。"
+    }
+  ],
+  "translator_notes": [
+    "Dievsky, Paperno, Rusin - classmates of Durov",
+    "Totem - symbolic figure of veneration, here meaning an iconic figure on the internet",
+    "Aikido - Japanese martial art that Bertova practiced",
+    "Internet totem - Durov's stated ambition, meaning becoming an iconic internet figure",
+    "This page marks the end of Chapter 1 (The Botanical Garden)",
+    "The chapter title refers to School 239's location near the Botanical Garden"
+  ],
+  "research_used": [
+    "Durov biography",
+    "VKontakte founding story"
+  ]
+}
