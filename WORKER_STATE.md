@@ -3,16 +3,17 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-5aa9
 - **Short ID**: 5aa9
-- **Heartbeat**: 1767251899
-- **Status**: translating
+- **Heartbeat**: 1767251958
+- **Status**: online
 
 ## Current Work
-- **Claimed Page**: 2
-- **Started At**: 1767251899
+- **Claimed Page**: none
+- **Started At**: -
 
 ## Completed Pages
 | Page | Completed At | Hash |
 |------|--------------|------|
+| 2    | 1767251958   | 7f563f76 |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
@@ -22,4 +23,4 @@
 | c3ab     | online | 12           | 1767243720     |
 
 ## Notes
-Working on Page 2 (Front Matter).
+Completed Page 2.
