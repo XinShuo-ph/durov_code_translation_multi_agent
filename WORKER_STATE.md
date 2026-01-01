@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-37cb
 - **Short ID**: 37cb
-- **Heartbeat**: 1767251910
-- **Status**: online
+- **Heartbeat**: 1767251925
+- **Status**: translating
 
 ## Current Work
-- **Claimed Page**: none
-- **Started At**: -
+- **Claimed Page**: 4
+- **Started At**: 1767251925
 
 ## Completed Pages
 | Page | Completed At | Hash |
