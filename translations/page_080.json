@@ -1,0 +1,314 @@
+{
+  "page": 80,
+  "chapter": 4,
+  "chapter_title": "Штаб (Headquarters)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Дуров получил мощный удар в затылок и отступал.",
+      "en": "Durov received a powerful blow to the back of his head and was retreating.",
+      "zh": "杜罗夫后脑勺被猛击，正在后退。",
+      "ja": "ドゥーロフは後頭部に強烈な一撃を受け、後退していた。"
+    },
+    {
+      "id": 3,
+      "ru": "У Добромыслова заплыл глаз, и тот едва мог обороняться.",
+      "en": "Dobromyslov's eye was swelling shut, and he could barely defend himself.",
+      "zh": "多布罗梅斯洛夫的眼睛肿了起来，几乎无法自卫。",
+      "ja": "ドブロムィスロフの目は腫れ上がり、ほとんど防御できなかった。"
+    },
+    {
+      "id": 4,
+      "ru": "Их наверняка прижали бы и изметелили, если бы Равдоникас не начал вязать нападавшим руки, крича что-то примиряющее.",
+      "en": "They surely would have been pinned down and beaten if Ravdonikas hadn't started binding the attackers' hands, shouting something conciliatory.",
+      "zh": "如果不是拉夫多尼卡斯开始缠住攻击者的手，喊着一些和解的话，他们肯定会被按住痛打一顿。",
+      "ja": "ラヴドニカスが攻撃者たちの手を縛り始め、何か和解的なことを叫ばなければ、彼らは確実に押さえつけられて殴打されていただろう。"
+    },
+    {
+      "id": 5,
+      "ru": "Тотем вырвался и побежал к Дворцовой площади.",
+      "en": "The totem broke free and ran toward Palace Square.",
+      "zh": "图腾挣脱了，向宫殿广场跑去。",
+      "ja": "トーテムは抜け出し、宮殿広場に向かって走った。"
+    },
+    {
+      "id": 6,
+      "ru": "Добромыслов бросился в штаб и вызвал скорую: если повреждена сетчатка, пора осваивать новую профессию.",
+      "en": "Dobromyslov rushed to headquarters and called an ambulance: if the retina was damaged, it was time to master a new profession.",
+      "zh": "多布罗梅斯洛夫冲向总部叫了救护车：如果视网膜受损，就该学习新职业了。",
+      "ja": "ドブロムィスロフは本部に駆け込み救急車を呼んだ——網膜が損傷していたら、新しい職業を習得する時だ。"
+    },
+    {
+      "id": 7,
+      "ru": "Справа неслись сверкающие огнями заведения, слева машины, а милиции все никак не находилось.",
+      "en": "On the right, establishments glittering with lights rushed by, on the left cars, but there was still no sign of police.",
+      "zh": "右边是灯火辉煌的店铺飞驰而过，左边是汽车，但就是找不到警察。",
+      "ja": "右には煌びやかなライトの店舗が駆け抜け、左には車が走っていたが、警察はどこにも見当たらなかった。"
+    },
+    {
+      "id": 8,
+      "ru": "Дуров остановился перевести дух и увидел автомобиль с синей полосой и мигалкой.",
+      "en": "Durov stopped to catch his breath and saw a car with a blue stripe and a flashing light.",
+      "zh": "杜罗夫停下来喘口气，看到一辆有蓝色条纹和闪光灯的汽车。",
+      "ja": "ドゥーロフは息を整えるために立ち止まり、青いストライプと回転灯のついた車を見つけた。"
+    },
+    {
+      "id": 9,
+      "ru": "Он постучался в закрытое окно.",
+      "en": "He knocked on the closed window.",
+      "zh": "他敲了敲关着的车窗。",
+      "ja": "彼は閉じた窓をノックした。"
+    },
+    {
+      "id": 10,
+      "ru": "«Это не наша территория», – ответили изнутри.",
+      "en": "\"This is not our territory,\" they answered from inside.",
+      "zh": ""这不是我们的辖区，"里面回答道。",
+      "ja": "「ここは我々の管轄ではない」と中から答えた。"
+    },
+    {
+      "id": 11,
+      "ru": "Дуров вспомнил, как шел с Равдоникасом по галерее Гостиного двора, через которую можно попасть на проспект, избежав торговых рядов.",
+      "en": "Durov remembered walking with Ravdonikas through the gallery of Gostiny Dvor, through which you can get to the avenue while avoiding the shopping rows.",
+      "zh": "杜罗夫想起了他和拉夫多尼卡斯一起穿过国宾商场长廊的情景，通过那里可以到达大街而避开购物区。",
+      "ja": "ドゥーロフは、ラヴドニカスとゴスチヌィ・ドヴォールの回廊を歩いたことを思い出した。そこを通れば商店街を避けて大通りに出られる。"
+    },
+    {
+      "id": 12,
+      "ru": "Обсуждали, как меняется понятие личности в соцсетях.",
+      "en": "They were discussing how the concept of identity was changing in social networks.",
+      "zh": "他们在讨论个人身份概念在社交网络中如何变化。",
+      "ja": "彼らはソーシャルネットワークでアイデンティティの概念がどう変化しているかを議論していた。"
+    },
+    {
+      "id": 13,
+      "ru": "Высокоумную беседу прервали барышни в серой форме и пилотках: «Сюда нельзя».",
+      "en": "The highbrow conversation was interrupted by young women in gray uniforms and garrison caps: \"You can't go this way.\"",
+      "zh": "高雅的谈话被穿着灰色制服和船形帽的年轻女士打断了："这里不能进。"",
+      "ja": "知的な会話は、グレーの制服とギャリソンキャップをかぶった若い女性たちに遮られた：「ここは通れません」"
+    },
+    {
+      "id": 14,
+      "ru": "За их спинами кипел пятачок между метро и проспектом, куда на 31-е числа сходились оппозиционеры – недобитая демшиза и иные антипутинцы.",
+      "en": "Behind their backs, the small square between the metro and the avenue was boiling, where on the 31st of each month the opposition gathered—surviving liberal democrats and other anti-Putin protesters.",
+      "zh": "在她们身后，地铁和大街之间的小广场沸腾着，每月31日反对派在那里聚集——残存的民主派和其他反普京人士。",
+      "ja": "彼女らの背後では、地下鉄と大通りの間の小さな広場が沸騰していた。そこでは毎月31日に反対派が集まっていた——生き残りのリベラル民主派やその他の反プーチン派たちだ。"
+    },
+    {
+      "id": 15,
+      "ru": "Их было мало, не тысячи, как в Москве на Триумфальной, и они требовали исполнения статьи Конституции о свободе собраний.",
+      "en": "There were few of them, not thousands like in Moscow at Triumfalnaya, and they were demanding enforcement of the constitutional article on freedom of assembly.",
+      "zh": "他们人数很少，不像莫斯科凯旋广场那样有数千人，他们要求执行宪法中关于集会自由的条款。",
+      "ja": "彼らは少数で、モスクワのトリウンファリナヤ広場のような数千人ではなく、集会の自由に関する憲法の条項の履行を要求していた。"
+    },
+    {
+      "id": 16,
+      "ru": "Кого-то винтили и волокли в автозак.",
+      "en": "Some were being detained and dragged into police vans.",
+      "zh": "有些人被逮捕并拖进警车。",
+      "ja": "誰かが拘束され、護送車に引きずり込まれていた。"
+    },
+    {
+      "id": 17,
+      "ru": "Дуров посмотрел на барышень с ласковой ненавистью: «Представьтесь, пожалуйста, и скажите номер удостоверения».",
+      "en": "Durov looked at the young women with tender hatred: \"Please introduce yourself and give your badge number.\"",
+      "zh": "杜罗夫用温柔的仇恨看着那些年轻女士："请自我介绍并告诉我你们的证件号码。"",
+      "ja": "ドゥーロフは優しい憎しみを込めて若い女性たちを見た：「お名前と身分証番号を教えてください」"
+    },
+    {
+      "id": 18,
+      "ru": "Милиция замешкалась.",
+      "en": "The police hesitated.",
+      "zh": "警察犹豫了。",
+      "ja": "警察は戸惑った。"
+    },
+    {
+      "id": 19,
+      "ru": "«Вы не понимаете, что делаете! – крикнул Дуров, посмотрел в сторону и продолжил: – Вы не можете ограничить свободу передвижения.",
+      "en": "\"You don't understand what you're doing!\" Durov shouted, looked aside and continued: \"You cannot restrict freedom of movement.",
+      "zh": ""你们不明白自己在做什么！"杜罗夫喊道，看向一旁继续说："你们不能限制行动自由。",
+      "ja": "「あなたたちは自分が何をしているかわかっていない！」ドゥーロフは叫び、横を見てから続けた：「移動の自由を制限することはできない。"
+    },
+    {
+      "id": 20,
+      "ru": "Ограничивая свободу, вообще любую, можно лишь разогреть протестные настроения».",
+      "en": "By restricting freedom, any freedom at all, you can only heat up protest sentiments.\"",
+      "zh": "限制自由，任何自由，只会激化抗议情绪。"",
+      "ja": "自由を制限すれば、どんな自由であれ、抗議の機運を高めるだけだ」"
+    },
+    {
+      "id": 21,
+      "ru": "И так далее, в том же регистре.",
+      "en": "And so on, in the same register.",
+      "zh": "如此等等，同样的调子。",
+      "ja": "そして同様の調子で続いた。"
+    },
+    {
+      "id": 22,
+      "ru": "Их с Равдоникасом пропустили.",
+      "en": "They let him and Ravdonikas through.",
+      "zh": "他们让他和拉夫多尼卡斯通过了。",
+      "ja": "彼らはドゥーロフとラヴドニカスを通した。"
+    },
+    {
+      "id": 23,
+      "ru": "Пока они шагали к штабу, тотем возмущался, насколько слаба репрессивная машина, если два чувака смогли продавить милицейский кордон с помощью слов.",
+      "en": "While they walked toward headquarters, the totem was indignant at how weak the repressive apparatus was if two guys could push through a police cordon using words.",
+      "zh": "当他们走向总部时，图腾愤愤不平地说，压制机器真是太弱了，两个家伙用语言就能突破警察封锁线。",
+      "ja": "本部に向かって歩きながら、トーテムは、二人の男が言葉だけで警察の封鎖線を突破できるとは、抑圧機構がいかに弱いかと憤慨していた。"
+    },
+    {
+      "id": 24,
+      "ru": "Теперь, стоя на Невском в бессилии, у равнодушного авто с синей полосой, обхватив болевшую от удара голову, владелец компании ценой в миллиарды думал о том, что все оказалось хуже.",
+      "en": "Now, standing on Nevsky in helplessness, by the indifferent car with the blue stripe, clutching his head aching from the blow, the owner of a company worth billions thought that everything had turned out worse.",
+      "zh": "现在，站在涅瓦大街上无助地，在那辆冷漠的蓝条纹汽车旁，捂着被打痛的头，这位身价数十亿的公司老板想到一切都变得更糟了。",
+      "ja": "今、ネフスキー大通りで無力に立ち、青いストライプの無関心な車の傍で、殴られて痛む頭を抱えながら、数十億の価値がある会社のオーナーは、すべてがもっと悪くなったと考えていた。"
+    },
+    {
+      "id": 25,
+      "ru": "Все сгнило.",
+      "en": "Everything had rotted.",
+      "zh": "一切都腐烂了。",
+      "ja": "すべてが腐っていた。"
+    },
+    {
+      "id": 26,
+      "ru": "Люди чувствуют это и не верят, что государство способно их защитить.",
+      "en": "People sense this and don't believe the state is capable of protecting them.",
+      "zh": "人们感觉到了这一点，不相信国家能够保护他们。",
+      "ja": "人々はこれを感じ、国家が自分たちを守る能力があるとは信じていない。"
+    },
+    {
+      "id": 27,
+      "ru": "Лишь подсознательно они цепляются за эфемерное обещание безопасности.",
+      "en": "Only subconsciously do they cling to the ephemeral promise of security.",
+      "zh": "他们只是在潜意识里紧抓着虚幻的安全承诺。",
+      "ja": "彼らは無意識にのみ、儚い安全の約束にしがみついている。"
+    },
+    {
+      "id": 28,
+      "ru": "Скоро, очень скоро государства рухнут и на их место придут конкурентоспособные компании, в том числе охраняющие граждан.",
+      "en": "Soon, very soon, states will collapse and competitive companies will take their place, including those protecting citizens.",
+      "zh": "很快，很快，国家将崩溃，有竞争力的公司将取而代之，包括保护公民的公司。",
+      "ja": "もうすぐ、すぐに国家は崩壊し、競争力のある企業がその地位を奪う——市民を守る企業も含めて。"
+    },
+    {
+      "id": 29,
+      "ru": "Граждане будут выбирать место жительства, исходя из своих компетенций.",
+      "en": "Citizens will choose their place of residence based on their competencies.",
+      "zh": "公民将根据自己的能力选择居住地。",
+      "ja": "市民は自分の能力に基づいて居住地を選ぶようになる。"
+    },
+    {
+      "id": 30,
+      "ru": "Государства станут бороться за привлечение тех или иных специалистов.",
+      "en": "States will compete to attract various specialists.",
+      "zh": "国家将争相吸引各类专家。",
+      "ja": "国家は様々な専門家を引き付けるために競争するようになる。"
+    },
+    {
+      "id": 31,
+      "ru": "Это произойдет не так быстро, как хотелось бы.",
+      "en": "This won't happen as quickly as one would like.",
+      "zh": "这不会像人们希望的那样快发生。",
+      "ja": "これは望むほど早くは起こらないだろう。"
+    },
+    {
+      "id": 32,
+      "ru": "Наше дело – приближать этот момент, погружая все большее количество социальных транзакций в сеть, где все процессы текут прозрачнее, чем по бумажным процедурам.",
+      "en": "Our job is to bring this moment closer by immersing more and more social transactions into the network, where all processes flow more transparently than through paper procedures.",
+      "zh": "我们的工作是通过将越来越多的社会交易沉浸到网络中来加速这一时刻，在那里所有流程比纸质程序更透明。",
+      "ja": "我々の仕事は、ますます多くの社会的取引をネットワークに浸透させることでその瞬間を近づけることだ——そこではすべてのプロセスが紙の手続きよりも透明に流れる。"
+    },
+    {
+      "id": 33,
+      "ru": "Наши идеи как кислота – растворят консервативные установки и станут мейнстримом.",
+      "en": "Our ideas are like acid—they will dissolve conservative attitudes and become mainstream.",
+      "zh": "我们的想法就像酸——会溶解保守的态度并成为主流。",
+      "ja": "我々のアイデアは酸のようだ——保守的な考え方を溶かし、主流になる。"
+    },
+    {
+      "id": 34,
+      "ru": "Лет через двадцать.",
+      "en": "In about twenty years.",
+      "zh": "大约二十年后。",
+      "ja": "約20年後に。"
+    },
+    {
+      "id": 35,
+      "ru": "В штабе Дурова ждал Добромыслов, избежавший отслоения сетчатки и чувствовавший себя счастливым – что, впрочем, было не очень заметно на фоне адреналина, фрустрации и размышлений, куда свернула бы его судьба, если бы.",
+      "en": "At headquarters, Dobromyslov was waiting for Durov, having avoided retinal detachment and feeling happy—which, however, wasn't very noticeable against the backdrop of adrenaline, frustration, and reflections on where his fate would have turned if.",
+      "zh": "在总部，多布罗梅斯洛夫在等杜罗夫，他避免了视网膜脱落，感到很幸运——不过，在肾上腺素、沮丧和对命运可能转向何处的思考背景下，这并不太明显。",
+      "ja": "本部では、網膜剥離を免れて幸せを感じているドブロムィスロフがドゥーロフを待っていた——もっとも、アドレナリン、フラストレーション、そして「もしあの時」という運命の分岐点への思索を背景に、それはあまり目立たなかったが。"
+    },
+    {
+      "id": 36,
+      "ru": "Добромыслов не собирался становиться оформителем соцсети.",
+      "en": "Dobromyslov had no intention of becoming a social network designer.",
+      "zh": "多布罗梅斯洛夫并不打算成为社交网络的设计师。",
+      "ja": "ドブロムィスロフはソーシャルネットワークのデザイナーになるつもりはなかった。"
+    },
+    {
+      "id": 37,
+      "ru": "Он учился торговать акциями, и если увлекался дизайном, то скорее автомобильным.",
+      "en": "He was learning to trade stocks, and if he was passionate about design, it was more about automobile design.",
+      "zh": "他在学习股票交易，如果说对设计有兴趣的话，那更多是汽车设计。",
+      "ja": "彼は株取引を学んでおり、デザインに興味があるとすれば、それは自動車デザインだった。"
+    },
+    {
+      "id": 38,
+      "ru": "Зарегистрировавшись во «ВКонтакте», он начал администрировать группу «Студенты.ру» и был замечен штабом.",
+      "en": "Having registered on VKontakte, he began administering the \"Students.ru\" group and was noticed by headquarters.",
+      "zh": "在VKontakte注册后，他开始管理\"学生.ru\"群组，被总部注意到了。",
+      "ja": "VKontakteに登録して「Students.ru」グループを管理し始め、本部に目をつけられた。"
+    },
+    {
+      "id": 39,
+      "ru": "Затем он выиграл конкурс дизайна, получил приглашение, был очарован Дуровым и вступил в секту.",
+      "en": "Then he won a design competition, received an invitation, was charmed by Durov, and joined the sect.",
+      "zh": "然后他赢得了设计比赛，收到邀请，被杜罗夫迷住，加入了这个教派。",
+      "ja": "その後、デザインコンペで優勝し、招待を受け、ドゥーロフに魅了され、教団に加わった。"
+    },
+    {
+      "id": 40,
+      "ru": "Они часами сидели над редизайном – архитектор с черной коленкоровой тетрадью, Добромыслов с айпадом – и обсуждали, как ложится свет на каждую кнопку страницы.",
+      "en": "They spent hours on the redesign—the architect with his black calico notebook, Dobromyslov with his iPad—discussing how light fell on every button on the page.",
+      "zh": "他们花数小时进行重新设计——建筑师拿着他的黑色粗布笔记本，多布罗梅斯洛夫拿着iPad——讨论光线如何落在页面上的每个按钮上。",
+      "ja": "彼らは何時間もリデザインに費やした——建築家は黒いキャラコのノートを、ドブロムィスロフはiPadを持って——ページの各ボタンにどう光が当たるかを議論した。"
+    },
+    {
+      "id": 41,
+      "ru": "Добромыслова, как и других, поражала способность Дурова вбросить неожиданную идею – и отследить, чтобы она была воплощена за короткий срок (если производство растянулось, значит, идея негодная).",
+      "en": "Dobromyslov, like others, was amazed by Durov's ability to throw out an unexpected idea—and track it to ensure it was implemented in a short time (if production stretched on, the idea was no good).",
+      "zh": "多布罗梅斯洛夫和其他人一样，对杜罗夫抛出意外想法的能力感到惊讶——并追踪确保在短时间内实现（如果生产拖延，就说明这个想法不行）。",
+      "ja": "ドブロムィスロフは他の人々と同様に、予想外のアイデアを投げ込み、それが短期間で実現されるよう追跡するドゥーロフの能力に驚いていた（製作が長引けば、そのアイデアはダメだということだ）。"
+    },
+    {
+      "id": 42,
+      "ru": "Однажды они таким образом придумали выводить в профиле пользователя его фотоальбом, а личную информацию ужимать.",
+      "en": "Once, in this way, they came up with displaying a user's photo album on their profile while compressing personal information.",
+      "zh": "有一次，他们就这样想出了在用户个人资料中显示相册，同时压缩个人信息的办法。",
+      "ja": "ある時、こうして彼らはユーザーのプロフィールにフォトアルバムを表示し、個人情報を圧縮するアイデアを思いついた。"
+    }
+  ],
+  "translator_notes": [
+    "Palace Square (Дворцовая площадь) - central square in St. Petersburg, home to the Winter Palace",
+    "Gostiny Dvor - historic shopping arcade in St. Petersburg",
+    "Strategy-31 protests - opposition rallies held on the 31st of each month (months with 31 days), invoking Article 31 of the Russian Constitution on freedom of assembly",
+    "Triumfalnaya Square - location of similar protests in Moscow",
+    "Demshiza (демшиза) - derogatory term for liberal democrats, combining 'democracy' and 'schizophrenia'",
+    "Avtozak - police prisoner transport van",
+    "Durov's libertarian philosophy is clearly expressed here: states will be replaced by competitive companies",
+    "Black calico notebook (черная коленкоровая тетрадь) - Durov's trademark notebook for design ideas",
+    "The attack described appears to be a street assault on VKontakte executives"
+  ],
+  "total_sentences": 42,
+  "page_type": "narrative"
+}
