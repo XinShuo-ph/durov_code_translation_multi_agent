@@ -1,0 +1,36 @@
+{
+  "page": 43,
+  "chapter": 3,
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Паша молчал и продолжал смотреть в экран.",
+      "en": "Pasha remained silent and continued staring at the screen.",
+      "zh": "帕沙保持沉默，继续盯着屏幕。",
+      "ja": "パーシャは黙ったまま画面を見つめ続けた。"
+    },
+    {
+      "id": 2,
+      "ru": "Наконец прибежал Лев с коробкой «Терияки».",
+      "en": "Finally Lev arrived with a box of teriyaki.",
+      "zh": "列夫终于拿着一盒照烧鸡来了。",
+      "ja": "ついにレフがテリヤキの箱を持って走ってきた。"
+    },
+    {
+      "id": 3,
+      "ru": "Разговор продолжился за едой.",
+      "en": "The conversation continued over food.",
+      "zh": "谈话在用餐时继续。",
+      "ja": "会話は食事をしながら続いた。"
+    }
+  ],
+  "translator_notes": [
+    "Pasha: Diminutive form of Pavel (Pavel Durov)",
+    "Teriyaki: Shows Western food culture in Russian tech scene",
+    "Context: Early VKontakte development, informal work environment"
+  ],
+  "research_used": [
+    "Russian diminutive names (Паша from Павел)",
+    "St. Petersburg tech scene food culture"
+  ]
+}
