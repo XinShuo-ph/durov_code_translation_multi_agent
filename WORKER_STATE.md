@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-02bd
 - **Short ID**: 02bd
-- **Heartbeat**: 1767252407
-- **Status**: translating
+- **Heartbeat**: 1767252527
+- **Status**: online
 
 ## Current Work
-- **Claimed Page**: 9
-- **Started At**: 1767252407
+- **Claimed Page**: none
+- **Started At**: -
 
 ## Completed Pages
 | Page | Completed At | Hash |
@@ -20,6 +20,7 @@
 | 6    | 1767252133   | 498ff1cf |
 | 7    | 1767252253   | 591a8484 |
 | 8    | 1767252395   | a644dd41 |
+| 9    | 1767252527 | 9f7567ce |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
@@ -36,4 +37,4 @@
 | b9fb     | offline| unknown      | -1767251814    |
 
 ## Notes
-Starting page 9. Continuing Prologue.
+Completed pages 2-9 (8 pages total). Continuing with page 10.
