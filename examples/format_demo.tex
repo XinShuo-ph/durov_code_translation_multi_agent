@@ -1,0 +1,54 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[margin=18mm]{geometry}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+\sloppy
+
+% Fonts (available via fonts-noto-cjk + TeX Live)
+\setmainfont{Noto Serif}
+\newfontfamily\cyrillicfont{Noto Serif}
+\setCJKmainfont{Noto Serif CJK SC}
+\newCJKfontfamily\cjkjp{Noto Serif CJK JP}
+
+% Colors
+\definecolor{ENBlue}{HTML}{1E5AA8}
+\definecolor{ZHRed}{HTML}{B51616}
+\definecolor{JAGreen}{HTML}{1E7A3B}
+
+\newcommand{\ru}[1]{{\color{black}\textbf{RU}\, #1}}
+\newcommand{\en}[1]{{\color{ENBlue}\textbf{EN}\, #1}}
+\newcommand{\zh}[1]{{\color{ZHRed}\textbf{ZH}\, #1}}
+\newcommand{\ja}[1]{{\cjkjp\color{JAGreen}\textbf{JA}\, #1}}
+
+\begin{document}
+
+\begin{center}
+{\Large \textbf{Durov Code — 4-language layout demo}}\\
+\vspace{0.4em}
+{\small Russian (black), English (blue), Chinese (red), Japanese (green)}
+\end{center}
+
+\hrule
+\vspace{0.8em}
+
+% Demo block: keep sentences aligned across languages.
+\ru{Мальчик с томом Сервантеса выходит из подъезда, огибает автомобиль, который какой-то негодяй поставил так, что пешеходы еле протискиваются мимо, и сворачивает за угол.}
+
+\en{A boy carrying a volume of Cervantes steps out of the entranceway, walks around a car some jerk parked so tightly that pedestrians can barely squeeze past, and turns the corner.}
+
+\zh{一个抱着塞万提斯著作的男孩走出楼道，绕过一辆被某个混蛋停得让行人几乎挤不过去的汽车，然后拐进街角。}
+
+\ja{セルバンテスの本を抱えた少年が玄関口を出て、誰かのろくでなしが歩行者がやっとすり抜けられるほどの位置に停めた車を回り込み、角を曲がる。}
+
+\vspace{0.6em}
+\hrule
+
+\end{document}
+

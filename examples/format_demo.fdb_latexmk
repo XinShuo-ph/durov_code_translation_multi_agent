@@ -1,0 +1,38 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "examples/format_demo.xdv" "examples/format_demo.pdf" "examples/format_demo" 0 -1
+  "examples/format_demo.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "examples/format_demo.pdf"
+  (rewritten before read)
+["xelatex"] 1767242390.7969 "/workspace/examples/format_demo.tex" "examples/format_demo.xdv" "format_demo" 1767242391.14655 2
+  "/etc/texmf/web2c/texmf.cnf" 1767241969.97293 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1644112042 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
+  "/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1705352648 20144 147463a6a579f4597269ef9565205cfe ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty" 1705352648 5119 a04a8b68ab4f6ce800a41f7f8012a10e ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo" 1705352648 8449 f07039d8e4e89f21078d9b5137579bfc ""
+  "/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty" 1642282977 162076 2f6d31c4632f2730c57b9c0fda038e15 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg" 1532898934 549 c4adac819276241fea8eb79c5ab7b99e ""
+  "/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty" 1642282977 1656 7e824878bad4df5a3e8bba4e463d9126 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
+  "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
+  "/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def" 1663965824 14788 1dde73f396dd97d88c838bee2a352abe ""
+  "/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty" 1654720880 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx" 1667332637 2885 9c645d672ae17285bba324998918efd8 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def" 1704491087 31815 935a376385ab1feff82e3d2187c4f47a ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty" 1705955748 6565 cfd9fd0a1d5f5ad985151778771ff7a9 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1696969620 9327 c30c00c0072edba199ede5889311aaa9 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty" 1700082560 55487 80a65caedd3722f4c20a14a69e785d8f ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1767241988 9050235 fe0730b6cfcc4cd75a016f3f399fec85 ""
+  "/workspace/examples/format_demo.tex" 1767242383.89974 1946 fc37f6eb27031df5ec8d8e50a6827891 ""
+  "examples/format_demo.aux" 1767242390.79172 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "examples/format_demo.tex" 1767242383.89974 1946 fc37f6eb27031df5ec8d8e50a6827891 ""
+  "examples/xeCJK.sty" 0 -1 0 ""
+  "xeCJK.sty" 0 -1 0 ""
+  (generated)
+  "examples/format_demo.aux"
+  "examples/format_demo.log"
+  "examples/format_demo.xdv"
+  (rewritten before read)
