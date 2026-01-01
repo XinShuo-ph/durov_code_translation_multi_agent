@@ -1,0 +1,54 @@
+{
+  "page": 6,
+  "section": "Preface (conclusion)",
+  "author": "Yuri Saprykin",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Поэтому вряд ли стоит читать книгу Кононова как портрет Героя Нашего Времени или описание того, Как Все В Мире Будет Устроено, – в фигуре Дурова слишком много исключительного, не сказать, эксцентрического, чтобы делать из его истории Далекоидущие Выводы.",
+      "en": "Therefore, Kononov's book should hardly be read as a portrait of the Hero of Our Time or a description of How Everything Will Be Arranged—there is too much exceptional, not to say eccentric, in Durov's figure to draw Far-Reaching Conclusions from his story.",
+      "zh": "因此，科诺诺夫的书不应被解读为我们时代英雄的肖像，或关于世界将如何安排的描述——杜罗夫身上有太多特殊的东西，甚至可以说是古怪的，以至于无法从他的故事中得出影响深远的结论。",
+      "ja": "したがって、コノノフの本を「我々の時代の英雄」の肖像画や「すべてがどのように配置されるか」の説明として読むべきではない。ドゥーロフの人物には、彼の物語から遠大な結論を引き出すには、あまりにも例外的な、言うなれば風変わりなものが多すぎる。"
+    },
+    {
+      "id": 2,
+      "ru": "Возможно, правильнее было бы подойти к этому тексту как к авантюрному роману, серии удивительных приключений и сказочных перевоплощений – развязка которых, кажется, далеко не очевидна.",
+      "en": "Perhaps it would be more correct to approach this text as an adventure novel, a series of amazing adventures and fairy-tale transformations—whose denouement seems far from obvious.",
+      "zh": "也许更正确的做法是将这部作品视为一部冒险小说，一系列令人惊叹的冒险和童话般的变形——其结局似乎远非显而易见。",
+      "ja": "おそらく、このテキストを冒険小説、驚くべき冒険とおとぎ話のような変身の連続として扱う方が正しいだろう。その結末はまったく明白ではないようだ。"
+    },
+    {
+      "id": 3,
+      "ru": "Кажется, один из важных мотивов для Дурова – стремление сделать все назло и поперек системе, в которую его пытаются встроить.",
+      "en": "It seems one of Durov's important motives is the desire to do everything in defiance and opposition to the system they're trying to embed him in.",
+      "zh": "似乎杜罗夫的一个重要动机是渴望做一切与试图将他纳入的体系相对抗和相反的事情。",
+      "ja": "ドゥーロフの重要な動機の一つは、彼らが彼を組み込もうとするシステムに対して、すべてを反抗的に、逆らって行おうとする欲求のようだ。"
+    },
+    {
+      "id": 4,
+      "ru": "Герой этой книги не борется за свободу – а утверждает ее самим фактом своего существования.",
+      "en": "The hero of this book does not fight for freedom—but affirms it by the very fact of his existence.",
+      "zh": "这本书的主人公不是为自由而战——而是通过他存在的事实本身来确认自由。",
+      "ja": "この本の主人公は自由のために戦うのではなく、彼の存在そのものによって自由を主張している。"
+    },
+    {
+      "id": 5,
+      "ru": "В любом случае, это открывает и перед автором, и перед читателями блистательную перспективу: в том смысле, что продолжение следует.",
+      "en": "In any case, this opens a brilliant prospect for both the author and readers: in the sense that the story continues.",
+      "zh": "无论如何，这为作者和读者都打开了一个辉煌的前景：从这个意义上说，故事还在继续。",
+      "ja": "いずれにせよ、これは著者と読者の両方に輝かしい展望を開く。つまり、物語は続くということだ。"
+    },
+    {
+      "id": 6,
+      "ru": "Юрий Сапрыкин, публицист, шеф-редактор «Рамблер-Афиша»",
+      "en": "Yuri Saprykin, publicist, editor-in-chief of Rambler-Afisha",
+      "zh": "尤里·萨普雷金，评论家，Rambler-Afisha主编",
+      "ja": "ユーリ・サプリキン、評論家、ランブラー・アフィーシャ編集長"
+    }
+  ],
+  "translator_notes": [
+    "Hero of Our Time: Reference to Lermontov's classic Russian novel",
+    "Rambler-Afisha: Russian media portal and lifestyle magazine",
+    "The preface author hints at future developments (Durov would leave Russia in 2014)"
+  ]
+}

@@ -36,7 +36,7 @@
 | Page | Status | Started | Completed | Hash |
 |------|--------|---------|-----------|------|
 | 5 | done | 2026-01-01T04:45:00Z | 2026-01-01T04:46:00Z | fc921ce3/4e54e72e |
-| 6 | claiming | 2026-01-01T04:46:00Z | - | - |
+| 6 | done | 2026-01-01T04:46:00Z | 2026-01-01T04:47:00Z | 25187675/e0e2b017 |
 
 ## Consensus Votes
 | Topic | My Vote | Timestamp |
