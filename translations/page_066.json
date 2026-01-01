@@ -1,0 +1,289 @@
+{
+  "page": 66,
+  "chapter": 6,
+  "chapter_title": "Стена (The Wall)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "решили вытянуть из колоды брендов самый быстрорастущий и консолидировать остальные под его маркой. Этим якорем стал Mail.ru.",
+      "en": "decided to pull the fastest-growing brand from the deck and consolidate the others under its brand. This anchor became Mail.ru.",
+      "zh": "决定从品牌牌组中抽出增长最快的品牌，将其他品牌整合到它的名下。这个锚点就是Mail.ru。",
+      "ja": "ブランドのデッキから最も成長の速いものを引き出し、他のものをそのブランドの下に統合することを決めた。このアンカーがMail.ruになった。"
+    },
+    {
+      "id": 3,
+      "ru": "Из почтового сервиса он превратился в портал с разделами «Работа», «Новости» и т. д.",
+      "en": "From an email service it transformed into a portal with sections like \"Jobs,\" \"News,\" etc.",
+      "zh": "从一个电子邮件服务转变为一个拥有「工作」「新闻」等板块的门户网站。",
+      "ja": "メールサービスから、「仕事」「ニュース」などのセクションを持つポータルに変身した。"
+    },
+    {
+      "id": 4,
+      "ru": "Мильнер с Гришиным создавали его во многом по подобию Yahoo.",
+      "en": "Milner and Grishin created it largely in the likeness of Yahoo.",
+      "zh": "米尔纳和格里申在很大程度上是仿照雅虎创建的。",
+      "ja": "ミルナーとグリシンは主にYahooをモデルにしてそれを作った。"
+    },
+    {
+      "id": 5,
+      "ru": "Правда, в дальнейшем они пошли по пути, позволившему выжить – в отличие от теряющей юзеров компании Джерри Янга.",
+      "en": "However, later they took a path that allowed them to survive—unlike Jerry Yang's company, which was losing users.",
+      "zh": "不过，他们后来走了一条让自己生存下来的路——不像杰瑞·杨正在流失用户的公司。",
+      "ja": "しかし、その後彼らはユーザーを失っているジェリー・ヤンの会社とは異なり、生き残ることができる道を歩んだ。"
+    },
+    {
+      "id": 6,
+      "ru": "В 2003 году Гришина повысили до генерального директора.",
+      "en": "In 2003, Grishin was promoted to CEO.",
+      "zh": "2003年，格里申被提升为首席执行官。",
+      "ja": "2003年、グリシンはCEOに昇進した。"
+    },
+    {
+      "id": 7,
+      "ru": "Он продолжал кодить и разрабатывать продукты.",
+      "en": "He continued to code and develop products.",
+      "zh": "他继续编写代码和开发产品。",
+      "ja": "彼はコーディングと製品開発を続けた。"
+    },
+    {
+      "id": 8,
+      "ru": "Новых идей, как делать деньги в интернете, помимо рекламы, у него не было.",
+      "en": "He had no new ideas on how to make money on the internet besides advertising.",
+      "zh": "除了广告之外，他没有在互联网上赚钱的新想法。",
+      "ja": "広告以外にインターネットでお金を稼ぐ新しいアイデアはなかった。"
+    },
+    {
+      "id": 9,
+      "ru": "Неизвестно, чем закончилось бы дело, если бы Mail.ru не поддержали высокотехнологичные рекламодатели.",
+      "en": "It's unknown how things would have ended if Mail.ru hadn't been supported by high-tech advertisers.",
+      "zh": "不知道如果没有高科技广告商的支持，Mail.ru会怎样收场。",
+      "ja": "ハイテク広告主の支援がなければ、事態がどう終わっていたかは分からない。"
+    },
+    {
+      "id": 10,
+      "ru": "Разбирающиеся в интернете и верующие в его будущее менеджеры Intel, Microsoft, МТС, «Билайн» и «Мегафон» фактически спасли портал, массово покупая рекламу.",
+      "en": "Internet-savvy managers from Intel, Microsoft, MTS, Beeline, and Megafon who believed in its future essentially saved the portal by buying advertising en masse.",
+      "zh": "来自英特尔、微软、MTS、Beeline和Megafon的懂互联网并相信其未来的经理们通过大量购买广告实际上拯救了这个门户。",
+      "ja": "インターネットに詳しく、その未来を信じるIntel、Microsoft、MTS、Beeline、Megafonのマネージャーたちが、大量に広告を購入することでポータルを実質的に救った。"
+    },
+    {
+      "id": 11,
+      "ru": "Гришин был постоянно озабочен финансовым результатом и при этом не имел радикальных идей, как еще зарабатывать, кроме размещения баннеров.",
+      "en": "Grishin was constantly preoccupied with financial results while having no radical ideas on how else to earn money besides placing banners.",
+      "zh": "格里申一直关注财务业绩，但除了放置横幅广告外，没有其他赚钱的激进想法。",
+      "ja": "グリシンは常に財務結果を気にしていたが、バナー広告以外にどうやって稼ぐかについての急進的なアイデアはなかった。"
+    },
+    {
+      "id": 12,
+      "ru": "Куда двигаться, они с Мильнером поняли: строить линейку коммуникационных продуктов.",
+      "en": "Where to move, he and Milner understood: build a lineup of communication products.",
+      "zh": "他们和米尔纳明白该往哪里走：建立一系列通信产品。",
+      "ja": "どこに向かうべきか、彼とミルナーは理解していた：コミュニケーション製品のラインナップを構築すること。"
+    },
+    {
+      "id": 13,
+      "ru": "Чем пользуются люди? Почтой, мгновенными сообщениями типа ICQ.",
+      "en": "What do people use? Email, instant messaging like ICQ.",
+      "zh": "人们使用什么？电子邮件，像ICQ这样的即时通讯。",
+      "ja": "人々は何を使うか？メール、ICQのようなインスタントメッセージング。"
+    },
+    {
+      "id": 14,
+      "ru": "Значит, надо развивать, а позже интегрировать эти направления.",
+      "en": "So they needed to develop and later integrate these directions.",
+      "zh": "所以需要发展，然后整合这些方向。",
+      "ja": "つまり、これらの方向を発展させ、後に統合する必要があった。"
+    },
+    {
+      "id": 15,
+      "ru": "А вот с источниками дохода несколько лет Mail.ru ничего не изобретал.",
+      "en": "But when it came to revenue sources, Mail.ru invented nothing for several years.",
+      "zh": "但在收入来源方面，Mail.ru多年来没有发明任何东西。",
+      "ja": "しかし収益源については、Mail.ruは数年間何も発明しなかった。"
+    },
+    {
+      "id": 16,
+      "ru": "Впрочем, в мировом интернете над монетизацией ломали мозги более изобретательные парни, и в конце концов модели нарисовались сами.",
+      "en": "However, in the global internet, more inventive guys were racking their brains over monetization, and eventually the models emerged by themselves.",
+      "zh": "不过，在全球互联网上，更有创造力的人正在为变现绞尽脑汁，最终模式自己浮现出来了。",
+      "ja": "しかし、世界のインターネットでは、より発明力のある連中がマネタイズについて頭を悩ませており、最終的にモデルは自然に現れた。"
+    },
+    {
+      "id": 17,
+      "ru": "В состав акционеров Mail.ru вошел китайский Tencent, и, общаясь с новыми партнерами, Гришин заметил два тренда.",
+      "en": "Chinese Tencent joined Mail.ru's shareholders, and, communicating with the new partners, Grishin noticed two trends.",
+      "zh": "中国的腾讯成为Mail.ru的股东，在与新合作伙伴的交流中，格里申注意到了两个趋势。",
+      "ja": "中国のTencentがMail.ruの株主に加わり、新しいパートナーとコミュニケーションする中で、グリシンは2つのトレンドに気づいた。"
+    },
+    {
+      "id": 18,
+      "ru": "Во-первых, коммуникации в сети – своего рода развлечение.",
+      "en": "First, communication on the network is a kind of entertainment.",
+      "zh": "首先，网络通信是一种娱乐。",
+      "ja": "第一に、ネットワーク上のコミュニケーションは一種のエンターテイメントである。"
+    },
+    {
+      "id": 19,
+      "ru": "Почта, соцсети, мессенджеры и игры постепенно сливаются в одно пространство.",
+      "en": "Email, social networks, messengers, and games are gradually merging into one space.",
+      "zh": "电子邮件、社交网络、即时通讯工具和游戏正在逐渐融合为一个空间。",
+      "ja": "メール、ソーシャルネットワーク、メッセンジャー、ゲームは徐々に1つの空間に融合している。"
+    },
+    {
+      "id": 20,
+      "ru": "Во-вторых, монетизировать сервисы, тупо взимая деньги с юзеров, нельзя.",
+      "en": "Second, you can't monetize services by stupidly charging users money.",
+      "zh": "其次，不能愚蠢地向用户收费来实现服务变现。",
+      "ja": "第二に、愚かにユーザーからお金を取ることでサービスをマネタイズすることはできない。"
+    },
+    {
+      "id": 21,
+      "ru": "Будущее за моделью «фримиум» – базовой версией пользуешься бесплатно, а платишь за дополнительные возможности, причем такие, которых нет у конкурентов.",
+      "en": "The future belongs to the \"freemium\" model—you use the basic version for free and pay for additional features, specifically ones that competitors don't have.",
+      "zh": "未来属于「免费增值」模式——免费使用基础版本，付费获得额外功能，而且是竞争对手没有的功能。",
+      "ja": "未来は「フリーミアム」モデルにある——基本版は無料で使い、追加機能に課金する、しかも競合にはない機能。"
+    },
+    {
+      "id": 22,
+      "ru": "Например, Гришин рассказывал, что китайский аналог ICQ даром раздавал аватарки, но подсветить или «раскрасить их можно было за денежку».",
+      "en": "For example, Grishin told how the Chinese analog of ICQ gave away avatars for free, but you could highlight or \"color them for a bit of money.\"",
+      "zh": "例如，格里申说中国版的ICQ免费提供头像，但「可以花点钱」给它们加高亮或「上色」。",
+      "ja": "例えば、グリシンは中国版のICQがアバターを無料で配っていたが、ハイライトや「色付けはお金を払えばできた」と話していた。"
+    },
+    {
+      "id": 23,
+      "ru": "(Выражение «за денежку» в ходе интервью Гришин употребил шесть раз.)",
+      "en": "(Grishin used the expression \"for a bit of money\" six times during the interview.)",
+      "zh": "（在采访中，格里申使用了六次「花点钱」这个表达。）",
+      "ja": "（インタビュー中、グリシンは「ちょっとしたお金で」という表現を6回使った。）"
+    },
+    {
+      "id": 24,
+      "ru": "История Mail.ru – зеркало того, что произошло с Гришиным.",
+      "en": "The history of Mail.ru is a mirror of what happened with Grishin.",
+      "zh": "Mail.ru的历史是格里申经历的镜子。",
+      "ja": "Mail.ruの歴史はグリシンに起こったことの鏡である。"
+    },
+    {
+      "id": 25,
+      "ru": "В отличие от «Яндекса» и, в меньшей степени, «ВКонтакте», компания не имела уникального продукта – лишь копировала или скупала сервисы, комплементарные ее стратегии.",
+      "en": "Unlike Yandex and, to a lesser extent, VKontakte, the company had no unique product—it only copied or bought up services complementary to its strategy.",
+      "zh": "与Yandex以及在较小程度上与VKontakte不同，该公司没有独特的产品——只是复制或收购与其战略互补的服务。",
+      "ja": "YandexやVKontakte（程度は低いが）とは異なり、同社にはユニークな製品がなかった——戦略を補完するサービスをコピーまたは買収するだけだった。"
+    },
+    {
+      "id": 26,
+      "ru": "Гришин так и не научился генерировать прорывные идеи.",
+      "en": "Grishin never learned to generate breakthrough ideas.",
+      "zh": "格里申始终没有学会产生突破性的想法。",
+      "ja": "グリシンは画期的なアイデアを生み出すことを学ばなかった。"
+    },
+    {
+      "id": 27,
+      "ru": "Дух компании возник в эпоху выживания, а потом, когда пришли большие деньги и холдинг разросся, гендиректор столкнулся с внутренними интригами.",
+      "en": "The company's spirit arose in the era of survival, and then, when big money came and the holding expanded, the CEO faced internal intrigues.",
+      "zh": "公司的精神诞生于生存时代，后来，当大笔资金到来、控股公司扩张时，首席执行官面临内部阴谋。",
+      "ja": "会社の精神は生存の時代に生まれ、その後、大金が入り持株会社が拡大すると、CEOは内部の陰謀に直面した。"
+    },
+    {
+      "id": 28,
+      "ru": "Не будучи диктатором или визионером, воле которого беспрекословно подчиняются окружающие, он защищался от желающих сесть в его кресло.",
+      "en": "Not being a dictator or visionary whose will everyone unquestioningly obeys, he defended himself from those who wanted to take his seat.",
+      "zh": "他不是独裁者或有远见的人，周围的人不会无条件服从他的意志，他不得不防范那些想坐他位子的人。",
+      "ja": "彼は周囲が無条件に従う独裁者やビジョナリーではなく、彼の椅子に座りたがる者たちから身を守っていた。"
+    },
+    {
+      "id": 29,
+      "ru": "Кроме этого, болезнь роста превратила Mail.ru в структуру с тысячами сотрудников, где вышли на первое место корпоративные фишки: бонусы, тренинги, митинги с разрисовыванием флипчартов, молебны на бизнес-показатели.",
+      "en": "Besides this, growing pains turned Mail.ru into a structure with thousands of employees, where corporate gimmicks came first: bonuses, trainings, meetings with flipchart drawing, prayers for business metrics.",
+      "zh": "除此之外，成长的阵痛使Mail.ru变成了一个拥有数千名员工的结构，公司特色占据了首位：奖金、培训、画翻页图表的会议、为业务指标祈祷。",
+      "ja": "さらに、成長の痛みがMail.ruを数千人の従業員を抱える組織に変え、企業のギミックが第一位になった：ボーナス、トレーニング、フリップチャートを描くミーティング、ビジネス指標への祈り。"
+    },
+    {
+      "id": 30,
+      "ru": "Гришин и Дуров родились с разницей в пять дней – 15 октября против 10 октября.",
+      "en": "Grishin and Durov were born five days apart—October 15 versus October 10.",
+      "zh": "格里申和杜罗夫出生相差五天——10月15日对10月10日。",
+      "ja": "グリシンとドゥーロフは5日違いで生まれた——10月15日対10月10日。"
+    },
+    {
+      "id": 31,
+      "ru": "Оба юзали MacBook Air.",
+      "en": "Both used MacBook Air.",
+      "zh": "两人都使用MacBook Air。",
+      "ja": "両者ともMacBook Airを使っていた。"
+    },
+    {
+      "id": 32,
+      "ru": "Оба одевались неброско.",
+      "en": "Both dressed modestly.",
+      "zh": "两人穿着都很朴素。",
+      "ja": "両者とも控えめな服装だった。"
+    },
+    {
+      "id": 33,
+      "ru": "Оба ботаники и злостные нёрды.",
+      "en": "Both were geeks and hardcore nerds.",
+      "zh": "两人都是书呆子和重度极客。",
+      "ja": "両者ともオタクで筋金入りのナードだった。"
+    },
+    {
+      "id": 34,
+      "ru": "Оба начинали путь программиста с написания игры.",
+      "en": "Both started their programming path by writing a game.",
+      "zh": "两人都是从写游戏开始程序员之路的。",
+      "ja": "両者ともゲームを書くことからプログラマーの道を始めた。"
+    },
+    {
+      "id": 35,
+      "ru": "Оба любили кодить.",
+      "en": "Both loved to code.",
+      "zh": "两人都喜欢编程。",
+      "ja": "両者ともコーディングが好きだった。"
+    },
+    {
+      "id": 36,
+      "ru": "Но трудно было найти столь непохожих друг на друга военачальников.",
+      "en": "But it was hard to find two commanders so unlike each other.",
+      "zh": "但很难找到两个如此不同的军事领袖。",
+      "ja": "しかし、これほど似ていない2人の司令官を見つけるのは難しかった。"
+    },
+    {
+      "id": 37,
+      "ru": "Один формировал команду, собирая единомышленников-партизан на герилью с корпорациями, и обращался к миллионам пользователей через личный блог.",
+      "en": "One formed a team by gathering like-minded partisans for guerrilla warfare against corporations and addressed millions of users through a personal blog.",
+      "zh": "一个通过召集志同道合的游击队员与企业打游击战来组建团队，并通过个人博客向数百万用户发言。",
+      "ja": "一方は志を同じくするパルチザンを集めて企業とのゲリラ戦のためのチームを作り、個人ブログを通じて何百万人ものユーザーに語りかけた。"
+    },
+    {
+      "id": 38,
+      "ru": "Другой строил",
+      "en": "The other built",
+      "zh": "另一个建立",
+      "ja": "もう一方は構築した"
+    }
+  ],
+  "translator_notes": [
+    "Page 66 - Continuation of Mail.ru/Grishin story, comparison with Durov",
+    "Yahoo comparison - Mail.ru modeled on Yahoo portal model",
+    "Jerry Yang - Yahoo co-founder, company declined in 2000s-2010s",
+    "MTS, Beeline, Megafon - major Russian mobile operators",
+    "Tencent - Chinese tech giant, investor in Mail.ru",
+    "ICQ - instant messenger, acquired by Mail.ru",
+    "'Freemium' model - free base + paid premium features",
+    "'For a bit of money' (за денежку) - Grishin's verbal quirk noted by author",
+    "Flipcharts - corporate meeting culture critique",
+    "Durov born Oct 10, Grishin Oct 15 - same year, different personalities",
+    "Guerrilla vs corporate approach contrast",
+    "Sentence cut off at page end"
+  ],
+  "total_sentences": 38,
+  "page_type": "narrative"
+}
