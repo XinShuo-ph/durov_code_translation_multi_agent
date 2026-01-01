@@ -1,0 +1,145 @@
+{
+  "page": 5,
+  "chapter": 0,
+  "chapter_title": "Preface",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"The Durov Code. The True Story of VKontakte and Its Creator\"",
+      "zh": "N. V. 科诺诺夫。《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ。『ドゥーロフ・コード：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Предисловие",
+      "en": "Preface",
+      "zh": "前言",
+      "ja": "まえがき"
+    },
+    {
+      "id": 3,
+      "ru": "С этой книжкой нам очень повезло.",
+      "en": "We are very lucky with this book.",
+      "zh": "拥有这本书，我们非常幸运。",
+      "ja": "この本と出会えた私たちは、とても幸運だ。"
+    },
+    {
+      "id": 4,
+      "ru": "Нынешняя Россия – это страна потерянных сюжетов: истории шекспировского накала и гомеровского размаха буквально-таки валяются под ногами, да некому подобрать.",
+      "en": "Modern Russia is a land of lost plots: stories of Shakespearean intensity and Homeric scale literally lie underfoot, but there is no one to pick them up.",
+      "zh": "当今的俄罗斯是一个故事失落的国度：具有莎士比亚式张力和荷马式宏大叙事的故事简直遍地都是，却无人拾起。",
+      "ja": "現代のロシアは失われた物語の国だ。シェイクスピア的な激しさとホメロス的な壮大さを持つ物語が文字通り足元に転がっているが、誰もそれを拾い上げようとしない。"
+    },
+    {
+      "id": 5,
+      "ru": "На наших глазах рушатся империи, люди без имени и, в общем, без судьбы становятся хозяевами вселенной, чтобы тут же быть повергнутыми в грязь, из ничего создаются многомиллиардные состояния, а иногда и целые миры – и вся эта космическая свистопляска остается совершенно не описанной, не зафиксированной, не отливается не то что в граните – а даже в книжках в мягкой обложке.",
+      "en": "Empires crumble before our eyes, people without names and, generally, without fate become masters of the universe, only to be immediately cast down into the dirt; multibillion-dollar fortunes and sometimes entire worlds are created from nothing – and this whole cosmic bacchanalia remains completely undescribed, unrecorded, cast neither in granite nor even in paperback books.",
+      "zh": "帝国在我们眼前崩塌，无名无份的人成为宇宙的主宰，随即又被打入尘埃；数以亿计的财富甚至整个世界从无到有地被创造出来——而这一切宇宙级的混乱狂欢完全没有被描述、被记录，甚至连平装书里都没有，更不用说刻在花岗岩上了。",
+      "ja": "目の前で帝国が崩壊し、名もなく、運命さえ持たない人々が宇宙の支配者となり、すぐさま泥の中に叩き落される。無から数十億の富、時には全世界が創造される。そして、この宇宙的な大騒ぎは全く記述されず、記録されず、花崗岩どころかペーパーバックの本にさえ残されない。"
+    },
+    {
+      "id": 6,
+      "ru": "На то существует множество причин: архивы засекречены, пиарщики путают следы, или же, как принято сейчас говорить, «реальность настолько неустойчива и неоформленна, что ускользает от любого описания» (что, по-моему, совсем уже гнилая отмазка).",
+      "en": "There are many reasons for this: archives are classified, PR agents confuse the trails, or, as it is customary to say now, \"reality is so unstable and unformed that it eludes any description\" (which, in my opinion, is a completely rotten excuse).",
+      "zh": "这有很多原因：档案被加密，公关人员混淆视听，或者正如现在流行的说法，“现实如此不稳定且未成形，以至于无法被任何描述所捕捉”（在我看来，这完全是一个烂借口）。",
+      "ja": "それには多くの理由がある。アーカイブは機密扱いで、PR担当者は痕跡を消そうとする。あるいは最近よく言われるように、「現実はあまりに不安定で未形成なため、あらゆる記述から逃れてしまう」（これは私に言わせれば、まったく腐った言い訳だ）。"
+    },
+    {
+      "id": 7,
+      "ru": "Но факт остается фактом: когда будущим ученым потребуются источники по истории России раннего постсоветского периода, им практически не из чего будет составить библиографию – придется ограничиться подшивками «Коммерсанта» и «Ведомостей» да архивами соцсетей на калифорнийских серверах.",
+      "en": "But the fact remains: when future scholars need sources on the history of Russia in the early post-Soviet period, they will have practically nothing to compile a bibliography from – they will have to limit themselves to files of \"Kommersant\" and \"Vedomosti\" and archives of social networks on Californian servers.",
+      "zh": "但事实依然是：当未来的学者需要关于后苏联早期俄罗斯历史的资料时，他们几乎无从编写参考书目——只能局限于《生意人报》和《韦多莫斯蒂报》的合订本，以及加利福尼亚服务器上的社交网络档案。",
+      "ja": "しかし事実は変わらない。将来の学者が初期ポストソビエト時代のロシア史に関する資料を必要としたとき、参考文献を作成するためのものが実質的に何もないだろう。『コメルサント』や『ヴェドモスチ』のファイル、そしてカリフォルニアのサーバーにあるソーシャルネットワークのアーカイブに限られてしまうだろう。"
+    },
+    {
+      "id": 8,
+      "ru": "Редкое наше везение в том, что одна из происходивших рядом с нами удивительных человеческих историй превратилась в книжку, которую вам сейчас предстоит прочитать.",
+      "en": "Our rare luck is that one of the amazing human stories happening right next to us has turned into the book you are about to read.",
+      "zh": "我们罕见的幸运在于，发生在我们身边的惊人人类故事之一变成了一本书，也就是你即将阅读的这一本。",
+      "ja": "私たちの稀な幸運は、すぐそばで起きていた驚くべき人間ドラマの一つが、あなたがこれから読む本になったということだ。"
+    },
+    {
+      "id": 9,
+      "ru": "Притом что история эта до сих пор не была внятно отражена даже на коммерсантовских страницах.",
+      "en": "Moreover, this story has not yet been clearly reflected even on the pages of Kommersant.",
+      "zh": "况且，这个故事至今甚至未在《生意人报》的版面上得到清晰的反映。",
+      "ja": "しかも、この物語はこれまで『コメルサント』の紙面でさえ明確に反映されていなかった。"
+    },
+    {
+      "id": 10,
+      "ru": "Да и сервера, которые в ней фигурируют, прописаны вовсе не в Кремниевой долине.",
+      "en": "And the servers that figure in it are not located in Silicon Valley at all.",
+      "zh": "而且其中涉及的服务器根本不在硅谷。",
+      "ja": "そして、そこに登場するサーバーはシリコンバレーには全く存在しない。"
+    },
+    {
+      "id": 11,
+      "ru": "Мир, о котором рассказывает книга Николая Кононова, – он вроде как есть, но, с другой стороны, его как бы и нет.",
+      "en": "The world that Nikolai Kononov's book tells about seems to exist, but on the other hand, it's as if it doesn't.",
+      "zh": "尼古拉·科诺诺夫的书所讲述的世界——它似乎存在，但另一方面，它又仿佛不存在。",
+      "ja": "ニコライ・コノノフの本が語る世界は、あるようでもあり、他方ではないようでもある。"
+    },
+    {
+      "id": 12,
+      "ru": "Если у вас есть родственники или знакомые младше двадцати, вы наверняка замечали, что в их браузере постоянно мелькает сине-голубой логотип «ВКонтакте», и то, что происходит на страницах с этим лого, почему-то кажется им более важным и осмысленным, чем так называемая реальная жизнь (если вы сами являетесь тем родственником и знакомым младше двадцати лет, то извините, что здесь приходится объяснять такие очевидные вещи, а также не очень понятно, как вы нашли в себе силы оторваться от «ВКонтакте» и взяться за книгу).",
+      "en": "If you have relatives or acquaintances under twenty, you have probably noticed that the blue-and-white VKontakte logo constantly flashes in their browser, and what happens on the pages with this logo somehow seems more important and meaningful to them than so-called real life (if you yourself are that relative or acquaintance under twenty, then forgive me for having to explain such obvious things here, and it is also not very clear how you found the strength to tear yourself away from VKontakte and take up a book).",
+      "zh": "如果你有二十岁以下的亲戚或熟人，你肯定注意到他们的浏览器中不断闪烁着蓝白色的VKontakte标志，而在带有这个标志的页面上发生的事情，对他们来说似乎比所谓的现实生活更重要、更有意义（如果你自己就是那个二十岁以下的亲戚或熟人，请原谅我在这里解释这些显而易见的事情，同样不太明白你是如何从VKontakte中抽身拿起这本书的）。",
+      "ja": "もし20歳以下の親戚や知人がいれば、彼らのブラウザで青と白のVKontakteのロゴが常に点滅していることに気づいているだろう。そして、そのロゴのあるページで起きていることは、いわゆる現実の生活よりも彼らにとって重要で意味のあることのように思える（もしあなた自身がその20歳以下の親戚や知人であるなら、ここでそのような明白なことを説明しなければならないことを許してほしい。そして、あなたがどうやってVKontakteから離れて本を手に取る力を振り絞ったのかもよくわからないが）。"
+    },
+    {
+      "id": 13,
+      "ru": "Само пространство, маркированное сине-голубым логотипом, руками не потрогать, словами не назвать – и приклеиваемые к нему ярлыки «заповедник школоты» или «клон фейсбука» никак не объясняют этого феномена, а лишь позволяют от него временно отделаться.",
+      "en": "The very space marked by the blue-and-white logo cannot be touched with hands or named with words – and the labels \"schoolkids' reserve\" or \"Facebook clone\" stuck to it do not explain this phenomenon at all, but only allow one to temporarily dismiss it.",
+      "zh": "这个标有蓝白色标志的空间本身无法触摸，无法命名——贴在上面的“小学生保护区”或“Facebook克隆”标签根本无法解释这一现象，只能让人暂时摆脱它。",
+      "ja": "青と白のロゴで示されたその空間自体は、手で触れることも言葉で名付けることもできない。「ガキの溜まり場」や「Facebookのクローン」といったレッテルを貼っても、この現象を全く説明できず、ただ一時的にそれを退けることができるだけだ。"
+    },
+    {
+      "id": 14,
+      "ru": "История вопроса, масштабы происходящего и список ответственных лиц при этом остаются совершенно не ясны – а меж тем существует смутное подозрение, что этот логотип мелькает перед глазами неспроста, а мир, в котором мы живем, будет все больше переползать в сторону «ВКонтакте» просто в силу поколенческих закономерностей.",
+      "en": "The history of the issue, the scale of what is happening, and the list of responsible persons remain completely unclear – and meanwhile there is a vague suspicion that this logo flickers before our eyes for a reason, and the world we live in will increasingly crawl towards VKontakte simply due to generational patterns.",
+      "zh": "问题的历史、正在发生的规模以及责任人名单对此完全不清楚——与此同时，有一种模糊的怀疑，即这个标志在我们眼前闪烁并非偶然，而我们生活的世界将仅仅因为代际规律而越来越多地向VKontakte靠拢。",
+      "ja": "事の経緯、起きていることの規模、責任者のリストは全く不明確なままだ。しかしその一方で、このロゴが目の前で点滅しているのには理由があり、私たちが住む世界は世代的なパターンの力によって、ますますVKontakteの方へと這い寄っていくのではないかという漠然とした疑念がある。"
+    },
+    {
+      "id": 15,
+      "ru": "К тому же существует (и будоражит воображение) сама фигура основателя «ВКонтакте», который в двадцать с небольшим заработал миллионы долларов (которые ему, кажется, не очень нужны) и затащил в свои сети миллионы пользователей (с которыми он делает что хочет).",
+      "en": "In addition, there exists (and excites the imagination) the very figure of the founder of VKontakte, who at twenty-something earned millions of dollars (which, it seems, he does not really need) and dragged millions of users into his networks (with whom he does what he wants).",
+      "zh": "此外，VKontakte创始人的形象本身也存在（并激发着想象力），他在二十出头时赚取了数百万美元（这些钱对他来说似乎并不太需要），并将数百万用户拖入他的网络（他对他们随心所欲）。",
+      "ja": "さらに、VKontakteの創設者という人物そのものが存在し（そして想像力をかき立てる）、彼は20代そこそこで数百万ドルを稼ぎ（それは彼にとってあまり必要ではないようだ）、数百万人のユーザーを自分のネットワークに引きずり込んだ（そして彼はユーザーたちを好きなように扱っている）。"
+    },
+    {
+      "id": 16,
+      "ru": "И, как писали раньше в журнале «Афиша», – что с этим делать, решительно непонятно.",
+      "en": "And, as they used to write in Afisha magazine, – what to do with this is decisively unclear.",
+      "zh": "而且，正如以前《Afisha》杂志所写的那样——对此该怎么办，完全不清楚。",
+      "ja": "そして、かつて雑誌『Afisha』に書かれていたように、これをどうすべきかは断固として不明である。"
+    },
+    {
+      "id": 17,
+      "ru": "Велико искушение на основании всего вышеизложенного объявить Павла Дурова выразителем духа времени и представителем мира будущего – править которым будут полчища мини-Дуровых, зарабатывающих миллиарды, не отрываясь от экрана ноутбука.",
+      "en": "There is a great temptation, based on all the above, to declare Pavel Durov an exponent of the zeitgeist and a representative of the world of the future – which will be ruled by hordes of mini-Durovs earning billions without looking up from their laptop screens.",
+      "zh": "基于以上种种，人们很有诱惑力宣布帕维尔·杜罗夫是时代精神的代表和未来世界的代表——那个世界将由成群结队盯着笔记本电脑屏幕赚取数十亿的迷你杜罗夫们统治。",
+      "ja": "以上のすべてに基づいて、パーヴェル・ドゥーロフを時代精神の体現者であり、未来の世界の代表者であると宣言したいという誘惑は大きい。その未来の世界は、ノートパソコンの画面から目を離さずに何十億も稼ぐ、大勢のミニ・ドゥーロフたちによって支配されるだろう。"
+    },
+    {
+      "id": 18,
+      "ru": "Но «цифровая элита» потому и является элитой, что попасть в нее могут единицы – для этого требуется смелость, наглость, тонкое чутье и мгновенная реакция, большинству, по определению, недоступные.",
+      "en": "But the \"digital elite\" is an elite precisely because only a few can get into it – this requires courage, arrogance, subtle intuition, and instant reaction, which are unavailable to the majority by definition.",
+      "zh": "但“数字精英”之所以是精英，正是因为只有极少数人能进入其中——这需要勇气、傲慢、敏锐的直觉和瞬间的反应，根据定义，大多数人无法具备这些。",
+      "ja": "しかし「デジタルエリート」がエリートである所以は、そこに入れるのがごくわずかだからだ。それには勇気、図太さ、鋭い直感、そして瞬時の反応が必要であり、定義上、大多数の人には手の届かないものだ。"
+    },
+    {
+      "id": 19,
+      "ru": "Для этого нужно мыслить глобально, действовать локально, уметь угадывать, что нужно людям, гораздо раньше, чем люди сами могут это",
+      "en": "For this, one needs to think globally, act locally, be able to guess what people need much earlier than people themselves can",
+      "zh": "为此，需要全球思考，本地行动，能够比人们自己更早地猜出他们需要什么",
+      "ja": "そのためには、グローバルに考え、ローカルに行動し、人々自身よりもはるかに早く、人々が何を必要としているかを推測できなければならない"
+    }
+  ],
+  "translator_notes": [
+    "Page 5 is the first page of the Preface by Yuri Saprykin. The last sentence on this page appears cut off."
+  ],
+  "total_sentences": 19,
+  "page_type": "front_matter"
+}
