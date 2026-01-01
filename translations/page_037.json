@@ -1,0 +1,37 @@
+{
+  "page": 37,
+  "chapter": 2,
+  "chapter_title": "Архитектор (The Architect)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "версии, но не слышал щелчка над ухом, который знаменовал бы качественно новый поворот, в который он так хотел вложить все свое желание воздействовать на реальность.",
+      "en": "versions, but didn't hear the click above his ear that would signal a qualitatively new turn, into which he so wanted to pour all his desire to affect reality.",
+      "zh": "版本，但没有听到耳边的咔嗒声，那将标志着一个质的新转折，他如此想把他影响现实的全部愿望投入其中。",
+      "ja": "バージョンを検討したが、現実に影響を与えたいというすべての欲望を注ぎ込みたかった質的に新しい転換点を示すような耳元のクリック音は聞こえなかった。"
+    },
+    {
+      "id": 2,
+      "ru": "«Миллион так миллион, – очнулся Дуров и с любопытством посмотрел на Перекопского. – Спорим».",
+      "en": "\"A million it is,\" Durov snapped out of it and looked at Perekopsky with curiosity. \"Bet.\"",
+      "zh": "\"一百万就一百万，\"杜罗夫回过神来，好奇地看着佩列科普斯基。\"打赌。\"",
+      "ja": "「百万なら百万だ」とドゥーロフは我に返り、好奇心を持ってペレコプスキーを見た。「賭けよう」"
+    },
+    {
+      "id": 3,
+      "ru": "Если бы он знал, что через год, когда Перекопский вспомнит о пари, его жизнь навсегда изменится благодаря одной случайной встрече, – свалился бы в обморок, как декан перед тысячеликим складнем.",
+      "en": "If he had known that a year later, when Perekopsky would remember the bet, his life would change forever thanks to one chance encounter—he would have fainted, like the dean before his thousand-faced folding icon.",
+      "zh": "如果他知道一年后，当佩列科普斯基想起这个赌约时，他的生活将因一次偶然的相遇而永远改变——他会像院长在千面折叠圣像前一样昏倒。",
+      "ja": "もし彼が、一年後にペレコプスキーが賭けを思い出すとき、ある偶然の出会いのおかげで彼の人生が永遠に変わることを知っていたら——学部長が千の顔を持つ折りたたみ式イコンの前でそうしたように、彼は気絶していただろう。"
+    }
+  ],
+  "translator_notes": [
+    "Page 37 concludes Chapter 2 'The Architect'",
+    "This is the final page of Chapter 2, ending on a cliffhanger",
+    "The 'chance encounter' foreshadows the meeting that will lead to VKontakte's creation",
+    "The thousand-faced icon references Dean Bogdanov's creation from previous page",
+    "The bet about a million dollars will be significant for the next chapter"
+  ],
+  "total_sentences": 3,
+  "page_type": "narrative"
+}
