@@ -24,11 +24,11 @@
 ## M1 Task Status
 | Task ID | Description | Status | Result |
 |---------|-------------|--------|--------|
-| M1.1 | Explore LaTeX approach | pending | - |
+| M1.1 | Explore LaTeX approach | done | success |
 | M1.2 | Explore Python approach | pending | - |
-| M1.3 | Design color/font scheme | pending | - |
-| M1.4 | Create demo template | pending | - |
-| M1.5 | Translate page 13 demo | pending | - |
+| M1.3 | Design color/font scheme | done | in LaTeX demo |
+| M1.4 | Create demo template | done | format_demo.tex |
+| M1.5 | Translate page 13 demo | done | e44df771 |
 | M1.6 | Translate page 43 demo | pending | - |
 | M1.7 | Document approach | pending | - |
 

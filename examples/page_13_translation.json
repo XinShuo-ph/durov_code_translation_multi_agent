@@ -1,0 +1,79 @@
+{
+  "page": 13,
+  "chapter": 1,
+  "chapter_title": {
+    "ru": "Глава 1 - Ботанический сад",
+    "en": "Chapter 1 - Botanical Garden",
+    "zh": "第一章 - 植物园",
+    "ja": "第1章 - 植物園"
+  },
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Мальчик с томом Сервантеса выходит из подъезда, огибает автомобиль, который какой-то негодяй поставил так, что пешеходы еле протискиваются мимо, и сворачивает за угол.",
+      "en": "A boy with a volume of Cervantes exits the apartment entrance, walks around a car that some scoundrel parked so pedestrians can barely squeeze past, and turns the corner.",
+      "zh": "一个手捧塞万提斯著作的男孩走出公寓楼，绕过一辆被某个混蛋停在那里让行人几乎无法通过的汽车，然后转过街角。",
+      "ja": "セルバンテスの本を持った少年が建物の入り口を出て、誰かが歩行者がやっと通れるように停めた車を避けて、角を曲がる。"
+    },
+    {
+      "id": 2,
+      "ru": "Перед ним пустынные кварталы, поля и высоковольтные вышки, а в физиономию дует ветер – как везде в Петербурге, но в этом районе особенно.",
+      "en": "Before him lie desolate blocks, fields, and high-voltage towers, while wind blows in his face—as everywhere in Petersburg, but especially fierce in this district.",
+      "zh": "眼前是荒凉的街区、空地和高压电塔，风吹在脸上——圣彼得堡到处都有风，但这个区域尤其强烈。",
+      "ja": "目の前には荒涼とした街区、空き地、高圧送電塔が広がり、顔に風が吹きつける。ペテルブルクではどこでもそうだが、この地区では特に強い。"
+    },
+    {
+      "id": 3,
+      "ru": "Рядом море.",
+      "en": "The sea is nearby.",
+      "zh": "大海就在附近。",
+      "ja": "海が近くにある。"
+    },
+    {
+      "id": 4,
+      "ru": "Архитектор раскрасил панели домов в оранжевый и бордовый, чтобы однообразное серое не свело район с ума.",
+      "en": "The architect painted the building panels orange and burgundy so the monotonous gray wouldn't drive the district insane.",
+      "zh": "建筑师把楼房的墙板涂成橙色和紫红色，以免单调的灰色把整个区域逼疯。",
+      "ja": "建築家は建物のパネルをオレンジとバーガンディに塗り、単調な灰色が地区を狂わせないようにした。"
+    },
+    {
+      "id": 5,
+      "ru": "Сканируя пространство на предмет гопников, мальчик с книгой идет к трассе.",
+      "en": "Scanning the area for gopniki, the boy with the book walks toward the highway.",
+      "zh": "男孩扫视周围是否有街头混混（гопники），然后朝公路走去。",
+      "ja": "少年は本を持ちながら、ゴプニキ（街のチンピラ）がいないか辺りを見回しながら幹線道路へ向かう。"
+    },
+    {
+      "id": 6,
+      "ru": "Гопники сюда не забредают, да и вообще кругом живет мало людей.",
+      "en": "Gopniki don't wander here, and in general few people live around.",
+      "zh": "街头混混不会来这里，而且周围住的人本来就很少。",
+      "ja": "ゴプニキはここには来ないし、そもそも周辺に住んでいる人が少ない。"
+    },
+    {
+      "id": 7,
+      "ru": "Он худой, невысокий, не различает буквы на третьей строчке снизу; логопед не плакал по нему, а пожалуй, справлял тризну.",
+      "en": "He is thin, short, can't distinguish letters on the third line from the bottom; the speech therapist didn't just weep for him—more like held a funeral.",
+      "zh": "他瘦小、个子不高、看不清从下往上数第三行的字母；语言治疗师不是为他哭泣，而是为他举行葬礼。",
+      "ja": "彼は痩せていて背が低く、下から3行目の文字が見分けられない。言語療法士は彼のために泣くのではなく、葬式を執り行ったようなものだった。"
+    },
+    {
+      "id": 8,
+      "ru": "И он торчит часами на крыше в одиночестве, если не считать Сервантеса.",
+      "en": "And he sits for hours on the roof in solitude, except for Cervantes.",
+      "zh": "他独自一人在屋顶上坐上几个小时，除了塞万提斯之外别无陪伴。",
+      "ja": "そして彼は何時間も屋上で一人で過ごす。セルバンテスを除けば。"
+    }
+  ],
+  "translator_notes": [
+    "Gopniki (гопники): Russian street youth subculture, associated with working-class areas, tracksuits, and petty crime. No direct English equivalent.",
+    "Cervantes: Reference to Miguel de Cervantes, author of Don Quixote, which was Pavel Durov's favorite book.",
+    "Third line from bottom: Reference to eye chart - indicating poor eyesight.",
+    "Trizna (тризна): Ancient Slavic funeral feast, used here humorously to indicate speech therapist gave up on him."
+  ],
+  "cultural_notes": [
+    "This passage describes Pavel Durov's childhood in a peripheral St. Petersburg district with Soviet-era panel housing.",
+    "The harsh, isolated environment and solitary reading habit shaped his worldview.",
+    "Panel housing (панельки): Standardized concrete apartment blocks built throughout USSR."
+  ]
+}

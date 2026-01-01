@@ -1,0 +1,70 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{xeCJK}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{setspace}
+
+% Page setup
+\geometry{margin=2.5cm}
+\setstretch{1.3}
+
+% Font setup for multiple languages
+\setmainfont{DejaVu Serif}
+\setCJKmainfont{Noto Sans CJK SC}
+
+% Set up Chinese and Japanese fonts
+\setCJKfamilyfont{zhsong}{Noto Serif CJK SC}
+\setCJKfamilyfont{jpgothic}{Noto Sans CJK JP}
+
+% Define colors for each language
+\definecolor{russian}{RGB}{0,0,0}        % Black
+\definecolor{english}{RGB}{0,102,204}    % Blue
+\definecolor{chinese}{RGB}{204,0,0}      % Red
+\definecolor{japanese}{RGB}{0,153,76}    % Green
+
+% Commands for each language with color
+\newcommand{\ru}[1]{{\color{russian}#1}}
+\newcommand{\en}[1]{{\color{english}#1}}
+\newcommand{\zh}[1]{{\color{chinese}\CJKfamily{zhsong}#1}}
+\newcommand{\ja}[1]{{\color{japanese}\CJKfamily{jpgothic}#1}}
+
+\begin{document}
+
+\section*{Demo: Multilingual Translation Format}
+
+\subsection*{Test Sentence 1}
+
+\ru{Мальчик с томом Сервантеса выходит из подъезда.}
+
+\en{A boy with a volume of Cervantes exits the apartment entrance.}
+
+\zh{一个手捧塞万提斯著作的男孩走出公寓楼。}
+
+\ja{セルバンテスの本を持った少年が建物の入り口を出る。}
+
+\vspace{0.5cm}
+
+\subsection*{Test Sentence 2}
+
+\ru{Павел Дуров основал «ВКонтакте» в 2006 году.}
+
+\en{Pavel Durov founded VKontakte in 2006.}
+
+\zh{帕维尔·杜罗夫于2006年创建了VKontakte。}
+
+\ja{パーヴェル・ドゥーロフは2006年にVKコンタクトを設立した。}
+
+\vspace{0.5cm}
+
+\subsection*{Test Sentence 3}
+
+\ru{Социальная сеть быстро стала популярной среди российских студентов.}
+
+\en{The social network quickly became popular among Russian students.}
+
+\zh{这个社交网络迅速在俄罗斯学生中流行起来。}
+
+\ja{このソーシャルネットワークはロシアの学生の間で急速に人気を博した。}
+
+\end{document}
