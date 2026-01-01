@@ -1,0 +1,48 @@
+{
+  "page": 22,
+  "chapter": 1,
+  "section": "Chapter 1 - Conclusion",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Диевский задвинул про математику, Паперно – про лингвистику, Русин визионировал насчет кораблестроения, постебались над айкидисткой Бертовой.",
+      "en": "Dievsky went on about mathematics, Paperno about linguistics, Rusin had visions about shipbuilding, they teased aikido practitioner Bertova.",
+      "zh": "季耶夫斯基滔滔不绝地谈论数学，帕佩尔诺谈论语言学，鲁辛畅想造船业，大家取笑练合气道的贝尔托娃。",
+      "ja": "ジエフスキーは数学について語り、パペルノは言語学について語り、ルーシンは造船について夢を語り、合気道をやっているベルトヴァをからかった。"
+    },
+    {
+      "id": 2,
+      "ru": "Когда Дурова спросили, кем себя видит в будущем, он прервал молчание и сказал, улыбаясь: Тотемом.",
+      "en": "When Durov was asked who he saw himself as in the future, he broke his silence and said with a smile: A totem.",
+      "zh": "当杜罗夫被问及他将来想成为什么时，他打破沉默，微笑着说：图腾。",
+      "ja": "ドゥーロフが将来の自分をどう見ているかと聞かれたとき、彼は沈黙を破り、微笑みながら言った：「トーテムだ」"
+    },
+    {
+      "id": 3,
+      "ru": "Его желания, страсти, умения сложились в одну формулу. Все неинтересное и ненужное отсеялось.",
+      "en": "His desires, passions, skills came together in one formula. Everything uninteresting and unnecessary had been filtered out.",
+      "zh": "他的愿望、热情、技能汇聚成一个公式。一切无趣和不必要的东西都被过滤掉了。",
+      "ja": "彼の願望、情熱、スキルが一つの公式にまとまった。興味のないもの、不要なものはすべてふるいにかけられた。"
+    },
+    {
+      "id": 4,
+      "ru": "Он повторил то, что окружающие расценили как шутку, не подозревая, что произнесенная фраза определит все, что произойдет дальше: Я хочу стать интернет-тотемом.",
+      "en": "He repeated what those around him took as a joke, not suspecting that the uttered phrase would define everything that would happen next: I want to become an internet totem.",
+      "zh": "他重复了周围人当作玩笑的话，却不知道这句话将决定接下来发生的一切：我想成为互联网图腾。",
+      "ja": "彼は周囲が冗談だと思ったことを繰り返した。言った言葉がその後のすべてを決定することを知らずに：「私はインターネットのトーテムになりたい」"
+    }
+  ],
+  "translator_notes": [
+    "Page 22 is the final page of Chapter 1",
+    "This is a pivotal moment - Durov's declaration of his life goal",
+    "Totem - a symbol or emblem representing a group or community",
+    "Internet totem - Durov's vision of becoming a central figure/symbol of the internet age",
+    "The phrase I want to become an internet totem became prophetic given VKontakte's success",
+    "Dievsky and Paperno - classmates mentioned earlier who created their own state in class",
+    "Aikido - Japanese martial art that Bertova practiced"
+  ],
+  "research_used": [
+    "Totem symbolism - representing identity and community belonging",
+    "This declaration foreshadows VKontakte's creation and Durov's role as tech icon"
+  ]
+}
