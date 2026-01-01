@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-8fb2
 - **Short ID**: 8fb2
-- **Heartbeat**: 1767252600
+- **Heartbeat**: 1767252800
 - **Status**: translating
 
 ## Current Work
-- **Claimed Page**: 44
-- **Started At**: 1767252600
+- **Claimed Page**: 45
+- **Started At**: 1767252800
 
 ## Completed Pages
 | Page | Completed At | Hash |
@@ -17,25 +17,13 @@
 | 38   | 1767252180   | 65f49bbd |
 | 39   | 1767252400   | a1afc7ff |
 | 42   | 1767252600   | a1553ed8 |
+| 44   | 1767252800   | 31cc182f |
 
 ## Known Workers (Last Sync: 1767252500)
 | Short ID | Status | Claimed Page | Last Heartbeat |
 |----------|--------|--------------|----------------|
-| 37cb     | online | none         | 1767252000     |
+| 37cb     | online | 5            | 1767252000     |
 | b9fb     | online | 41           | 1767252400     |
-| 02bd     | online | unknown      | -              |
-| 056e     | online | unknown      | -              |
-| 4900     | online | unknown      | -              |
-| 5aa9     | online | unknown      | -              |
-| 6050     | online | unknown      | -              |
-| 7030     | online | unknown      | -              |
-| 723f     | online | unknown      | -              |
-| 7e4a     | online | unknown      | -              |
-| 82a5     | online | unknown      | -              |
-| a361     | online | unknown      | -              |
-| ba2f     | online | unknown      | -              |
-| d536     | online | unknown      | -              |
-| f4a6     | online | unknown      | -              |
 
 ## Notes
-Completed pages 37-39 and 42. Claiming page 44 (page 43 is an example file already translated).
+Completed pages 37-39, 42, 44. Claiming page 45.
