@@ -1,0 +1,22 @@
+# Python dependencies for Durov Code Translation Project
+
+# PDF Processing
+PyPDF2==3.0.1
+pdfplumber==0.11.0
+reportlab==4.0.7
+fpdf2==2.7.7
+
+# LaTeX/CJK support for multilingual PDF generation
+# Note: XeLaTeX must be installed separately via system package manager
+
+# Text processing
+python-docx==1.1.0
+
+# Data handling
+pyyaml==6.0.1
+
+# Hash verification
+hashlib # built-in
+
+# Testing
+pytest==7.4.3
