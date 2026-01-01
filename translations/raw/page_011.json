@@ -1,0 +1,77 @@
+{
+  "page": 11,
+  "chapter": 0,
+  "section": "Prologue",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Я боюсь не новых идей, а старых, -- как-то написал Дуров и сформулировал ключевую ценность новых социалистов: движение вперед.",
+      "en": "'I fear not new ideas, but old ones,' Durov once wrote, formulating the key value of the new 'socialists': moving forward.",
+      "zh": "'我不怕新思想，我怕旧思想，'杜罗夫曾写道，他总结了新'社交主义者'的核心价值：向前进。",
+      "ja": "「私が恐れるのは新しいアイデアではなく、古いアイデアだ」とドゥーロフはかつて書き、新しい「ソーシャリスト」の核心的価値を表現した：前進すること。"
+    },
+    {
+      "id": 2,
+      "ru": "Он, странный юноша не без снобизма и мизантропии, сначала прятался от публики, а в последнее время, напротив, чудил -- разбрасывал деньги с балкона дома Зингера.",
+      "en": "This strange young man, not without snobbery and misanthropy, first hid from the public, but lately, on the contrary, acted eccentrically -- throwing money from the balcony of the Singer House.",
+      "zh": "这个不乏傲慢和厌世情结的古怪年轻人，起初躲避公众，但最近反而做出一些古怪行为——从辛格大楼的阳台上撒钱。",
+      "ja": "スノッブで人間嫌いなところのあるこの奇妙な若者は、最初は世間から隠れていたが、最近は逆に奇行を見せた——ジンガーハウスのバルコニーからお金をばらまいた。"
+    },
+    {
+      "id": 3,
+      "ru": "Затем вызвал лютую ярость сталинистов, написав 9 мая в личном твиттере, что нечего радоваться победе, вернувшей страну в руки палача.",
+      "en": "Then he provoked the fierce fury of Stalinists by writing on May 9 in his personal Twitter that there was nothing to celebrate about a victory that returned the country to the hands of an executioner.",
+      "zh": "然后，他在5月9日于个人推特上写道，没有什么值得庆祝的——那场胜利将国家交还到刽子手手中——这激起了斯大林主义者的狂怒。",
+      "ja": "その後、5月9日に個人のTwitterで、国を死刑執行人の手に戻した勝利を祝う理由はないと書いて、スターリニストの激しい怒りを買った。"
+    },
+    {
+      "id": 4,
+      "ru": "Когда в декабре 2011 года поднялись протесты, он не испугался прокуратуры и не стал ограничивать количество участников группы оппозиционного политика Алексея Навального.",
+      "en": "When protests rose in December 2011, he wasn't afraid of the prosecutor's office and didn't limit the number of participants in opposition politician Alexei Navalny's group.",
+      "zh": "当2011年12月爆发抗议时，他不惧怕检察院，没有限制反对派政治家阿列克谢·纳瓦尔尼群组的参与人数。",
+      "ja": "2011年12月に抗議運動が起きたとき、彼は検察庁を恐れず、野党政治家アレクセイ・ナワリヌイのグループの参加者数を制限しなかった。"
+    },
+    {
+      "id": 5,
+      "ru": "На свой день рождения вывесил на личной странице коллаж из кадров разных фильмов и приписал из Фауста: Vi veri universum vivus vici -- Силой истины я, живущий, покорил вселенную.",
+      "en": "On his birthday, he posted a collage of frames from various films on his personal page with a quote from Faust: 'Vi veri universum vivus vici' -- 'By the power of truth, I, while living, have conquered the universe.'",
+      "zh": "在他生日那天，他在个人页面上发布了一组来自不同电影的拼贴画，并附上了《浮士德》中的话：Vi veri universum vivus vici——'以真理之力，我活着征服了宇宙。'",
+      "ja": "誕生日に、様々な映画のコマをコラージュにして個人ページに掲載し、『ファウスト』から引用した：Vi veri universum vivus vici——「真実の力によって、私は生きながら宇宙を征服した」"
+    },
+    {
+      "id": 6,
+      "ru": "Коллаж увидели 3,6 млн подписчиков -- аудитория, которой вещает Дуров, перекрывает любое печатное издание в стране.",
+      "en": "The collage was seen by 3.6 million subscribers -- the audience Durov broadcasts to exceeds any print publication in the country.",
+      "zh": "360万订阅者看到了这个拼贴画——杜罗夫的受众超过了国内任何印刷出版物。",
+      "ja": "コラージュは360万人のフォロワーに見られた——ドゥーロフが発信する視聴者は、国内のどの印刷媒体をも上回る。"
+    },
+    {
+      "id": 7,
+      "ru": "Дуров создал цифровое государство с населением сто миллионов человек -- причем произвел этот финт под носом у государства, где бизнесмены переживали эпоху мелкотемья и боязни не угодить вертикали власти.",
+      "en": "Durov created a digital state with a population of one hundred million people -- and pulled off this feat under the nose of a state where businessmen were experiencing an era of small thinking and fear of displeasing the vertical of power.",
+      "zh": "杜罗夫创建了一个拥有一亿人口的数字国家——而且是在一个商人们正经历着小格局思维和害怕得罪权力垂直体系的国家的眼皮底下完成的。",
+      "ja": "ドゥーロフは人口1億人の電子国家を作り上げた——しかも、ビジネスマンたちが小さな考えと権力の垂直構造に逆らうことへの恐怖の時代を過ごしていた国家の鼻先でこの離れ業を成し遂げた。"
+    },
+    {
+      "id": 8,
+      "ru": "Когда я искал ответ на вопрос, что движет пользователем Twitter под ником Porn King и его командой, которые затащили в новую нервную систему более 100 млн человек, то не предполагал, что история стартапа превратится в триллер о сражении за свободу в двоичном коде.",
+      "en": "When I was looking for an answer to what drives the Twitter user nicknamed Porn King and his team, who dragged over 100 million people into the 'new nervous system,' I didn't expect that the story of a startup would turn into a thriller about a battle for freedom in binary code.",
+      "zh": "当我试图弄清是什么驱动着这位推特昵称为'色情之王'的用户和他的团队——他们将超过1亿人拖入了'新神经系统'——我没想到这个创业公司的故事会变成一部关于在二进制代码中争取自由的惊险故事。",
+      "ja": "Twitterで「ポルノキング」というニックネームを使うユーザーと彼のチーム——1億人以上を「新しい神経系」に引き込んだ者たち——を動かしているものを探していたとき、スタートアップの物語がバイナリコードでの自由をめぐるスリラーになるとは思わなかった。"
+    }
+  ],
+  "translator_notes": [
+    "Page 11 describes Durov's provocative public actions and political stance",
+    "May 9 Victory Day - extremely sensitive Russian holiday celebrating WWII victory; Durov's tweet was highly controversial",
+    "Navalny - Russian opposition politician; VKontakte refused government pressure to limit his group",
+    "Faust quote in Latin - from Goethe's Faust, used in film 'V for Vendetta'",
+    "Porn King - Durov's provocative Twitter username at the time",
+    "Vertical of power (вертикаль власти) - Putin's system of centralized political control"
+  ],
+  "research_used": [
+    "2011 Russian protests - largest since 1991, triggered by disputed elections",
+    "Alexei Navalny - opposition leader, used VKontakte for organizing",
+    "Vi veri universum vivus vici - Latin phrase from Goethe's Faust",
+    "Arkady Volozh - co-founder and CEO of Yandex"
+  ]
+}
