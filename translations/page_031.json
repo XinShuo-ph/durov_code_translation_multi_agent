@@ -1,0 +1,299 @@
+{
+  "page": 31,
+  "chapter": 2,
+  "chapter_title": "Песочница (Sandbox)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Равдоникас, который наблюдал за тем, как конкурс вырос из идеи, брошенной на «Седьмом небе», все понял про тотема и надел черный костюм.",
+      "en": "Ravdonikas, who had watched how the contest grew from an idea thrown out at \"Seventh Heaven,\" understood everything about the totem and put on a black suit.",
+      "zh": "拉夫多尼卡斯见证了这个比赛如何从"七重天"上抛出的一个想法发展起来，他理解了关于"图腾"的一切，穿上了黑色西装。",
+      "ja": "ラヴドニカスは「第七天国」で投げかけられたアイデアからコンテストがどのように成長したかを見守り、トーテムについてすべてを理解し、黒いスーツを着た。"
+    },
+    {
+      "id": 3,
+      "ru": "И даже шляпу.",
+      "en": "Even a hat.",
+      "zh": "甚至还戴了帽子。",
+      "ja": "帽子まで。"
+    },
+    {
+      "id": 4,
+      "ru": "«Итальянец» Дуров играл «в мафию» по-серьезному.",
+      "en": "The \"Italian\" Durov played \"mafia\" seriously.",
+      "zh": ""意大利人"杜罗夫认真地玩起了"黑手党"游戏。",
+      "ja": "「イタリア人」ドゥーロフは真剣に「マフィア」ごっこをしていた。"
+    },
+    {
+      "id": 5,
+      "ru": "Как вспоминал один из однокашников, однажды утром во дворе со скульптурами молодые консильери, придавшие физиономиям выражение убийц, все в заветном черном цвете, – плечом к плечу перегородили путь конкуренту.",
+      "en": "As one classmate recalled, one morning in the courtyard with sculptures, the young consiglieri, their faces set in killer expressions, all in the cherished black color—shoulder to shoulder blocked the path of a competitor.",
+      "zh": "正如一位同学回忆的，一天早上在有雕塑的庭院里，年轻的"顾问们"脸上带着杀手的表情，全都穿着珍贵的黑色——肩并肩挡住了竞争对手的去路。",
+      "ja": "ある同級生が思い出したように、ある朝、彫刻のある中庭で、若いコンシリエーレたちは殺し屋のような表情を浮かべ、全員が大切な黒い色に身を包み——肩を並べて競争相手の行く手を塞いだ。"
+    },
+    {
+      "id": 6,
+      "ru": "Конкурента звали Иннокентием.",
+      "en": "The competitor's name was Innokenty.",
+      "zh": "竞争对手名叫伊诺肯季。",
+      "ja": "競争相手の名前はイノケンチーだった。"
+    },
+    {
+      "id": 7,
+      "ru": "Высокий и нескладный деятель, выпускник, выбил себе комнату под студсовет и пытался играть на поле конкурсов красоты и других тусовок.",
+      "en": "A tall and awkward operator, a graduate, he had secured himself a room for the student council and tried to play in the field of beauty contests and other parties.",
+      "zh": "一个高大笨拙的活动家，毕业生，他为自己争取到一间学生会的房间，试图在选美比赛和其他聚会领域一展身手。",
+      "ja": "背が高くて不器用な活動家で、卒業生だった彼は学生会のために部屋を確保し、美人コンテストやその他のパーティーの分野で活動しようとしていた。"
+    },
+    {
+      "id": 8,
+      "ru": "Сначала «мафия» мочила его на форуме, а потом решила как бы в шутку пугнуть во дворе.",
+      "en": "First the \"mafia\" attacked him on the forum, and then decided to kind of jokingly scare him in the courtyard.",
+      "zh": "首先，"黑手党"在论坛上攻击他，然后决定半开玩笑地在院子里吓唬他。",
+      "ja": "まず「マフィア」はフォーラムで彼を叩き、次に中庭で冗談めかして脅かすことにした。"
+    },
+    {
+      "id": 9,
+      "ru": "Консильери перегородили ему путь и участливо-холодно заглянули в глаза: «You call it „crime" – we call it „smart family business"».",
+      "en": "The consiglieri blocked his path and looked into his eyes with sympathetic coldness: \"You call it 'crime'—we call it 'smart family business'.\"",
+      "zh": ""顾问们"挡住他的去路，用关切而冷漠的目光看着他的眼睛："你们称之为'犯罪'——我们称之为'聪明的家族生意'。"",
+      "ja": "コンシリエーレたちは彼の行く手を塞ぎ、同情的ながらも冷たい目で見つめた：「君たちはそれを『犯罪』と呼ぶ——私たちは『賢いファミリービジネス』と呼ぶ」"
+    },
+    {
+      "id": 10,
+      "ru": "Рослый Иннокентий оказался к подобному не готов и хоть нависал – даже над шляпой Равдоникаса, – но чувствовал, что сейчас отведет взгляд.",
+      "en": "The tall Innokenty was not prepared for this and although he loomed—even over Ravdonikas's hat—he felt he was about to avert his gaze.",
+      "zh": "高大的伊诺肯季对此毫无准备，虽然他俯视着——甚至超过了拉夫多尼卡斯的帽子——但他感到自己即将移开目光。",
+      "ja": "背の高いイノケンチーはこれに備えていなかった。ラヴドニカスの帽子をも超えて見下ろしていたが、自分がすぐに視線をそらすことを感じていた。"
+    },
+    {
+      "id": 11,
+      "ru": "И отвел.",
+      "en": "And he did.",
+      "zh": "他确实移开了。",
+      "ja": "そして、そらした。"
+    },
+    {
+      "id": 12,
+      "ru": "Консильери по-змеиному улыбнулись и двинули к Неве мимо скульптуры «Нос».",
+      "en": "The consiglieri smiled serpent-like and moved toward the Neva past the \"Nose\" sculpture.",
+      "zh": ""顾问们"露出蛇一般的微笑，走向涅瓦河，经过"鼻子"雕塑。",
+      "ja": "コンシリエーレたちは蛇のように微笑み、「鼻」の彫刻を過ぎてネヴァ川の方へ向かった。"
+    },
+    {
+      "id": 13,
+      "ru": "Ко всему прочему, Дуров желал растоптать Иннокентия перед девочками.",
+      "en": "On top of everything, Durov wanted to crush Innokenty in front of the girls.",
+      "zh": "此外，杜罗夫还想在女孩们面前踩扁伊诺肯季。",
+      "ja": "その上、ドゥーロフは女の子たちの前でイノケンチーを叩きのめしたかった。"
+    },
+    {
+      "id": 14,
+      "ru": "Архитектор прославился с помощью слабого пола, а теперь хотел использовать авторитет.",
+      "en": "The architect had become famous with the help of the fairer sex, and now wanted to use his authority.",
+      "zh": ""建筑师"借助女性而成名，现在想利用自己的权威。",
+      "ja": "建築家は女性の助けを借りて有名になり、今はその権威を利用したかった。"
+    },
+    {
+      "id": 15,
+      "ru": "Он начал стрелять во врага ироничными постами, попутно ругая в комментариях с помощью своего виртуала по имени Kreol.",
+      "en": "He began shooting at the enemy with ironic posts, while also berating him in comments using his virtual identity named Kreol.",
+      "zh": "他开始用讽刺的帖子攻击敌人，同时用他的虚拟身份Kreol在评论中谩骂。",
+      "ja": "彼は皮肉な投稿で敵を攻撃し始め、同時にKreolという仮想アイデンティティを使ってコメントで非難した。"
+    },
+    {
+      "id": 16,
+      "ru": "Иннокентий сдулся и не получил сотой доли обожания, доставшегося «мафии».",
+      "en": "Innokenty deflated and didn't receive a hundredth of the adoration that fell to the \"mafia.\"",
+      "zh": "伊诺肯季泄气了，没有得到"黑手党"所获得的百分之一的崇拜。",
+      "ja": "イノケンチーはしぼんでしまい、「マフィア」に落ちた崇拝の百分の一も得られなかった。"
+    },
+    {
+      "id": 17,
+      "ru": "Дуров убедился, что girl power – великий инструмент.",
+      "en": "Durov became convinced that girl power was a great instrument.",
+      "zh": "杜罗夫确信"女孩力量"是一个伟大的工具。",
+      "ja": "ドゥーロフはガールパワーが偉大な道具であることを確信した。"
+    },
+    {
+      "id": 18,
+      "ru": "Как-то раз мы разговаривали в комнате с видом на Казанский, за которым фонил революционным колором закат – свидетельство верно выбранного штаба для тех, кто хочет взорвать мир.",
+      "en": "Once we were talking in a room overlooking Kazan Cathedral, behind which a sunset glowed with revolutionary colors—evidence of a correctly chosen headquarters for those who want to blow up the world.",
+      "zh": "有一次我们在一个俯瞰喀山大教堂的房间里交谈，教堂后面是革命色彩的夕阳——这证明了那些想要震撼世界的人选对了总部。",
+      "ja": "ある時、私たちはカザン大聖堂を見渡す部屋で話していた。その背後では夕日が革命的な色で輝いていた——世界を爆破したい者にとって正しく選ばれた本部の証だ。"
+    },
+    {
+      "id": 19,
+      "ru": "Вертя в руках бейсбольный мяч, Дуров формулировал осознанное в процессе привлечения людей на spbgu.org.",
+      "en": "Twirling a baseball in his hands, Durov formulated what he had realized in the process of attracting people to spbgu.org.",
+      "zh": "杜罗夫手里转着一个棒球，阐述他在吸引人们到spbgu.org的过程中领悟到的东西。",
+      "ja": "野球ボールを手の中で回しながら、ドゥーロフはspbgu.orgに人々を引き付ける過程で悟ったことを言葉にした。"
+    },
+    {
+      "id": 20,
+      "ru": "«Акцент надо делать на красивых девушках.",
+      "en": "\"The emphasis should be on beautiful girls.",
+      "zh": ""重点应该放在漂亮的女孩身上。",
+      "ja": "「美しい女性に重点を置くべきだ。"
+    },
+    {
+      "id": 21,
+      "ru": "Если они придут – соберутся парни, будут показывать, какие они умные, – сказал он, глядя в сторону.",
+      "en": "If they come—the guys will gather, they'll show how smart they are,\" he said, looking aside.",
+      "zh": "如果她们来了——男孩们就会聚集起来，展示他们有多聪明，"他说着，看向一边。",
+      "ja": "彼女たちが来れば——男たちが集まる、自分がどれだけ賢いか見せようとする」と彼は横を向いて言った。"
+    },
+    {
+      "id": 22,
+      "ru": "– У всех млекопитающих это самое главное.",
+      "en": "\"For all mammals this is the main thing.",
+      "zh": ""对所有哺乳动物来说，这是最重要的。",
+      "ja": "「すべての哺乳類にとってこれが最も重要なことだ。"
+    },
+    {
+      "id": 23,
+      "ru": "Есть девушки – есть арена, а зритель найдется.",
+      "en": "There are girls—there's an arena, and spectators will be found.",
+      "zh": "有女孩——就有舞台，观众自然会来。",
+      "ja": "女性がいれば——アリーナがあり、観客は見つかる。"
+    },
+    {
+      "id": 24,
+      "ru": "Мне всегда важно их мнение по поводу разных фич: если девушкам нравится, значит, остальные съедят.",
+      "en": "I always value their opinion about different features: if the girls like it, then the rest will eat it up.",
+      "zh": "她们对各种功能的意见对我来说一直很重要：如果女孩们喜欢，那么其他人就会接受。",
+      "ja": "私は常に様々な機能に対する彼女たちの意見を重視している：女性が気に入れば、残りの人も受け入れる。"
+    },
+    {
+      "id": 25,
+      "ru": "Они идеальные контент-организаторы, они общаются и объединяют вокруг себя остальных».",
+      "en": "They are ideal content organizers, they communicate and unite others around themselves.\"",
+      "zh": "她们是理想的内容组织者，她们交流并把其他人团结在自己周围。"",
+      "ja": "彼女たちは理想的なコンテンツオーガナイザーで、コミュニケーションを取り、周りの人々を団結させる」"
+    },
+    {
+      "id": 26,
+      "ru": "Дуров действовал исходя из этого правила.",
+      "en": "Durov acted based on this rule.",
+      "zh": "杜罗夫根据这一规则行事。",
+      "ja": "ドゥーロフはこのルールに基づいて行動した。"
+    },
+    {
+      "id": 27,
+      "ru": "Форум бурлил, и надо было использовать страсти, чтобы поощрять пассионарных девиц писать чаще.",
+      "en": "The forum was boiling, and passions had to be used to encourage passionate girls to write more often.",
+      "zh": "论坛沸腾着，必须利用这种热情来鼓励充满激情的女孩更频繁地发帖。",
+      "ja": "フォーラムは沸き立っており、情熱的な女性たちがもっと頻繁に書くよう促すために情熱を利用する必要があった。"
+    },
+    {
+      "id": 28,
+      "ru": "Что он, собственно, и делал, задруживаясь с ними в офлайне и подталкивая к более активным действиям – иногда даже отдавал модераторскую власть.",
+      "en": "Which is essentially what he did, befriending them offline and pushing them toward more active actions—sometimes even giving them moderator power.",
+      "zh": "这正是他所做的，在线下与她们交朋友，推动她们采取更积极的行动——有时甚至给予她们版主权力。",
+      "ja": "これはまさに彼がやったことで、オフラインで彼女たちと友達になり、より積極的な行動に向けて促した——時にはモデレーターの権限さえ与えた。"
+    },
+    {
+      "id": 29,
+      "ru": "Это помогало тащить на свою площадку факультеты, пока не примкнувшие к форуму, и переманивать еще не знакомых с тотемом красавиц.",
+      "en": "This helped drag onto his platform faculties that hadn't yet joined the forum, and lure beauties not yet familiar with the totem.",
+      "zh": "这有助于把尚未加入论坛的院系拉到他的平台上，并吸引尚未认识"图腾"的美女。",
+      "ja": "これは、まだフォーラムに参加していない学部を自分のプラットフォームに引き込み、トーテムをまだ知らない美女を引き寄せるのに役立った。"
+    },
+    {
+      "id": 30,
+      "ru": "Какими средствами?",
+      "en": "By what means?",
+      "zh": "用什么手段？",
+      "ja": "どんな手段で？"
+    },
+    {
+      "id": 31,
+      "ru": "А какая разница!",
+      "en": "Who cares!",
+      "zh": "有什么区别！",
+      "ja": "どうでもいい！"
+    },
+    {
+      "id": 32,
+      "ru": "Осенним вечером студент философского факультета Тимур Качарава вышел из магазина «Буквоед» и направился к метро.",
+      "en": "One autumn evening, philosophy faculty student Timur Kacharava left the \"Bukvoed\" bookstore and headed toward the metro.",
+      "zh": "一个秋天的傍晚，哲学系学生季穆尔·卡恰拉瓦从"书虫"书店出来，走向地铁。",
+      "ja": "ある秋の夜、哲学部の学生ティムール・カチャラヴァは「ブクヴォエド」書店を出て地下鉄に向かった。"
+    },
+    {
+      "id": 33,
+      "ru": "Не успел Качарава сделать несколько шагов, как на него с криком «Антантифа!» «прыгнули» скинхеды.",
+      "en": "Kacharava had barely taken a few steps when skinheads \"jumped\" him shouting \"Anti-Antifa!\"",
+      "zh": "卡恰拉瓦还没走几步，就被光头党喊着"反反法西斯！"扑了上来。",
+      "ja": "カチャラヴァが数歩も歩かないうちに、スキンヘッドたちが「アンティアンティファ！」と叫びながら「飛びかかった」。"
+    },
+    {
+      "id": 34,
+      "ru": "В ходе неравной драки его ударили ножом в шею, и он умер в считаные минуты.",
+      "en": "During the unequal fight he was stabbed in the neck, and he died within minutes.",
+      "zh": "在一场不平等的斗殴中，他被刺中脖子，几分钟内就死了。",
+      "ja": "不平等な争いの中で彼は首をナイフで刺され、数分以内に亡くなった。"
+    },
+    {
+      "id": 35,
+      "ru": "Петербург встал на уши – война фашистов и антифашистов достигла апогея.",
+      "en": "Petersburg was up in arms—the war of fascists and anti-fascists had reached its peak.",
+      "zh": "圣彼得堡沸腾了——法西斯分子和反法西斯分子之间的战争达到了顶峰。",
+      "ja": "ペテルブルクは騒然となった——ファシストと反ファシストの戦争は頂点に達した。"
+    },
+    {
+      "id": 36,
+      "ru": "История облетела массмедиа, и исследователи национализма получили возможность сказать с экрана, что больше нельзя закрывать глаза на армию бритоголовых.",
+      "en": "The story spread through mass media, and researchers of nationalism got the opportunity to say on screen that one could no longer turn a blind eye to the army of skinheads.",
+      "zh": "这个故事传遍了大众媒体，民族主义研究者有机会在屏幕上说，不能再对光头党大军视而不见了。",
+      "ja": "この話はマスメディアに広まり、ナショナリズムの研究者たちは、スキンヘッドの軍団にもはや目をつぶることはできないとテレビで言う機会を得た。"
+    },
+    {
+      "id": 37,
+      "ru": "Через два дня после убийства Качаравы третьекурсник Макс Петренчук сидел на подоконнике в коридоре истфака.",
+      "en": "Two days after Kacharava's murder, third-year student Max Petrenchuk sat on a windowsill in the history faculty corridor.",
+      "zh": "卡恰拉瓦被杀两天后，大三学生马克斯·彼得连丘克坐在历史系走廊的窗台上。",
+      "ja": "カチャラヴァ殺害から2日後、3年生のマックス・ペトレンチュクは歴史学部の廊下の窓辺に座っていた。"
+    },
+    {
+      "id": 38,
+      "ru": "Перед ним лежала тетрадь, в которой то и дело расписывались циркулирующие по этажу студенты.",
+      "en": "Before him lay a notebook in which students circulating through the floor kept signing.",
+      "zh": "他面前放着一个笔记本，楼层里走动的学生不断在上面签名。",
+      "ja": "彼の前にはノートがあり、フロアを行き交う学生たちが次々と署名していた。"
+    },
+    {
+      "id": 39,
+      "ru": "Петренчук собирал автографы под требованием к губернатору начать спецрасследование дела.",
+      "en": "Petrenchuk was collecting signatures under a demand to the governor to launch a special investigation into the case.",
+      "zh": "彼得连丘克正在收集签名，要求州长对此案展开特别调查。",
+      "ja": "ペトレンチュクは、知事にこの事件の特別調査を開始するよう求める署名を集めていた。"
+    },
+    {
+      "id": 40,
+      "ru": "Некоторые из подписантов",
+      "en": "Some of the signatories",
+      "zh": "一些签名者",
+      "ja": "署名者の中には"
+    }
+  ],
+  "translator_notes": [
+    "Consigliere - advisor in a mafia family (from The Godfather)",
+    "'You call it crime - we call it smart family business' - quote from The Godfather Part II",
+    "The Nose sculpture - monument to Gogol's story 'The Nose' in St. Petersburg",
+    "Kreol - Durov's sockpuppet account for anonymous attacks",
+    "Girl power - Durov's user acquisition philosophy, focus on attracting women first",
+    "Timur Kacharava - real historical figure, antifa activist murdered by neo-Nazis on November 13, 2005",
+    "Bukvoed - major Russian bookstore chain",
+    "Max Petrenchuk - student activist who later became connected to the forum"
+  ],
+  "total_sentences": 40,
+  "page_type": "narrative"
+}
