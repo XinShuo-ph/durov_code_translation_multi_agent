@@ -1,0 +1,88 @@
+{
+  "page": 6,
+  "chapter": 0,
+  "chapter_title": "Предисловие (Preface - conclusion)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. 'Durov's Code. The Real Story of VKontakte and Its Creator'",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の実話』"
+    },
+    {
+      "id": 2,
+      "ru": "сформулировать, не думать о миллиардах и иногда отрываться от ноутбука.",
+      "en": "articulate it, not think about billions, and sometimes look up from the laptop.",
+      "zh": "表达出来，不去想数十亿，有时从笔记本电脑中抬起头来。",
+      "ja": "それを明確にし、数十億のことを考えず、時にはノートパソコンから目を離すことだ。"
+    },
+    {
+      "id": 3,
+      "ru": "Поэтому вряд ли стоит читать книгу Кононова как портрет Героя Нашего Времени или описание того, Как Все В Мире Будет Устроено, – в фигуре Дурова слишком много исключительного, не сказать, эксцентрического, чтобы делать из его истории Далекоидущие Выводы.",
+      "en": "Therefore it's hardly worth reading Kononov's book as a portrait of a Hero of Our Time or a description of How the World Will Be Arranged—there's too much exceptional, not to say eccentric, in Durov's figure to draw Far-Reaching Conclusions from his story.",
+      "zh": "因此，几乎不值得把科诺诺夫的书读作《我们时代的英雄》的肖像或对世界将如何安排的描述——杜罗夫这个人物中有太多非凡之处，甚至可以说古怪之处，以至于无法从他的故事中得出深远的结论。",
+      "ja": "したがって、コノノフの本を「我が時代の英雄」の肖像画として、あるいは世界がどのように構成されるかの説明として読むことはほとんど価値がない――ドゥーロフという人物には、彼の物語から遠大な結論を引き出すには、あまりに例外的、いや奇抜なものが多すぎる。"
+    },
+    {
+      "id": 4,
+      "ru": "Возможно, правильнее было бы подойти к этому тексту как к авантюрному роману, серии удивительных приключений и сказочных перевоплощений – развязка которых, кажется, далеко не очевидна.",
+      "en": "Perhaps it would be more correct to approach this text as an adventure novel, a series of amazing adventures and fairy-tale transformations—the denouement of which seems far from obvious.",
+      "zh": "也许更正确的做法是将这本书当作一部冒险小说，一系列惊人的冒险和童话般的变身——其结局似乎远非显而易见。",
+      "ja": "おそらく、このテキストを冒険小説、驚くべき冒険とおとぎ話のような変身の連続として捉える方が正しいだろう――その結末は明らかとは程遠いようだ。"
+    },
+    {
+      "id": 5,
+      "ru": "Кажется, один из важных мотивов для Дурова – стремление сделать все назло и поперек системе, в которую его пытаются встроить, разломать рамки, в которые его стараются загнать, обмануть ожидания относительно логики собственного поведения.",
+      "en": "It seems one of Durov's important motives is the desire to do everything in defiance and against the system they're trying to integrate him into, to break the frameworks they're trying to confine him within, to deceive expectations regarding the logic of his own behavior.",
+      "zh": "似乎杜罗夫的重要动机之一是渴望做一切事情来对抗和违背他们试图将他整合进去的系统，打破他们试图把他限制在其中的框架，欺骗关于他自己行为逻辑的期望。",
+      "ja": "ドゥーロフの重要な動機の一つは、彼を組み込もうとするシステムに逆らって全てを行い、彼を閉じ込めようとする枠組みを打ち破り、自分自身の行動の論理に関する期待を裏切りたいという願望であるようだ。"
+    },
+    {
+      "id": 6,
+      "ru": "Это тот случай, когда ничему удивительному в его судьбе не стоит удивляться.",
+      "en": "This is a case where nothing surprising in his fate should be surprising.",
+      "zh": "这是一种情况，在他的命运中任何令人惊讶的事情都不应该令人惊讶。",
+      "ja": "これは、彼の運命における驚くべきことに驚くべきではないケースである。"
+    },
+    {
+      "id": 7,
+      "ru": "Возможно, через несколько лет он скроется в нейтральных водах на бронированной яхте в компании какой-нибудь Леди Гаги, или купит контрольный пакет акций «Газпрома», или уединится в мансарде на Невском, чтобы рисовать собак.",
+      "en": "Perhaps in a few years he'll hide in neutral waters on an armored yacht in the company of some Lady Gaga, or buy a controlling stake in Gazprom, or seclude himself in an attic on Nevsky to paint dogs.",
+      "zh": "也许几年后，他会躲在中立水域的一艘装甲游艇上，与某个Lady Gaga作伴，或者购买俄罗斯天然气工业股份公司的控股权，或者隐居在涅瓦大街的阁楼里画狗。",
+      "ja": "おそらく数年後、彼は中立水域で装甲ヨットに隠れてレディー・ガガのような人物と一緒にいるか、ガスプロムの支配株を買うか、ネフスキー大通りの屋根裏部屋に隠遁して犬の絵を描くだろう。"
+    },
+    {
+      "id": 8,
+      "ru": "Герой этой книги не борется за свободу – а утверждает ее самим фактом своего существования.",
+      "en": "The hero of this book doesn't fight for freedom—he affirms it by the very fact of his existence.",
+      "zh": "这本书的主人公不是为自由而战——而是通过他存在的事实本身来肯定自由。",
+      "ja": "この本の主人公は自由のために戦っているのではない――彼は自分の存在そのものによって自由を肯定している。"
+    },
+    {
+      "id": 9,
+      "ru": "В любом случае, это открывает и перед автором, и перед читателями блистательную перспективу: в том смысле, что продолжение следует.",
+      "en": "In any case, this opens a brilliant prospect for both the author and readers: in the sense that there will be a sequel.",
+      "zh": "无论如何，这为作者和读者都打开了一个辉煌的前景：即后续还将继续。",
+      "ja": "いずれにせよ、これは著者と読者の両方に輝かしい展望を開く。つまり、続編があるという意味で。"
+    },
+    {
+      "id": 10,
+      "ru": "Юрий Сапрыкин, публицист, шеф-редактор «Рамблер-Афиша»",
+      "en": "Yuri Saprykin, publicist, editor-in-chief of Rambler-Afisha",
+      "zh": "尤里·萨普雷金，评论家，Rambler-Afisha主编",
+      "ja": "ユーリー・サプリキン、評論家、ランブラー・アフィーシャ編集長"
+    }
+  ],
+  "translator_notes": [
+    "Page 6 concludes the Preface by Yuri Saprykin",
+    "Reference to 'Hero of Our Time' - classic Russian novel by Lermontov",
+    "Lady Gaga reference shows the absurdist humor in imagining Durov's future",
+    "Gazprom - Russia's state-owned gas monopoly, represents ultimate establishment power",
+    "Nevsky - Nevsky Prospekt, St. Petersburg's main avenue",
+    "The preface frames Durov as an unpredictable anti-establishment figure who defies categorization",
+    "Saprykin hints at future developments (prescient, as Durov later left Russia and founded Telegram)"
+  ],
+  "total_sentences": 10,
+  "page_type": "front_matter"
+}
