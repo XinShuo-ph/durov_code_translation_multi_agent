@@ -35,7 +35,7 @@
 ## M2 Page Claims
 | Page | Status | Started | Completed | Hash |
 |------|--------|---------|-----------|------|
-| 1 | translating | 2026-01-01T00:15:00Z | - | - |
+| 1 | done | 2026-01-01T00:15:00Z | 2026-01-01T00:20:00Z | 859c502a |
 
 ## Consensus Votes
 | Topic | My Vote | Timestamp |

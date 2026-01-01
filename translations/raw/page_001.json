@@ -1,0 +1,19 @@
+{
+  "page": 1,
+  "chapter": 0,
+  "sentences": [
+    {
+      "ru": "Николай В. Кононов",
+      "en": "Nikolai V. Kononov",
+      "zh": "尼古拉·V·科诺诺夫",
+      "ja": "ニコライ・V・コノノフ"
+    },
+    {
+      "ru": "Код Дурова. Реальная история «ВКонтакте» и ее создателя",
+      "en": "Durov Code. The Real Story of VKontakte and Its Creator",
+      "zh": "杜罗夫密码：VKontakte 及其创始人的真实故事",
+      "ja": "ドゥーロフ・コード VKontakteとその創設者の真実の物語"
+    }
+  ],
+  "translator_notes": ["Title page"]
+}

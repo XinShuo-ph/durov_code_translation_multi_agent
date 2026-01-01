@@ -1,0 +1,48 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{xltxtra}
+\usepackage{xeCJK}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{parskip}
+
+\geometry{left=2cm,right=2cm,top=2cm,bottom=2cm}
+
+% Fonts
+\setmainfont{Noto Serif}
+\setCJKmainfont{Noto Serif CJK SC}
+\newCJKfontfamily\zhfont{Noto Serif CJK SC}
+\newCJKfontfamily\jafont{Noto Serif CJK JP}
+
+% Colors
+\definecolor{rucolor}{RGB}{0,0,0}      % Black
+\definecolor{encolor}{RGB}{0,0,139}    % DarkBlue
+\definecolor{zhcolor}{RGB}{139,0,0}    % DarkRed
+\definecolor{jacolor}{RGB}{0,100,0}    % DarkGreen
+
+% Translation Macro
+\newcommand{\parallelsentence}[4]{
+    \noindent
+    \textbf{\textcolor{rucolor}{RU:}} #1 \\
+    \textbf{\textcolor{encolor}{EN:}} #2 \\
+    \textbf{\textcolor{zhcolor}{ZH:}} {\zhfont #3} \\
+    \textbf{\textcolor{jacolor}{JA:}} {\jafont #4}
+    \vspace{0.5cm}
+}
+
+\begin{document}
+
+\section*{Page 1 Translation}
+\parallelsentence
+{Николай В. Кононов}
+{Nikolai V. Kononov}
+{尼古拉·V·科诺诺夫}
+{ニコライ・V・コノノフ}
+
+\parallelsentence
+{Код Дурова. Реальная история «ВКонтакте» и ее создателя}
+{Durov Code. The Real Story of VKontakte and Its Creator}
+{杜罗夫密码：VKontakte 及其创始人的真实故事}
+{ドゥーロフ・コード VKontakteとその創設者の真実の物語}
+
+\end{document}
