@@ -1,0 +1,329 @@
+{
+  "page": 89,
+  "chapter": 4,
+  "chapter_title": "Штаб (Headquarters)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "и синюю, а поверх нарисовал собаку с черными зрачками.",
+      "en": "and blue, and on top drew a dog with black pupils.",
+      "zh": "和蓝色，然后在上面画了一只黑色瞳孔的狗。",
+      "ja": "と青、その上に黒い瞳の犬を描いた。"
+    },
+    {
+      "id": 3,
+      "ru": "Один глаз собаки был крупнее другого и сверкал, как дуло или тоннель.",
+      "en": "One of the dog's eyes was larger than the other and gleamed like a barrel or a tunnel.",
+      "zh": "狗的一只眼睛比另一只大，闪烁着像枪口或隧道一样的光芒。",
+      "ja": "犬の片方の目はもう片方より大きく、銃口やトンネルのように輝いていた。"
+    },
+    {
+      "id": 4,
+      "ru": "Ухо украшал зашитый шрам.",
+      "en": "A stitched scar adorned the ear.",
+      "zh": "耳朵上装饰着一道缝合的伤疤。",
+      "ja": "耳には縫い合わされた傷跡が飾られていた。"
+    },
+    {
+      "id": 5,
+      "ru": "Это наиболее точный портрет Дурова из всех, что я знаю.",
+      "en": "This is the most accurate portrait of Durov of all that I know.",
+      "zh": "这是我所知道的所有杜罗夫肖像中最准确的一幅。",
+      "ja": "これは私が知る中で最も正確なドゥーロフの肖像画だ。"
+    },
+    {
+      "id": 6,
+      "ru": "«Что вы намерены делать?»",
+      "en": "\"What do you intend to do?\"",
+      "zh": ""你打算怎么办？"",
+      "ja": "「どうするつもりですか？」"
+    },
+    {
+      "id": 7,
+      "ru": "«Ничего, – пробормотал Дуров. – Опять звонили, просят закрыть группы.",
+      "en": "\"Nothing,\" Durov muttered. \"They called again, asking to close the groups.",
+      "zh": ""没什么，"杜罗夫嘟囔道。"他们又打电话来，要求关闭群组。",
+      "ja": "「何も」とドゥーロフは呟いた。「また電話があって、グループを閉じるよう求めてきた。"
+    },
+    {
+      "id": 8,
+      "ru": "Влад и Лев, наверное, будут уговаривать.",
+      "en": "Vlad and Lev will probably try to persuade me.",
+      "zh": "弗拉德和列夫可能会来劝说我。",
+      "ja": "ヴラドとレフはおそらく説得しようとするだろう。"
+    },
+    {
+      "id": 9,
+      "ru": "Я уже привык.",
+      "en": "I'm already used to it.",
+      "zh": "我已经习惯了。",
+      "ja": "もう慣れた。"
+    },
+    {
+      "id": 10,
+      "ru": "Они знают, что я не боюсь».",
+      "en": "They know I'm not afraid.\"",
+      "zh": "他们知道我不害怕。"",
+      "ja": "彼らは私が恐れていないことを知っている」"
+    },
+    {
+      "id": 11,
+      "ru": "Мы обсудили стартапы и распрощались.",
+      "en": "We discussed startups and said goodbye.",
+      "zh": "我们讨论了初创企业，然后道别。",
+      "ja": "私たちはスタートアップについて話し合い、別れを告げた。"
+    },
+    {
+      "id": 12,
+      "ru": "Через час в твиттере Дурова появилась фотография хаски в наброшенном капюшоне и с высунутым языком.",
+      "en": "An hour later, a photo of a husky in a thrown-on hoodie with its tongue sticking out appeared on Durov's Twitter.",
+      "zh": "一小时后，杜罗夫的Twitter上出现了一张穿着连帽衫、吐着舌头的哈士奇的照片。",
+      "ja": "1時間後、ドゥーロフのTwitterに、パーカーをかぶって舌を出したハスキー犬の写真が現れた。"
+    },
+    {
+      "id": 13,
+      "ru": "Внизу красовалась подпись, что это ответ прокуратуре.",
+      "en": "At the bottom was a caption saying this was a response to the prosecutor's office.",
+      "zh": "下面是一行字幕，说这是对检察院的回应。",
+      "ja": "下部には、これは検察庁への回答だというキャプションがあった。"
+    },
+    {
+      "id": 14,
+      "ru": "Твиту предшествовал скан повестки, к которому Дуров приписал, что на допрос не успел, бумага пришла слишком поздно.",
+      "en": "The tweet was preceded by a scan of the summons, to which Durov added that he couldn't make it to the interrogation, the paper came too late.",
+      "zh": "推文之前是传票的扫描件，杜罗夫在上面注明他来不及参加审讯，文件来得太晚了。",
+      "ja": "ツイートの前には召喚状のスキャンがあり、ドゥーロフは取り調べに間に合わなかった、書類が遅すぎたと書き添えた。"
+    },
+    {
+      "id": 15,
+      "ru": "Как я теперь понимаю, в тот день Дуров боролся со страхом потерять все.",
+      "en": "As I now understand, that day Durov was fighting the fear of losing everything.",
+      "zh": "据我现在理解，那天杜罗夫正在与失去一切的恐惧作斗争。",
+      "ja": "今になってわかることだが、あの日ドゥーロフはすべてを失うことへの恐怖と戦っていた。"
+    },
+    {
+      "id": 16,
+      "ru": "Одно дело – переговоры, где ты, чувствуя за спиной многомиллионную аудиторию, стоишь на своем.",
+      "en": "It's one thing—negotiations where you, feeling a multi-million audience behind your back, hold your ground.",
+      "zh": "一回事是谈判，在那里你感觉背后有数百万观众支持，坚持立场。",
+      "ja": "一つは交渉だ——背後に数百万のオーディエンスを感じながら、自分の立場を守る。"
+    },
+    {
+      "id": 17,
+      "ru": "Другое дело – состязание с государством, чья компетенция – давить.",
+      "en": "It's another thing—a contest with a state whose competence is to crush.",
+      "zh": "另一回事是与国家较量，而国家的专长是压制。",
+      "ja": "もう一つは国家との競争だ——その能力は押しつぶすことにある。"
+    },
+    {
+      "id": 18,
+      "ru": "Ценивший тотема Сурков уходил из Кремля на пост главного по технологиям в правительстве.",
+      "en": "Surkov, who valued the totem, was leaving the Kremlin for the post of chief of technology in the government.",
+      "zh": "欣赏图腾的苏尔科夫正离开克里姆林宫，去担任政府技术主管的职位。",
+      "ja": "トーテムを評価していたスルコフはクレムリンを離れ、政府の技術担当責任者のポストに就こうとしていた。"
+    },
+    {
+      "id": 19,
+      "ru": "С Володиным Дуров не был знаком.",
+      "en": "Durov was not acquainted with Volodin.",
+      "zh": "杜罗夫不认识沃洛金。",
+      "ja": "ドゥーロフはヴォロディンとは面識がなかった。"
+    },
+    {
+      "id": 20,
+      "ru": "Вернувшегося в квартиру на Крестовском острове Дурова потревожил звонок в дверь.",
+      "en": "Durov, who had returned to his apartment on Krestovsky Island, was disturbed by a doorbell ring.",
+      "zh": "回到克列斯托夫斯基岛公寓的杜罗夫被门铃声打扰了。",
+      "ja": "クレストフスキー島のアパートに戻ったドゥーロフは、ドアベルの音に邪魔された。"
+    },
+    {
+      "id": 21,
+      "ru": "На лестничной площадке суетились омоновцы в камуфляже и, видимо, следователь.",
+      "en": "On the landing, OMON officers in camouflage and, apparently, an investigator were bustling about.",
+      "zh": "楼梯平台上，穿着迷彩服的防暴警察和显然是调查员的人在忙碌着。",
+      "ja": "踊り場では、迷彩服を着たOMONの隊員たちと、おそらく捜査官がせわしなく動いていた。"
+    },
+    {
+      "id": 22,
+      "ru": "Дуров отшатнулся.",
+      "en": "Durov recoiled.",
+      "zh": "杜罗夫退缩了。",
+      "ja": "ドゥーロフは後ずさりした。"
+    },
+    {
+      "id": 23,
+      "ru": "Страх полз по телу, и надо было решить – пускать его, кормить надеждами, что само рассосется, или выбрасывать из тела.",
+      "en": "Fear was crawling through his body, and he had to decide—to let it in, feed it hopes that it would resolve itself, or throw it out of his body.",
+      "zh": "恐惧在身体里蔓延，他必须决定——让它进来，用希望喂养它让它自行消散，还是把它从身体里赶出去。",
+      "ja": "恐怖が体を這っていた。決めなければならなかった——それを受け入れ、自然に消えるという希望で養うか、体から追い出すか。"
+    },
+    {
+      "id": 24,
+      "ru": "Вспомнилась школьная борьба с ужасом перед скандалом и эксперимент с обезьянами.",
+      "en": "He remembered the school struggle with the horror of scandal and the experiment with monkeys.",
+      "zh": "他想起了学校时代与丑闻恐惧的斗争以及猴子实验。",
+      "ja": "スキャンダルへの恐怖との学校での戦いと、猿の実験を思い出した。"
+    },
+    {
+      "id": 25,
+      "ru": "Прими как факт, что ты ничем на самом деле не владеешь, – и тебе будет не страшно терять.",
+      "en": "Accept as fact that you don't really own anything—and you won't be afraid to lose.",
+      "zh": "接受一个事实，你实际上什么都不拥有——你就不会害怕失去。",
+      "ja": "実際には何も所有していないという事実を受け入れれば、失うことを恐れなくなる。"
+    },
+    {
+      "id": 26,
+      "ru": "Дуров не открыл.",
+      "en": "Durov didn't open.",
+      "zh": "杜罗夫没有开门。",
+      "ja": "ドゥーロフは開けなかった。"
+    },
+    {
+      "id": 27,
+      "ru": "Осторожно выглянув в окно, он увидел пятна камуфляжа во дворе.",
+      "en": "Carefully peering out the window, he saw camouflage spots in the courtyard.",
+      "zh": "他小心地从窗户往外看，看到院子里有迷彩斑点。",
+      "ja": "慎重に窓から覗くと、中庭に迷彩の斑点が見えた。"
+    },
+    {
+      "id": 28,
+      "ru": "Позже служба безопасности рассказала, что чуть не устроила перестрелку, не желая пускать маски-шоу внутрь.",
+      "en": "Later the security service told him they had almost started a shootout, not wanting to let the mask show inside.",
+      "zh": "后来安保部门告诉他，他们差点开枪，不想让假面秀进来。",
+      "ja": "後に警備員は、マスクショーを中に入れたくなくて、もう少しで銃撃戦になるところだったと話した。"
+    },
+    {
+      "id": 29,
+      "ru": "Дуров выслушал, зашел во «ВКонтакте» и процитировал 2,7 млн подписчиков Карлейля: «Насколько человек побеждает страх, настолько он человек».",
+      "en": "Durov listened, went on VKontakte, and quoted Carlyle to his 2.7 million subscribers: \"The extent to which a man conquers fear is the extent to which he is a man.\"",
+      "zh": "杜罗夫听完后，登录VKontakte，向270万粉丝引用了卡莱尔的话："一个人战胜恐惧的程度，就是他作为人的程度。"",
+      "ja": "ドゥーロフは聞き終えると、VKontakteにアクセスし、270万人のフォロワーにカーライルの言葉を引用した：「人間が恐怖を克服する程度が、その人間の度量である」"
+    },
+    {
+      "id": 30,
+      "ru": "Ни на следующий день, ни позже санкций не последовало.",
+      "en": "Neither the next day nor later did sanctions follow.",
+      "zh": "无论是第二天还是之后，都没有制裁跟进。",
+      "ja": "翌日も、その後も制裁は続かなかった。"
+    },
+    {
+      "id": 31,
+      "ru": "То ли система отвлеклась на многотысячные акции протеста – вязала оппозиционеров у Исаакиевского и катала их по городу в автозаках; то ли Сурков шепнул что-то коллегам.",
+      "en": "Either the system was distracted by multi-thousand protests—arresting opposition members near St. Isaac's and driving them around the city in police vans; or Surkov whispered something to colleagues.",
+      "zh": "要么是系统被数千人的抗议活动分散了注意力——在圣以撒大教堂附近逮捕反对派成员，用警车在城里押送他们；要么是苏尔科夫向同事们耳语了什么。",
+      "ja": "システムが数千人規模の抗議行動に気を取られていたか——聖イサアク大聖堂付近で野党メンバーを逮捕し、護送車で街中を走り回っていた——あるいはスルコフが同僚に何かささやいたか。"
+    },
+    {
+      "id": 32,
+      "ru": "Дуров гнал страх дальше от блестящего глобуса.",
+      "en": "Durov drove fear further from the shining globe.",
+      "zh": "杜罗夫把恐惧赶得离闪亮的地球仪更远了。",
+      "ja": "ドゥーロフは輝く地球儀から恐怖をさらに遠ざけた。"
+    },
+    {
+      "id": 33,
+      "ru": "Группа поддержки Алексея Навального, адвоката-антикоррупционера, известного проектами «Роспил» и «Добрая машина пропаганды», исчерпала лимит пользователей – Дуров велел программистам убрать этот лимит.",
+      "en": "The support group for Alexei Navalny, an anti-corruption lawyer known for the 'RosPil' and 'Good Propaganda Machine' projects, had exhausted its user limit—Durov ordered programmers to remove that limit.",
+      "zh": "阿列克谢·纳瓦尔尼的支持团体——一位以"RosPil"和"良好宣传机器"项目闻名的反腐律师——已经耗尽了用户限制——杜罗夫命令程序员取消这个限制。",
+      "ja": "反汚職弁護士アレクセイ・ナヴァリヌィの支援グループ——「ロスピル」と「善意のプロパガンダ・マシン」プロジェクトで知られる——はユーザー制限を使い果たしていた——ドゥーロフはプログラマーにその制限を削除するよう命じた。"
+    },
+    {
+      "id": 34,
+      "ru": "Позже он написал в «Ленту.ру» колонку о том, что оставил группы не из-за любви к оппозиции, а из-за того, что, закрой их, юзеры перетекут на Facebook.",
+      "en": "Later he wrote a column for Lenta.ru saying he kept the groups not out of love for the opposition, but because if he closed them, users would migrate to Facebook.",
+      "zh": "后来他在Lenta.ru上写了一篇专栏，说他保留这些群组不是因为爱反对派，而是因为如果关闭它们，用户会转移到Facebook。",
+      "ja": "後に彼はLenta.ruにコラムを書き、反対派への愛からグループを残したのではなく、閉鎖すればユーザーがFacebookに流れるからだと述べた。"
+    },
+    {
+      "id": 35,
+      "ru": "Это не был жест лояльности ни власти, ни Mail.ru, ни пользователям или кому-либо еще.",
+      "en": "This was not a gesture of loyalty to the authorities, Mail.ru, users, or anyone else.",
+      "zh": "这不是对当局、Mail.ru、用户或任何其他人的忠诚姿态。",
+      "ja": "これは当局、Mail.ru、ユーザー、その他誰に対しても忠誠の表明ではなかった。"
+    },
+    {
+      "id": 36,
+      "ru": "Это была попытка объяснить поступок самому себе.",
+      "en": "It was an attempt to explain the action to himself.",
+      "zh": "这是试图向自己解释这个行为。",
+      "ja": "それは自分自身に行動を説明しようとする試みだった。"
+    },
+    {
+      "id": 37,
+      "ru": "«Люди оправдывают свои действия в прошлом, – рассуждал Дуров позже, когда все кончилось и началась совсем другая история.",
+      "en": "\"People justify their actions in the past,\" Durov reflected later, when everything was over and a completely different story had begun.",
+      "zh": ""人们为自己过去的行为辩护，"杜罗夫后来反思道，那时一切都结束了，一个完全不同的故事开始了。",
+      "ja": "「人々は過去の行動を正当化する」とドゥーロフは後に振り返った。すべてが終わり、まったく別の物語が始まった時。"
+    },
+    {
+      "id": 38,
+      "ru": "– Я в этом смысле не совсем материалист, у меня мистическое отношение к таким вещам.",
+      "en": "\"I'm not entirely a materialist in this sense, I have a mystical attitude toward such things.",
+      "zh": ""在这个意义上，我不完全是唯物主义者，我对这些事情有一种神秘的态度。",
+      "ja": "「その意味で私は完全な唯物論者ではなく、そういうことに対して神秘的な態度を持っている。"
+    },
+    {
+      "id": 39,
+      "ru": "Я, конечно, красиво объяснил все на „Ленте", но не знаю, почему тогда отказался закрывать группы.",
+      "en": "I, of course, explained everything beautifully in Lenta, but I don't know why I refused to close the groups then.",
+      "zh": "我当然在Lenta上漂亮地解释了一切，但我不知道为什么当时拒绝关闭群组。",
+      "ja": "もちろん、レンタでは美しく説明したが、なぜあの時グループを閉じることを拒否したのかわからない。"
+    },
+    {
+      "id": 40,
+      "ru": "Что-то внутри меня воспротивилось.",
+      "en": "Something inside me resisted.",
+      "zh": "我内心的某些东西抵抗了。",
+      "ja": "私の中の何かが抵抗した。"
+    },
+    {
+      "id": 41,
+      "ru": "Не знаю».",
+      "en": "I don't know.\"",
+      "zh": "我不知道。"",
+      "ja": "わからない」"
+    },
+    {
+      "id": 42,
+      "ru": "Кривые пересекались лишь один раз, в самом низу графика, когда синяя догнала оранжевую и больше уже не пропускала ее вперед.",
+      "en": "The curves intersected only once, at the very bottom of the graph, when blue caught up with orange and never again let it pass.",
+      "zh": "曲线只相交过一次，在图表的最底部，当蓝色追上橙色后就再也没有让它超前。",
+      "ja": "曲線は一度だけ交差した——グラフの一番下で、青がオレンジに追いつき、二度と先に行かせなかった。"
+    },
+    {
+      "id": 43,
+      "ru": "Впрочем, ближе к концу горизонтальной оси, которая обозначала время, оранжевая подбиралась к сопернице вплотную.",
+      "en": "However, closer to the end of the horizontal axis, which marked time, orange was getting close to its rival.",
+      "zh": "然而，接近表示时间的横轴的末端，橙色正在接近它的对手。",
+      "ja": "しかし、時間を示す横軸の終わりに近づくにつれ、オレンジはライバルに近づいていた。"
+    },
+    {
+      "id": 44,
+      "ru": "Казалось, соприкоснувшись, они заискрят.",
+      "en": "It seemed that upon touching, they would spark.",
+      "zh": "看起来，一旦接触，它们就会产生火花。",
+      "ja": "触れれば火花が散りそうだった。"
+    }
+  ],
+  "translator_notes": [
+    "The dog drawing - Durov's self-portrait with asymmetric eyes and scarred ear, a revealing psychological self-image",
+    "Husky in hoodie - famous tweet mocking the prosecutor's summons",
+    "Krestovsky Island - upscale residential area in St. Petersburg",
+    "OMON - Russian riot police special forces",
+    "Mask show (маски-шоу) - Russian slang for armed police raids with balaclavas",
+    "Thomas Carlyle quote - 'The extent to which a man conquers fear is the extent to which he is a man'",
+    "Alexei Navalny - leading Russian opposition figure, anti-corruption activist",
+    "RosPil (РосПил) - Navalny's project exposing government procurement corruption",
+    "Lenta.ru - major Russian online news outlet",
+    "The graph with blue and orange curves - likely refers to VK vs Facebook user statistics in Russia"
+  ],
+  "total_sentences": 44,
+  "page_type": "narrative"
+}
