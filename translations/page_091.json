@@ -1,0 +1,283 @@
+{
+  "page": 91,
+  "chapter": 6,
+  "chapter_title": "Sucker Punch",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "сказажет: «Вот Дима Гришин, нормальный русский программист, управляет компанией, и у него все будет хорошо.",
+      "en": "would say: 'Here's Dima Grishin, a normal Russian programmer, managing a company, and he'll do fine.",
+      "zh": "会说：'看看迪马·格里申，一个普通的俄罗斯程序员，管理着一家公司，他会做得很好。(Huì shuō: 'Kàn kàn Dímǎ Gélǐshēn, yīgè pǔtōng de Éluósī chéngxùyuán, guǎnlǐzhe yī jiā gōngsī, tā huì zuò de hěn hǎo.)",
+      "ja": "こう言うだろう：『ほら、ディマ・グリシン、普通のロシア人プログラマーが会社を経営していて、彼はうまくやっていくだろう。"
+    },
+    {
+      "id": 2,
+      "ru": "А Дуров не такой: он непростой, ему большего надо».",
+      "en": "But Durov isn't like that: he's complex, he needs more.'",
+      "zh": "但杜罗夫不是这样：他很复杂，他需要更多。'(Dàn Dùluófū bùshì zhèyàng: tā hěn fùzá, tā xūyào gèng duō.')",
+      "ja": "しかしドゥーロフは違う：彼は複雑で、もっと多くを必要としている』"
+    },
+    {
+      "id": 3,
+      "ru": "Когда встреча закончилась и Дуров отдельно говорил с Широковым в президентском номере Ritz, снятом по случаю со скидкой, в дверь постучали.",
+      "en": "When the meeting ended and Durov was speaking separately with Shirokov in the presidential suite at the Ritz, rented at a discount for the occasion, there was a knock at the door.",
+      "zh": "当会议结束，杜罗夫在丽思酒店为此次活动以折扣价租用的总统套房里单独与希罗科夫交谈时，有人敲门。(Dāng huìyì jiéshù, Dùluófū zài Lìsī jiǔdiàn wèi cǐ cì huódòng yǐ zhékòu jià zūyòng de zǒngtǒng tàofáng lǐ dāndú yǔ Xīluókēfū jiāotán shí, yǒurén qiāo mén.)",
+      "ja": "会議が終わり、ドゥーロフがこの機会に割引で借りたリッツの大統領スイートでシロコフと別途話していた時、ドアがノックされた。"
+    },
+    {
+      "id": 4,
+      "ru": "Дуров отпер, и мимо него, не говоря ни слова, прошествовали агенты Смиты с проводками в ушах.",
+      "en": "Durov unlocked it, and past him, without saying a word, Agent Smiths with earpieces marched in.",
+      "zh": "杜罗夫开了门，戴着耳机的史密斯特工们一言不发地从他身边走过。(Dùluófū kāile mén, dàizhe ěrjī de Shǐmìsī tègōngmen yī yán bù fā de cóng tā shēnbiān zǒuguò.)",
+      "ja": "ドゥーロフがドアを開けると、イヤピースをつけたエージェント・スミスたちが一言も発せずに彼の横を通り過ぎていった。"
+    },
+    {
+      "id": 5,
+      "ru": "Дуров открыл рот, чтобы поинтересоваться: «В чем дело?» – но агенты уже обстукивали шкафы, проверяли карнизы под окнами, щупали ковры.",
+      "en": "Durov opened his mouth to ask: 'What's going on?'—but the agents were already tapping cabinets, checking cornices under windows, feeling carpets.",
+      "zh": "杜罗夫张嘴想问：'怎么回事？'——但特工们已经在敲柜子、检查窗户下的檐口、摸地毯了。(Dùluófū zhāng zuǐ xiǎng wèn: 'Zěnme huí shì?'——dàn tègōngmen yǐjīng zài qiāo guìzi, jiǎnchá chuānghù xià de yánkǒu, mō dìtǎnle.)",
+      "ja": "ドゥーロフは『どうしたんですか？』と聞こうと口を開いたが——エージェントたちはすでにクローゼットを叩き、窓の下のコーニスをチェックし、カーペットを触っていた。"
+    },
+    {
+      "id": 6,
+      "ru": "Это не сбывалась «Матрица».",
+      "en": "This wasn't The Matrix coming true.",
+      "zh": "这不是《黑客帝国》成真了。(Zhè bùshì 'Hēikè dìguó' chéng zhēnle.)",
+      "ja": "これは『マトリックス』が現実になったわけではなかった。"
+    },
+    {
+      "id": 7,
+      "ru": "Это президент Казахстана снял апартаменты с видом на Кремль, а в суете со встречами Дуров забыл продлить бронирование.",
+      "en": "This was the president of Kazakhstan renting the apartment with a view of the Kremlin, and in the bustle of meetings Durov had forgotten to extend his booking.",
+      "zh": "这是因为哈萨克斯坦总统租下了这套能看到克里姆林宫景观的公寓，而杜罗夫在忙于会议时忘了续订。(Zhè shì yīnwèi Hāsàkèsītǎn zǒngtǒng zū xiàle zhè tào néng kàn dào Kèlǐmǔlíngōng jǐngguān de gōngyù, ér Dùluófū zài máng yú huìyì shí wàngle xù dìng.)",
+      "ja": "これはカザフスタン大統領がクレムリンの眺めのあるアパートメントを借り、会議の慌ただしさの中でドゥーロフが予約を延長するのを忘れたということだった。"
+    },
+    {
+      "id": 8,
+      "ru": "Им с Широковым пришлось переместиться в соседний номер.",
+      "en": "He and Shirokov had to move to the adjacent room.",
+      "zh": "他和希罗科夫不得不搬到隔壁房间。(Tā hé Xīluókēfū bùdébù bān dào gébì fángjiān.)",
+      "ja": "彼とシロコフは隣の部屋に移動しなければならなかった。"
+    },
+    {
+      "id": 9,
+      "ru": "Широков спросил, зачем Дуров рвется к контролю.",
+      "en": "Shirokov asked why Durov was so eager for control.",
+      "zh": "希罗科夫问杜罗夫为什么那么渴望控制权。(Xīluókēfū wèn Dùluófū wèishénme nàme kěwàng kòngzhì quán.)",
+      "ja": "シロコフはドゥーロフがなぜそこまで支配権を求めるのか尋ねた。"
+    },
+    {
+      "id": 10,
+      "ru": "Дуров ответил что-то общее, а сам задумался – почему им не нужно большее, чем кресло менеджера или опцион 1 % компании?",
+      "en": "Durov gave some general answer, but wondered to himself—why didn't they need more than a manager's chair or a 1% option in the company?",
+      "zh": "杜罗夫给了一些笼统的回答，但他自己在想——为什么他们不需要比经理职位或公司1%的期权更多的东西？(Dùluófū gěile yīxiē lǒngtǒng de huídá, dàn tā zìjǐ zài xiǎng——wèishénme tāmen bù xūyào bǐ jīnglǐ zhíwèi huò gōngsī 1% de qīquán gèng duō de dōngxī?)",
+      "ja": "ドゥーロフは一般的な答えを返したが、自分自身に問いかけた——なぜ彼らはマネージャーの椅子や会社の1%のオプション以上のものを必要としないのか？"
+    },
+    {
+      "id": 11,
+      "ru": "Почему они боятся и не хотят пойти на шаг дальше?",
+      "en": "Why were they afraid and unwilling to go one step further?",
+      "zh": "为什么他们害怕，不愿意再往前走一步？(Wèishénme tāmen hàipà, bù yuànyì zài wǎng qián zǒu yī bù?)",
+      "ja": "なぜ彼らは恐れて、一歩先に進もうとしないのか？"
+    },
+    {
+      "id": 12,
+      "ru": "Широков вроде запустил свой стартап «Мой круг», «сеть профессиональных контактов», отучился в Стэнфорде – и… И что?",
+      "en": "Shirokov had launched his own startup 'My Circle,' a 'professional contacts network,' studied at Stanford—and... And what?",
+      "zh": "希罗科夫好像创办了自己的初创公司'My Circle'，一个'专业联系网络'，在斯坦福大学学习过——然后……然后呢？(Xīluókēfū hǎoxiàng chuàngbànle zìjǐ de chūchuàng gōngsī 'My Circle', yīgè 'zhuānyè liánxì wǎngluò', zài Sītǎnfú dàxué xuéxí guò——ránhòu... Ránhòu ne?)",
+      "ja": "シロコフは自分のスタートアップ「My Circle」、「プロフェッショナルコンタクトネットワーク」を立ち上げ、スタンフォードで学んだ——そして……それで？"
+    },
+    {
+      "id": 13,
+      "ru": "Не хватает дерзости идти до конца, наглости, за которую они меня не любят?",
+      "en": "Lacking the audacity to go all the way, the brazenness for which they don't like me?",
+      "zh": "缺乏走到底的胆量，缺乏他们不喜欢我的那种厚颜无耻？(Quēfá zǒu dào dǐ de dǎnliàng, quēfá tāmen bù xǐhuān wǒ de nà zhǒng hòuyánwúchǐ?)",
+      "ja": "最後まで行く大胆さ、彼らが私を嫌う原因となっている厚かましさが足りないのか？"
+    },
+    {
+      "id": 14,
+      "ru": "Позже Усманов, выступая по телевидению, рассказал, что да, управлять должны основатели, то есть Дуров.",
+      "en": "Later Usmanov, speaking on television, said that yes, founders should manage, meaning Durov.",
+      "zh": "后来乌斯马诺夫在电视上说，是的，创始人应该管理，也就是杜罗夫。(Hòulái Wūsīmǎnuòfū zài diànshì shàng shuō, shì de, chuàngshǐrén yīnggāi guǎnlǐ, yě jiùshì Dùluófū.)",
+      "ja": "後にウスマノフはテレビで、そうだ、創業者が経営すべきだ、つまりドゥーロフだと語った。"
+    },
+    {
+      "id": 15,
+      "ru": "Рунет возликовал по поводу развязки мыльной оперы «„ВКонтакте" против Mail.ru».",
+      "en": "RuNet rejoiced over the denouement of the soap opera 'VKontakte vs. Mail.ru.'",
+      "zh": "俄罗斯互联网为'VKontakte对Mail.ru'肥皂剧的结局欢呼雀跃。(Éluósī hùliánwǎng wèi 'VKontakte duì Mail.ru' féizào jù de jiéjú huānhū quèyuè.)",
+      "ja": "ルネットは「VK対Mail.ru」というメロドラマの結末に歓喜した。"
+    },
+    {
+      "id": 16,
+      "ru": "Но ее пузыри продолжали летать.",
+      "en": "But its bubbles kept floating.",
+      "zh": "但它的泡泡还在飘着。(Dàn tā de pàopào hái zài piāozhe.)",
+      "ja": "しかしその泡はまだ浮かんでいた。"
+    },
+    {
+      "id": 17,
+      "ru": "Слава и Лев общались с Усмановым по поводу стоимости их доли, и Дуров случайно оказался в курсе кое-каких новых сведений о компании.",
+      "en": "Slava and Lev were communicating with Usmanov about the value of their stake, and Durov accidentally became aware of some new information about the company.",
+      "zh": "斯拉瓦和列夫正在与乌斯马诺夫商讨他们的股份价值，杜罗夫偶然得知了一些关于公司的新信息。(Sīlāwǎ hé Lièfū zhèngzài yǔ Wūsīmǎnuòfū shāngtǎo tāmen de gǔfèn jiàzhí, Dùluófū ǒurán dézhīle yīxiē guānyú gōngsī de xīn xìnxī.)",
+      "ja": "スラヴァとレフはウスマノフと株式の価値について話し合っており、ドゥーロフは偶然、会社についてのいくつかの新しい情報を知ることになった。"
+    },
+    {
+      "id": 18,
+      "ru": "Тотем не сомневался в порядочности школьного друга, так как знал, что Мирилашвили не продался Mail.ru и не нарушал их договоренностей.",
+      "en": "The totem didn't doubt the decency of his school friend, as he knew Mirilashvili hadn't sold out to Mail.ru and hadn't violated their agreements.",
+      "zh": "图腾不怀疑他学校朋友的正直，因为他知道米里拉什维利没有卖给Mail.ru，也没有违反他们的协议。(Túténg bù huáiyí tā xuéxiào péngyǒu de zhèngzhí, yīnwèi tā zhīdào Mǐlǐlāshíwéilì méiyǒu mài gěi Mail.ru, yě méiyǒu wéifǎn tāmen de xiéyì.)",
+      "ja": "トーテムは学校時代の友人の誠実さを疑わなかった、ミリラシヴィリがMail.ruに売却せず、彼らの合意に違反していないことを知っていたからだ。"
+    },
+    {
+      "id": 19,
+      "ru": "Если бы Слава клял и ругал самого Дурова, тот бы отнесся с пониманием, но партнер пересек его границы добра и зла.",
+      "en": "If Slava had cursed and scolded Durov himself, he would have been understanding, but his partner had crossed his boundaries of good and evil.",
+      "zh": "如果斯拉瓦诅咒和责骂杜罗夫本人，他会理解的，但合伙人越过了他的善恶界限。(Rúguǒ Sīlāwǎ zǔzhòu hé zémà Dùluófū běnrén, tā huì lǐjiě de, dàn héhuǒrén yuèguòle tā de shàn'è jièxiàn.)",
+      "ja": "もしスラヴァがドゥーロフ自身を罵り非難したなら、彼は理解を示しただろうが、パートナーは彼の善悪の境界を越えた。"
+    },
+    {
+      "id": 20,
+      "ru": "Похоже, Дуров услышал что-то вроде того, что вес команды разработчиков в стоимости компании переоценён; «ВКонтакте» ценна скорее другими активами, не программистами.",
+      "en": "Apparently, Durov heard something like the development team's weight in the company's value was overrated; VKontakte was valuable more for other assets, not programmers.",
+      "zh": "显然，杜罗夫听到了类似开发团队在公司价值中的分量被高估了；VKontakte更多是因为其他资产而有价值，而不是程序员。(Xiǎnrán, Dùluófū tīng dàole lèisì kāifā tuánduì zài gōngsī jiàzhí zhōng de fènliàng bèi gāogūle; VKontakte gèng duō shì yīnwèi qítā zīchǎn ér yǒu jiàzhí, ér bùshì chéngxùyuán.)",
+      "ja": "どうやら、ドゥーロフは開発チームの会社価値における重みは過大評価されている、VKはプログラマーではなく他の資産でより価値があるというようなことを聞いたようだ。"
+    },
+    {
+      "id": 21,
+      "ru": "Не следует превозносить нёрдов.",
+      "en": "One shouldn't exalt nerds.",
+      "zh": "不应该过分推崇书呆子。(Bù yīnggāi guòfèn tuīchóng shūdāizi.)",
+      "ja": "ナードを持ち上げすぎてはいけない。"
+    },
+    {
+      "id": 22,
+      "ru": "Рассвирепевший Дуров вернулся в номер с коврами, вазой с орешками и запахом парфюма.",
+      "en": "The enraged Durov returned to the room with carpets, a vase of nuts, and the smell of perfume.",
+      "zh": "愤怒的杜罗夫回到了有地毯、装着坚果的花瓶和香水味的房间。(Fènnù de Dùluófū huí dàole yǒu dìtǎn, zhuāngzhe jiānguǒ de huāpíng hé xiāngshuǐ wèi de fángjiān.)",
+      "ja": "激怒したドゥーロフはカーペットとナッツの入った花瓶と香水の香りのある部屋に戻った。"
+    },
+    {
+      "id": 23,
+      "ru": "Сел за круглый стол из дуба с вертящейся крышкой, будто для вызова духов.",
+      "en": "He sat at a round oak table with a rotating top, as if for summoning spirits.",
+      "zh": "他坐在一张带有旋转桌面的圆形橡木桌前，好像是为了召唤灵魂。(Tā zuò zài yī zhāng dài yǒu xuánzhuǎn zhuōmiàn de yuánxíng xiàngmù zhuō qián, hǎoxiàng shì wèile zhàohuàn línghún.)",
+      "ja": "彼は回転する天板のある丸いオークのテーブルに座った、まるで霊を呼び出すためのように。"
+    },
+    {
+      "id": 24,
+      "ru": "Выпил энергетического напитка с фруктовым вкусом.",
+      "en": "He drank a fruit-flavored energy drink.",
+      "zh": "他喝了一杯水果味的能量饮料。(Tā hēle yī bēi shuǐguǒ wèi de néngliàng yǐnliào.)",
+      "ja": "フルーツ味のエナジードリンクを飲んだ。"
+    },
+    {
+      "id": 25,
+      "ru": "Решение оформилось так же быстро, как fuck в твиттере.",
+      "en": "The decision formed just as quickly as the fuck on Twitter.",
+      "zh": "决定形成得和推特上那个中指一样快。(Juédìng xíngchéng de hé tuītè shàng nàge zhōngzhǐ yīyàng kuài.)",
+      "ja": "決断はTwitterでの中指と同じくらい速く形になった。"
+    },
+    {
+      "id": 26,
+      "ru": "Пусть парни торгуются, но знают свое место.",
+      "en": "Let the guys haggle, but know their place.",
+      "zh": "让那些人讨价还价去吧，但要知道自己的位置。(Ràng nàxiē rén tǎojià huánjià qù ba, dàn yào zhīdào zìjǐ de wèizhì.)",
+      "ja": "連中に値切り交渉させてもいいが、自分の立場をわきまえさせよう。"
+    },
+    {
+      "id": 27,
+      "ru": "Жернова игры «Мафия» вертелись все стремительнее.",
+      "en": "The millstones of the 'Mafia' game were spinning ever faster.",
+      "zh": "'黑手党'游戏的磨盘转得越来越快。('Hēishǒudǎng' yóuxì de mópán zhuǎn de yuè lái yuè kuài.)",
+      "ja": "「マフィア」ゲームの石臼はますます速く回転していた。"
+    },
+    {
+      "id": 28,
+      "ru": "Консильери закрывают глаза.",
+      "en": "The consiglieri close their eyes.",
+      "zh": "军师们闭上眼睛。(Jūnshīmen bì shàng yǎnjīng.)",
+      "ja": "コンシリエーレたちは目を閉じる。"
+    },
+    {
+      "id": 29,
+      "ru": "Утро.",
+      "en": "Morning.",
+      "zh": "早晨。(Zǎochén.)",
+      "ja": "朝。"
+    },
+    {
+      "id": 30,
+      "ru": "Жители города проснулись.",
+      "en": "The townspeople have woken up.",
+      "zh": "城镇居民醒来了。(Chéngzhèn jūmín xǐng láile.)",
+      "ja": "街の住人たちが目覚めた。"
+    },
+    {
+      "id": 31,
+      "ru": "Акционеры открывают глаза и видят, что аккаунты двоих из них удалены.",
+      "en": "The shareholders open their eyes and see that the accounts of two of them have been deleted.",
+      "zh": "股东们睁开眼睛，发现他们中两人的账户被删除了。(Gǔdōngmen zhēng kāi yǎnjīng, fāxiàn tāmen zhōng liǎng rén de zhànghù bèi shānchúle.)",
+      "ja": "株主たちは目を開けると、二人のアカウントが削除されているのを見る。"
+    },
+    {
+      "id": 32,
+      "ru": "Позиции id3 и id4, которые пять лет назад получили Слава и Лев, оказались пустыми.",
+      "en": "Positions id3 and id4, which Slava and Lev had received five years ago, were empty.",
+      "zh": "五年前斯拉瓦和列夫获得的id3和id4位置空了。(Wǔ nián qián Sīlāwǎ hé Lièfū huòdé de id3 hé id4 wèizhì kōngle.)",
+      "ja": "5年前にスラヴァとレフが取得したid3とid4のポジションは空になっていた。"
+    },
+    {
+      "id": 33,
+      "ru": "Мало того, архитектор написал во все социальные сети, что запускает аукцион на вакантные места.",
+      "en": "Moreover, the architect wrote on all social networks that he was launching an auction for the vacant positions.",
+      "zh": "更重要的是，建筑师在所有社交网络上写道，他正在为空缺的位置发起拍卖。(Gèng zhòngyào de shì, jiànzhùshī zài suǒyǒu shèjiāo wǎngluò shàng xiě dào, tā zhèngzài wèi kōngquē de wèizhì fāqǐ pāimài.)",
+      "ja": "さらに、アーキテクトはすべてのソーシャルネットワークに、空いたポジションのオークションを開始すると書いた。"
+    },
+    {
+      "id": 34,
+      "ru": "Юридически виртуальное убийство было оформлено чисто – пользовательская оферта «ВКонтакте» гласила, что администрация может удалить любой аккаунт без объяснения причин.",
+      "en": "Legally, the virtual murder was clean—VKontakte's user agreement stated that the administration could delete any account without explanation.",
+      "zh": "从法律上讲，这次虚拟谋杀是干净的——VKontakte的用户协议规定，管理层可以在不解释原因的情况下删除任何账户。(Cóng fǎlǜ shàng jiǎng, zhè cì xūnǐ móushā shì gānjìng de——VKontakte de yònghù xiéyì guīdìng, guǎnlǐ céng kěyǐ zài bù jiěshì yuányīn de qíngkuàng xià shānchú rènhé zhànghù.)",
+      "ja": "法的には、この仮想殺人はクリーンだった——VKのユーザー規約は、管理者が説明なしに任意のアカウントを削除できると規定していた。"
+    },
+    {
+      "id": 35,
+      "ru": "Лишившись своих профилей, фотографий и записей, Слава и Лев остолбенели.",
+      "en": "Having lost their profiles, photos, and posts, Slava and Lev were stunned.",
+      "zh": "失去了他们的个人资料、照片和帖子，斯拉瓦和列夫惊呆了。(Shīqùle tāmen de gèrén zīliào, zhàopiàn hé tiězi, Sīlāwǎ hé Lièfū jīng dāile.)",
+      "ja": "プロフィール、写真、投稿を失い、スラヴァとレフは呆然とした。"
+    },
+    {
+      "id": 36,
+      "ru": "Дружба, походы за пончиками, бегство от неуместного лимузина, встреча через семь лет, раздача айподов в «Кофехаузе», вывоз серверов – жест Дурова разом обрушил все это.",
+      "en": "Friendship, doughnut runs, fleeing from the inappropriate limousine, the reunion after seven years, handing out iPods at Coffee House, hauling out servers—Durov's gesture had demolished all of this at once.",
+      "zh": "友谊、去买甜甜圈、逃离不合时宜的豪华轿车、七年后的重逢、在Coffee House发放iPod、搬运服务器——杜罗夫的举动一下子摧毁了这一切。(Yǒuyì, qù mǎi tiántiánquān, táolí bù héshíyí de háohuá jiàochē, qī nián hòu de chóngféng, zài Coffee House fāfàng iPod, bānyùn fúwùqì——Dùluófū de jǔdòng yīxià zi cuīhuǐle zhè yīqiè.)",
+      "ja": "友情、ドーナツを買いに行ったこと、場違いなリムジンからの逃走、7年後の再会、Coffee HouseでのiPod配布、サーバーの搬出——ドゥーロフのジェスチャーはこれらすべてを一度に崩壊させた。"
+    },
+    {
+      "id": 37,
+      "ru": "Партия катилась к эндшпилю.",
+      "en": "The game was rolling toward endgame.",
+      "zh": "这盘棋正走向残局。(Zhè pán qí zhèng zǒu xiàng cánjú.)",
+      "ja": "ゲームは終盤に向かっていた。"
+    },
+    {
+      "id": 38,
+      "ru": "Но Дурова эта игра уже не занимала.",
+      "en": "But Durov was no longer occupied with this game.",
+      "zh": "但杜罗夫已经对这个游戏不感兴趣了。(Dàn Dùluófū yǐjīng duì zhège yóuxì bù gǎn xìngqùle.)",
+      "ja": "しかしドゥーロフはもうこのゲームに興味がなくなっていた。"
+    },
+    {
+      "id": 39,
+      "ru": "«Пассажиры» не знали, что человеку в черном надоела торговля вокруг «ВКонтакте» и он обдумывает новый увлекательный квест.",
+      "en": "The 'passengers' didn't know that the man in black was tired of the trading around VKontakte and was contemplating a new exciting quest.",
+      "zh": "'乘客们'不知道，这个穿黑衣的人已经厌倦了围绕VKontakte的交易，正在考虑一个新的令人兴奋的任务。('Chéngkèmen' bù zhīdào, zhège chuān hēi yī de rén yǐjīng yànjuànle wéirào VKontakte de jiāoyì, zhèngzài kǎolǜ yīgè xīn de lìngrén xīngfèn de rènwù.)",
+      "ja": "「乗客たち」は、黒い服の男がVKをめぐる取引に飽きて、新しいエキサイティングなクエストを考えていることを知らなかった。"
+    }
+  ],
+  "translator_notes": "This dramatic page ends Chapter 6 with Durov's shocking move: deleting the VK accounts of his co-founders Slava Mirilashvili (id3) and Lev Leviev (id4). The trigger was Slava's apparent devaluation of the programmer team during negotiations with Usmanov. The 'Mafia' game metaphor (popular Russian social deduction game) frames it as a 'virtual murder.' The Kazakhstan president security sweep at the Ritz is comic relief. References to earlier chapters (doughnut runs, limousine escape, iPod distribution, server hauling) emphasize the magnitude of the betrayal. The 'new quest' foreshadows Telegram. Usmanов's TV statement about founder control seemed to resolve things, but the 'bubbles' (problems) continued.",
+  "total_sentences": 39,
+  "page_type": "narrative"
+}
