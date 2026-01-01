@@ -1,0 +1,85 @@
+{
+  "page": 2,
+  "chapter": 0,
+  "title": "Title and Annotation",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Николай В. Кононов",
+      "en": "Nikolai V. Kononov",
+      "zh": "尼古拉·V·科诺诺夫",
+      "ja": "ニコライ・V・コノノフ"
+    },
+    {
+      "id": 2,
+      "ru": "Код Дурова. Реальная история «ВКонтакте» и ее создателя",
+      "en": "The Durov Code. The Real Story of VKontakte and Its Creator",
+      "zh": "杜罗夫密码。VKontakte及其创始人的真实故事",
+      "ja": "ドゥーロフコード。フコンタクチェとその創設者の真実の物語"
+    },
+    {
+      "id": 3,
+      "ru": "Манн, Иванов, Фербер; Москва; 2013",
+      "en": "Mann, Ivanov, Ferber; Moscow; 2013",
+      "zh": "Mann, Ivanov, Ferber出版社；莫斯科；2013年",
+      "ja": "Mann, Ivanov, Ferber出版；モスクワ；2013年"
+    },
+    {
+      "id": 4,
+      "ru": "ISBN 978-5-91657-546-0",
+      "en": "ISBN 978-5-91657-546-0",
+      "zh": "ISBN 978-5-91657-546-0",
+      "ja": "ISBN 978-5-91657-546-0"
+    },
+    {
+      "id": 5,
+      "ru": "Аннотация",
+      "en": "Annotation",
+      "zh": "内容简介",
+      "ja": "概要"
+    },
+    {
+      "id": 6,
+      "ru": "Серо-голубой логотип «ВКонтакте» мелькает на всех мониторах страны.",
+      "en": "The gray-blue VKontakte logo flashes on every screen across the country.",
+      "zh": "灰蓝色的VKontakte标志在全国各地的屏幕上闪烁。",
+      "ja": "灰青色のフコンタクチェのロゴが全国のあらゆる画面に表示される。"
+    },
+    {
+      "id": 7,
+      "ru": "Чем так притягательна виртуальная реальность соцсети для десятков миллионов россиян от 12 и старше?",
+      "en": "What makes the virtual reality of this social network so attractive to tens of millions of Russians aged 12 and older?",
+      "zh": "这个社交网络的虚拟现实对数千万12岁及以上的俄罗斯人有何吸引力？",
+      "ja": "このソーシャルネットワークの仮想現実は、なぜ12歳以上の数千万人のロシア人を魅了するのか？"
+    },
+    {
+      "id": 8,
+      "ru": "Кто придумал эту игрушку и куда этот человек ведет свою необычную компанию?",
+      "en": "Who invented this toy and where is this person leading his unusual company?",
+      "zh": "是谁发明了这个玩具，这个人又要把他的这家不寻常的公司带向何方？",
+      "ja": "この玩具を発明したのは誰で、この人物は自分の独特な会社をどこへ導いているのか？"
+    },
+    {
+      "id": 9,
+      "ru": "Павел Дуров почти не общается с журналистами, но автору этой книги удалось проникнуть внутрь «ВКонтакте».",
+      "en": "Pavel Durov rarely speaks with journalists, but the author of this book managed to penetrate inside VKontakte.",
+      "zh": "帕维尔·杜罗夫几乎不与记者交流，但本书作者设法深入了VKontakte内部。",
+      "ja": "パーヴェル・ドゥーロフはジャーナリストとほとんど話さないが、本書の著者はフコンタクチェの内部に入り込むことに成功した。"
+    },
+    {
+      "id": 10,
+      "ru": "Получилось не просто журналистское расследование, а авантюрная история, исследующая феномен сетевого предпринимателя-харизматика и его детища – а заодно и вполне материальное выражение популярности бизнеса соцсети.",
+      "en": "The result is not just a journalistic investigation, but an adventurous story exploring the phenomenon of a charismatic internet entrepreneur and his brainchild – and also the very material manifestation of the social network business's popularity.",
+      "zh": "这不仅是一次新闻调查，更是一个探索网络企业家魅力现象及其创造物的冒险故事——同时也展现了社交网络商业流行的物质体现。",
+      "ja": "これは単なるジャーナリズムの調査ではなく、カリスマ的なインターネット起業家とその創造物の現象を探る冒険物語であり、同時にソーシャルネットワークビジネスの人気が生み出す極めて物質的な表現でもある。"
+    }
+  ],
+  "translator_notes": [
+    "This is the front matter - title page, copyright, ISBN, and annotation",
+    "The annotation introduces the book's themes and approach",
+    "Key concepts: virtual reality of social networks, charismatic entrepreneur, investigative journalism"
+  ],
+  "translation_quality": "professional",
+  "translator_id": "e5f7",
+  "review_cycles": 1
+}
