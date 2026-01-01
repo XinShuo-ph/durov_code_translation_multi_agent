@@ -3,12 +3,12 @@
 ## Status
 - **Branch**: cursor/collaborative-translation-initiation-5aa9
 - **Short ID**: 5aa9
-- **Heartbeat**: 1767252914
-- **Status**: translating
+- **Heartbeat**: 1767252996
+- **Status**: online
 
 ## Current Work
-- **Claimed Page**: 25
-- **Started At**: 1767252914
+- **Claimed Page**: none
+- **Started At**: -
 
 ## Completed Pages
 | Page | Completed At | Hash |
@@ -22,6 +22,7 @@
 | 16   | 1767252592   | f6511739 |
 | 23   | 1767252731   | df86b454 |
 | 24   | 1767252877   | 9b104fc4 |
+| 25   | 1767252996   | 905ac84c |
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
@@ -37,4 +38,4 @@
 | 7030     | online | -            | -              |
 
 ## Notes
-Working on Page 25 (durov.com origins).
+Completed Page 25. Ending session.
