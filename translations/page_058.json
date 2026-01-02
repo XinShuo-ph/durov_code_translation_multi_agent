@@ -1,0 +1,225 @@
+{
+  "page": 58,
+  "chapter": 4,
+  "chapter_title": "Сок черешни (Cherry Juice)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "будет осязаемое. Да, я так понимаю, о коммерции речи не идет. Я всю свою деятельность веду совершенно бесплатно.",
+      "en": "there's something tangible. Yes, I understand there's no talk of commerce. I conduct all my activities completely free of charge.",
+      "zh": "有了具体的东西。是的，我理解不涉及商业。我所有的活动都完全免费。",
+      "ja": "具体的なものがある。ええ、商業の話はしていないと理解しています。私はすべての活動を完全に無料で行っています。"
+    },
+    {
+      "id": 3,
+      "ru": "В узкий двор валил снег, и жители странной квартиры наблюдали, как колодец наполняется им, а гипсовая аллегория правосудия поправляет белый берет.",
+      "en": "Snow was pouring into the narrow courtyard, and the residents of the strange apartment watched as the well filled with it, while the plaster allegory of justice adjusted her white beret.",
+      "zh": "雪飘落进狭窄的庭院，这间奇怪公寓的居民看着雪井被填满，石膏做的正义寓言雕像调整着她的白色贝雷帽。",
+      "ja": "雪が狭い中庭に降り積もり、奇妙なアパートの住人たちは井戸が雪で満たされていくのを見ていた。石膏の正義の寓意像が白いベレー帽を直していた。"
+    },
+    {
+      "id": 4,
+      "ru": "Квартиру по-прежнему наводняли тени, но этим вечером они не сбились в чулан, а, бросив десктопы и ноуты, сошлись за столом в гостиной.",
+      "en": "The apartment was still flooded with shadows, but this evening they didn't huddle in the closet—instead, abandoning their desktops and laptops, they gathered around the table in the living room.",
+      "zh": "公寓里依然满是影子，但这个晚上他们没有挤在储物间里，而是放下台式机和笔记本电脑，在客厅的桌子旁聚集。",
+      "ja": "アパートには相変わらず影が溢れていたが、この夜は物置に集まらず、デスクトップとノートパソコンを置いて、リビングのテーブルに集まった。"
+    },
+    {
+      "id": 5,
+      "ru": "Чтобы не сидеть в темноте, включили свет, покинули сумрак и образовали круг.",
+      "en": "To avoid sitting in darkness, they turned on the light, left the twilight, and formed a circle.",
+      "zh": "为了不在黑暗中坐着，他们开了灯，离开了昏暗，围成一圈。",
+      "ja": "暗闘に座らないように、彼らは明かりをつけ、薄暗がりを離れ、輪を作った。"
+    },
+    {
+      "id": 6,
+      "ru": "Подступал 2009 год, и Дуров хотел обсудить, как развиваться дальше.",
+      "en": "2009 was approaching, and Durov wanted to discuss how to develop further.",
+      "zh": "2009年即将到来，杜罗夫想讨论如何进一步发展。",
+      "ja": "2009年が近づいており、ドゥーロフは今後の発展について話し合いたかった。"
+    },
+    {
+      "id": 7,
+      "ru": "Дилемма простая. Остаться небольшой группой, где каждый кодер выполняет титанические работы, или строить компанию с офисом, нанимать программистов и учиться делегировать задачи.",
+      "en": "The dilemma was simple. Remain a small group where each coder performs titanic work, or build a company with an office, hire programmers, and learn to delegate tasks.",
+      "zh": "困境很简单。是保持一个小团队，每个程序员都做着巨大的工作，还是建立一个有办公室的公司，雇用程序员，学会委派任务。",
+      "ja": "ジレンマは単純だった。各コーダーが巨大な仕事をこなす小さなグループのままでいるか、オフィスを持つ会社を作り、プログラマーを雇い、タスクを委任することを学ぶか。"
+    },
+    {
+      "id": 8,
+      "ru": "Ясно, что с улетающим в небо ростом аудитории придется расширяться – но когда? Прямо сейчас или позже?",
+      "en": "It was clear that with the sky-rocketing audience growth, they would have to expand—but when? Right now or later?",
+      "zh": "很明显，随着用户数量飞速增长，他们必须扩张——但什么时候？现在还是以后？",
+      "ja": "天まで届く勢いのオーディエンス成長で拡大しなければならないのは明らかだった——しかしいつ？今すぐか、それとも後で？"
+    },
+    {
+      "id": 9,
+      "ru": "Голоса разделились. Рогозов выступал за офис и рост численности кодеров.",
+      "en": "Opinions were divided. Rogozov advocated for an office and growing the number of coders.",
+      "zh": "意见分歧了。罗戈佐夫支持开设办公室并增加程序员数量。",
+      "ja": "意見は分かれた。ロゴゾフはオフィスとコーダーの数を増やすことを支持した。"
+    },
+    {
+      "id": 10,
+      "ru": "Дуров-старший допускал оба варианта. Его младший брат склонялся к подпольной деятельности.",
+      "en": "The elder Durov was open to both options. His younger brother leaned toward underground activity.",
+      "zh": "老杜罗夫对两种选择都持开放态度。他的弟弟倾向于地下活动。",
+      "ja": "兄のドゥーロフは両方の選択肢を容認した。弟は地下活動に傾いていた。"
+    },
+    {
+      "id": 11,
+      "ru": "Кузя и Столбовский сохраняли нейтралитет.",
+      "en": "Kuzya and Stolbovsky remained neutral.",
+      "zh": "库贾和斯托尔博夫斯基保持中立。",
+      "ja": "クージャとストルボフスキーは中立を保った。"
+    },
+    {
+      "id": 12,
+      "ru": "Разгорелся спор в классическом стиле «ВКонтакте».",
+      "en": "A debate erupted in classic VKontakte style.",
+      "zh": "一场典型的VKontakte风格的争论爆发了。",
+      "ja": "典型的なVKontakteスタイルの議論が始まった。"
+    },
+    {
+      "id": 13,
+      "ru": "Дуров вбросил провокационное предложение – забить на офис, – и сразу образовались партии консерваторов и умеренных обновленцев (отчаянных радикалов, как архитектор, до сих пор не завелось).",
+      "en": "Durov threw out a provocative proposal—forget about the office—and immediately parties of conservatives and moderate renewers formed (desperate radicals like the architect had not yet appeared).",
+      "zh": "杜罗夫抛出了一个挑衅性的提议——放弃办公室——保守派和温和改革派立即形成了（像总设计师这样的激进分子还没有出现）。",
+      "ja": "ドゥーロフは挑発的な提案を投げかけた——オフィスなんて忘れよう——すると保守派と穏健な改革派がすぐに形成された（建築家のような絶望的な急進派はまだ現れていなかった）。"
+    },
+    {
+      "id": 14,
+      "ru": "Партии часами обсуждали свои концепции с самых разных сторон – а потом было принято быстрое решение, противоположное тому, что вроде бы выкристаллизовалось в дискуссии.",
+      "en": "The parties spent hours discussing their concepts from every angle—and then a quick decision was made, opposite to what had seemingly crystallized in the discussion.",
+      "zh": "各派花了几个小时从各个角度讨论他们的概念——然后做出了一个快速决定，与讨论中似乎已经形成的结论相反。",
+      "ja": "各派は何時間も様々な角度から自分たちの概念を議論した——そして、議論で結晶化したかに見えたものとは逆の迅速な決定が下された。"
+    },
+    {
+      "id": 15,
+      "ru": "Как-то я поинтересовался у Николая Дурова, продуктивна ли эта шокотерапия.",
+      "en": "At some point I asked Nikolai Durov whether this shock therapy was productive.",
+      "zh": "有一次我问尼古拉·杜罗夫这种休克疗法是否有效。",
+      "ja": "ある時、私はニコライ・ドゥーロフにこのショック療法は生産的かどうか尋ねた。"
+    },
+    {
+      "id": 16,
+      "ru": "Николай откусил половину шоколадного батончика, вдумчиво прожевал и ответил: «Павел специально устраивает провокативные формы, чтобы стимулировать дискуссию и устранить сомнения, правильно ли мы все делаем.",
+      "en": "Nikolai bit off half a chocolate bar, chewed thoughtfully, and answered: \"Pavel deliberately stages provocative forms to stimulate discussion and eliminate doubts about whether we're doing everything right.",
+      "zh": "尼古拉咬了一半巧克力棒，若有所思地咀嚼着，回答说：「帕维尔故意制造挑衅性的形式来刺激讨论，消除我们是否做得对的疑虑。",
+      "ja": "ニコライはチョコレートバーを半分かじり、じっくり噛んで答えた：「パーヴェルは意図的に挑発的な形式を仕掛けて議論を刺激し、私たちがすべて正しくやっているかどうかの疑念を取り除きます。"
+    },
+    {
+      "id": 17,
+      "ru": "Например, говорит: „Это ненужный сервис”. Или: „Откроем все личные сообщения без учета приватности”. Или: „Давай дадим разработчику, который устроился, доступ к исходникам”.",
+      "en": "For example, he says: 'This is an unnecessary service.' Or: 'Let's open all private messages without considering privacy.' Or: 'Let's give a developer who just joined access to the source code.'",
+      "zh": "例如，他会说：『这是个不必要的服务。』或者：『让我们公开所有私信，不考虑隐私。』或者：『让我们给刚入职的开发人员源代码访问权限。』",
+      "ja": "例えば、『これは不要なサービスだ』と言う。または『プライバシーを考慮せずにすべてのプライベートメッセージを公開しよう』。または『入社したばかりの開発者にソースコードへのアクセスを与えよう』。"
+    },
+    {
+      "id": 18,
+      "ru": "Я сразу говорю, что так нельзя делать – с точки зрения приватности, безопасности».",
+      "en": "I immediately say that you can't do that—from the perspective of privacy, security.\"",
+      "zh": "我立刻说这样做不行——从隐私和安全的角度来看。」",
+      "ja": "私はすぐにそれはダメだと言います——プライバシーとセキュリティの観点から」。"
+    },
+    {
+      "id": 19,
+      "ru": "«А часто удается его переубедить?» – спросил я, вспомнив разговор с разработчиком Илларионовым, который утверждал, что в компании свобода мнений, но не смог вспомнить случая, когда кто-то уломал Дурова отменить желанное нововведение.",
+      "en": "\"And do you often manage to change his mind?\" I asked, recalling a conversation with developer Illarionov, who claimed there was freedom of opinion in the company but couldn't recall a case when someone convinced Durov to cancel a desired innovation.",
+      "zh": "「你经常能说服他吗？」我问道，想起了与开发人员伊拉里昂诺夫的对话，他声称公司里有言论自由，但想不起有谁说服杜罗夫取消过他想要的创新。",
+      "ja": "「彼を説得できることは多いですか？」私は尋ねた。開発者イラリオノフとの会話を思い出した。彼は会社には意見の自由があると主張したが、誰かがドゥーロフを説得して望んでいた革新を中止させた例を思い出せなかった。"
+    },
+    {
+      "id": 20,
+      "ru": "Николай погрузился в размышления. «Была идея приглашать в беседу человека через e-mail – это в том числе моими усилиями было отменено, – наконец ответил он.",
+      "en": "Nikolai sank into thought. \"There was an idea to invite people to a conversation via email—this was cancelled partly through my efforts,\" he finally answered.",
+      "zh": "尼古拉陷入沉思。「有一个通过电子邮件邀请人加入对话的想法——这在一定程度上是通过我的努力被取消的，」他终于回答道。",
+      "ja": "ニコライは考え込んだ。「メールで人を会話に招待するアイデアがありました——これは私の努力もあって中止されました」と彼はついに答えた。"
+    },
+    {
+      "id": 21,
+      "ru": "– Если бы мы начали рассылать спам, все почтовые службы могли нас забанить.",
+      "en": "\"If we had started sending spam, all email services could have banned us.\"",
+      "zh": "「如果我们开始发送垃圾邮件，所有邮件服务都可能会封禁我们。」",
+      "ja": "「もしスパムを送り始めたら、すべてのメールサービスが私たちをBANする可能性がありました。」"
+    },
+    {
+      "id": 22,
+      "ru": "Нет, Павел вряд ли предложит что-то безумное – например, сделать доступными публике все фотки пользователей.",
+      "en": "No, Pavel is unlikely to propose something crazy—for example, making all user photos publicly available.",
+      "zh": "不，帕维尔不太可能提出疯狂的建议——比如让所有用户照片公开可见。",
+      "ja": "いいえ、パーヴェルが狂ったことを提案することはまずない——例えば、すべてのユーザーの写真を公開するとか。"
+    },
+    {
+      "id": 23,
+      "ru": "Он очень хорошо понимает, как использовать провокации и что можно и нужно делать».",
+      "en": "He understands very well how to use provocations and what can and should be done.\"",
+      "zh": "他非常清楚如何使用挑衅，以及什么可以做、应该做。」",
+      "ja": "彼は挑発の使い方と、何ができて何をすべきかをよく理解しています」。"
+    },
+    {
+      "id": 24,
+      "ru": "«В его голове есть переключатель углов обзора, фокусировки, он видит ракурс проблемы, с которого видна заноза, – сформулировал Равдоникас.",
+      "en": "\"In his head there's a switch for viewing angles, focusing, he sees the perspective of a problem from which the splinter is visible,\" Ravdonikas formulated.",
+      "zh": "「在他的脑海里有一个切换视角和聚焦的开关，他能看到问题的角度，从中可以看到刺，」拉夫多尼卡斯这样表述。",
+      "ja": "「彼の頭の中には視点と焦点を切り替えるスイッチがあり、棘が見える問題の角度を見ることができる」とラヴドニカスは表現した。"
+    },
+    {
+      "id": 25,
+      "ru": "– Дурова в такие моменты ненавидишь – когда надо, он перевернет все с ног на голову.",
+      "en": "\"You hate Durov in such moments—when necessary, he'll turn everything upside down.",
+      "zh": "「在这种时刻你会讨厌杜罗夫——必要时他会把一切颠倒过来。",
+      "ja": "「そういう瞬間にはドゥーロフを憎む——必要なときには、彼はすべてをひっくり返す。"
+    },
+    {
+      "id": 26,
+      "ru": "Как в „Матрице”, его голова на 360° поворачивается.",
+      "en": "Like in 'The Matrix,' his head rotates 360°.",
+      "zh": "就像《黑客帝国》里一样，他的头可以旋转360度。",
+      "ja": "『マトリックス』のように、彼の頭は360度回転する。"
+    },
+    {
+      "id": 27,
+      "ru": "Ты бьешься целый день – ушел в какую-то сторону и углубляешься, а он приходит и с этого важного ракурса разрушает все твои построения, надо переделывать».",
+      "en": "You struggle all day—you've gone in some direction and are going deeper, and he comes and from this important angle destroys all your constructs, you have to redo everything.\"",
+      "zh": "你奋斗了一整天——朝某个方向走并深入进去，然后他来了，从这个重要的角度摧毁了你所有的构建，必须重做。」",
+      "ja": "一日中苦労して——ある方向に進んで深く入っていくと、彼がやって来てこの重要な角度からあなたのすべての構築を破壊し、やり直さなければならない」。"
+    },
+    {
+      "id": 28,
+      "ru": "Разработчик Андрей Мима писал, что провокации Дурова – способ менять продукт быстро, без ненавидимых им бюрократических проволочек.",
+      "en": "Developer Andrei Mima wrote that Durov's provocations are a way to change the product quickly, without the bureaucratic red tape he hates.",
+      "zh": "开发人员安德烈·米马写道，杜罗夫的挑衅是一种快速改变产品的方式，没有他讨厌的官僚主义繁文缛节。",
+      "ja": "開発者アンドレイ・ミマは、ドゥーロフの挑発は、彼が嫌いな官僚的な手続きなしに製品を迅速に変更する方法だと書いた。"
+    },
+    {
+      "id": 29,
+      "ru": "Если основатель в чем-то уверен, то не сдает позиций, пока не оттестирует свои идеи в бою. (Набрасывая этот пост,",
+      "en": "If the founder is confident about something, he doesn't give up his position until he tests his ideas in battle. (Drafting this post,",
+      "zh": "如果创始人对某件事有信心，他不会放弃自己的立场，直到在实战中测试他的想法。（在起草这篇帖子时，",
+      "ja": "創業者が何かを確信しているなら、彼はアイデアを実戦でテストするまで立場を譲らない。（この投稿を書いているとき、"
+    }
+  ],
+  "translator_notes": [
+    "Page 58 - Late 2008 discussion on VK's future direction",
+    "Sentence continues from previous page (correspondence ending)",
+    "Pivotal meeting as 2009 approaches - office vs underground debate",
+    "Poetic description of the apartment and winter atmosphere",
+    "Durov's 'shock therapy' debate style explained by Nikolai",
+    "Ravdonikas' quote about Durov's multi-perspective thinking",
+    "'Like The Matrix' - reference to famous 1999 film",
+    "Andreev described as 'самого-себе-и-неба-и-луны' (his own sky and moon) - emphasis on his independence",
+    "Developer Illarionov mentioned - internal culture of 'freedom' but Durov rarely reversed",
+    "Andrei Mima - VK developer who blogged about working with Durov",
+    "Sentence cut off at page end - continues on next page"
+  ],
+  "total_sentences": 29,
+  "page_type": "narrative"
+}

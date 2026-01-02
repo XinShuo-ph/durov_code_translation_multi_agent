@@ -1,0 +1,45 @@
+{
+  "page": 37,
+  "chapter": 2,
+  "chapter_title": "Архитектор (The Architect)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "версии, но не слышал щелчка над ухом, который знаменовал бы качественно новый поворот, в который он так хотел вложить все свое желание воздействовать на реальность.",
+      "en": "versions, but hadn't heard the click above his ear that would signify a qualitatively new turn, into which he so wanted to pour all his desire to affect reality.",
+      "zh": "版本，但没有听到耳边那声咔嗒声——那标志着一个质的新转折点，他非常想把他所有影响现实的愿望都投入其中。",
+      "ja": "バージョンを検討したが、質的に新しい転換点を示すカチッという音は耳元で聞こえなかった——彼はそこに現実に影響を与えたいという欲望のすべてを注ぎ込みたいと思っていた。"
+    },
+    {
+      "id": 3,
+      "ru": "«Миллион так миллион, – очнулся Дуров и с любопытством посмотрел на Перекопского. – Спорим».",
+      "en": "\"A million, then a million,\" Durov came to and looked at Perekopsky with curiosity. \"Let's bet.\"",
+      "zh": "「一百万就一百万，」杜罗夫回过神来，好奇地看着佩列科普斯基。「打赌吧。」",
+      "ja": "「100万なら100万だ」とドゥーロフは我に返り、好奇心を持ってペレコプスキーを見た。「賭けよう」"
+    },
+    {
+      "id": 4,
+      "ru": "Если бы он знал, что через год, когда Перекопский вспомнит о пари, его жизнь навсегда изменится благодаря одной случайной встрече, – свалился бы в обморок, как декан перед тысячеликим складнем.",
+      "en": "If he had known that in a year, when Perekopsky would remember the bet, his life would change forever thanks to one chance meeting—he would have fainted, like the dean before the thousand-faced folding icon.",
+      "zh": "如果他知道一年后，当佩列科普斯基想起这个赌约时，他的生活将因为一次偶然的相遇而永远改变——他会像院长在千面折叠画前那样晕倒。",
+      "ja": "もし彼が、1年後にペレコプスキーが賭けを思い出す時、一つの偶然の出会いのおかげで彼の人生が永遠に変わることを知っていたら——彼は千の顔を持つ折りたたみ聖画の前の学部長のように気絶していただろう。"
+    }
+  ],
+  "translator_notes": [
+    "Page 37 concludes Chapter 2 'The Architect'",
+    "This is the transition point - the bet between Durov and Perekopsky about who will have a million dollars in a year",
+    "The 'chance meeting' foreshadowed will be revealed in Chapter 3 - likely meeting with his brother or investor",
+    "The 'thousand-faced folding icon' (тысячеликий складень) refers back to Dean Bogdanov's 350-face art project",
+    "The chapter ending creates suspense for the next phase of Durov's story",
+    "The 'click above his ear' is a Russian idiom meaning a sudden insight or revelation"
+  ],
+  "total_sentences": 4,
+  "page_type": "narrative"
+}
