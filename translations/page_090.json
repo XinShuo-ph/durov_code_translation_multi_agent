@@ -1,0 +1,265 @@
+{
+  "page": 90,
+  "chapter": 7,
+  "chapter_title": "Запрещенный прием (Sucker Punch)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Когда я зашел в гости к Mail.ru, война с «ВКонтакте» приутихла, и стороны изредка обменивались колкостями.",
+      "en": "When I visited Mail.ru, the war with VKontakte had quieted down, and the sides occasionally exchanged barbs.",
+      "zh": "当我拜访Mail.ru时，与VKontakte的战争已经平息，双方偶尔会互相挖苦几句。",
+      "ja": "私がMail.ruを訪問した時、VKontakteとの戦争は静まり、双方は時折皮肉を交わしていた。"
+    },
+    {
+      "id": 3,
+      "ru": "Присутствовало ощущение, что это временное затишье и холдинг обдумывает ход, который повергнет дом Зингера в руины.",
+      "en": "There was a feeling that this was a temporary lull and the holding was contemplating a move that would reduce the Singer House to ruins.",
+      "zh": "有一种感觉，这只是暂时的平静，控股公司正在考虑一个将让辛格大楼化为废墟的举动。",
+      "ja": "これは一時的な静けさであり、ホールディングはシンガーハウスを廃墟にする手を考えているという感覚があった。"
+    },
+    {
+      "id": 4,
+      "ru": "Раскинувшись на оранжевом пуфе в застекленном отсеке зала «Одноклассников», где за партами сидели программисты и дизайнеры, Илья Широков объяснял, как перегонит Дурова.",
+      "en": "Sprawled on an orange pouf in a glass-enclosed section of the Odnoklassniki hall, where programmers and designers sat at desks, Ilya Shirokov explained how he would overtake Durov.",
+      "zh": "伊利亚·希罗科夫躺在Odnoklassniki大厅玻璃隔间的橙色坐垫上，程序员和设计师坐在办公桌前，他解释着他将如何超越杜罗夫。",
+      "ja": "プログラマーとデザイナーがデスクに座るオドノクラスニキホールのガラス張りのセクションで、オレンジ色のプーフに寝そべりながら、イリヤ・シロコフはどのようにドゥーロフを追い抜くかを説明した。"
+    },
+    {
+      "id": 5,
+      "ru": "«Одноклассники» запустили свою платформу для игр, причем хиты рекламировали за свой счет.",
+      "en": "Odnoklassniki launched their own gaming platform, and they advertised hits at their own expense.",
+      "zh": "Odnoklassniki推出了自己的游戏平台，并自费推广热门游戏。",
+      "ja": "オドノクラスニキは独自のゲームプラットフォームを立ち上げ、ヒット作を自費で宣伝した。"
+    },
+    {
+      "id": 6,
+      "ru": "Аудио– и видеохостинги привлекали юзеров удобством и дизайном – например, песни одной группы можно собрать в альбом и загрузить его оригинальную обложку.",
+      "en": "Audio and video hosting attracted users with convenience and design—for example, songs from one band could be compiled into an album and its original cover uploaded.",
+      "zh": "音频和视频托管以便利性和设计吸引用户——例如，一个乐队的歌曲可以汇编成专辑并上传原始封面。",
+      "ja": "オーディオとビデオホスティングは利便性とデザインでユーザーを引きつけた——例えば、一つのバンドの曲をアルバムにまとめてオリジナルカバーをアップロードできた。"
+    },
+    {
+      "id": 7,
+      "ru": "Широков открыл свою страницу и показал, как треки Pink Floyd скомпонованы в диск The Wall.",
+      "en": "Shirokov opened his page and showed how Pink Floyd tracks were compiled into The Wall album.",
+      "zh": "希罗科夫打开他的页面，展示了Pink Floyd的曲目是如何编排成《The Wall》专辑的。",
+      "ja": "シロコフは自分のページを開き、ピンク・フロイドのトラックがThe Wallアルバムにどのようにまとめられているかを見せた。"
+    },
+    {
+      "id": 8,
+      "ru": "Соцсеть сменила логотип на аббревиатуру ОК, изображенную в виде человечка, перевернутого набок.",
+      "en": "The social network changed its logo to the abbreviation OK, depicted as a little person turned on its side.",
+      "zh": "这个社交网络把标志换成了缩写OK，描绘成一个侧翻的小人。",
+      "ja": "ソーシャルネットワークはロゴを横に倒した小人の形で描かれたOKという略称に変更した。"
+    },
+    {
+      "id": 9,
+      "ru": "Превратив «Одноклассников» в продукт, интуитивно понятный даже новичку, Широков отбил у «ВКонтакте» малые города и поселки городского типа.",
+      "en": "Having turned Odnoklassniki into a product intuitively understandable even to a novice, Shirokov won back small towns and urban-type settlements from VKontakte.",
+      "zh": "通过将Odnoklassniki变成一个即使新手也能直观理解的产品，希罗科夫从VKontakte手中夺回了小城镇和城镇型居民点。",
+      "ja": "オドノクラスニキを初心者でも直感的に理解できる製品に変えることで、シロコフはVKontakteから小さな町や都市型集落を奪い返した。"
+    },
+    {
+      "id": 10,
+      "ru": "Дуров реагировал как сноб: «Как только утихнет волна новоподключившихся к интернету, провинциалы сами постепенно перейдут на более качественный ресурс.",
+      "en": "Durov reacted like a snob: \"As soon as the wave of newly connected internet users subsides, provincials will gradually switch to a higher-quality resource on their own.",
+      "zh": "杜罗夫反应得像个势利鬼：「一旦新上网用户的浪潮消退，省里人自然会逐渐转向更高质量的资源。",
+      "ja": "ドゥーロフはスノッブのように反応した：「新しくインターネットに接続したユーザーの波が収まれば、地方の人々は自然とより質の高いリソースに移行するだろう。"
+    },
+    {
+      "id": 11,
+      "ru": "Готовы ли мы разменять наше доминирование в столицах и мегаполисах (9 млн человек ежедневно заходят во „ВКонтакте” только из Москвы и Петербурга) на пенсионерок из провинциальных поселков и деревень ради того, чтобы остаться „самой массовой сетью”?",
+      "en": "Are we ready to trade our dominance in capitals and megacities (9 million people log into VKontakte daily from Moscow and Petersburg alone) for pensioners from provincial towns and villages just to remain the 'most massive network'?",
+      "zh": "我们是否准备好用我们在首都和大城市的主导地位（每天有900万人仅从莫斯科和圣彼得堡登录VKontakte）来换取省镇和村庄的退休人员，只是为了保持'最大规模的网络'？",
+      "ja": "首都と大都市での我々の支配（毎日900万人がモスクワとペテルブルクだけからVKontakteにログインしている）を、「最も大規模なネットワーク」であり続けるために地方の町や村の年金生活者と引き換える準備はできているか？"
+    },
+    {
+      "id": 12,
+      "ru": "Нет, не готовы.",
+      "en": "No, we're not ready.",
+      "zh": "不，我们没有准备好。",
+      "ja": "いいえ、準備はできていない。"
+    },
+    {
+      "id": 13,
+      "ru": "Потому что опыт показывает – если вас вышибли из столиц, в регионах вы можете иметь лишь временный успех.",
+      "en": "Because experience shows—if you've been knocked out of the capitals, in the regions you can only have temporary success.",
+      "zh": "因为经验表明——如果你被逐出首都，你在地区只能获得暂时的成功。",
+      "ja": "なぜなら経験が示すように——首都から追い出されれば、地方では一時的な成功しか得られない。"
+    },
+    {
+      "id": 14,
+      "ru": "Рано или поздно провинциалы подтягиваются за жителями столиц.",
+      "en": "Sooner or later provincials catch up with capital residents.",
+      "zh": "地方人民迟早会跟上首都居民。",
+      "ja": "遅かれ早かれ地方の人々は首都の住民に追いつく。"
+    },
+    {
+      "id": 15,
+      "ru": "Если „Одноклассники” и догонят „ВК”, то лишь до тех пор, пока более прогрессивные пользователи не покажут им то, что несоизмеримо удобнее и современнее.",
+      "en": "If Odnoklassniki catches up with VK, it will only be until more progressive users show them something incomparably more convenient and modern.",
+      "zh": "如果Odnoklassniki赶上VK，那只会持续到更进步的用户向他们展示更方便、更现代的东西。",
+      "ja": "もしオドノクラスニキがVKに追いつくとしても、より進歩的なユーザーが比較にならないほど便利で現代的なものを見せるまでのことだ。"
+    },
+    {
+      "id": 16,
+      "ru": "Каждый из нас знает множество людей, перешедших из „ОК” в „ВК”, но обратных случаев практически нет».",
+      "en": "Each of us knows many people who switched from OK to VK, but there are practically no reverse cases.\"",
+      "zh": "我们每个人都知道很多从OK转到VK的人，但几乎没有相反的情况。」",
+      "ja": "私たちの誰もがOKからVKに乗り換えた多くの人を知っているが、逆のケースはほとんどない」。"
+    },
+    {
+      "id": 17,
+      "ru": "До поры до времени он смотрел сквозь пальцы на сокращающийся аудиторный разрыв.",
+      "en": "For a while he turned a blind eye to the shrinking audience gap.",
+      "zh": "有一段时间他对不断缩小的用户差距视而不见。",
+      "ja": "しばらくの間、彼は縮小するオーディエンス格差に目をつぶっていた。"
+    },
+    {
+      "id": 18,
+      "ru": "В январе 2012 года разница оказалась мизерной – 30 млн против 31 млн пользователей в сутки.",
+      "en": "In January 2012, the difference was minuscule—30 million versus 31 million users per day.",
+      "zh": "2012年1月，差距微乎其微——每天3000万对3100万用户。",
+      "ja": "2012年1月、差は微々たるものだった——1日あたり3000万人対3100万人のユーザー。"
+    },
+    {
+      "id": 19,
+      "ru": "Выступая на мартовской конференции, «Одноклассники» заявили, что почти догнали.",
+      "en": "Speaking at a March conference, Odnoklassniki announced they had almost caught up.",
+      "zh": "在三月的会议上发言时，Odnoklassniki宣布他们几乎追上了。",
+      "ja": "3月の会議で発表した際、オドノクラスニキはほぼ追いついたと発表した。"
+    },
+    {
+      "id": 20,
+      "ru": "Но именно в этот момент «ВКонтакте» уходил в новый отрыв, и к лету разница в аудитории колебалась вокруг 5 млн пользователей.",
+      "en": "But at that very moment VKontakte was pulling away again, and by summer the audience difference fluctuated around 5 million users.",
+      "zh": "但就在那个时刻，VKontakte正在再次拉开差距，到夏天用户差距波动在500万左右。",
+      "ja": "しかしまさにその瞬間、VKontakteは再び引き離しており、夏までにオーディエンスの差は約500万ユーザー前後で変動していた。"
+    },
+    {
+      "id": 21,
+      "ru": "Через месяц Усманов встретился с Гришиным и Широковым.",
+      "en": "A month later Usmanov met with Grishin and Shirokov.",
+      "zh": "一个月后，乌斯马诺夫与格里申和希罗科夫会面。",
+      "ja": "1ヶ月後、ウスマノフはグリシンとシロコフと会った。"
+    },
+    {
+      "id": 22,
+      "ru": "В Москву приехал и Дуров – олигарх собирал подопечных на серьезную беседу.",
+      "en": "Durov also came to Moscow—the oligarch was gathering his wards for a serious conversation.",
+      "zh": "杜罗夫也来到了莫斯科——寡头正在召集他的门徒进行一次严肃的对话。",
+      "ja": "ドゥーロフもモスクワに来た——オリガルヒは真剣な会話のために配下を集めていた。"
+    },
+    {
+      "id": 23,
+      "ru": "В Mail.ru, похоже, не знали истинной цели Усманова.",
+      "en": "At Mail.ru, it seems they didn't know Usmanov's true purpose.",
+      "zh": "在Mail.ru，他们似乎不知道乌斯马诺夫的真正目的。",
+      "ja": "Mail.ruでは、ウスマノフの真の目的を知らなかったようだ。"
+    },
+    {
+      "id": 24,
+      "ru": "Так же как и переговоры в Шереметьевском дворце, детали этой встречи участники не комментировали, но сопоставив впечатления разных сторон (в том числе с помощью коллег из Forbes), удалось восстановить примерный ход разговора.",
+      "en": "Just like the negotiations at Sheremetevsky Palace, the participants did not comment on the details of this meeting, but by comparing impressions from different sides (including with the help of colleagues from Forbes), it was possible to reconstruct the approximate course of the conversation.",
+      "zh": "就像在谢列梅捷沃宫的谈判一样，参与者没有评论这次会议的细节，但通过比较不同方面的印象（包括Forbes同事的帮助），可以重建对话的大致过程。",
+      "ja": "シェレメテフスキー宮殿での交渉と同様に、参加者はこの会議の詳細についてコメントしなかったが、様々な側からの印象を比較することで（Forbesの同僚の助けも含め）、会話のおおよその経過を再構成することができた。"
+    },
+    {
+      "id": 25,
+      "ru": "Сначала Усманов огорошил Гришина и Широкова известием, что слиться Mail.ru и «ВКонтакте» не суждено.",
+      "en": "First, Usmanov stunned Grishin and Shirokov with the news that Mail.ru and VKontakte were not destined to merge.",
+      "zh": "首先，乌斯马诺夫用Mail.ru和VKontakte注定不会合并的消息震惊了格里申和希罗科夫。",
+      "ja": "まず、ウスマノフはMail.ruとVKontakteが合併する運命にはないという知らせでグリシンとシロコフを驚かせた。"
+    },
+    {
+      "id": 26,
+      "ru": "Произносимые им слова – вроде «две разные культуры», «конкуренция», «стимулировать друг друга» – вызвали лютый баттхерт менеджеров.",
+      "en": "The words he spoke—like \"two different cultures,\" \"competition,\" \"stimulate each other\"—caused fierce butthurt among the managers.",
+      "zh": "他说的话——比如「两种不同的文化」、「竞争」、「相互刺激」——让经理们极度恼火。",
+      "ja": "「二つの異なる文化」「競争」「互いを刺激する」といった彼の言葉は、マネージャーたちに激しい苛立ちを引き起こした。"
+    },
+    {
+      "id": 27,
+      "ru": "Еще сильнее они загрустили, когда Усманов намекнул, что Дурову следует самостоятельно управлять компанией.",
+      "en": "They became even sadder when Usmanov hinted that Durov should manage the company independently.",
+      "zh": "当乌斯马诺夫暗示杜罗夫应该独立管理公司时，他们更加沮丧了。",
+      "ja": "ウスマノフがドゥーロフは独自に会社を経営すべきだと示唆した時、彼らはさらに悲しくなった。"
+    },
+    {
+      "id": 28,
+      "ru": "Фактически это означало, что ему отдадут в управление пакет Mail.ru.",
+      "en": "In effect, this meant that Mail.ru's stake would be given to him to manage.",
+      "zh": "实际上这意味着Mail.ru的股份将交给他管理。",
+      "ja": "事実上、これはMail.ruの株式が彼の管理下に入ることを意味した。"
+    },
+    {
+      "id": 29,
+      "ru": "Тотем получит право одобрять свои же решения, и парни из кинофотоинститута ему не указ.",
+      "en": "The totem would get the right to approve his own decisions, and the guys from the film and photo institute wouldn't tell him what to do.",
+      "zh": "图腾将获得批准自己决定的权利，电影摄影学院的家伙们无权指挥他。",
+      "ja": "トーテムは自分自身の決定を承認する権利を得て、映画写真学校の連中は彼に指図できなくなる。"
+    },
+    {
+      "id": 30,
+      "ru": "Затем Усманов анонсировал то, что они с Дуровым обсуждали во дворце, – он думает о выкупе долей Мирилашвили и Левиева.",
+      "en": "Then Usmanov announced what he and Durov had discussed at the palace—he was thinking about buying out Mirilashvili's and Leviev's shares.",
+      "zh": "然后乌斯马诺夫宣布了他和杜罗夫在宫殿里讨论的事情——他正在考虑收购米里拉什维利和列维耶夫的股份。",
+      "ja": "次にウスマノフは、宮殿でドゥーロフと話し合ったことを発表した——ミリラシビリとレビエフの株式を買い取ることを考えている。"
+    },
+    {
+      "id": 31,
+      "ru": "Это были лишь планы, но любом случае Гришин был шокирован, а его амбиции слегка поутихли.",
+      "en": "These were just plans, but in any case Grishin was shocked, and his ambitions somewhat subsided.",
+      "zh": "这些只是计划，但无论如何格里申被震惊了，他的野心也稍微收敛了。",
+      "ja": "これらはまだ計画に過ぎなかったが、いずれにせよグリシンはショックを受け、彼の野心は少し収まった。"
+    },
+    {
+      "id": 32,
+      "ru": "Понимая, что стратегические позиции надо удерживать с любым акционером, Дуров предложил пофантазировать – может быть, ему выкупить, скажем, 60 %?",
+      "en": "Understanding that strategic positions must be held with any shareholder, Durov suggested fantasizing—maybe he should buy, say, 60%?",
+      "zh": "理解到战略地位必须与任何股东保持，杜罗夫提议幻想一下——也许他应该买下，比如说，60%？",
+      "ja": "どの株主とも戦略的な立場を維持しなければならないことを理解し、ドゥーロフは空想を提案した——たとえば、60%を買収したらどうだろうか？"
+    },
+    {
+      "id": 33,
+      "ru": "А что: он основатель, заслужил контрольный пакет.",
+      "en": "And why not: he's the founder, he deserves the controlling stake.",
+      "zh": "为什么不呢：他是创始人，他配得上控股权。",
+      "ja": "なぜだめだ：彼は創業者であり、支配権を得る資格がある。"
+    },
+    {
+      "id": 34,
+      "ru": "Лица у Широкова с Гришиным вытянулись, а Усманов произнес спич на тему скромности.",
+      "en": "Shirokov's and Grishin's faces fell, and Usmanov gave a speech on the topic of modesty.",
+      "zh": "希罗科夫和格里申的脸都拉长了，乌斯马诺夫发表了一篇关于谦虚的演讲。",
+      "ja": "シロコフとグリシンの顔は引きつり、ウスマノフは謙虚さについてのスピーチをした。"
+    },
+    {
+      "id": 35,
+      "ru": "Позже, в интервью коллеге Игуменову он",
+      "en": "Later, in an interview with colleague Igumenov, he",
+      "zh": "后来，在接受同事伊古梅诺夫采访时，他",
+      "ja": "後に、同僚のイグメノフとのインタビューで、彼は"
+    }
+  ],
+  "translator_notes": [
+    "Page 90 - VK vs Odnoklassniki rivalry, Usmanov meeting, share buyout plans",
+    "Connects to graph metaphor from page 89 - blue (VK) vs orange (OK)",
+    "January 2012 - closest point: 30M vs 31M daily users",
+    "'Butthurt' (баттхерт) - Russian internet slang borrowed from English",
+    "Film and photo institute - VGIK, where Grishin studied",
+    "Usmanov announced no merger would happen",
+    "Durov proposed buying 60% controlling stake",
+    "'Totem' - recurring term for VK as sacred object",
+    "Page ends mid-sentence about Igumenov interview"
+  ],
+  "total_sentences": 35,
+  "page_type": "narrative"
+}

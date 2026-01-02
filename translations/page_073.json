@@ -1,0 +1,252 @@
+{
+  "page": 73,
+  "chapter": 6,
+  "chapter_title": "Стена (The Wall)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Но и этого оказалось мало. Жаловались именно те издатели, которым мы помогали все удалять.",
+      "en": "But even this wasn't enough. The very publishers we helped delete everything were the ones complaining.",
+      "zh": "但这还不够。抱怨的恰恰是那些我们帮助删除所有内容的出版商。",
+      "ja": "しかしこれでも足りなかった。苦情を言っていたのは、まさに我々がすべて削除するのを手伝った出版社だった。"
+    },
+    {
+      "id": 3,
+      "ru": "А западные издатели тем временем молча собирали рекордные прибыли в российских кинотеатрах при существующих копиях своих фильмов „ВКонтакте” и на других российских UGC-ресурсах.",
+      "en": "Meanwhile, Western publishers quietly collected record profits in Russian cinemas while copies of their films existed on VKontakte and other Russian UGC resources.",
+      "zh": "与此同时，西方出版商在俄罗斯电影院默默地获取创纪录的利润，尽管他们的电影副本存在于VKontakte和其他俄罗斯UGC资源上。",
+      "ja": "一方、西洋の出版社は、自分たちの映画のコピーがVKontakteや他のロシアのUGCリソースに存在する中で、ロシアの映画館で黙々と記録的な利益を上げていた。"
+    },
+    {
+      "id": 4,
+      "ru": "При этом американские мейджоры покупали рекламу фильмов, а большинство отечественных кинопродюсеров – бойкотировали.",
+      "en": "At the same time, American majors bought film advertising, while most domestic film producers boycotted.",
+      "zh": "与此同时，美国大公司购买电影广告，而大多数国内电影制片人则抵制。",
+      "ja": "同時に、アメリカのメジャーは映画広告を購入したが、国内の映画プロデューサーの大半はボイコットした。"
+    },
+    {
+      "id": 5,
+      "ru": "Например, из США на нас жалуются скорее издатели музыки.",
+      "en": "For example, from the US it's more the music publishers who complain about us.",
+      "zh": "例如，从美国向我们投诉的更多是音乐出版商。",
+      "ja": "例えば、アメリカから我々に苦情を言うのはむしろ音楽出版社だ。"
+    },
+    {
+      "id": 6,
+      "ru": "У некоторых российских издателей или у всей нашей киноиндустрии есть какие-то внутренние проблемы, которые они не осознают или которые им не хотелось бы признавать.",
+      "en": "Some Russian publishers or our entire film industry have some internal problems that they don't realize or don't want to admit.",
+      "zh": "一些俄罗斯出版商或我们整个电影行业存在一些他们没有意识到或不愿承认的内部问题。",
+      "ja": "一部のロシアの出版社、または我々の映画産業全体には、彼らが認識していない、または認めたくない内部的な問題がある。"
+    },
+    {
+      "id": 7,
+      "ru": "С ними невозможно договориться, они живут в прошлом веке и хотят заставить людей платить немалые деньги за то, что лежит в торрентах в более качественном формате бесплатно».",
+      "en": "It's impossible to negotiate with them, they live in the past century and want to make people pay considerable money for what's available on torrents in better quality for free.\"",
+      "zh": "与他们无法协商，他们活在上个世纪，想让人们为免费在种子上以更好质量存在的东西付出大笔钱。」",
+      "ja": "彼らと交渉することは不可能だ、彼らは前世紀に生きていて、トレントで無料でより高品質で入手できるものに多額のお金を払わせようとしている」。"
+    },
+    {
+      "id": 8,
+      "ru": "Позже я общался с главой «Одноклассников» Ильей Широковым – после того, как они запустили аудиохостинг.",
+      "en": "Later I spoke with the head of Odnoklassniki, Ilya Shirokov—after they launched audio hosting.",
+      "zh": "后来我与Odnoklassniki的负责人伊利亚·希罗科夫交谈——在他们推出音频托管之后。",
+      "ja": "後に私はOdnoklassnikiの責任者イリヤ・シロコフと話した——彼らがオーディオホスティングを開始した後だ。"
+    },
+    {
+      "id": 9,
+      "ru": "Широков подчеркивал, что, в отличие от «ВКонтакте», он горой за правообладателей.",
+      "en": "Shirokov emphasized that, unlike VKontakte, he was completely behind rights holders.",
+      "zh": "希罗科夫强调，与VKontakte不同，他完全支持版权持有人。",
+      "ja": "シロコフは、VKontakteとは異なり、彼は権利保有者を全面的に支持していると強調した。"
+    },
+    {
+      "id": 10,
+      "ru": "«А, так у вас на выложенные песни подписаны контракты?» – поинтересовался я.",
+      "en": "\"Oh, so you have signed contracts for the posted songs?\" I asked.",
+      "zh": "「哦，所以你们对上传的歌曲有签署合同？」我问。",
+      "ja": "「ああ、つまり投稿された曲には契約が署名されているのか？」と私は尋ねた。"
+    },
+    {
+      "id": 11,
+      "ru": "Широков сделал жест, символизирующий сложность вопроса.",
+      "en": "Shirokov made a gesture symbolizing the complexity of the question.",
+      "zh": "希罗科夫做了一个象征问题复杂性的手势。",
+      "ja": "シロコフは質問の複雑さを象徴するジェスチャーをした。"
+    },
+    {
+      "id": 12,
+      "ru": "Оказалось, они с Гришиным бились с правообладателями два года, а потом махнули рукой и запустили хостинг, куда любой может закачать песню.",
+      "en": "It turned out that he and Grishin had fought with rights holders for two years, then gave up and launched hosting where anyone could upload a song.",
+      "zh": "结果表明，他和格里申与版权持有人斗争了两年，然后放弃了，推出了任何人都可以上传歌曲的托管。",
+      "ja": "結局、彼とグリシンは2年間権利保有者と戦い、その後諦めて誰でも曲をアップロードできるホスティングを開始したことがわかった。"
+    },
+    {
+      "id": 13,
+      "ru": "Мейджорам они продали эту новацию как «тестовый вариант».",
+      "en": "They sold this innovation to the majors as a \"test version.\"",
+      "zh": "他们把这项创新作为「测试版本」卖给了大公司。",
+      "ja": "彼らはこの革新をメジャーに「テストバージョン」として売り込んだ。"
+    },
+    {
+      "id": 14,
+      "ru": "Дуров считал хозяев контента, отказавшихся конструктивно сотрудничать, кем-то вроде избалованных работорговцев.",
+      "en": "Durov considered content owners who refused to cooperate constructively as something like spoiled slave traders.",
+      "zh": "杜罗夫认为拒绝建设性合作的内容所有者就像被宠坏的奴隶贩子。",
+      "ja": "ドゥーロフは建設的に協力することを拒否したコンテンツ所有者を、甘やかされた奴隷商人のようなものと考えていた。"
+    },
+    {
+      "id": 15,
+      "ru": "По его мнению, вместо того чтобы менять стратегию и каналы дистрибуции, правообладатели хотели руками «ВКонтакте» душить юзеров, а после отказа призывали государство к репрессиям.",
+      "en": "In his opinion, instead of changing strategy and distribution channels, rights holders wanted VKontakte's hands to strangle users, and after refusal, called on the state for repression.",
+      "zh": "在他看来，版权持有人不想改变战略和分销渠道，而是想让VKontakte去扼杀用户，被拒绝后就呼吁国家进行镇压。",
+      "ja": "彼の意見では、戦略と流通チャネルを変える代わりに、権利保有者はVKontakteの手でユーザーを締め付けようとし、拒否された後は国家に弾圧を求めた。"
+    },
+    {
+      "id": 16,
+      "ru": "С другой стороны, Дуров задумывался о том, чтобы вывести компанию на биржу – так можно было поднять денег на дальнейший рост и удовлетворить желание Славы и Льва зафиксировать прибыль.",
+      "en": "On the other hand, Durov was thinking about taking the company public—this way he could raise money for further growth and satisfy Slava and Lev's desire to lock in profits.",
+      "zh": "另一方面，杜罗夫考虑让公司上市——这样可以筹集资金进一步发展，并满足斯拉瓦和列夫锁定利润的愿望。",
+      "ja": "一方で、ドゥーロフは会社を上場させることを考えていた——こうすればさらなる成長のための資金を調達し、スラヴァとレフの利益確定の願望を満たすことができる。"
+    },
+    {
+      "id": 17,
+      "ru": "И здесь начинались проблемы.",
+      "en": "And here the problems began.",
+      "zh": "问题就从这里开始了。",
+      "ja": "そしてここから問題が始まった。"
+    },
+    {
+      "id": 18,
+      "ru": "Продавать дальше акции значило потерять контроль.",
+      "en": "Selling more shares meant losing control.",
+      "zh": "出售更多股份意味着失去控制权。",
+      "ja": "さらに株式を売却することは支配権を失うことを意味した。"
+    },
+    {
+      "id": 19,
+      "ru": "Акционеры не приветствовали идею опционов для лучших сотрудников – Дурову с трудом удавалось выбивать инвестирование части дивидендов в развитие.",
+      "en": "Shareholders didn't welcome the idea of options for the best employees—Durov struggled to squeeze out investing part of the dividends into development.",
+      "zh": "股东们不欢迎给最优秀员工期权的想法——杜罗夫很难争取到将部分股息投资于发展。",
+      "ja": "株主は優秀な従業員へのオプションのアイデアを歓迎しなかった——ドゥーロフは配当の一部を開発に投資させることに苦労した。"
+    },
+    {
+      "id": 20,
+      "ru": "Партнеры хотели денег и не принимали идею вложить в развитие всю прибыль.",
+      "en": "Partners wanted money and didn't accept the idea of investing all profits into development.",
+      "zh": "合作伙伴想要钱，不接受将所有利润投入发展的想法。",
+      "ja": "パートナーはお金を望み、すべての利益を開発に投資するアイデアを受け入れなかった。"
+    },
+    {
+      "id": 21,
+      "ru": "Между тотемом и основателями расширялась трещина.",
+      "en": "A crack was widening between the totem and the founders.",
+      "zh": "图腾和创始人之间的裂缝正在扩大。",
+      "ja": "トーテムと創設者の間に亀裂が広がっていた。"
+    },
+    {
+      "id": 22,
+      "ru": "Они по-прежнему дружили и часами спорили о Торе, которую изучал Слава, – но разница в отношении к деньгам бесила обе стороны.",
+      "en": "They were still friends and argued for hours about the Torah that Slava was studying—but the difference in attitude toward money infuriated both sides.",
+      "zh": "他们仍然是朋友，还会就斯拉瓦正在学习的托拉争论几个小时——但对金钱态度的差异让双方都很恼火。",
+      "ja": "彼らはまだ友人であり、スラヴァが勉強していたトーラーについて何時間も議論した——しかしお金に対する態度の違いは双方を激怒させた。"
+    },
+    {
+      "id": 23,
+      "ru": "Еще один риск при выходе на биржу крылся в контенте.",
+      "en": "Another risk in going public lay in the content.",
+      "zh": "上市的另一个风险在于内容。",
+      "ja": "上場におけるもう一つのリスクはコンテンツにあった。"
+    },
+    {
+      "id": 24,
+      "ru": "О размещении акций на западных биржах с дуровским подходом к интеллектуальной собственности можно было не мечтать.",
+      "en": "Listing shares on Western exchanges with Durov's approach to intellectual property was out of the question.",
+      "zh": "以杜罗夫对知识产权的态度在西方交易所上市股票是不可能的。",
+      "ja": "ドゥーロフの知的財産に対するアプローチでは、西洋の取引所に株式を上場することは夢にも思えなかった。"
+    },
+    {
+      "id": 25,
+      "ru": "Например, банкир, участвовавший в IPO «Яндекса», утверждал, что без урегулирования всех вопросов о пиратском контенте «ВКонтакте» вряд ли что-либо светит.",
+      "en": "For example, a banker who participated in Yandex's IPO claimed that without resolving all issues about pirated content, VKontakte had little chance.",
+      "zh": "例如，一位参与Yandex IPO的银行家声称，如果不解决所有关于盗版内容的问题，VKontakte几乎没有希望。",
+      "ja": "例えば、YandexのIPOに参加した銀行家は、海賊版コンテンツに関するすべての問題を解決しなければ、VKontakteには希望がないと主張した。"
+    },
+    {
+      "id": 26,
+      "ru": "Учитывая эти факторы, Дуров пятился, отдавая правообладателям все больше прав.",
+      "en": "Considering these factors, Durov was backing down, giving rights holders more and more rights.",
+      "zh": "考虑到这些因素，杜罗夫正在退让，给版权持有人越来越多的权利。",
+      "ja": "これらの要因を考慮して、ドゥーロフは後退し、権利保有者にますます多くの権利を与えていた。"
+    },
+    {
+      "id": 27,
+      "ru": "Схожая история происходила с порнографией, наличие которой пришлось бы объяснить инвесторам перед IPO.",
+      "en": "A similar story was happening with pornography, the presence of which would have to be explained to investors before an IPO.",
+      "zh": "类似的事情也发生在色情内容上，在IPO之前必须向投资者解释其存在。",
+      "ja": "同様のことがポルノグラフィーでも起きていた、その存在はIPO前に投資家に説明しなければならないだろう。"
+    },
+    {
+      "id": 28,
+      "ru": "Соцсеть жестко блокировала детскую порнографию, но к остальной относилась прохладно.",
+      "en": "The social network strictly blocked child pornography, but was lukewarm about the rest.",
+      "zh": "社交网络严格封锁儿童色情，但对其他色情内容态度冷淡。",
+      "ja": "ソーシャルネットワークは児童ポルノを厳しくブロックしていたが、それ以外には冷淡だった。"
+    },
+    {
+      "id": 29,
+      "ru": "Если в поиск по видео вбить запросы на тему секса – независимо от дней недели и времени суток, – примерно половина выдачи окажется порнороликами, выложенными в обход спам-робота.",
+      "en": "If you enter sex-related queries in the video search—regardless of the day of the week or time of day—approximately half the results would be porn videos uploaded bypassing the spam robot.",
+      "zh": "如果在视频搜索中输入与性相关的查询——无论星期几或一天中的什么时间——大约一半的结果会是绕过垃圾邮件机器人上传的色情视频。",
+      "ja": "動画検索に性関連のクエリを入力すると——曜日や時間帯に関係なく——結果の約半分はスパムロボットを迂回してアップロードされたポルノ動画だった。"
+    },
+    {
+      "id": 30,
+      "ru": "Неудивительно, что в сети появилось письмо «к администрации и акционерам социальной сети „Вконтакте”»:",
+      "en": "Not surprisingly, a letter \"to the administration and shareholders of the social network VKontakte\" appeared online:",
+      "zh": "不出所料，网上出现了一封「致VKontakte社交网络管理层和股东」的信：",
+      "ja": "驚くことではないが、「ソーシャルネットワークVKontakteの管理者と株主へ」という手紙がネット上に現れた："
+    },
+    {
+      "id": 31,
+      "ru": "«Ничто не мешает тому, чтобы в поиске внутри сайта пользователи без труда находили порно и пересылали его друг другу.",
+      "en": "\"Nothing prevents users from easily finding porn in the site's search and forwarding it to each other.",
+      "zh": "「没有什么能阻止用户在网站内搜索中轻松找到色情内容并相互转发。",
+      "ja": "「ユーザーがサイト内検索で簡単にポルノを見つけ、互いに転送することを妨げるものは何もない。"
+    },
+    {
+      "id": 32,
+      "ru": "Такое попустительство равно поощрению.",
+      "en": "Such permissiveness equals encouragement.",
+      "zh": "这种纵容等于鼓励。",
+      "ja": "このような放任は奨励に等しい。"
+    },
+    {
+      "id": 33,
+      "ru": "Фактически вы потворствуете развращению целого поколения юных интернет-пользователей. <… >",
+      "en": "In fact, you are encouraging the corruption of an entire generation of young internet users. <...>",
+      "zh": "事实上，你们正在助长整整一代年轻互联网用户的堕落。<...>",
+      "ja": "実際、あなたたちは若いインターネットユーザーの世代全体の堕落を助長している。<...>"
+    }
+  ],
+  "translator_notes": [
+    "Page 73 - Copyright battles continue, IPO considerations, internal tensions",
+    "UGC - User Generated Content",
+    "Ilya Shirokov - head of Odnoklassniki (competing Russian social network)",
+    "Grishin - Dmitry Grishin, Mail.ru Group CEO",
+    "'Spoiled slave traders' - Durov's harsh characterization of content owners",
+    "Torah - Jewish scripture that Slava Mirolyubov was studying",
+    "'Totem' - referring to Durov as the company's symbolic figurehead",
+    "Slava and Lev - Mironyubov and Leviev, original investors/partners",
+    "Yandex IPO - Russian search engine went public on NASDAQ in 2011",
+    "Content moderation challenges affecting IPO prospects"
+  ],
+  "total_sentences": 33,
+  "page_type": "narrative"
+}

@@ -1,0 +1,72 @@
+{
+  "page": 4,
+  "chapter": 0,
+  "chapter_title": "Front Matter (Book Recommendations)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Николай Кононов",
+      "en": "Nikolai Kononov",
+      "zh": "尼古拉·科诺诺夫",
+      "ja": "ニコライ・コノノフ"
+    },
+    {
+      "id": 3,
+      "ru": "Код Дурова. Реальная история «ВКонтакте» и ее создателя",
+      "en": "Durov's Code: The Real Story of VKontakte and Its Creator",
+      "zh": "杜罗夫密码：VKontakte及其创始人的真实故事",
+      "ja": "ドゥーロフの暗号：VKontakteとその創設者の真実の物語"
+    },
+    {
+      "id": 4,
+      "ru": "Эту книгу хорошо дополняют:",
+      "en": "This book pairs well with:",
+      "zh": "以下书籍与本书相得益彰：",
+      "ja": "本書と合わせて読みたい本："
+    },
+    {
+      "id": 5,
+      "ru": "Мечтай, создавай, изменяй! Как молодые предприниматели меняют мир и зарабатывают состояния",
+      "en": "Dream, Create, Change! How Young Entrepreneurs Are Changing the World and Making Fortunes",
+      "zh": "《梦想、创造、改变！年轻企业家如何改变世界并创造财富》",
+      "ja": "『夢見て、創造して、変革せよ！若き起業家たちはいかにして世界を変え富を築いているか』"
+    },
+    {
+      "id": 6,
+      "ru": "Сара Лейси",
+      "en": "Sarah Lacy",
+      "zh": "莎拉·莱西",
+      "ja": "サラ・レイシー"
+    },
+    {
+      "id": 7,
+      "ru": "И ботаники делают бизнес",
+      "en": "Even Nerds Do Business",
+      "zh": "《书呆子也能做生意》",
+      "ja": "『オタクもビジネスをする』"
+    },
+    {
+      "id": 8,
+      "ru": "Максим Котин",
+      "en": "Maxim Kotin",
+      "zh": "马克西姆·科廷",
+      "ja": "マクシム・コティン"
+    }
+  ],
+  "translator_notes": [
+    "Page 4 contains book recommendations from the publisher",
+    "Sarah Lacy's book 'Once You're Lucky, Twice You're Good' (2008) - the Russian title is a loose translation",
+    "Maxim Kotin's 'И ботаники делают бизнес' (2011) is about Fedya Ovchinnikov and Dodo Pizza - a popular Russian business story",
+    "The term 'ботаники' (nerds/geeks) appears again, connecting to the book's theme of intellectual outsiders succeeding in business",
+    "Mann, Ivanov, Ferber (MIF) is known for publishing translated and original business/entrepreneurship books"
+  ],
+  "total_sentences": 8,
+  "page_type": "front_matter"
+}

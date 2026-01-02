@@ -1,0 +1,259 @@
+{
+  "page": 96,
+  "chapter": 8,
+  "chapter_title": "Пятно Роршаха (Rorschach Blot)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Дуров строил свою res publica.",
+      "en": "Durov was building his res publica.",
+      "zh": "杜罗夫正在建立他的res publica（共和国）。",
+      "ja": "ドゥーロフは自分のres publica（共和国）を築いていた。"
+    },
+    {
+      "id": 3,
+      "ru": "Восхождение он преодолевал постепенно.",
+      "en": "He overcame the ascent gradually.",
+      "zh": "他逐步克服了攀登的困难。",
+      "ja": "彼は徐々に上昇を克服していた。"
+    },
+    {
+      "id": 4,
+      "ru": "Разрешив регистрироваться несовершеннолетним и оставляя свое имя внизу каждой страницы, он притягивал будущих последователей.",
+      "en": "By allowing minors to register and leaving his name at the bottom of every page, he attracted future followers.",
+      "zh": "通过允许未成年人注册并在每页底部留下自己的名字，他吸引了未来的追随者。",
+      "ja": "未成年者の登録を許可し、すべてのページの下に自分の名前を残すことで、彼は将来のフォロワーを引きつけた。"
+    },
+    {
+      "id": 5,
+      "ru": "«Идеи, которые исповедуем мы [в Зингере], будут популярны лет через двадцать».",
+      "en": "\"The ideas we profess [at Singer] will be popular in twenty years.\"",
+      "zh": "「我们[在辛格大楼]信奉的理念将在二十年后流行。」",
+      "ja": "「私たちが[シンガーで]信奉する理念は20年後に流行するだろう」。"
+    },
+    {
+      "id": 6,
+      "ru": "Так говорил сетевой авторитет и не навязывал свои взгляды, ничего не лоббировал, кроме здорового образа жизни и культа ума.",
+      "en": "So spoke the network authority and didn't impose his views, lobbied for nothing except a healthy lifestyle and the cult of intellect.",
+      "zh": "网络权威这样说，他不强加自己的观点，除了健康生活方式和智力崇拜之外不游说任何事情。",
+      "ja": "ネットワークの権威はそう語り、自分の見解を押し付けず、健康的なライフスタイルと知性崇拝以外は何もロビー活動しなかった。"
+    },
+    {
+      "id": 7,
+      "ru": "Эта ненавязчивость и прямые коммуникации, уравнивающие всех, способствуют меритократии – то есть самореализации талантливого человека.",
+      "en": "This unobtrusiveness and direct communications, equalizing everyone, promote meritocracy—that is, the self-realization of a talented person.",
+      "zh": "这种不强迫性和使所有人平等的直接沟通促进了精英治理——即有才华的人的自我实现。",
+      "ja": "この控えめさと、すべての人を平等にする直接的なコミュニケーションは、メリトクラシー——つまり才能ある人の自己実現——を促進する。"
+    },
+    {
+      "id": 8,
+      "ru": "Похожую роль старался играть другой политик, которого с Дуровым объединила готовность быть для каждого человека таким, каким этот человек хочет видеть лидера, защищающего его интересы.",
+      "en": "A similar role was attempted by another politician, who shared with Durov the willingness to be for each person what that person wants to see in a leader defending their interests.",
+      "zh": "另一位政治家也试图扮演类似的角色，他与杜罗夫的共同点是愿意成为每个人想要看到的捍卫他们利益的领导者。",
+      "ja": "同様の役割を別の政治家が演じようとしていた、ドゥーロフと共通していたのは、各人がその利益を守るリーダーに見たいと思うものになろうとする意欲だった。"
+    },
+    {
+      "id": 9,
+      "ru": "Дэвид Ремник в книге «Мост» окрестил этого политика «пятном Роршаха».",
+      "en": "David Remnick in his book \"The Bridge\" dubbed this politician a \"Rorschach blot.\"",
+      "zh": "大卫·雷姆尼克在他的书《桥》中将这位政治家称为「罗夏墨迹」。",
+      "ja": "デイヴィッド・レムニックは著書「ザ・ブリッジ」でこの政治家を「ロールシャッハの染み」と呼んだ。"
+    },
+    {
+      "id": 10,
+      "ru": "Готовясь ко вторым президентским выборам, человек по имени Барак Обама сознавал, что за четыре года мир изменился – люди обменивались идеями, убеждали, агитировали друг друга совсем не так, как раньше.",
+      "en": "Preparing for his second presidential election, a man named Barack Obama realized that in four years the world had changed—people exchanged ideas, persuaded, and campaigned among each other quite differently than before.",
+      "zh": "在准备第二次总统选举时，一个名叫巴拉克·奥巴马的人意识到，四年来世界已经改变——人们交流思想、说服和游说彼此的方式与以前完全不同。",
+      "ja": "2度目の大統領選挙に備えて、バラク・オバマという男は、4年間で世界が変わったことを認識していた——人々はアイデアを交換し、説得し、以前とはまったく異なる方法で互いに運動していた。"
+    },
+    {
+      "id": 11,
+      "ru": "Доля смартфонов в карманах американцев серьезно выросла, и Обаме предстояло использовать эту новую среду и для фондирования кампании, и для достижения результата на выборах.",
+      "en": "The share of smartphones in Americans' pockets had grown seriously, and Obama was to use this new environment both for funding the campaign and for achieving election results.",
+      "zh": "美国人口袋里的智能手机份额大幅增长，奥巴马需要利用这个新环境来为竞选筹资和取得选举结果。",
+      "ja": "アメリカ人のポケットの中のスマートフォンの割合は大幅に増加し、オバマはこの新しい環境をキャンペーンの資金調達と選挙結果の達成の両方に使用することになっていた。"
+    },
+    {
+      "id": 12,
+      "ru": "Обама честно признавал, что не рубит в «мобайле», и нанял политтехнолога Джима Мессину.",
+      "en": "Obama honestly admitted that he didn't get \"mobile\" and hired political technologist Jim Messina.",
+      "zh": "奥巴马诚实地承认他不懂「移动」，并雇用了政治技术专家吉姆·梅西纳。",
+      "ja": "オバマは「モバイル」がわからないと正直に認め、政治テクノロジストのジム・メッシーナを雇った。"
+    },
+    {
+      "id": 13,
+      "ru": "Тот все прекрасно понял о цифровом веке и отправился консультироваться, как выстраивать новую кампанию, к основателю Google Ларри Пейджу и другим интернет-гуру.",
+      "en": "He understood everything about the digital age perfectly and went to consult on how to build a new campaign with Google founder Larry Page and other internet gurus.",
+      "zh": "他完全理解数字时代，并去向谷歌创始人拉里·佩奇和其他互联网大师咨询如何构建新的竞选活动。",
+      "ja": "彼はデジタル時代についてすべてを完璧に理解し、Googleの創設者ラリー・ペイジや他のインターネットの達人に新しいキャンペーンの構築方法について相談しに行った。"
+    },
+    {
+      "id": 14,
+      "ru": "Команда Мессины написала приложение для избирателей, где публиковались новости и обсуждались программы.",
+      "en": "Messina's team wrote an app for voters where news was published and programs were discussed.",
+      "zh": "梅西纳的团队为选民编写了一个应用程序，可以发布新闻和讨论政纲。",
+      "ja": "メッシーナのチームは有権者向けのアプリを書き、そこでニュースが公開され、プログラムが議論された。"
+    },
+    {
+      "id": 15,
+      "ru": "Параллельно создавалась офлайновая соцсеть, похожая на MLM: приведи десять продавцов идей, которые продадут их еще десяти гражданам.",
+      "en": "In parallel, an offline social network was created, similar to MLM: bring ten salespeople of ideas who will sell them to ten more citizens.",
+      "zh": "与此同时，创建了一个类似于传销的线下社交网络：带来十个理念推销员，他们将把理念卖给另外十个公民。",
+      "ja": "並行して、MLMに似たオフラインのソーシャルネットワークが作られた：10人のアイデアの販売者を連れてきて、彼らがさらに10人の市民に売る。"
+    },
+    {
+      "id": 16,
+      "ru": "Этот офлайн координировался с помощью того же приложения.",
+      "en": "This offline was coordinated using the same app.",
+      "zh": "这个线下活动通过同一个应用程序进行协调。",
+      "ja": "このオフライン活動は同じアプリで調整された。"
+    },
+    {
+      "id": 17,
+      "ru": "Мессина объяснил Обаме, что тому не следует как-то специально ломать себя – с помощью его сильных качеств можно выгодно проповедовать в интернете.",
+      "en": "Messina explained to Obama that he shouldn't especially break himself—with his strong qualities, he could advantageously preach on the internet.",
+      "zh": "梅西纳向奥巴马解释说，他不需要特别改变自己——凭借他的优势，他可以在互联网上有效地传播。",
+      "ja": "メッシーナはオバマに、特に自分を変える必要はない——彼の強みを活かして、インターネットで有利に説教できると説明した。"
+    },
+    {
+      "id": 18,
+      "ru": "Открытость, прозрачность позиции, искреннее желание нравиться – соцмедиа абсолютно про эти вещи.",
+      "en": "Openness, transparency of position, sincere desire to be liked—social media is absolutely about these things.",
+      "zh": "开放、立场透明、真诚地希望被喜欢——社交媒体完全就是关于这些东西的。",
+      "ja": "オープンさ、立場の透明性、好かれたいという誠実な願望——ソーシャルメディアはまさにこれらのことについてだ。"
+    },
+    {
+      "id": 19,
+      "ru": "Будучи политиком нового типа, Обама тем не менее сделал усилие над собой, чтобы начать постить фоточки с семейных пикников, сжимать мысли до 140 знаков твиттера и отвечать на выборочные комментарии.",
+      "en": "Being a new-type politician, Obama nevertheless made an effort to start posting photos from family picnics, compress thoughts to 140 characters of Twitter, and respond to selected comments.",
+      "zh": "作为一个新型政治家，奥巴马仍然努力开始发布家庭野餐的照片，将想法压缩到推特的140个字符，并回复选定的评论。",
+      "ja": "新しいタイプの政治家であるオバマは、それでも家族のピクニックの写真を投稿し始め、考えをTwitterの140文字に圧縮し、選ばれたコメントに返信する努力をした。"
+    },
+    {
+      "id": 20,
+      "ru": "Дуров чувствовал себя в этой среде как рыба в воде – просто потому, что сам конструировал инструменты новой политики: сервисы «встречи», «диалог» на несколько пользователей, «работа над документом» и т. д.",
+      "en": "Durov felt like a fish in water in this environment—simply because he himself constructed the tools of new politics: 'meetings' services, 'dialogue' for multiple users, 'working on a document,' etc.",
+      "zh": "杜罗夫在这个环境中如鱼得水——仅仅因为他自己构建了新政治的工具：「会议」服务、多用户「对话」、「文档协作」等。",
+      "ja": "ドゥーロフはこの環境で水を得た魚のようだった——単に彼自身が新しい政治のツールを構築したからだ：「ミーティング」サービス、複数ユーザー向けの「ダイアログ」、「ドキュメントの作業」など。"
+    },
+    {
+      "id": 21,
+      "ru": "Свойства «пятна Роршаха» были присущи ему органически.",
+      "en": "The properties of a \"Rorschach blot\" were inherent to him organically.",
+      "zh": "「罗夏墨迹」的特性是他与生俱来的。",
+      "ja": "「ロールシャッハの染み」の特性は彼に有機的に備わっていた。"
+    },
+    {
+      "id": 22,
+      "ru": "Прежде обучения программированию Дуров вырастил в себе умение нравиться и ловить души, угадывая ожидания оппонента.",
+      "en": "Before learning programming, Durov cultivated in himself the ability to be liked and catch souls, guessing the opponent's expectations.",
+      "zh": "在学习编程之前，杜罗夫培养了让人喜欢和捕获灵魂的能力，猜测对手的期望。",
+      "ja": "プログラミングを学ぶ前に、ドゥーロフは好かれる能力と魂を捕らえる能力を、相手の期待を推測しながら自分の中で育てた。"
+    },
+    {
+      "id": 23,
+      "ru": "В его убеждениях многие найдут созвучные себе мотивы.",
+      "en": "In his beliefs, many will find motifs consonant with their own.",
+      "zh": "在他的信念中，许多人会发现与自己相呼应的主题。",
+      "ja": "彼の信念の中に、多くの人は自分に共鳴するモチーフを見つけるだろう。"
+    },
+    {
+      "id": 24,
+      "ru": "Сочетание «роршахности» с умом, настойчивостью и опытом в сетевых коммуникациях дало тотему шанс, и он им воспользовался.",
+      "en": "The combination of 'Rorschach-ness' with intelligence, persistence, and experience in network communications gave the totem a chance, and he used it.",
+      "zh": "「罗夏性」与智慧、坚持和网络通信经验的结合给了图腾一个机会，他利用了它。",
+      "ja": "「ロールシャッハ性」と知性、粘り強さ、ネットワークコミュニケーションの経験の組み合わせがトーテムにチャンスを与え、彼はそれを利用した。"
+    },
+    {
+      "id": 25,
+      "ru": "Забавно, что сочетанием своих сильных сторон и устремлениями он походил на политика, под которого кодил, – Мартина Лютера Кинга.",
+      "en": "Funny that in the combination of his strengths and aspirations he resembled the politician he coded under—Martin Luther King.",
+      "zh": "有趣的是，在他的优势和抱负的结合方面，他与他以其名字命名代码的政治家——马丁·路德·金——相似。",
+      "ja": "面白いことに、彼の強みと志向の組み合わせにおいて、彼はコードを書いた政治家——マーティン・ルーサー・キング——に似ていた。"
+    },
+    {
+      "id": 26,
+      "ru": "Журналист Гэри Уиллз писал в очерке «Дело М. Л. К. живет и побеждает»:",
+      "en": "Journalist Garry Wills wrote in the essay \"The Case of M.L.K. Lives and Wins\":",
+      "zh": "记者加里·威尔斯在文章《M.L.K.的事业生生不息》中写道：",
+      "ja": "ジャーナリストのゲイリー・ウィルズは「M.L.K.の大義は生き続け勝利する」というエッセイで書いた："
+    },
+    {
+      "id": 27,
+      "ru": "«Кинг стремился к обретению достоинства как к конечной цели всех возмущений негров.",
+      "en": "\"King strived for the attainment of dignity as the ultimate goal of all Negro uprisings.",
+      "zh": "「金致力于实现尊严作为所有黑人起义的最终目标。",
+      "ja": "「キングは、すべての黒人の蜂起の最終目標として尊厳の獲得を目指した。"
+    },
+    {
+      "id": 28,
+      "ru": "Его талант, сообразительность, обучаемость, годы, посвященные теологии (к которой он не питал особой склонности), были направлены на получение власти.",
+      "en": "His talent, intelligence, trainability, years devoted to theology (for which he had no particular inclination), were directed at obtaining power.",
+      "zh": "他的才能、机智、学习能力以及献给神学（他并不特别热衷）的岁月，都是为了获得权力。",
+      "ja": "彼の才能、知性、学習能力、神学に捧げた年月（特に傾倒していたわけではない）は、権力を得ることに向けられていた。"
+    },
+    {
+      "id": 29,
+      "ru": "Все его ученые степени и книги – лишь инструменты, оружие, чтобы каждый негр Юга получил приставку „мистер” перед своей фамилией.",
+      "en": "All his academic degrees and books were just tools, weapons, so that every Negro in the South would receive the prefix 'Mister' before their last name.",
+      "zh": "他所有的学位和书籍只是工具、武器，目的是让南方的每个黑人在他们的姓氏前面获得「先生」的称呼。",
+      "ja": "彼のすべての学位と著書は単なるツール、武器であり、南部のすべての黒人が姓の前に「ミスター」という敬称を得られるようにするためだった。"
+    },
+    {
+      "id": 30,
+      "ru": "И они это понимали.",
+      "en": "And they understood this.",
+      "zh": "他们理解这一点。",
+      "ja": "そして彼らはこれを理解していた。"
+    },
+    {
+      "id": 31,
+      "ru": "Они ощущали его достоинство как свое».",
+      "en": "They felt his dignity as their own.\"",
+      "zh": "他们把他的尊严感受为自己的尊严。」",
+      "ja": "彼らは彼の尊厳を自分のものとして感じた」。"
+    },
+    {
+      "id": 32,
+      "ru": "Не правда ли, чем-то напоминает отношения с юзерами?",
+      "en": "Doesn't it remind you of something about the relationship with users?",
+      "zh": "这难道不让你想起与用户的关系吗？",
+      "ja": "ユーザーとの関係を何か思い出させないか？"
+    },
+    {
+      "id": 33,
+      "ru": "Размышляя о «роршахности» как черте политика нового времени, я вспоминал Послание апостола Павла к коринфянам:",
+      "en": "Reflecting on \"Rorschach-ness\" as a trait of a new-age politician, I recalled the Epistle of the Apostle Paul to the Corinthians:",
+      "zh": "思考「罗夏性」作为新时代政治家的特征时，我想起了使徒保罗写给哥林多人的书信：",
+      "ja": "「ロールシャッハ性」を新時代の政治家の特徴として考えながら、私は使徒パウロのコリント人への手紙を思い出した："
+    },
+    {
+      "id": 34,
+      "ru": "«Ибо, будучи свободен от всех, я всем поработил",
+      "en": "\"For though I am free from all, I have made myself a slave to all",
+      "zh": "「因为我虽然自由，不属于任何人，但我为众人做了奴仆",
+      "ja": "「私はすべての人から自由でありながら、すべての人の奴隷となった"
+    }
+  ],
+  "translator_notes": [
+    "Page 96 - Rorschach blot concept, Obama comparison, MLK parallel",
+    "David Remnick's 'The Bridge' - Obama biography using Rorschach metaphor",
+    "Jim Messina - Obama 2012 campaign manager, digital strategy pioneer",
+    "MLM-style offline network - grassroots organizing via app coordination",
+    "Durov 'coded under' MLK - university username reference from earlier",
+    "Garry Wills - Pulitzer Prize winning journalist",
+    "'Mister' prefix - symbolic dignity denied to Black Americans in segregated South",
+    "Paul's Epistle to Corinthians - 'I become all things to all people' (1 Cor 9:19-22)",
+    "Meritocracy as VK value - talent recognized regardless of background",
+    "Page ends mid-quote from Biblical passage"
+  ],
+  "total_sentences": 34,
+  "page_type": "narrative"
+}

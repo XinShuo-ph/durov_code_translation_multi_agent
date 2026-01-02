@@ -1,0 +1,315 @@
+{
+  "page": 34,
+  "chapter": 2,
+  "chapter_title": "Архитектор (The Architect)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "***",
+      "en": "***",
+      "zh": "***",
+      "ja": "***"
+    },
+    {
+      "id": 3,
+      "ru": "В июне 2011 года я заглянул на лекцию потанинского стипендиата Юры Лифшица.",
+      "en": "In June 2011, I dropped in on a lecture by Potanin scholarship recipient Yura Lifshits.",
+      "zh": "2011年6月，我去听了波塔宁奖学金获得者尤拉·利夫希茨的讲座。",
+      "ja": "2011年6月、私はポタニン奨学金受賞者ユーラ・リフシッツの講義に立ち寄った。"
+    },
+    {
+      "id": 4,
+      "ru": "Вообразите невысокого, худого и чрезвычайно активного, громкоговорящего Гарри Поттера, разменявшего математику высочайшего уровня на позицию в Yahoo и потом вернувшегося в Россию заниматься образованием и бизнес-инкубаторами.",
+      "en": "Imagine a short, thin, and extremely active, loud-talking Harry Potter who had traded the highest-level mathematics for a position at Yahoo and then returned to Russia to do education and business incubators.",
+      "zh": "想象一个矮小、瘦削、极其活跃、大声说话的哈利·波特，他把最高水平的数学换成了雅虎的职位，然后回到俄罗斯从事教育和商业孵化器。",
+      "ja": "小柄で痩せていて、非常に活動的で、声の大きいハリー・ポッターを想像してほしい。彼は最高レベルの数学をYahooのポジションと交換し、その後ロシアに戻って教育とビジネスインキュベーターに従事した。"
+    },
+    {
+      "id": 5,
+      "ru": "Это Лифшиц.",
+      "en": "That's Lifshits.",
+      "zh": "这就是利夫希茨。",
+      "ja": "それがリフシッツだ。"
+    },
+    {
+      "id": 6,
+      "ru": "Лекция была про корпоративную культуру, но оратор взял шире и полтора часа держал аудиторию соображениями, как делать карьеру и строить великие компании.",
+      "en": "The lecture was about corporate culture, but the speaker went broader and held the audience for an hour and a half with thoughts on how to build a career and build great companies.",
+      "zh": "讲座是关于企业文化的，但演讲者讲得更广，用如何建立职业生涯和创建伟大公司的思考吸引了听众一个半小时。",
+      "ja": "講義は企業文化についてだったが、講演者はより広く取り上げ、キャリアを築き偉大な企業を作る方法についての考えで1時間半観客を引きつけた。"
+    },
+    {
+      "id": 7,
+      "ru": "Когда в конце его спросили, почему он бесплатно делится ценными сведениями, Лифшиц хмыкнул: «Из эгоистических соображений.",
+      "en": "When at the end he was asked why he was sharing valuable information for free, Lifshits chuckled: \"Out of selfish reasons.",
+      "zh": "当最后有人问他为什么免费分享有价值的信息时，利夫希茨轻笑道：「出于自私的考虑。",
+      "ja": "最後に、なぜ貴重な情報を無料で共有しているのかと聞かれると、リフシッツは笑った：「利己的な理由からだ。"
+    },
+    {
+      "id": 8,
+      "ru": "Во-первых, формулируя мысли вслух, я начинаю лучше их понимать.",
+      "en": "First, by formulating thoughts out loud, I begin to understand them better.",
+      "zh": "首先，大声表达想法让我更好地理解它们。",
+      "ja": "まず、考えを声に出して表現することで、より良く理解できるようになる。"
+    },
+    {
+      "id": 9,
+      "ru": "Во-вторых, я верю, что, когда люди делятся друг с другом знаниями, они улучшают качество социальной системы в целом.",
+      "en": "Second, I believe that when people share knowledge with each other, they improve the quality of the social system as a whole.",
+      "zh": "其次，我相信当人们相互分享知识时，他们提高了整个社会系统的质量。",
+      "ja": "第二に、人々が知識を共有すると、社会システム全体の質が向上すると信じている。"
+    },
+    {
+      "id": 10,
+      "ru": "Экономика дарения выгодна всем – тому, кто дарит, выгода возвращается».",
+      "en": "The gift economy benefits everyone—the one who gives, the benefit returns.\"",
+      "zh": "礼物经济对每个人都有利——给予者，利益会回馈。」",
+      "ja": "贈与経済は全員に利益をもたらす——与える者に利益は戻ってくる」"
+    },
+    {
+      "id": 11,
+      "ru": "На потанинском отборе состязались ораторы такого уровня и стиля.",
+      "en": "At the Potanin selection, orators of this level and style competed.",
+      "zh": "在波塔宁选拔中，这种水平和风格的演讲者相互竞争。",
+      "ja": "ポタニン選抜では、このレベルとスタイルの演説者が競い合った。"
+    },
+    {
+      "id": 12,
+      "ru": "Дуров отличался от них и выигрывал.",
+      "en": "Durov was different from them and won.",
+      "zh": "杜罗夫与众不同，获胜了。",
+      "ja": "ドゥーロフは彼らとは違っていて、勝った。"
+    },
+    {
+      "id": 13,
+      "ru": "Лифшиц вспоминал, что интернет-тотем говорил негромко, но, когда открывал рот, все замолкали.",
+      "en": "Lifshits recalled that the internet totem spoke quietly, but when he opened his mouth, everyone fell silent.",
+      "zh": "利夫希茨回忆说，这位网络图腾说话声音不大，但当他开口时，所有人都安静了。",
+      "ja": "リフシッツは、インターネットのトーテムは静かに話したが、口を開くと全員が黙ったと回想した。"
+    },
+    {
+      "id": 14,
+      "ru": "Дело, впрочем, было не в какой-то особенной мудрости, а в трезвости и доходчивости.",
+      "en": "The point, however, was not in some special wisdom, but in sobriety and clarity.",
+      "zh": "然而，重点不在于特别的智慧，而在于清醒和清晰。",
+      "ja": "しかし、ポイントは特別な知恵ではなく、冷静さと分かりやすさにあった。"
+    },
+    {
+      "id": 15,
+      "ru": "«Паша был взрослее и взвешеннее нас.",
+      "en": "\"Pasha was more mature and level-headed than us.",
+      "zh": "「帕沙比我们更成熟、更沉稳。",
+      "ja": "「パーシャは私たちより大人っぽく、慎重だった。"
+    },
+    {
+      "id": 16,
+      "ru": "Когда он выходил из комнаты, становилось легче говорить, и я снова чувствовал себя лидером».",
+      "en": "When he left the room, it became easier to speak, and I felt like a leader again.\"",
+      "zh": "当他离开房间时，说话变得容易多了，我又觉得自己像个领袖了。」",
+      "ja": "彼が部屋を出ると話しやすくなり、私は再びリーダーのように感じた」"
+    },
+    {
+      "id": 17,
+      "ru": "Дуров доминировал, даже когда искали кафе для поствыпускного сбора.",
+      "en": "Durov dominated even when they were looking for a café for a post-graduation gathering.",
+      "zh": "杜罗夫甚至在寻找毕业后聚会的咖啡馆时也占据主导地位。",
+      "ja": "ドゥーロフは卒業後の集まりのためのカフェを探す時でさえ支配的だった。"
+    },
+    {
+      "id": 18,
+      "ru": "Тролль с первой парты превратился в небожителя, который иногда спускается в народ.",
+      "en": "The troll from the front desk had transformed into a celestial being who occasionally descends to the common people.",
+      "zh": "第一排的喷子变成了一个偶尔下凡的天神。",
+      "ja": "最前列のトロールは、時折庶民に降りてくる天上人に変わった。"
+    },
+    {
+      "id": 19,
+      "ru": "Дуров не был оппозиционером власти – он создал параллельную ей структуру, но при этом всегда поддерживал хорошие отношения с ней.",
+      "en": "Durov was not in opposition to the authorities—he created a structure parallel to them, but always maintained good relations with them.",
+      "zh": "杜罗夫不是当权者的反对者——他创建了一个与之平行的结构，但始终与他们保持良好关系。",
+      "ja": "ドゥーロフは権力への反対派ではなかった——彼は権力に並行する構造を作ったが、常に良好な関係を維持していた。"
+    },
+    {
+      "id": 20,
+      "ru": "Выступал на ученом совете, рекламировал мероприятия.",
+      "en": "He spoke at the academic council, promoted events.",
+      "zh": "他在学术委员会上发言，推广活动。",
+      "ja": "彼は学術評議会で発言し、イベントを宣伝した。"
+    },
+    {
+      "id": 21,
+      "ru": "Когда понадобилось выставить кого-то из студактива поболтать для телевидения о «Единой России», не отказался и резонерствовал.",
+      "en": "When they needed to put forward someone from the student council to chat on television about United Russia, he didn't refuse and pontificated.",
+      "zh": "当需要派一个学生活动人士上电视谈论「统一俄罗斯」时，他没有拒绝，还夸夸其谈。",
+      "ja": "学生活動家から誰かをテレビで「統一ロシア」について話させる必要があった時、彼は拒否せず、もっともらしく語った。"
+    },
+    {
+      "id": 22,
+      "ru": "На военной кафедре их просили указать в анкете любимого политика, и комвзвода начертал: «Путин» (позже оправдывался, что хотел вписать Рузвельта, но счел такой вариант непатриотичным).",
+      "en": "At the military department they were asked to indicate their favorite politician in a questionnaire, and the platoon commander wrote: \"Putin\" (he later justified it by saying he wanted to write Roosevelt but considered that option unpatriotic).",
+      "zh": "在军事教研室，他们被要求在问卷中填写最喜欢的政治家，排长写道：「普京」（后来他辩解说想写罗斯福，但认为那样不爱国）。",
+      "ja": "軍事学科でアンケートに好きな政治家を書くよう求められ、小隊長は「プーチン」と書いた（後に彼はルーズベルトと書きたかったが、愛国的でないと考えたと弁明した）。"
+    },
+    {
+      "id": 23,
+      "ru": "«Я никогда не списывал, – вспоминал брат Николай. – Павел всегда списывал и не терзался.",
+      "en": "\"I never cheated,\" recalled brother Nikolai. \"Pavel always cheated and wasn't tormented by it.",
+      "zh": "「我从不作弊，」哥哥尼古拉回忆道。「帕维尔总是作弊，而且毫无愧疚。",
+      "ja": "「私は一度もカンニングしなかった」と兄のニコライは回想した。「パーヴェルはいつもカンニングして、全く悩まなかった。"
+    },
+    {
+      "id": 24,
+      "ru": "Им на военкафедре сказали, что списывать можно, это как военная хитрость, но если поймают – двойка».",
+      "en": "At the military department they were told that cheating was allowed, it's like a military trick, but if caught—a failing grade.\"",
+      "zh": "在军事教研室他们被告知可以作弊，这就像军事战术，但如果被抓到就是不及格。」",
+      "ja": "軍事学科ではカンニングは許可されていると言われた、軍事的な策略のようなものだが、捕まったら落第だ」"
+    },
+    {
+      "id": 25,
+      "ru": "Он подумал немного, будто сопоставляя какие-то события, и стал как бы оправдывать брата: «Павел – филолог, там много материала, от которого если не фанатеешь, то запомнить нереально.",
+      "en": "He thought a bit, as if comparing some events, and began to sort of justify his brother: \"Pavel is a philologist, there's a lot of material there that if you're not a fanatic about it, it's impossible to memorize.",
+      "zh": "他想了一会儿，好像在比较某些事情，然后开始为弟弟辩护：「帕维尔是语文专业的，那里有很多材料，如果你不是狂热者，根本记不住。",
+      "ja": "彼は少し考え、まるでいくつかの出来事を比較するかのように、弟を弁護し始めた：「パーヴェルは文学者だ、そこには熱狂的でなければ覚えられない大量の資料がある。"
+    },
+    {
+      "id": 26,
+      "ru": "А мне надо было утверждения учить, теоремы».",
+      "en": "And I had to learn statements, theorems.\"",
+      "zh": "而我需要学的是命题、定理。」",
+      "ja": "私は命題や定理を学ばなければならなかった」"
+    },
+    {
+      "id": 27,
+      "ru": "«Дуров всегда хотел быть известным, чтобы его все знали, тщеславный, хотел власти над умами, – перечислял Перекопский. – Всегда выпендривался.",
+      "en": "\"Durov always wanted to be famous, for everyone to know him, vain, wanted power over minds,\" Perekopsky listed. \"Always showing off.",
+      "zh": "「杜罗夫一直想出名，让所有人都知道他，虚荣，想控制人们的思想，」佩列科普斯基列举道。「总是炫耀。",
+      "ja": "「ドゥーロフは常に有名になりたがっていた、みんなに知られたい、虚栄心が強い、人々の心を支配したい」とペレコプスキーは列挙した。「いつも見せびらかしていた。"
+    },
+    {
+      "id": 28,
+      "ru": "Его мотивы – смесь тщеславия и благородства».",
+      "en": "His motives are a mixture of vanity and nobility.\"",
+      "zh": "他的动机是虚荣和高尚的混合体。」",
+      "ja": "彼の動機は虚栄と高潔さの混合だ」"
+    },
+    {
+      "id": 29,
+      "ru": "Сам Перекопский горел идеей открыть свое дело – статуса консильери ему было явно недостаточно.",
+      "en": "Perekopsky himself burned with the idea of starting his own business—the status of consigliere was clearly not enough for him.",
+      "zh": "佩列科普斯基本人渴望创业——军师的身份显然不够他。",
+      "ja": "ペレコプスキー自身は自分のビジネスを始めるというアイデアに燃えていた——コンシリエーリの地位では明らかに満足できなかった。"
+    },
+    {
+      "id": 30,
+      "ru": "Уже на третьем курсе он убедился, что определяющее значение имеет нетривиальная идея: «Только на халяве и делаются большие деньги.",
+      "en": "Already in the third year he became convinced that a non-trivial idea is of defining importance: \"Big money is only made on freebies.",
+      "zh": "到大三时，他就确信非凡的想法具有决定性意义：「大钱只能靠免费赚取。",
+      "ja": "3年生の時にはすでに、非凡なアイデアが決定的に重要だと確信していた：「大金はタダでしか稼げない。"
+    },
+    {
+      "id": 31,
+      "ru": "На гениальных идеях, где не требуется много работать, а только немного пошевелить головой».",
+      "en": "On brilliant ideas where you don't need to work much, just think a little.\"",
+      "zh": "靠天才的想法，不需要多工作，只需要动动脑子。」",
+      "ja": "天才的なアイデアでは、たくさん働く必要はなく、少し頭を使うだけでいい」"
+    },
+    {
+      "id": 32,
+      "ru": "Если Дуров играл во влияние и загадочность, Перекопский казался проще: «Я коллекционирую деньги.",
+      "en": "If Durov played at influence and mystery, Perekopsky seemed simpler: \"I collect money.",
+      "zh": "如果说杜罗夫玩的是影响力和神秘感，佩列科普斯基则显得更简单：「我收藏钱。",
+      "ja": "ドゥーロフが影響力と神秘性を演じているとすれば、ペレコプスキーはより単純に見えた：「私はお金を集めている。"
+    },
+    {
+      "id": 33,
+      "ru": "Нужно же что-то коллекционировать?»",
+      "en": "You have to collect something, don't you?\"",
+      "zh": "总得收藏点什么吧？」",
+      "ja": "何か集めなければいけないだろう？」"
+    },
+    {
+      "id": 34,
+      "ru": "Для начала Перекопский открыл курсы английского, где преподавали носители языка.",
+      "en": "To start, Perekopsky opened English courses where native speakers taught.",
+      "zh": "首先，佩列科普斯基开办了由母语者教授的英语课程。",
+      "ja": "まず、ペレコプスキーはネイティブスピーカーが教える英語コースを開いた。"
+    },
+    {
+      "id": 35,
+      "ru": "Стартовый капитал он взял у отца своей девушки, нефтяника.",
+      "en": "He took the startup capital from his girlfriend's father, an oilman.",
+      "zh": "启动资金来自他女朋友的父亲，一个石油商。",
+      "ja": "創業資金はガールフレンドの父親、石油業者から調達した。"
+    },
+    {
+      "id": 36,
+      "ru": "Что-то типа 2000 долларов, чтобы снять помещение.",
+      "en": "Something like 2,000 dollars to rent a space.",
+      "zh": "大约2000美元租场地。",
+      "ja": "場所を借りるために約2000ドル。"
+    },
+    {
+      "id": 37,
+      "ru": "На мебель потратился сам.",
+      "en": "He spent his own money on furniture.",
+      "zh": "家具钱是他自己出的。",
+      "ja": "家具には自分のお金を使った。"
+    },
+    {
+      "id": 38,
+      "ru": "Курсы раскрутились, и иногда не хватало учителей.",
+      "en": "The courses took off, and sometimes there weren't enough teachers.",
+      "zh": "课程发展起来了，有时老师不够用。",
+      "ja": "コースは軌道に乗り、時には教師が足りなくなった。"
+    },
+    {
+      "id": 39,
+      "ru": "Когда слетел один из знакомцев по бару «Идиот», выручил Дуров: втолковал двум гламурным девицам грамматику, да так, что те требовали «еще того мальчика».",
+      "en": "When one of the acquaintances from the Idiot bar fell through, Durov came to the rescue: he explained grammar to two glamorous girls so well that they demanded \"that boy again.\"",
+      "zh": "当「白痴」酒吧的一个熟人临时有事时，杜罗夫来救场：他给两个时髦女孩讲语法讲得太好了，以至于她们要求「再来那个男孩」。",
+      "ja": "イディオットバーの知り合いの一人が来られなくなった時、ドゥーロフが助けに来た：彼は2人の派手な女の子に文法を教え、彼女たちは「あの男の子をまた」と要求した。"
+    },
+    {
+      "id": 40,
+      "ru": "Затем приятельница из финской юридической компании попросила Перекопского найти ей практикантов.",
+      "en": "Then a female friend from a Finnish law firm asked Perekopsky to find her interns.",
+      "zh": "然后，一家芬兰律师事务所的朋友请佩列科普斯基帮她找实习生。",
+      "ja": "その後、フィンランドの法律事務所の女友達がペレコプスキーにインターンを見つけてほしいと頼んだ。"
+    },
+    {
+      "id": 41,
+      "ru": "Тот нашел и получил заказ еще на несколько позиций.",
+      "en": "He found them and received orders for several more positions.",
+      "zh": "他找到了，并获得了更多职位的订单。",
+      "ja": "彼は見つけ、さらにいくつかのポジションの注文を受けた。"
+    },
+    {
+      "id": 42,
+      "ru": "Вскоре",
+      "en": "Soon",
+      "zh": "很快",
+      "ja": "まもなく"
+    }
+  ],
+  "translator_notes": [
+    "Page 34 begins with a section break and flashforward to 2011 (the author's perspective)",
+    "Yura Lifshits is a real person - mathematician turned tech entrepreneur who worked at Yahoo",
+    "The 'gift economy' philosophy echoes later VK's free service model",
+    "United Russia (Единая Россия) is Putin's political party",
+    "Durov's pragmatic relationship with authority - not oppositional but parallel",
+    "The anecdote about writing 'Putin' as favorite politician shows early strategic conformism",
+    "The military department's 'cheating as military trick' justification is darkly humorous",
+    "Perekopsky's contrast ('I collect money') shows the different personalities",
+    "The Idiot bar continues to be referenced as part of their social network",
+    "The text cuts off mid-sentence at the bottom of page 34"
+  ],
+  "total_sentences": 42,
+  "page_type": "narrative"
+}

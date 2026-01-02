@@ -1,0 +1,140 @@
+{
+  "page": 64,
+  "chapter": 5,
+  "chapter_title": "Паломничество в Долину (Pilgrimage to the Valley)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Мирилашвили-старший предложил выдвинуть игровикам ультиматум: или вы с нами, или против нас.",
+      "en": "Mirilashvili Sr. proposed giving the game developers an ultimatum: you're either with us or against us.",
+      "zh": "老米里拉什维利提议向游戏开发者发出最后通牒：要么和我们站在一起，要么与我们为敌。",
+      "ja": "ミリラシヴィリ・シニアはゲーム開発者に最後通牒を突きつけることを提案した：我々と一緒か、敵対するか。"
+    },
+    {
+      "id": 3,
+      "ru": "Кто пользуется «Моим. Миром», ни копейки у нас не заработает.",
+      "en": "Anyone who uses \"My World\" won't earn a kopeck from us.",
+      "zh": "谁使用「我的世界」，就别想从我们这里赚到一分钱。",
+      "ja": "「マイワールド」を使う者は、我々から一銭も稼げない。"
+    },
+    {
+      "id": 4,
+      "ru": "Если бы речь шла о заметном рынке, антимонопольная служба вкатила бы Дурову предупреждение.",
+      "en": "If this were a notable market, the antitrust service would have issued Durov a warning.",
+      "zh": "如果这是一个显著的市场，反垄断机构会向杜罗夫发出警告。",
+      "ja": "これが注目すべき市場であれば、独占禁止当局はドゥーロフに警告を出していただろう。"
+    },
+    {
+      "id": 5,
+      "ru": "Он и сам не радовался мере, казавшейся архаичной, – в интернете глупо опускать шлагбаумы.",
+      "en": "He himself wasn't happy with a measure that seemed archaic—it's foolish to lower barriers on the internet.",
+      "zh": "他自己也不喜欢这种看似过时的措施——在互联网上设置障碍是愚蠢的。",
+      "ja": "彼自身も時代遅れに見えるこの措置を喜んでいなかった——インターネットで遮断機を下ろすのは愚かだ。"
+    },
+    {
+      "id": 6,
+      "ru": "Это свободная среда, где барьеров нет, а если кто-то что-то запрещает – следует взломать, обойти, скопировать.",
+      "en": "It's a free environment where there are no barriers, and if someone prohibits something—you should hack, bypass, copy.",
+      "zh": "这是一个没有障碍的自由环境，如果有人禁止什么——就应该黑入、绕过、复制。",
+      "ja": "これは障壁のない自由な環境であり、誰かが何かを禁止したら——ハックし、迂回し、コピーすべきだ。"
+    },
+    {
+      "id": 7,
+      "ru": "Но партнеры настаивали, и Дуров согласился на шоковую терапию.",
+      "en": "But the partners insisted, and Durov agreed to shock therapy.",
+      "zh": "但合伙人坚持，杜罗夫同意了休克疗法。",
+      "ja": "しかしパートナーたちは主張し、ドゥーロフはショック療法に同意した。"
+    },
+    {
+      "id": 8,
+      "ru": "Идея была симпатична тем, что к Mail.ru, который уже намекал, что стремится контролировать «ВКонтакте», хотелось прийти с плеткой.",
+      "en": "The idea was appealing in that they wanted to come to Mail.ru, which was already hinting that it sought to control VKontakte, with a whip.",
+      "zh": "这个想法之所以吸引人，是因为他们想带着鞭子去找Mail.ru，后者已经暗示想要控制VKontakte。",
+      "ja": "このアイデアが魅力的だったのは、すでにVKontakteを支配したいとほのめかしていたMail.ruに対して、鞭を持って行きたいと思ったからだ。"
+    },
+    {
+      "id": 9,
+      "ru": "То есть отреагировать максимально свирепо.",
+      "en": "That is, to react as ferociously as possible.",
+      "zh": "也就是说，尽可能凶猛地反应。",
+      "ja": "つまり、できるだけ獰猛に反応する。"
+    },
+    {
+      "id": 10,
+      "ru": "Дуров улавливал настроения, витавшие в Mail.ru, по разговорам с Мильнером.",
+      "en": "Durov was picking up on the moods circulating at Mail.ru through conversations with Milner.",
+      "zh": "杜罗夫通过与米尔纳的对话捕捉到Mail.ru内部的情绪。",
+      "ja": "ドゥーロフはミルナーとの会話を通じて、Mail.ruに漂うムードを察知していた。"
+    },
+    {
+      "id": 11,
+      "ru": "Два года назад тот вскользь упомянул, что москвичи следят с интересом за его сетью, а теперь по разговорам с представителями инвесторов Дуров почувствовал, что независимость его детища ставится под вопрос.",
+      "en": "Two years ago he casually mentioned that the Muscovites were watching his network with interest, and now through conversations with investor representatives, Durov felt that the independence of his creation was being questioned.",
+      "zh": "两年前他随口提到莫斯科人正在饶有兴趣地关注他的网络，现在通过与投资者代表的对话，杜罗夫感到他的心血结晶的独立性正在受到质疑。",
+      "ja": "2年前、彼はモスクワの人々が彼のネットワークに興味を持って見守っていると何気なく言及していた。そして今、投資家の代表との会話を通じて、ドゥーロフは彼の創造物の独立性が疑問視されていると感じた。"
+    },
+    {
+      "id": 12,
+      "ru": "Тотем разделил песни на личной странице на две вкладки – «s [e]х» и «w [a]r».",
+      "en": "The totem divided the songs on his personal page into two tabs—\"s[e]x\" and \"w[a]r.\"",
+      "zh": "图腾把他个人主页上的歌曲分成两个标签——「s[e]x」和「w[a]r」。",
+      "ja": "トーテムは自分の個人ページの曲を2つのタブに分けた——「s[e]x」と「w[a]r」。"
+    },
+    {
+      "id": 13,
+      "ru": "Эти две мании вели его, но страсть к сражению, похоже, была сильнее.",
+      "en": "These two manias drove him, but the passion for battle seemed stronger.",
+      "zh": "这两种狂热驱动着他，但对战斗的热情似乎更强烈。",
+      "ja": "この2つのマニアが彼を導いていたが、戦闘への情熱の方が強いようだった。"
+    },
+    {
+      "id": 14,
+      "ru": "Конфликты неминуемо должны была возникнуть после того, как «ВКонтакте» превратился в мощный инструмент влияния.",
+      "en": "Conflicts were inevitably bound to arise after VKontakte became a powerful instrument of influence.",
+      "zh": "在VKontakte成为强大的影响力工具后，冲突不可避免地会出现。",
+      "ja": "VKontakteが強力な影響力のツールになった後、紛争は必然的に生じることになっていた。"
+    },
+    {
+      "id": 15,
+      "ru": "Создав этот инструмент, Дуров должен был однажды обернуть его против захватчиков.",
+      "en": "Having created this instrument, Durov was destined one day to turn it against invaders.",
+      "zh": "创造了这个工具后，杜罗夫注定有一天要把它转向入侵者。",
+      "ja": "この道具を作ったドゥーロフは、いつか侵略者に対してそれを向けることになる運命だった。"
+    },
+    {
+      "id": 16,
+      "ru": "Теперь момент настал. Он увидел первого врага у ворот и напал первым.",
+      "en": "Now the moment had come. He saw the first enemy at the gates and attacked first.",
+      "zh": "现在时刻到了。他看到了第一个敌人在门口，率先发起了攻击。",
+      "ja": "今、その瞬間が来た。彼は門前の最初の敵を見て、先制攻撃した。"
+    },
+    {
+      "id": 17,
+      "ru": "Набросав письмо о выборе между «ВКонтакте» и Mail.ru, Дуров поставил в копию игровиков, которые зарабатывали на его аудитории, пробежал глазами текст и кликнул «Отправить».",
+      "en": "Having drafted a letter about the choice between VKontakte and Mail.ru, Durov cc'd the game developers who were earning money from his audience, skimmed the text, and clicked \"Send.\"",
+      "zh": "起草了一封关于在VKontakte和Mail.ru之间做出选择的信后，杜罗夫抄送了那些在他的用户群体上赚钱的游戏开发者，快速浏览了文本，然后点击了「发送」。",
+      "ja": "VKontakteとMail.ruの選択についての手紙を起草した後、ドゥーロフは彼のオーディエンスで稼いでいるゲーム開発者にCCを入れ、テキストをざっと見て、「送信」をクリックした。"
+    }
+  ],
+  "translator_notes": [
+    "Page 64 - End of Chapter 5, ultimatum to game developers",
+    "Ultimatum to game developers - exclusive platform choice",
+    "'Kopeck' - smallest Russian currency unit, meaning 'not a cent'",
+    "Durov's internal conflict with anti-competitive tactics",
+    "Internet philosophy - freedom to hack, bypass, copy barriers",
+    "Mail.ru seeking control of VK - investor pressure growing",
+    "'s[e]x' and 'w[a]r' - Durov's music playlist categories, censored",
+    "First strike mentality - Durov attacks before Mail.ru",
+    "Chapter ends with dramatic email send moment",
+    "Sets up escalation of VK vs Mail.ru conflict"
+  ],
+  "total_sentences": 17,
+  "page_type": "narrative"
+}

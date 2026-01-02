@@ -1,0 +1,330 @@
+{
+  "page": 95,
+  "chapter": 8,
+  "chapter_title": "Пятно Роршаха (Rorschach Blot)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "«Мне правда не так важны деньги: что 20 млн, что 200, – говорил Дуров.",
+      "en": "\"Money really isn't that important to me: whether 20 million or 200,\" Durov said.",
+      "zh": "「钱对我来说真的不那么重要：不管是2000万还是2亿，」杜罗夫说。",
+      "ja": "「本当にお金はそれほど重要ではない：2000万でも2億でも」とドゥーロフは言った。"
+    },
+    {
+      "id": 3,
+      "ru": "– Если бы я телефоны хотел делать – тогда да, нужны.",
+      "en": "\"If I wanted to make phones—then yes, I'd need them.",
+      "zh": "「如果我想做手机——那是的，需要。",
+      "ja": "「もし電話を作りたいなら——そう、必要だろう。"
+    },
+    {
+      "id": 4,
+      "ru": "А приложение недорогое – хоть сто вариантов пиши.",
+      "en": "But an app is inexpensive—you can write a hundred versions.",
+      "zh": "但应用程序不贵——可以写一百个版本。",
+      "ja": "しかしアプリは安い——100バージョンでも書ける。"
+    },
+    {
+      "id": 5,
+      "ru": "Поэтому я не хочу продавать свою долю „ВКонтакте”.",
+      "en": "That's why I don't want to sell my VKontakte stake.",
+      "zh": "所以我不想卖掉我的VKontakte股份。",
+      "ja": "だから私はVKontakteの持分を売りたくない。"
+    },
+    {
+      "id": 6,
+      "ru": "Продажа – это не свобода.",
+      "en": "Selling is not freedom.",
+      "zh": "出售不是自由。",
+      "ja": "売却は自由ではない。"
+    },
+    {
+      "id": 7,
+      "ru": "Продажа с демпингом – рабство, бегство с поля боя.",
+      "en": "Selling at a discount is slavery, fleeing from the battlefield.",
+      "zh": "低价出售是奴役，是从战场上逃跑。",
+      "ja": "ダンピング販売は奴隷制であり、戦場からの逃走だ。"
+    },
+    {
+      "id": 8,
+      "ru": "Это как-то не по-русски».",
+      "en": "That's somehow not Russian.\"",
+      "zh": "这有点不像俄罗斯人的做法。」",
+      "ja": "それは何だかロシア人らしくない」。"
+    },
+    {
+      "id": 9,
+      "ru": "«Слушайте, – сказал я, – люди, с которыми вы в одной лодке, – они довольно жесткие.",
+      "en": "\"Listen,\" I said, \"the people you're in the same boat with—they're pretty tough.",
+      "zh": "「听着，」我说，「和你同舟共济的人——他们相当强硬。",
+      "ja": "「聞いてください」と私は言った、「あなたと同じ船に乗っている人々は——かなり厳しい。"
+    },
+    {
+      "id": 10,
+      "ru": "Их стиль из девяностых, они хитры и опытны, участвовали в грандиозных переделах собственности, вхожи в кремлевские приемные.",
+      "en": "Their style is from the nineties, they're cunning and experienced, participated in grand property redistributions, have access to Kremlin offices.",
+      "zh": "他们的风格来自九十年代，他们狡猾而有经验，参与过宏大的财产重新分配，可以进入克里姆林宫的办公室。",
+      "ja": "彼らのスタイルは90年代からのもので、狡猾で経験豊富で、壮大な財産再分配に参加し、クレムリンの応接室に出入りしている。"
+    },
+    {
+      "id": 11,
+      "ru": "Как вам удается не просто переговариваться с ними, но защищать свои идеи?»",
+      "en": "How do you manage not just to negotiate with them, but to defend your ideas?\"",
+      "zh": "你是如何做到不仅与他们谈判，还能捍卫自己的想法的？」",
+      "ja": "彼らと交渉するだけでなく、自分のアイデアを守ることにどうやって成功しているのですか？」"
+    },
+    {
+      "id": 12,
+      "ru": "«Ничего особенного, главное – верить в то, что будете говорить, – пожал плечами Дуров.",
+      "en": "\"Nothing special, the main thing is to believe in what you will say,\" Durov shrugged.",
+      "zh": "「没什么特别的，主要是相信你要说的话，」杜罗夫耸耸肩。",
+      "ja": "「特別なことはない、大事なのは自分が言うことを信じることだ」とドゥーロフは肩をすくめた。"
+    },
+    {
+      "id": 13,
+      "ru": "– Запрограммировать себя не на вранье.",
+      "en": "\"Program yourself not to lie.",
+      "zh": "「让自己不要说谎。",
+      "ja": "「嘘をつかないように自分をプログラムする。"
+    },
+    {
+      "id": 14,
+      "ru": "Врать вредно для духовной целостности.",
+      "en": "Lying is harmful to spiritual integrity.",
+      "zh": "说谎对精神完整性有害。",
+      "ja": "嘘は精神的な完全性に有害だ。"
+    },
+    {
+      "id": 15,
+      "ru": "Нужно добиваться отрешенности – какая разница, продаем, не продаем.",
+      "en": "You need to achieve detachment—what difference does it make, selling or not selling.",
+      "zh": "需要达到超然——卖不卖有什么区别。",
+      "ja": "離脱を達成する必要がある——売っても売らなくても何が違うのか。"
+    },
+    {
+      "id": 16,
+      "ru": "Обязательно в переговорах всплывает история, мол, „если вы не сделаете так, будет то-то”.",
+      "en": "In negotiations there's always a story that comes up, like, 'if you don't do this, such-and-such will happen.'",
+      "zh": "在谈判中总会出现这样的故事，比如「如果你不这样做，就会发生某某事」。",
+      "ja": "交渉では必ず「こうしなければ、ああなる」という話が出てくる。"
+    },
+    {
+      "id": 17,
+      "ru": "Или запугивание присказками типа: „Вы же помните, в какой стране живете”.",
+      "en": "Or intimidation with sayings like: 'You do remember what country you live in.'",
+      "zh": "或者用「你记得你住在什么国家吧」这样的说法来恐吓。",
+      "ja": "あるいは「あなたがどの国に住んでいるか覚えていますよね」というような脅し文句。"
+    },
+    {
+      "id": 18,
+      "ru": "Я выбираю позицию: компанию отбирать – отбирайте; крест на моей репутации ставить – ставьте; но я не прогнусь.",
+      "en": "I choose my position: take the company away—take it; put a cross on my reputation—put it; but I won't bend.",
+      "zh": "我选择我的立场：要夺走公司——就夺走；要在我的名誉上画叉——就画；但我不会屈服。",
+      "ja": "私は自分の立場を選ぶ：会社を奪うなら——奪え；私の評判に十字を付けるなら——付けろ；しかし私は屈しない。"
+    },
+    {
+      "id": 19,
+      "ru": "Таким образом, манипулятивные переговоры вести невозможно».",
+      "en": "Thus, it's impossible to conduct manipulative negotiations.\"",
+      "zh": "这样，操纵性的谈判就不可能进行了。」",
+      "ja": "したがって、操作的な交渉を行うことは不可能だ」。"
+    },
+    {
+      "id": 20,
+      "ru": "«То же с прокурорскими запросами?»",
+      "en": "\"Same with prosecutorial requests?\"",
+      "zh": "「检察官的要求也是一样吗？」",
+      "ja": "「検察の要請も同じですか？」"
+    },
+    {
+      "id": 21,
+      "ru": "«Абсолютно.",
+      "en": "\"Absolutely.",
+      "zh": "「绝对是。",
+      "ja": "「まさにそうだ。"
+    },
+    {
+      "id": 22,
+      "ru": "Если ты безыдейный, это видно, и на тебя возможно влиять.",
+      "en": "If you're without ideas, it shows, and it's possible to influence you.",
+      "zh": "如果你没有理念，这是显而易见的，别人就可以影响你。",
+      "ja": "理念がなければ、それは見え、あなたに影響を与えることが可能だ。"
+    },
+    {
+      "id": 23,
+      "ru": "Со мной это не пройдет.",
+      "en": "That won't work with me.",
+      "zh": "这对我行不通。",
+      "ja": "私にはそれは通用しない。"
+    },
+    {
+      "id": 24,
+      "ru": "Идеология – это в конечном счете главное, что движет людьми.",
+      "en": "Ideology is ultimately the main thing that moves people.",
+      "zh": "意识形态归根结底是推动人们的主要力量。",
+      "ja": "イデオロギーは結局のところ、人々を動かす主なものだ。"
+    },
+    {
+      "id": 25,
+      "ru": "Нужно создавать более глубинные убеждения для возникновения у людей веры в свои силы и свое мнение.",
+      "en": "We need to create deeper convictions for people to develop faith in their own strength and their own opinion.",
+      "zh": "需要创造更深层的信念，让人们对自己的力量和自己的意见产生信心。",
+      "ja": "人々が自分の力と意見に対する信仰を発展させるために、より深い信念を作り出す必要がある。"
+    },
+    {
+      "id": 26,
+      "ru": "Глубинные убеждения, сходные с религиозными.",
+      "en": "Deep convictions, similar to religious ones.",
+      "zh": "类似于宗教信仰的深层信念。",
+      "ja": "宗教的なものに似た深い信念。"
+    },
+    {
+      "id": 27,
+      "ru": "У современных политиков нет мечты, цели, куда мы все должны стремиться.",
+      "en": "Modern politicians have no dream, no goal where we should all aspire to.",
+      "zh": "现代政治家没有梦想，没有我们都应该追求的目标。",
+      "ja": "現代の政治家には夢がない、私たちが皆目指すべき目標がない。"
+    },
+    {
+      "id": 28,
+      "ru": "У Гитлера, кстати, была мечта».",
+      "en": "Hitler, by the way, had a dream.\"",
+      "zh": "顺便说一下，希特勒有梦想。」",
+      "ja": "ちなみに、ヒトラーには夢があった」。"
+    },
+    {
+      "id": 29,
+      "ru": "Догадка, внезапно пришедшая в голову, поразила меня.",
+      "en": "A guess that suddenly came to mind struck me.",
+      "zh": "一个突然浮现在脑海中的猜测震惊了我。",
+      "ja": "突然頭に浮かんだ推測が私を驚かせた。"
+    },
+    {
+      "id": 30,
+      "ru": "Я сидел, придавленный не Гитлером, а пониманием того, что проглядел сквозной сюжет, шедший через историю героя.",
+      "en": "I sat, crushed not by Hitler, but by the understanding that I had missed the through-line running through the hero's story.",
+      "zh": "我坐在那里，压倒我的不是希特勒，而是意识到我忽视了贯穿主角故事的主线。",
+      "ja": "私は座っていた、ヒトラーにではなく、主人公の物語を貫く筋を見逃していたという理解に押しつぶされて。"
+    },
+    {
+      "id": 31,
+      "ru": "Что Дуров – необычный предприниматель, оригинальный полководец, умник, фанат нетривиальных эвристических ходов, эпатажник и нёрд, воспитавший в себе воина, – это, в общем, и так можно понять по записям в твиттере, фейсбуке, редких статьях и постах в блоге.",
+      "en": "That Durov is an unusual entrepreneur, an original commander, a smart guy, a fan of non-trivial heuristic moves, a provocateur and nerd who raised a warrior in himself—this, in general, can be understood from his Twitter, Facebook, rare articles and blog posts.",
+      "zh": "杜罗夫是一个不寻常的企业家，一个独创的指挥官，一个聪明人，一个非凡启发式行动的粉丝，一个培养了内心战士的挑衅者和极客——这些从他的推特、脸书、偶尔的文章和博客帖子中就可以看出。",
+      "ja": "ドゥーロフが珍しい起業家であり、独創的な司令官であり、賢い人であり、非自明なヒューリスティックな動きのファンであり、自分の中に戦士を育てた挑発者でナードであること——これは一般的に、彼のTwitter、Facebook、まれな記事やブログ投稿から理解できる。"
+    },
+    {
+      "id": 32,
+      "ru": "В конце концов, его сеть уловила 100 млн человек, и это не нуждается в комментариях.",
+      "en": "After all, his network caught 100 million people, and that needs no comment.",
+      "zh": "毕竟，他的网络吸引了1亿人，这无需评论。",
+      "ja": "結局のところ、彼のネットワークは1億人を捕まえ、これはコメントを必要としない。"
+    },
+    {
+      "id": 33,
+      "ru": "Но теперь мне казалось, что его история о другом.",
+      "en": "But now it seemed to me that his story was about something else.",
+      "zh": "但现在我觉得他的故事是关于其他东西的。",
+      "ja": "しかし今、彼の物語は別のことについてであるように思えた。"
+    },
+    {
+      "id": 34,
+      "ru": "Если посмотреть на путь Дурова – это, по сути, путь политика, который работает напрямую с людьми, вокруг партийной системы и других сред коммуникации.",
+      "en": "If you look at Durov's path—it's essentially the path of a politician who works directly with people, around the party system and other communication environments.",
+      "zh": "如果看杜罗夫的道路——本质上是一个政治家的道路，他直接与人民合作，绕过政党制度和其他沟通环境。",
+      "ja": "ドゥーロフの道を見れば——本質的には政治家の道であり、政党システムや他のコミュニケーション環境を迂回して、直接人々と働く。"
+    },
+    {
+      "id": 35,
+      "ru": "Он создавал свои такие среды – еще с университета.",
+      "en": "He created his own such environments—since university.",
+      "zh": "他从大学时代就开始创建自己的这种环境。",
+      "ja": "彼は大学以来、そのような環境を自分で作ってきた。"
+    },
+    {
+      "id": 36,
+      "ru": "Его форум выступал государством, объединяющим разбросанные по Петербургу и пригородам княжества-факультеты.",
+      "en": "His forum served as a state uniting the principality-faculties scattered across Petersburg and its suburbs.",
+      "zh": "他的论坛充当了一个国家，将分散在圣彼得堡及其郊区的公国-院系联合起来。",
+      "ja": "彼のフォーラムはペテルブルクとその郊外に散らばった公国-学部を統一する国家として機能した。"
+    },
+    {
+      "id": 37,
+      "ru": "Глава этого государства контролировал правила игры, был открыт разговору и лишь регулировал сообщество.",
+      "en": "The head of this state controlled the rules of the game, was open to conversation, and only regulated the community.",
+      "zh": "这个国家的首脑控制着游戏规则，愿意对话，只是调节社区。",
+      "ja": "この国家の長はゲームのルールをコントロールし、会話に開かれ、コミュニティを規制するだけだった。"
+    },
+    {
+      "id": 38,
+      "ru": "Сеть как среда была обязана сформировать запрос на такого лидера, и вот в русскоязычном интернете появился Дуров, чья «ВКонтакте» служила замахом на приобретение паствы совершенно других масштабов.",
+      "en": "The network as an environment was bound to form a demand for such a leader, and so Durov appeared in the Russian-language internet, whose VKontakte served as a swing at acquiring a flock of completely different scales.",
+      "zh": "网络作为一种环境必然会形成对这样一个领导者的需求，于是杜罗夫出现在俄语互联网上，他的VKontakte是获取完全不同规模的追随者的尝试。",
+      "ja": "環境としてのネットワークはそのようなリーダーへの需要を形成せざるを得なかった、そしてロシア語インターネットにドゥーロフが現れ、彼のVKontakteは全く異なる規模の信者を獲得しようとする試みとして機能した。"
+    },
+    {
+      "id": 39,
+      "ru": "Все, что он делал, – это была чистейшей воды сетевая политика и рекрутинг единомышленников.",
+      "en": "Everything he did was pure network politics and recruiting of like-minded people.",
+      "zh": "他所做的一切都是纯粹的网络政治和招募志同道合者。",
+      "ja": "彼がしたことはすべて純粋なネットワーク政治と同志の募集だった。"
+    },
+    {
+      "id": 40,
+      "ru": "Он произвел негромкую революцию – если понимать революцию в духе Ханны Арендт: не как освобождение («свобода от…»), а как создание среды, территории свободы.",
+      "en": "He produced a quiet revolution—if we understand revolution in the spirit of Hannah Arendt: not as liberation ('freedom from...'), but as the creation of an environment, a territory of freedom.",
+      "zh": "他进行了一场无声的革命——如果我们以汉娜·阿伦特的精神理解革命：不是解放（「摆脱……的自由」），而是创造一个环境，一个自由的领土。",
+      "ja": "彼は静かな革命を起こした——ハンナ・アーレントの精神で革命を理解するなら：解放（「…からの自由」）としてではなく、環境の創造、自由の領土として。"
+    },
+    {
+      "id": 41,
+      "ru": "Итогом такой революции выступает res publica, дающая гражданам новое политическое измерение – в данном случае это «ВКонтакте».",
+      "en": "The result of such a revolution is res publica, giving citizens a new political dimension—in this case, VKontakte.",
+      "zh": "这种革命的结果是res publica（共和国），给公民一个新的政治维度——在这种情况下就是VKontakte。",
+      "ja": "そのような革命の結果はres publica（共和国）であり、市民に新しい政治的次元を与える——この場合はVKontakteだ。"
+    },
+    {
+      "id": 42,
+      "ru": "Политики старого типа понимают веб как инструмент, и даже Алексей Навальный, тролливший госслужащих-коррупционеров, применяет старые приемы в новой среде.",
+      "en": "Old-type politicians understand the web as a tool, and even Alexei Navalny, who trolled corrupt civil servants, applies old techniques in the new environment.",
+      "zh": "老式政治家将网络理解为一种工具，即使是嘲弄腐败公务员的阿列克谢·纳瓦尔尼也是在新环境中使用旧技术。",
+      "ja": "旧タイプの政治家はウェブをツールとして理解しており、腐敗した公務員をからかっていたアレクセイ・ナワリヌイでさえ、新しい環境で古いテクニックを適用している。"
+    },
+    {
+      "id": 43,
+      "ru": "Декларируя, что нет смысла лезть в партийную систему, он придумал «Добрую машину пропаганды» – сеть единомышленников, информирующих население о гадостях режима.",
+      "en": "Declaring that there's no point in getting into the party system, he invented the 'Kind Machine of Propaganda'—a network of like-minded people informing the population about the regime's nastiness.",
+      "zh": "他宣称进入政党体制没有意义，发明了「友善的宣传机器」——一个志同道合者的网络，向民众揭露政权的恶行。",
+      "ja": "政党システムに入る意味はないと宣言し、彼は「善意のプロパガンダマシン」を発明した——政権の悪行について国民に知らせる同志のネットワーク。"
+    },
+    {
+      "id": 44,
+      "ru": "Но идея Навального упирается в недостаточное доверие населения интернету, а также в контроль власти над обеспечением нужного результата выборов.",
+      "en": "But Navalny's idea runs into the population's insufficient trust in the internet, as well as the authorities' control over ensuring the needed election results.",
+      "zh": "但纳瓦尔尼的想法遇到了民众对互联网信任不足的问题，以及当局对确保选举结果符合需要的控制。",
+      "ja": "しかしナワリヌイのアイデアは、国民のインターネットに対する信頼の不足と、当局が必要な選挙結果を確保することへのコントロールにぶつかる。"
+    }
+  ],
+  "translator_notes": [
+    "Page 95 - Durov's negotiation philosophy, political analysis",
+    "'$20M or $200M' - money as means, not end",
+    "'Not Russian' to flee battle - cultural framing of selling stake",
+    "'You remember what country you live in' - veiled Kremlin threats",
+    "Hitler reference - controversial but about having vision/dream",
+    "Hannah Arendt - political philosopher, 'revolution as creating freedom'",
+    "Res publica - Latin for 'public affair', origin of 'republic'",
+    "Durov as network politician - author's key insight",
+    "Navalny comparison - traditional politics vs network politics",
+    "'Kind Machine of Propaganda' - Navalny's voter mobilization network",
+    "University forum as proto-state - Durov's early political practice"
+  ],
+  "total_sentences": 44,
+  "page_type": "narrative"
+}

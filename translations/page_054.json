@@ -1,0 +1,304 @@
+{
+  "page": 54,
+  "chapter": 4,
+  "chapter_title": "Сок черешни (Cherry Juice)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Сквозь шторы просачивалось утро.",
+      "en": "Morning was seeping through the curtains.",
+      "zh": "清晨透过窗帘渗入。",
+      "ja": "朝がカーテンを通して差し込んでいた。"
+    },
+    {
+      "id": 3,
+      "ru": "Наконец все было готово, и Дуров запостил приложение во «ВКонтакте».",
+      "en": "Finally everything was ready, and Durov posted the application on VKontakte.",
+      "zh": "终于一切准备就绪，杜罗夫在VKontakte上发布了应用程序。",
+      "ja": "ついにすべての準備が整い、ドゥーロフはVKontakteにアプリケーションを投稿した。"
+    },
+    {
+      "id": 4,
+      "ru": "Несколько минут хакеры ждали пользовательских рисунков, а когда те появились, проверили на предмет глюков и рухнули спать.",
+      "en": "For a few minutes the hackers waited for user drawings, and when they appeared, checked for bugs and crashed to sleep.",
+      "zh": "几分钟后，黑客们等待用户绘图，当绘图出现时，检查了错误然后倒头就睡。",
+      "ja": "数分間、ハッカーたちはユーザーの絵を待ち、それが現れるとバグをチェックして眠りに落ちた。"
+    },
+    {
+      "id": 5,
+      "ru": "Дуров предложил Андрееву создать платформу для видео, связанную с «ВКонтакте»: «ВКадре».",
+      "en": "Durov proposed to Andreev to create a video platform connected to VKontakte: VKadre.",
+      "zh": "杜罗夫向安德烈耶夫提议创建一个与VKontakte相连的视频平台：VKadre。",
+      "ja": "ドゥーロフはアンドレーエフに、VKontakteと連携したビデオプラットフォーム「VKadre」を作ることを提案した。"
+    },
+    {
+      "id": 6,
+      "ru": "Тот согласился и первым делом получил от Николая советы, как хранить видео.",
+      "en": "He agreed and first thing received advice from Nikolai on how to store video.",
+      "zh": "他同意了，首先从尼古拉那里得到了关于如何存储视频的建议。",
+      "ja": "彼は同意し、最初にニコライからビデオの保存方法についてアドバイスを受けた。"
+    },
+    {
+      "id": 7,
+      "ru": "Впрочем, воспользовался только теми, с которыми был заранее согласен.",
+      "en": "However, he only used those he already agreed with.",
+      "zh": "不过，他只采用了那些他事先同意的建议。",
+      "ja": "しかし、彼は最初から同意していたものだけを使った。"
+    },
+    {
+      "id": 8,
+      "ru": "Видеохостинг он написал достаточно резво, но с управлением проектом возникли проблемы.",
+      "en": "He wrote the video hosting fairly quickly, but problems arose with project management.",
+      "zh": "他写视频托管相当迅速，但项目管理出现了问题。",
+      "ja": "ビデオホスティングはかなり素早く書いたが、プロジェクト管理に問題が生じた。"
+    },
+    {
+      "id": 9,
+      "ru": "Хакер-художник не ладил с маркетингом, к тому же сказывалась усталость от темы.",
+      "en": "The hacker-artist didn't get along with marketing, and fatigue from the topic was also showing.",
+      "zh": "这位黑客艺术家与市场营销合不来，而且对这个主题的疲劳也开始显现。",
+      "ja": "ハッカー・アーティストはマーケティングとうまくいかず、テーマへの疲労も見られた。"
+    },
+    {
+      "id": 10,
+      "ru": "Николай Дуров вспоминал, что с сайтом, написанным на языке Ruby on Rails, возникли проблемы масштабирования – когда пошел мощный трафик.",
+      "en": "Nikolai Durov recalled that scaling problems arose with the site written in Ruby on Rails—when heavy traffic came.",
+      "zh": "尼古拉·杜罗夫回忆说，用Ruby on Rails编写的网站出现了扩展问题——当大流量到来时。",
+      "ja": "ニコライ・ドゥーロフは、Ruby on Railsで書かれたサイトにスケーリングの問題が発生したと回想した——大量のトラフィックが来たとき。"
+    },
+    {
+      "id": 11,
+      "ru": "Аналогичная история случилась с Twitter, который пришлось переписывать на Scala.",
+      "en": "A similar story happened with Twitter, which had to be rewritten in Scala.",
+      "zh": "Twitter也发生了类似的情况，不得不用Scala重写。",
+      "ja": "同様のことがTwitterで起こり、Scalaで書き直す必要があった。"
+    },
+    {
+      "id": 12,
+      "ru": "Серверы не справлялись с нагрузками.",
+      "en": "Servers couldn't handle the load.",
+      "zh": "服务器无法处理负载。",
+      "ja": "サーバーは負荷に対応できなかった。"
+    },
+    {
+      "id": 13,
+      "ru": "Все эти факторы наложились друг на друга, и Андреев ушел.",
+      "en": "All these factors overlapped, and Andreev left.",
+      "zh": "所有这些因素叠加在一起，安德烈耶夫离开了。",
+      "ja": "これらすべての要因が重なり、アンドレーエフは去った。"
+    },
+    {
+      "id": 14,
+      "ru": "Его жизнь обрела другие цели.",
+      "en": "His life found other goals.",
+      "zh": "他的生活有了其他目标。",
+      "ja": "彼の人生には別の目標ができた。"
+    },
+    {
+      "id": 15,
+      "ru": "Слушая докладчиков на пражской конференции по Ruby on Rails, Андреев внезапно увидел среди толпы свою школьную подругу – Ольга уехала учиться во Францию, и теперь код свел их.",
+      "en": "Listening to speakers at a Prague conference on Ruby on Rails, Andreev suddenly spotted his school friend in the crowd—Olga had gone to study in France, and now code brought them together.",
+      "zh": "在布拉格的Ruby on Rails会议上听演讲时，安德烈耶夫突然在人群中看到了他的校友——奥尔加去法国学习了，现在代码让他们相遇了。",
+      "ja": "プラハでのRuby on Railsカンファレンスでスピーカーの話を聞いていたとき、アンドレーエフは突然群衆の中に学校時代の友人を見つけた——オルガはフランスに留学しており、今コードが彼らを結びつけた。"
+    },
+    {
+      "id": 16,
+      "ru": "Последовал роман и отъезд в галльские палестины.",
+      "en": "A romance followed and departure to Gallic lands.",
+      "zh": "随后是一段恋情和去法国的旅程。",
+      "ja": "ロマンスが続き、フランスの地への出発となった。"
+    },
+    {
+      "id": 17,
+      "ru": "Другая версия гласила, что Андреев был мощным лидером, и они с Дуровым трудно уживались.",
+      "en": "Another version said that Andreev was a powerful leader, and he and Durov had trouble getting along.",
+      "zh": "另一个版本说，安德烈耶夫是一个强势的领导者，他和杜罗夫很难相处。",
+      "ja": "別のバージョンによると、アンドレーエフは強力なリーダーで、彼とドゥーロフはうまくやっていくのが難しかった。"
+    },
+    {
+      "id": 18,
+      "ru": "«Некомандный игрок, такой „скорпион”, который хочет захватывать мир, – щебетала Эльнара, нарезая торт, с которым я явился в сквот петербургских предпринимателей на Рубинштейна.",
+      "en": "\"Not a team player, such a 'scorpion' who wants to conquer the world,\" Elnara chirped, cutting the cake I had brought to the Petersburg entrepreneurs' squat on Rubinshteina Street.",
+      "zh": "「不是团队合作者，是那种想要征服世界的『蝎子』，」埃尔纳拉一边切着我带到鲁宾斯坦街彼得堡企业家聚点的蛋糕一边说。",
+      "ja": "「チームプレーヤーではなく、世界を征服したい『サソリ』のような人」とエルナラは、ルビンシテイナ通りのペテルブルク起業家のスクワットに私が持ってきたケーキを切りながらさえずった。"
+    },
+    {
+      "id": 19,
+      "ru": "– Мне казалось, что под каждой страницей сайта он хочет написать „Олег Андреев”, а не „Павел Дуров”».",
+      "en": "\"It seemed to me that under every page of the site he wanted to write 'Oleg Andreev,' not 'Pavel Durov.'\"",
+      "zh": "「在我看来，他想在网站的每一页底下写『奥列格·安德烈耶夫』，而不是『帕维尔·杜罗夫』。」",
+      "ja": "「サイトのすべてのページの下に『パーヴェル・ドゥーロフ』ではなく『オレグ・アンドレーエフ』と書きたかったように見えた」"
+    },
+    {
+      "id": 20,
+      "ru": "Так или иначе, Андреев собрал вещи и улетел во Францию.",
+      "en": "One way or another, Andreev packed his things and flew to France.",
+      "zh": "不管怎样，安德烈耶夫收拾行李飞往法国。",
+      "ja": "いずれにせよ、アンドレーエフは荷物をまとめてフランスに飛んだ。"
+    },
+    {
+      "id": 21,
+      "ru": "Удаленно трудиться над «ВКонтакте» не представлялось возможным.",
+      "en": "Working remotely on VKontakte wasn't possible.",
+      "zh": "远程为VKontakte工作是不可能的。",
+      "ja": "VKontakteでリモートワークは不可能だった。"
+    },
+    {
+      "id": 22,
+      "ru": "Дуров сетовал: «Надо было по-другому мотивировать, я потерял сильного человека».",
+      "en": "Durov lamented: \"I should have motivated differently, I lost a strong person.\"",
+      "zh": "杜罗夫感叹道：「我应该用不同的方式激励他，我失去了一个强人。」",
+      "ja": "ドゥーロフは嘆いた：「もっと違う形でモチベートすべきだった、強い人材を失った」"
+    },
+    {
+      "id": 23,
+      "ru": "После ухода Андреева тотем неустанно возносил ему хвалу и подчеркивал заслуги в части видеохостинга.",
+      "en": "After Andreev's departure, the totem tirelessly praised him and emphasized his contributions to video hosting.",
+      "zh": "安德烈耶夫离开后，图腾不断赞扬他，强调他在视频托管方面的贡献。",
+      "ja": "アンドレーエフの退職後、トーテムは絶え間なく彼を称え、ビデオホスティングへの貢献を強調した。"
+    },
+    {
+      "id": 24,
+      "ru": "Раздел «Видео» стартовал и подвергся нашествию миллионов.",
+      "en": "The Video section launched and was invaded by millions.",
+      "zh": "「视频」板块启动后，数百万人涌入。",
+      "ja": "ビデオセクションが開始され、何百万人もの人々が押し寄せた。"
+    },
+    {
+      "id": 25,
+      "ru": "Клипы, блокбастеры, мультфильмы, порно – все подряд лилось широкой рекой.",
+      "en": "Music videos, blockbusters, cartoons, porn—everything poured in like a wide river.",
+      "zh": "音乐视频、大片、动画片、色情片——所有东西都像大河一样涌入。",
+      "ja": "ミュージックビデオ、ブロックバスター、アニメ、ポルノ——すべてが大河のように流れ込んだ。"
+    },
+    {
+      "id": 26,
+      "ru": "Популярность принесла изменение аудитории.",
+      "en": "Popularity brought a change in audience.",
+      "zh": "人气带来了受众的变化。",
+      "ja": "人気はオーディエンスの変化をもたらした。"
+    },
+    {
+      "id": 27,
+      "ru": "Раньше во «ВКонтакте» сидели, как и декларировалось на старте, «студенты элитных вузов».",
+      "en": "Previously on VKontakte sat, as declared at the start, \"students of elite universities.\"",
+      "zh": "以前，正如开始时宣布的那样，VKontakte上是「精英大学的学生」。",
+      "ja": "以前、VKontakteには当初宣言されたように「エリート大学の学生」がいた。"
+    },
+    {
+      "id": 28,
+      "ru": "Теперь в сеть хлынули широкие народные массы.",
+      "en": "Now the broad popular masses flooded into the network.",
+      "zh": "现在，广大人民群众涌入了网络。",
+      "ja": "今、広範な大衆がネットワークに押し寄せた。"
+    },
+    {
+      "id": 29,
+      "ru": "Чтобы справиться с потоком, Николай бился с нагрузками с удвоенными силами, а штат администраторов, поддерживающих порядок, теперь исчислялся десятками.",
+      "en": "To cope with the flow, Nikolai fought with the load with doubled effort, and the staff of administrators maintaining order now numbered in the dozens.",
+      "zh": "为了应对这股洪流，尼古拉加倍努力应对负载，维持秩序的管理员队伍现在有几十人。",
+      "ja": "この流れに対処するため、ニコライは2倍の力で負荷と戦い、秩序を維持する管理者のスタッフは今や数十人に達した。"
+    },
+    {
+      "id": 30,
+      "ru": "«ВКонтакте» рос, но пока оставался стартапом энтузиастов, купавшихся в эйфории оттого, что махом сдвинули с пьедестала гигантов рунета.",
+      "en": "VKontakte was growing, but for now remained a startup of enthusiasts bathing in euphoria from having quickly knocked Runet giants off their pedestals.",
+      "zh": "VKontakte在成长，但目前仍然是一个充满热情的创业公司，沉浸在把俄罗斯互联网巨头从神坛上推下来的兴奋中。",
+      "ja": "VKontakteは成長していたが、今のところはRunetの巨人たちをあっという間に引きずり下ろした興奮に浸る熱心な人々のスタートアップのままだった。"
+    },
+    {
+      "id": 31,
+      "ru": "Дуров декларировал, что тратить ресурсы на удаление порнографии и блокбастеров будет только в том случае, когда нарушен закон, – по запросу прокуратуры.",
+      "en": "Durov declared that he would spend resources on removing pornography and blockbusters only when the law was violated—at the prosecutor's request.",
+      "zh": "杜罗夫宣布，只有在违反法律时才会花费资源删除色情和大片——根据检察院的要求。",
+      "ja": "ドゥーロフは、法律が違反された場合にのみ——検察の要請に応じて——ポルノやブロックバスターの削除にリソースを費やすと宣言した。"
+    },
+    {
+      "id": 32,
+      "ru": "Иначе понадобились бы не десятки, а тысячи админов, а несокрушимое преимущество его соцсети – вал пользовательского контента – обернулось бы против него.",
+      "en": "Otherwise not dozens but thousands of admins would be needed, and the invincible advantage of his social network—the wave of user content—would turn against him.",
+      "zh": "否则需要的不是几十名而是几千名管理员，而他的社交网络无可比拟的优势——用户内容的洪流——将会反过来对付他。",
+      "ja": "そうでなければ、何十人ではなく何千人もの管理者が必要になり、彼のソーシャルネットワークの無敵の優位性——ユーザーコンテンツの波——は彼に不利に働くだろう。"
+    },
+    {
+      "id": 33,
+      "ru": "Как почти всякий житель социального интернета со стажем более пяти лет, Дуров укрепился в цинизме и превратился в гурмана трэша, угара и содомии.",
+      "en": "Like almost any denizen of social internet with more than five years' experience, Durov strengthened in cynicism and became a connoisseur of trash, mayhem, and depravity.",
+      "zh": "像几乎所有在社交互联网上有五年以上经验的居民一样，杜罗夫变得更加愤世嫉俗，成为垃圾、混乱和堕落的鉴赏家。",
+      "ja": "5年以上の経験を持つソーシャルインターネットのほぼすべての住人と同様に、ドゥーロフは皮肉主義を強め、トラッシュ、混乱、堕落の鑑定家になった。"
+    },
+    {
+      "id": 34,
+      "ru": "Однажды в штабе он отловил дизайнера Добромыслова и спросил, что тот думает про идею виртуального кладбища для умерших юзеров.",
+      "en": "One day at headquarters he caught designer Dobromyslov and asked what he thought about the idea of a virtual cemetery for deceased users.",
+      "zh": "有一天在总部，他找到设计师多布罗米斯洛夫，问他对为死去用户建立虚拟墓地的想法有什么看法。",
+      "ja": "ある日本部で、彼はデザイナーのドブロミスロフを捕まえ、亡くなったユーザーのための仮想墓地のアイデアについてどう思うか尋ねた。"
+    },
+    {
+      "id": 35,
+      "ru": "Добромыслов подумал и ответил: «Трудно понять, кто на самом деле умер, кто нет, – куча фейков появится.",
+      "en": "Dobromyslov thought and answered: \"It's hard to tell who actually died and who didn't—a bunch of fakes will appear.",
+      "zh": "多布罗米斯洛夫想了想回答说：「很难判断谁真的死了谁没死——会出现大量假冒的。",
+      "ja": "ドブロミスロフは考えて答えた：「実際に誰が死んで誰が死んでいないか分かりにくい——偽物がたくさん出てくるだろう。"
+    },
+    {
+      "id": 36,
+      "ru": "А также любителей создать виртуала своего врага и отправить в могилу.",
+      "en": "And also people who like to create a virtual of their enemy and send them to the grave.",
+      "zh": "还有喜欢创建敌人的虚拟形象然后送进坟墓的人。",
+      "ja": "また、敵のバーチャルを作って墓場に送りたい人もいる。"
+    },
+    {
+      "id": 37,
+      "ru": "Нам и так постоянно пишут, чтобы закрыли аккаунты умерших».",
+      "en": "We're constantly getting messages to close deceased users' accounts as it is.\"",
+      "zh": "我们一直收到要求关闭死者账户的信息。」",
+      "ja": "すでに亡くなったユーザーのアカウントを閉鎖してくれというメッセージが絶えず届いている」"
+    },
+    {
+      "id": 38,
+      "ru": "«Ха! Если бы врага! – воскликнул Дуров.",
+      "en": "\"Ha! If only an enemy!\" Durov exclaimed.",
+      "zh": "「哈！如果只是敌人的话！」杜罗夫惊呼道。",
+      "ja": "「は！敵だったらまだいい！」とドゥーロフは叫んだ。"
+    },
+    {
+      "id": 39,
+      "ru": "– Недавно один товарищ выложил эротические фото своей девушки, а потом так получилось, что она умерла, и его попросили убрать их.",
+      "en": "\"Recently one guy posted erotic photos of his girlfriend, then it happened that she died, and he was asked to remove them.",
+      "zh": "「最近有个家伙上传了他女朋友的色情照片，然后她碰巧死了，有人要求他删掉这些照片。",
+      "ja": "「最近、ある奴が彼女のエロ写真を投稿して、その後彼女が死んで、削除するよう頼まれた。"
+    },
+    {
+      "id": 40,
+      "ru": "Он не убрал и пририсовал фотошопом льющуюся кровь и пятна!»",
+      "en": "He didn't remove them and photoshopped flowing blood and stains onto them!\"",
+      "zh": "他没有删除，反而用PS加上了流淌的血和污点！」",
+      "ja": "彼は削除せずに、Photoshopで流れる血とシミを描き加えた！」"
+    }
+  ],
+  "translator_notes": [
+    "Page 54 - Andreev leaves VK, video platform launches",
+    "VKadre (ВКадре) - 'In Frame', early VK video platform name",
+    "Ruby on Rails scaling issues - common problem, Twitter had same issue",
+    "Scala - JVM language Twitter rewrote their backend in",
+    "Prague Ruby on Rails conference where Andreev met Olga",
+    "'Gallic lands' (галльские палестины) - literary way to say France",
+    "Rubinshteina Street - famous St. Petersburg street with bars/cafes",
+    "Elnara - apparently someone in Petersburg startup community",
+    "'Scorpion' personality type - ambitious solo player",
+    "Broad popular masses (широкие народные массы) - Soviet-style phrase used ironically",
+    "Virtual cemetery idea - never implemented, too many edge cases",
+    "Dobromyslov - VK designer who discussed cemetery idea",
+    "Dark story about deceased girlfriend's photos - illustrates moderation challenges"
+  ],
+  "total_sentences": 40,
+  "page_type": "narrative"
+}

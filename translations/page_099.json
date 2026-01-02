@@ -1,0 +1,62 @@
+{
+  "page": 99,
+  "chapter": 0,
+  "chapter_title": "Об авторе (About the Author)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Об авторе",
+      "en": "About the Author",
+      "zh": "关于作者",
+      "ja": "著者について"
+    },
+    {
+      "id": 3,
+      "ru": "Николай Кононов – журналист, главный редактор ежедневного издания о предпринимательстве Hopes&Fears (hopesandfears.com).",
+      "en": "Nikolai Kononov is a journalist, editor-in-chief of the daily entrepreneurship publication Hopes&Fears (hopesandfears.com).",
+      "zh": "尼古拉·科诺诺夫是一名记者，创业类日报Hopes&Fears（hopesandfears.com）的主编。",
+      "ja": "ニコライ・コノノフはジャーナリストであり、起業家精神に関する日刊出版物Hopes&Fears（hopesandfears.com）の編集長である。"
+    },
+    {
+      "id": 4,
+      "ru": "Окончил МГУ, работал репортером в газетах «Известия» и «Столичная вечерняя».",
+      "en": "He graduated from MSU, worked as a reporter for the newspapers Izvestia and Stolichnaya Vechernyaya.",
+      "zh": "他毕业于莫斯科国立大学，曾在《消息报》和《首都晚报》担任记者。",
+      "ja": "モスクワ国立大学を卒業し、イズベスチヤ紙とストリチナヤ・ヴェチェルニャヤ紙で記者として働いた。"
+    },
+    {
+      "id": 5,
+      "ru": "Писал о бизнесменах разного масштаба – от деревенских подвижников до миллиардеров – сначала в журнале «Эксперт», а затем на протяжении семи лет в российском издании Forbes.",
+      "en": "He wrote about businessmen of various scales—from village enthusiasts to billionaires—first in Expert magazine, and then for seven years in the Russian edition of Forbes.",
+      "zh": "他撰写关于各种规模的商人的文章——从乡村企业家到亿万富翁——起初在《专家》杂志，然后在俄罗斯版《福布斯》工作了七年。",
+      "ja": "彼は様々な規模のビジネスマンについて書いた——村の熱心な起業家から億万長者まで——最初はエクスペルト誌で、その後7年間ロシア版フォーブスで。"
+    },
+    {
+      "id": 6,
+      "ru": "Автор книги «Бог без машины: Истории 20 сумасшедших, сделавших в России бизнес с нуля».",
+      "en": "Author of the book \"God Without a Machine: Stories of 20 Madmen Who Built a Business from Scratch in Russia.\"",
+      "zh": "《没有机器的上帝：20个疯狂的人在俄罗斯从零开始创业的故事》一书的作者。",
+      "ja": "『機械なしの神：ロシアでゼロからビジネスを築いた20人の狂人の物語』の著者。"
+    }
+  ],
+  "translator_notes": [
+    "Page 99 - About the Author section",
+    "Nikolai Kononov - Russian business journalist",
+    "Hopes&Fears - online publication about entrepreneurship (defunct)",
+    "MSU - Moscow State University",
+    "Izvestia - major Russian newspaper",
+    "Expert magazine - Russian business publication",
+    "Forbes Russia - Russian edition of Forbes magazine",
+    "'God Without a Machine' (2011) - Kononov's previous book on Russian entrepreneurs",
+    "Title plays on 'deus ex machina' concept"
+  ],
+  "total_sentences": 6,
+  "page_type": "back_matter"
+}

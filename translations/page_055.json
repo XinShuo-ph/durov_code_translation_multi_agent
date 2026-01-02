@@ -1,0 +1,268 @@
+{
+  "page": 55,
+  "chapter": 4,
+  "chapter_title": "Сок черешни (Cherry Juice)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code: The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Добромыслов широко улыбнулся – нельзя было понять, из вежливости или он уважает трэш так же, как начальник.",
+      "en": "Dobromyslov smiled broadly—it was impossible to tell if out of politeness or if he respected trash as much as his boss.",
+      "zh": "多布罗米斯洛夫咧嘴笑了——无法判断是出于礼貌还是他和老板一样欣赏垃圾。",
+      "ja": "ドブロミスロフは大きく微笑んだ——礼儀からなのか、上司と同じようにトラッシュを尊重しているのか分からなかった。"
+    },
+    {
+      "id": 3,
+      "ru": "«Нет, ну какая у человека душа! – не унимался Дуров. – Подрисовал кровь. Какая душа!»",
+      "en": "\"No, but what a soul this person has!\" Durov continued. \"Drew blood on it. What a soul!\"",
+      "zh": "「不，这个人的灵魂真是！」杜罗夫继续说道。「画上了血。真是什么灵魂！」",
+      "ja": "「いや、なんて魂の持ち主だ！」とドゥーロフは続けた。「血を描き加えた。なんて魂だ！」"
+    },
+    {
+      "id": 4,
+      "ru": "Программиста, который стал ключевым разработчиком «ВКонтакте», он нанял, как Джобс директора «Пепси-колы».",
+      "en": "He hired the programmer who became VKontakte's key developer the way Jobs hired the Pepsi-Cola director.",
+      "zh": "他雇佣了后来成为VKontakte关键开发者的程序员，就像乔布斯雇佣百事可乐的总监一样。",
+      "ja": "彼は、VKontakteのキー開発者となるプログラマーを、ジョブズがペプシコーラのディレクターを雇ったように雇った。"
+    },
+    {
+      "id": 5,
+      "ru": "Известный эпизод из истории Apple: отец яблок агитировал Джона Скалли уйти из рядов «красно-синих» и невзначай бросил: «Ты планируешь всю жизнь торговать подслащенной водой или хочешь изменить мир?»",
+      "en": "Famous episode from Apple history: the father of apples was persuading John Sculley to leave the \"red-blue\" ranks and casually said: \"Do you plan to sell sweetened water your whole life or do you want to change the world?\"",
+      "zh": "苹果历史上的著名片段：苹果之父劝说约翰·斯卡利离开「红蓝」阵营，随口说道：「你打算一辈子卖糖水还是想改变世界？」",
+      "ja": "Appleの歴史で有名なエピソード：りんごの父はジョン・スカリーを「赤と青」の陣営から離れるよう説得し、さりげなく言った：「一生砂糖水を売り続けるつもりか、それとも世界を変えたいか？」"
+    },
+    {
+      "id": 6,
+      "ru": "Скалли подал заявление об увольнении из PepsiCo, правда, вскоре уволил самого Джобса.",
+      "en": "Sculley submitted his resignation from PepsiCo, though he soon fired Jobs himself.",
+      "zh": "斯卡利从百事可乐辞职了，不过他很快就解雇了乔布斯本人。",
+      "ja": "スカリーはPepsiCoから辞表を出したが、すぐにジョブズ自身を解雇した。"
+    },
+    {
+      "id": 7,
+      "ru": "Рогозов попался на ту же удочку.",
+      "en": "Rogozov fell for the same trick.",
+      "zh": "罗戈佐夫中了同样的圈套。",
+      "ja": "ロゴゾフは同じ罠にかかった。"
+    },
+    {
+      "id": 8,
+      "ru": "Сидя за столиком кафе, он мучительно ждал, когда от человека в черном отклеятся телевизионщики.",
+      "en": "Sitting at a café table, he painfully waited for the TV people to detach from the man in black.",
+      "zh": "他坐在咖啡馆的桌旁，痛苦地等待电视台的人离开那个穿黑衣的人。",
+      "ja": "カフェのテーブルに座りながら、彼はテレビ関係者が黒い服の男から離れるのを苦しみながら待った。"
+    },
+    {
+      "id": 9,
+      "ru": "Человек говорил и говорил, а корреспондент зачарованно кивал.",
+      "en": "The man talked and talked, while the correspondent nodded mesmerized.",
+      "zh": "那个人说了又说，记者着迷地点头。",
+      "ja": "その男は話し続け、記者は魅了されたようにうなずいていた。"
+    },
+    {
+      "id": 10,
+      "ru": "Наконец фонарь на камере погас, и Дуров переместился за столик.",
+      "en": "Finally the light on the camera went out, and Durov moved to the table.",
+      "zh": "终于摄像机上的灯熄了，杜罗夫移到了桌旁。",
+      "ja": "ついにカメラのライトが消え、ドゥーロフはテーブルに移動した。"
+    },
+    {
+      "id": 11,
+      "ru": "«Ну что, – спросил он. – Вы готовы заняться проектом, который меняет жизнь миллионов людей?»",
+      "en": "\"So,\" he asked, \"are you ready to work on a project that changes the lives of millions?\"",
+      "zh": "「那么，」他问道，「你准备好从事一个改变数百万人生活的项目了吗？」",
+      "ja": "「それで」と彼は尋ねた。「何百万人もの人生を変えるプロジェクトに取り組む準備はできていますか？」"
+    },
+    {
+      "id": 12,
+      "ru": "Рогозова не надо было агитировать.",
+      "en": "Rogozov didn't need to be persuaded.",
+      "zh": "罗戈佐夫不需要被说服。",
+      "ja": "ロゴゾフは説得される必要がなかった。"
+    },
+    {
+      "id": 13,
+      "ru": "Он пришел удостовериться, что намерения тотема серьезны.",
+      "en": "He came to make sure the totem's intentions were serious.",
+      "zh": "他是来确认图腾的意图是否严肃的。",
+      "ja": "彼はトーテムの意図が本気かどうか確認しに来た。"
+    },
+    {
+      "id": 14,
+      "ru": "Узрев мерцание миссии вокруг фигуры, сидящей напротив, он, не колеблясь, ответил: «Готов».",
+      "en": "Seeing the shimmer of mission around the figure sitting opposite, he answered without hesitation: \"Ready.\"",
+      "zh": "看到对面人物周围闪烁的使命感，他毫不犹豫地回答：「准备好了。」",
+      "ja": "向かいに座る人物の周りにミッションの輝きを見て、彼は躊躇なく答えた：「準備できています」"
+    },
+    {
+      "id": 15,
+      "ru": "Последнее время Рогозов работал в контракторе Motorola, изготавливал им софт, то есть вполне торговал подслащенной программной водой.",
+      "en": "Lately Rogozov had been working for a Motorola contractor, making software for them, essentially selling sweetened programming water.",
+      "zh": "最近罗戈佐夫在摩托罗拉的承包商那里工作，为他们制作软件，本质上就是在卖甜味程序水。",
+      "ja": "最近ロゴゾフはモトローラの下請けで働き、彼らのためにソフトウェアを作っていた——つまり甘いプログラミング水を売っていたのだ。"
+    },
+    {
+      "id": 16,
+      "ru": "Для «ВКонтакте» он когда-то писал виджет с всплывающим окном, когда кто-то присылал пользователю сообщение или комментарий.",
+      "en": "For VKontakte he had once written a widget with a popup window when someone sent the user a message or comment.",
+      "zh": "他曾经为VKontakte写过一个小部件，当有人给用户发送消息或评论时会弹出窗口。",
+      "ja": "VKontakteのために、彼は誰かがユーザーにメッセージやコメントを送ったときにポップアップウィンドウが表示されるウィジェットを書いたことがあった。"
+    },
+    {
+      "id": 17,
+      "ru": "Причем медлил и изготовил версии не для всех браузеров.",
+      "en": "Moreover he had delayed and didn't make versions for all browsers.",
+      "zh": "而且他拖延了，没有为所有浏览器制作版本。",
+      "ja": "しかも彼は遅れていて、すべてのブラウザ用のバージョンを作っていなかった。"
+    },
+    {
+      "id": 18,
+      "ru": "Тут опять вступила в дело ангел-связной «ВКонтакте» Эльнара.",
+      "en": "Here VKontakte's angel-liaison Elnara stepped in again.",
+      "zh": "这时VKontakte的天使联络人埃尔纳拉又介入了。",
+      "ja": "ここでVKontakteの天使の連絡役エルナラが再び介入した。"
+    },
+    {
+      "id": 19,
+      "ru": "Она схватила Рогозова за воротник и тряхнула: дуровские разработчики сейчас допилят свой виджет, и ты будешь никому не нужен!",
+      "en": "She grabbed Rogozov by the collar and shook him: Durov's developers are about to finish their widget, and you'll be useless!",
+      "zh": "她抓住罗戈佐夫的衣领摇晃他：杜罗夫的开发者们马上就要完成他们的小部件了，你就没用了！",
+      "ja": "彼女はロゴゾフの襟をつかんで揺さぶった：ドゥーロフの開発者たちはもうすぐウィジェットを完成させる、そしたら君は必要なくなる！"
+    },
+    {
+      "id": 20,
+      "ru": "Рогозов очнулся и за ночь написал версию для Opera.",
+      "en": "Rogozov woke up and wrote the Opera version overnight.",
+      "zh": "罗戈佐夫醒悟过来，一夜之间写出了Opera版本。",
+      "ja": "ロゴゾフは目を覚まし、一晩でOperaバージョンを書いた。"
+    },
+    {
+      "id": 21,
+      "ru": "Дуров приобрел его виджет за тысячу долларов.",
+      "en": "Durov bought his widget for a thousand dollars.",
+      "zh": "杜罗夫以一千美元买下了他的小部件。",
+      "ja": "ドゥーロフは彼のウィジェットを1000ドルで購入した。"
+    },
+    {
+      "id": 22,
+      "ru": "Затем Рогозов прислал код на конкурс комментариев для блога и получил приглашение на встречу с архитектором.",
+      "en": "Then Rogozov submitted code to a blog comment contest and received an invitation to meet with the architect.",
+      "zh": "然后罗戈佐夫向博客评论竞赛提交了代码，收到了与建筑师会面的邀请。",
+      "ja": "その後、ロゴゾフはブログコメントコンテストにコードを提出し、アーキテクトとの面会の招待を受けた。"
+    },
+    {
+      "id": 23,
+      "ru": "Завербовав талант, Дуров подключил его к прорывному проекту – платформе для сторонних разработчиков.",
+      "en": "Having recruited the talent, Durov connected him to a breakthrough project—a platform for third-party developers.",
+      "zh": "招募到人才后，杜罗夫把他接入了一个突破性项目——第三方开发者平台。",
+      "ja": "人材を獲得した後、ドゥーロフは彼を画期的なプロジェクト——サードパーティ開発者向けプラットフォームに参加させた。"
+    },
+    {
+      "id": 24,
+      "ru": "Идея заключалась в том, что, взяв за основу открытый код «ВКонтакте», любой человек может создать свой сайт или использовать возможности соцсети для своих проектов – сообщества, магазина, краудсорсингового проекта, да чего угодно.",
+      "en": "The idea was that, using VKontakte's open code as a base, anyone could create their own site or use the social network's capabilities for their projects—a community, store, crowdsourcing project, whatever.",
+      "zh": "这个想法是，以VKontakte的开放代码为基础，任何人都可以创建自己的网站或将社交网络的功能用于自己的项目——社区、商店、众包项目，或任何东西。",
+      "ja": "アイデアは、VKontakteのオープンコードをベースに、誰でも自分のサイトを作成したり、ソーシャルネットワークの機能を自分のプロジェクト——コミュニティ、ストア、クラウドソーシングプロジェクト、何でも——に使えるというものだった。"
+    },
+    {
+      "id": 25,
+      "ru": "Такие платформы запустили лишь Myspace и Facebook.",
+      "en": "Only Myspace and Facebook had launched such platforms.",
+      "zh": "只有Myspace和Facebook推出过这样的平台。",
+      "ja": "このようなプラットフォームを立ち上げたのはMyspaceとFacebookだけだった。"
+    },
+    {
+      "id": 26,
+      "ru": "Дуров декларировал, что рассматривает открытие API как базу для интернет-герильи.",
+      "en": "Durov declared that he viewed the API opening as a base for internet guerrilla warfare.",
+      "zh": "杜罗夫宣称，他把开放API视为互联网游击战的基础。",
+      "ja": "ドゥーロフは、APIの公開をインターネットゲリラ戦の基盤と見なしていると宣言した。"
+    },
+    {
+      "id": 27,
+      "ru": "«Мы считаем, что будущее интернета находится в руках отдельных пассионарных личностей, многие из которых сейчас читают это сообщение, – писал он, обращаясь к пользователям.",
+      "en": "\"We believe that the future of the internet is in the hands of individual passionate personalities, many of whom are now reading this message,\" he wrote, addressing users.",
+      "zh": "「我们相信，互联网的未来掌握在个别有激情的人手中，其中许多人现在正在阅读这条消息，」他写道，对用户说。",
+      "ja": "「私たちは、インターネットの未来は個々の情熱的な人々の手にあると信じています。その多くが今このメッセージを読んでいます」と彼はユーザーに向けて書いた。"
+    },
+    {
+      "id": 28,
+      "ru": "– Поэтому мы запускаем во „ВКонтакте” проект User API, который позволяет любому желающему без затрат создавать отдельные социальные сети в различных странах мира».",
+      "en": "\"That's why we're launching the User API project on VKontakte, which allows anyone to create separate social networks in various countries of the world without cost.\"",
+      "zh": "「因此，我们在VKontakte上启动User API项目，让任何人都能免费在世界各国创建独立的社交网络。」",
+      "ja": "「だから私たちはVKontakteでUser APIプロジェクトを立ち上げます。これにより、誰でも無料で世界の様々な国に独自のソーシャルネットワークを作成できます」"
+    },
+    {
+      "id": 29,
+      "ru": "Однако его мотивы касались не только создания идеального инструмента коммуникации.",
+      "en": "However, his motives weren't only about creating an ideal communication tool.",
+      "zh": "然而，他的动机不仅仅是创造一个理想的通信工具。",
+      "ja": "しかし、彼の動機は理想的なコミュニケーションツールを作ることだけではなかった。"
+    },
+    {
+      "id": 30,
+      "ru": "Гендиректор Дуров разрывался между своими целями и требованием приносить прибыль.",
+      "en": "CEO Durov was torn between his goals and the demand to bring profit.",
+      "zh": "首席执行官杜罗夫在自己的目标和盈利要求之间左右为难。",
+      "ja": "CEOドゥーロフは、自分の目標と利益をもたらすという要求の間で引き裂かれていた。"
+    },
+    {
+      "id": 31,
+      "ru": "Время беззаботного стартапа как бы длилось, но «ВКонтакте» неумолимо превращалась в бизнес, и это превращение было неотменимо – росло количество серверов, штат, издержки.",
+      "en": "The carefree startup time seemed to continue, but VKontakte was inexorably turning into a business, and this transformation was irreversible—the number of servers, staff, and costs were growing.",
+      "zh": "无忧无虑的创业时代似乎还在继续，但VKontakte正不可阻挡地变成一个企业，这种转变是不可逆转的——服务器数量、员工和成本都在增长。",
+      "ja": "のんびりしたスタートアップの時期は続いているように見えたが、VKontakteは容赦なくビジネスに変わっていき、この変化は不可逆だった——サーバーの数、スタッフ、コストが増えていた。"
+    },
+    {
+      "id": 32,
+      "ru": "«Компании-посредники, которые стремятся дешево купить талантливые команды, старательно поддерживают миф, что продвижение игры в социальных сетях требует больших расходов, – писал он на сайте „Частный корреспондент”.",
+      "en": "\"Middleman companies that seek to cheaply buy talented teams diligently support the myth that promoting a game on social networks requires large expenses,\" he wrote on the Chastnyi Korrespondent website.",
+      "zh": "「那些想廉价收购优秀团队的中间商公司努力维护一个神话，即在社交网络上推广游戏需要大量支出，」他在「私人记者」网站上写道。",
+      "ja": "「才能あるチームを安く買収しようとする仲介会社は、ソーシャルネットワークでゲームを宣伝するには多額の費用がかかるという神話を熱心に支持している」と彼は「チャスニー・コレスポンデント」のサイトに書いた。"
+    },
+    {
+      "id": 33,
+      "ru": "– На самом деле никогда порог входа для желающих создать что-то существенное не был таким низким.",
+      "en": "\"In reality, the barrier to entry for those wanting to create something substantial has never been so low.",
+      "zh": "「事实上，对于想要创造有意义东西的人来说，入门门槛从未如此之低。",
+      "ja": "「実際には、何か重要なものを作りたい人にとって、参入障壁がこれほど低かったことはない。"
+    },
+    {
+      "id": 34,
+      "ru": "По мере того как растет платежеспособная аудитория социальных сетей и падают цены на хостинг, порог входа для новых игроков опускается еще ниже.",
+      "en": "As the paying audience of social networks grows and hosting prices fall, the barrier to entry for new players drops even lower.",
+      "zh": "随着社交网络付费用户的增长和托管价格的下降，新玩家的入门门槛进一步降低。",
+      "ja": "ソーシャルネットワークの有料オーディエンスが増え、ホスティング価格が下がるにつれて、新規プレーヤーの参入障壁はさらに低くなる。"
+    },
+    {
+      "id": 35,
+      "ru": "Фактически единственное, что нужно инвестировать начинающим разработчикам или дизайнерам в создание игры, – это свой труд».",
+      "en": "Effectively the only thing beginner developers or designers need to invest in creating a game is their labor.\"",
+      "zh": "实际上，初学者开发人员或设计师创建游戏唯一需要投入的就是他们的劳动。」",
+      "ja": "実質的に、初心者の開発者やデザイナーがゲーム制作に投資する必要があるのは、自分の労働だけだ」"
+    }
+  ],
+  "translator_notes": [
+    "Page 55 - Rogozov's full-time hiring, API platform launch",
+    "Jobs/Sculley reference - famous 'sugared water' pitch from Apple history",
+    "Irony: Sculley later fired Jobs from Apple (1985)",
+    "'Red-blue' ranks - Pepsi colors",
+    "Elnara - recurring character, VK's community liaison/angel",
+    "Opera browser version - Opera was popular in Russia/Eastern Europe",
+    "$1000 for widget - early freelance payment",
+    "User API - VK's developer platform, launched to compete with Facebook Platform",
+    "'Internet guerrilla' (интернет-герилья) - decentralized revolution",
+    "'Chastnyi Korrespondent' (Частный корреспондент) - Russian online magazine",
+    "Low barrier to entry - Durov's philosophy on democratizing development",
+    "Tension between mission and profit - key theme as VK matures"
+  ],
+  "total_sentences": 35,
+  "page_type": "narrative"
+}
