@@ -1,0 +1,71 @@
+{
+  "page": 4,
+  "chapter": 0,
+  "chapter_title": "Front Matter - Recommended Books (推荐书籍 / 推薦図書)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. 'Durov's Code. The True Story of VKontakte and Its Creator'",
+      "zh": "Н·В·科诺诺夫《杜罗夫密码：VKontakte 及其创始人的真实故事》",
+      "ja": "N・V・コノノフ「ドゥーロフの暗号：VKontakteとその創設者の真実の物語」"
+    },
+    {
+      "id": 2,
+      "ru": "Николай Кононов",
+      "en": "Nikolai Kononov",
+      "zh": "尼古拉·科诺诺夫",
+      "ja": "ニコライ・コノノフ"
+    },
+    {
+      "id": 3,
+      "ru": "Код Дурова. Реальная история «ВКонтакте» и ее создателя",
+      "en": "Durov's Code. The True Story of VKontakte and Its Creator",
+      "zh": "杜罗夫密码：VKontakte 及其创始人的真实故事",
+      "ja": "ドゥーロフの暗号：VKontakteとその創設者の真実の物語"
+    },
+    {
+      "id": 4,
+      "ru": "Эту книгу хорошо дополняют:",
+      "en": "Companion books to this one:",
+      "zh": "与本书相得益彰的读物：",
+      "ja": "本書の推薦図書："
+    },
+    {
+      "id": 5,
+      "ru": "Мечтай, создавай, изменяй! Как молодые предприниматели меняют мир и зарабатывают состояния",
+      "en": "Dream, Create, Transform! How Young Entrepreneurs Are Changing the World and Making Fortunes",
+      "zh": "梦想、创造、改变！年轻创业者如何改变世界并赚取财富",
+      "ja": "夢見よ、創造せよ、変革せよ！若き起業家たちが世界を変え富を築く方法"
+    },
+    {
+      "id": 6,
+      "ru": "Сара Лейси",
+      "en": "Sarah Lacy",
+      "zh": "萨拉·莱西",
+      "ja": "サラ・レイシー"
+    },
+    {
+      "id": 7,
+      "ru": "И ботаники делают бизнес",
+      "en": "Nerds Do Business Too",
+      "zh": "书呆子也能做生意",
+      "ja": "オタクもビジネスをする"
+    },
+    {
+      "id": 8,
+      "ru": "Максим Котин",
+      "en": "Maxim Kotin",
+      "zh": "马克西姆·科京",
+      "ja": "マキシム・コティン"
+    }
+  ],
+  "translator_notes": [
+    "This page lists companion books recommended by the publisher",
+    "Sarah Lacy is a prominent tech journalist known for covering Silicon Valley",
+    "'Nerds Do Business Too' (И ботаники делают бизнес) is particularly relevant as it echoes Durov's own story",
+    "The word 'ботаники' (nerds/geeks) is a recurring theme in the Durov narrative"
+  ],
+  "total_sentences": 8,
+  "page_type": "front_matter"
+}
