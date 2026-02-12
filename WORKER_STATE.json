@@ -1,0 +1,13 @@
+{
+  "worker_id": "f9c1",
+  "branch": "cursor/translation-project-initialization-f9c1",
+  "batch_prefix": "cursor/translation-project-initialization",
+  "heartbeat": 1770877027,
+  "status": "translating",
+  "claimed_page": null,
+  "claimed_at": null,
+  "completed_pages": [],
+  "phase": "stripe",
+  "last_sync_at": 1770877027,
+  "notes": "N=1 (no peers found), stripe covers all 99 pages"
+}
