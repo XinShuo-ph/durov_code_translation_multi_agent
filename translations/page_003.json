@@ -1,0 +1,98 @@
+{
+  "page": 3,
+  "chapter": 0,
+  "chapter_title": "Front Matter (扉页 / 表紙)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "尼古拉·科诺诺夫《杜罗夫密码：VKontakte的真实故事及其创始人》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Содержание",
+      "en": "Contents",
+      "zh": "目录",
+      "ja": "目次"
+    },
+    {
+      "id": 3,
+      "ru": "Предисловие",
+      "en": "Preface",
+      "zh": "序言",
+      "ja": "序文"
+    },
+    {
+      "id": 4,
+      "ru": "Пролог",
+      "en": "Prologue",
+      "zh": "序章",
+      "ja": "プロローグ"
+    },
+    {
+      "id": 5,
+      "ru": "Глава 1",
+      "en": "Chapter 1",
+      "zh": "第一章",
+      "ja": "第1章"
+    },
+    {
+      "id": 6,
+      "ru": "Глава 2",
+      "en": "Chapter 2",
+      "zh": "第二章",
+      "ja": "第2章"
+    },
+    {
+      "id": 7,
+      "ru": "Глава 3",
+      "en": "Chapter 3",
+      "zh": "第三章",
+      "ja": "第3章"
+    },
+    {
+      "id": 8,
+      "ru": "Глава 4",
+      "en": "Chapter 4",
+      "zh": "第四章",
+      "ja": "第4章"
+    },
+    {
+      "id": 9,
+      "ru": "Глава 5",
+      "en": "Chapter 5",
+      "zh": "第五章",
+      "ja": "第5章"
+    },
+    {
+      "id": 10,
+      "ru": "Глава 6",
+      "en": "Chapter 6",
+      "zh": "第六章",
+      "ja": "第6章"
+    },
+    {
+      "id": 11,
+      "ru": "Глава 7",
+      "en": "Chapter 7",
+      "zh": "第七章",
+      "ja": "第7章"
+    },
+    {
+      "id": 12,
+      "ru": "Об авторе",
+      "en": "About the Author",
+      "zh": "关于作者",
+      "ja": "著者について"
+    }
+  ],
+  "translator_notes": [
+    "Page 3 is the table of contents showing the book structure",
+    "The book has 7 chapters plus preface, prologue, and author bio",
+    "Page numbers in the original: Preface (5), Prologue (7), Ch.1 (13), Ch.2 (23), Ch.3 (38), Ch.4 (51), Ch.5 (65), Ch.6 (79), Ch.7 (92), About Author (99)"
+  ],
+  "total_sentences": 12,
+  "page_type": "front_matter"
+}
