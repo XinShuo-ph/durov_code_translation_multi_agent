@@ -1,0 +1,69 @@
+{
+  "page": 4,
+  "chapter": 0,
+  "chapter_title": "Титульные страницы (Front Matter)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. “Durov Code: The True Story of VKontakte and Its Creator.”",
+      "zh": "尼·弗·科诺诺夫：《杜罗夫代码：VKontakte 及其创始人的真实故事》。",
+      "ja": "N・V・コノノフ『ドゥーロフのコード――「VKontakte」とその創設者の実話』。"
+    },
+    {
+      "id": 2,
+      "ru": "Николай Кононов",
+      "en": "Nikolai Kononov.",
+      "zh": "尼古拉·科诺诺夫。",
+      "ja": "ニコライ・コノノフ。"
+    },
+    {
+      "id": 3,
+      "ru": "Код Дурова. Реальная история «ВКонтакте» и ее создателя",
+      "en": "Durov Code: The True Story of VKontakte and Its Creator.",
+      "zh": "《杜罗夫代码：VKontakte 及其创始人的真实故事》。",
+      "ja": "『ドゥーロフのコード――「VKontakte」とその創設者の実話』。"
+    },
+    {
+      "id": 4,
+      "ru": "Эту книгу хорошо дополняют:",
+      "en": "This book is well complemented by:",
+      "zh": "这本书还可以搭配阅读：",
+      "ja": "この本をよく補完してくれる関連書："
+    },
+    {
+      "id": 5,
+      "ru": "Мечтай, создавай, изменяй! Как молодые предприниматели меняют мир и зарабатывают состояния",
+      "en": "Dream, Create, Change! How Young Entrepreneurs Change the World and Make Fortunes.",
+      "zh": "《梦想、创造、改变！年轻企业家如何改变世界并赚取巨额财富》。",
+      "ja": "『夢見て、創って、変えろ！ 若い起業家はいかに世界を変え、巨万の富を得るのか』。"
+    },
+    {
+      "id": 6,
+      "ru": "Сара Лейси",
+      "en": "Sarah Lacy.",
+      "zh": "莎拉·莱西。",
+      "ja": "サラ・レイシー。"
+    },
+    {
+      "id": 7,
+      "ru": "И ботаники делают бизнес",
+      "en": "And Nerds Do Business.",
+      "zh": "《书呆子也能做生意》。",
+      "ja": "『オタクもビジネスをする』。"
+    },
+    {
+      "id": 8,
+      "ru": "Максим Котин",
+      "en": "Maxim Kotin.",
+      "zh": "马克西姆·科京。",
+      "ja": "マクシム・コチン。"
+    }
+  ],
+  "translator_notes": [
+    "This page is front matter listing the author/title and recommended related books.",
+    "Translated book titles are approximate; kept as title-style renderings rather than literal sentences."
+  ],
+  "total_sentences": 8,
+  "page_type": "front_matter"
+}
