@@ -2,11 +2,13 @@
   "worker_id": "0e56",
   "branch": "cursor/translation-project-initialization-0e56",
   "batch_prefix": "cursor/translation-project-initialization",
-  "heartbeat": 1770877367,
+  "heartbeat": 1770877626,
   "status": "idle",
   "claimed_page": null,
   "claimed_at": null,
-  "completed_pages": [],
+  "completed_pages": [
+    7
+  ],
   "phase": "stripe",
   "last_sync_at": 1770877367,
   "notes": "Bootstrap with N=16; peers not yet discoverable for this batch prefix."
