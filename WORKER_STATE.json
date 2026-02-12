@@ -6,7 +6,7 @@
   "status": "translating",
   "claimed_page": null,
   "claimed_at": null,
-  "completed_pages": [2, 3, 4, 5, 6, 7, 8, 9],
+  "completed_pages": [2, 3, 4, 5, 6, 7, 8, 9, 10],
   "phase": "stripe",
   "last_sync_at": 1770877100,
   "notes": "Worker 0 of 1 - taking all pages as stripe"
