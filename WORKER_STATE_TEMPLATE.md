@@ -1,25 +1,24 @@
+# Optional: WORKER_STATE.md (minimal template)
+
+This file is **optional** in Protocol v3. Coordination should not depend on it.
+If you want a human-readable status file on your branch, keep it minimal.
+
+---
+
 # Worker: [SHORT_ID]
 
-## Status
-- **Branch**: [YOUR_FULL_BRANCH_NAME]
-- **Short ID**: [LAST_4_CHARS]
-- **Heartbeat**: [UNIX_TIMESTAMP]
-- **Status**: online
+## Identity
+- **Branch**: [cursor/exp-<ID>-<role>-<xxxx>]
+- **Short ID**: [xxxx]
+- **Experiment**: [exp-<ID>]
+- **Last Active**: [ISO timestamp]
 
-## Current Work
-- **Claimed Page**: none
-- **Started At**: -
-
-## Completed Pages
-| Page | Completed At | Hash |
-|------|--------------|------|
-
-## Known Workers (Last Sync)
-| Short ID | Status | Claimed Page | Last Heartbeat |
-|----------|--------|--------------|----------------|
+## Progress
+- **Completed Pages**: [comma-separated list, e.g. 12, 19, 20]
+- **Currently Working On**: [page number or "none"]
 
 ## Notes
-Ready to begin translation.
+[Optional: brief message for integrator/reviewers]
 
 ---
 
@@ -33,21 +32,18 @@ Ready to begin translation.
 2. **Get your identity**:
    ```bash
    MY_BRANCH=$(git branch --show-current)
-   MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
+   MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[0-9a-fA-F]{4}$' || true)
    echo "Branch: $MY_BRANCH"
    echo "Short ID: $MY_SHORT_ID"
    ```
 
 3. **Fill in your details**:
-   - Replace `[YOUR_FULL_BRANCH_NAME]` with your branch
-   - Replace `[LAST_4_CHARS]` with your short ID
-   - Replace `[UNIX_TIMESTAMP]` with `$(date +%s)`
+   - Replace `[ISO timestamp]` with `$(date -u +%Y-%m-%dT%H:%M:%SZ)`
 
 4. **Commit and push** (this registers you!):
    ```bash
    git add WORKER_STATE.md
-   git commit -m "[$MY_SHORT_ID] SYNC: Registering as active worker
-   HEARTBEAT: $(date +%s)"
+   git commit -m "[$MY_SHORT_ID] status: update worker state"
    git push origin HEAD
    ```
 
@@ -60,29 +56,16 @@ Ready to begin translation.
 ```markdown
 # Worker: a1b2
 
-## Status
-- **Branch**: cursor/book-translation-task-a1b2
+## Identity
+- **Branch**: cursor/exp-005-translate-a1b2
 - **Short ID**: a1b2
-- **Heartbeat**: 1735689600
-- **Status**: translating
+- **Experiment**: exp-005
+- **Last Active**: 2026-02-12T00:00:00Z
 
-## Current Work
-- **Claimed Page**: 15
-- **Started At**: 1735689500
-
-## Completed Pages
-| Page | Completed At | Hash |
-|------|--------------|------|
-| 13   | 1735688400   | a8f3b2c1 |
-| 14   | 1735689000   | c9d4e5f6 |
-
-## Known Workers (Last Sync)
-| Short ID | Status | Claimed Page | Last Heartbeat |
-|----------|--------|--------------|----------------|
-| c3d4     | online | 16           | 1735689550     |
-| e5f6     | online | 17           | 1735689500     |
-| g7h8     | offline| 18           | 1735685000     |
+## Progress
+- **Completed Pages**: 12, 19, 20
+- **Currently Working On**: 21
 
 ## Notes
-Working on Chapter 1. Synced at 1735689600.
+Pushing pages as soon as they validate.
 ```

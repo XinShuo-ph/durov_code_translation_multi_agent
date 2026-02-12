@@ -31,3 +31,17 @@ python3 tools/compile_pages.py translations/raw/page_XXX.json output_directory
 - `xelatex` (part of `texlive-xetex`)
 - `xeCJK` (part of `texlive-lang-chinese`)
 - `Noto` fonts
+
+---
+
+## Multi-Agent Helpers
+
+These scripts support the Protocol v3 workflow:
+
+- `tools/sync.py`: scan experiment-scoped branches and pick a next page
+  - `python3 tools/sync.py status`
+  - `python3 tools/sync.py next`
+- `tools/validate_translation.py`: validate a page JSON before pushing
+  - `python3 tools/validate_translation.py translations/page_013.json`
+- `tools/collect_translations.py`: integrator utility to collect best-per-page across branches
+  - `python3 tools/collect_translations.py --prefix origin/cursor/exp-005- --out-dir translations`

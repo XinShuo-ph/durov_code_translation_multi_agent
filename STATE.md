@@ -7,21 +7,7 @@
 ## How to Check Active Workers
 
 ```bash
-git fetch origin --prune
-
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
-    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    heartbeat=$(git show "origin/${branch}:WORKER_STATE.md" 2>/dev/null | grep -oP 'Heartbeat: \K[0-9]+' | head -1)
-    now=$(date +%s)
-    age=$((now - heartbeat))
-    if [ $age -lt 600 ]; then
-      echo "ONLINE:  $short_id (heartbeat ${age}s ago)"
-    else
-      echo "OFFLINE: $short_id (heartbeat ${age}s ago)"
-    fi
-  fi
-done
+python3 tools/sync.py status
 ```
 
 ---

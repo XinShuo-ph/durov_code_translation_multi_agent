@@ -11,60 +11,52 @@ Deliver a multilingual edition of "Код Дурова" (Durov Code) by Nikolai 
 **THIS PROJECT USES MULTIPLE AI AGENTS WORKING COLLABORATIVELY**
 
 You are part of a team of workers translating this book in parallel. You will:
-1. **Discover** other workers and know who's online
-2. **Claim** pages to translate (one at a time)
-3. **Sync** regularly to stay coordinated
-4. **Share** your translations via git
+1. **Sync within the current experiment only** (avoid stale branches)
+2. **Pick pages with a staggered start** (avoid 10 agents starting at page 1)
+3. **Translate** pages in parallel
+4. **Validate + push** your page output so the integrator can assemble continuously
 
 See `PROTOCOL.md` for the complete communication protocol.
 
 ### Key Principles
 
-- **Collaborative, not isolated**: You know who else is working and what they're doing
-- **Simple workload**: Each worker claims pages (lowest available first)
-- **Robust**: If workers disconnect, others can reclaim their pages
-- **Sync regularly**: Fetch other workers' states every 2-3 minutes
+- **No phase gates**: Do not wait for consensus/votes/tooling debates before translating
+- **Experiment-scoped discovery**: Only scan branches matching `cursor/exp-<ID>-*`
+- **Continuous integration**: Finished pages must be easy to collect and merge
 
 ---
 
 ## Quick Start (Agent Startup Sequence)
 
-### Step 1: Identify Yourself
+### Step 1: Ensure you are on an experiment-scoped branch
+
+Branch naming is **mandatory**:
+- `cursor/exp-<ID>-translate-<xxxx>`
+
+Example:
+- `cursor/exp-005-translate-c68e`
+
+### Step 2: Find your next page (staggered, experiment-scoped)
+
 ```bash
-MY_BRANCH=$(git branch --show-current)
-MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
-echo "I am: $MY_SHORT_ID on $MY_BRANCH"
+python3 tools/sync.py status
+NEXT_PAGE=$(python3 tools/sync.py next)
+echo "$NEXT_PAGE"
 ```
 
-### Step 2: Create WORKER_STATE.md
-Copy from `WORKER_STATE_TEMPLATE.md` and fill in your details. This **registers you as an active worker**.
+### Step 3: Translate → validate → push
 
-### Step 3: Sync & Discover Other Workers
 ```bash
-git fetch origin --prune
+# Translate extracted/pages/page_XXX.txt into translations/page_XXX.json
+python3 tools/validate_translation.py "translations/page_$(printf '%03d' "$NEXT_PAGE").json"
 
-# Find all active workers
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
-    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    echo "Active worker: $short_id ($branch)"
-  fi
-done
-```
-
-### Step 4: Register Yourself
-```bash
-git add WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] SYNC: Registering as active worker
-HEARTBEAT: $(date +%s)"
+MY_SHORT_ID=$(git branch --show-current | grep -oE '[0-9a-fA-F]{4}$' || echo xxxx)
+git add "translations/page_$(printf '%03d' "$NEXT_PAGE").json"
+git commit -m "[${MY_SHORT_ID}] page ${NEXT_PAGE}: translate"
 git push origin HEAD
 ```
 
-### Step 5: Claim a Page and Start Translating
-1. Find the lowest page number not claimed or completed
-2. Update WORKER_STATE.md with your claim
-3. Push immediately
-4. Start translating!
+Repeat immediately. Do not wait for consensus or confirmation.
 
 ---
 
@@ -330,40 +322,26 @@ See `research/glossary.md` for the complete terminology guide.
 
 ## Collaboration Protocol Summary
 
-### Regular Sync (Every 2-3 Minutes)
+### Pick pages via experiment-scoped sync
+
 ```bash
-git fetch origin --prune
-# Read other workers' WORKER_STATE.md files
-# Update your "Known Workers" table
+python3 tools/sync.py status
+python3 tools/sync.py next
 ```
 
-### Page Claiming
-1. Sync first (always!)
-2. Find lowest available page
-3. Update WORKER_STATE.md with claim
-4. Push immediately
-5. Start translating
+### Always validate before pushing
 
-### Completing a Page
 ```bash
-git add translations/page_XXX.json WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] DONE: Completed page XXX
-HASH: $(sha256sum translations/page_XXX.json | cut -c1-8)
-HEARTBEAT: $(date +%s)"
-git push origin HEAD
+python3 tools/validate_translation.py translations/page_XXX.json
 ```
 
-### Handling Offline Workers
-- Workers with heartbeats >10 min old are considered offline
-- After 15 min, their claimed pages can be reclaimed
-- Note in your WORKER_STATE.md when reclaiming
+### Integration is continuous (integrator role)
 
-### If You Reconnect After Disconnect
-1. Sync first (fetch all branches)
-2. Check if your old page was reclaimed
-3. If yes: claim next available page
-4. If no: continue where you left off
-5. Push immediately to show you're back
+The integrator regularly runs:
+
+```bash
+python3 tools/collect_translations.py --prefix origin/cursor/exp-<ID>- --out-dir translations
+```
 
 ---
 

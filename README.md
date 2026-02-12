@@ -12,10 +12,9 @@ This project uses **multiple AI agents working collaboratively**, each on their 
 
 ### Key Design Principles
 
-1. **Collaborative, not isolated**: Workers know who else is online and what they're doing
-2. **Simple workload distribution**: Claim lowest available page
-3. **Robust against disconnection**: Pages can be reclaimed from offline workers
-4. **Easy reconnection**: Returning workers sync and continue
+1. **Parallel by default**: Many translators work at once on disjoint pages
+2. **Experiment-scoped discovery**: Workers only sync against branches in the current experiment (prevents stale-branch duplication)
+3. **Integrate continuously**: An integrator regularly collects and merges page outputs so work never gets stranded on worker branches
 
 ### Communication Method
 
@@ -23,39 +22,34 @@ Agents communicate via **git commits, pushes, and pulls**—using git as a messa
 
 ### Worker Identity
 
-- **Branch Name**: Full branch name (e.g., `cursor/translation-task-a1b2`)
-- **Short ID**: Last 4 characters (e.g., `a1b2`) - used in commit messages
-- **Registration**: Creating `WORKER_STATE.md` on your branch registers you as active
+- **Experiment branch naming (mandatory)**: `cursor/exp-<ID>-<role>-<xxxx>`
+  - Example: `cursor/exp-005-translate-c68e`
+- **Short ID**: Usually the last 4 characters (e.g., `c68e`) - used in commit messages
 
-### Checking Who's Online
+### Syncing Without Stale-Branch Duplication
+
+Use the helper (scans only `origin/cursor/exp-<ID>-*`):
 
 ```bash
-git fetch origin --prune
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
-    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    echo "Active: $short_id ($branch)"
-  fi
-done
+python3 tools/sync.py status
+python3 tools/sync.py next
 ```
 
 ## Quick Start for Workers
 
-1. **Identify yourself**:
+1. **Get next page**:
    ```bash
-   MY_BRANCH=$(git branch --show-current)
-   MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
+   NEXT_PAGE=$(python3 tools/sync.py next)
    ```
-
-2. **Create WORKER_STATE.md**: Copy from template, fill in your info
-
-3. **Push to register**: This makes you visible to other workers
-
-4. **Sync and discover**: Fetch other workers' states
-
-5. **Claim a page**: Lowest available page number
-
-6. **Translate and push**: Save JSON, push, claim next
+2. **Translate** `extracted/pages/page_XXX.txt` → `translations/page_XXX.json`
+3. **Validate + push**:
+   ```bash
+   python3 tools/validate_translation.py "translations/page_$(printf '%03d' "$NEXT_PAGE").json"
+   git add "translations/page_$(printf '%03d' "$NEXT_PAGE").json"
+   MY_SHORT_ID=$(git branch --show-current | grep -oE '[0-9a-fA-F]{4}$' || echo xxxx)
+   git commit -m "[${MY_SHORT_ID}] page ${NEXT_PAGE}: translate"
+   git push origin HEAD
+   ```
 
 ## Key Files
 
@@ -64,8 +58,9 @@ done
 | `PROTOCOL.md` | Communication protocol |
 | `instructions.md` | Detailed task instructions |
 | `STATE.md` | Global project state |
-| `WORKER_STATE.md` | Your worker state (create this!) |
-| `WORKER_STATE_TEMPLATE.md` | Template for new workers |
+| `tools/sync.py` | Experiment-scoped sync + next-page selection |
+| `tools/collect_translations.py` | Integrator: collect best pages across worker branches |
+| `tools/validate_translation.py` | Validate JSON before pushing |
 
 ## Resources Available
 
@@ -148,11 +143,10 @@ Each page becomes a JSON file with sentences in 4 languages:
 
 ## Protocol Summary
 
-1. **Sync regularly**: Every 2-3 minutes
-2. **Claim one page at a time**: Lowest available
-3. **Push immediately**: After claiming, after completing
-4. **Heartbeat**: Update at least every 5 minutes
-5. **Handle disconnection**: Reclaim pages from offline workers (>15 min)
+1. **Use experiment-scoped prefixes** (`cursor/exp-<ID>-*`) to avoid stale-branch duplication
+2. **Pick pages with** `tools/sync.py next` (staggered starts reduce collisions)
+3. **Validate every page** with `tools/validate_translation.py`
+4. **Integrate continuously** using `tools/collect_translations.py`
 
 ---
 
