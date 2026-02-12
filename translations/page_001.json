@@ -1,0 +1,20 @@
+{
+  "page": 1,
+  "chapter": 0,
+  "chapter_title": "Фронтматерия (Front Matter)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "На этой странице нет извлечённого текста (обложка/пустая страница).",
+      "en": "This page contains no extractable text (cover/blank page).",
+      "zh": "本页没有可提取的文字（封面/空白页）。",
+      "ja": "このページには抽出できるテキストがありません（表紙／空白ページ）。"
+    }
+  ],
+  "translator_notes": [
+    "The corresponding source file extracted/pages/page_001.txt is empty; this likely indicates a cover or blank page in the original PDF."
+  ],
+  "total_sentences": 1,
+  "page_type": "front_matter"
+}
+
