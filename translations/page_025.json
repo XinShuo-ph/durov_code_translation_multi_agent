@@ -1,0 +1,151 @@
+{
+  "page": 25,
+  "chapter": 2,
+  "chapter_title": "Архитектор (The Architect)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Прагматик и визионер осознали, что полезны друг другу, имеют взаимодополняющие сильные стороны, и сдружились.",
+      "en": "The pragmatist and the visionary realized they were useful to each other, had complementary strengths, and became friends.",
+      "zh": "务实者和远见者意识到他们对彼此有用，拥有互补的优势，于是成了朋友。",
+      "ja": "プラグマティストとビジョナリーは互いに有用で、補完し合う強みがあることに気づき、友人になった。"
+    },
+    {
+      "id": 2,
+      "ru": "Сначала их устремления не поражали размахом. Амбиции касались, например, двора факультета — сада со скульптурами и скамейками, где на переменах болтали филологи.",
+      "en": "At first their aspirations were not staggering in scale. Ambitions concerned, for example, the faculty courtyard — a garden with sculptures and benches where philologists chatted during breaks.",
+      "zh": "起初他们的志向并不惊人。他们的雄心只涉及学院的院子——一个有雕塑和长椅的花园，课间语文学家们在那里聊天。",
+      "ja": "当初、彼らの志はスケールで驚かせるものではなかった。野心は例えば学部の中庭——休み時間に文献学者たちがおしゃべりする彫刻とベンチのある庭——に関するものだった。"
+    },
+    {
+      "id": 3,
+      "ru": "Каждый день рядом со скульптурой «Перекур» дискутировал кружок американцев, которые учат русский. Почему-то филологи не снисходили до знакомства с носителями языка, а Дуров с Перекопским увидели в этом шанс перейти на более высокий языковой уровень.",
+      "en": "Every day near the 'Smoke Break' sculpture, a circle of Americans studying Russian would hold discussions. For some reason the philologists did not deign to get acquainted with native speakers, but Durov and Perekopsky saw this as a chance to reach a higher language level.",
+      "zh": "每天在「休息」雕塑旁，一群学俄语的美国人在讨论。不知为何语文学家们不屑于结识母语者，但杜罗夫和佩列科普斯基看到了这个提升语言水平的机会。",
+      "ja": "毎日「一服」という彫刻の近くで、ロシア語を学ぶアメリカ人の輪が議論していた。なぜか文献学者たちはネイティブスピーカーと知り合おうとしなかったが、ドゥーロフとペレコプスキーはより高い語学レベルに達するチャンスと見た。"
+    },
+    {
+      "id": 4,
+      "ru": "День рождения Дурова они праздновали в англоязычном кругу, зазвав носителей в бар «Идиот» на Мойке. Американцы поразились, что именинник не пьёт и утверждает, что даже капля спиртного во рту ему отвратительна.",
+      "en": "They celebrated Durov's birthday in an English-speaking circle, inviting the native speakers to the bar 'Idiot' on the Moyka. The Americans were amazed that the birthday boy did not drink and claimed that even a drop of alcohol in his mouth was repulsive to him.",
+      "zh": "他们在英语圈里庆祝了杜罗夫的生日，邀请母语者们到莫伊卡河畔的「白痴」酒吧。美国人惊讶于寿星不喝酒，声称嘴里即使有一滴酒都让他恶心。",
+      "ja": "ドゥーロフの誕生日は英語話者の輪で祝い、ネイティブスピーカーをモイカ川沿いのバー「イディオット」に招いた。アメリカ人たちは、誕生日の主人公が酒を飲まず、口の中の一滴の酒でさえ嫌悪だと主張することに驚いた。"
+    },
+    {
+      "id": 5,
+      "ru": "Первая идея Дурова, связанная с интернетом, выросла из его мании эффективности.",
+      "en": "Durov's first internet-related idea grew out of his mania for efficiency.",
+      "zh": "杜罗夫第一个与互联网相关的想法源于他对效率的狂热。",
+      "ja": "ドゥーロフの最初のインターネット関連のアイデアは、効率への執着から生まれた。"
+    },
+    {
+      "id": 6,
+      "ru": "Студент английской кафедры считал, что человечество тратит адское количество времени на ерунду, и тот, кто ему поможет, будет если не вознаграждён, то по крайней мере удовлетворён как творец.",
+      "en": "The English department student believed that humanity wastes a hellish amount of time on nonsense, and whoever helps would be, if not rewarded, then at least satisfied as a creator.",
+      "zh": "这个英语系学生认为人类浪费了大量时间在废事上，谁能帮助解决这个问题，即使得不到奖赏，至少能获得作为创造者的满足感。",
+      "ja": "英語学科の学生は、人類は馬鹿げたことに途方もない時間を浪費していると考えていた。それを助ける者は、報われないまでも、少なくとも創造者として満足するだろう。"
+    },
+    {
+      "id": 7,
+      "ru": "Готовясь к сессии, его группа использовала вечный метод — каждый взял себе пул билетов и обязался их написать.",
+      "en": "Preparing for exams, his group used the eternal method — each person took a pool of exam tickets and committed to writing them up.",
+      "zh": "准备考试时，他的小组使用了一种古老的方法——每个人领一组题目并承诺写出答案。",
+      "ja": "試験の準備で、彼のグループは永遠の方法を使った——各自が試験チケットのプールを担当し、それを書く義務を負った。"
+    },
+    {
+      "id": 8,
+      "ru": "Чтобы ускорить этот процесс, Дуров написал сайт и назвал его в соответствии с выпускным обетом — durov.com. Там выкладывались филологические билеты и курсовые.",
+      "en": "To speed up this process, Durov created a website and named it in keeping with his graduation vow — durov.com. There exam answers and term papers were posted.",
+      "zh": "为了加速这个过程，杜罗夫建了一个网站，按照他毕业时的誓言命名——durov.com。上面发布了语文学考试题和课程论文。",
+      "ja": "このプロセスを加速するため、ドゥーロフはウェブサイトを作り、卒業の誓いにちなんでdurov.comと名付けた。そこには文献学の試験回答と論文が掲載された。"
+    },
+    {
+      "id": 9,
+      "ru": "Хостинг стоил дёшево, и Дуров легко покрывал расходы из своего заработка — он рисовал сайты, а также писал статьи в журнал «Всемирный следопыт» об исторических персонажах.",
+      "en": "Hosting was cheap, and Durov easily covered the costs from his earnings — he designed websites and also wrote articles for the magazine World Pathfinder about historical figures.",
+      "zh": "主机托管很便宜，杜罗夫很容易用自己的收入覆盖开支——他设计网站，还为《世界探险家》杂志撰写关于历史人物的文章。",
+      "ja": "ホスティングは安く、ドゥーロフは収入から楽に費用を賄えた——ウェブサイトをデザインし、雑誌『世界の探検家』に歴史上の人物についての記事も書いていた。"
+    },
+    {
+      "id": 10,
+      "ru": "Durov.com наводнили материалы. Сайт прогремел на факультете, и вскоре все курсы размещали там рефераты с лекциями.",
+      "en": "Durov.com was flooded with content. The site became a hit at the faculty, and soon all years were posting their summaries and lecture notes there.",
+      "zh": "Durov.com上涌入了大量资料。网站在学院里一炮而红，很快所有年级都在上面发布课堂笔记和论文摘要。",
+      "ja": "Durov.comは資料であふれた。サイトは学部で大評判になり、すぐにすべての学年がレポートや講義ノートを掲載するようになった。"
+    },
+    {
+      "id": 11,
+      "ru": "Преподаватели разделились на две партии. Те, кто помоложе, советовали заглянуть на durov.com за материалами к следующему коллоквиуму.",
+      "en": "The faculty split into two camps. The younger ones advised students to check durov.com for materials for the next colloquium.",
+      "zh": "教师们分成了两派。年轻的老师建议上durov.com查找下次座谈会的资料。",
+      "ja": "教員は二つの陣営に分かれた。若い方は、次のコロキウムの資料をdurov.comで探すよう勧めた。"
+    },
+    {
+      "id": 12,
+      "ru": "Профессор классической филологии, в честь которого закуток перед кафедрой называли «уголком Дурова», отнёсся к идее сына без восторга, но не критиковал.",
+      "en": "The professor of classical philology, in whose honor the nook before the department was called 'Durov's Corner,' received his son's idea without enthusiasm but did not criticize it.",
+      "zh": "古典语文学教授——以他的名字命名了教研室前面的角落叫「杜罗夫角」——对儿子的想法并不热衷，但也没有批评。",
+      "ja": "古典文献学の教授——その名にちなんで学科の前のスペースが「ドゥーロフ・コーナー」と呼ばれていた——は息子のアイデアを歓迎はしなかったが、批判もしなかった。"
+    },
+    {
+      "id": 13,
+      "ru": "Преподаватели-консерваторы сочли сайт злом и дорогой к отупению, списыванию и компиляторству.",
+      "en": "Conservative faculty members considered the site evil and a road to stupefaction, copying, and compilations.",
+      "zh": "保守派教师认为这个网站是邪恶的，是通往愚钝、抄袭和拼凑的道路。",
+      "ja": "保守的な教員はサイトを悪とみなし、愚鈍化、カンニング、コンピレーションへの道だと考えた。"
+    },
+    {
+      "id": 14,
+      "ru": "Сопротивление прогрессу укрепило эйджизм Дурова, верящего в молодость: «Пожилые — люди внутри своих конструктов, давят своим мнимым авторитетом. Меня это бесило».",
+      "en": "Resistance to progress reinforced Durov's ageism, his faith in youth: 'Old people are trapped inside their constructs, crushing you with their imaginary authority. It drove me crazy.'",
+      "zh": "对进步的抵制强化了杜罗夫对年轻人的信仰和对老年人的偏见：「老年人被困在自己的框架里，用虚假的权威压人。这让我抓狂。」",
+      "ja": "進歩への抵抗は、若さを信じるドゥーロフのエイジズムを強化した。「年配者は自分のコンストラクトの中にいる人々で、見せかけの権威で押し付けてくる。それが僕を怒らせた。」"
+    },
+    {
+      "id": 15,
+      "ru": "Популярность не сносила крышу тотему и пока не давала оснований полагать, что mass collaboration может стать его главным занятием в жизни.",
+      "en": "Popularity did not go to the totem's head and for now gave no reason to believe that mass collaboration could become his main occupation in life.",
+      "zh": "人气并没有让这个图腾冲昏头脑，暂时也没有理由认为大规模协作会成为他毕生的主业。",
+      "ja": "人気はトーテムの頭を狂わせなかったし、今のところマス・コラボレーションが人生の主要な仕事になりうるとは思わせなかった。"
+    },
+    {
+      "id": 16,
+      "ru": "Когда он встречался со школьными товарищами, говорил, что метит в переводчики какой-нибудь богатой углеводородной конторы типа «Газпрома».",
+      "en": "When he met with school friends, he said he was aiming to become a translator at some wealthy hydrocarbon company like Gazprom.",
+      "zh": "当他与学校的朋友们见面时，他说自己瞄准的是成为某个像俄罗斯天然气工业公司这样的富有碳氢化合物公司的翻译。",
+      "ja": "学校の友人と会うと、ガスプロムのような裕福な炭化水素企業の翻訳者を目指していると言っていた。"
+    },
+    {
+      "id": 17,
+      "ru": "Старая знакомая Бертова как-то проходила по «Школе» и увидела Дурова, окружённого толпой девиц.",
+      "en": "Old acquaintance Bertova once passed through the 'School' and saw Durov surrounded by a crowd of girls.",
+      "zh": "老同学别尔托娃有一次经过「学校」走廊，看到杜罗夫被一群女孩围着。",
+      "ja": "旧知のベルトヴァがあるとき「スクール」を通りかかり、女子の群れに囲まれたドゥーロフを見た。"
+    },
+    {
+      "id": 18,
+      "ru": "По словам Бертовой, Дуров заметил её и кивнул девицам — подождите, я сейчас. Приблизившись, церемонно склонил голову.",
+      "en": "According to Bertova, Durov noticed her and nodded to the girls — wait, I'll be right back. Approaching, he ceremoniously inclined his head.",
+      "zh": "据别尔托娃说，杜罗夫注意到了她，对女孩们点了点头——等一下，我马上回来。走近后，他郑重地低下了头。",
+      "ja": "ベルトヴァによると、ドゥーロフは彼女に気づき、女子たちにうなずいた——待って、すぐ戻る。近づいて、儀式的に頭を下げた。"
+    },
+    {
+      "id": 19,
+      "ru": "— Здравствуйте, Анна Дмитриевна. — Здравствуйте, Павел Валерьевич. Как поживаете, чем занимаетесь? — Да вот думаю, Анна Дмитриевна, поработать летом. — Неужели? И кем?",
+      "en": "'Good day, Anna Dmitrievna.' 'Good day, Pavel Valeryevich. How are you, what are you up to?' 'Well, I'm thinking, Anna Dmitrievna, of working this summer.' 'Really? As what?'",
+      "zh": "「您好，安娜·德米特里耶芙娜。」「您好，帕维尔·瓦列里耶维奇。您近来如何，在忙什么？」「这个嘛，安娜·德米特里耶芙娜，我在考虑暑假打工。」「是吗？做什么？」",
+      "ja": "「こんにちは、アンナ・ドミトリエヴナ。」「こんにちは、パーヴェル・ヴァレリエヴィチ。お元気ですか、何をなさっていますか？」「ええ、アンナ・ドミトリエヴナ、夏にアルバイトでもしようかと思っています。」「まあ、何の？」"
+    }
+  ],
+  "translator_notes": [
+    "Page 25 covers the creation of durov.com and Durov's early internet ventures",
+    "Bar Idiot on the Moyka is a famous St. Petersburg literary cafe",
+    "Durov's teetotalism is a notable personal trait mentioned throughout the book",
+    "durov.com was Durov's first website - a university resource sharing platform",
+    "World Pathfinder magazine articles show Durov's early media skills",
+    "The formal address pattern (patronymics) from the school follows them to university",
+    "Last sentence is cut off at page break"
+  ],
+  "total_sentences": 19,
+  "page_type": "narrative"
+}

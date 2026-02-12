@@ -2,10 +2,10 @@
   "worker_id": "33a7",
   "branch": "cursor/translation-project-initialization-33a7",
   "batch_prefix": "cursor/translation-project-initialization",
-  "heartbeat": 1770880452,
+  "heartbeat": 1770880574,
   "status": "translating",
-  "claimed_page": 25,
-  "claimed_at": 1770880452,
+  "claimed_page": 26,
+  "claimed_at": 1770880574,
   "completed_pages": [
     1,
     2,
@@ -30,7 +30,8 @@
     21,
     22,
     23,
-    24
+    24,
+    25
   ],
   "phase": "stripe",
   "last_sync_at": 1770877006,
