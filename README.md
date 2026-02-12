@@ -51,7 +51,7 @@ done
 
 3. **Push to register**: This makes you visible to other workers
 
-4. **Sync and discover**: Fetch other workers' states
+4. **Sync and discover (executable)**: Use `python3 tools/sync_service.py status`
 
 5. **Claim a page**: Lowest available page number
 
@@ -61,7 +61,9 @@ done
 
 | File | Purpose |
 |------|---------|
-| `PROTOCOL.md` | Communication protocol |
+| `PROTOCOL_V2.md` | Recommended parallel protocol |
+| `SYNC_SERVICE.md` | Executable sync service documentation |
+| `PROTOCOL.md` | Legacy protocol (v1) |
 | `instructions.md` | Detailed task instructions |
 | `STATE.md` | Global project state |
 | `WORKER_STATE.md` | Your worker state (create this!) |
@@ -101,6 +103,8 @@ examples/
 ```
 tools/
 ├── compile_pages.py   # JSON → PDF compiler
+├── sync_service.py    # Prefix-filtered worker sync + next-page
+├── validate_translation_json.py # JSON validation
 ├── README.md          # Tool docs
 └── requirements.txt   # Dependencies
 ```
@@ -148,12 +152,11 @@ Each page becomes a JSON file with sentences in 4 languages:
 
 ## Protocol Summary
 
-1. **Sync regularly**: Every 2-3 minutes
-2. **Claim one page at a time**: Lowest available
-3. **Push immediately**: After claiming, after completing
-4. **Heartbeat**: Update at least every 5 minutes
-5. **Handle disconnection**: Reclaim pages from offline workers (>15 min)
+1. **Sync before claiming**: `python3 tools/sync_service.py next-page`
+2. **Claim one page at a time**: push claims immediately
+3. **Validate output**: `python3 tools/validate_translation_json.py translations/page_XXX.json`
+4. **Integrate continuously**: open/keep a PR to the integration branch so others can build on your work
 
 ---
 
-*See `PROTOCOL.md` for detailed communication rules and `instructions.md` for complete task details.*
+*See `PROTOCOL_V2.md` for the recommended protocol and `instructions.md` for translation requirements.*

@@ -1,5 +1,12 @@
 # Collaborative Translation Protocol
 
+## Note (2026-02): Use `PROTOCOL_V2.md`
+
+This file is the **legacy v1 protocol**. The recommended, shorter, executable protocol is:
+
+- `PROTOCOL_V2.md` (uses `tools/sync_service.py` to prevent duplicate work)
+- `SYNC_SERVICE.md` (details of the sync service)
+
 ## Overview
 
 This protocol enables multiple AI agents to work **collaboratively** on translating the Durov Code book. Workers communicate via git, share progress, and dynamically distribute workload. The protocol is designed to be robust against worker disconnection and reconnection.

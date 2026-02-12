@@ -17,13 +17,13 @@ To visually distinguish languages in parallel text:
 - **Japanese (JA)**: Dark Green (#006400)
 
 ## Compilation Pipeline
-1. **Translation**: Translation data is stored in JSON files (`translations/raw/page_XXX.json`).
+1. **Translation**: Translation data is stored in JSON files (`translations/page_XXX.json`).
 2. **Compilation**: A Python script (`tools/compile_pages.py`) reads the JSON and generates a `.tex` file using the standard template.
 3. **Rendering**: `xelatex` compiles the `.tex` file to PDF.
 
 ## Usage
 ```bash
-python3 tools/compile_pages.py translations/raw/page_XXX.json output_directory
+python3 tools/compile_pages.py translations/page_XXX.json output_directory
 ```
 
 ## Dependencies

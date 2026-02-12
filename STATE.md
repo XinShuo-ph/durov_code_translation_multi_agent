@@ -101,13 +101,13 @@ output/
 ## Protocol Summary
 
 1. **Register**: Create WORKER_STATE.md to join the team
-2. **Sync**: Fetch other workers every 2-3 minutes
-3. **Claim**: Take lowest available page, push immediately
+2. **Sync**: Use `python3 tools/sync_service.py next-page` before claiming
+3. **Claim**: Take one available page, push immediately
 4. **Translate**: Russian → English, Chinese, Japanese
 5. **Complete**: Save JSON, push, claim next page
 6. **Repeat**: Until all 99 pages are done
 
-See `PROTOCOL.md` for full details.
+See `PROTOCOL_V2.md` for the recommended protocol (and `SYNC_SERVICE.md` for the sync tool).
 
 ---
 

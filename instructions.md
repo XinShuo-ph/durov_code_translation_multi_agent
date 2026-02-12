@@ -16,14 +16,14 @@ You are part of a team of workers translating this book in parallel. You will:
 3. **Sync** regularly to stay coordinated
 4. **Share** your translations via git
 
-See `PROTOCOL.md` for the complete communication protocol.
+See `PROTOCOL_V2.md` for the recommended parallel protocol (and `SYNC_SERVICE.md` for the executable sync service).
 
 ### Key Principles
 
 - **Collaborative, not isolated**: You know who else is working and what they're doing
 - **Simple workload**: Each worker claims pages (lowest available first)
 - **Robust**: If workers disconnect, others can reclaim their pages
-- **Sync regularly**: Fetch other workers' states every 2-3 minutes
+- **Sync before claiming**: Use `python3 tools/sync_service.py next-page` (prefix-filtered) to avoid duplicate work
 
 ---
 
@@ -41,15 +41,7 @@ Copy from `WORKER_STATE_TEMPLATE.md` and fill in your details. This **registers 
 
 ### Step 3: Sync & Discover Other Workers
 ```bash
-git fetch origin --prune
-
-# Find all active workers
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
-    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    echo "Active worker: $short_id ($branch)"
-  fi
-done
+python3 tools/sync_service.py status
 ```
 
 ### Step 4: Register Yourself
@@ -118,7 +110,9 @@ tools/
 ```
 workspace/
 ├── instructions.md           # This file (read-only)
-├── PROTOCOL.md               # Communication protocol (read-only)
+├── PROTOCOL_V2.md            # Recommended parallel protocol (read-only)
+├── PROTOCOL.md               # Legacy protocol (read-only)
+├── SYNC_SERVICE.md           # Executable sync service docs (read-only)
 ├── STATE.md                  # Global project state
 ├── WORKER_STATE.md           # YOUR worker state (update frequently!)
 ├── WORKER_STATE_TEMPLATE.md  # Template for new workers
@@ -158,13 +152,14 @@ workspace/
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  1. SYNC: Fetch all branches, see who's online              │
-│  2. CLAIM: Take the lowest available page                   │
+│  1. SYNC: Use tools/sync_service.py to find next page       │
+│  2. CLAIM: Take ONE available page and push immediately     │
 │  3. READ: Get the Russian text from extracted/pages/        │
 │  4. TRANSLATE: Russian → English, Chinese, Japanese         │
 │  5. SAVE: Write translations/page_XXX.json                  │
-│  6. BROADCAST: Commit & push, update WORKER_STATE.md        │
-│  7. REPEAT: Claim next page                                 │
+│  6. VALIDATE: tools/validate_translation_json.py             │
+│  7. BROADCAST: Commit & push, update WORKER_STATE.md        │
+│  8. REPEAT: Claim next page                                 │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -399,14 +394,14 @@ python3 tools/compile_pages.py translations/page_013.json output/
 - ❌ Literal translation of idioms - adapt appropriately
 - ❌ Inconsistent terminology - use the glossary
 - ❌ Losing Durov's voice - keep it sharp and provocative
-- ❌ Invalid JSON - validate before committing
+- ❌ Invalid JSON - validate before committing (`python3 tools/validate_translation_json.py translations/page_XXX.json`)
 
 ### Collaboration
 - ❌ Claiming without syncing first
 - ❌ Claiming multiple pages at once
 - ❌ Forgetting to push claims immediately
 - ❌ Letting heartbeat go stale (>5 min)
-- ❌ Working in isolation - sync every 2-3 min
+- ❌ Working in isolation - claim pages via `tools/sync_service.py` so others can see your intent
 
 ---
 
@@ -424,7 +419,7 @@ python3 tools/compile_pages.py translations/page_013.json output/
 **Do NOT pause** between pages to ask for confirmation. Keep working:
 
 1. Complete page → Push → Claim next → Repeat
-2. Sync every 2-3 minutes between pages
+2. Sync before each claim (use `python3 tools/sync_service.py next-page`)
 3. Continue until:
    - All pages are translated, OR
    - A blocking error requires help, OR
@@ -458,7 +453,8 @@ If you can't complete your current page:
 | File | Purpose | Update Frequency |
 |------|---------|------------------|
 | `WORKER_STATE.md` | Your status (claims, completions) | Every action |
-| `PROTOCOL.md` | Communication rules | Read-only |
+| `PROTOCOL_V2.md` | Recommended parallel protocol | Read-only |
+| `SYNC_SERVICE.md` | Executable sync service docs | Read-only |
 | `instructions.md` | Task instructions | Read-only |
 | `translations/page_XXX.json` | Your output | Per page |
 | `research/glossary.md` | Term consistency | Reference |
