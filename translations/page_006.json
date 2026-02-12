@@ -1,0 +1,80 @@
+{
+  "page": 6,
+  "chapter": 0,
+  "chapter_title": "Предисловие (Preface)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "сформулировать, не думать о миллиардах и иногда отрываться от ноутбука.",
+      "en": "articulate it, not think about billions, and occasionally look up from the laptop.",
+      "zh": "能表达出来之前就预知到，不去想几十亿的事，偶尔也要从笔记本电脑前抬起头来。",
+      "ja": "理解できるよりもずっと早く必要なものを見抜き、数十億のことなど考えず、時にはノートパソコンから目を上げなければならない。"
+    },
+    {
+      "id": 2,
+      "ru": "Поэтому вряд ли стоит читать книгу Кононова как портрет Героя Нашего Времени или описание того, Как Все В Мире Будет Устроено, – в фигуре Дурова слишком много исключительного, не сказать, эксцентрического, чтобы делать из его истории Далекоидущие Выводы.",
+      "en": "Therefore it's hardly worth reading Kononov's book as a portrait of a Hero of Our Time or a description of How Everything in the World Will Be Arranged—there is too much that is exceptional, not to say eccentric, in the figure of Durov to draw Far-Reaching Conclusions from his story.",
+      "zh": "因此，把科诺诺夫的书当作《当代英雄》的肖像或世界将如何运作的描述来读，恐怕并不合适——杜罗夫身上有太多非凡的、甚至可以说是古怪的东西，不足以从他的故事中得出深远的结论。",
+      "ja": "したがって、コノノフの本を「現代の英雄」の肖像画や「世界はこうなる」という記述として読むべきではないだろう——ドゥーロフという人物にはあまりにも例外的な、いや、エキセントリックな部分が多すぎて、彼の物語から遠大な結論を引き出すことはできない。"
+    },
+    {
+      "id": 3,
+      "ru": "Возможно, правильнее было бы подойти к этому тексту как к авантюрному роману, серии удивительных приключений и сказочных перевоплощений – развязка которых, кажется, далеко не очевидна.",
+      "en": "Perhaps it would be more correct to approach this text as an adventure novel, a series of astonishing adventures and fairy-tale transformations—the ending of which, it seems, is far from obvious.",
+      "zh": "也许更正确的方式是把这本书当作一部冒险小说，一系列令人惊叹的冒险和童话般的蜕变——其结局，似乎远非显而易见。",
+      "ja": "おそらく、このテキストには冒険小説として、驚くべき冒険と童話的な変身の連続として向き合う方が正しいだろう——その結末は、明らかに自明ではないように見える。"
+    },
+    {
+      "id": 4,
+      "ru": "Кажется, один из важных мотивов для Дурова – стремление сделать все назло и поперек системе, в которую его пытаются встроить, разломать рамки, в которые его стараются загнать, обмануть ожидания относительно логики собственного поведения.",
+      "en": "It seems one of Durov's key motivations is the desire to do everything out of spite and against the system people try to fit him into, to break the frames they try to force him into, to defy expectations about the logic of his own behavior.",
+      "zh": "杜罗夫的一个重要动力似乎是：与试图将他纳入的体制对着干，打破别人试图给他设定的框架，让人们对他行为逻辑的预期落空。",
+      "ja": "ドゥーロフの重要な動機の一つは、自分を組み込もうとするシステムに逆らい、はめ込もうとするフレームを壊し、自分の行動論理に対する期待を裏切ることへの衝動であるように見える。"
+    },
+    {
+      "id": 5,
+      "ru": "Это тот случай, когда ничему удивительному в его судьбе не стоит удивляться.",
+      "en": "This is a case where nothing surprising in his fate should come as a surprise.",
+      "zh": "在他的命运中，任何令人惊讶的事情都不值得惊讶。",
+      "ja": "彼の運命においては、どんな驚くべきことにも驚くべきではない。"
+    },
+    {
+      "id": 6,
+      "ru": "Возможно, через несколько лет он скроется в нейтральных водах на бронированной яхте в компании какой-нибудь Леди Гаги, или купит контрольный пакет акций «Газпрома», или уединится в мансарде на Невском, чтобы рисовать собак.",
+      "en": "Perhaps in a few years he will disappear into neutral waters on an armored yacht in the company of some Lady Gaga, or buy a controlling stake in Gazprom, or seclude himself in an attic on Nevsky Prospekt to paint dogs.",
+      "zh": "也许几年后他会乘坐装甲游艇消失在公海上，身边陪着某位Lady Gaga，或者买下俄气公司的控股权，或者在涅瓦大街的阁楼里隐居画狗。",
+      "ja": "数年後、どこかのレディー・ガガを伴って装甲ヨットで公海に姿を消すかもしれないし、ガスプロムの支配株を買い取るかもしれないし、ネフスキー大通りの屋根裏部屋に引きこもって犬の絵を描いているかもしれない。"
+    },
+    {
+      "id": 7,
+      "ru": "Герой этой книги не борется за свободу – а утверждает ее самим фактом своего существования.",
+      "en": "The hero of this book does not fight for freedom—he affirms it by the very fact of his existence.",
+      "zh": "这本书的主人公不是在为自由而战——他以自己存在的事实本身来宣示自由。",
+      "ja": "この本の主人公は自由のために戦っているのではない——自らの存在そのものによって自由を主張しているのだ。"
+    },
+    {
+      "id": 8,
+      "ru": "В любом случае, это открывает и перед автором, и перед читателями блистательную перспективу: в том смысле, что продолжение следует.",
+      "en": "In any case, this opens up a brilliant prospect for both the author and the readers: in the sense that the story continues.",
+      "zh": "无论如何，这为作者和读者都打开了光辉的前景：意味着故事还在继续。",
+      "ja": "いずれにせよ、著者にとっても読者にとっても、これは輝かしい展望を開くものだ。つまり、続きがあるということだ。"
+    },
+    {
+      "id": 9,
+      "ru": "Юрий Сапрыкин, публицист, шеф-редактор «Рамблер-Афиша»",
+      "en": "Yuri Saprykin, journalist, editor-in-chief of Rambler-Afisha",
+      "zh": "尤里·萨普雷金，媒体人，Rambler-Afisha总编辑",
+      "ja": "ユーリー・サプリキン、ジャーナリスト、ランブラー・アフィーシャ編集長"
+    }
+  ],
+  "translator_notes": [
+    "Page 6 is the continuation and conclusion of the Preface by Yuri Saprykin",
+    "Sentence 1 continues from page 5's final sentence (cut at page break)",
+    "Hero of Our Time (Герой Нашего Времени) is a reference to Lermontov's classic Russian novel",
+    "Gazprom is Russia's state-controlled energy giant",
+    "Nevsky Prospekt is St. Petersburg's main street",
+    "Rambler-Afisha is a Russian internet and media company"
+  ],
+  "total_sentences": 9,
+  "page_type": "front_matter"
+}
