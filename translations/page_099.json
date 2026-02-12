@@ -1,0 +1,51 @@
+{
+  "page": 99,
+  "chapter": 0,
+  "chapter_title": "Об авторе (About the Author)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Об авторе",
+      "en": "About the Author",
+      "zh": "关于作者",
+      "ja": "著者について"
+    },
+    {
+      "id": 2,
+      "ru": "Николай Кононов – журналист, главный редактор ежедневного издания о предпринимательстве Hopes&Fears (hopesandfears.com).",
+      "en": "Nikolai Kononov is a journalist and editor-in-chief of the daily publication on entrepreneurship Hopes&Fears (hopesandfears.com).",
+      "zh": "尼古拉·科诺诺夫是记者，创业类日刊Hopes&Fears（hopesandfears.com）的主编。",
+      "ja": "ニコライ・コノノフはジャーナリストで、起業に関する日刊メディアHopes&Fears（hopesandfears.com）の編集長である。"
+    },
+    {
+      "id": 3,
+      "ru": "Окончил МГУ, работал репортером в газетах «Известия» и «Столичная вечерняя».",
+      "en": "He graduated from Moscow State University and worked as a reporter for the newspapers Izvestia and Stolichnaya Vechernyaya.",
+      "zh": "他毕业于莫斯科大学，曾在《消息报》和《首都晚报》担任记者。",
+      "ja": "モスクワ大学を卒業し、新聞『イズベスチヤ』と『ストリチナヤ・ヴェチェルニャヤ』で記者として働いた。"
+    },
+    {
+      "id": 4,
+      "ru": "Писал о бизнесменах разного масштаба – от деревенских подвижников до миллиардеров – сначала в журнале «Эксперт», а затем на протяжении семи лет в российском издании Forbes.",
+      "en": "He wrote about businessmen of all scales—from village pioneers to billionaires—first for Expert magazine, then for seven years at the Russian edition of Forbes.",
+      "zh": "他撰写过关于各种规模商人的文章——从乡村创业者到亿万富翁——先是在《专家》杂志，然后在俄罗斯版《福布斯》工作了七年。",
+      "ja": "村の先駆者から億万長者まで、あらゆる規模のビジネスマンについて執筆した——まず『エキスペルト』誌で、その後7年間ロシア版フォーブスで。"
+    },
+    {
+      "id": 5,
+      "ru": "Автор книги «Бог без машины: Истории 20 сумасшедших, сделавших в России бизнес с нуля».",
+      "en": "He is the author of the book \"God Without a Machine: Stories of 20 Madmen Who Built Businesses from Scratch in Russia.\"",
+      "zh": "他著有《没有机器的上帝：20个在俄罗斯从零开始创业的疯子的故事》。",
+      "ja": "著書に『機械なしの神：ロシアでゼロからビジネスを作った20人の狂人の物語』がある。"
+    }
+  ],
+  "translator_notes": [
+    "Page 99 is the 'About the Author' section, the final page of the book",
+    "Nikolai Kononov is a journalist who has specialized in Russian tech and business",
+    "Hopes&Fears was a prominent Russian online publication about entrepreneurship",
+    "The book title 'God Without a Machine' (Бог без машины) is a play on 'deus ex machina'",
+    "His seven years at Russian Forbes gave him access to the tech elite including Durov"
+  ],
+  "total_sentences": 5,
+  "page_type": "about_author"
+}

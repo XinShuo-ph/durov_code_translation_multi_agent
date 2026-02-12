@@ -2,10 +2,10 @@
   "worker_id": "eea6",
   "branch": "cursor/parallel-translation-project-setup-eea6",
   "batch_prefix": "cursor/parallel-translation-project-setup",
-  "heartbeat": 1770881345,
+  "heartbeat": 1770881615,
   "status": "translating",
-  "claimed_page": 81,
-  "claimed_at": 1770881345,
+  "claimed_page": null,
+  "claimed_at": null,
   "completed_pages": [
     1,
     2,
@@ -37,9 +37,12 @@
     45,
     54,
     63,
-    72
+    72,
+    81,
+    90,
+    99
   ],
-  "phase": "stripe",
+  "phase": "scavenge",
   "last_sync_at": 1770877027,
-  "notes": "Stripe: 9,18,27,36,45,54,63,72,81,90,99. Pages 9,18,27 done from stripe. Pages 1-25 done (mostly pre-stripe discovery)."
+  "notes": "Stripe complete (9,18,27,36,45,54,63,72,81,90,99). Plus pages 1-25 done pre-stripe. Entering scavenge phase."
 }
