@@ -2,10 +2,10 @@
   "worker_id": "a632",
   "branch": "cursor/parallel-translation-project-setup-a632",
   "batch_prefix": "cursor/parallel-translation-project-setup",
-  "heartbeat": 1770883476,
+  "heartbeat": 1770883956,
   "status": "translating",
-  "claimed_page": 18,
-  "claimed_at": 1770883476,
+  "claimed_page": 19,
+  "claimed_at": 1770883956,
   "completed_pages": [
     1,
     2,
@@ -23,7 +23,8 @@
     14,
     15,
     16,
-    17
+    17,
+    18
   ],
   "phase": "stripe",
   "last_sync_at": 1770877008,

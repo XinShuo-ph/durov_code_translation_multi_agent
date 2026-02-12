@@ -1,0 +1,242 @@
+{
+  "page": 18,
+  "chapter": 1,
+  "chapter_title": "Ботанический сад (Botanical Garden)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Как-то раз в ресторане «Терраса» с видом на Казанский собор, разламывая хлеб резкими движениями и скатывая из него шарики, Дуров рассказал, как эти теории взорвали ему мозг.",
+      "en": "Once, at the restaurant Terrasa overlooking Kazan Cathedral, breaking bread with sharp movements and rolling it into little balls, Durov told me how those theories blew his mind.",
+      "zh": "有一次在可以俯瞰喀山大教堂的“露台”餐厅里，杜罗夫用利落的动作掋着面包，把它搓成小球，讲述了那些理论如何让他的大脑爆炸。",
+      "ja": "ある時、カザン大聖堂を見渡すレストラン「テラサ」で、パンを鉋い動作でちぎって丸めながら、ドゥーロフはそれらの理論がいかに自分の脳を爆破したかを語った。"
+    },
+    {
+      "id": 2,
+      "ru": "Он отшатнулся от позитивной психологии и Хилла и стал воспринимать людей как продукт среды, естественного отбора.",
+      "en": "He recoiled from positive psychology and Hill and started seeing people as products of their environment, of natural selection.",
+      "zh": "他远离了积极心理学和希尔，开始把人视为环境和自然选择的产物。",
+      "ja": "彼はポジティブ心理学とヒルから離れ、人間を環境と自然淘汰の産物として見るようになった。"
+    },
+    {
+      "id": 3,
+      "ru": "Если дать человеку выбор, он выберет, что хочет, – и результат будет достойным вознаграждением за этот выбор.",
+      "en": "If you give a person a choice, they'll choose what they want — and the result will be a worthy reward for that choice.",
+      "zh": "如果给人选择，他会选他想要的——结果就是对这个选择的合理回报。",
+      "ja": "人に選択を与えれば、望むものを選ぶ――そして結果はその選択にふさわしい報酧となる。"
+    },
+    {
+      "id": 4,
+      "ru": "Да, есть вопрос, стоит ли поручать людям выбор.",
+      "en": "Yes, there's the question of whether people should be entrusted with choice at all.",
+      "zh": "是的，有一个问题：该不该把选择权交给人们。",
+      "ja": "そう、人々に選択を委ねるべきかという問題はある。"
+    },
+    {
+      "id": 5,
+      "ru": "Люди ведутся на манипулирование, выбирают иррационально.",
+      "en": "People fall for manipulation, they choose irrationally.",
+      "zh": "人们会上操纵的当，会做出不理性的选择。",
+      "ja": "人は操作に乗せられ、非合理な選択をする。"
+    },
+    {
+      "id": 6,
+      "ru": "Но и манипуляции, и маркетологическое зомбирование, и политика – это тоже поле интеллектуальной конкуренции, а конкуренция была и осталась главной святыней Дурова.",
+      "en": "But manipulation, marketing zombification, and politics are also fields of intellectual competition, and competition was and remained Durov's primary sacred value.",
+      "zh": "但操纵、营销洗脑和政治也是智力竞争的场域，而竞争始终是杜罗夫的最高信仰。",
+      "ja": "しかし操作も、マーケティングのゾンビ化も、政治も、知的競争のフィールドであり、競争はドゥーロフの最高の神聖であり続けた。"
+    },
+    {
+      "id": 7,
+      "ru": "Еще одно знание, приобретенное через Нинбурга и сыгравшее некоторую роль во всем, что происходило с «ВКонтакте», – о поведении человека.",
+      "en": "Another piece of knowledge acquired through Ninburg, which played a certain role in everything that happened with VKontakte, concerned human behavior.",
+      "zh": "还有一个通过宁堡获得的知识，在VKontakte的所有事情中发挥了一定作用——关于人类行为的。",
+      "ja": "ニンブルグを通じて得たもう一つの知識で、VKontakteで起きたすべてに一定の役割を果たしたもの――それは人間の行動についてだった。"
+    },
+    {
+      "id": 8,
+      "ru": "Однажды, спускаясь из штаба по лестнице, устланной ковровыми дорожками, Дуров пересказывал мне известный эксперимент с обезьянами и электричеством.",
+      "en": "Once, descending from headquarters down a carpet-lined staircase, Durov recounted to me the famous experiment with monkeys and electricity.",
+      "zh": "有一次，从总部沿着铺着地毯的楼梯往下走时，杜罗夫给我讲了那个著名的猴子和电的实验。",
+      "ja": "ある時、カーペット敷きの階段を本部から降りながら、ドゥーロフは世に知られた猿と電気の実験を私に語ってくれた。"
+    },
+    {
+      "id": 9,
+      "ru": "Обезьян посадили в клетку и регулярно подбрасывали им бананы.",
+      "en": "Monkeys were placed in a cage and regularly given bananas.",
+      "zh": "把猴子关在笼子里，定期给它们扔香蕉。",
+      "ja": "猿を櫃に入れ、定期的にバナナを与えた。"
+    },
+    {
+      "id": 10,
+      "ru": "Но, как только кто-то брал эти бананы, группа получала удар током.",
+      "en": "But the moment someone grabbed the bananas, the entire group got an electric shock.",
+      "zh": "但只要有谁拿香蕉，整群就会被电击。",
+      "ja": "しかし誰かがバナナを取ると、群れ全体に電気ショックが走った。"
+    },
+    {
+      "id": 11,
+      "ru": "Вскоре тех, кто тянулся за бананом, били свои.",
+      "en": "Soon those who reached for a banana were beaten by their own.",
+      "zh": "很快，伸手拿香蕉的就会被同伴揍。",
+      "ja": "すぐに、バナナに手を伸ばす者は仲間に殴られるようになった。"
+    },
+    {
+      "id": 12,
+      "ru": "Затем старожилов по одному начали менять на новоприбывших особей и в какой-то момент отключили электричество.",
+      "en": "Then the old-timers were replaced one by one with newcomers, and at some point the electricity was turned off.",
+      "zh": "然后他们开始逐一用新来的猴子替换老猴子，并在某个时刻关掉了电。",
+      "ja": "それから古参を一匹ずつ新入りに入れ替え、ある時点で電気を切った。"
+    },
+    {
+      "id": 13,
+      "ru": "Но все равно группа саморегулировалась так, что новоприбывшим запрещали касаться бананов.",
+      "en": "But the group still self-regulated so that newcomers were forbidden from touching the bananas.",
+      "zh": "但群体仍然自我调节，禁止新来者碰香蕉。",
+      "ja": "しかしそれでも群れは自己調節し、新入りがバナナに触れることを禁じた。"
+    },
+    {
+      "id": 14,
+      "ru": "В финале клетка наполнилась приматами, которые ни разу не получали удар током и даже не общались с теми, кто получал, – и эта группа хранила священный ужас перед прикосновением к желанной и безопасной еде.",
+      "en": "In the end, the cage was filled with primates who had never received a shock and hadn't even interacted with those who had — and this group maintained a sacred terror of touching the desired and perfectly safe food.",
+      "zh": "最终，笼子里全是从未被电过、甚至没有和被电过的猴子交流过的灵长类动物——但这群猴子仍然对触摸它们渴望而安全的食物怀有神圣的恐惧。",
+      "ja": "最終的に、櫃は一度も電気ショックを受けたことがなく、受けた者と交流したこともない霊長類で満たされた――そしてこの群れは、望ましく安全な食べ物に触れることに対して神聖な恐怖を保ち続けた。"
+    },
+    {
+      "id": 15,
+      "ru": "Когда мы вышли через крутящиеся двери на ночной Невский, я спросил: «И зачем вы это рассказали?»",
+      "en": "When we stepped through the revolving doors onto the nighttime Nevsky, I asked: 'And why did you tell me that?'",
+      "zh": "当我们穿过旋转门来到夜晚的涅瓦大街时，我问：“你为什么要讲这个？”",
+      "ja": "回転ドアを抜けて夜のネフスキー大通りに出た時、私は尋ねた。「で、なぜその話を？」"
+    },
+    {
+      "id": 16,
+      "ru": "«Да так, размышляя об этом эксперименте, я лучше стал понимать суть человека», – пожал плечами Дуров.",
+      "en": "'Oh, by reflecting on that experiment, I came to better understand the essence of man,' Durov shrugged.",
+      "zh": "“就那样吧，思考这个实验的时候，我更好地理解了人的本质”，杜罗夫耸了耸肩。",
+      "ja": "「いや、あの実験について考えることで、人間の本質がよりよく分かるようになった」とドゥーロフは肩をすくめた。"
+    },
+    {
+      "id": 17,
+      "ru": "Алексей Руткевич вел у гимназистов спецкурс по психоанализу и рассказывал, как психика может влиять на вербальное и визуальное творчество.",
+      "en": "Alexei Rutkevich taught the gymnasium students a special course on psychoanalysis and explained how the psyche can influence verbal and visual creativity.",
+      "zh": "阿列克谢·鲁特凯维奇在中学生中开设了精神分析学特别课程，讲心理如何影响语言和视觉创作。",
+      "ja": "アレクセイ・ルトケヴィチはギムナジウムの生徒たちに精神分析の特別講座を開き、精神が言語的・視覚的創造にどう影響するかを語った。"
+    },
+    {
+      "id": 18,
+      "ru": "Юнг, Фрэзер; развитие мозга человека с внутриутробного периода; как определить психотип.",
+      "en": "Jung, Frazer; the development of the human brain from the prenatal period; how to determine psychotype.",
+      "zh": "荣格、弗雷泽；人脑从子宫内开始的发育；如何确定心理类型。",
+      "ja": "ユング、フレイザー。胎内期からの人間の脳の発達。心理タイプの見分け方。"
+    },
+    {
+      "id": 19,
+      "ru": "Руткевич учил школьников рассчитывать размер своего мозга, а потом уточнял – у кроманьонцев объем мозга был еще больше, но извилин меньше.",
+      "en": "Rutkevich taught the schoolchildren to calculate the size of their own brains, then specified — Cro-Magnons had even larger brain volumes, but fewer convolutions.",
+      "zh": "鲁特凯维奇教学生们计算自己大脑的大小，然后补充说——克罗马冖人的脑容量更大，但沟回更少。",
+      "ja": "ルトケヴィチは生徒たちに自分の脳の大きさを計算することを教え、それから付け加えた――クロマニョン人は脳容量がさらに大きかったが、脳のしわは少なかった、と。"
+    },
+    {
+      "id": 20,
+      "ru": "Руткевич навел Дурова на тексты изобретателя IQ-тестов Ганса Айзенка.",
+      "en": "Rutkevich pointed Durov toward the texts of IQ test inventor Hans Eysenck.",
+      "zh": "鲁特凯维奇引导杜罗夫接触了IQ测试发明者汉斯·艾森克的著作。",
+      "ja": "ルトケヴィチはドゥーロフに、IQテストの発明者ハンス・アイゼンクの文献を紹介した。"
+    },
+    {
+      "id": 21,
+      "ru": "Айзенка подвергали обструкции, к примеру, за утверждение, что у черной расы пространственная и вербальная логика хуже.",
+      "en": "Eysenck was ostracized, for instance, for claiming that Black people had weaker spatial and verbal logic.",
+      "zh": "艾森克曾遭到排斥，例如因为宣称黑人的空间和语言逻辑较差。",
+      "ja": "アイゼンクは、例えば黒人の空間的・言語的論理が劣るという主張で排撃された。"
+    },
+    {
+      "id": 22,
+      "ru": "Дурова взбесила политкорректность, не позволявшая признать, что люди одной национальности могут быть более или менее успешны в каком-либо роде деятельности, чем люди другой национальности.",
+      "en": "Durov was infuriated by political correctness that wouldn't allow acknowledging that people of one nationality might be more or less successful in some field of activity than people of another nationality.",
+      "zh": "杜罗夫被政治正确激怒了，因为它不允许承认一个民族的人可能在某个领域比另一个民族的人更成功或更不成功。",
+      "ja": "ドゥーロフはポリティカル・コレクトネスに激怒した。ある民族の人々が別の民族より特定の活動で優れているか劣っていることを認めることを許さないのだ。"
+    },
+    {
+      "id": 23,
+      "ru": "Тогда же, в девятом классе, он прочитал Фрейда и позже, когда выбирал цвета и логотип для «ВКонтакте», мысленно слал поклон учителю.",
+      "en": "That same year, in ninth grade, he read Freud, and later, when choosing colors and a logo for VKontakte, he mentally tipped his hat to the teacher.",
+      "zh": "也是在九年级，他读了弗洛伊德，后来在为VKontakte选择颜色和标志时，他在心里向老师致敬。",
+      "ja": "同じ九年生の時にフロイトを読み、後にVKontakteの色とロゴを選ぶ時、心の中で恩師に感謝した。"
+    },
+    {
+      "id": 24,
+      "ru": "Выпуклая женственная буква «В», набранная обычным шрифтом без засечек, Tahoma.",
+      "en": "A rounded, feminine letter 'V,' set in a plain sans-serif font, Tahoma.",
+      "zh": "一个凸起的、女性化的字母“B”，用普通的无衬线字体Tahoma排版。",
+      "ja": "丸みを帯びた女性的な文字「В」、普通のサンセリフ体Tahomaで組まれた。"
+    },
+    {
+      "id": 25,
+      "ru": "Красный огонечек оповещений, загоравшийся в Facebook, Дуров копировать не стал и третий цвет, черный, ввел только вместе с всплывающими окнами оповещений.",
+      "en": "He chose not to copy the red notification light that appeared on Facebook, and introduced the third color, black, only alongside pop-up notification windows.",
+      "zh": "杜罗夫没有模仿Facebook的红色通知小火苗，第三种颜色黑色只在弹出通知窗口时才引入。",
+      "ja": "Facebookで表示される赤い通知ライトはコピーせず、第三の色である黒はポップアップ通知ウィンドウと一緒に導入した。"
+    },
+    {
+      "id": 26,
+      "ru": "Когда он выбирал нейтральные цвета – синий и серый, – вспоминал уроки, на которые приходил художник, друг Медникова, периодически в подпитии, и рассказывал про Рафаэля, Микеланджело, пропорции, свет.",
+      "en": "When he chose neutral colors — blue and gray — he recalled lessons taught by an artist, Mednikov's friend, who came occasionally tipsy and lectured on Raphael, Michelangelo, proportions, and light.",
+      "zh": "当他选择中性色——蓝色和灰色时，他回忆起了一个画家的课，那是梅德尼科夫的朋友，偶尔带着酒意来上课，讲拉斐尔、米开朗基罗、比例和光线。",
+      "ja": "ニュートラルな色――青とグレー――を選ぶ時、メドニコフの友人の画家が時々ほろ酔いでやってきて、ラファエロ、ミケランジェロ、プロポーション、光について語った授業を思い出した。"
+    },
+    {
+      "id": 27,
+      "ru": "Раз в неделю он брал класс с собой в Эрмитаж.",
+      "en": "Once a week he would take the class with him to the Hermitage.",
+      "zh": "每周一次他会带全班去冬宫博物馆。",
+      "ja": "週に一度、クラスをエルミタージュに連れて行った。"
+    },
+    {
+      "id": 28,
+      "ru": "Короче, Дуров учился у людей, стосковавшихся по свободе творчества и любящих делиться.",
+      "en": "In short, Durov was taught by people who yearned for creative freedom and loved to share.",
+      "zh": "总之，杜罗夫跟的老师都是渴望创作自由、乐于分享的人。",
+      "ja": "要するに、ドゥーロフは創造の自由を渇望し、分かち合うことを愛する人々のもとで学んだ。"
+    },
+    {
+      "id": 29,
+      "ru": "Однако их педагогическая синекура цвела на фоне закручивающейся диссидентской истории – школа вечно пребывала в статусе гонимой.",
+      "en": "However, their pedagogical sinecure flourished against the backdrop of an escalating dissident story — the school was perpetually persecuted.",
+      "zh": "然而，他们的教育乐土是在一个日益紧张的异见者故事背景下继续继绵的——这所学校永远处于被迫害的状态。",
+      "ja": "しかし彼らの教育的な安住の地は、深まる反体制的物語を背景に花開いていた――学校は常に迫害される立場にあった。"
+    },
+    {
+      "id": 30,
+      "ru": "Когда Славу Мирилашвили отдавали в это заведение, педагоги еще как-то выкручивались с арендой.",
+      "en": "When Slava Mirilashvili was enrolled in the institution, the teachers were still somehow managing the rent.",
+      "zh": "当斯拉瓦·米里拉什维利被送到这所学校时，老师们还勉强应付着租金。",
+      "ja": "スラヴァ・ミリラシヴィリを入学させた時は、教師たちはまだなんとか家賃をやりくりしていた。"
+    },
+    {
+      "id": 31,
+      "ru": "После того как их выгнали из дома культуры с «Пляшущими алкоголиками», Михаил Мирилашвили взялся помогать с арендой нового помещения.",
+      "en": "After they were kicked out of the house of culture with the 'Dancing Alcoholics,' Mikhail Mirilashvili took it upon himself to help with rent for new premises.",
+      "zh": "当他们被从有“跳舞酒鬼”的文化宫赶出来后，米哈伊尔·米里拉什维利主动帮忙租新场地。",
+      "ja": "「踊るアルコール依存者」がいた文化会館から追い出された後、ミハイル・ミリラシヴィリが新しい場所の家賃を援助し始めた。"
+    },
+    {
+      "id": 32,
+      "ru": "Но союз педагогов и хозяина «одноруких бандитов», чей офис квартировал в бронированном особняке, просуществовал недолго.",
+      "en": "But the alliance between the teachers and the owner of 'one-armed bandits,' whose office was housed in an armored mansion, didn't last long.",
+      "zh": "但教师们与“老虎机”大王的联盟没有持续太久，后者的办公室设在一座装甲别墅里。",
+      "ja": "しかし、装甲車並みの邸宅にオフィスを構える「ワンアームド・バンディット（スロットマシン）」のオーナーと教師たちの同盟は長くは続かなかった。"
+    }
+  ],
+  "translator_notes": [
+    "Terrasa - a restaurant on Nevsky Prospekt overlooking Kazan Cathedral",
+    "The monkey experiment (often attributed to G. R. Stephenson) is a parable about how social norms persist after the original reason is forgotten - deeply relevant to Durov's anti-conformist philosophy",
+    "Rutkevich's psychoanalysis course influenced VKontakte's design - the neutral blue-gray colors were psychologically chosen",
+    "Hans Eysenck - controversial psychologist known for IQ research; Durov's interest in his work reflects his contrarian streak",
+    "Freud's influence on VKontakte design - the feminine 'В' letter, color psychology",
+    "Tahoma - the sans-serif font used for VKontakte's logo, chosen deliberately for psychological neutrality",
+    "One-armed bandits (slot machines) - Mirilashvili's gambling business; the incongruity of gambling magnate funding a classical school is noted with humor"
+  ],
+  "total_sentences": 32,
+  "page_type": "narrative"
+}
