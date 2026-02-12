@@ -6,191 +6,55 @@ Deliver a multilingual edition of "Код Дурова" (Durov Code) by Nikolai 
 
 ---
 
-## Multi-Agent Collaborative Execution
+## Multi-Agent Parallel Execution
 
-**THIS PROJECT USES MULTIPLE AI AGENTS WORKING COLLABORATIVELY**
+You are one of multiple agents translating this book in parallel. Each agent works on a separate git branch.
 
-You are part of a team of workers translating this book in parallel. You will:
-1. **Discover** other workers and know who's online
-2. **Claim** pages to translate (one at a time)
-3. **Sync** regularly to stay coordinated
-4. **Share** your translations via git
+**Follow `PROTOCOL.md` for coordination.** The key idea: your branch name determines your starting page. You work forward from there, push after each page, and periodically sync to skip pages others have already done.
 
-See `PROTOCOL.md` for the complete communication protocol.
+### Agent Startup (< 60 seconds)
 
-### Key Principles
-
-- **Collaborative, not isolated**: You know who else is working and what they're doing
-- **Simple workload**: Each worker claims pages (lowest available first)
-- **Robust**: If workers disconnect, others can reclaim their pages
-- **Sync regularly**: Fetch other workers' states every 2-3 minutes
-
----
-
-## Quick Start (Agent Startup Sequence)
-
-### Step 1: Identify Yourself
 ```bash
+# 1. Get your start page
 MY_BRANCH=$(git branch --show-current)
-MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
-echo "I am: $MY_SHORT_ID on $MY_BRANCH"
-```
+SUFFIX=$(echo "$MY_BRANCH" | grep -oE '[^-]+$')
+START=$(python3 -c "print(int('$SUFFIX', 16) % 99 + 1)")
+echo "Starting at page $START"
 
-### Step 2: Create WORKER_STATE.md
-Copy from `WORKER_STATE_TEMPLATE.md` and fill in your details. This **registers you as an active worker**.
-
-### Step 3: Sync & Discover Other Workers
-```bash
+# 2. Initial sync — see what's already translated
 git fetch origin --prune
+PREFIX=$(echo "$MY_BRANCH" | sed 's/-[^-]*$//')
+for branch in $(git branch -r | grep "origin/cursor/$PREFIX" | tr -d ' '); do
+    git ls-tree -r --name-only "$branch" -- translations/ 2>/dev/null
+done | sort -u
 
-# Find all active workers
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
-    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    echo "Active worker: $short_id ($branch)"
-  fi
-done
+# 3. Start translating immediately from your start page
 ```
 
-### Step 4: Register Yourself
-```bash
-git add WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] SYNC: Registering as active worker
-HEARTBEAT: $(date +%s)"
-git push origin HEAD
-```
-
-### Step 5: Claim a Page and Start Translating
-1. Find the lowest page number not claimed or completed
-2. Update WORKER_STATE.md with your claim
-3. Push immediately
-4. Start translating!
-
----
-
-## Pre-Provided Resources
-
-**All setup work is already done.** You have:
-
-### 1. Extracted Text (Ready to Use)
-```
-extracted/
-├── full.txt              # Complete book text
-└── pages/
-    ├── page_001.txt      # Page-by-page extraction
-    ├── page_002.txt
-    └── ... (all 99 pages)
-```
-
-### 2. Research Documents (For Context)
-```
-research/
-├── durov_bio.md          # Pavel Durov biography
-├── vk_history.md         # VKontakte company history
-├── russia_context.md     # Russian cultural context
-├── chapter_structure.md  # Page ranges for each chapter
-├── chapter_summaries.md  # Chapter-by-chapter summaries
-└── glossary.md           # Terminology consistency guide
-```
-
-### 3. Example Translations (Format Reference Only)
-```
-examples/
-├── page_013_translation.json   # Example JSON format
-├── page_043_translation.json   # Another example
-└── format_demo.tex             # LaTeX template for PDF
-```
-
-**⚠️ NOTE**: The example JSON files show only a few sentences for format reference. They are NOT complete page translations. Your translations must include ALL sentences from each page.
-
-### 4. PDF Generation Tools
-```
-tools/
-├── compile_pages.py      # Generates PDF from JSON
-├── README.md             # Tool documentation
-└── requirements.txt      # Python dependencies
-```
-
----
-
-## File Structure
-
-```
-workspace/
-├── instructions.md           # This file (read-only)
-├── PROTOCOL.md               # Communication protocol (read-only)
-├── STATE.md                  # Global project state
-├── WORKER_STATE.md           # YOUR worker state (update frequently!)
-├── WORKER_STATE_TEMPLATE.md  # Template for new workers
-├── durov_code_book.pdf       # Original Russian PDF
-│
-├── extracted/                # PRE-EXTRACTED TEXT
-│   ├── full.txt
-│   └── pages/page_XXX.txt
-│
-├── research/                 # BACKGROUND RESEARCH
-│   └── [various .md files]
-│
-├── examples/                 # FORMAT EXAMPLES
-│   ├── page_013_translation.json
-│   ├── page_043_translation.json
-│   └── format_demo.tex
-│
-├── tools/                    # PDF GENERATION
-│   ├── compile_pages.py
-│   └── README.md
-│
-├── translations/             # YOUR OUTPUT (translations go here)
-│   ├── page_001.json
-│   ├── page_002.json
-│   └── ...
-│
-└── output/                   # GENERATED PDFs (optional)
-    ├── page_001.pdf
-    └── ...
-```
+**Your first commit must be a completed page translation. Not a state file.**
 
 ---
 
 ## Your Task: TRANSLATE
 
-### The Workflow
+### Workflow Per Page
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│  1. SYNC: Fetch all branches, see who's online              │
-│  2. CLAIM: Take the lowest available page                   │
-│  3. READ: Get the Russian text from extracted/pages/        │
-│  4. TRANSLATE: Russian → English, Chinese, Japanese         │
-│  5. SAVE: Write translations/page_XXX.json                  │
-│  6. BROADCAST: Commit & push, update WORKER_STATE.md        │
-│  7. REPEAT: Claim next page                                 │
-└─────────────────────────────────────────────────────────────┘
+1. READ: Get the Russian text from extracted/pages/page_NNN.txt
+2. PARSE: Split into sentences
+3. TRANSLATE: Russian → English, Chinese, Japanese
+4. SAVE: Write translations/page_NNN.json
+5. PUSH: git add + commit + push
+6. ADVANCE: Move to next page (skip if already done by another agent)
 ```
 
-### Step-by-Step for Each Page
+### Reading Source Text
 
-#### 1. Read the Extracted Text
 ```bash
 cat extracted/pages/page_013.txt
 ```
 
-#### 2. Parse Into Sentences
-You parse the Russian text into sentences. Use your judgment on sentence boundaries.
-
-#### 3. Translate Each Sentence
-For each Russian sentence, produce:
-- **English**: Natural, accessible American English
-- **Chinese**: Simplified Chinese (简体中文)
-- **Japanese**: Standard Japanese
-
-#### 4. Save as JSON
-Save to `translations/page_XXX.json` using the exact format below.
-
-#### 5. (Optional) Generate PDF
-```bash
-python3 tools/compile_pages.py translations/page_013.json output/
-```
+All 99 pages are pre-extracted. No PDF parsing needed.
 
 ---
 
@@ -210,20 +74,12 @@ Every page translation MUST follow this structure:
       "en": "A boy with a volume of Cervantes exits the building entrance...",
       "zh": "一个手捧塞万提斯著作的男孩走出公寓楼门口...",
       "ja": "セルバンテスの本を抱えた少年が建物の入り口から出てきて..."
-    },
-    {
-      "id": 2,
-      "ru": "Перед ним пустынные кварталы...",
-      "en": "Before him stretch deserted blocks...",
-      "zh": "他面前是荒凉的街区...",
-      "ja": "目の前には荒涼とした街区..."
     }
   ],
   "translator_notes": [
-    "Chapter 1 opens with young Pavel Durov's childhood neighborhood",
-    "The 'boy with Cervantes' is young Pavel - Don Quixote was his favorite book"
+    "Chapter 1 opens with young Pavel Durov's childhood neighborhood"
   ],
-  "total_sentences": 2,
+  "total_sentences": 1,
   "page_type": "narrative"
 }
 ```
@@ -247,11 +103,11 @@ Every page translation MUST follow this structure:
 
 ### Quality Rules
 
-1. **Every sentence has all 4 languages** - no null/empty values
-2. **Valid JSON** - escape special characters properly
-3. **UTF-8 encoding** - Chinese/Japanese must render correctly
-4. **No skipped content** - include EVERY sentence from the page
-5. **Sequential IDs** - 1, 2, 3, ... (no gaps)
+1. **Every sentence has all 4 languages** — no null/empty values
+2. **Valid JSON** — escape special characters properly
+3. **UTF-8 encoding** — Chinese/Japanese must render correctly
+4. **No skipped content** — include EVERY sentence from the page
+5. **Sequential IDs** — 1, 2, 3, ... (no gaps)
 
 ---
 
@@ -273,18 +129,42 @@ Every page translation MUST follow this structure:
 
 ---
 
-## Reader Context
+## Pre-Provided Resources
 
-**Target Reader Profile:**
-- Chinese-born graduate student at Stanford University (computational physics)
-- Active Telegram user, programmer since high school
-- Interested in Pavel Durov's worldview on technology, code, and life philosophy
-- Reads Russian, English, Chinese, and Japanese
+**All setup work is already done.** Do not redo it.
 
-**Cultural Bridge Goals:**
-- Make Russian tech/startup culture accessible to international readers
-- Preserve Durov's distinctive voice and unconventional philosophy
-- Localize references for global audiences
+### Extracted Text (Ready to Use)
+```
+extracted/
+├── full.txt              # Complete book text
+└── pages/
+    ├── page_001.txt      # Page-by-page extraction
+    └── ... (all 99 pages)
+```
+
+### Research Documents (For Context — READ, don't recreate)
+```
+research/
+├── durov_bio.md          # Pavel Durov biography
+├── vk_history.md         # VKontakte company history
+├── russia_context.md     # Russian cultural context
+├── chapter_summaries.md  # Chapter-by-chapter summaries
+└── glossary.md           # Terminology consistency guide
+```
+
+### Example Translations (Format Reference Only — don't retranslate these)
+```
+examples/
+├── page_013_translation.json   # Example JSON format
+└── page_043_translation.json   # Another example
+```
+
+### PDF Generation Tools
+```
+tools/
+├── compile_pages.py      # Generates PDF from JSON
+└── README.md             # Tool documentation
+```
 
 ---
 
@@ -324,98 +204,30 @@ Pavel Durov's voice is:
 | ботаник | nerd/geek | 书呆子 | オタク |
 | стартап | startup | 创业公司 | スタートアップ |
 
-See `research/glossary.md` for the complete terminology guide.
+---
+
+## Reader Context
+
+**Target Reader Profile:**
+- Chinese-born graduate student at Stanford University (computational physics)
+- Active Telegram user, programmer since high school
+- Interested in Pavel Durov's worldview on technology, code, and life philosophy
+- Reads Russian, English, Chinese, and Japanese
 
 ---
 
-## Collaboration Protocol Summary
+## Output Location
 
-### Regular Sync (Every 2-3 Minutes)
-```bash
-git fetch origin --prune
-# Read other workers' WORKER_STATE.md files
-# Update your "Known Workers" table
 ```
+translations/         # JSON translations (one per page)
+├── page_001.json
+├── page_002.json
+└── ...
 
-### Page Claiming
-1. Sync first (always!)
-2. Find lowest available page
-3. Update WORKER_STATE.md with claim
-4. Push immediately
-5. Start translating
-
-### Completing a Page
-```bash
-git add translations/page_XXX.json WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] DONE: Completed page XXX
-HASH: $(sha256sum translations/page_XXX.json | cut -c1-8)
-HEARTBEAT: $(date +%s)"
-git push origin HEAD
+output/               # Generated PDFs (optional)
+├── page_001.pdf
+└── ...
 ```
-
-### Handling Offline Workers
-- Workers with heartbeats >10 min old are considered offline
-- After 15 min, their claimed pages can be reclaimed
-- Note in your WORKER_STATE.md when reclaiming
-
-### If You Reconnect After Disconnect
-1. Sync first (fetch all branches)
-2. Check if your old page was reclaimed
-3. If yes: claim next available page
-4. If no: continue where you left off
-5. Push immediately to show you're back
-
----
-
-## PDF Generation
-
-### Using the Compilation Tool
-```bash
-# Generate PDF for a single page
-python3 tools/compile_pages.py translations/page_013.json output/
-
-# This creates output/page_013.pdf
-```
-
-### Requirements
-- XeLaTeX (texlive-xetex)
-- xeCJK package (texlive-lang-chinese)
-- Noto fonts (noto-fonts, noto-fonts-cjk)
-
-### Color Scheme
-| Language | Color |
-|----------|-------|
-| Russian | Black |
-| English | Dark Blue |
-| Chinese | Dark Red |
-| Japanese | Dark Green |
-
----
-
-## Anti-Patterns to Avoid
-
-### Translation
-- ❌ Skipping sentences - include EVERYTHING
-- ❌ Literal translation of idioms - adapt appropriately
-- ❌ Inconsistent terminology - use the glossary
-- ❌ Losing Durov's voice - keep it sharp and provocative
-- ❌ Invalid JSON - validate before committing
-
-### Collaboration
-- ❌ Claiming without syncing first
-- ❌ Claiming multiple pages at once
-- ❌ Forgetting to push claims immediately
-- ❌ Letting heartbeat go stale (>5 min)
-- ❌ Working in isolation - sync every 2-3 min
-
----
-
-## Context Efficiency
-
-- Use `research/chapter_summaries.md` instead of re-reading entire chapters
-- Use `research/glossary.md` for consistent terminology
-- If stuck on a sentence > 5 minutes, add a translator note and continue
-- Each page should take roughly 10-20 minutes depending on density
 
 ---
 
@@ -423,46 +235,40 @@ python3 tools/compile_pages.py translations/page_013.json output/
 
 **Do NOT pause** between pages to ask for confirmation. Keep working:
 
-1. Complete page → Push → Claim next → Repeat
-2. Sync every 2-3 minutes between pages
+1. Complete page → push → advance to next → repeat
+2. Sync every ~5 pages to check what others have done
 3. Continue until:
-   - All pages are translated, OR
+   - All 99 pages are translated, OR
    - A blocking error requires help, OR
-   - Context limit (~10k tokens remaining)
+   - Context limit is approaching
 
 ---
 
-## Session End Protocol
+## Protocol Configuration for This Project
 
-When ending your session (or running low on context):
+```
+TOTAL_UNITS    = 99
+OUTPUT_DIR     = translations
+UNIT_FILENAME  = page_%03d.json
+BRANCH_FILTER  = <your task prefix>
+```
 
-1. **Complete current page** if possible
-2. **Update WORKER_STATE.md** with final status
-3. **Push everything**:
-   ```bash
-   git add .
-   git commit -m "[$MY_SHORT_ID] SESSION_END: Completed pages X-Y
-   STATUS: [summary]
-   HEARTBEAT: $(date +%s)"
-   git push origin HEAD
-   ```
-
-If you can't complete your current page:
-1. Update WORKER_STATE.md to release the claim
-2. Push so others know the page is available
+See `PROTOCOL.md` for the full coordination protocol.
 
 ---
 
-## Key Files Reference
+## Anti-Patterns
 
-| File | Purpose | Update Frequency |
-|------|---------|------------------|
-| `WORKER_STATE.md` | Your status (claims, completions) | Every action |
-| `PROTOCOL.md` | Communication rules | Read-only |
-| `instructions.md` | Task instructions | Read-only |
-| `translations/page_XXX.json` | Your output | Per page |
-| `research/glossary.md` | Term consistency | Reference |
+### Translation
+- Do not skip sentences — include EVERYTHING
+- Do not translate idioms literally — adapt appropriately
+- Do not use inconsistent terminology — check the glossary
+- Do not lose Durov's voice — keep it sharp and provocative
+- Do not commit invalid JSON — validate before committing
 
----
-
-*Start translating! Sync regularly, push often, and coordinate with your team.*
+### Coordination
+- Do not claim pages via state files — use your hash-assigned start position
+- Do not build helper tools or scripts — translate pages
+- Do not do research that already exists — read the research/ directory
+- Do not stop after a few pages — keep going
+- Do not start at page 1 unless that's your hash-assigned start
