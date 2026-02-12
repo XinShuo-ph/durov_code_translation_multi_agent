@@ -1,159 +1,51 @@
-# Durov Code Book Translation Project
+# Multi-Agent Parallel Work Protocol
 
-**Multi-Agent Collaborative Translation System**
+A concise, executable protocol for coordinating N parallel AI agents on divisible tasks using git-based communication.
 
-## Overview
+## The Problem
 
-This project translates "Код Дурова" (Durov Code) by Nikolai Kononov into a multilingual edition featuring Russian, English, Chinese, and Japanese in parallel.
+When launching 16 AI agents to work in parallel, naive "claim lowest available" protocols fail catastrophically:
 
-## Multi-Agent Architecture
+- **Redundant setup**: Every agent independently re-does the same prep work (10+ min each)
+- **Consensus deadlocks**: Agents wait for votes that never reach quorum because agents keep dying
+- **No work spreading**: Without shared state, every agent starts at work unit 1
+- **Phase gates**: Agents die during mandatory setup phases before doing any real work
+- **Protocol overhead**: Long protocol documents consume agent context
 
-This project uses **multiple AI agents working collaboratively**, each on their own git branch.
+In two 16-agent experiments, the top single agent translated more pages than the other 15 combined. Pages 2-4 were translated 10-11 times each while pages 37-99 were never touched.
 
-### Key Design Principles
+## The Solution: Discover, Divide, Work, Fill
 
-1. **Collaborative, not isolated**: Workers know who else is online and what they're doing
-2. **Simple workload distribution**: Claim lowest available page
-3. **Robust against disconnection**: Pages can be reclaimed from offline workers
-4. **Easy reconnection**: Returning workers sync and continue
-
-### Communication Method
-
-Agents communicate via **git commits, pushes, and pulls**—using git as a message-passing interface.
-
-### Worker Identity
-
-- **Branch Name**: Full branch name (e.g., `cursor/translation-task-a1b2`)
-- **Short ID**: Last 4 characters (e.g., `a1b2`) - used in commit messages
-- **Registration**: Creating `WORKER_STATE.md` on your branch registers you as active
-
-### Checking Who's Online
-
-```bash
-git fetch origin --prune
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
-    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    echo "Active: $short_id ($branch)"
-  fi
-done
+```
+START ──► Discover peers ──► Compute pages ──► Work independently ──► Fill gaps ──► DONE
+          (60 sec max)       (10 sec)          (90% of session)       (remaining)
 ```
 
-## Quick Start for Workers
+1. **Discover**: One `git fetch`, sort branches, find your index
+2. **Divide**: Interleaved assignment (worker k gets pages k+1, k+1+N, k+1+2N, ...)
+3. **Work**: Produce output for your assigned pages. No sync needed.
+4. **Fill**: Fetch all branches, find missing pages, complete them.
 
-1. **Identify yourself**:
-   ```bash
-   MY_BRANCH=$(git branch --show-current)
-   MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
-   ```
+Key properties:
+- **Zero setup**: All prep work is pre-done on `main`
+- **Zero coordination during work**: Deterministic assignment eliminates conflicts
+- **One sync**: Only at startup to count peers
+- **Resilient**: If workers die, their orphaned pages are spread across the book, not clustered
 
-2. **Create WORKER_STATE.md**: Copy from template, fill in your info
-
-3. **Push to register**: This makes you visible to other workers
-
-4. **Sync and discover**: Fetch other workers' states
-
-5. **Claim a page**: Lowest available page number
-
-6. **Translate and push**: Save JSON, push, claim next
-
-## Key Files
+## Files
 
 | File | Purpose |
 |------|---------|
-| `PROTOCOL.md` | Communication protocol |
-| `instructions.md` | Detailed task instructions |
-| `STATE.md` | Global project state |
-| `WORKER_STATE.md` | Your worker state (create this!) |
-| `WORKER_STATE_TEMPLATE.md` | Template for new workers |
+| `PROTOCOL.md` | The complete multi-agent protocol (v3) |
+| `EXPERIMENT_ANALYSIS.md` | Detailed analysis of two failed 16-agent experiments |
+| `instructions.md` | Task-specific instructions (translation) |
 
-## Resources Available
+## How to Use
 
-### Pre-Extracted Text
-```
-extracted/
-├── full.txt           # Complete book
-└── pages/             # Page-by-page (page_001.txt - page_099.txt)
-```
+1. Prepare all source materials on `main` before launching agents
+2. Copy `PROTOCOL.md` into your project
+3. Write concise task instructions (under 200 lines)
+4. Launch N agents on branches with a common prefix
+5. Agents self-coordinate using the protocol
 
-### Research Documents
-```
-research/
-├── durov_bio.md       # Pavel Durov biography
-├── vk_history.md      # VKontakte history
-├── russia_context.md  # Cultural context
-├── chapter_summaries.md
-├── chapter_structure.md
-└── glossary.md        # Terminology guide
-```
-
-### Example Translations (Format Reference)
-```
-examples/
-├── page_013_translation.json   # Example format
-├── page_043_translation.json   # Another example
-└── format_demo.tex             # LaTeX template
-```
-
-**Note**: Example JSONs show format only, not complete translations.
-
-### PDF Generation Tools
-```
-tools/
-├── compile_pages.py   # JSON → PDF compiler
-├── README.md          # Tool docs
-└── requirements.txt   # Dependencies
-```
-
-## Translation Output
-
-Workers save translations to:
-```
-translations/page_XXX.json
-```
-
-Optional PDF output:
-```
-output/page_XXX.pdf
-```
-
-## Target Output Format
-
-Each page becomes a JSON file with sentences in 4 languages:
-
-```json
-{
-  "page": 13,
-  "chapter": 1,
-  "sentences": [
-    {
-      "id": 1,
-      "ru": "Russian text...",
-      "en": "English translation...",
-      "zh": "Chinese translation...",
-      "ja": "Japanese translation..."
-    }
-  ]
-}
-```
-
-## Color Scheme (for PDF)
-
-| Language | Color |
-|----------|-------|
-| Russian | Black |
-| English | Dark Blue |
-| Chinese | Dark Red |
-| Japanese | Dark Green |
-
-## Protocol Summary
-
-1. **Sync regularly**: Every 2-3 minutes
-2. **Claim one page at a time**: Lowest available
-3. **Push immediately**: After claiming, after completing
-4. **Heartbeat**: Update at least every 5 minutes
-5. **Handle disconnection**: Reclaim pages from offline workers (>15 min)
-
----
-
-*See `PROTOCOL.md` for detailed communication rules and `instructions.md` for complete task details.*
+See `PROTOCOL.md` for the full protocol and adaptation guide.
