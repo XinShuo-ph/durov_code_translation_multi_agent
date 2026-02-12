@@ -1,0 +1,13 @@
+{
+  "worker_id": "eea6",
+  "branch": "cursor/parallel-translation-project-setup-eea6",
+  "batch_prefix": "cursor/parallel-translation-project-setup",
+  "heartbeat": 1770877027,
+  "status": "translating",
+  "claimed_page": null,
+  "claimed_at": null,
+  "completed_pages": [],
+  "phase": "stripe",
+  "last_sync_at": 1770877027,
+  "notes": "Starting stripe phase. N=1 (no peers discovered yet). Taking all pages."
+}
