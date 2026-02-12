@@ -1,159 +1,85 @@
-# Durov Code Book Translation Project
+# Multi-Agent Parallel Work Protocol
 
-**Multi-Agent Collaborative Translation System**
+This repository contains a **battle-tested protocol for parallel multi-agent collaboration**, designed after analyzing 32 agent sessions across 2 experiments that revealed critical coordination failures.
 
-## Overview
+## The Problem
 
-This project translates "Код Дурова" (Durov Code) by Nikolai Kononov into a multilingual edition featuring Russian, English, Chinese, and Japanese in parallel.
+When multiple AI agents work in parallel on the same project (e.g., translating a 99-page book), naive coordination protocols produce **76% wasted effort** through duplicate work, setup phase bloat, and consensus deadlock. In our experiments:
 
-## Multi-Agent Architecture
+- Pages 2 and 3 were each translated **11 times** by different agents
+- **56% of agents** (9/16) produced zero useful output
+- **1 agent** ended up translating the entire book alone
+- Agents spent their sessions on research and voting instead of the actual task
 
-This project uses **multiple AI agents working collaboratively**, each on their own git branch.
+## The Solution
 
-### Key Design Principles
+The `PROTOCOL.md` in this repo implements a **stripe-based parallel work protocol** that eliminates these failures:
 
-1. **Collaborative, not isolated**: Workers know who else is online and what they're doing
-2. **Simple workload distribution**: Claim lowest available page
-3. **Robust against disconnection**: Pages can be reclaimed from offline workers
-4. **Easy reconnection**: Returning workers sync and continue
+1. **Deterministic work assignment** — Each agent gets a pre-computed, non-overlapping set of pages (a "stripe") based on its ID. Zero coordination needed for initial work.
+2. **No setup phases** — Agents translate from minute zero. All research, format decisions, and tooling are pre-done.
+3. **Two-phase design** — STRIPE (parallel, no coordination) then SCAVENGE (fill gaps from dead agents).
+4. **File existence as coordination signal** — Instead of parsing complex state files, agents scan for output files across branches.
 
-### Communication Method
+### Expected improvement:
 
-Agents communicate via **git commits, pushes, and pulls**—using git as a message-passing interface.
+| Metric | Old Protocol | New Protocol |
+|--------|-------------|--------------|
+| Wasted effort | 76% | < 5% |
+| Agent utilization | 44% (7/16 active) | > 90% |
+| Setup time per agent | 60-120 min | < 2 min |
+| Pages translated per agent | 0-6 (median 1) | ~6-8 each |
 
-### Worker Identity
+## Repository Structure
 
-- **Branch Name**: Full branch name (e.g., `cursor/translation-task-a1b2`)
-- **Short ID**: Last 4 characters (e.g., `a1b2`) - used in commit messages
-- **Registration**: Creating `WORKER_STATE.md` on your branch registers you as active
-
-### Checking Who's Online
-
-```bash
-git fetch origin --prune
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
-    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    echo "Active: $short_id ($branch)"
-  fi
-done
 ```
+PROTOCOL.md                  # The parallel work protocol (START HERE)
+instructions.md              # Task-specific instructions (translation details)
+STATE.md                     # Project state reference
+WORKER_STATE_TEMPLATE.md     # Template for agent registration
 
-## Quick Start for Workers
-
-1. **Identify yourself**:
-   ```bash
-   MY_BRANCH=$(git branch --show-current)
-   MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
-   ```
-
-2. **Create WORKER_STATE.md**: Copy from template, fill in your info
-
-3. **Push to register**: This makes you visible to other workers
-
-4. **Sync and discover**: Fetch other workers' states
-
-5. **Claim a page**: Lowest available page number
-
-6. **Translate and push**: Save JSON, push, claim next
-
-## Key Files
-
-| File | Purpose |
-|------|---------|
-| `PROTOCOL.md` | Communication protocol |
-| `instructions.md` | Detailed task instructions |
-| `STATE.md` | Global project state |
-| `WORKER_STATE.md` | Your worker state (create this!) |
-| `WORKER_STATE_TEMPLATE.md` | Template for new workers |
-
-## Resources Available
-
-### Pre-Extracted Text
-```
-extracted/
-├── full.txt           # Complete book
-└── pages/             # Page-by-page (page_001.txt - page_099.txt)
-```
-
-### Research Documents
-```
-research/
-├── durov_bio.md       # Pavel Durov biography
-├── vk_history.md      # VKontakte history
-├── russia_context.md  # Cultural context
-├── chapter_summaries.md
-├── chapter_structure.md
-└── glossary.md        # Terminology guide
-```
-
-### Example Translations (Format Reference)
-```
-examples/
-├── page_013_translation.json   # Example format
-├── page_043_translation.json   # Another example
-└── format_demo.tex             # LaTeX template
-```
-
-**Note**: Example JSONs show format only, not complete translations.
-
-### PDF Generation Tools
-```
 tools/
-├── compile_pages.py   # JSON → PDF compiler
-├── README.md          # Tool docs
-└── requirements.txt   # Dependencies
+├── compute_stripe.py        # Stripe calculator and progress scanner
+├── compile_pages.py         # JSON → PDF compiler
+└── README.md                # Tool documentation
+
+extracted/                   # Source material (pre-extracted text)
+research/                    # Background research (pre-done)
+examples/                    # Output format examples
+translations/                # Agent output (one JSON per page)
+output/                      # Generated PDFs
 ```
 
-## Translation Output
+## Using This Protocol
 
-Workers save translations to:
-```
-translations/page_XXX.json
-```
+### For a new multi-agent project:
 
-Optional PDF output:
-```
-output/page_XXX.pdf
-```
+1. Pre-complete all setup work (research, format decisions, tooling)
+2. Adapt `PROTOCOL.md` to your task (replace page references with your work units)
+3. Set `TOTAL_PAGES` in `tools/compute_stripe.py` to your total work unit count
+4. Launch N agents on branches `cursor/your-project-XXXX`
+5. Each agent reads `PROTOCOL.md`, computes its stripe, and starts working
 
-## Target Output Format
+### For an agent joining this project:
 
-Each page becomes a JSON file with sentences in 4 languages:
+1. Read `PROTOCOL.md` (the parallel work protocol)
+2. Run `python3 tools/compute_stripe.py` to see your assigned pages
+3. Start translating your first stripe page immediately
+4. Push after each page. Sync between pages. Never stop voluntarily.
 
-```json
-{
-  "page": 13,
-  "chapter": 1,
-  "sentences": [
-    {
-      "id": 1,
-      "ru": "Russian text...",
-      "en": "English translation...",
-      "zh": "Chinese translation...",
-      "ja": "Japanese translation..."
-    }
-  ]
-}
-```
+## Experiment History
 
-## Color Scheme (for PDF)
+This protocol was developed by analyzing failures from two experiments:
 
-| Language | Color |
-|----------|-------|
-| Russian | Black |
-| English | Dark Blue |
-| Chinese | Dark Red |
-| Japanese | Dark Green |
+### Experiment 1: `book-translation-multi-agent-*` (16 agents)
+- 5/16 agents never started (setup failures)
+- 4/16 agents stuck in format voting (consensus deadlock)
+- 3/16 agents did significant work
+- 1 agent (c68e) translated 30+ pages alone
 
-## Protocol Summary
+### Experiment 2: `collaborative-translation-initiation-*` (16 agents)
+- 76% duplicate work (307/406 page-translations were duplicates)
+- 1 agent (ba2f) translated all 99 pages by itself
+- Pages 2-3 translated 11 times each
+- 4/16 agents produced only 1 commit
 
-1. **Sync regularly**: Every 2-3 minutes
-2. **Claim one page at a time**: Lowest available
-3. **Push immediately**: After claiming, after completing
-4. **Heartbeat**: Update at least every 5 minutes
-5. **Handle disconnection**: Reclaim pages from offline workers (>15 min)
-
----
-
-*See `PROTOCOL.md` for detailed communication rules and `instructions.md` for complete task details.*
+See `PROTOCOL.md` for the full post-mortem and the protocol designed to fix these issues.
