@@ -17,3 +17,10 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+# Sync service runtime
+sync_service.pid
+sync_service.log
+.sync_cache/
+
+# Worker state backups
+worker-states/*.bak

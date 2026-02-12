@@ -187,8 +187,14 @@ def validate_schema(data: Dict[str, Any], schema: Dict[str, Any], path: str = ""
         # Check array items
         if field_type == "array" and "items" in field_schema and isinstance(value, list):
             for i, item in enumerate(value):
-                item_errors = validate_schema(item, field_schema["items"], f"{field_path}[{i}]")
-                errors.extend(item_errors)
+                # Only validate schema for object items, not primitives
+                if field_schema["items"].get("type") == "object":
+                    item_errors = validate_schema(item, field_schema["items"], f"{field_path}[{i}]")
+                    errors.extend(item_errors)
+                elif field_schema["items"].get("type") == "integer" and not isinstance(item, int):
+                    errors.append(f"{field_path}[{i}]: Expected integer, got {type(item).__name__}")
+                elif field_schema["items"].get("type") == "string" and not isinstance(item, str):
+                    errors.append(f"{field_path}[{i}]: Expected string, got {type(item).__name__}")
     
     return errors
 
