@@ -1,0 +1,313 @@
+{
+  "page": 27,
+  "chapter": 2,
+  "chapter_title": "Архитектор (The Architect)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "«Смотрю, ты не прочь прославиться», – заметил квартиросъемщик.",
+      "en": "“I see you’re not averse to becoming famous,” the roommate remarked.",
+      "zh": "“我看你挺想出名的嘛，”室友说。",
+      "ja": "「君、有名になりたいみたいだな」ルームメイトが言った。"
+    },
+    {
+      "id": 2,
+      "ru": "«Надо заняться этим срочно», – донеслось с дивана.",
+      "en": "“I need to get on that urgently,” came the voice from the couch.",
+      "zh": "“这事得赶紧做，”沙发上传来声音。",
+      "ja": "「急いで取り掛からないと」ソファーから声が聞こえた。"
+    },
+    {
+      "id": 3,
+      "ru": "«Надо», – зевнул Перекопский, отложил оранжевый шар и щелкнул выключателем.",
+      "en": "“Yeah,” Perekopsky yawned, set down the orange ball, and clicked the light switch.",
+      "zh": "“是得，”佩列科普斯基打了个哈欠，放下橙色球，关了灯。",
+      "ja": "「そうだな」ペレコプスキーはあくびをしながら、オレンジ色のボールを置き、スイッチをカチッと切った。"
+    },
+    {
+      "id": 4,
+      "ru": "Дуров зарегистрировал домен spbgu.org и выбрал движок для форума.",
+      "en": "Durov registered the domain spbgu.org and chose a forum engine.",
+      "zh": "杜罗夫注册了域名spbgu.org，并选择了一个论坛引擎。",
+      "ja": "ドゥーロフはドメインspbgu.orgを登録し、フォーラムエンジンを選んだ。"
+    },
+    {
+      "id": 5,
+      "ru": "Они с братом подрихтовали кое-какие опции и протестировали.",
+      "en": "He and his brother tweaked a few options and tested it.",
+      "zh": "他和哥哥调整了一些选项并进行了测试。",
+      "ja": "兄と一緒にいくつかのオプションを調整し、テストした。"
+    },
+    {
+      "id": 6,
+      "ru": "Все работало: форум как форум, с темами, модерацией, вполне безликим дизайном.",
+      "en": "Everything worked: a forum like any forum, with topics, moderation, and a fairly generic design.",
+      "zh": "一切正常运行：论坛就是论坛，有主题、审核功能和相当普通的设计。",
+      "ja": "すべて動作した。フォーラムはフォーラムらしく、トピック、モデレーション、そしてかなり無個性なデザインを備えていた。"
+    },
+    {
+      "id": 7,
+      "ru": "Теперь Дурову предстояло стать местным богом из машины, который бы решал споры, авторитетно выступал на горячие темы и регулировал жизнь сообщества.",
+      "en": "Now Durov had to become a local deus ex machina who would resolve disputes, speak authoritatively on hot topics, and regulate community life.",
+      "zh": "现在杜罗夫要成为一个本地的“机器之神”，裁决争端、在热门话题上权威发言、调控社区生活。",
+      "ja": "今やドゥーロフは、紛争を解決し、ホットな話題で権威ある発言をし、コミュニティの生活を調整するローカルなデウス・エクス・マキナにならなければならなかった。"
+    },
+    {
+      "id": 8,
+      "ru": "Он предвкушал, как сыграет на сдержках-противовесах чужих амбиций.",
+      "en": "He relished the prospect of playing on the checks and balances of others’ ambitions.",
+      "zh": "他期待着利用他人野心之间的制衡关系大展身手。",
+      "ja": "他人の野望の牽制と均衡を利用する見通しを楽しみにしていた。"
+    },
+    {
+      "id": 9,
+      "ru": "Верховному модератору следовало тщательно строить образ.",
+      "en": "The supreme moderator needed to carefully construct his image.",
+      "zh": "最高版主需要精心塑造自己的形象。",
+      "ja": "最高モデレーターはイメージを慎重に構築する必要があった。"
+    },
+    {
+      "id": 10,
+      "ru": "У них с Перекопским была тайная страсть.",
+      "en": "He and Perekopsky shared a secret passion.",
+      "zh": "他和佩列科普斯基有一个秘密的共同爱好。",
+      "ja": "彼とペレコプスキーには秘密の情熱があった。"
+    },
+    {
+      "id": 11,
+      "ru": "Они раз двадцать пересмотрели «Матрицу».",
+      "en": "They had rewatched “The Matrix” some twenty times.",
+      "zh": "他们把《黑客帝国》看了大约二十遍。",
+      "ja": "二人は『マトリックス』を20回ほど観直していた。"
+    },
+    {
+      "id": 12,
+      "ru": "Остатки трезвомыслящих людей выкрадывают талантливого программиста и втолковывают ему, что виртуальная реальность реальна, а в «истинном» мире машины навевают людям морок, чтобы высасывать из них, спящих, энергию.",
+      "en": "The remnants of clear-thinking people rescue a talented programmer and explain to him that virtual reality is real, while in the “true” world machines induce illusions in people to suck energy from them as they sleep.",
+      "zh": "最后一批头脑清醒的人把一个天才程序员偷出来，向他解释说虚拟现实才是真实的，而在“真正的”世界里，机器给人们制造幻象，从沉睡的人身上吸取能量。",
+      "ja": "まだ正気を保っている人々の残党が才能あるプログラマーを救い出し、仮想現実こそが現実であり、「真の」世界では機械が人々に幻影を見せ、眠る人々からエネルギーを吸い取っていると教え込む。"
+    },
+    {
+      "id": 13,
+      "ru": "Предводитель повстанцев Морфеус объясняет герою, что Пифия предрекла: у него талант не только кодить, но и драться с машинами.",
+      "en": "The rebel leader Morpheus explains to the hero that the Oracle prophesied: he has the talent not just to code but to fight machines.",
+      "zh": "反抗军领袖墨菲斯向主人公解释说，先知预言了：他不仅有编程的天赋，还能与机器战斗。",
+      "ja": "反乱軍のリーダー、モーフィアスは主人公に説明する。預言者が予言した——彼にはコーディングだけでなく、機械と戦う才能もあると。"
+    },
+    {
+      "id": 14,
+      "ru": "«Проснись, Нео. Ты избранный».",
+      "en": "“Wake up, Neo. You’re the One.”",
+      "zh": "“醒醒，尼奥。你就是那个被选中的人。”",
+      "ja": "「目覚めろ、ネオ。お前は選ばれし者だ。」"
+    },
+    {
+      "id": 15,
+      "ru": "Хакер и ментор находятся в некоем белом пространстве, одетые во все черное – рубашки, костюмы, туфли.",
+      "en": "The hacker and the mentor stand in a white void, dressed entirely in black—shirts, suits, shoes.",
+      "zh": "黑客和导师站在一片白色空间中，全身穿着黑色——衬衫、西装、皮鞋。",
+      "ja": "ハッカーとメンターは白い空間にいて、全身黒ずくめ——シャツ、スーツ、靴。"
+    },
+    {
+      "id": 16,
+      "ru": "Вдали падший мир.",
+      "en": "In the distance, a fallen world.",
+      "zh": "远处是一个堕落的世界。",
+      "ja": "遠くには堕落した世界。"
+    },
+    {
+      "id": 17,
+      "ru": "Киану Ривз немного напоминает чертами Дурова.",
+      "en": "Keanu Reeves slightly resembles Durov in his features.",
+      "zh": "基努·里维斯的面部特征有点像杜罗夫。",
+      "ja": "キアヌ・リーブスは顔立ちが少しドゥーロフに似ている。"
+    },
+    {
+      "id": 18,
+      "ru": "Оба программисты. Оба с миссией.",
+      "en": "Both programmers. Both with a mission.",
+      "zh": "两人都是程序员。两人都有使命。",
+      "ja": "どちらもプログラマー。どちらも使命を持っている。"
+    },
+    {
+      "id": 19,
+      "ru": "Черный цвет приглянулся Дурову.",
+      "en": "Black appealed to Durov.",
+      "zh": "黑色吸引了杜罗夫。",
+      "ja": "黒という色がドゥーロフの気に入った。"
+    },
+    {
+      "id": 20,
+      "ru": "Тотем обожал пафос и, когда кодил, включал речи великих ораторов – Муссолини, Мартина Лютера Кинга, Малькольма Икса.",
+      "en": "The totem adored grandeur and, when coding, would play speeches by great orators—Mussolini, Martin Luther King, Malcolm X.",
+      "zh": "这个图腾热爱壮志豪情，编程时会播放伟大演说家的演讲——墨索里尼、马丁·路德·金、马尔科姆·X。",
+      "ja": "トーテムは壮大さを愛し、コーディング中に偉大な弁論家の演説を流していた——ムッソリーニ、マーティン・ルーサー・キング、マルコムX。"
+    },
+    {
+      "id": 21,
+      "ru": "Если лепить себе маску, черный цвет идеален – это цвет пафоса, миссии, строгости, проповеди, начальства.",
+      "en": "If you’re going to craft yourself a mask, black is ideal—it’s the color of grandeur, mission, severity, preaching, authority.",
+      "zh": "如果要为自己打造一个面具，黑色是完美的——它是壮志、使命、严肃、布道和权威的颜色。",
+      "ja": "仮面を作るなら、黒が理想的だ——壮大さ、使命、厳格さ、説教、権威の色。"
+    },
+    {
+      "id": 22,
+      "ru": "Логотип Durov.com – книга в золотом сиянии на черном фоне – смотрелся символом масонской ложи.",
+      "en": "The Durov.com logo—a book in a golden glow on a black background—looked like a Masonic lodge symbol.",
+      "zh": "Durov.com的标志——黑色背景上金光闪烁的一本书——看起来像共济会的标志。",
+      "ja": "Durov.comのロゴ——黒い背景に金色の輝きを放つ本——はフリーメイソンのロッジのシンボルのように見えた。"
+    },
+    {
+      "id": 23,
+      "ru": "Собственно, Дуров интересовался масонами – позже он скажет: «Догма» Альберта Пайка стала для него своеобразным нравственным ориентиром.",
+      "en": "In fact, Durov was interested in the Masons—he would later say that Albert Pike’s “Morals and Dogma” became a sort of moral compass for him.",
+      "zh": "实际上，杜罗夫对共济会很感兴趣——他后来说，阿尔伯特·派克的《道德与教条》成了他的一种道德指南。",
+      "ja": "実際、ドゥーロフはフリーメイソンに興味を持っていた——後に彼はアルバート・パイクの『モラルとドグマ』が一種の道徳的指針になったと語ることになる。"
+    },
+    {
+      "id": 24,
+      "ru": "А пока он стоял перед зеркалом и прикидывал, как выглядит.",
+      "en": "For now, he stood before the mirror sizing up his look.",
+      "zh": "而此刻他正站在镜子前打量自己的形象。",
+      "ja": "今のところ、彼は鏡の前に立って自分の見た目を確認していた。"
+    },
+    {
+      "id": 25,
+      "ru": "Черная бейсболка, костюм, туфли, чемоданчик.",
+      "en": "Black baseball cap, suit, shoes, a little briefcase.",
+      "zh": "黑色棒球帽、西装、皮鞋、小公文包。",
+      "ja": "黒い野球帽、スーツ、靴、小さなブリーフケース。"
+    },
+    {
+      "id": 26,
+      "ru": "Это очень просто – не надо париться с выбором одежды, ты просто носишь черное.",
+      "en": "It’s very simple—you don’t have to stress about choosing clothes; you just wear black.",
+      "zh": "这非常简单——不用为选衣服费心，你只穿黑色就行。",
+      "ja": "とても簡単だ——服選びに悩む必要がない。ただ黒を着ればいい。"
+    },
+    {
+      "id": 27,
+      "ru": "Но пока стиль не так важен – людям нужно узнать о форуме, а его творец будет завоевывать доверие уже в онлайне.",
+      "en": "But for now style wasn’t so important—people needed to learn about the forum, and its creator would win trust online.",
+      "zh": "但目前风格不那么重要——人们需要知道论坛的存在，而它的创造者将在线上赢得信任。",
+      "ja": "しかし今のところスタイルはそれほど重要ではない——人々にフォーラムを知ってもらう必要があり、その創造者はオンラインで信頼を勝ち取る。"
+    },
+    {
+      "id": 28,
+      "ru": "Дуров списался с модераторами факультетских форумов, и они начали осваиваться на spbgu.org.",
+      "en": "Durov contacted the moderators of faculty forums, and they began to settle in at spbgu.org.",
+      "zh": "杜罗夫联系了各系论坛的版主，他们开始在spbgu.org上安家落户。",
+      "ja": "ドゥーロフは各学部フォーラムのモデレーターに連絡を取り、彼らがspbgu.orgに定着し始めた。"
+    },
+    {
+      "id": 29,
+      "ru": "Но писали и спорили пока недостаточно, мало скандалов, активность перетекала на новый форум вяловато.",
+      "en": "But there wasn’t enough posting and arguing yet, too few scandals, and activity trickled to the new forum sluggishly.",
+      "zh": "但发帖和争论还不够多，丑闻太少，活跃度向新论坛的流动很缓慢。",
+      "ja": "しかしまだ書き込みや議論が不十分で、スキャンダルも少なく、新しいフォーラムへの活動の流入はゆっくりだった。"
+    },
+    {
+      "id": 30,
+      "ru": "Следовало нанести визуальный удар и вручить власть тем, у кого ее нет и кто ее хочет.",
+      "en": "A visual strike was needed, along with handing power to those who didn’t have it and wanted it.",
+      "zh": "需要一次视觉冲击，并把权力交给那些没有权力又渴望权力的人。",
+      "ja": "視覚的なインパクトを与え、権力を持たないが欲しがっている者たちに権力を与える必要があった。"
+    },
+    {
+      "id": 31,
+      "ru": "Наушники прижаты к голове, реальность растворяется, и, как в «Матрице», создается иной мир: шуршат цифры, зеленый двоичный код.",
+      "en": "Headphones pressed to his head, reality dissolves, and, as in “The Matrix,” another world is created: numbers rustle, green binary code.",
+      "zh": "耳机紧贴头部，现实消融，就像在《黑客帝国》中一样，另一个世界被创造出来：数字沙沙作响，绿色的二进制代码。",
+      "ja": "ヘッドフォンを頭に押しつけ、現実が溶け、『マトリックス』のように別の世界が作られる。数字がざわめき、緑のバイナリコード。"
+    },
+    {
+      "id": 32,
+      "ru": "Дуров сидел в кресле и рисовал афиши форума.",
+      "en": "Durov sat in his chair designing forum posters.",
+      "zh": "杜罗夫坐在椅子上设计论坛海报。",
+      "ja": "ドゥーロフは椅子に座ってフォーラムのポスターをデザインしていた。"
+    },
+    {
+      "id": 33,
+      "ru": "«Пора неграм отплатить Америке за 310 лет рабства. Покажем им, как надо бороться! Покажем, как проснуться и начать настоящую революцию! Хватит трепать языком. Вам нужны не разговоры, вам нужны действия»",
+      "en": "“It’s time for Black people to repay America for 310 years of slavery. Let’s show them how to fight! Let’s show them how to wake up and start a real revolution! Enough talk. You don’t need words, you need action.”",
+      "zh": "“是时候让黑人向美国偿还310年的奴役之债了。让我们告诉他们该怎么斗争！告诉他们怎么觉醒、发动一场真正的革命！别再空谈了。你们需要的不是空话，是行动。”",
+      "ja": "「黒人がアメリカに310年の奴隷制の代償を支払う時が来た。彼らに戦い方を見せよう！目覚めて本当の革命を始める方法を見せよう！おしゃべりはもう十分だ。必要なのは言葉ではなく、行動だ。」"
+    },
+    {
+      "id": 34,
+      "ru": "Светлые тона: зеленый, салатовый.",
+      "en": "Bright tones: green, lime green.",
+      "zh": "明亮的色调：绿色、浅绿色。",
+      "ja": "明るいトーン：緑、ライムグリーン。"
+    },
+    {
+      "id": 35,
+      "ru": "Они нравятся юзерам durov.сom больше других.",
+      "en": "Users of durov.com like them more than other colors.",
+      "zh": "durov.com的用户比其他颜色更喜欢这些。",
+      "ja": "durov.comのユーザーは他の色よりもこれらを好む。"
+    },
+    {
+      "id": 36,
+      "ru": "Выделяем адрес сайта.",
+      "en": "Highlight the site address.",
+      "zh": "突出网站地址。",
+      "ja": "サイトのアドレスを目立たせる。"
+    },
+    {
+      "id": 37,
+      "ru": "Эта штука перевернет жизнь университета.",
+      "en": "This thing will turn the university’s life upside down.",
+      "zh": "这东西将颠覆大学生活。",
+      "ja": "これが大学の生活をひっくり返す。"
+    },
+    {
+      "id": 38,
+      "ru": "«Когда мы выйдем на улицы, мы сразимся за общую цель. Против врага, который у нас один на всех и который не хочет нашей свободы!»",
+      "en": "“When we take to the streets, we’ll fight for a common cause. Against the enemy that we all share and that doesn’t want our freedom!”",
+      "zh": "“当我们走上街头，我们将为共同的目标而战。对抗我们所有人共同的敌人，那个不希望我们自由的敌人！”",
+      "ja": "「街に出たとき、我々は共通の目標のために戦う。全員に共通の、我々の自由を望まない敵に対して！」"
+    },
+    {
+      "id": 39,
+      "ru": "Да, ключевое – свобода.",
+      "en": "Yes, the key word is freedom.",
+      "zh": "对，关键词是自由。",
+      "ja": "そう、キーワードは自由だ。"
+    },
+    {
+      "id": 40,
+      "ru": "Вот эту плашку вниз – «Без рекламы!».",
+      "en": "This banner goes at the bottom—“Ad-free!”",
+      "zh": "这个横幅放在下面——“无广告！”",
+      "ja": "このバナーは下に——「広告なし！」"
+    },
+    {
+      "id": 41,
+      "ru": "Здесь нет маркетологов.",
+      "en": "There are no marketers here.",
+      "zh": "这里没有营销人员。",
+      "ja": "ここにはマーケターはいない。"
+    },
+    {
+      "id": 42,
+      "ru": "Метастазы общества потребления, порабощающего всех, кто мыслит стереотипами, не дотянутся в наш мир.",
+      "en": "The metastases of consumer society, which enslaves everyone who thinks in stereotypes, won’t reach our world.",
+      "zh": "消费社会的毒瘤——奴役所有刻板思维者的——触及不到我们的世界。",
+      "ja": "ステレオタイプで考える者すべてを奴隷にする消費社会の転移は、我々の世界には届かない。"
+    }
+  ],
+  "translator_notes": [
+    "Page 27 continues Chapter 2 - Creation of the spbgu.org university forum",
+    "The Matrix is a central cultural reference for Durov and Perekopsky",
+    "Durov's all-black clothing style is directly inspired by The Matrix's Neo",
+    "The speeches he listened to while coding (Mussolini, MLK, Malcolm X) show eclectic influences",
+    "Albert Pike's 'Morals and Dogma' is a foundational Masonic text",
+    "The quoted text about '310 years of slavery' is from Malcolm X speeches used in forum posters",
+    "The green binary code aesthetic from The Matrix influenced his early design choices",
+    "The 'Ad-free' promise foreshadows VKontakte's early philosophy"
+  ],
+  "total_sentences": 42,
+  "page_type": "narrative"
+}
