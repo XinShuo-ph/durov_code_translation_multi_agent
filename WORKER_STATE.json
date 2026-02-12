@@ -1,0 +1,13 @@
+{
+  "worker_id": "8ab8",
+  "branch": "cursor/parallel-translation-project-setup-8ab8",
+  "batch_prefix": "cursor/parallel-translation-project-setup",
+  "heartbeat": 1770877419,
+  "status": "translating",
+  "claimed_page": 9,
+  "claimed_at": 1770877419,
+  "completed_pages": [],
+  "phase": "stripe",
+  "last_sync_at": 1770877419,
+  "notes": "Startup claim using deterministic N=16 stripe slot."
+}
