@@ -2,15 +2,15 @@
   "worker_id": "721d",
   "branch": "cursor/parallel-translation-project-setup-721d",
   "batch_prefix": "cursor/parallel-translation-project-setup",
-  "heartbeat": 1770877812,
-  "status": "idle",
-  "claimed_page": null,
-  "claimed_at": null,
+  "heartbeat": 1770877977,
+  "status": "translating",
+  "claimed_page": 20,
+  "claimed_at": 1770877977,
   "completed_pages": [
     13,
     21
   ],
   "phase": "stripe",
-  "last_sync_at": 1770877812,
-  "notes": "Phase 1 STRIPE. Completed page 021."
+  "last_sync_at": 1770877977,
+  "notes": "Phase 1 STRIPE. Translating page 020."
 }
