@@ -1,0 +1,13 @@
+{
+  "worker_id": "4818",
+  "branch": "cursor/translation-project-initialization-4818",
+  "batch_prefix": "cursor/translation-project-initialization",
+  "heartbeat": 1739390400,
+  "status": "translating",
+  "claimed_page": null,
+  "claimed_at": null,
+  "completed_pages": [],
+  "phase": "stripe",
+  "last_sync_at": 1739390400,
+  "notes": "Worker 0 of 1 - taking all pages as stripe"
+}
