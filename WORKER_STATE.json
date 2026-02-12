@@ -4,9 +4,9 @@
   "batch_prefix": "cursor/parallel-translation-project-setup",
   "heartbeat": 1770877009,
   "status": "translating",
-  "claimed_page": 5,
+  "claimed_page": 6,
   "claimed_at": 1770877009,
-  "completed_pages": [2, 3, 4],
+  "completed_pages": [2, 3, 4, 5],
   "phase": "stripe",
   "last_sync_at": 1770877009,
   "notes": "Worker 0 of 1 (no peers detected yet). Completed page 2."
