@@ -1,0 +1,108 @@
+{
+  "page": 27,
+  "chapter": 2,
+  "chapter_title": "Архитектор (The Architect)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "«Смотрю, ты не прочь прославиться», — заметил квартиросъёмщик. «Надо заняться этим срочно», — донеслось с дивана. «Надо», — зевнул Перекопский, отложил оранжевый шар и щёлкнул выключателем.",
+      "en": "'I see you wouldn't mind getting famous,' the tenant observed. 'We need to get on that urgently,' came from the sofa. 'We do,' yawned Perekopsky, set down the orange sphere, and clicked the light switch.",
+      "zh": "「看来你不介意出名嘛，」房客说道。「得赶紧做这件事，」沙发上传来声音。「得做，」佩列科普斯基打着哈欠，放下橙子，按下了电灯开关。",
+      "ja": "「見たところ、有名になるのも悪くないと思ってるね」と借り主は言った。「早急に取りかからないと」とソファから聞こえてきた。「そうだな」ペレコプスキーはあくびをしてオレンジの球を置き、電気のスイッチを切った。"
+    },
+    {
+      "id": 2,
+      "ru": "Дуров зарегистрировал домен spbgu.org и выбрал движок для форума. Они с братом подрихтовали кое-какие опции и протестировали. Всё работало: форум как форум, с темами, модерацией, вполне безликим дизайном.",
+      "en": "Durov registered the domain spbgu.org and chose a forum engine. He and his brother tweaked some options and tested it. Everything worked: a forum like any forum, with threads, moderation, and a perfectly faceless design.",
+      "zh": "杜罗夫注册了spbgu.org域名，选择了一个论坛引擎。他和哥哥调整了一些选项并进行了测试。一切正常：一个标准的论坛，有主题、管理功能，设计平淡无奇。",
+      "ja": "ドゥーロフはドメインspbgu.orgを登録し、フォーラムエンジンを選んだ。兄と一緒にいくつかのオプションを調整してテストした。すべて動いた。トピック、モデレーション、至って没個性的なデザインの普通のフォーラムだ。"
+    },
+    {
+      "id": 3,
+      "ru": "Теперь Дурову предстояло стать местным богом из машины, который бы решал споры, авторитетно выступал на горячие темы и регулировал жизнь сообщества.",
+      "en": "Now Durov had to become a local deus ex machina who would settle disputes, authoritatively weigh in on hot topics, and regulate community life.",
+      "zh": "现在杜罗夫需要成为一个本地的「机械降神」，裁决争端、在热门话题上权威发言、调控社区生活。",
+      "ja": "今やドゥーロフは、紛争を解決し、ホットなトピックに権威をもって発言し、コミュニティの生活を規制するローカルなデウス・エクス・マキナになる必要があった。"
+    },
+    {
+      "id": 4,
+      "ru": "Он предвкушал, как сыграет на сдержках-противовесах чужих амбиций. Верховному модератору следовало тщательно строить образ.",
+      "en": "He relished the prospect of playing on the checks and balances of others' ambitions. The supreme moderator needed to carefully craft his image.",
+      "zh": "他期待着利用他人野心之间的制衡来运作。最高版主需要精心塑造自己的形象。",
+      "ja": "彼は他者の野望のチェック・アンド・バランスを操ることを楽しみにしていた。最高モデレーターはイメージを入念に構築する必要があった。"
+    },
+    {
+      "id": 5,
+      "ru": "У них с Перекопским была тайная страсть. Они раз двадцать пересмотрели «Матрицу».",
+      "en": "He and Perekopsky had a secret passion. They had watched The Matrix about twenty times.",
+      "zh": "他和佩列科普斯基有一个秘密的爱好。他们把《黑客帝国》看了大约二十遍。",
+      "ja": "彼とペレコプスキーには秘密の情熱があった。『マトリックス』を20回ほど見返していた。"
+    },
+    {
+      "id": 6,
+      "ru": "Остатки трезвомыслящих людей выкрадывают талантливого программиста и втолковывают ему, что виртуальная реальность реальна, а в «истинном» мире машины навевают людям морок, чтобы высасывать из них, спящих, энергию.",
+      "en": "The remnants of clear-thinking people steal away a talented programmer and explain to him that virtual reality is real, while in the 'true' world machines induce a trance on people to suck energy from them as they sleep.",
+      "zh": "残存的清醒之人偷走了一个有天赋的程序员，告诉他虚拟现实才是真实的，而在「真实」世界中，机器给人们制造幻觉，以便从沉睡的人们身上吸取能量。",
+      "ja": "正気を保った残党が才能あるプログラマーを連れ出し、仮想現実こそが本物であり、「真の」世界では機械が人々に幻を見せて眠らせ、エネルギーを吸い取っていると教える。"
+    },
+    {
+      "id": 7,
+      "ru": "Предводитель повстанцев Морфеус объясняет герою, что Пифия предрекла: у него талант не только кодить, но и драться с машинами. «Проснись, Нео. Ты избранный».",
+      "en": "Rebel leader Morpheus explains to the hero that the Oracle prophesied: he has the talent not only to code but to fight the machines. 'Wake up, Neo. You are the One.'",
+      "zh": "反抗军领袖墨菲斯告诉主人公，女祭司预言他不仅有编程的天赋，还能与机器战斗。「醒来吧，尼奥。你是天选之人。」",
+      "ja": "反乱軍のリーダー、モーフィアスが主人公に説明する。預言者オラクルが予言した——彼にはコーディングだけでなく、機械と戦う才能もあると。「目を覚ませ、ネオ。お前は選ばれし者だ。」"
+    },
+    {
+      "id": 8,
+      "ru": "Хакер и ментор находятся в некоем белом пространстве, одетые во всё чёрное — рубашки, костюмы, туфли. Вдали падший мир. Киану Ривз немного напоминает чертами Дурова. Оба программисты. Оба с миссией.",
+      "en": "Hacker and mentor stand in a white space, dressed all in black — shirts, suits, shoes. In the distance, the fallen world. Keanu Reeves slightly resembles Durov in features. Both are programmers. Both are on a mission.",
+      "zh": "黑客和导师置身于一个白色空间中，全身黑色——衬衫、西装、皮鞋。远处是堕落的世界。基努·里维斯的五官有点像杜罗夫。两人都是程序员。两人都肩负使命。",
+      "ja": "ハッカーとメンターはある白い空間にいる。全身黒ずくめ——シャツ、スーツ、靴。遠くに堕落した世界。キアヌ・リーヴスは少しドゥーロフに似ている。二人ともプログラマー。二人ともミッションを持っている。"
+    },
+    {
+      "id": 9,
+      "ru": "Чёрный цвет приглянулся Дурову. Тотем обожал пафос и, когда кодил, включал речи великих ораторов — Муссолини, Мартина Лютера Кинга, Малькольма Икса.",
+      "en": "The color black appealed to Durov. The totem adored gravitas and, when coding, would play speeches by great orators — Mussolini, Martin Luther King, Malcolm X.",
+      "zh": "黑色吸引了杜罗夫。这个图腾崇拜庄严感，编程时会播放伟大演说家的演讲——墨索里尼、马丁·路德·金、马尔科姆·X。",
+      "ja": "黒はドゥーロフの気に入った。トーテムは大仰さを愛し、コーディング中は偉大な演説家のスピーチを流した——ムッソリーニ、マーティン・ルーサー・キング、マルコム・X。"
+    },
+    {
+      "id": 10,
+      "ru": "Если лепить себе маску, чёрный цвет идеален — это цвет пафоса, миссии, строгости, проповеди, начальства.",
+      "en": "If you're crafting a persona, black is ideal — it's the color of gravitas, mission, strictness, preaching, authority.",
+      "zh": "如果要给自己打造一个面具，黑色是完美的——它是庄严、使命、严格、布道和权威的颜色。",
+      "ja": "仮面を作るなら、黒が理想的だ——大仰さ、使命、厳格さ、説教、権威の色だ。"
+    },
+    {
+      "id": 11,
+      "ru": "Логотип Durov.com — книга в золотом сиянии на чёрном фоне — смотрелся символом масонской ложи.",
+      "en": "The Durov.com logo — a book in golden radiance on a black background — looked like a Masonic lodge symbol.",
+      "zh": "Durov.com的标志——黑色背景上金色光辉中的一本书——看起来像共济会的标志。",
+      "ja": "Durov.comのロゴ——黒い背景に金色の輝きの中の本——はフリーメイソンのロッジのシンボルのように見えた。"
+    },
+    {
+      "id": 12,
+      "ru": "Дуров списался с модераторами факультетских форумов, и они начали осваиваться на spbgu.org. Но писали и спорили пока недостаточно, мало скандалов, активность перетекала на новый форум вяловато.",
+      "en": "Durov contacted moderators of faculty forums, and they started settling into spbgu.org. But people were not posting and arguing enough yet — too few scandals, activity was migrating to the new forum sluggishly.",
+      "zh": "杜罗夫联系了各院系论坛的版主，他们开始在spbgu.org上安顿下来。但发帖和争论还不够多，丑闻太少，活动向新论坛的迁移很缓慢。",
+      "ja": "ドゥーロフは学部フォーラムのモデレーターに連絡を取り、彼らはspbgu.orgに馴染み始めた。しかしまだ書き込みや議論が十分ではなく、スキャンダルも少なく、新しいフォーラムへの活動の移行は鈍かった。"
+    },
+    {
+      "id": 13,
+      "ru": "Следовало нанести визуальный удар и вручить власть тем, у кого её нет и кто её хочет.",
+      "en": "It was necessary to strike a visual blow and hand power to those who didn't have it and who wanted it.",
+      "zh": "需要制造视觉冲击，把权力交给那些没有权力但想要权力的人。",
+      "ja": "視覚的なインパクトを与え、権力を持たないが欲しがっている者に権力を渡す必要があった。"
+    }
+  ],
+  "translator_notes": [
+    "Page 27 covers the creation of spbgu.org university forum and Durov's Matrix-influenced persona",
+    "The Matrix is a central philosophical reference for Durov - he identified with Neo",
+    "Durov listened to speeches by Mussolini, MLK, and Malcolm X while coding - an eclectic and provocative mix",
+    "Albert Pike's 'Morals and Dogma' - Masonic text that influenced Durov",
+    "The black wardrobe became Durov's signature style, directly inspired by The Matrix",
+    "spbgu.org was the SPbSU (St. Petersburg State University) forum"
+  ],
+  "total_sentences": 13,
+  "page_type": "narrative"
+}
