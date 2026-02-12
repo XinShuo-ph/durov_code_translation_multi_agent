@@ -1,0 +1,13 @@
+{
+  "worker_id": "7f14",
+  "branch": "cursor/translation-project-initialization-7f14",
+  "batch_prefix": "cursor/translation-project-initialization",
+  "heartbeat": 1770877386,
+  "status": "translating",
+  "claimed_page": 9,
+  "claimed_at": 1770877386,
+  "completed_pages": [],
+  "phase": "stripe",
+  "last_sync_at": 1770877386,
+  "notes": "Initialized and claimed page 009"
+}
