@@ -1,6 +1,6 @@
 # Durov Code Book Translation Project
 
-**Multi-Agent Collaborative Translation System**
+**Multi-Agent Parallel Translation System**
 
 ## Overview
 
@@ -8,64 +8,67 @@ This project translates "Код Дурова" (Durov Code) by Nikolai Kononov in
 
 ## Multi-Agent Architecture
 
-This project uses **multiple AI agents working collaboratively**, each on their own git branch.
+This project uses **multiple AI agents working in parallel**, each on their own git branch. Agents communicate via git commits, pushes, and fetches.
+
+### How It Works
+
+The protocol has two phases:
+
+1. **Phase 1 — STRIPE**: Each agent receives a deterministic, non-overlapping set of pages computed from their sorted position among peers. No runtime coordination needed.
+2. **Phase 2 — SCAVENGE**: After completing their stripe, agents use `tools/coord.py` to find and fill remaining gaps.
+3. **Balance Gate**: When a fast worker gets too far ahead, they must review a peer's page before claiming more — tying quality review to work distribution.
 
 ### Key Design Principles
 
-1. **Collaborative, not isolated**: Workers know who else is online and what they're doing
-2. **Simple workload distribution**: Claim lowest available page
-3. **Robust against disconnection**: Pages can be reclaimed from offline workers
-4. **Easy reconnection**: Returning workers sync and continue
-
-### Communication Method
-
-Agents communicate via **git commits, pushes, and pulls**—using git as a message-passing interface.
-
-### Worker Identity
-
-- **Branch Name**: Full branch name (e.g., `cursor/translation-task-a1b2`)
-- **Short ID**: Last 4 characters (e.g., `a1b2`) - used in commit messages
-- **Registration**: Creating `WORKER_STATE.md` on your branch registers you as active
-
-### Checking Who's Online
-
-```bash
-git fetch origin --prune
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
-    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    echo "Active: $short_id ($branch)"
-  fi
-done
-```
+1. **Produce output immediately** — all setup is pre-done, no consensus/voting
+2. **Deterministic page assignment** — eliminates thundering herd on page 1
+3. **Quality enforced** — mandatory validation, automatic review triggers
+4. **Batch-scoped discovery** — only see peers from the same experiment run
 
 ## Quick Start for Workers
 
 1. **Identify yourself**:
    ```bash
    MY_BRANCH=$(git branch --show-current)
-   MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
+   MY_ID=${MY_BRANCH##*-}
    ```
 
-2. **Create WORKER_STATE.md**: Copy from template, fill in your info
+2. **Discover peers and compute stripe**:
+   ```bash
+   git fetch origin --prune
+   python3 tools/coord.py --fetch status
+   ```
 
-3. **Push to register**: This makes you visible to other workers
+3. **Initialize state and register**:
+   ```bash
+   cp WORKER_STATE_TEMPLATE.json WORKER_STATE.json
+   # Fill in worker_id, branch, batch_prefix, heartbeat
+   git add WORKER_STATE.json
+   git commit -m "[$MY_ID] START: registered"
+   git push -u origin HEAD
+   ```
 
-4. **Sync and discover**: Fetch other workers' states
+4. **Translate your stripe pages**: One at a time, validate, push after each.
 
-5. **Claim a page**: Lowest available page number
-
-6. **Translate and push**: Save JSON, push, claim next
+5. **After stripe**: Use `tools/coord.py --fetch next --worker "$MY_ID"` to scavenge remaining pages.
 
 ## Key Files
 
 | File | Purpose |
 |------|---------|
-| `PROTOCOL.md` | Communication protocol |
+| `PROTOCOL.md` | Parallel work protocol |
 | `instructions.md` | Detailed task instructions |
 | `STATE.md` | Global project state |
-| `WORKER_STATE.md` | Your worker state (create this!) |
-| `WORKER_STATE_TEMPLATE.md` | Template for new workers |
+| `WORKER_STATE.json` | Your worker state (create from template) |
+| `WORKER_STATE_TEMPLATE.json` | Template for new workers |
+
+## Tools
+
+| Tool | Purpose |
+|------|---------|
+| `tools/coord.py` | Coordination: status, next page, claims, review queue, collection |
+| `tools/validate_translation.py` | Validate translation JSON before pushing |
+| `tools/compile_pages.py` | Generate PDF from translation JSON |
 
 ## Resources Available
 
@@ -90,31 +93,18 @@ research/
 ### Example Translations (Format Reference)
 ```
 examples/
-├── page_013_translation.json   # Example format
-├── page_043_translation.json   # Another example
-└── format_demo.tex             # LaTeX template
+├── page_013_translation.json
+├── page_043_translation.json
+└── format_demo.tex
 ```
 
 **Note**: Example JSONs show format only, not complete translations.
-
-### PDF Generation Tools
-```
-tools/
-├── compile_pages.py   # JSON → PDF compiler
-├── README.md          # Tool docs
-└── requirements.txt   # Dependencies
-```
 
 ## Translation Output
 
 Workers save translations to:
 ```
 translations/page_XXX.json
-```
-
-Optional PDF output:
-```
-output/page_XXX.pdf
 ```
 
 ## Target Output Format
@@ -125,6 +115,7 @@ Each page becomes a JSON file with sentences in 4 languages:
 {
   "page": 13,
   "chapter": 1,
+  "chapter_title": "Ботанический сад (Botanical Garden)",
   "sentences": [
     {
       "id": 1,
@@ -133,7 +124,10 @@ Each page becomes a JSON file with sentences in 4 languages:
       "zh": "Chinese translation...",
       "ja": "Japanese translation..."
     }
-  ]
+  ],
+  "translator_notes": ["Context notes"],
+  "total_sentences": 1,
+  "page_type": "narrative"
 }
 ```
 
@@ -146,14 +140,6 @@ Each page becomes a JSON file with sentences in 4 languages:
 | Chinese | Dark Red |
 | Japanese | Dark Green |
 
-## Protocol Summary
-
-1. **Sync regularly**: Every 2-3 minutes
-2. **Claim one page at a time**: Lowest available
-3. **Push immediately**: After claiming, after completing
-4. **Heartbeat**: Update at least every 5 minutes
-5. **Handle disconnection**: Reclaim pages from offline workers (>15 min)
-
 ---
 
-*See `PROTOCOL.md` for detailed communication rules and `instructions.md` for complete task details.*
+*See `PROTOCOL.md` for the parallel work protocol and `instructions.md` for complete task details.*

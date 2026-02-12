@@ -1,26 +1,24 @@
 # Project State
 
-**Multi-Agent Collaborative Translation**
+**Multi-Agent Parallel Translation**
 
 ---
 
-## How to Check Active Workers
+## How to Check Status
+
+```bash
+python3 tools/coord.py --fetch status
+```
+
+Or manually:
 
 ```bash
 git fetch origin --prune
 
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
-    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    heartbeat=$(git show "origin/${branch}:WORKER_STATE.md" 2>/dev/null | grep -oP 'Heartbeat: \K[0-9]+' | head -1)
-    now=$(date +%s)
-    age=$((now - heartbeat))
-    if [ $age -lt 600 ]; then
-      echo "ONLINE:  $short_id (heartbeat ${age}s ago)"
-    else
-      echo "OFFLINE: $short_id (heartbeat ${age}s ago)"
-    fi
-  fi
+BATCH_PREFIX=$(git branch --show-current | sed 's/-[^-]*$//')
+for branch in $(git branch -r | grep "origin/${BATCH_PREFIX}-" | tr -d ' '); do
+  echo "--- $branch ---"
+  git show "${branch}:WORKER_STATE.json" 2>/dev/null | python3 -m json.tool 2>/dev/null || echo "(no state)"
 done
 ```
 
@@ -57,14 +55,14 @@ done
 
 ### Pre-Extracted Text
 - `extracted/pages/page_001.txt` through `page_099.txt`
-- `extracted/full.txt` - complete book text
+- `extracted/full.txt` — complete book text
 
 ### Research Documents
-- `research/durov_bio.md` - Pavel Durov biography
-- `research/vk_history.md` - VKontakte history
-- `research/russia_context.md` - Cultural context
-- `research/chapter_summaries.md` - Chapter summaries
-- `research/glossary.md` - Terminology guide
+- `research/durov_bio.md` — Pavel Durov biography
+- `research/vk_history.md` — VKontakte history
+- `research/russia_context.md` — Cultural context
+- `research/chapter_summaries.md` — Chapter summaries
+- `research/glossary.md` — Terminology guide
 
 ### Example Translations (Format Reference Only)
 - `examples/page_013_translation.json`
@@ -72,9 +70,10 @@ done
 
 **Note**: Examples show format only, not complete translations.
 
-### PDF Generation Tools
-- `tools/compile_pages.py` - JSON to PDF compiler
-- `tools/README.md` - Tool documentation
+### Tools
+- `tools/coord.py` — Coordination tool for Phase 2 scavenging + status
+- `tools/validate_translation.py` — Translation JSON validator
+- `tools/compile_pages.py` — JSON to PDF compiler
 
 ---
 
@@ -82,30 +81,28 @@ done
 
 Workers save translations to:
 ```
-translations/
-├── page_001.json
-├── page_002.json
-└── ...
+translations/page_XXX.json
 ```
 
-Generated PDFs go to:
+Optional PDF output:
 ```
-output/
-├── page_001.pdf
-├── page_002.pdf
-└── ...
+output/page_XXX.pdf
+```
+
+Review notes (during balance gate HOLD):
+```
+reviews/page_XXX.<worker_id>.md
 ```
 
 ---
 
 ## Protocol Summary
 
-1. **Register**: Create WORKER_STATE.md to join the team
-2. **Sync**: Fetch other workers every 2-3 minutes
-3. **Claim**: Take lowest available page, push immediately
-4. **Translate**: Russian → English, Chinese, Japanese
-5. **Complete**: Save JSON, push, claim next page
-6. **Repeat**: Until all 99 pages are done
+1. **Phase 1 — STRIPE**: Each worker translates their deterministic page set (no coordination)
+2. **Phase 2 — SCAVENGE**: Fill remaining gaps using `tools/coord.py`
+3. **Balance Gate**: Fast workers review peers before claiming more pages
+4. **Validate**: Every page validated before pushing
+5. **Push**: After every completed page
 
 See `PROTOCOL.md` for full details.
 
@@ -116,10 +113,9 @@ See `PROTOCOL.md` for full details.
 | Situation | Threshold |
 |-----------|-----------|
 | Worker considered offline | 10 min stale heartbeat |
-| Page can be reclaimed | 15 min after worker goes offline |
-| Sync frequency | 2-3 minutes |
-| Heartbeat update | At least every 5 min |
+| Claim reclaimable | 15 min after worker goes offline |
+| Push after completion | Immediate |
 
 ---
 
-*Each worker maintains their own `WORKER_STATE.md` for detailed status.*
+*Each worker maintains `WORKER_STATE.json` on their branch for real-time status.*
