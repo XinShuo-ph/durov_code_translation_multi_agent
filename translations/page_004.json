@@ -1,0 +1,70 @@
+{
+  "page": 4,
+  "chapter": 0,
+  "chapter_title": "Front Matter (扉页 / 表紙)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "尼古拉·科诺诺夫《杜罗夫密码：VKontakte的真实故事及其创始人》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Николай Кононов",
+      "en": "Nikolai Kononov",
+      "zh": "尼古拉·科诺诺夫",
+      "ja": "ニコライ・コノノフ"
+    },
+    {
+      "id": 3,
+      "ru": "Код Дурова. Реальная история «ВКонтакте» и ее создателя",
+      "en": "Durov's Code. The Real Story of VKontakte and Its Creator",
+      "zh": "杜罗夫密码：VKontakte的真实故事及其创始人",
+      "ja": "ドゥーロフの暗号：VKontakteとその創設者の真実の物語"
+    },
+    {
+      "id": 4,
+      "ru": "Эту книгу хорошо дополняют:",
+      "en": "This book is well complemented by:",
+      "zh": "以下书籍是本书的良好补充：",
+      "ja": "この本を補完する書籍："
+    },
+    {
+      "id": 5,
+      "ru": "Мечтай, создавай, изменяй! Как молодые предприниматели меняют мир и зарабатывают состояния",
+      "en": "Dream, Create, Transform! How Young Entrepreneurs Are Changing the World and Making Fortunes",
+      "zh": "梦想、创造、改变！年轻企业家如何改变世界并赚取财富",
+      "ja": "夢見よ、創造せよ、変革せよ！若き起業家はいかに世界を変え、富を築くか"
+    },
+    {
+      "id": 6,
+      "ru": "Сара Лейси",
+      "en": "Sarah Lacy",
+      "zh": "萨拉·莱西",
+      "ja": "サラ・レイシー"
+    },
+    {
+      "id": 7,
+      "ru": "И ботаники делают бизнес",
+      "en": "Nerds Do Business Too",
+      "zh": "书呆子也做生意",
+      "ja": "オタクもビジネスをする"
+    },
+    {
+      "id": 8,
+      "ru": "Максим Котин",
+      "en": "Maxim Kotin",
+      "zh": "马克西姆·科金",
+      "ja": "マクシム・コチン"
+    }
+  ],
+  "translator_notes": [
+    "Page 4 lists related books recommended by the publisher",
+    "Both books are about entrepreneurship and tech startups",
+    "The second book title uses 'ботаники' (nerds/geeks) which connects thematically to Durov's story"
+  ],
+  "total_sentences": 8,
+  "page_type": "front_matter"
+}
