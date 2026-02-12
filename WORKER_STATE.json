@@ -2,10 +2,10 @@
   "worker_id": "eea6",
   "branch": "cursor/parallel-translation-project-setup-eea6",
   "batch_prefix": "cursor/parallel-translation-project-setup",
-  "heartbeat": 1770878767,
+  "heartbeat": 1770879080,
   "status": "translating",
-  "claimed_page": 15,
-  "claimed_at": 1770878767,
+  "claimed_page": 17,
+  "claimed_at": 1770879080,
   "completed_pages": [
     1,
     2,
@@ -20,7 +20,9 @@
     11,
     12,
     13,
-    14
+    14,
+    15,
+    16
   ],
   "phase": "stripe",
   "last_sync_at": 1770877027,
