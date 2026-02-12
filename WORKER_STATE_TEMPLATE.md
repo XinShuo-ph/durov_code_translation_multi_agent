@@ -1,88 +1,73 @@
-# Worker: [SHORT_ID]
+# WORKER_STATE v3
 
-## Status
-- **Branch**: [YOUR_FULL_BRANCH_NAME]
-- **Short ID**: [LAST_4_CHARS]
-- **Heartbeat**: [UNIX_TIMESTAMP]
-- **Status**: online
-
-## Current Work
-- **Claimed Page**: none
-- **Started At**: -
-
-## Completed Pages
-| Page | Completed At | Hash |
-|------|--------------|------|
-
-## Known Workers (Last Sync)
-| Short ID | Status | Claimed Page | Last Heartbeat |
-|----------|--------|--------------|----------------|
-
-## Notes
-Ready to begin translation.
+Branch: cursor/book-translation-multi-agent-xxxx
+Short-ID: xxxx
+Heartbeat: 0
+Status: idle
+Claimed-Page: none
+Claimed-At: -
+Last-Sync: 0
+Completed-Pages:
+Known-Online-Workers:
+Notes:
 
 ---
 
-## How to Use This Template
+## Field Rules
 
-1. **Copy this file** to `WORKER_STATE.md`:
-   ```bash
-   cp WORKER_STATE_TEMPLATE.md WORKER_STATE.md
-   ```
+- `Heartbeat`: Unix timestamp (`date +%s`), refresh at least every 5 minutes.
+- `Status`: one of `idle`, `translating`, `reviewing`, `blocked`, `offline`.
+- `Claimed-Page`: page number or `none`.
+- `Completed-Pages`: comma-separated page numbers (example: `1,2,3,4`).
+- `Known-Online-Workers`: comma-separated short ids from latest sync.
 
-2. **Get your identity**:
-   ```bash
-   MY_BRANCH=$(git branch --show-current)
-   MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
-   echo "Branch: $MY_BRANCH"
-   echo "Short ID: $MY_SHORT_ID"
-   ```
-
-3. **Fill in your details**:
-   - Replace `[YOUR_FULL_BRANCH_NAME]` with your branch
-   - Replace `[LAST_4_CHARS]` with your short ID
-   - Replace `[UNIX_TIMESTAMP]` with `$(date +%s)`
-
-4. **Commit and push** (this registers you!):
-   ```bash
-   git add WORKER_STATE.md
-   git commit -m "[$MY_SHORT_ID] SYNC: Registering as active worker
-   HEARTBEAT: $(date +%s)"
-   git push origin HEAD
-   ```
-
-5. **Delete this "How to Use" section** from your WORKER_STATE.md
+Keep field names exactly as written so tooling can parse them.
 
 ---
 
-## Example Filled-In State
+## Quick Initialization
 
-```markdown
-# Worker: a1b2
+```bash
+MY_BRANCH=$(git branch --show-current)
+MY_SHORT_ID=$(echo "$MY_BRANCH" | rg -o '[^-]+$')
+NOW=$(date +%s)
 
-## Status
-- **Branch**: cursor/book-translation-task-a1b2
-- **Short ID**: a1b2
-- **Heartbeat**: 1735689600
-- **Status**: translating
+cp WORKER_STATE_TEMPLATE.md WORKER_STATE.md
 
-## Current Work
-- **Claimed Page**: 15
-- **Started At**: 1735689500
+# Fill values:
+# Branch: $MY_BRANCH
+# Short-ID: $MY_SHORT_ID
+# Heartbeat: $NOW
+# Last-Sync: $NOW
 
-## Completed Pages
-| Page | Completed At | Hash |
-|------|--------------|------|
-| 13   | 1735688400   | a8f3b2c1 |
-| 14   | 1735689000   | c9d4e5f6 |
-
-## Known Workers (Last Sync)
-| Short ID | Status | Claimed Page | Last Heartbeat |
-|----------|--------|--------------|----------------|
-| c3d4     | online | 16           | 1735689550     |
-| e5f6     | online | 17           | 1735689500     |
-| g7h8     | offline| 18           | 1735685000     |
-
-## Notes
-Working on Chapter 1. Synced at 1735689600.
+git add WORKER_STATE.md
+git commit -m "[$MY_SHORT_ID] SYNC: worker online
+HEARTBEAT: $NOW"
+git push origin HEAD
 ```
+
+---
+
+## Update Examples
+
+### Claim page 17
+
+```text
+Heartbeat: 1767250000
+Status: translating
+Claimed-Page: 17
+Claimed-At: 1767250000
+Last-Sync: 1767250000
+```
+
+### Complete page 17
+
+```text
+Heartbeat: 1767250300
+Status: idle
+Claimed-Page: none
+Claimed-At: -
+Completed-Pages: 7,8,9,17
+Last-Sync: 1767250300
+```
+

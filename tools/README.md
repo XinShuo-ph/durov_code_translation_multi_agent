@@ -31,3 +31,26 @@ python3 tools/compile_pages.py translations/raw/page_XXX.json output_directory
 - `xelatex` (part of `texlive-xetex`)
 - `xeCJK` (part of `texlive-lang-chinese`)
 - `Noto` fonts
+
+## Multi-Agent Coordination Helper
+
+`tools/coord.py` provides machine-checkable coordination for parallel translation.
+
+### Commands
+
+```bash
+# Team health, skew, duplicates
+python3 tools/coord.py status --total-pages 99
+
+# Next page recommendation with fairness gate
+python3 tools/coord.py next --worker-id YOUR_ID --total-pages 99
+
+# Reclaimable stale claims
+python3 tools/coord.py stale --total-pages 99
+```
+
+### Notes
+
+- `next` may return `HOLD=lead_cap` when a worker is too far ahead while peers are online.
+- Tool scans `translations/raw/page_XXX.json` and `translations/page_XXX.json`.
+- Worker-state parsing depends on the v3 `WORKER_STATE_TEMPLATE.md` field names.
