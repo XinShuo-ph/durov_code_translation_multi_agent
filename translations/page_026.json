@@ -1,0 +1,87 @@
+{
+  "page": 26,
+  "chapter": 2,
+  "chapter_title": "Архитектор (The Architect)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "— Аспен, Калифорния. Это горнолыжный курорт, для очень богатых людей. Они оставляют чаевые. Думаю, может, официантом поехать. — Как же, Павел Валерьевич, разве это возможно: вы — и тарелки? — Возможно, Анна Дмитриевна, всё возможно.",
+      "en": "'Aspen, California. It's a ski resort for very rich people. They leave tips. I'm thinking maybe I'll go work as a waiter.' 'Really, Pavel Valeryevich, is that possible: you and plates?' 'It's possible, Anna Dmitrievna, everything is possible.'",
+      "zh": "「阿斯彭，加利福尼亚。那是一个非常富人的滑雪度假村。他们会留小费。我在想也许去当服务员。」「怎么可能呢，帕维尔·瓦列里耶维奇，您——端盘子？」「可能的，安娜·德米特里耶芙娜，一切皆有可能。」",
+      "ja": "「アスペン、カリフォルニア。とても裕福な人のためのスキーリゾートです。チップを置いてくれる。ウェイターとして行こうかと。」「まさか、パーヴェル・ヴァレリエヴィチ、あなたがお皿を？」「可能ですよ、アンナ・ドミトリエヴナ、すべては可能です。」"
+    },
+    {
+      "id": 2,
+      "ru": "Осенним вечером Дуров с Перекопским засиделись допоздна в квартире на Сенной. Они часто учили заданные слова или возились с домашним заданием, а потом трепались, пока не клонило в сон. Первый курс закончился, и грянул второй.",
+      "en": "On an autumn evening, Durov and Perekopsky stayed up late in the apartment on Sennaya. They often studied assigned words or fiddled with homework, then chatted until drowsiness set in. The first year ended, and the second arrived.",
+      "zh": "一个秋天的晚上，杜罗夫和佩列科普斯基在干草广场的公寓里熬到很晚。他们经常背单词或做作业，然后聊天直到犯困。大一结束了，大二来了。",
+      "ja": "ある秋の夜、ドゥーロフとペレコプスキーはセンナヤの部屋で遅くまで居残った。よく単語の暗記や宿題をやり、そのあと眠くなるまでおしゃべりした。1年目が終わり、2年目が始まった。"
+    },
+    {
+      "id": 3,
+      "ru": "Дуров любил проповедовать. Он учил Перекопского правильному отношению к учёбе: главное — экзамены и подготовка к ним; если не сдал, не стоит убиваться, следует всегда оставаться хладнокровным.",
+      "en": "Durov loved to preach. He taught Perekopsky the proper attitude toward studies: the main thing is exams and preparation for them; if you fail, don't beat yourself up — always remain cool-headed.",
+      "zh": "杜罗夫喜欢说教。他教佩列科普斯基对待学业的正确态度：最重要的是考试和备考；如果没考过，不必太难过，始终保持冷静。",
+      "ja": "ドゥーロフは説教が好きだった。ペレコプスキーに学業への正しい態度を教えた——重要なのは試験とその準備だ。落ちても自分を責めるな、常に冷静でいろ。"
+    },
+    {
+      "id": 4,
+      "ru": "«Преподов», как и всех людей, надо понимать — в смысле потребностей, какие мотивы ими управляют, — а также чётко улавливать, что им нужно от тебя, и предоставлять это.",
+      "en": "'Profs,' like all people, need to be understood — in terms of their needs, what motivates them — and you need to clearly grasp what they need from you and provide it.",
+      "zh": "「教授们」和所有人一样，需要去理解——理解他们的需求、什么动机驱使他们——并且要清楚地把握他们需要你做什么，然后提供。",
+      "ja": "「教授たち」は、すべての人と同様に理解する必要がある——ニーズという意味で、どんな動機が彼らを動かしているか。そして彼らが自分に何を求めているかを明確に捉え、それを提供するのだ。"
+    },
+    {
+      "id": 5,
+      "ru": "Мантра Дурова касалась информации. Интернет стёр прежнюю картину мира, люди загружают в сеть всё больше данных, их жизнь перетекает в двоичный код.",
+      "en": "Durov's mantra concerned information. The internet had erased the old picture of the world; people were uploading more and more data to the network, their lives flowing into binary code.",
+      "zh": "杜罗夫的口头禅关乎信息。互联网抹去了旧的世界图景，人们向网络上传越来越多的数据，他们的生活正在流入二进制代码。",
+      "ja": "ドゥーロフのマントラは情報に関するものだった。インターネットは以前の世界像を消し去り、人々はますます多くのデータをネットにアップロードし、彼らの人生はバイナリコードへと流れ込んでいた。"
+    },
+    {
+      "id": 6,
+      "ru": "Сообща они создают контент и саморегулирующиеся сообщества — тому примером «Википедия». Деньги не главное в свободном интернете. Главное — власть, которая принадлежит тому, кто контролирует потоки информации.",
+      "en": "Together they create content and self-regulating communities — Wikipedia being a prime example. Money is not the main thing on the free internet. The main thing is power, which belongs to whoever controls information flows.",
+      "zh": "他们共同创造内容和自我调节的社区——维基百科就是一个例子。在自由的互联网上，金钱不是最重要的。最重要的是权力，它属于控制信息流的人。",
+      "ja": "共同でコンテンツと自己規制するコミュニティを作る——ウィキペディアがその例だ。自由なインターネットでは金は主要なものではない。主要なのは権力であり、それは情報の流れを制御する者に属する。"
+    },
+    {
+      "id": 7,
+      "ru": "«Смотри, — проговорил Дуров. — Что такое университет? Это же раздробленная структура с удельными княжествами. Физики в своём Петергофе вообще никого не видят, экономический сидит отдельно, юристы тоже».",
+      "en": "'Look,' Durov said. 'What is a university? It's a fragmented structure with appanage principalities. The physicists in their Peterhof campus don't see anyone at all, the economics department sits separately, the lawyers too.'",
+      "zh": "「你看，」杜罗夫说，「大学是什么？不过是一个有着封建割据的分散结构。物理系在彼得宫城根本看不到别人，经济系独立坐着，法律系也是。」",
+      "ja": "「見てみろ」とドゥーロフは言った。「大学とは何だ？分領公国を持つバラバラの構造だ。ペテルゴフの物理学部は誰にも会わないし、経済学部は別にいるし、法学部もそうだ。」"
+    },
+    {
+      "id": 8,
+      "ru": "Дуров визионировал: «Мы придумаем площадку для всех факультетов и создадим иллюзию, что все уже здесь. Ключевых людей приглашаем на роль модераторов — вместе с ними к нам придёт аудитория».",
+      "en": "Durov envisioned: 'We'll create a platform for all faculties and create the illusion that everyone is already here. We invite key people to be moderators — their audience will follow them to us.'",
+      "zh": "杜罗夫畅想：「我们要为所有院系创建一个平台，制造出所有人都已经在这里的假象。邀请关键人物担任版主——他们的受众会跟着他们来到我们这里。」",
+      "ja": "ドゥーロフはビジョンを語った。「全学部のためのプラットフォームを作り、みんなもうここにいるという幻想を作る。キーパーソンをモデレーターとして招く——彼らと一緒にオーディエンスがやってくる。」"
+    },
+    {
+      "id": 9,
+      "ru": "«М-м-м, — бросок апельсином, — а что их заставит уйти со своих площадок на нашу?»",
+      "en": "'Hmm,' — orange toss — 'and what will make them leave their platforms for ours?'",
+      "zh": "「嗯——」扔了下橙子，「什么能让他们离开自己的平台来我们的？」",
+      "ja": "「うーん」——オレンジを投げ上げながら——「何が彼らを自分のプラットフォームから我々のところに来させるんだ？」"
+    },
+    {
+      "id": 10,
+      "ru": "«Это будет форум, где можно знакомиться с народом с других факультетов, искать общие темы, создавать альтернативные центры силы, становиться известным, — перечислил Дуров. — Мы будем в двадцать раз сильнее, и каждый из примкнувших к нам сможет найти применение этой силы в бизнесе или личной жизни».",
+      "en": "'It will be a forum where you can meet people from other faculties, find common topics, create alternative centers of power, become famous,' Durov listed. 'We will be twenty times stronger, and everyone who joins us will be able to apply that strength in business or personal life.'",
+      "zh": "「这将是一个论坛，在那里你可以认识其他院系的人，寻找共同话题，创造替代性的权力中心，变得出名，」杜罗夫列举道。「我们将强大二十倍，每个加入我们的人都能在商业或个人生活中运用这种力量。」",
+      "ja": "「他の学部の人と知り合え、共通の話題を見つけ、代替的な権力の中心を作り、有名になれるフォーラムだ」とドゥーロフは列挙した。「我々は20倍強くなり、参加する一人一人がそのパワーをビジネスや私生活に活かせる。」"
+    }
+  ],
+  "translator_notes": [
+    "Page 26 covers the genesis of the university-wide forum idea",
+    "Aspen reference shows Durov's pragmatic side - willing to work menial jobs",
+    "The vision of a university-wide forum is the precursor to VKontakte",
+    "Wikipedia cited as example of mass collaboration - key Durov inspiration",
+    "The 'appanage principalities' metaphor shows Durov viewing fragmented university as opportunity",
+    "Perekopsky's orange tossing is a vivid scene-setting detail"
+  ],
+  "total_sentences": 10,
+  "page_type": "narrative"
+}
