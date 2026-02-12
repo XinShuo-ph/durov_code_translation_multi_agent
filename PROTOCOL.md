@@ -1,377 +1,270 @@
-# Collaborative Translation Protocol
+# Multi-Agent Parallel Work Protocol
 
-## Overview
+Agents spread across work units deterministically using their branch name, work forward, push after each unit, and skip what others completed. Near-linear speedup, near-zero coordination.
 
-This protocol enables multiple AI agents to work **collaboratively** on translating the Durov Code book. Workers communicate via git, share progress, and dynamically distribute workload. The protocol is designed to be robust against worker disconnection and reconnection.
-
-**Key Philosophy**: Workers are a team, not isolated freelancers. They know who else is working, what pages are claimed, and can adapt when workers join or leave.
+**No claiming. No voting. No phases. No state files. Just output.**
 
 ---
 
-## Core Concepts
-
-### 1. Worker Identity
-- **Branch Name**: Your full branch (e.g., `cursor/some-task-abc123`)
-- **Short ID**: Last 4 characters of branch name (e.g., `c123`)
-- **Registration**: Creating `WORKER_STATE.md` on your branch registers you as active
-
-### 2. Communication via Git
-| Action | Meaning |
-|--------|---------|
-| Commit + Push | Broadcast your state to the team |
-| Fetch + Read other branches | Receive team updates |
-| WORKER_STATE.md | Your live status file |
-
-### 3. Heartbeat System
-- Workers must include a **Unix timestamp** in every commit
-- Heartbeat in WORKER_STATE.md must be updated at least every **5 minutes**
-- Workers with stale heartbeats (>10 minutes) are considered **offline**
-
----
-
-## The Sync Loop
-
-Every worker follows this loop continuously:
+## TL;DR
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│  1. SYNC: Fetch all branches, discover active workers       │
-│  2. BUILD PICTURE: Who's online? What pages are claimed?    │
-│  3. CLAIM: If I need a page, claim the lowest available     │
-│  4. TRANSLATE: Work on my claimed page                      │
-│  5. BROADCAST: Commit & push my progress                    │
-│  6. REPEAT every 2-3 minutes                                │
-└─────────────────────────────────────────────────────────────┘
+1. start = hash(branch_suffix) % total_units + 1
+2. Initial sync: fetch branches, note which units are already done
+3. Work forward from start, skip done units (wrap around after max)
+4. Push after every unit completed
+5. Re-sync every ~5 units: fetch, update done set, skip newly-done units
+6. Stop when all units are done or you cannot continue
 ```
-
-**Sync frequency**: Every 2-3 minutes (or after completing each page)
 
 ---
 
-## Worker Discovery
+## Why This Design
 
-### Identifying Yourself
+Two previous 16-agent experiments on this codebase produced hard data on what fails:
+
+| Failure Pattern | Cause | Measured Impact |
+|----------------|-------|-----------------|
+| **Thundering herd** | All agents claim "lowest available" simultaneously | Pages 2-3 each translated by **11 of 16 agents**. 77% total waste. |
+| **Startup death** | Complex multi-phase protocols (research → voting → work) | **31%** of agents made 1 commit and stopped forever. |
+| **Solo completion** | Consensus bottleneck + early dropout | **1 of 16** agents did most of the work alone. |
+| **Meta-work trap** | Agents build "helper tools" instead of producing output | Entire sessions spent on scripts, zero pages translated. |
+
+This protocol eliminates all four by replacing coordination with determinism. See `ANALYSIS.md` for full data.
+
+---
+
+## The Algorithm
+
+### Step 0: Configuration
+
+These values must be defined in the project's task instructions (not in this protocol):
+
+```
+TOTAL_UNITS    = <number>         # e.g. 99 pages, 120 chapters
+OUTPUT_DIR     = <path>           # e.g. translations/
+UNIT_FILENAME  = <pattern>        # e.g. page_%03d.json (printf-style)
+BRANCH_FILTER  = <prefix>         # e.g. book-translation-multi-agent
+```
+
+### Step 1: Compute Your Start Position
+
 ```bash
 MY_BRANCH=$(git branch --show-current)
-MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
-echo "I am: $MY_SHORT_ID on $MY_BRANCH"
+SUFFIX=$(echo "$MY_BRANCH" | grep -oE '[^-]+$')
+START=$(python3 -c "print(int('$SUFFIX', 16) % $TOTAL_UNITS + 1)")
 ```
 
-### Discovering All Active Workers
+Each agent gets a different-ish start position derived from its branch name. With 16 agents and 99 units, expected collisions: ~1.3 (acceptable).
+
+### Step 2: Initial Sync
+
+Before starting, fetch once to see what's already done:
+
 ```bash
 git fetch origin --prune
 
-# Find all cursor/* branches with WORKER_STATE.md
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
-    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    heartbeat=$(git show "origin/${branch}:WORKER_STATE.md" 2>/dev/null | grep -oP 'Heartbeat: \K[0-9]+' | head -1)
-    echo "Active: $short_id ($branch) - Heartbeat: $heartbeat"
-  fi
+PREFIX=$(echo "$MY_BRANCH" | sed 's/-[^-]*$//')
+
+DONE_UNITS=""
+for branch in $(git branch -r | grep "origin/cursor/$PREFIX" | tr -d ' '); do
+    DONE_UNITS="$DONE_UNITS $(git ls-tree -r --name-only "$branch" -- "$OUTPUT_DIR/" 2>/dev/null)"
 done
+# Parse unit numbers from filenames, store as a set
 ```
 
-### Counting Online Workers
-A worker is **online** if:
-1. They have `WORKER_STATE.md` on their branch
-2. Their heartbeat is less than 10 minutes old
+### Step 3: Work Loop
 
-Workers with heartbeats older than 10 minutes are considered **offline** (may have lost connection).
+```
+current = START
 
----
+loop forever:
+    if current is not in done_set:
+        produce output for unit current
+        save to OUTPUT_DIR/unit_NNN.ext
+        git add . && git commit && git push
 
-## Page Assignment
+    current = (current % TOTAL_UNITS) + 1
 
-### Simple Rule: Claim the Lowest Available Page
+    every 5 completed units (or 10 minutes):
+        re-run sync (Step 2) to refresh done_set
 
-```python
-# Pseudocode for page claiming
-def get_next_page():
-    all_pages = set(range(1, 100))  # Pages 1-99
-    
-    # Read all active workers' states
-    claimed = set()      # Pages currently being translated
-    completed = set()    # Pages already done (translation exists)
-    
-    for worker in active_workers:
-        claimed.update(worker.claimed_pages)
-        completed.update(worker.completed_pages)
-    
-    # Also check translations/ directory for completed work
-    for file in translations/*.json:
-        completed.add(file.page_number)
-    
-    available = sorted(all_pages - claimed - completed)
-    return available[0] if available else None
+    if done_set covers all units:
+        break    # project complete
+
+    if current == START and no progress since last wrap:
+        break    # nothing left to do
 ```
 
-### Claim Protocol
+### Step 4: Assembly (optional, run once at end)
 
-1. **Sync first**: Always fetch and read other workers' states before claiming
-2. **Claim one page**: Update WORKER_STATE.md with your claimed page
-3. **Push immediately**: Make your claim visible to others
-4. **Verify**: Re-fetch to check for conflicts (rare but possible)
+Collect all output from all branches into one place:
 
-### Conflict Resolution
-If two workers claim the same page (race condition):
-- **Earlier timestamp wins** (commit timestamp)
-- Losing worker should re-sync and claim next available page
-- This is rare with proper sync discipline
-
----
-
-## WORKER_STATE.md Format
-
-Each worker maintains this file on their branch:
-
-```markdown
-# Worker: [SHORT_ID]
-
-## Status
-- **Branch**: [full branch name]
-- **Short ID**: [4 chars]
-- **Heartbeat**: [Unix timestamp]
-- **Status**: online | translating | idle
-
-## Current Work
-- **Claimed Page**: [page number or "none"]
-- **Started At**: [timestamp when started this page]
-
-## Completed Pages
-| Page | Completed At | Hash |
-|------|--------------|------|
-| 13   | 1735689600   | a8f3b2c1 |
-| 14   | 1735690200   | c9d4e5f6 |
-
-## Known Workers (Last Sync)
-| Short ID | Status | Claimed Page | Last Heartbeat |
-|----------|--------|--------------|----------------|
-| abc1     | online | 15           | 1735689900     |
-| def2     | online | 16           | 1735689850     |
-| ghi3     | offline| 17           | 1735685000     |
-
-## Notes
-[Any messages for the team]
-```
-
----
-
-## Handling Worker Disconnection
-
-### Detecting Offline Workers
-When you sync, check each worker's heartbeat:
 ```bash
-current_time=$(date +%s)
-worker_heartbeat=1735685000  # From their WORKER_STATE.md
-
-age=$((current_time - worker_heartbeat))
-if [ $age -gt 600 ]; then  # 600 seconds = 10 minutes
-    echo "Worker is OFFLINE (stale heartbeat)"
-fi
-```
-
-### Reclaiming Pages from Offline Workers
-If a worker has been offline for **15+ minutes** and has a claimed page:
-1. Their page becomes available for reclaiming
-2. Any online worker can claim it
-3. Note in your WORKER_STATE.md: "Reclaimed page X from [offline_worker]"
-
-### What the Returning Worker Should Do
-When a worker comes back online after being disconnected:
-1. **Sync first**: Fetch all branches, read all states
-2. **Check your old page**: Is it still yours or was it reclaimed?
-3. **If reclaimed**: Claim the next available page, continue working
-4. **If still yours**: Continue where you left off
-5. **Update heartbeat**: Push immediately to show you're back
-
----
-
-## Handling Worker Reconnection
-
-### New Worker Joining
-When a new worker starts:
-1. Create WORKER_STATE.md (registers you as active)
-2. Sync to discover existing workers
-3. Build global picture (who has what)
-4. Claim lowest available page
-5. Start translating
-
-### Existing Workers Noticing New Worker
-During regular sync, workers will naturally discover new workers:
-1. Fetch shows new branch with WORKER_STATE.md
-2. Add to "Known Workers" table
-3. No special action needed - workload auto-balances
-
-### Workload Rebalancing
-Workload naturally rebalances as workers join/leave:
-- New workers take the lowest available pages
-- When a worker finishes a page, they take the next lowest available
-- No explicit "rebalancing" needed - it's emergent
-
----
-
-## Commit Message Format
-
-Use this format for machine-readable commits:
-
-```
-[SHORT_ID] ACTION: Description
-HEARTBEAT: [unix timestamp]
-```
-
-### Action Types
-
-| Action | When to Use |
-|--------|-------------|
-| `SYNC` | Starting session, syncing with team |
-| `CLAIM` | Claiming a page to translate |
-| `PROGRESS` | Partial progress on a page |
-| `DONE` | Completed a page translation |
-| `RECLAIM` | Taking over an abandoned page |
-
-### Examples
-```bash
-# Starting session
-git commit -m "[c123] SYNC: Starting session, discovering workers
-HEARTBEAT: $(date +%s)"
-
-# Claiming a page
-git commit -m "[c123] CLAIM: Starting page 15
-HEARTBEAT: $(date +%s)"
-
-# Completing a page
-git commit -m "[c123] DONE: Completed page 15
-HASH: a8f3b2c1
-HEARTBEAT: $(date +%s)"
-```
-
----
-
-## Work Product Sharing
-
-### Translation Files
-Completed translations go in `translations/page_XXX.json`:
-```
-translations/
-├── page_001.json
-├── page_002.json
-└── ...
-```
-
-### Syncing Work Products
-When you complete a page:
-1. Save `translations/page_XXX.json`
-2. Commit with DONE message
-3. Push to your branch
-
-Other workers can see your completed pages by:
-```bash
-# Check what translations exist on another worker's branch
-git show "origin/$other_branch:translations/page_015.json" 2>/dev/null
-```
-
-### Aggregating All Work
-At the end, all translations can be collected from all worker branches:
-```bash
-for branch in $(git branch -r | grep 'origin/cursor/'); do
-  for page in $(seq 1 99); do
-    file="translations/page_$(printf '%03d' $page).json"
-    if git show "origin/${branch}:$file" &>/dev/null 2>&1; then
-      echo "Found page $page on $branch"
-    fi
-  done
+git fetch origin --prune
+mkdir -p assembled/
+for branch in $(git branch -r | grep "origin/cursor/$PREFIX" | tr -d ' '); do
+    for file in $(git ls-tree -r --name-only "$branch" -- "$OUTPUT_DIR/" 2>/dev/null); do
+        name=$(basename "$file")
+        if [ ! -f "assembled/$name" ]; then
+            git show "${branch}:${file}" > "assembled/$name"
+        fi
+    done
 done
+echo "Assembled $(ls assembled/ | wc -l) units"
 ```
 
 ---
 
-## Quick Reference Commands
+## Rules
 
-### Startup Sequence
+1. **Your first commit must be a completed work unit.** Not a state file. Not a research document. Output.
+2. **Your start position comes from your branch name.** Don't override it, don't pick page 1.
+3. **Work forward, wrapping around.** Unit after TOTAL is unit 1.
+4. **Push after every completed unit.** Don't batch. Other agents need to see your work.
+5. **Sync every ~5 units or ~10 minutes.** Skip units others completed.
+6. **Never stop voluntarily.** Keep producing until everything is done or you cannot continue.
+7. **No meta-work.** Don't build scripts, templates, helpers, or documentation.
+8. **One output file per unit.** Predictable path. Consistent format.
+9. **Tolerate rare duplication.** Two agents doing the same unit occasionally is fine.
+10. **If stuck on a unit for >5 minutes, skip it.** Come back on your next wrap-around.
+
+---
+
+## Commit Messages
+
+Minimal. No heartbeats, no state machine codes, no verbose metadata.
+
+```
+[SUFFIX] DONE unit NNN: brief description
+```
+
+Examples:
+
+```
+[c68e] DONE unit 044: Chapter 4, VK office confrontation
+[14ce] DONE unit 080: Chapter 6, philosophy and ethics
+[c3ab] DONE unit 012: Prologue ending
+```
+
+---
+
+## What NOT to Do
+
+| Don't | Why |
+|-------|-----|
+| Claim pages via a state file | Race conditions. All agents claim the same page. |
+| Wait for consensus or voting | Serialization bottleneck. One agent ends up solo. |
+| Build "helper tools" before working | Meta-work trap. Zero output produced. |
+| Run research/setup phases | All N agents do identical work. N times the waste. |
+| Sync before every single unit | Sync overhead dominates. Work-to-sync ratio collapses. |
+| Stop after a few units "to check in" | Keep going. Context remaining = output remaining. |
+| Create WORKER_STATE.md or status files | Nobody reads them. Output files are the only state that matters. |
+| Start at page 1 | Everyone else does too. Use your hash-assigned start. |
+| Batch multiple units before pushing | Others can't see your work. Increases duplication. |
+
+---
+
+## Performance Model
+
+```
+Effective speedup ≈ N × (1 - N/(2T)) × (1 - sync_overhead)
+
+  N = number of agents
+  T = total work units
+  sync_overhead ≈ 0.05 (5% of time on sync)
+```
+
+| Agents | Units | Expected Duplicates | Waste  | Effective Speedup |
+|--------|-------|---------------------|--------|-------------------|
+| 4      | 99    | ~0.08               | <1%    | ~3.8x             |
+| 8      | 99    | ~0.32               | <1%    | ~7.5x             |
+| 16     | 99    | ~1.3                | ~2%    | ~14.9x            |
+| 16     | 400   | ~0.32               | <1%    | ~15.2x            |
+
+Compare previous experiments on this codebase:
+- book-translation-multi-agent: 16 agents achieved ~**1.5x** speedup
+- collaborative-translation-initiation: 16 agents achieved ~**3x** speedup (77% waste)
+
+---
+
+## Adapting to Your Workload
+
+This protocol works for any embarrassingly parallel task:
+
+| Workload | Units | Output |
+|----------|-------|--------|
+| Book translation | Pages or chapters | `translations/page_NNN.json` |
+| Code generation | Modules or files | `generated/module_NNN.py` |
+| Data processing | Shards | `processed/shard_NNN.parquet` |
+| Test execution | Test suites | `results/suite_NNN.xml` |
+| Document review | Sections | `reviewed/section_NNN.md` |
+
+**Requirements:**
+- Work can be divided into numbered, independent units
+- Output is one file per unit with a predictable name
+- Git is available for communication
+
+**For workloads with dependencies** (unit 5 needs unit 3's output):
+
+```
+if dependencies_of(current) are not all in done_set:
+    skip current, advance to next
+```
+
+---
+
+## Quick Reference
+
+### Agent Startup Script
+
 ```bash
-# 1. Identify yourself
+#!/usr/bin/env bash
+set -e
+
+# --- CONFIGURE THESE ---
+TOTAL_UNITS=99
+OUTPUT_DIR="translations"
+BRANCH_FILTER="your-task-prefix"
+# -----------------------
+
 MY_BRANCH=$(git branch --show-current)
-MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
+SUFFIX=$(echo "$MY_BRANCH" | grep -oE '[^-]+$')
+PREFIX=$(echo "$MY_BRANCH" | sed 's/-[^-]*$//')
+START=$(python3 -c "print(int('$SUFFIX', 16) % $TOTAL_UNITS + 1)")
 
-# 2. Create WORKER_STATE.md (copy from template, fill in your info)
-cp WORKER_STATE_TEMPLATE.md WORKER_STATE.md
-# Edit WORKER_STATE.md with your details
+echo "=== Agent $SUFFIX ==="
+echo "Start unit: $START"
+echo "Total units: $TOTAL_UNITS"
+echo "Output dir: $OUTPUT_DIR"
+echo "Branch prefix: $PREFIX"
+echo ""
 
-# 3. Sync and discover
+# Initial sync
 git fetch origin --prune
-# Read other workers' states...
+echo "Discovered branches:"
+git branch -r | grep "origin/cursor/$PREFIX" | wc -l
 
-# 4. Register yourself
-git add WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] SYNC: Registering as active worker
-HEARTBEAT: $(date +%s)"
-git push origin HEAD
+# List done units
+for branch in $(git branch -r | grep "origin/cursor/$PREFIX" | tr -d ' '); do
+    git ls-tree -r --name-only "$branch" -- "$OUTPUT_DIR/" 2>/dev/null
+done | sort -u
 ```
 
-### Regular Sync (Every 2-3 Minutes)
+### Progress Check (run from any branch)
+
 ```bash
-# Fetch all branches
 git fetch origin --prune
 
-# Read each active worker's state
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  git show "origin/${branch}:WORKER_STATE.md" 2>/dev/null | head -30
+PREFIX="your-task-prefix"
+TOTAL=99
+
+done=0
+for branch in $(git branch -r | grep "origin/cursor/$PREFIX" | tr -d ' '); do
+    done=$((done + $(git ls-tree -r --name-only "$branch" -- translations/ 2>/dev/null | wc -l)))
 done
+
+# Note: this over-counts if pages are duplicated
+echo "Total translations across all branches: $done"
+echo "Target: $TOTAL"
 ```
-
-### Claim a Page
-```bash
-# Update WORKER_STATE.md with your claim
-# Then:
-git add WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] CLAIM: Starting page 15
-HEARTBEAT: $(date +%s)"
-git push origin HEAD
-```
-
-### Complete a Page
-```bash
-git add translations/page_015.json WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] DONE: Completed page 15
-HASH: $(sha256sum translations/page_015.json | cut -c1-8)
-HEARTBEAT: $(date +%s)"
-git push origin HEAD
-```
-
----
-
-## Timeouts and Thresholds
-
-| Situation | Threshold | Action |
-|-----------|-----------|--------|
-| Sync frequency | 2-3 min | Fetch and read other workers |
-| Heartbeat update | 5 min max | Push a commit to stay "online" |
-| Worker considered offline | 10 min | Not included in workload calc |
-| Page can be reclaimed | 15 min | Other workers can take it |
-| Push after claiming | Immediate | Don't start without pushing |
-
----
-
-## Anti-Patterns to Avoid
-
-| Don't Do This | Do This Instead |
-|---------------|-----------------|
-| Claim multiple pages at once | Claim one page, finish it, claim next |
-| Skip syncing before claiming | Always sync first |
-| Forget to push claims | Push immediately after claiming |
-| Let heartbeat go stale | Commit at least every 5 min |
-| Ignore offline workers | Reclaim their pages after 15 min |
-| Work in isolation | Sync regularly, share progress |
-
----
-
-## Protocol Summary
-
-1. **Everyone knows everyone**: Regular syncs keep global awareness
-2. **Simple page assignment**: Lowest available page number
-3. **Heartbeats keep us honest**: Stale = offline
-4. **Graceful disconnection**: Pages get reclaimed, no work lost
-5. **Easy reconnection**: Sync, check status, claim new page
-6. **Work products shared**: Translations visible on each branch
-
-This protocol ensures the team works together efficiently while being robust against the realities of distributed systems (workers come and go, connections drop, etc.).
