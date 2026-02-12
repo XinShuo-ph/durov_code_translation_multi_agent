@@ -1,0 +1,19 @@
+{
+  "page": 1,
+  "chapter": 0,
+  "chapter_title": "Титульная страница (Title Page)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "[Страница пуста]",
+      "en": "[Page is blank]",
+      "zh": "[空白页]",
+      "ja": "[白紙ページ]"
+    }
+  ],
+  "translator_notes": [
+    "Page 1 is blank in the extracted text - likely a cover page or publisher's blank page"
+  ],
+  "total_sentences": 1,
+  "page_type": "front_matter"
+}
