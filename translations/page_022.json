@@ -1,0 +1,52 @@
+{
+  "page": 22,
+  "chapter": 1,
+  "chapter_title": "Ботанический сад (Botanical Garden)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Диевский задвинул про математику, Паперно – про лингвистику, Русин визионировал насчет кораблестроения, постебались над айкидисткой Бертовой.",
+      "en": "Dievsky talked about mathematics, Paperno about linguistics, Rusin had visions about shipbuilding, and they teased Bertova the aikido practitioner.",
+      "zh": "季耶夫斯基谈了数学，帕佩尔诺谈了语言学，鲁辛展望了造船业，大家取笑了练合气道的贝尔托娃。",
+      "ja": "ジエフスキーは数学について語り、パペルノは言語学について、ルシンは造船について夢を語り、合気道をやっているベルトヴァをからかった。"
+    },
+    {
+      "id": 2,
+      "ru": "Когда Дурова спросили, кем себя видит в будущем, он прервал молчание и сказал, улыбаясь: «Тотемом».",
+      "en": "When Durov was asked who he saw himself as in the future, he broke his silence and said with a smile: “A totem.”",
+      "zh": "当杜罗夫被问到对未来的设想时，他打破沉默，微笑着说：“图腾。”",
+      "ja": "ドゥーロフに将来の自分像を聞くと、彼は沈黙を破り、微笑みながら言った。「トーテム。」"
+    },
+    {
+      "id": 3,
+      "ru": "Его желания, страсти, умения сложились в одну формулу.",
+      "en": "His desires, passions, and skills had converged into a single formula.",
+      "zh": "他的渴望、热情和技能汇聚成了一个公式。",
+      "ja": "彼の欲望、情熱、技能がひとつの公式に収斂した。"
+    },
+    {
+      "id": 4,
+      "ru": "Все неинтересное и ненужное отсеялось.",
+      "en": "Everything uninteresting and unnecessary had been filtered out.",
+      "zh": "所有无趣和不必要的东西都被筛除了。",
+      "ja": "面白くないもの、不要なものはすべて振るい落とされた。"
+    },
+    {
+      "id": 5,
+      "ru": "Он повторил то, что окружающие расценили как шутку, не подозревая, что произнесенная фраза определит все, что произойдет дальше: «Я хочу стать интернет-тотемом».",
+      "en": "He repeated what those around him took as a joke, not suspecting that the phrase would define everything that happened next: “I want to become an internet totem.”",
+      "zh": "他重复了周围人当成笑话的那句话，却不知道这句话将决定之后发生的一切：“我想成为互联网图腾。”",
+      "ja": "彼は周囲が冗談と受け取ったことを繰り返した。この言葉がその後のすべてを決定することになるとは誰も疑わなかった。「私はインターネットのトーテムになりたい。」"
+    }
+  ],
+  "translator_notes": [
+    "Page 22 concludes Chapter 1 'Botanical Garden'",
+    "The 'internet totem' declaration is the chapter's climactic moment",
+    "A totem in tribal culture is an emblem/symbol of a group - Durov wanted to become an icon",
+    "This foreshadows VKontakte's creation and Durov's cult-like status among Russian internet users",
+    "Bertova practicing aikido continues the 'Renaissance person' theme of the school",
+    "The chapter ends with dramatic irony - what seemed a joke became prophetic"
+  ],
+  "total_sentences": 5,
+  "page_type": "narrative"
+}
