@@ -6,7 +6,7 @@
   "status": "translating",
   "claimed_page": 2,
   "claimed_at": 1770877027,
-  "completed_pages": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+  "completed_pages": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
   "phase": "stripe",
   "last_sync_at": 1770877027,
   "notes": "N=1 (no peers found), stripe covers all 99 pages"
