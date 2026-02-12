@@ -54,6 +54,16 @@ python3 tools/sync.py review-queue
 
 Why: it removes “I forgot to sync” and makes parallelism work even when agents are short‑lived.
 
+### Run scoping (do this once per swarm)
+
+This repo may contain historical worker branches. Before starting a new 16‑agent run:
+
+1. Pick a unique run prefix, e.g. `book-translation-run-2026-02-12`
+2. Update `RUN_CONFIG.json`:
+   - set `run_id`
+   - set `branch_prefixes` to `origin/cursor/<your-run-prefix>-`
+3. Ensure all worker branches are created with that prefix.
+
 ---
 
 ## Startup (every agent)

@@ -29,8 +29,24 @@ from dataclasses import dataclass
 from typing import Dict, Iterable, List, Optional, Set, Tuple
 
 
-TOTAL_PAGES_DEFAULT = 99
-DEFAULT_SLOTS = 16
+RUN_CONFIG_PATH = "RUN_CONFIG.json"
+
+
+def _load_default_config() -> Dict:
+    try:
+        if os.path.exists(RUN_CONFIG_PATH):
+            with open(RUN_CONFIG_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+    except Exception:
+        return {}
+    return {}
+
+
+_DEFAULT_CONFIG = _load_default_config()
+
+TOTAL_PAGES_DEFAULT = int(_DEFAULT_CONFIG.get("total_pages", 99))
+DEFAULT_SLOTS = int(_DEFAULT_CONFIG.get("slots", 16))
+DEFAULT_BRANCH_PREFIXES = list(_DEFAULT_CONFIG.get("branch_prefixes", ["origin/cursor/"]))
 
 CACHE_DIR = ".sync"
 CACHE_PATH = os.path.join(CACHE_DIR, "cache.json")
@@ -95,13 +111,15 @@ class WorkerInfo:
         return (now_ts() - self.heartbeat) < 600
 
 
-def list_remote_cursor_branches() -> List[str]:
+def list_remote_cursor_branches(branch_prefixes: List[str]) -> List[str]:
     out = git("branch", "-r")
     branches = []
     for line in out.splitlines():
         b = line.strip()
-        if b.startswith("origin/cursor/"):
-            branches.append(b)
+        for pref in branch_prefixes:
+            if b.startswith(pref):
+                branches.append(b)
+                break
     return sorted(branches)
 
 
@@ -170,14 +188,14 @@ def scan_branch_reviewed_pages(branch: str) -> Set[int]:
     return pages
 
 
-def build_state(total_pages: int) -> Dict:
+def build_state(total_pages: int, branch_prefixes: List[str]) -> Dict:
     """
     Global state is derived from remote branches:
     - done pages: any branch containing translations/page_XXX.json (or legacy translations/final/page_XXX.json)
     - reviewed pages: any branch containing reviews/page_XXX.<id>.md
     - claimed pages: best-effort from WORKER_STATE.md
     """
-    branches = list_remote_cursor_branches()
+    branches = list_remote_cursor_branches(branch_prefixes)
 
     done_by_page: Dict[int, List[str]] = {i: [] for i in range(1, total_pages + 1)}
     reviewed_by_page: Dict[int, List[str]] = {i: [] for i in range(1, total_pages + 1)}
@@ -214,6 +232,7 @@ def build_state(total_pages: int) -> Dict:
         "generated_at": now_ts(),
         "total_pages": total_pages,
         "branches": branches,
+        "branch_prefixes": branch_prefixes,
         "workers": [
             {
                 "branch": w.branch,
@@ -254,12 +273,16 @@ def save_cache(state: Dict) -> None:
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
-def refresh_state(total_pages: int, *, force: bool) -> Dict:
+def refresh_state(total_pages: int, branch_prefixes: List[str], *, force: bool) -> Dict:
     cached = None if force else load_cache()
-    if cached is not None and cached.get("total_pages") == total_pages:
+    if (
+        cached is not None
+        and cached.get("total_pages") == total_pages
+        and cached.get("branch_prefixes") == branch_prefixes
+    ):
         return cached
     git("fetch", "origin", "--prune")
-    state = build_state(total_pages)
+    state = build_state(total_pages, branch_prefixes)
     save_cache(state)
     return state
 
@@ -297,13 +320,13 @@ def choose_next_page(
 
 
 def cmd_refresh(args: argparse.Namespace) -> int:
-    state = refresh_state(args.total_pages, force=True)
+    state = refresh_state(args.total_pages, args.branch_prefix, force=True)
     print(json.dumps({"generated_at": state["generated_at"], "done": len(state["done_pages"]), "claimed": len(state["claimed_pages"]), "reviewed": len(state["reviewed_pages"]), "online_workers": state["online_workers"]}))
     return 0
 
 
 def cmd_status(args: argparse.Namespace) -> int:
-    state = refresh_state(args.total_pages, force=args.force)
+    state = refresh_state(args.total_pages, args.branch_prefix, force=args.force)
     total = args.total_pages
     done = len(state["done_pages"])
     reviewed = len(state["reviewed_pages"])
@@ -336,7 +359,7 @@ def cmd_next(args: argparse.Namespace) -> int:
     branch = current_branch()
     short_id = args.short_id or short_id_from_branch(branch)
     slot = args.slot if args.slot is not None else slot_from_short_id(short_id, args.slots)
-    state = refresh_state(args.total_pages, force=args.force)
+    state = refresh_state(args.total_pages, args.branch_prefix, force=args.force)
     p = choose_next_page(state=state, total_pages=args.total_pages, slot=slot, slots=args.slots, mode=args.mode)
     if p is None:
         return 2
@@ -355,7 +378,7 @@ def cmd_shard(args: argparse.Namespace) -> int:
 
 
 def cmd_where(args: argparse.Namespace) -> int:
-    state = refresh_state(args.total_pages, force=args.force)
+    state = refresh_state(args.total_pages, args.branch_prefix, force=args.force)
     p = args.page
     branches = state["done_by_page"].get(p) or []
     if not branches:
@@ -374,7 +397,7 @@ def cmd_review_queue(args: argparse.Namespace) -> int:
     my_slot = args.slot if args.slot is not None else slot_from_short_id(short_id, args.slots)
     target_slot = (my_slot - 1) % args.slots
 
-    state = refresh_state(args.total_pages, force=args.force)
+    state = refresh_state(args.total_pages, args.branch_prefix, force=args.force)
     done = set(state["done_pages"])
     reviewed = set(state["reviewed_pages"])
 
@@ -389,6 +412,15 @@ def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="Multi-agent sync helper (no daemon).")
     p.add_argument("--total-pages", type=int, default=TOTAL_PAGES_DEFAULT, help="Total pages in project (default: 99).")
     p.add_argument("--slots", type=int, default=DEFAULT_SLOTS, help="Shard slots (default: 16).")
+    p.add_argument(
+        "--branch-prefix",
+        action="append",
+        default=DEFAULT_BRANCH_PREFIXES,
+        help=(
+            "Remote branch prefix to include (repeatable). "
+            "Defaults to RUN_CONFIG.json 'branch_prefixes' if present."
+        ),
+    )
     p.add_argument("--force", action="store_true", help="Force refresh (ignore local cache).")
     sub = p.add_subparsers(dest="cmd", required=True)
 

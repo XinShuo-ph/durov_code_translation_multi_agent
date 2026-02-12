@@ -10,6 +10,21 @@ This project uses **git remote branches** as the communication bus between agent
 
 ## Commands
 
+## Run scoping (critical)
+
+This repository may contain many historical `cursor/*` branches. The sync helper **must only consider branches from the current run**, otherwise old work will incorrectly appear “already done”.
+
+Set the current run in `RUN_CONFIG.json`:
+
+- **branch_prefixes**: a unique prefix for *this* swarm, e.g. `origin/cursor/book-translation-run-2026-02-12-`
+- ensure all worker branches start with that prefix
+
+Or override at runtime:
+
+```bash
+python3 tools/sync.py --branch-prefix origin/cursor/book-translation-run-2026-02-12- status --workers
+```
+
 ### Refresh + cache (recommended before choosing work)
 
 ```bash

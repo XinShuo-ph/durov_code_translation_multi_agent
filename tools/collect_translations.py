@@ -13,12 +13,15 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import re
 import subprocess
 import sys
 from typing import Dict, List, Optional, Sequence, Tuple
 
+
+RUN_CONFIG_PATH = "RUN_CONFIG.json"
 
 PAGE_JSON_RE = re.compile(r"translations/(?:final/)?page_(\d{3})\.json$")
 
@@ -33,14 +36,28 @@ def run(cmd: List[str], *, check: bool = True) -> str:
 def git(*args: str, check: bool = True) -> str:
     return run(["git", *args], check=check)
 
+def load_default_config() -> Dict:
+    try:
+        if os.path.exists(RUN_CONFIG_PATH):
+            with open(RUN_CONFIG_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+    except Exception:
+        return {}
+    return {}
 
-def list_remote_cursor_branches() -> List[str]:
+
+_DEFAULT_CONFIG = load_default_config()
+
+
+def list_remote_cursor_branches(branch_prefixes: List[str]) -> List[str]:
     out = git("branch", "-r")
     branches = []
     for line in out.splitlines():
         b = line.strip()
-        if b.startswith("origin/cursor/"):
-            branches.append(b)
+        for pref in branch_prefixes:
+            if b.startswith(pref):
+                branches.append(b)
+                break
     return sorted(branches)
 
 
@@ -90,14 +107,20 @@ def best_source_for_page(page: int, candidates: List[Tuple[str, str]]) -> Option
 def main(argv: Sequence[str]) -> int:
     ap = argparse.ArgumentParser(description="Collect translations from remote worker branches into local directory.")
     ap.add_argument("--output", default="translations", help="Local output dir (default: translations).")
-    ap.add_argument("--total-pages", type=int, default=99, help="Total pages (default: 99).")
+    ap.add_argument("--total-pages", type=int, default=int(_DEFAULT_CONFIG.get("total_pages", 99)), help="Total pages (default: from RUN_CONFIG.json or 99).")
+    ap.add_argument(
+        "--branch-prefix",
+        action="append",
+        default=list(_DEFAULT_CONFIG.get("branch_prefixes", ["origin/cursor/"])),
+        help="Remote branch prefix to include (repeatable). Defaults to RUN_CONFIG.json 'branch_prefixes' if present.",
+    )
     ap.add_argument("--fetch", action="store_true", help="Fetch origin before collecting.")
     args = ap.parse_args(list(argv))
 
     if args.fetch:
         git("fetch", "origin", "--prune")
 
-    branches = list_remote_cursor_branches()
+    branches = list_remote_cursor_branches(args.branch_prefix)
     page_sources: Dict[int, List[Tuple[str, str]]] = {p: [] for p in range(1, args.total_pages + 1)}
 
     for b in branches:

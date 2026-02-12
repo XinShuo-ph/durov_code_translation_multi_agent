@@ -1,0 +1,9 @@
+{
+  "run_id": "SET_ME",
+  "total_pages": 99,
+  "slots": 16,
+  "branch_prefixes": [
+    "origin/cursor/book-translation-run-SET_ME-"
+  ]
+}
+
