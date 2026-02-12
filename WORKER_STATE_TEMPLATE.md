@@ -3,11 +3,13 @@
 ## Status
 - **Branch**: [YOUR_FULL_BRANCH_NAME]
 - **Short ID**: [LAST_4_CHARS]
+- **Protocol Version**: 2
 - **Heartbeat**: [UNIX_TIMESTAMP]
 - **Status**: online
 
 ## Current Work
 - **Claimed Page**: none
+- **Lease Expires At**: -
 - **Started At**: -
 
 ## Completed Pages
@@ -23,66 +25,18 @@ Ready to begin translation.
 
 ---
 
-## How to Use This Template
+## Update Rules (Do Not Delete)
 
-1. **Copy this file** to `WORKER_STATE.md`:
-   ```bash
-   cp WORKER_STATE_TEMPLATE.md WORKER_STATE.md
-   ```
-
-2. **Get your identity**:
-   ```bash
-   MY_BRANCH=$(git branch --show-current)
-   MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
-   echo "Branch: $MY_BRANCH"
-   echo "Short ID: $MY_SHORT_ID"
-   ```
-
-3. **Fill in your details**:
-   - Replace `[YOUR_FULL_BRANCH_NAME]` with your branch
-   - Replace `[LAST_4_CHARS]` with your short ID
-   - Replace `[UNIX_TIMESTAMP]` with `$(date +%s)`
-
-4. **Commit and push** (this registers you!):
-   ```bash
-   git add WORKER_STATE.md
-   git commit -m "[$MY_SHORT_ID] SYNC: Registering as active worker
-   HEARTBEAT: $(date +%s)"
-   git push origin HEAD
-   ```
-
-5. **Delete this "How to Use" section** from your WORKER_STATE.md
-
----
-
-## Example Filled-In State
-
-```markdown
-# Worker: a1b2
-
-## Status
-- **Branch**: cursor/book-translation-task-a1b2
-- **Short ID**: a1b2
-- **Heartbeat**: 1735689600
-- **Status**: translating
-
-## Current Work
-- **Claimed Page**: 15
-- **Started At**: 1735689500
-
-## Completed Pages
-| Page | Completed At | Hash |
-|------|--------------|------|
-| 13   | 1735688400   | a8f3b2c1 |
-| 14   | 1735689000   | c9d4e5f6 |
-
-## Known Workers (Last Sync)
-| Short ID | Status | Claimed Page | Last Heartbeat |
-|----------|--------|--------------|----------------|
-| c3d4     | online | 16           | 1735689550     |
-| e5f6     | online | 17           | 1735689500     |
-| g7h8     | offline| 18           | 1735685000     |
-
-## Notes
-Working on Chapter 1. Synced at 1735689600.
-```
+1. Keep this file machine-parseable. Do not rename headings or field labels.
+2. When claiming a page:
+   - set `Status: translating`
+   - set `Claimed Page: <page>`
+   - set `Lease Expires At: <now+900>`
+   - set `Started At: <now>`
+   - set `Heartbeat: <now>`
+3. When finishing a page:
+   - append a row to `Completed Pages`
+   - reset claim fields to `none` / `-`
+   - set `Status: online` (or `idle` if stopping)
+   - set `Heartbeat: <now>`
+4. Push every CLAIM and DONE update immediately.

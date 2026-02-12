@@ -17,13 +17,13 @@ To visually distinguish languages in parallel text:
 - **Japanese (JA)**: Dark Green (#006400)
 
 ## Compilation Pipeline
-1. **Translation**: Translation data is stored in JSON files (`translations/raw/page_XXX.json`).
+1. **Translation**: Translation data is stored in JSON files (`translations/page_XXX.json`).
 2. **Compilation**: A Python script (`tools/compile_pages.py`) reads the JSON and generates a `.tex` file using the standard template.
 3. **Rendering**: `xelatex` compiles the `.tex` file to PDF.
 
 ## Usage
 ```bash
-python3 tools/compile_pages.py translations/raw/page_XXX.json output_directory
+python3 tools/compile_pages.py translations/page_XXX.json output_directory
 ```
 
 ## Dependencies
@@ -31,3 +31,34 @@ python3 tools/compile_pages.py translations/raw/page_XXX.json output_directory
 - `xelatex` (part of `texlive-xetex`)
 - `xeCJK` (part of `texlive-lang-chinese`)
 - `Noto` fonts
+
+---
+
+## Parallel Coordination Helper
+
+Use `tools/parallel_coord.py` to enforce machine-checked claiming and avoid duplicate work.
+
+### Worker Snapshot
+
+```bash
+python3 tools/parallel_coord.py snapshot
+```
+
+### Next Page Selection (Shard-First)
+
+```bash
+python3 tools/parallel_coord.py next-page
+python3 tools/parallel_coord.py next-page --plain
+```
+
+### Check Page Availability
+
+```bash
+python3 tools/parallel_coord.py check-page 37
+```
+
+### Session Audit
+
+```bash
+python3 tools/parallel_coord.py audit
+```
