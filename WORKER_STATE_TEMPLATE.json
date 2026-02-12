@@ -1,0 +1,13 @@
+{
+  "worker_id": "XXXX",
+  "branch": "cursor/your-batch-prefix-XXXX",
+  "batch_prefix": "cursor/your-batch-prefix",
+  "heartbeat": 0,
+  "status": "idle",
+  "claimed_page": null,
+  "claimed_at": null,
+  "completed_pages": [],
+  "phase": "stripe",
+  "last_sync_at": 0,
+  "notes": ""
+}
