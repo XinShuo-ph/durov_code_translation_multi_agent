@@ -1,0 +1,129 @@
+{
+  "page": 29,
+  "chapter": 2,
+  "chapter_title": "Архитектор (The Architect)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Нет, не наша клиентура — Дуров анализирует трафик, — если девочка, то должна быть неформалка. Пусть не модель, но с харизмой. Наконец мелькает умный взгляд, приближается интеллигентный вроде тип и не ботан. Запускаем программу знакомства.",
+      "en": "No, not our clientele — Durov analyzes the traffic — if it's a girl, she should be unconventional. Not necessarily a model, but with charisma. Finally a smart gaze flickers, an intelligent-looking type approaches who is not a nerd. Launch the introduction program.",
+      "zh": "不，不是我们的目标客户——杜罗夫分析着流量——如果是女孩，应该是非主流的。不一定是模特，但得有魅力。终于闪过一个聪明的目光，一个看起来有智慧但不是书呆子的人走近了。启动认识程序。",
+      "ja": "いや、我々のターゲットではない——ドゥーロフはトラフィックを分析する——女の子なら、非主流でなければ。モデルでなくてもいいが、カリスマ性が必要。ようやく知的な視線がちらつき、インテリ風だがオタクではないタイプが近づいてくる。紹介プログラムを起動。"
+    },
+    {
+      "id": 2,
+      "ru": "Алгоритм прост: подходим с невинным вопросом. Выказываем интерес. Начинаем обсуждать факультет.",
+      "en": "The algorithm is simple: approach with an innocent question. Show interest. Start discussing the faculty.",
+      "zh": "算法很简单：用一个无害的问题接近。表现出兴趣。开始讨论院系的事。",
+      "ja": "アルゴリズムは単純だ。何気ない質問で近づく。興味を示す。学部について話し始める。"
+    },
+    {
+      "id": 3,
+      "ru": "Знакомство состоялось, и возникает тема форума. Из чемоданчика появляются афиши. Избранник рассказывает про профком, оппозицию — весь расклад сил на факультете и тусовки, где вертятся личности, притягивающие глаза и уши.",
+      "en": "The acquaintance is made, and the topic of the forum arises. Posters emerge from the briefcase. The recruit tells about the trade union committee, the opposition — the whole balance of power at the faculty and the hangouts where personalities that attract eyes and ears circulate.",
+      "zh": "认识完成，论坛的话题浮出水面。公文包里拿出了海报。被选中的人讲起了工会委员会、反对派——学院的整个权力格局以及那些吸引眼球和注意力的人物活动的社交圈。",
+      "ja": "知り合いになり、フォーラムの話題が出てくる。ブリーフケースからポスターが現れる。リクルート対象は労組委員会、反対派——学部の全勢力図と、目と耳を引く人物たちが集まるたまり場について語る。"
+    },
+    {
+      "id": 4,
+      "ru": "Если избранник оказывается лидером, прекрасно. Если нет, Дуров добирается через него до агентов влияния.",
+      "en": "If the recruit turns out to be a leader, wonderful. If not, Durov reaches the agents of influence through them.",
+      "zh": "如果被选中的人是领导者，那太好了。如果不是，杜罗夫通过他接触到有影响力的人。",
+      "ja": "リクルート対象がリーダーなら素晴らしい。そうでなければ、ドゥーロフはその人を通じてインフルエンサーに到達する。"
+    },
+    {
+      "id": 5,
+      "ru": "На филфаке вокруг него теперь тусовались не только одногруппницы, но и активные писатели форума.",
+      "en": "At the philology faculty, not only his classmates but also active forum writers now hung around him.",
+      "zh": "在语文学系，他周围聚集的不仅是同班同学，还有论坛上的活跃写手。",
+      "ja": "文献学部では、彼の周りにいるのはもうクラスメートだけでなく、フォーラムの活発な投稿者たちもいた。"
+    },
+    {
+      "id": 6,
+      "ru": "Между лекциями они собирались во дворе и болтали о высоком — например, про ценности либертарианства. Эти споры продолжались в онлайне.",
+      "en": "Between lectures they would gather in the courtyard and chat about lofty topics — for example, the values of libertarianism. These debates continued online.",
+      "zh": "课间他们聚在院子里讨论高深话题——比如自由意志主义的价值观。这些争论在网上继续。",
+      "ja": "講義の合間に中庭に集まり、高尚な話題について語り合った——例えばリバタリアニズムの価値観。この議論はオンラインで続いた。"
+    },
+    {
+      "id": 7,
+      "ru": "Дуров повесил на свой аккаунт картинку с золотым орлом на красном поле и подписался The Architect (архитектор).",
+      "en": "Durov put up an avatar of a golden eagle on a red field and signed himself The Architect.",
+      "zh": "杜罗夫在他的账户上挂了一张红底金鹰的图片，署名为The Architect（建筑师）。",
+      "ja": "ドゥーロフは赤い背景に金の鷲の画像をアカウントに設定し、The Architect（建築家）と名乗った。"
+    },
+    {
+      "id": 8,
+      "ru": "«Какое-то время я старался разжигать огонь, — вспоминал он. — Человек приходил на форум — а ничего нет, пусто и мёртвые с косами стоят. И он не оставлял сообщения, уходил.»",
+      "en": "'For a while I tried to fan the flames,' he recalled. 'A person would come to the forum — and there was nothing there, empty, and the dead stood with scythes. And they wouldn't leave a message; they'd leave.'",
+      "zh": "「有一段时间我努力点燃火焰，」他回忆道。「一个人来到论坛——什么都没有，空荡荡的，死神拿着镰刀站在那里。他不会留下消息，就走了。」",
+      "ja": "「しばらくの間、火を点けようとしていた」と彼は振り返った。「人がフォーラムに来る——何もない、空っぽで死神が鎌を持って立っている。メッセージを残さずに去っていく。」"
+    },
+    {
+      "id": 9,
+      "ru": "«Надо было создать иллюзию наличия критической массы. Я использовал заголовки, которые являются стопроцентным попаданием: возможна ли дружба между мужчиной и женщиной и т. д.»",
+      "en": "'It was necessary to create the illusion of critical mass. I used headlines that are a hundred-percent hit: is friendship between a man and a woman possible, and so on.'",
+      "zh": "「必须创造出已经达到临界规模的假象。我使用那些百分之百命中的标题：男女之间是否存在友谊之类的。」",
+      "ja": "「クリティカルマスがあるという幻想を作る必要があった。百発百中のタイトルを使った——男と女の友情は成り立つか、等々。」"
+    },
+    {
+      "id": 10,
+      "ru": "«Спорщиков приходилось зацеплять. Если с оратором все согласятся, он почувствует, что он красавчик, делать тут больше нечего, и уйдёт. Если поспорят с ним, немного унизив, — вернётся, чтобы доказать, что он лучший».",
+      "en": "'You had to hook the debaters. If everyone agrees with the speaker, he'll feel like a champ, nothing more to do here, and leave. If they argue with him, humiliating him slightly — he'll come back to prove he's the best.'",
+      "zh": "「必须钩住争论者。如果所有人都同意发言者，他会觉得自己是大赢家，这里没什么可做的了，就走了。如果有人跟他争论，稍微羞辱他一下——他会回来证明自己是最强的。」",
+      "ja": "「議論好きをフックする必要があった。全員が発言者に同意すれば、彼は自分がイケてると感じ、もうやることはないと去る。少し侮辱を交えて反論すれば——最高だと証明するために戻ってくる。」"
+    },
+    {
+      "id": 11,
+      "ru": "Однако шпионские истории с проникновением на факультеты и скандальные темы не привели к необходимому эффекту. Посещаемость сайта росла, количество высказываний — тоже, но недостаточно быстро.",
+      "en": "However, the spy stories of infiltrating faculties and scandalous topics did not produce the needed effect. Site traffic was growing, the number of posts too, but not fast enough.",
+      "zh": "然而，潜入各院系的间谍故事和劲爆话题并没有产生所需的效果。网站访问量在增长，帖子数量也在增长，但速度不够快。",
+      "ja": "しかし学部への潜入というスパイ物語やスキャンダラスなトピックは、必要な効果をもたらさなかった。サイトのトラフィックは伸び、投稿数も増えたが、十分な速さではなかった。"
+    },
+    {
+      "id": 12,
+      "ru": "А самое главное, среднестатистический студент редко лазал в интернете. Следовательно, нужен катализатор в офлайне — чтобы затянуть людей в онлайн. Что бы это могло быть?",
+      "en": "Most importantly, the average student rarely went online. Consequently, an offline catalyst was needed — to pull people into the online world. What could that be?",
+      "zh": "最重要的是，普通学生很少上网。因此需要一个线下催化剂——把人们拉进线上世界。那会是什么呢？",
+      "ja": "最も重要なのは、平均的な学生はめったにインターネットを使わなかったことだ。したがってオフラインのカタリストが必要だった——人々をオンラインに引き込むための。それは何だろう？"
+    },
+    {
+      "id": 13,
+      "ru": "Дуров не знал, что на другом полушарии, в заснеженном Гарварде, раскручивалась история, которая превратила своего демиурга из сетевого задрота в одного из влиятельнейших людей мира.",
+      "en": "Durov did not know that on the other hemisphere, in snowy Harvard, a story was unfolding that would transform its demiurge from an internet nerd into one of the most influential people in the world.",
+      "zh": "杜罗夫不知道在另一个半球，在白雪皑皑的哈佛，一个故事正在展开，它将把自己的造物主从一个网络宅男变成世界上最有影响力的人之一。",
+      "ja": "ドゥーロフは知らなかった。別の半球の雪に覆われたハーバードで、そのデミウルゴスをネットオタクから世界で最も影響力のある人物の一人に変えることになる物語が展開していたことを。"
+    },
+    {
+      "id": 14,
+      "ru": "Марк Цукерберг хакнул сервер с фотографиями студенток, выкачал файлы и написал программу, которая позволяла выбирать из двух расположенных рядом снимков тот, где более привлекательная девушка.",
+      "en": "Mark Zuckerberg hacked a server with student photos, downloaded the files, and wrote a program that let you choose the more attractive girl from two side-by-side photos.",
+      "zh": "马克·扎克伯格入侵了存有女学生照片的服务器，下载了文件，编写了一个程序，可以从两张并排的照片中选出更有魅力的女生。",
+      "ja": "マーク・ザッカーバーグが女子学生の写真があるサーバーをハッキングし、ファイルをダウンロードして、並べた二枚の写真からより魅力的な女の子を選べるプログラムを書いた。"
+    },
+    {
+      "id": 15,
+      "ru": "Общежития прилипли к мониторам, выбирая всенародную мисс Гарвард, и локальная сеть рухнула.",
+      "en": "Dormitories were glued to their monitors, choosing the people's Miss Harvard, and the local network crashed.",
+      "zh": "宿舍们都黏在了显示器前，投票选举全民哈佛小姐，局域网崩溃了。",
+      "ja": "寮はモニターに釘付けになり、全学のミス・ハーバードを選び、ローカルネットワークがダウンした。"
+    },
+    {
+      "id": 16,
+      "ru": "Именно в эти дни Дуров перебирал варианты, как раскрутиться через громкое событие. В конце концов его мысли отправились в том же направлении, что у Цукерберга.",
+      "en": "It was precisely during these days that Durov was sorting through options for how to gain traction through a high-profile event. In the end, his thoughts went in the same direction as Zuckerberg's.",
+      "zh": "正是在这些日子里，杜罗夫在盘算如何通过轰动事件来走红。最终他的思路走向了和扎克伯格相同的方向。",
+      "ja": "まさにこの時期、ドゥーロフは話題性のあるイベントでブレイクする方法を模索していた。結局、彼の考えはザッカーバーグと同じ方向に向かった。"
+    }
+  ],
+  "translator_notes": [
+    "Page 29 covers Durov's community-building tactics and the parallel with Zuckerberg",
+    "The Architect nickname references The Matrix trilogy character",
+    "Durov's engagement tactics (provocative topics, slight humiliation) foreshadow social network design",
+    "Mark Zuckerberg's FaceMash story is told in parallel with Durov's own beauty contest",
+    "Libertarianism discussions among the forum users connect to Durov's later political views",
+    "The 'critical mass illusion' insight is key to understanding early social network growth"
+  ],
+  "total_sentences": 16,
+  "page_type": "narrative"
+}
