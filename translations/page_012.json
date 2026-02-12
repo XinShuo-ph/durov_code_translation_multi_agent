@@ -1,0 +1,98 @@
+{
+  "page": 12,
+  "chapter": 0,
+  "chapter_title": "Пролог (Prologue)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. “Durov's Code. The Real Story of VKontakte and Its Creator”",
+      "zh": "尼古拉·V·科诺诺夫：《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の実話』"
+    },
+    {
+      "id": 2,
+      "ru": "Когда я искал ответ на вопрос, что движет пользователем Twitter под ником Porn King и его командой, которые затащили в «новую нервную систему» более 100 млн человек, то не предполагал, что история стартапа превратится в триллер о сражении за свободу в двоичном коде, цифровой среде.",
+      "en": "When I was looking for an answer to what drives a Twitter user with the handle Porn King and his team—who pulled more than 100 million people into the “new nervous system”—I didn’t expect the story of a startup to turn into a thriller about a fight for freedom in binary code, in the digital environment.",
+      "zh": "当我寻找答案：是什么驱动着Twitter上昵称为Porn King的用户和他的团队——他们把超过1亿人拉进了“新的神经系统”——我并没想到，一个创业公司的故事会变成一部发生在二进制代码、数字环境中的自由之战惊悚片。",
+      "ja": "TwitterでPorn Kingというハンドルネームを名乗るユーザーとそのチーム――“新しい神経系”へ1億人以上を引きずり込んだ人々――を動かしているものは何か、その答えを探していたとき、スタートアップの物語が、二進コードというデジタル環境での自由をめぐる戦いのスリラーになるとは思ってもみなかった。"
+    },
+    {
+      "id": 3,
+      "ru": "Исследуя путь взбесившегося и анархического государства нёрдов, каковым, безусловно, является «ВКонтакте», я спиной ощущал взгляды персонажей Бека, Вулфа, Капоте и других охотников за выдающимися историями, которые следует поймать, а не придумать.",
+      "en": "As I traced the path of a rabid, anarchic state of nerds—which VKontakte most certainly is—I could feel, on my back, the gaze of characters from Beck, Wolfe, Capote, and other hunters of exceptional stories that should be caught, not invented.",
+      "zh": "在研究这个暴走而无政府的极客国家——毫无疑问，VKontakte正是如此——时，我仿佛能用后背感到贝克、沃尔夫、卡波特等作家笔下人物，以及其他那些追猎非凡故事的“猎人”的目光：故事应当被捕获，而不是被编造。",
+      "ja": "暴走し、無政府状態のナード国家――VKontakteはまさにそれだ――の歩みを追っていると、背中越しに、ベック、ウルフ、カポーティらの作品の登場人物や、ほかの「傑出した物語」を狩るハンターたちの視線を感じた。物語は作るものではなく、捕まえるものだ、と。"
+    },
+    {
+      "id": 4,
+      "ru": "И зачем что-то придумывать, если перед тобой люди, которые построили систему каналов, в которых бежит чужая жизнь и создаются миллионы идентичностей-гомункулов.",
+      "en": "And why invent anything when you have people right in front of you who built a system of channels through which other people’s lives run, and where millions of homunculus-identities are created?",
+      "zh": "既然你面前就是那些建起了一套“渠道”系统的人——他人的生活在其中奔流，并生成出数百万个同质化的“霍姆ンク鲁斯式身份”——那又何必再去编造什么呢？",
+      "ja": "目の前にいるのは、他人の生活が流れ、何百万もの同質の“ホムンクルス的なアイデンティティ”が生み出されるチャンネルのシステムを構築した人々だ。そんな相手に、なぜ何かを作り話にする必要があるだろうか。"
+    },
+    {
+      "id": 5,
+      "ru": "Разговаривая с Дуровым, я чувствовал себя режиссером из первой сцены «Пиратов Кремниевой долины», которому Джобс внушает, что предстоит снять не рекламу, а блокбастер об устройстве, которое изменит мир.",
+      "en": "Talking with Durov, I felt like the director from the opening scene of Pirates of Silicon Valley, to whom Jobs insists that he’s about to shoot not an advertisement, but a blockbuster about a device that will change the world.",
+      "zh": "和杜罗夫交谈时，我觉得自己就像《硅谷传奇》（Pirates of Silicon Valley）第一幕里的那位导演：乔布斯让他相信，他要拍的不是广告，而是一部关于将改变世界的设备的大片。",
+      "ja": "ドゥーロフと話していると、映画『シリコンバレーの海賊たち』（Pirates of Silicon Valley）の冒頭シーンに出てくる監督になったような気分だった。ジョブズがその監督に、撮るべきなのは広告ではなく、世界を変える装置についてのブロックバスターだと吹き込む、あの場面の。"
+    },
+    {
+      "id": 6,
+      "ru": "Герой оказался сильнодействующим продавцом идей, и автору стоило много труда раскопать слой, лежащий в их основании.",
+      "en": "The hero turned out to be a powerful salesman of ideas, and it took the author a lot of work to dig down to the layer beneath them.",
+      "zh": "这位主人公原来是一位“强效”的理念推销员，而作者为了挖到这些理念的底层，花了不少功夫。",
+      "ja": "主人公は強力なアイデアのセールスマンであり、著者がその土台にある層を掘り起こすには多くの労力が要った。"
+    },
+    {
+      "id": 7,
+      "ru": "Однако я старался отсекать факты о «ВКонтакте» от интерпретаций и подвергал сомнению даже те эпизоды, которые не вызывали вопросов.",
+      "en": "Still, I tried to separate facts about VKontakte from interpretations, and I questioned even episodes that raised no doubts.",
+      "zh": "不过我努力把关于VKontakte的事实与解读分开，甚至对那些本来不会引发疑问的片段也提出质疑。",
+      "ja": "それでも私は、VKontakteに関する事実を解釈から切り離そうと努め、疑いの余地がないように見えるエピソードでさえも疑ってかかった。"
+    },
+    {
+      "id": 8,
+      "ru": "Это было интересно.",
+      "en": "It was interesting.",
+      "zh": "这很有意思。",
+      "ja": "面白かった。"
+    },
+    {
+      "id": 9,
+      "ru": "Как говорится, so long, and thanks for all the fish1.",
+      "en": "As they say, so long, and thanks for all the fish1.",
+      "zh": "就像人们说的那样：so long, and thanks for all the fish1。",
+      "ja": "いわく、so long, and thanks for all the fish1。"
+    },
+    {
+      "id": 10,
+      "ru": "«Всего хорошего, и спасибо за рыбу!» (англ.) – юмористический научно-фантастический роман британского писателя Дугласа Адамса.",
+      "en": "“So Long, and Thanks for All the Fish!” (English) is a humorous science-fiction novel by the British writer Douglas Adams.",
+      "zh": "《再见，感谢所有的鱼！》（英文）是英国作家道格拉斯·亚当斯的一部幽默科幻小说。",
+      "ja": "『さようなら、そして魚をありがとう！』（英語）は、イギリス作家ダグラス・アダムスによるユーモアSF小説である。"
+    },
+    {
+      "id": 11,
+      "ru": "Четвертая часть серии книг, известных под общим названием «Автостопом по галактике».",
+      "en": "It is the fourth installment in the series known collectively as The Hitchhiker’s Guide to the Galaxy.",
+      "zh": "它是《银河系漫游指南》系列的第四部。",
+      "ja": "いわゆる『銀河ヒッチハイク・ガイド』として知られるシリーズの第4作。"
+    },
+    {
+      "id": 12,
+      "ru": "Само название романа является прощальной фразой дельфинов человечеству из первой книги цикла, когда те покидали Землю перед ее уничтожением вогонами (чтобы освободить место для гиперпространственного экспресс-маршрута).",
+      "en": "The title itself is the dolphins’ farewell phrase to humanity from the first book of the cycle, when they left Earth before it was destroyed by the Vogons (to make room for a hyperspace express route).",
+      "zh": "书名本身来自该系列第一部里海豚对人类的告别语：当它们在沃贡人摧毁地球之前离开地球（以便为一条超空间高速快线让路）时说出的那句话。",
+      "ja": "題名そのものは、シリーズ第1作でイルカが人類に向けて告げた別れの言葉だ。彼らはヴォゴン人が地球を破壊する前に地球を去った（超空間の高速エクスプレス路線のための用地確保のため）。"
+    }
+  ],
+  "translator_notes": [
+    "The original page includes a footnote marker “1” attached to the English phrase “so long, and thanks for all the fish1”; the marker is preserved in all languages.",
+    "«Пираты Кремниевой долины» refers to the film “Pirates of Silicon Valley”."
+  ],
+  "total_sentences": 12,
+  "page_type": "narrative"
+}
+
