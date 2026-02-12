@@ -1,0 +1,13 @@
+{
+  "worker_id": "2e5a",
+  "branch": "cursor/parallel-translation-project-setup-2e5a",
+  "batch_prefix": "cursor/parallel-translation-project-setup",
+  "heartbeat": 1770877009,
+  "status": "translating",
+  "claimed_page": 1,
+  "claimed_at": 1770877009,
+  "completed_pages": [],
+  "phase": "stripe",
+  "last_sync_at": 1770877009,
+  "notes": "Worker 0 of 1 (no peers detected yet). Starting with stripe page 1."
+}
