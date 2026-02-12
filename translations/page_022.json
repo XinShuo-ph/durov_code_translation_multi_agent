@@ -1,0 +1,20 @@
+{
+  "page": 22,
+  "chapter": 1,
+  "chapter_title": "Ботанический сад (Botanical Garden)",
+  "sentences": [
+    {"id": 1, "ru": "Диевский задвинул про математику, Паперно — про лингвистику, Русин визионировал насчёт кораблестроения, постебались над айкидисткой Бертовой.", "en": "Dievsky held forth about mathematics, Paperno about linguistics, Rusin had visions of shipbuilding, and they teased Bertova the aikido practitioner.", "zh": "季耶夫斯基大谈数学，帕佩尔诺谈语言学，鲁辛畅想造船业，大家还拿练合气道的别尔托娃开了玩笑。", "ja": "ディエフスキーは数学について、パペルノは言語学について熱弁し、ルーシンは造船について夢を語り、合気道をやるベルトヴァをからかった。"},
+    {"id": 2, "ru": "Когда Дурова спросили, кем себя видит в будущем, он прервал молчание и сказал, улыбаясь: «Тотемом».", "en": "When Durov was asked who he saw himself as in the future, he broke his silence and said, smiling: \"A totem.\"", "zh": "当被问到杜罗夫未来想成为什么时，他打破沉默，微笑着说：「图腾。」", "ja": "ドゥーロフが将来の自分をどう見ているか聞かれたとき、沈黙を破って微笑みながら言った。「トーテムだ。」"},
+    {"id": 3, "ru": "Его желания, страсти, умения сложились в одну формулу. Всё неинтересное и ненужное отсеялось.", "en": "His desires, passions, and skills had come together in a single formula. Everything uninteresting and unnecessary had been filtered out.", "zh": "他的愿望、热情和技能汇聚成一个公式。所有无趣和不必要的东西都被过滤掉了。", "ja": "彼の願望、情熱、技能が一つの公式にまとまった。興味のないもの、不要なものはすべて淘汰された。"},
+    {"id": 4, "ru": "Он повторил то, что окружающие расценили как шутку, не подозревая, что произнесённая фраза определит всё, что произойдёт дальше: «Я хочу стать интернет-тотемом».", "en": "He repeated what those around him took as a joke, not suspecting that the uttered phrase would define everything that happened next: \"I want to become an internet totem.\"", "zh": "他重复了这句周围人当作玩笑的话，没有人想到这句话将决定此后发生的一切：「我想成为互联网图腾。」", "ja": "彼は周囲が冗談と受け取ったことを繰り返した。その言葉がその後のすべてを決定づけるとは誰も思っていなかった。「僕はインターネットのトーテムになりたい。」"}
+  ],
+  "translator_notes": [
+    "Page 22 concludes Chapter 1 with Durov's prophetic statement about becoming an 'internet totem'",
+    "The 'internet totem' statement foreshadows Durov's future as the iconic founder of VKontakte and Telegram",
+    "Dievsky and Paperno were classmates who had earlier created their own mock state with a constitution",
+    "The graduation night scene on Petrogradskaya Side is a very St. Petersburg tradition",
+    "This chapter ends Chapter 1 'Botanical Garden' - the title plays on 'botanik' (nerd in Russian slang)"
+  ],
+  "total_sentences": 4,
+  "page_type": "narrative"
+}
