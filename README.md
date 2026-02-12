@@ -13,9 +13,9 @@ This project uses **multiple AI agents working collaboratively**, each on their 
 ### Key Design Principles
 
 1. **Collaborative, not isolated**: Workers know who else is online and what they're doing
-2. **Simple workload distribution**: Claim lowest available page
+2. **Deterministic workload distribution**: Use coordinator-assigned lane pages
 3. **Robust against disconnection**: Pages can be reclaimed from offline workers
-4. **Easy reconnection**: Returning workers sync and continue
+4. **Fair parallelism**: Fast workers are gated to review when they get too far ahead
 
 ### Communication Method
 
@@ -30,13 +30,8 @@ Agents communicate via **git commits, pushes, and pulls**—using git as a messa
 ### Checking Who's Online
 
 ```bash
-git fetch origin --prune
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
-    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    echo "Active: $short_id ($branch)"
-  fi
-done
+export SYNC_BRANCH_GLOB="origin/cursor/book-translation-multi-agent-*"
+python3 tools/sync_daemon.py --snapshot --fetch
 ```
 
 ## Quick Start for Workers
@@ -53,7 +48,7 @@ done
 
 4. **Sync and discover**: Fetch other workers' states
 
-5. **Claim a page**: Lowest available page number
+5. **Claim a page**: Use coordinator action/page assignment
 
 6. **Translate and push**: Save JSON, push, claim next
 
@@ -66,6 +61,7 @@ done
 | `STATE.md` | Global project state |
 | `WORKER_STATE.md` | Your worker state (create this!) |
 | `WORKER_STATE_TEMPLATE.md` | Template for new workers |
+| `tools/sync_daemon.py` | Coordinator for claims/review/fairness |
 
 ## Resources Available
 
@@ -109,7 +105,7 @@ tools/
 
 Workers save translations to:
 ```
-translations/page_XXX.json
+translations/raw/page_XXX.json
 ```
 
 Optional PDF output:
@@ -148,9 +144,9 @@ Each page becomes a JSON file with sentences in 4 languages:
 
 ## Protocol Summary
 
-1. **Sync regularly**: Every 2-3 minutes
-2. **Claim one page at a time**: Lowest available
-3. **Push immediately**: After claiming, after completing
+1. **Sync via coordinator**: `python3 tools/sync_daemon.py --snapshot --fetch`
+2. **Take next action from coordinator**: claim / continue / review / idle
+3. **Push immediately**: After claim, done, review, reclaim
 4. **Heartbeat**: Update at least every 5 minutes
 5. **Handle disconnection**: Reclaim pages from offline workers (>15 min)
 

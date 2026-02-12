@@ -26,6 +26,23 @@ To visually distinguish languages in parallel text:
 python3 tools/compile_pages.py translations/raw/page_XXX.json output_directory
 ```
 
+## Multi-Agent Coordinator
+
+Use `sync_daemon.py` to avoid duplicate work and enforce fair parallelism.
+
+```bash
+export SYNC_BRANCH_GLOB="origin/cursor/book-translation-multi-agent-*"
+
+# Team snapshot
+python3 tools/sync_daemon.py --snapshot --fetch
+
+# Next action for current worker
+python3 tools/sync_daemon.py --next-action --worker "$(git branch --show-current)" --fetch
+
+# Next page only
+python3 tools/sync_daemon.py --next-page --worker "$(git branch --show-current)" --fetch
+```
+
 ## Dependencies
 - `python3`
 - `xelatex` (part of `texlive-xetex`)
