@@ -4,22 +4,27 @@
 - **Branch**: [YOUR_FULL_BRANCH_NAME]
 - **Short ID**: [LAST_4_CHARS]
 - **Heartbeat**: [UNIX_TIMESTAMP]
-- **Status**: online
+- **Status**: idle
 
 ## Current Work
 - **Claimed Page**: none
 - **Started At**: -
+- **Current Step**: -
 
 ## Completed Pages
 | Page | Completed At | Hash |
 |------|--------------|------|
+
+## Ready for Review
+| Page | Ready At | Raw Hash |
+|------|----------|----------|
 
 ## Known Workers (Last Sync)
 | Short ID | Status | Claimed Page | Last Heartbeat |
 |----------|--------|--------------|----------------|
 
 ## Notes
-Ready to begin translation.
+Ready to begin.
 
 ---
 

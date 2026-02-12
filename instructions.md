@@ -140,10 +140,13 @@ workspace/
 │   ├── compile_pages.py
 │   └── README.md
 │
-├── translations/             # YOUR OUTPUT (translations go here)
-│   ├── page_001.json
-│   ├── page_002.json
-│   └── ...
+├── translations/             # TRANSLATIONS
+│   ├── raw/                  # Worker output (what you produce)
+│   │   ├── page_001.json
+│   │   └── ...
+│   └── final/                # Integrated output (promoted after review)
+│       ├── page_001.json
+│       └── ...
 │
 └── output/                   # GENERATED PDFs (optional)
     ├── page_001.pdf
@@ -162,7 +165,7 @@ workspace/
 │  2. CLAIM: Take the lowest available page                   │
 │  3. READ: Get the Russian text from extracted/pages/        │
 │  4. TRANSLATE: Russian → English, Chinese, Japanese         │
-│  5. SAVE: Write translations/page_XXX.json                  │
+│  5. SAVE: Write translations/raw/page_XXX.json              │
 │  6. BROADCAST: Commit & push, update WORKER_STATE.md        │
 │  7. REPEAT: Claim next page                                 │
 └─────────────────────────────────────────────────────────────┘
@@ -185,11 +188,11 @@ For each Russian sentence, produce:
 - **Japanese**: Standard Japanese
 
 #### 4. Save as JSON
-Save to `translations/page_XXX.json` using the exact format below.
+Save to `translations/raw/page_XXX.json` using the exact format below.
 
 #### 5. (Optional) Generate PDF
 ```bash
-python3 tools/compile_pages.py translations/page_013.json output/
+python3 tools/compile_pages.py translations/raw/page_013.json output/
 ```
 
 ---
@@ -346,9 +349,9 @@ git fetch origin --prune
 
 ### Completing a Page
 ```bash
-git add translations/page_XXX.json WORKER_STATE.md
+git add translations/raw/page_XXX.json WORKER_STATE.md
 git commit -m "[$MY_SHORT_ID] DONE: Completed page XXX
-HASH: $(sha256sum translations/page_XXX.json | cut -c1-8)
+HASH: $(sha256sum translations/raw/page_XXX.json | cut -c1-8)
 HEARTBEAT: $(date +%s)"
 git push origin HEAD
 ```
@@ -372,7 +375,7 @@ git push origin HEAD
 ### Using the Compilation Tool
 ```bash
 # Generate PDF for a single page
-python3 tools/compile_pages.py translations/page_013.json output/
+python3 tools/compile_pages.py translations/raw/page_013.json output/
 
 # This creates output/page_013.pdf
 ```
@@ -460,7 +463,7 @@ If you can't complete your current page:
 | `WORKER_STATE.md` | Your status (claims, completions) | Every action |
 | `PROTOCOL.md` | Communication rules | Read-only |
 | `instructions.md` | Task instructions | Read-only |
-| `translations/page_XXX.json` | Your output | Per page |
+| `translations/raw/page_XXX.json` | Your output | Per page |
 | `research/glossary.md` | Term consistency | Reference |
 
 ---

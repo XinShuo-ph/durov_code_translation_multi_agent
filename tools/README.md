@@ -26,6 +26,22 @@ To visually distinguish languages in parallel text:
 python3 tools/compile_pages.py translations/raw/page_XXX.json output_directory
 ```
 
+## Team Coordination Helpers (Recommended)
+
+These helpers make the multi-agent protocol easier to execute.
+
+### 1) Check team status / find next available page
+```bash
+python3 tools/team.py status
+python3 tools/team.py check-page 17
+python3 tools/team.py next-page
+```
+
+### 2) Validate a translation JSON (quality gate)
+```bash
+python3 tools/validate_translation.py translations/raw/page_013.json
+```
+
 ## Dependencies
 - `python3`
 - `xelatex` (part of `texlive-xetex`)

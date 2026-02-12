@@ -109,7 +109,7 @@ tools/
 
 Workers save translations to:
 ```
-translations/page_XXX.json
+translations/raw/page_XXX.json
 ```
 
 Optional PDF output:
