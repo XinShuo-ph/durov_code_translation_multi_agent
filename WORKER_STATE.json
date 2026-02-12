@@ -2,12 +2,12 @@
   "worker_id": "27ba",
   "branch": "cursor/translation-project-initialization-27ba",
   "batch_prefix": "cursor/translation-project-initialization",
-  "heartbeat": 1770877200,
+  "heartbeat": 1770877300,
   "status": "translating",
-  "claimed_page": 3,
-  "claimed_at": 1770877200,
-  "completed_pages": [2],
+  "claimed_page": 4,
+  "claimed_at": 1770877300,
+  "completed_pages": [2, 3],
   "phase": "stripe",
-  "last_sync_at": 1770877200,
-  "notes": "Completed page 2 (front matter)"
+  "last_sync_at": 1770877300,
+  "notes": "Completed page 3 (table of contents)"
 }
