@@ -2,12 +2,13 @@
   "worker_id": "4773",
   "branch": "cursor/parallel-translation-project-setup-4773",
   "batch_prefix": "cursor/parallel-translation-project-setup",
-  "heartbeat": 1770877191,
+  "heartbeat": 1770877340,
   "status": "idle",
   "claimed_page": null,
   "claimed_at": null,
   "completed_pages": [
-    1
+    1,
+    2
   ],
   "phase": "stripe",
   "last_sync_at": 1770877137,
