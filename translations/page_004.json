@@ -1,0 +1,69 @@
+{
+  "page": 4,
+  "chapter": 0,
+  "chapter_title": "Front Matter - Рекомендации (Book Recommendations)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. \"Durov's Code. The Real Story of VKontakte and Its Creator\"",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創業者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Николай Кононов",
+      "en": "Nikolai Kononov",
+      "zh": "尼古拉·科诺诺夫",
+      "ja": "ニコライ・コノノフ"
+    },
+    {
+      "id": 3,
+      "ru": "Код Дурова. Реальная история «ВКонтакте» и ее создателя",
+      "en": "Durov's Code. The Real Story of VKontakte and Its Creator",
+      "zh": "杜罗夫密码：VKontakte及其创始人的真实故事",
+      "ja": "ドゥーロフの暗号：VKontakteとその創業者の真実の物語"
+    },
+    {
+      "id": 4,
+      "ru": "Эту книгу хорошо дополняют:",
+      "en": "Books that complement this one well:",
+      "zh": "以下书籍与本书相得益彰：",
+      "ja": "この本を補完する良書："
+    },
+    {
+      "id": 5,
+      "ru": "Мечтай, создавай, изменяй! Как молодые предприниматели меняют мир и зарабатывают состояния",
+      "en": "Dream, Create, Change! How Young Entrepreneurs Are Changing the World and Making Fortunes",
+      "zh": "梦想、创造、改变！年轻企业家如何改变世界并赚取财富",
+      "ja": "夢を見て、創造し、変えよ！若き起業家たちがいかにして世界を変え、財を成すか"
+    },
+    {
+      "id": 6,
+      "ru": "Сара Лейси",
+      "en": "Sarah Lacy",
+      "zh": "萨拉·莱西",
+      "ja": "サラ・レイシー"
+    },
+    {
+      "id": 7,
+      "ru": "И ботаники делают бизнес",
+      "en": "Nerds Do Business Too",
+      "zh": "书呆子也做生意",
+      "ja": "オタクたちもビジネスをする"
+    },
+    {
+      "id": 8,
+      "ru": "Максим Котин",
+      "en": "Maxim Kotin",
+      "zh": "马克西姆·科京",
+      "ja": "マクシム・コーチン"
+    }
+  ],
+  "translator_notes": [
+    "Page 4 contains recommended companion books",
+    "The phrase 'И ботаники делают бизнес' uses the Russian slang 'ботаники' (botanists/nerds), a key term in the book's context"
+  ],
+  "total_sentences": 8,
+  "page_type": "front_matter"
+}
