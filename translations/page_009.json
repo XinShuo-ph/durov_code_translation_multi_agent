@@ -1,0 +1,238 @@
+{
+  "page": 9,
+  "chapter": 0,
+  "chapter_title": "Пролог (Prologue)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "вроде: «Сквот ИЕ. Кости в танке», «Наркомпросвет», «Злые пользователи», «Музей Дурова» и т. п.",
+      "en": "things like: “Squat IE. Bones in a Tank,” “Narkomprosvet,” “Angry Users,” “The Durov Museum,” and so on.",
+      "zh": "诸如：“Squat IE：坦克里的骨头”“纳尔科姆普罗斯韦特”“愤怒的用户”“杜罗夫博物馆”等等。",
+      "ja": "たとえば「Squat IE：戦車の中の骨」「ナルコムプロスヴェト」「怒れるユーザー」「ドゥーロフ博物館」など。"
+    },
+    {
+      "id": 2,
+      "ru": "Бо́льшая часть пришедших носила футболки, схваченные ремнями выше пояса, а некоторые гордо застегнули рубашки на верхнюю пуговицу.",
+      "en": "Most of those who came wore T-shirts cinched with straps above the waist, and a few proudly buttoned their shirts all the way up to the top.",
+      "zh": "来的人大多穿着 T 恤，腰带系在腰线上方；还有些人自豪地把衬衫扣到了最上面一颗纽扣。",
+      "ja": "来た人の大半は、腰より上でベルトで絞ったTシャツを着ていて、何人かは誇らしげにシャツの一番上のボタンまで留めていた。"
+    },
+    {
+      "id": 3,
+      "ru": "Странные люди выглядели как кодла ботаников родом из эссе Пола Грэма Why Nerds Are Unpopular, которая сбежала с олимпиады по физике и учредила свое государство на необитаемом острове.",
+      "en": "These odd people looked like a gang of nerds straight out of Paul Graham’s essay Why Nerds Are Unpopular—like they’d escaped a physics olympiad and founded their own state on a deserted island.",
+      "zh": "这些怪人看起来像是从保罗·格雷厄姆的文章《Why Nerds Are Unpopular》里走出来的一群书呆子：仿佛他们从物理奥赛逃出来，在一座无人岛上建立了自己的国家。",
+      "ja": "その奇妙な人々は、ポール・グレアムのエッセイ『Why Nerds Are Unpopular』から抜け出してきたようなオタクの一団に見えた。まるで物理オリンピックから逃げ出し、無人島に自分たちの国家を建てたかのように。"
+    },
+    {
+      "id": 4,
+      "ru": "Собравшись в круг, нёрды вслушивались в детали переговоров.",
+      "en": "Gathered in a circle, the nerds listened closely to the details of the negotiations.",
+      "zh": "书呆子们围成一圈，竖起耳朵听谈判的细节。",
+      "ja": "輪になって集まり、オタクたちは交渉の細部に聞き入っていた。"
+    },
+    {
+      "id": 5,
+      "ru": "Кто-то наливал сок из автомата, выжимавшего апельсины.",
+      "en": "Someone poured juice from a machine that squeezed oranges.",
+      "zh": "有人从一台榨橙汁的机器里倒果汁。",
+      "ja": "誰かが、オレンジを搾る機械からジュースを注いでいた。"
+    },
+    {
+      "id": 6,
+      "ru": "Кто-то, забыв, зачем пришел, обсуждал возможности языка C++.",
+      "en": "Someone else, forgetting why he’d come, was discussing what C++ could do.",
+      "zh": "还有人忘了自己来干什么，开始讨论 C++ 语言的可能性。",
+      "ja": "別の誰かは、来た目的を忘れたかのようにC++の可能性を語っていた。"
+    },
+    {
+      "id": 7,
+      "ru": "«Классный момент был, – пересказывал главный программист. – Этот нам: „Вы хотите десять, но мы не можем дать больше пяти“. А Павел ему: „Двадцать!“»",
+      "en": "‘There was this great moment,’ the lead programmer retold. ‘He tells us: you want ten, but we can’t give more than five. And Pavel tells him: twenty!’",
+      "zh": "“当时有个很妙的瞬间，”首席程序员复述道。“那边对我们说：你们要十个，但我们最多只能给五个。帕维尔回他：二十！”",
+      "ja": "「最高の瞬間があったんだ」と主任プログラマーが語った。「向こうは『君たちは10が欲しいが、こちらは5以上は出せない』と言う。するとパーヴェルが『20！』ってね」"
+    },
+    {
+      "id": 8,
+      "ru": "Нёрды заулыбались.",
+      "en": "The nerds broke into smiles.",
+      "zh": "书呆子们都笑了起来。",
+      "ja": "オタクたちはにやりと笑った。"
+    },
+    {
+      "id": 9,
+      "ru": "Старожилы помнили, как предводитель менял себя и учился вежливо хамить.",
+      "en": "The old-timers remembered how the leader had been reshaping himself—learning to be rude politely.",
+      "zh": "老成员记得，首领如何改变自己，学会了礼貌地刻薄。",
+      "ja": "古参は、首領が自分を変え、丁寧に毒を吐く術を身につけていく過程を覚えていた。"
+    },
+    {
+      "id": 10,
+      "ru": "«Так торгашей и надо троллить», – произнес кто-то.",
+      "en": "‘That’s exactly how you should troll the hucksters,’ someone said.",
+      "zh": "“就该这么嘲讽那些小商贩。”有人说道。",
+      "ja": "「商売人はこうやって煽ってやるべきだ」と誰かが言った。"
+    },
+    {
+      "id": 11,
+      "ru": "Мы занимаемся важными для будущего вещами, и зачем терять время на какие-то проценты.",
+      "en": "We’re doing things that matter for the future—why waste time on a few percentage points?",
+      "zh": "我们在做对未来重要的事，何必把时间耗在那点百分点上？",
+      "ja": "僕らは未来にとって重要なことをしているのに、どうしてたかが数％のために時間を無駄にするんだ。"
+    },
+    {
+      "id": 12,
+      "ru": "«Прозрачная позиция отлично работает», – добавил переговорщик.",
+      "en": "‘A transparent stance works great,’ the negotiator added.",
+      "zh": "“立场透明非常管用。”谈判者补充道。",
+      "ja": "「透明な姿勢はよく効く」と交渉役が付け加えた。"
+    },
+    {
+      "id": 13,
+      "ru": "«Да, конечно, – кивнул лидер, – когда ты не врешь, тобой нельзя манипулировать».",
+      "en": "‘Yeah, of course,’ the leader nodded. ‘When you don’t lie, you can’t be manipulated.’",
+      "zh": "“是啊，当然，”首领点头说，“当你不撒谎时，就没人能操纵你。”",
+      "ja": "「そう、もちろん」とリーダーはうなずいた。「嘘をつかなければ、操られようがない」"
+    },
+    {
+      "id": 14,
+      "ru": "«Павел, – спросил один из программистов, – а правда, что наш инвестор хочет слить бизнесы в один холдинг – и мы как бы войдем туда?»",
+      "en": "‘Pavel,’ one of the programmers asked, ‘is it true our investor wants to merge the businesses into a single holding company—and we’d sort of be folded into it?’",
+      "zh": "“帕维尔，”一位程序员问，“真的么？我们的投资人想把几门生意并进一个控股公司——我们也算是被并进去？”",
+      "ja": "「パーヴェル」とプログラマーの一人が尋ねた。「うちの投資家が事業を一つのホールディングにまとめて、僕らもそこに組み込むつもりだって本当？」"
+    },
+    {
+      "id": 15,
+      "ru": "Пауза.",
+      "en": "A pause.",
+      "zh": "沉默。",
+      "ja": "沈黙。"
+    },
+    {
+      "id": 16,
+      "ru": "«Вполне возможно, что так».",
+      "en": "‘Quite possible,’ he said.",
+      "zh": "“很有可能。”",
+      "ja": "「十分あり得る」"
+    },
+    {
+      "id": 17,
+      "ru": "Еще пауза.",
+      "en": "Another pause.",
+      "zh": "又是一阵沉默。",
+      "ja": "さらに沈黙。"
+    },
+    {
+      "id": 18,
+      "ru": "Нёрды сознавали, что слияние с корпорацией может принести больше проблем, чем ярость сетевых коммерсантов.",
+      "en": "The nerds understood that merging with a corporation could bring more trouble than the rage of online merchants.",
+      "zh": "书呆子们明白，与大公司合并带来的麻烦，可能比那些网络商人的愤怒更大。",
+      "ja": "オタクたちは、企業との合併はネット商人の怒りよりも大きな厄介事を招きかねないと理解していた。"
+    },
+    {
+      "id": 19,
+      "ru": "Речь шла о возможной войне за независимость, потеря которой означала бы распад их коммуны, живущей по своим законам.",
+      "en": "It was about a possible war for independence—losing it would mean the collapse of their commune, which lived by its own rules.",
+      "zh": "这关乎一场可能的独立之战：一旦失去独立，就意味着他们按自己的法则生活的公社会瓦解。",
+      "ja": "話は独立をめぐる戦争の可能性だった。それを失えば、自分たちの掟で生きるコミューンは崩壊してしまう。"
+    },
+    {
+      "id": 20,
+      "ru": "Мало кто в доме Зингера догадывался, что война идет с первого года жизни «ВКонтакте» и имеет свое предназначение.",
+      "en": "Few in the Singer House suspected that the war had been going on since VKontakte’s very first year—and that it had its own purpose.",
+      "zh": "在辛格大楼里，几乎没人意识到：这场战争从 VKontakte 诞生第一年就开始了，而且自有其使命。",
+      "ja": "ジンガー館（シンガー・ハウス）にいるほとんどの人は、その戦いが「VKontakte」誕生の最初の年から続いており、しかもそれには目的があることを知らなかった。"
+    },
+    {
+      "id": 21,
+      "ru": "Возможно, это знали медные валькирии, но никому не говорили и молчали, взирая на человеческий трафик, который тек под ними, несмотря на то что собор, мосты и весь Петербург погрузились в ночь.",
+      "en": "Perhaps the bronze valkyries knew, but they told no one; they stayed silent, gazing down at the human traffic flowing beneath them, even as the cathedral, the bridges, and all of Petersburg sank into night.",
+      "zh": "也许那些铜制女武神知道，但她们谁也不说，只是沉默地俯视着脚下流动的人流——尽管大教堂、桥梁以及整个彼得堡都已沉入夜色。",
+      "ja": "あるいは青銅のワルキューレたちは知っていたのかもしれない。だが誰にも告げず、沈黙したまま、下を流れていく人間のトラフィックを見下ろしていた。大聖堂も橋も、ペテルブルク全体も夜に沈んでいるというのに。"
+    },
+    {
+      "id": 22,
+      "ru": "Историю с переговорами мне рассказали ее участники со стороны «ВКонтакте», предусмотрительно записавшие беседу на диктофон (их оппонент не отреагировал на просьбу прокомментировать отношения с домом Зингера).",
+      "en": "The story of the negotiations was told to me by the VKontakte participants, who had prudently recorded the conversation on a voice recorder (their counterpart didn’t respond to a request to comment on relations with the Singer House).",
+      "zh": "关于那场谈判的故事，是 VKontakte 一方的参与者讲给我听的；他们谨慎地用录音机录下了谈话（对方并未回应我请其评论与辛格大楼关系的请求）。",
+      "ja": "交渉の経緯は「VKontakte」側の当事者たちが私に語ってくれた。彼らは用心深く会話をボイスレコーダーに録音していた（相手はジンガー館との関係についてコメントしてほしいという要請に反応しなかった）。"
+    },
+    {
+      "id": 23,
+      "ru": "Я слушал и размышлял о том, что мы не заметили, как нёрды сломали картину мира.",
+      "en": "I listened and thought about how we hadn’t even noticed the moment the nerds broke our picture of the world.",
+      "zh": "我听着，也在想：我们竟没注意到书呆子们是如何把世界图景打碎的。",
+      "ja": "私はそれを聞きながら、僕らが気づかないうちにオタクたちが世界の見取り図を壊してしまったことについて考えていた。"
+    },
+    {
+      "id": 24,
+      "ru": "Похожие друг на друга утра: конструктор из многоэтажек; толкотня у поручня или ругань на перестраивающихся справа; метро; люди, уткнувшиеся в газеты, пусть даже в телефоны, – дело не в носителе, мало кто замечает, насколько стремительно технологии изменили сознание и психику.",
+      "en": "Mornings all alike: a jigsaw of high-rises; shoving by the handrail or cursing at drivers cutting in from the right; the metro; people buried in newspapers—now in phones; it’s not about the medium. Few notice how quickly technology has changed our minds and our nerves.",
+      "zh": "一成不变的早晨：由高楼拼起来的城市；扶手旁的拥挤，或对右侧并线者的咒骂；地铁；人们埋头看报——哪怕如今是看手机——载体并不重要；很少有人注意到技术在多么迅猛地改变意识与心理。",
+      "ja": "どれも似たような朝。高層住宅のパズル、手すりの前の押し合いへし合い、右から割り込む車への罵声、地下鉄、新聞——いまはスマホ——に顔を埋める人々。媒体の問題ではない。テクノロジーが意識と神経をどれほど急速に変えてしまったか、ほとんど誰も気づかない。"
+    },
+    {
+      "id": 25,
+      "ru": "Сто лет назад человек скакал на лошади к другу, позже пугался прибывающего поезда и плакал, услышав голос в трубке на расстоянии.",
+      "en": "A hundred years ago you galloped on horseback to see a friend; later you flinched at an approaching train and cried when you heard a distant voice through a receiver.",
+      "zh": "一百年前，人们骑马奔向朋友；后来，他们会被驶来的火车吓到，会在听筒里听到远方的声音时落泪。",
+      "ja": "百年前、人は馬で友人のもとへ駆けた。その後、近づいてくる列車に怯え、離れた場所から受話器越しに声を聞いて泣いた。"
+    },
+    {
+      "id": 26,
+      "ru": "Знание в пределах одной страны доставлялось днями, часами, наконец, минутами – теперь люди обмениваются информацией мгновенно.",
+      "en": "Within a single country, knowledge used to travel in days, then hours, then minutes; now people exchange information instantly.",
+      "zh": "在一个国家之内，信息曾经需要以天、以小时、最后以分钟来传递——如今人们瞬间就能交换信息。",
+      "ja": "同じ国の中でさえ、知は何日も、何時間も、やがて何分もかけて運ばれていた。いまや人々は情報を瞬時にやり取りする。"
+    },
+    {
+      "id": 27,
+      "ru": "Человек говорит и видит абонента, следит за его жизнью в фотокартинках и видео.",
+      "en": "A person speaks and sees the other party, following their life through photos and videos.",
+      "zh": "人们可以说话并看到对方，通过照片和视频关注他的生活。",
+      "ja": "人は相手と話し、姿を見て、写真や動画でその生活を追う。"
+    },
+    {
+      "id": 28,
+      "ru": "Люди не стали ближе, но стали откровеннее за считаные годы.",
+      "en": "People haven’t grown closer, but in just a few years they’ve become more candid.",
+      "zh": "人们并没有变得更亲近，但在短短几年里变得更坦白。",
+      "ja": "人は近づいたわけではないが、ほんの数年でずっと率直になった。"
+    },
+    {
+      "id": 29,
+      "ru": "Если раньше личными переживаниями владели мы сами и отчасти наши близкие, то теперь – это любой, перед кем мы хотим обнажиться.",
+      "en": "If earlier our private feelings belonged to us, and to some extent our loved ones, now they belong to anyone in front of whom we choose to strip bare.",
+      "zh": "如果说以前个人的感受与烦恼只属于我们自己，部分也属于亲近的人，那么现在——它们属于任何一个我们想在其面前裸露的人。",
+      "ja": "かつては個人的な痛みや感情は自分自身のもので、せいぜい身近な人のものでもあった。だが今では、それは私たちがさらけ出したい相手なら誰のものにもなりうる。"
+    },
+    {
+      "id": 30,
+      "ru": "Даже если вы не дали допуск к своим мыслям, переживаниям, фото, все равно есть люди, которые владеют выплеснутым вами содержанием жизни – то есть надеждами и страхами, горем и эйфорией, похотью и изменой, сокровенным и непростительным.",
+      "en": "Even if you didn’t grant access to your thoughts, feelings, photos, there are still people who possess the life you’ve splashed out—your hopes and fears, grief and euphoria, lust and betrayal, the intimate and the unforgivable.",
+      "zh": "即便你没有把思想、情绪与照片的权限交出去，也仍然会有人掌握你倾倒出来的生活内容——也就是希望与恐惧、悲伤与狂喜、欲望与背叛、隐秘与不可饶恕。",
+      "ja": "たとえ自分の思考や感情、写真へのアクセスを許していなくても、あなたが吐き出してしまった人生の中身——希望と恐れ、悲嘆と陶酔、欲望と裏切り、秘め事と赦されないもの——を握る人々はいる。"
+    },
+    {
+      "id": 31,
+      "ru": "Тем, в чем признаются, давясь словами, на последней исповеди, владеют люди, которых никто, по сути, близко не знает.",
+      "en": "What people confess—choking on words—at their last confession is possessed by people whom, in truth, no one really knows well.",
+      "zh": "那些在最后一次忏悔时、哽着词句才吐露的东西，如今掌握在一些人手里——而这些人，事实上没人真正了解。",
+      "ja": "最後の告解で、言葉に詰まりながら打ち明けるようなものを握っているのは、実のところ誰も近くで知らない人々だ。"
+    },
+    {
+      "id": 32,
+      "ru": "Даже если эти люди, втащившие мир в двоичный код, держат слово, как врачи или адвокаты, все равно знание человеческой изнанки у них достовернейшего качества.",
+      "en": "Even if those who hauled the world into binary keep their word like doctors or lawyers, their knowledge of the human underside is still of the most reliable kind.",
+      "zh": "即便这些把世界拖进二进制代码的人能像医生或律师那样守口如瓶，他们对人性背面的了解仍然是最真实、最可靠的。",
+      "ja": "たとえ世界を二進コードへ引きずり込んだ彼らが医師や弁護士のように守秘を守ったとしても、人間の裏側についての知識は、彼らの手の中でこの上なく確かなものになる。"
+    }
+  ],
+  "translator_notes": [
+    "Paul Graham’s essay title is kept in English as in the original.",
+    "The “House of Singer” refers to the Singer House (Дом Зингера) in St. Petersburg; “bronze valkyries” evokes statues overlooking the street traffic.",
+    "The printed section break is represented implicitly (*** in the source page)."
+  ],
+  "total_sentences": 32,
+  "page_type": "narrative"
+}
