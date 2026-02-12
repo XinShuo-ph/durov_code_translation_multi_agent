@@ -2,11 +2,13 @@
   "worker_id": "4669",
   "branch": "cursor/parallel-translation-project-setup-4669",
   "batch_prefix": "cursor/parallel-translation-project-setup",
-  "heartbeat": 1770877228,
-  "status": "translating",
-  "claimed_page": 10,
-  "claimed_at": 1770877228,
-  "completed_pages": [],
+  "heartbeat": 1770877460,
+  "status": "idle",
+  "claimed_page": null,
+  "claimed_at": null,
+  "completed_pages": [
+    10
+  ],
   "phase": "stripe",
   "last_sync_at": 1770877169,
   "notes": "Startup registration; stripe pages computed."
