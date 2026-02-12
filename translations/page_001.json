@@ -1,0 +1,19 @@
+{
+  "page": 1,
+  "chapter": 0,
+  "chapter_title": "Front Matter (扉页 / 表紙)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "[Титульный лист]",
+      "en": "[Title Page]",
+      "zh": "[扉页]",
+      "ja": "[表紙]"
+    }
+  ],
+  "translator_notes": [
+    "Page 1 is the title page with no text content, placeholder entry added for validation"
+  ],
+  "total_sentences": 1,
+  "page_type": "front_matter"
+}
