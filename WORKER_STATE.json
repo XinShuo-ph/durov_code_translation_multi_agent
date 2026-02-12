@@ -2,7 +2,7 @@
   "worker_id": "01e0",
   "branch": "cursor/parallel-translation-project-setup-01e0",
   "batch_prefix": "cursor/parallel-translation-project-setup",
-  "heartbeat": 1770877458,
+  "heartbeat": 1770877530,
   "status": "idle",
   "claimed_page": null,
   "claimed_at": null,
@@ -11,7 +11,8 @@
     2,
     3,
     4,
-    5
+    5,
+    6
   ],
   "phase": "stripe",
   "last_sync_at": 1739335200,
