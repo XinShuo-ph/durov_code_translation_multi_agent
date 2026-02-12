@@ -1,0 +1,13 @@
+{
+  "worker_id": "721d",
+  "branch": "cursor/parallel-translation-project-setup-721d",
+  "batch_prefix": "cursor/parallel-translation-project-setup",
+  "heartbeat": 1770877206,
+  "status": "translating",
+  "claimed_page": 3,
+  "claimed_at": 1770877206,
+  "completed_pages": [],
+  "phase": "stripe",
+  "last_sync_at": 1770877206,
+  "notes": "Phase 1 STRIPE. Translating page 003."
+}
