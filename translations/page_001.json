@@ -1,0 +1,19 @@
+{
+  "page": 1,
+  "chapter": 0,
+  "chapter_title": "Титульная страница (Title Page)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "[Пустая страница]",
+      "en": "[Blank page]",
+      "zh": "[空白页]",
+      "ja": "[白紙ページ]"
+    }
+  ],
+  "translator_notes": [
+    "Page 1 is a blank page in the original PDF, likely the inner cover or half-title page"
+  ],
+  "total_sentences": 1,
+  "page_type": "front_matter"
+}

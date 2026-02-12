@@ -1,0 +1,91 @@
+{
+  "page": 2,
+  "chapter": 0,
+  "chapter_title": "Титульная страница (Title Page)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Николай В. Кононов",
+      "en": "Nikolai V. Kononov",
+      "zh": "尼古拉·B·科诺诺夫",
+      "ja": "ニコライ・V・コノノフ"
+    },
+    {
+      "id": 2,
+      "ru": "Код Дурова. Реальная история «ВКонтакте» и ее создателя",
+      "en": "Durov's Code. The Real Story of VKontakte and Its Creator",
+      "zh": "杜罗夫密码：VKontakte及其创始人的真实故事",
+      "ja": "ドゥーロフの暗号：VKontakteとその創設者の真実の物語"
+    },
+    {
+      "id": 3,
+      "ru": "Текст предоставлен издательством",
+      "en": "Text provided by the publisher",
+      "zh": "文本由出版社提供",
+      "ja": "テキストは出版社より提供"
+    },
+    {
+      "id": 4,
+      "ru": "Код Дурова. Реальная история «ВКонтакте» и ее создателя / Николай В. Кононов: Манн, Иванов, Фербер; Москва; 2013",
+      "en": "Durov's Code. The Real Story of VKontakte and Its Creator / Nikolai V. Kononov: Mann, Ivanov, Ferber; Moscow; 2013",
+      "zh": "杜罗夫密码：VKontakte及其创始人的真实故事 / 尼古拉·B·科诺诺夫：曼恩、伊万诺夫与费尔贝尔出版社；莫斯科；2013",
+      "ja": "ドゥーロフの暗号：VKontakteとその創設者の真実の物語 / ニコライ・V・コノノフ：マン、イワノフ、フェルベル社；モスクワ；2013年"
+    },
+    {
+      "id": 5,
+      "ru": "ISBN 978-5-91657-546-0",
+      "en": "ISBN 978-5-91657-546-0",
+      "zh": "ISBN 978-5-91657-546-0",
+      "ja": "ISBN 978-5-91657-546-0"
+    },
+    {
+      "id": 6,
+      "ru": "Аннотация",
+      "en": "Annotation",
+      "zh": "内容简介",
+      "ja": "概要"
+    },
+    {
+      "id": 7,
+      "ru": "Серо-голубой логотип «ВКонтакте» мелькает на всех мониторах страны.",
+      "en": "The gray-blue VKontakte logo flickers on every monitor in the country.",
+      "zh": "VKontakte的灰蓝色标志在全国的每一个屏幕上闪烁。",
+      "ja": "VKontakteのグレーブルーのロゴが国中のあらゆるモニターでちらついている。"
+    },
+    {
+      "id": 8,
+      "ru": "Чем так притягательна виртуальная реальность соцсети для десятков миллионов россиян от 12 и старше?",
+      "en": "What makes the virtual reality of this social network so magnetic for tens of millions of Russians aged 12 and up?",
+      "zh": "这个社交网络的虚拟现实究竟有什么魔力，能吸引数千万12岁以上的俄罗斯人？",
+      "ja": "このソーシャルネットワークの仮想現実は、なぜ12歳以上の数千万のロシア人をこれほど惹きつけるのか？"
+    },
+    {
+      "id": 9,
+      "ru": "Кто придумал эту игрушку и куда этот человек ведет свою необычную компанию?",
+      "en": "Who invented this toy, and where is this person leading his unusual company?",
+      "zh": "是谁发明了这个玩意儿？这个人又要把他那不寻常的公司带向何方？",
+      "ja": "誰がこのおもちゃを作り出し、その人物はこの異色の会社をどこへ導こうとしているのか？"
+    },
+    {
+      "id": 10,
+      "ru": "Павел Дуров почти не общается с журналистами, но автору этой книги удалось проникнуть внутрь «ВКонтакте».",
+      "en": "Pavel Durov barely communicates with journalists, but the author of this book managed to get inside VKontakte.",
+      "zh": "帕维尔·杜罗夫几乎不与记者打交道，但本书作者却成功渗透到了VKontakte内部。",
+      "ja": "パーヴェル・ドゥーロフはジャーナリストとほとんど交流しないが、本書の著者はVKontakteの内部に入り込むことに成功した。"
+    },
+    {
+      "id": 11,
+      "ru": "Получилось не просто журналистское расследование, а авантюрная история, исследующая феномен сетевого предпринимателя-харизматика и его детища – а заодно и вполне материальное выражение популярности бизнеса соцсети.",
+      "en": "What emerged was not just a journalistic investigation, but an adventure story exploring the phenomenon of a charismatic internet entrepreneur and his brainchild — and, incidentally, a very tangible expression of the social network business's popularity.",
+      "zh": "最终呈现的不仅是一篇新闻调查，而是一个冒险故事，探索了一位充满魅力的网络企业家及其创造物的现象——同时也是社交网络商业人气的一个非常实在的体现。",
+      "ja": "その結果は単なるジャーナリスティックな調査にとどまらず、カリスマ的なインターネット起業家とその創造物の現象を探る冒険物語となった――そしてそれは同時に、ソーシャルネットワークビジネスの人気の極めて具体的な表現でもある。"
+    }
+  ],
+  "translator_notes": [
+    "This is the title page and annotation (book summary) of the original publication",
+    "Mann, Ivanov, Ferber (МИФ) is a major Russian publisher known for business and non-fiction books",
+    "The annotation sets up the book's premise: investigating the enigmatic Pavel Durov and VKontakte"
+  ],
+  "total_sentences": 11,
+  "page_type": "front_matter"
+}
