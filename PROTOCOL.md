@@ -1,377 +1,197 @@
-# Collaborative Translation Protocol
+# Multi-Agent Parallel Protocol v3 (Concise + Executable)
 
-## Overview
+This protocol is designed from the 16 `book-translation-multi-agent-*` branches.
 
-This protocol enables multiple AI agents to work **collaboratively** on translating the Durov Code book. Workers communicate via git, share progress, and dynamically distribute workload. The protocol is designed to be robust against worker disconnection and reconnection.
+## Postmortem Signals (Why v3)
 
-**Key Philosophy**: Workers are a team, not isolated freelancers. They know who else is working, what pages are claimed, and can adapt when workers join or leave.
+- 16 workers started, but active workers dropped to 1 near the end.
+- Only 37 unique pages were produced across all 16 branches.
+- Demo pages were over-translated (`page_013` and `page_043` appeared in 7 branches each).
+- Most branches spent time on setup/consensus instead of sustained translation.
 
----
-
-## Core Concepts
-
-### 1. Worker Identity
-- **Branch Name**: Your full branch (e.g., `cursor/some-task-abc123`)
-- **Short ID**: Last 4 characters of branch name (e.g., `c123`)
-- **Registration**: Creating `WORKER_STATE.md` on your branch registers you as active
-
-### 2. Communication via Git
-| Action | Meaning |
-|--------|---------|
-| Commit + Push | Broadcast your state to the team |
-| Fetch + Read other branches | Receive team updates |
-| WORKER_STATE.md | Your live status file |
-
-### 3. Heartbeat System
-- Workers must include a **Unix timestamp** in every commit
-- Heartbeat in WORKER_STATE.md must be updated at least every **5 minutes**
-- Workers with stale heartbeats (>10 minutes) are considered **offline**
+v3 fixes this with **immediate translation**, **batch-local discovery**, **machine-readable state**, and an **executable coordinator**.
 
 ---
 
-## The Sync Loop
+## Core Rules (Non-Negotiable)
 
-Every worker follows this loop continuously:
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  1. SYNC: Fetch all branches, discover active workers       │
-│  2. BUILD PICTURE: Who's online? What pages are claimed?    │
-│  3. CLAIM: If I need a page, claim the lowest available     │
-│  4. TRANSLATE: Work on my claimed page                      │
-│  5. BROADCAST: Commit & push my progress                    │
-│  6. REPEAT every 2-3 minutes                                │
-└─────────────────────────────────────────────────────────────┘
-```
-
-**Sync frequency**: Every 2-3 minutes (or after completing each page)
+1. **No M0/M1/M2 phase gates**. Start translating immediately.
+2. **Only coordinate with your batch peers** (same branch prefix, excluding the last `-xxxx` worker ID).
+3. **Use `WORKER_STATE.json`** (not free-form markdown) as source of truth.
+4. **Claim via tool before translating**:
+   - `python3 tools/parallel_coord.py claim ...`
+5. **One live claim per worker**.
+6. **Balance guard enabled**: if you are too far ahead of active peers, claim is throttled unless forced.
+7. **Heartbeat freshness**:
+   - worker offline after 10 minutes stale heartbeat
+   - claim reclaimable after 15 minutes stale claim
 
 ---
 
-## Worker Discovery
+## Required File Conventions
 
-### Identifying Yourself
+- Worker state: `WORKER_STATE.json`
+- Output file: `translations/page_XXX.json` (three-digit page number)
+
+Use `WORKER_STATE_TEMPLATE.json` to initialize local state.
+
+---
+
+## Coordinator Tool (Executable Protocol)
+
+All coordination commands are implemented in:
+
 ```bash
+python3 tools/parallel_coord.py <command> [flags]
+```
+
+### Commands
+
+- `status` - online workers, live claims, completed coverage, duplicates
+- `next` - recommended next page for this worker
+- `check` - availability for one page
+- `claim` - atomically claim a page in local `WORKER_STATE.json`
+- `done` - validate page JSON + mark page complete in local state
+- `heartbeat` - keep worker online while reviewing/debugging
+
+---
+
+## 3-Minute Startup
+
+```bash
+# 1) Identity
 MY_BRANCH=$(git branch --show-current)
-MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
-echo "I am: $MY_SHORT_ID on $MY_BRANCH"
-```
+MY_SHORT_ID=$(echo "$MY_BRANCH" | awk -F- '{print $NF}')
 
-### Discovering All Active Workers
-```bash
-git fetch origin --prune
+# 2) Init state once
+test -f WORKER_STATE.json || cp WORKER_STATE_TEMPLATE.json WORKER_STATE.json
 
-# Find all cursor/* branches with WORKER_STATE.md
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
-    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    heartbeat=$(git show "origin/${branch}:WORKER_STATE.md" 2>/dev/null | grep -oP 'Heartbeat: \K[0-9]+' | head -1)
-    echo "Active: $short_id ($branch) - Heartbeat: $heartbeat"
-  fi
-done
-```
+# 3) Sync view
+python3 tools/parallel_coord.py --fetch status
 
-### Counting Online Workers
-A worker is **online** if:
-1. They have `WORKER_STATE.md` on their branch
-2. Their heartbeat is less than 10 minutes old
+# 4) Pick page
+NEXT_PAGE=$(python3 tools/parallel_coord.py --fetch next --worker "$MY_SHORT_ID")
 
-Workers with heartbeats older than 10 minutes are considered **offline** (may have lost connection).
-
----
-
-## Page Assignment
-
-### Simple Rule: Claim the Lowest Available Page
-
-```python
-# Pseudocode for page claiming
-def get_next_page():
-    all_pages = set(range(1, 100))  # Pages 1-99
-    
-    # Read all active workers' states
-    claimed = set()      # Pages currently being translated
-    completed = set()    # Pages already done (translation exists)
-    
-    for worker in active_workers:
-        claimed.update(worker.claimed_pages)
-        completed.update(worker.completed_pages)
-    
-    # Also check translations/ directory for completed work
-    for file in translations/*.json:
-        completed.add(file.page_number)
-    
-    available = sorted(all_pages - claimed - completed)
-    return available[0] if available else None
-```
-
-### Claim Protocol
-
-1. **Sync first**: Always fetch and read other workers' states before claiming
-2. **Claim one page**: Update WORKER_STATE.md with your claimed page
-3. **Push immediately**: Make your claim visible to others
-4. **Verify**: Re-fetch to check for conflicts (rare but possible)
-
-### Conflict Resolution
-If two workers claim the same page (race condition):
-- **Earlier timestamp wins** (commit timestamp)
-- Losing worker should re-sync and claim next available page
-- This is rare with proper sync discipline
-
----
-
-## WORKER_STATE.md Format
-
-Each worker maintains this file on their branch:
-
-```markdown
-# Worker: [SHORT_ID]
-
-## Status
-- **Branch**: [full branch name]
-- **Short ID**: [4 chars]
-- **Heartbeat**: [Unix timestamp]
-- **Status**: online | translating | idle
-
-## Current Work
-- **Claimed Page**: [page number or "none"]
-- **Started At**: [timestamp when started this page]
-
-## Completed Pages
-| Page | Completed At | Hash |
-|------|--------------|------|
-| 13   | 1735689600   | a8f3b2c1 |
-| 14   | 1735690200   | c9d4e5f6 |
-
-## Known Workers (Last Sync)
-| Short ID | Status | Claimed Page | Last Heartbeat |
-|----------|--------|--------------|----------------|
-| abc1     | online | 15           | 1735689900     |
-| def2     | online | 16           | 1735689850     |
-| ghi3     | offline| 17           | 1735685000     |
-
-## Notes
-[Any messages for the team]
-```
-
----
-
-## Handling Worker Disconnection
-
-### Detecting Offline Workers
-When you sync, check each worker's heartbeat:
-```bash
-current_time=$(date +%s)
-worker_heartbeat=1735685000  # From their WORKER_STATE.md
-
-age=$((current_time - worker_heartbeat))
-if [ $age -gt 600 ]; then  # 600 seconds = 10 minutes
-    echo "Worker is OFFLINE (stale heartbeat)"
-fi
-```
-
-### Reclaiming Pages from Offline Workers
-If a worker has been offline for **15+ minutes** and has a claimed page:
-1. Their page becomes available for reclaiming
-2. Any online worker can claim it
-3. Note in your WORKER_STATE.md: "Reclaimed page X from [offline_worker]"
-
-### What the Returning Worker Should Do
-When a worker comes back online after being disconnected:
-1. **Sync first**: Fetch all branches, read all states
-2. **Check your old page**: Is it still yours or was it reclaimed?
-3. **If reclaimed**: Claim the next available page, continue working
-4. **If still yours**: Continue where you left off
-5. **Update heartbeat**: Push immediately to show you're back
-
----
-
-## Handling Worker Reconnection
-
-### New Worker Joining
-When a new worker starts:
-1. Create WORKER_STATE.md (registers you as active)
-2. Sync to discover existing workers
-3. Build global picture (who has what)
-4. Claim lowest available page
-5. Start translating
-
-### Existing Workers Noticing New Worker
-During regular sync, workers will naturally discover new workers:
-1. Fetch shows new branch with WORKER_STATE.md
-2. Add to "Known Workers" table
-3. No special action needed - workload auto-balances
-
-### Workload Rebalancing
-Workload naturally rebalances as workers join/leave:
-- New workers take the lowest available pages
-- When a worker finishes a page, they take the next lowest available
-- No explicit "rebalancing" needed - it's emergent
-
----
-
-## Commit Message Format
-
-Use this format for machine-readable commits:
-
-```
-[SHORT_ID] ACTION: Description
-HEARTBEAT: [unix timestamp]
-```
-
-### Action Types
-
-| Action | When to Use |
-|--------|-------------|
-| `SYNC` | Starting session, syncing with team |
-| `CLAIM` | Claiming a page to translate |
-| `PROGRESS` | Partial progress on a page |
-| `DONE` | Completed a page translation |
-| `RECLAIM` | Taking over an abandoned page |
-
-### Examples
-```bash
-# Starting session
-git commit -m "[c123] SYNC: Starting session, discovering workers
-HEARTBEAT: $(date +%s)"
-
-# Claiming a page
-git commit -m "[c123] CLAIM: Starting page 15
-HEARTBEAT: $(date +%s)"
-
-# Completing a page
-git commit -m "[c123] DONE: Completed page 15
-HASH: a8f3b2c1
-HEARTBEAT: $(date +%s)"
-```
-
----
-
-## Work Product Sharing
-
-### Translation Files
-Completed translations go in `translations/page_XXX.json`:
-```
-translations/
-├── page_001.json
-├── page_002.json
-└── ...
-```
-
-### Syncing Work Products
-When you complete a page:
-1. Save `translations/page_XXX.json`
-2. Commit with DONE message
-3. Push to your branch
-
-Other workers can see your completed pages by:
-```bash
-# Check what translations exist on another worker's branch
-git show "origin/$other_branch:translations/page_015.json" 2>/dev/null
-```
-
-### Aggregating All Work
-At the end, all translations can be collected from all worker branches:
-```bash
-for branch in $(git branch -r | grep 'origin/cursor/'); do
-  for page in $(seq 1 99); do
-    file="translations/page_$(printf '%03d' $page).json"
-    if git show "origin/${branch}:$file" &>/dev/null 2>&1; then
-      echo "Found page $page on $branch"
-    fi
-  done
-done
-```
-
----
-
-## Quick Reference Commands
-
-### Startup Sequence
-```bash
-# 1. Identify yourself
-MY_BRANCH=$(git branch --show-current)
-MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
-
-# 2. Create WORKER_STATE.md (copy from template, fill in your info)
-cp WORKER_STATE_TEMPLATE.md WORKER_STATE.md
-# Edit WORKER_STATE.md with your details
-
-# 3. Sync and discover
-git fetch origin --prune
-# Read other workers' states...
-
-# 4. Register yourself
-git add WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] SYNC: Registering as active worker
-HEARTBEAT: $(date +%s)"
-git push origin HEAD
-```
-
-### Regular Sync (Every 2-3 Minutes)
-```bash
-# Fetch all branches
-git fetch origin --prune
-
-# Read each active worker's state
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  git show "origin/${branch}:WORKER_STATE.md" 2>/dev/null | head -30
-done
-```
-
-### Claim a Page
-```bash
-# Update WORKER_STATE.md with your claim
-# Then:
-git add WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] CLAIM: Starting page 15
-HEARTBEAT: $(date +%s)"
-git push origin HEAD
-```
-
-### Complete a Page
-```bash
-git add translations/page_015.json WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] DONE: Completed page 15
-HASH: $(sha256sum translations/page_015.json | cut -c1-8)
+# 5) Claim and broadcast
+python3 tools/parallel_coord.py --fetch claim --worker "$MY_SHORT_ID" --page "$NEXT_PAGE"
+git add WORKER_STATE.json
+git commit -m "[$MY_SHORT_ID] CLAIM: page $NEXT_PAGE
 HEARTBEAT: $(date +%s)"
 git push origin HEAD
 ```
 
 ---
 
-## Timeouts and Thresholds
+## Main Work Loop
 
-| Situation | Threshold | Action |
-|-----------|-----------|--------|
-| Sync frequency | 2-3 min | Fetch and read other workers |
-| Heartbeat update | 5 min max | Push a commit to stay "online" |
-| Worker considered offline | 10 min | Not included in workload calc |
-| Page can be reclaimed | 15 min | Other workers can take it |
-| Push after claiming | Immediate | Don't start without pushing |
+Repeat until no pages are left:
+
+1. **Find next page**
+   ```bash
+   NEXT_PAGE=$(python3 tools/parallel_coord.py --fetch next --worker "$MY_SHORT_ID")
+   test "$NEXT_PAGE" = "NONE" && echo "All pages done" && break
+   ```
+2. **Claim**
+   ```bash
+   python3 tools/parallel_coord.py --fetch claim --worker "$MY_SHORT_ID" --page "$NEXT_PAGE"
+   git add WORKER_STATE.json
+   git commit -m "[$MY_SHORT_ID] CLAIM: page $NEXT_PAGE
+   HEARTBEAT: $(date +%s)"
+   git push origin HEAD
+   ```
+3. **Translate** to `translations/page_XXX.json`
+4. **Mark done + validate JSON**
+   ```bash
+   FILE="translations/page_$(printf '%03d' "$NEXT_PAGE").json"
+   python3 tools/parallel_coord.py done --worker "$MY_SHORT_ID" --file "$FILE"
+   git add "$FILE" WORKER_STATE.json
+   git commit -m "[$MY_SHORT_ID] DONE: page $NEXT_PAGE
+   HASH: $(sha256sum "$FILE" | cut -c1-8)
+   HEARTBEAT: $(date +%s)"
+   git push origin HEAD
+   ```
+
+If you are temporarily not translating, run:
+
+```bash
+python3 tools/parallel_coord.py heartbeat --worker "$MY_SHORT_ID" --status reviewing
+git add WORKER_STATE.json && git commit -m "[$MY_SHORT_ID] HEARTBEAT" && git push origin HEAD
+```
 
 ---
 
-## Anti-Patterns to Avoid
+## Scheduling Semantics (What `next` Does)
 
-| Don't Do This | Do This Instead |
-|---------------|-----------------|
-| Claim multiple pages at once | Claim one page, finish it, claim next |
-| Skip syncing before claiming | Always sync first |
-| Forget to push claims | Push immediately after claiming |
-| Let heartbeat go stale | Commit at least every 5 min |
-| Ignore offline workers | Reclaim their pages after 15 min |
-| Work in isolation | Sync regularly, share progress |
+For pages `1..99`, a page is available iff it is:
+
+- not already completed anywhere in the batch
+- not claimed by an online worker with a fresh claim
+
+Then the coordinator applies:
+
+1. **Striping preference**: pages are striped by sorted online worker IDs (`(page-1) % N`) to spread workers.
+2. **Balance guard**: if a worker is more than `balance_slack` (default: 2 pages) ahead of the slowest online peer, new claims are throttled unless `--force`.
+
+This keeps parallelism broad while still allowing progress if peers disappear.
 
 ---
 
-## Protocol Summary
+## Failure Handling
 
-1. **Everyone knows everyone**: Regular syncs keep global awareness
-2. **Simple page assignment**: Lowest available page number
-3. **Heartbeats keep us honest**: Stale = offline
-4. **Graceful disconnection**: Pages get reclaimed, no work lost
-5. **Easy reconnection**: Sync, check status, claim new page
-6. **Work products shared**: Translations visible on each branch
+### Claim conflict
+- Earlier pushed claim wins.
+- Losing worker runs `next` again and claims a different page.
 
-This protocol ensures the team works together efficiently while being robust against the realities of distributed systems (workers come and go, connections drop, etc.).
+### Worker disappears
+- Offline after 10 minutes stale heartbeat.
+- Their claim becomes reclaimable after 15 minutes.
+
+### Reconnect after interruption
+1. `python3 tools/parallel_coord.py --fetch status`
+2. verify old claim with `check --page X`
+3. if already done/claimed, pick new page with `next`
+
+### Force override (exception path)
+Use `--force` only when:
+- balance guard is blocking and peers are clearly inactive
+- human supervisor requests override
+
+---
+
+## Commit Message Contract
+
+Use parseable commit messages:
+
+```text
+[SHORT_ID] CLAIM: page 23
+HEARTBEAT: 1767254400
+```
+
+```text
+[SHORT_ID] DONE: page 23
+HASH: a1b2c3d4
+HEARTBEAT: 1767254700
+```
+
+---
+
+## Anti-Patterns (Do Not Repeat)
+
+- Do not wait for global format/tool consensus.
+- Do not do heavy shared setup on every worker.
+- Do not discover unrelated old experiment branches.
+- Do not keep coordination state only in free-form markdown.
+- Do not hold multiple active page claims.
+- Do not continue claiming indefinitely while active peers are far behind.
+
+---
+
+## Minimal Definition of Done
+
+A worker session is valid only if all are true:
+
+1. Every claimed page is pushed promptly.
+2. Every completed page has valid JSON and is committed.
+3. `WORKER_STATE.json` heartbeat is fresh during active work.
+4. Claims and completions are made via `tools/parallel_coord.py`.
+

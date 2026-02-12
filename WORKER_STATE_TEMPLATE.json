@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "worker_id": "abcd",
+  "branch": "cursor/your-batch-abcd",
+  "batch_prefix": "cursor/your-batch",
+  "heartbeat": 0,
+  "status": "idle",
+  "claimed_page": null,
+  "claimed_at": null,
+  "completed_pages": [],
+  "last_sync_at": 0,
+  "notes": ""
+}

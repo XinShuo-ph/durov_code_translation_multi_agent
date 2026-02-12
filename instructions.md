@@ -10,61 +10,36 @@ Deliver a multilingual edition of "Код Дурова" (Durov Code) by Nikolai 
 
 **THIS PROJECT USES MULTIPLE AI AGENTS WORKING COLLABORATIVELY**
 
+`PROTOCOL.md` is authoritative for collaboration behavior.
+
+> Important: protocol v3 uses `WORKER_STATE.json` + `tools/parallel_coord.py`.
+> If this document and `PROTOCOL.md` differ, follow `PROTOCOL.md`.
+
 You are part of a team of workers translating this book in parallel. You will:
-1. **Discover** other workers and know who's online
-2. **Claim** pages to translate (one at a time)
-3. **Sync** regularly to stay coordinated
-4. **Share** your translations via git
-
-See `PROTOCOL.md` for the complete communication protocol.
-
-### Key Principles
-
-- **Collaborative, not isolated**: You know who else is working and what they're doing
-- **Simple workload**: Each worker claims pages (lowest available first)
-- **Robust**: If workers disconnect, others can reclaim their pages
-- **Sync regularly**: Fetch other workers' states every 2-3 minutes
+1. Discover active peers in your **own batch prefix**
+2. Claim exactly one page at a time
+3. Push claims/completions immediately
+4. Keep heartbeats fresh while active
+5. Continue in a loop until no pages remain
 
 ---
 
 ## Quick Start (Agent Startup Sequence)
 
-### Step 1: Identify Yourself
 ```bash
 MY_BRANCH=$(git branch --show-current)
-MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
-echo "I am: $MY_SHORT_ID on $MY_BRANCH"
-```
+MY_SHORT_ID=$(echo "$MY_BRANCH" | awk -F- '{print $NF}')
+test -f WORKER_STATE.json || cp WORKER_STATE_TEMPLATE.json WORKER_STATE.json
 
-### Step 2: Create WORKER_STATE.md
-Copy from `WORKER_STATE_TEMPLATE.md` and fill in your details. This **registers you as an active worker**.
+python3 tools/parallel_coord.py --fetch status
+NEXT_PAGE=$(python3 tools/parallel_coord.py --fetch next --worker "$MY_SHORT_ID")
+python3 tools/parallel_coord.py --fetch claim --worker "$MY_SHORT_ID" --page "$NEXT_PAGE"
 
-### Step 3: Sync & Discover Other Workers
-```bash
-git fetch origin --prune
-
-# Find all active workers
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
-    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    echo "Active worker: $short_id ($branch)"
-  fi
-done
-```
-
-### Step 4: Register Yourself
-```bash
-git add WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] SYNC: Registering as active worker
+git add WORKER_STATE.json
+git commit -m "[$MY_SHORT_ID] CLAIM: page $NEXT_PAGE
 HEARTBEAT: $(date +%s)"
 git push origin HEAD
 ```
-
-### Step 5: Claim a Page and Start Translating
-1. Find the lowest page number not claimed or completed
-2. Update WORKER_STATE.md with your claim
-3. Push immediately
-4. Start translating!
 
 ---
 
@@ -120,8 +95,9 @@ workspace/
 ├── instructions.md           # This file (read-only)
 ├── PROTOCOL.md               # Communication protocol (read-only)
 ├── STATE.md                  # Global project state
-├── WORKER_STATE.md           # YOUR worker state (update frequently!)
-├── WORKER_STATE_TEMPLATE.md  # Template for new workers
+├── WORKER_STATE.json         # YOUR machine-readable worker state
+├── WORKER_STATE_TEMPLATE.json # Template for worker state JSON
+├── WORKER_STATE_TEMPLATE.md  # Optional human notes template
 ├── durov_code_book.pdf       # Original Russian PDF
 │
 ├── extracted/                # PRE-EXTRACTED TEXT
@@ -163,7 +139,7 @@ workspace/
 │  3. READ: Get the Russian text from extracted/pages/        │
 │  4. TRANSLATE: Russian → English, Chinese, Japanese         │
 │  5. SAVE: Write translations/page_XXX.json                  │
-│  6. BROADCAST: Commit & push, update WORKER_STATE.md        │
+│  6. BROADCAST: Commit & push, update WORKER_STATE.json      │
 │  7. REPEAT: Claim next page                                 │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -333,20 +309,21 @@ See `research/glossary.md` for the complete terminology guide.
 ### Regular Sync (Every 2-3 Minutes)
 ```bash
 git fetch origin --prune
-# Read other workers' WORKER_STATE.md files
-# Update your "Known Workers" table
+# Use coordinator to inspect workers/claims
+python3 tools/parallel_coord.py --fetch status
 ```
 
 ### Page Claiming
 1. Sync first (always!)
 2. Find lowest available page
-3. Update WORKER_STATE.md with claim
+3. Update WORKER_STATE.json with claim (via coordinator)
 4. Push immediately
 5. Start translating
 
 ### Completing a Page
 ```bash
-git add translations/page_XXX.json WORKER_STATE.md
+python3 tools/parallel_coord.py done --worker "$MY_SHORT_ID" --file translations/page_XXX.json
+git add translations/page_XXX.json WORKER_STATE.json
 git commit -m "[$MY_SHORT_ID] DONE: Completed page XXX
 HASH: $(sha256sum translations/page_XXX.json | cut -c1-8)
 HEARTBEAT: $(date +%s)"
@@ -356,7 +333,7 @@ git push origin HEAD
 ### Handling Offline Workers
 - Workers with heartbeats >10 min old are considered offline
 - After 15 min, their claimed pages can be reclaimed
-- Note in your WORKER_STATE.md when reclaiming
+- Record reclaim in WORKER_STATE.json notes (or optional markdown notes file)
 
 ### If You Reconnect After Disconnect
 1. Sync first (fetch all branches)
@@ -437,7 +414,7 @@ python3 tools/compile_pages.py translations/page_013.json output/
 When ending your session (or running low on context):
 
 1. **Complete current page** if possible
-2. **Update WORKER_STATE.md** with final status
+2. **Update WORKER_STATE.json** with final status
 3. **Push everything**:
    ```bash
    git add .
@@ -448,7 +425,7 @@ When ending your session (or running low on context):
    ```
 
 If you can't complete your current page:
-1. Update WORKER_STATE.md to release the claim
+1. Update WORKER_STATE.json to release the claim
 2. Push so others know the page is available
 
 ---
@@ -457,7 +434,7 @@ If you can't complete your current page:
 
 | File | Purpose | Update Frequency |
 |------|---------|------------------|
-| `WORKER_STATE.md` | Your status (claims, completions) | Every action |
+| `WORKER_STATE.json` | Your status (claims, completions) | Every action |
 | `PROTOCOL.md` | Communication rules | Read-only |
 | `instructions.md` | Task instructions | Read-only |
 | `translations/page_XXX.json` | Your output | Per page |
