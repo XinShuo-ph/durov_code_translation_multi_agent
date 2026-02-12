@@ -1,0 +1,209 @@
+{
+  "page": 11,
+  "chapter": 0,
+  "chapter_title": "Пролог (Prologue) - продолжение",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Н. В. Кононов. «Код Дурова. Реальная история «ВКонтакте» и ее создателя»",
+      "en": "N. V. Kononov. 'Durov's Code. The Real Story of VKontakte and Its Creator'",
+      "zh": "N·V·科诺诺夫《杜罗夫密码：VKontakte及其创始人的真实故事》",
+      "ja": "N・V・コノノフ『ドゥーロフの暗号：VKontakteとその創設者の真実の物語』"
+    },
+    {
+      "id": 2,
+      "ru": "Выяснилось, что взгляды сторон на цель и смысл предпринимательства совпадают, и мы проболтали до четырех часов утра.",
+      "en": "It turned out that both sides' views on the purpose and meaning of entrepreneurship coincided, and we chatted until four in the morning.",
+      "zh": "结果发现双方对创业的目的和意义的看法是一致的，我们一直聊到凌晨四点。",
+      "ja": "両者の起業の目的と意味についての見解が一致していることがわかり、我々は朝の4時まで話し込んだ。"
+    },
+    {
+      "id": 3,
+      "ru": "Ночной разговор послужил отправной точкой для этой книги.",
+      "en": "The night conversation served as the starting point for this book.",
+      "zh": "这次夜间谈话成为了这本书的起点。",
+      "ja": "この夜の会話が、この本の出発点となった。"
+    },
+    {
+      "id": 4,
+      "ru": "По мере того как я изучал путь «ВКонтакте», передо мной разворачивалась совсем другая история – более глубокая; не столько о реванше нёрдов, сколько о последствиях их революции.",
+      "en": "As I studied VKontakte's path, a completely different story unfolded before me—a deeper one; not so much about the nerds' revenge as about the consequences of their revolution.",
+      "zh": "随着我研究VKontakte的道路，在我面前展开了一个完全不同的故事——更深刻的故事；与其说是关于书呆子的复仇，不如说是关于他们革命的后果。",
+      "ja": "VKontakteの道のりを研究するにつれて、全く異なる物語が私の前に展開した――より深い物語。オタクたちの復讐というよりも、彼らの革命の結果についての物語だった。"
+    },
+    {
+      "id": 5,
+      "ru": "Дуров оказался той же крови, что и предприниматели нового поколения, стремящиеся изобретать сервисы, которые решают глобальные проблемы (их пока меньшинство в списке Vanity Fair).",
+      "en": "Durov turned out to be of the same blood as the new generation of entrepreneurs striving to invent services that solve global problems (they are still a minority on the Vanity Fair list).",
+      "zh": "杜罗夫原来与新一代企业家是同一类人，他们致力于发明解决全球问题的服务（在《名利场》名单上他们仍然是少数）。",
+      "ja": "ドゥーロフは、グローバルな問題を解決するサービスを発明しようと努力する新世代の起業家と同じ血統であることが判明した（彼らはまだヴァニティ・フェアのリストでは少数派である）。"
+    },
+    {
+      "id": 6,
+      "ru": "Например, есть такая малоприятная штука, как непрозрачность или асимметрия информации.",
+      "en": "For example, there's such an unpleasant thing as opacity or information asymmetry.",
+      "zh": "例如，有一种令人不快的东西，叫做不透明或信息不对称。",
+      "ja": "例えば、不透明性や情報の非対称性という不愉快なものがある。"
+    },
+    {
+      "id": 7,
+      "ru": "Facebook во главе с Марком Цукербергом толкает людей к все большей прозрачности их жизни – привыкай к тому, что твои поступки и связи видят все.",
+      "en": "Facebook, led by Mark Zuckerberg, pushes people toward greater transparency in their lives—get used to the fact that everyone sees your actions and connections.",
+      "zh": "由马克·扎克伯格领导的Facebook推动人们的生活越来越透明——习惯于每个人都能看到你的行为和联系。",
+      "ja": "マーク・ザッカーバーグ率いるFacebookは、人々を生活のより大きな透明性へと押しやっている――あなたの行動とつながりを誰もが見ることに慣れよ。"
+    },
+    {
+      "id": 8,
+      "ru": "Граждане переносят новые паттерны поведения, к примеру, с частной жизни на отношения с государством и бюрократией.",
+      "en": "Citizens transfer new behavior patterns, for example, from private life to relations with the state and bureaucracy.",
+      "zh": "公民将新的行为模式，例如从私人生活转移到与国家和官僚机构的关系上。",
+      "ja": "市民は新しい行動パターンを、例えば私生活から国家や官僚機構との関係に移行させる。"
+    },
+    {
+      "id": 9,
+      "ru": "«Я боюсь не новых идей, а старых», – как-то написал Дуров и сформулировал ключевую ценность новых «социалистов»: движение вперед.",
+      "en": "'I fear not new ideas but old ones,' Durov once wrote, formulating the key value of the new 'socialists': moving forward.",
+      "zh": "'我不怕新想法，怕的是旧想法，'杜罗夫曾经写道，阐述了新'社会主义者'的核心价值：向前迈进。",
+      "ja": "「私は新しいアイデアを恐れるのではなく、古いアイデアを恐れる」とドゥーロフはかつて書き、新しい「社会主義者」の核心的価値を定式化した。前進することだ。"
+    },
+    {
+      "id": 10,
+      "ru": "Он, странный юноша не без снобизма и мизантропии, сначала прятался от публики, а в последнее время, напротив, чудил – разбрасывал деньги с балкона дома Зингера, придумал эротическую фотосессию моделей в своем кабинете, подписывал футболки поклонникам на Дворцовой площади.",
+      "en": "He, a strange young man not without snobbery and misanthropy, first hid from the public, but recently, on the contrary, acted eccentrically—threw money from the balcony of the Singer House, organized an erotic photo shoot of models in his office, signed T-shirts for fans on Palace Square.",
+      "zh": "他，一个不乏势利和厌世情绪的奇怪年轻人，起初躲避公众，但最近相反，做了一些怪事——从辛格大厦的阳台上扔钱，在他的办公室里组织模特的情色摄影，在宫殿广场为粉丝签名T恤。",
+      "ja": "彼は、スノビズムとミザントロピー（人間嫌い）を持つ奇妙な若者であり、最初は公衆から隠れていたが、最近では逆に奇行を繰り返した――ジンガーハウスのバルコニーからお金をばらまき、オフィスでモデルのエロティックな写真撮影を企画し、宮殿広場でファンにTシャツにサインした。"
+    },
+    {
+      "id": 11,
+      "ru": "Затем вызвал лютую ярость сталинистов, написав 9 мая в личном твиттере, что нечего радоваться победе, вернувшей страну в руки палача.",
+      "en": "Then he provoked fierce fury from Stalinists by writing on May 9 in his personal Twitter that there was nothing to celebrate about a victory that returned the country to the hands of the executioner.",
+      "zh": "然后他在5月9日在个人Twitter上写道，没有什么值得庆祝的胜利，因为它把国家交还给了刽子手，这激起了斯大林主义者的强烈愤怒。",
+      "ja": "それから彼は5月9日に個人のTwitterで、国を処刑人の手に戻した勝利を祝うことは何もないと書いて、スターリン主義者から激しい怒りを買った。"
+    },
+    {
+      "id": 12,
+      "ru": "Когда в декабре 2011 года поднялись протесты, он не испугался прокуратуры и не стал ограничивать количество участников группы оппозиционного политика Алексея Навального.",
+      "en": "When protests rose in December 2011, he wasn't afraid of the prosecutor's office and didn't limit the number of participants in opposition politician Alexei Navalny's group.",
+      "zh": "当2011年12月抗议活动兴起时，他不怕检察院，也没有限制反对派政治家阿列克谢·纳瓦利内小组的参与者数量。",
+      "ja": "2011年12月に抗議が起こったとき、彼は検察庁を恐れず、野党政治家アレクセイ・ナワリヌイのグループの参加者数を制限しなかった。"
+    },
+    {
+      "id": 13,
+      "ru": "Незадолго до этого, на свой день рождения, вывесил на личной странице коллаж из кадров разных фильмов и приписал из «Фауста»: Vi veri universum vivus vici – «[Силой] истины я, живущий, покорил вселенную».",
+      "en": "Shortly before this, on his birthday, he posted on his personal page a collage of frames from different films and added a quote from Faust: Vi veri universum vivus vici—'By [the power of] truth, I, while living, have conquered the universe.'",
+      "zh": "在此之前不久，在他的生日那天，他在个人页面上发布了一个由不同电影片段组成的拼贴画，并附上《浮士德》中的一句话：Vi veri universum vivus vici——'[以]真理[之力]，我活着征服了宇宙。'",
+      "ja": "その少し前、彼の誕生日に、彼は個人ページにさまざまな映画のフレームのコラージュを投稿し、『ファウスト』からの引用を添えた。Vi veri universum vivus vici――「［真実の力によって］私は生きながら宇宙を征服した」。"
+    },
+    {
+      "id": 14,
+      "ru": "Коллаж увидели 3,6 млн подписчиков – аудитория, которой вещает Дуров, перекрывает любое печатное издание в стране.",
+      "en": "The collage was seen by 3.6 million subscribers—the audience Durov broadcasts to exceeds any print publication in the country.",
+      "zh": "拼贴画被360万订阅者看到——杜罗夫所面对的受众超过了该国任何印刷出版物。",
+      "ja": "そのコラージュは360万人の購読者に見られた――ドゥーロフが発信する聴衆は、国内のあらゆる印刷出版物を上回る。"
+    },
+    {
+      "id": 15,
+      "ru": "Как ни странно, у этого пафосного человека оказалось много фанатов среди его негромких коллег – интернет-миллионеров.",
+      "en": "Strangely enough, this bombastic person had many fans among his quieter colleagues—internet millionaires.",
+      "zh": "奇怪的是，这个浮夸的人在他那些低调的同事——互联网百万富翁——中有很多粉丝。",
+      "ja": "奇妙なことに、この大げさな人物には、彼のより控えめな同僚――インターネット億万長者――の中に多くのファンがいた。"
+    },
+    {
+      "id": 16,
+      "ru": "Мало кого принципиально смущало наличие во «ВКонтакте» порнографии и фильмов, выложенных без уведомления правообладателя.",
+      "en": "Few were fundamentally bothered by the presence on VKontakte of pornography and films uploaded without notifying the copyright holder.",
+      "zh": "很少有人从根本上对VKontakte上存在的色情内容和未经版权所有者通知就上传的电影感到困扰。",
+      "ja": "VKontakteにポルノグラフィーや著作権所有者への通知なしにアップロードされた映画が存在することに、根本的に悩む者はほとんどいなかった。"
+    },
+    {
+      "id": 17,
+      "ru": "Однажды зимой, стоя у окна цеха бывшей шоколадной фабрики, я наблюдал за рекой.",
+      "en": "One winter day, standing at the window of a workshop in a former chocolate factory, I watched the river.",
+      "zh": "一个冬日，我站在一家前巧克力工厂车间的窗前，观察着河流。",
+      "ja": "ある冬の日、かつてのチョコレート工場の作業場の窓辺に立って、私は川を眺めていた。"
+    },
+    {
+      "id": 18,
+      "ru": "Теплоходы без труда рассекали ледяную кашу по проторенному кем-то створу.",
+      "en": "Steamships easily cut through the icy slush along a channel beaten by someone.",
+      "zh": "游轮轻松地沿着某人开辟的航道劈开冰浆。",
+      "ja": "汽船は誰かが切り開いた水路に沿って、氷のお粥を難なく切り裂いていた。"
+    },
+    {
+      "id": 19,
+      "ru": "В глубине зала начиналось представление, посвященное рейтингу сетевых предпринимателей Forbes.",
+      "en": "In the back of the hall, a presentation dedicated to Forbes' rating of internet entrepreneurs was beginning.",
+      "zh": "在大厅深处，一场专门介绍《福布斯》互联网企业家排名的演讲正在开始。",
+      "ja": "ホールの奥では、フォーブスのインターネット起業家ランキングに捧げられたプレゼンテーションが始まっていた。"
+    },
+    {
+      "id": 20,
+      "ru": "Чтобы развлечь публику, коллеги устроили голосование в нескольких номинациях.",
+      "en": "To entertain the audience, colleagues organized voting in several nominations.",
+      "zh": "为了娱乐观众，同事们在几个类别中组织了投票。",
+      "ja": "聴衆を楽しませるために、同僚たちはいくつかの部門で投票を実施した。"
+    },
+    {
+      "id": 21,
+      "ru": "Зная, что в одну из них – «лучший СЕО» – номинирован Дуров, я устроился рядом с основателем «Яндекса» Аркадием Воложем.",
+      "en": "Knowing that Durov was nominated in one of them—'best CEO'—I settled next to Yandex founder Arkady Volozh.",
+      "zh": "知道杜罗夫被提名为其中之一——'最佳CEO'——我坐在Yandex创始人阿尔卡季·沃洛日旁边。",
+      "ja": "ドゥーロフがその中の一つ――「最優秀CEO」――にノミネートされていることを知っていたので、私はYandexの創設者アルカディ・ヴォロージュの隣に座った。"
+    },
+    {
+      "id": 22,
+      "ru": "Нам раздали пульты с тремя кнопками – по каждой на кандидатуру.",
+      "en": "We were given remotes with three buttons—one for each candidate.",
+      "zh": "我们拿到了有三个按钮的遥控器——每个按钮对应一位候选人。",
+      "ja": "我々には3つのボタンがあるリモコンが配られた――各候補者に1つずつ。"
+    },
+    {
+      "id": 23,
+      "ru": "Первые две номинации Волож сидел спокойно, а когда объявили третью, занес палец над цифрой «3», полагавшейся Дурову, и держал так несколько минут, пока конферансье живописал подвиги номинантов.",
+      "en": "For the first two nominations Volozh sat calmly, but when they announced the third, he raised his finger over the number '3' assigned to Durov and held it there for several minutes while the master of ceremonies described the nominees' exploits.",
+      "zh": "在前两个提名中，沃洛日平静地坐着，但当宣布第三个提名时，他把手指悬在分配给杜罗夫的数字'3'上方，在主持人描述提名者的功绩时，他保持这个姿势几分钟。",
+      "ja": "最初の2つのノミネートの間、ヴォロージュは静かに座っていたが、3つ目が発表されると、ドゥーロフに割り当てられた数字「3」の上に指を掲げ、司会者がノミネート者の功績を描写している間、数分間そのまま保持した。"
+    },
+    {
+      "id": 24,
+      "ru": "Я догадывался, почему владелец компании, стоившей миллиарды и торговавшейся на бирже NASDAQ, проголосовал – как и многие другие – за сына профессора филологии.",
+      "en": "I guessed why the owner of a company worth billions and traded on NASDAQ voted—like many others—for the son of a philology professor.",
+      "zh": "我猜到了为什么这家价值数十亿美元、在纳斯达克交易所上市的公司所有者——像许多其他人一样——投票给了这位文学教授的儿子。",
+      "ja": "私は、数十億の価値がありNASDAQ取引所で取引されている会社の所有者が、なぜ――他の多くの人々と同様に――文献学教授の息子に投票したのか推測できた。"
+    },
+    {
+      "id": 25,
+      "ru": "Дуров создал цифровое государство с населением сто миллионов человек – причем произвел этот финт под носом у государства, где бизнесмены переживали эпоху мелкотемья и боязни не угодить вертикали власти.",
+      "en": "Durov created a digital state with a population of one hundred million people—and pulled off this feat under the nose of a state where businessmen were experiencing an era of small thinking and fear of displeasing the vertical of power.",
+      "zh": "杜罗夫创建了一个拥有一亿人口的数字国家——而且是在一个商人们经历着小格局和害怕不讨好权力垂直体系时代的国家眼皮底下完成了这一壮举。",
+      "ja": "ドゥーロフは1億人の人口を持つデジタル国家を創造した――しかもビジネスマンたちが小さな思考と権力の垂直構造を不愉快にすることへの恐れの時代を経験している国家の鼻先でこの妙技を成し遂げたのだ。"
+    },
+    {
+      "id": 26,
+      "ru": "«Причина нелюбви ко \\\"ВКонтакте\\\" заключается в том, что каждый считает, что во \\\"ВКонтакте\\\" неправильно ведутся дела, недостаточно активно вычищается порнография и \\\"пиратские\\\" фильмы, а он, дескать, знает, как правильно, – писал случайный комментатор на сайте интернет-деятелей Roem.ru.",
+      "en": "'The reason for disliking VKontakte is that everyone thinks that VKontakte conducts business incorrectly, doesn't clean up pornography and \"pirated\" films actively enough, and they supposedly know how to do it right,' wrote a random commenter on the internet figures' site Roem.ru.",
+      "zh": "'不喜欢VKontakte的原因是，每个人都认为VKontakte的业务运作不当，没有足够积极地清理色情内容和'盗版'电影，而他们据说知道如何正确地做，'一位随机评论者在互联网人物网站Roem.ru上写道。",
+      "ja": "「VKontakteを嫌う理由は、誰もがVKontakteはビジネスを間違った方法で行っており、ポルノグラフィーや『海賊版』映画を十分に積極的に削除していないと考えており、彼らは正しいやり方を知っているということだ」とインターネット関係者のサイトRoem.ruの匿名コメンテーターが書いた。"
+    },
+    {
+      "id": 27,
+      "ru": "– Факт: Дуров с командой взял на себя смелость войти в тему, оседлал тренд и теперь гребет бабло, и именно потому, что выстраивает политику так, как считает нужным».",
+      "en": "'Fact: Durov with his team dared to enter the field, rode the trend, and now rakes in the cash, precisely because he builds policy the way he sees fit.'",
+      "zh": "'事实是：杜罗夫和他的团队敢于进入这个领域，抓住了趋势，现在正大赚其钱，正是因为他按照自己认为合适的方式制定政策。'",
+      "ja": "「事実：ドゥーロフはチームとともに、この分野に参入する勇気を持ち、トレンドに乗り、今や金をかき集めている。それはまさに彼が自分が適切だと考える方法で方針を構築しているからだ」"
+    }
+  ],
+  "translator_notes": [
+    "This page continues the prologue describing Durov's controversial actions and philosophy",
+    "May 9 is Victory Day in Russia, celebrating WWII victory - Durov's tweet was highly controversial",
+    "Alexei Navalny is a prominent Russian opposition politician",
+    "The Faust quote 'Vi veri universum vivus vici' became Durov's personal motto",
+    "Arkady Volozh is the founder of Yandex, Russia's largest search engine",
+    "'Vertical of power' refers to Putin's centralized power structure",
+    "Roem.ru was a popular Russian tech news site",
+    "The chocolate factory reference is likely the Red October factory in Moscow, a trendy venue",
+    "NASDAQ listing refers to Yandex being publicly traded"
+  ],
+  "total_sentences": 27,
+  "page_type": "narrative"
+}
