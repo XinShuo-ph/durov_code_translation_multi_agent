@@ -2,12 +2,13 @@
   "worker_id": "7f14",
   "branch": "cursor/translation-project-initialization-7f14",
   "batch_prefix": "cursor/translation-project-initialization",
-  "heartbeat": 1770877561,
+  "heartbeat": 1770877797,
   "status": "idle",
   "claimed_page": null,
   "claimed_at": null,
   "completed_pages": [
-    9
+    9,
+    10
   ],
   "phase": "stripe",
   "last_sync_at": 1770877386,
