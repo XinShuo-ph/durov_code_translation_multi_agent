@@ -14,6 +14,9 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Local multi-agent sync cache
+.sync/
+
 # OS files
 .DS_Store
 Thumbs.db

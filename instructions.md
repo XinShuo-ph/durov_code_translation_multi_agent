@@ -61,10 +61,15 @@ git push origin HEAD
 ```
 
 ### Step 5: Claim a Page and Start Translating
-1. Find the lowest page number not claimed or completed
-2. Update WORKER_STATE.md with your claim
-3. Push immediately
-4. Start translating!
+Use the executable sync helper to avoid collisions and idle time:
+
+```bash
+python3 tools/sync.py refresh
+PAGE=$(python3 tools/sync.py next --mode shard) || PAGE=$(python3 tools/sync.py next --mode steal)
+echo "Working page: $PAGE"
+```
+
+Then update `WORKER_STATE.md` with your claim and push immediately before translating.
 
 ---
 
@@ -332,20 +337,22 @@ See `research/glossary.md` for the complete terminology guide.
 
 ### Regular Sync (Every 2-3 Minutes)
 ```bash
-git fetch origin --prune
-# Read other workers' WORKER_STATE.md files
-# Update your "Known Workers" table
+python3 tools/sync.py refresh
+python3 tools/sync.py status --workers
 ```
 
 ### Page Claiming
 1. Sync first (always!)
-2. Find lowest available page
-3. Update WORKER_STATE.md with claim
+2. Pick a page using deterministic sharding (fallback to stealing):
+   - `python3 tools/sync.py next --mode shard`
+   - `python3 tools/sync.py next --mode steal`
+3. Update `WORKER_STATE.md` with the claim
 4. Push immediately
 5. Start translating
 
 ### Completing a Page
 ```bash
+python3 tools/validate_translation.py translations/page_XXX.json
 git add translations/page_XXX.json WORKER_STATE.md
 git commit -m "[$MY_SHORT_ID] DONE: Completed page XXX
 HASH: $(sha256sum translations/page_XXX.json | cut -c1-8)

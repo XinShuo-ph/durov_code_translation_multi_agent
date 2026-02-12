@@ -26,6 +26,14 @@ To visually distinguish languages in parallel text:
 python3 tools/compile_pages.py translations/raw/page_XXX.json output_directory
 ```
 
+## Collaboration Helpers
+
+This repository also includes executable helpers to make 16-agent work reliable:
+
+- `tools/sync.py`: fetch + derive global state, deterministic sharding, review queue
+- `tools/validate_translation.py`: validate translation JSON schema/consistency
+- `tools/collect_translations.py`: integrator utility to collect pages from worker branches into a single branch
+
 ## Dependencies
 - `python3`
 - `xelatex` (part of `texlive-xetex`)

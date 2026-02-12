@@ -13,7 +13,7 @@ This project uses **multiple AI agents working collaboratively**, each on their 
 ### Key Design Principles
 
 1. **Collaborative, not isolated**: Workers know who else is online and what they're doing
-2. **Simple workload distribution**: Claim lowest available page
+2. **Collision-free parallelism**: Deterministic 16-way sharding first, work stealing second (see `PROTOCOL.md`)
 3. **Robust against disconnection**: Pages can be reclaimed from offline workers
 4. **Easy reconnection**: Returning workers sync and continue
 
@@ -148,8 +148,8 @@ Each page becomes a JSON file with sentences in 4 languages:
 
 ## Protocol Summary
 
-1. **Sync regularly**: Every 2-3 minutes
-2. **Claim one page at a time**: Lowest available
+1. **Sync regularly**: Use `python3 tools/sync.py refresh`
+2. **Pick work deterministically**: `python3 tools/sync.py next --mode shard` (fallback: `--mode steal`)
 3. **Push immediately**: After claiming, after completing
 4. **Heartbeat**: Update at least every 5 minutes
 5. **Handle disconnection**: Reclaim pages from offline workers (>15 min)
