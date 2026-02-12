@@ -1,0 +1,235 @@
+{
+  "page": 20,
+  "chapter": 1,
+  "chapter_title": "Ботанический сад (Botanical Garden)",
+  "sentences": [
+    {
+      "id": 1,
+      "ru": "Школа славилась тем, что в первые два класса параллели – «единичку» и «двойку» – набирали гениев.",
+      "en": "The school was famous for filling the first two parallel classes — the 'one' and the 'two' — with geniuses.",
+      "zh": "这所学校以在前两个平行班——“第一班”和“第二班”——招收天才而闻名。",
+      "ja": "この学校は最初の二つの並行クラス――「エディニチカ」と「ドヴォイカ」――に天才を集めることで知られていた。"
+    },
+    {
+      "id": 2,
+      "ru": "Гении росли и начинали понимать следствия из того, что аналоговую эпоху сменила цифровая.",
+      "en": "The geniuses grew up and began to understand the implications of the analog era giving way to the digital one.",
+      "zh": "天才们渐渐长大，开始理解模拟时代被数字时代取代的后果。",
+      "ja": "天才たちは成長し、アナログ時代がデジタル時代に取って代わられたことの意味を理解し始めた。"
+    },
+    {
+      "id": 3,
+      "ru": "Интернет дает возможность им, нёрдам в стоптанных сандалиях, создавать программы, игры, пространства, которые неподвластны тем, кто думает менее изящно и быстро.",
+      "en": "The internet gives them, nerds in worn-out sandals, the ability to create programs, games, and spaces that are beyond the reach of those who think less elegantly and quickly.",
+      "zh": "互联网让他们这些穿着磨损凉鞋的书呆子能够创造程序、游戏和空间，而那些思维不够优雅和快速的人对此无能为力。",
+      "ja": "インターネットは、擦り切れたサンダル履きのナードたちに、思考の優雅さと速さで劣る者には手の届かないプログラム、ゲーム、空間を創る力を与えた。"
+    },
+    {
+      "id": 4,
+      "ru": "Власть капитала пасует перед властью таланта.",
+      "en": "The power of capital surrenders before the power of talent.",
+      "zh": "资本的权力在才华的权力面前退缩。",
+      "ja": "資本の力は才能の力の前に屈する。"
+    },
+    {
+      "id": 5,
+      "ru": "Если коммунисты прятали нёрдов в институты-ящики, создавая годный для выживания и удовлетворения амбиций климат, – то теперь они вырвались на волю и строили продукты, меняющие мир.",
+      "en": "If the Communists hid nerds in classified research institutes, creating a climate fit for survival and ambition — now they had broken free and were building products that change the world.",
+      "zh": "如果说共产党人把书呆子藏在保密研究所里，创造一个适合生存和满足雄心的环境——那么现在他们已经挣脱束缚，正在构建改变世界的产品。",
+      "ja": "共産主義者がナードを機密研究所に隠し、生存と野心の充足に適した環境を作っていたのなら――今や彼らは野に放たれ、世界を変えるプロダクトを作っていた。"
+    },
+    {
+      "id": 6,
+      "ru": "Путь им указывали Стив Джобс, Билл Гейтс, Сергей Брин, Линус Торвальдс, Джимми Уэйлс.",
+      "en": "Steve Jobs, Bill Gates, Sergey Brin, Linus Torvalds, and Jimmy Wales showed them the way.",
+      "zh": "史蒂夫·乔布斯、比尔·盖茨、谢尔盖·布林、林纳斯·托瓦兹、吉米·威尔斯为他们指明了方向。",
+      "ja": "スティーブ・ジョブズ、ビル・ゲイツ、セルゲイ・ブリン、リーナス・トーバルズ、ジミー・ウェールズが道を示した。"
+    },
+    {
+      "id": 7,
+      "ru": "Все перечисленные слыли ботаниками.",
+      "en": "All of the above were reputed to be nerds.",
+      "zh": "上述所有人都被认为是书呆子。",
+      "ja": "上記の全員がナードとして知られていた。"
+    },
+    {
+      "id": 8,
+      "ru": "Когда программные продукты и интернет-сервисы вплотную приблизились к жизни потребителя и стали ее ежедневным инструментом, как зубная щетка или автомобиль, нёрды ощутили власть и вошли во вкус.",
+      "en": "When software products and internet services drew close to the consumer's life and became its daily tools, like a toothbrush or a car, nerds felt the power and got a taste for it.",
+      "zh": "当软件产品和互联网服务贴近消费者的生活，像牙刷或汽车一样成为日常工具时，书呆子们感受到了权力，并乐在其中。",
+      "ja": "ソフトウェア製品とインターネットサービスが消費者の生活に密着し、歯ブラシや車のような日常の道具になった時、ナードたちは権力を感じ、その味を覚えた。"
+    },
+    {
+      "id": 9,
+      "ru": "Впрочем, в 239-й школе лишь небольшой процент гениев совпадал с образом аутичного носителя очков с гигантским «минусом».",
+      "en": "However, at School 239, only a small percentage of geniuses matched the image of an autistic glasses-wearer with a massive prescription.",
+      "zh": "不过，在239学校，只有一小部分天才符合那种戴着超高度近视眼镜的自闭性格的形象。",
+      "ja": "もっとも、239番学校で、巨大な近視の眼鏡をかけた自閉的なタイプに当てはまる天才はほんの一握りだった。"
+    },
+    {
+      "id": 10,
+      "ru": "Когда «единичка» приезжала в летний лагерь на озеро Зеркальное, отряда математиков боялись все остальные, потому что парни обыгрывали всех в футбол и были не дураки подраться.",
+      "en": "When the 'edinichka' came to summer camp at Lake Zerkalnoye, everyone else feared the mathematicians' squad, because the guys beat everyone at soccer and weren't averse to a fight.",
+      "zh": "当“第一班”来到镜湖夏令营时，所有人都害怕数学班的队伍，因为这些家伙足球赢遍所有人，也不介意打一架。",
+      "ja": "「エディニチカ」がゼルカリノエ湖の夏合宿に行くと、他の皆が数学班を怖がった。サッカーで全員を負かし、喧嘉も辞さなかったからだ。"
+    },
+    {
+      "id": 11,
+      "ru": "На переменах из дверей школы вываливались старшеклассники и расползались по прилегающим дворам под названиями «Дымок-1» и «Дымок-2».",
+      "en": "During breaks, upperclassmen would spill out the school doors and scatter into the adjacent courtyards known as 'Smoke Spot 1' and 'Smoke Spot 2.'",
+      "zh": "课间休息时，高年级学生涌出校门，散开到邻近的院子里，那些院子叫“焕雾1号”和“焕雾2号”。",
+      "ja": "休み時間になると上級生が校舎から溢れ出し、「スモーク1」「スモーク2」と呼ばれる隣接する中庭に散っていった。"
+    },
+    {
+      "id": 12,
+      "ru": "В соседней школе сдвинули звонки, чтобы за гаражами не дрались, например, за девочек.",
+      "en": "The neighboring school shifted its bell schedule so that behind the garages they wouldn't fight over, say, girls.",
+      "zh": "隔壁学校调整了上下课铃声时间，以免在车库后面为了女孩子之类的事打架。",
+      "ja": "隣の学校はチャイムの時間をずらした。ガレージの裏で、例えば女の子をめぐって喜嘉しないように。"
+    },
+    {
+      "id": 13,
+      "ru": "Милиция часто наведывалась в «дымки».",
+      "en": "The police frequently visited the 'smoke spots.'",
+      "zh": "警察经常光顾这些“焕雾点”。",
+      "ja": "警察が「スモークスポット」に頻繁にやってきた。"
+    },
+    {
+      "id": 14,
+      "ru": "Но, конечно, лучшими в классах были хронические нёрды.",
+      "en": "But of course, the best in the classes were the chronic nerds.",
+      "zh": "但班里最优秀的当然是那些根深蒂固的书呆子。",
+      "ja": "だがもちろん、クラスで最も優秀だったのは筋金入りのナードたちだ。"
+    },
+    {
+      "id": 15,
+      "ru": "Именно они – концентрировавшиеся на страсти к математике, реже к физике и биологии – достигали мирового уровня в науке.",
+      "en": "They — concentrating on a passion for mathematics, less often physics and biology — achieved world-class status in science.",
+      "zh": "正是他们——专注于对数学的热情，较少是物理和生物——在科学上达到了世界级水平。",
+      "ja": "まさに彼ら――数学への情熱に集中し、時に物理や生物にも集中した者たち――が科学で世界的レベルに達した。"
+    },
+    {
+      "id": 16,
+      "ru": "Остальные превращались в высокообразованных менеджеров, журналистов, маркетологов – в общем, вливались в креативную страту, которая создавала что-то для конечного потребителя.",
+      "en": "The rest became highly educated managers, journalists, marketers — in general, they flowed into the creative stratum that created things for end consumers.",
+      "zh": "其他人变成了高素质的经理、记者、营销人员——总之汇入了为终端消费者创造东西的创意阶层。",
+      "ja": "残りは高学歴のマネージャー、ジャーナリスト、マーケターになった――要するに、エンドユーザー向けに何かを創るクリエイティブ層に合流した。"
+    },
+    {
+      "id": 17,
+      "ru": "Им, как и в школе, где учился Дуров, внушали, что именно они интеллектуальная элита и что от них зависит будущее страны.",
+      "en": "They, just as in the school where Durov studied, were taught that they were the intellectual elite and that the country's future depended on them.",
+      "zh": "像杜罗夫就读的学校一样，他们被灰输：他们就是智识精英，国家的未来就取决于他们。",
+      "ja": "ドゥーロフが学んだ学校と同じく、彼らは自分たちが知的エリートであり、国の未来は自分たちにかかっていると教え込まれた。"
+    },
+    {
+      "id": 18,
+      "ru": "Если не мы, то кто?",
+      "en": "If not us, then who?",
+      "zh": "如果不是我们，那是谁？",
+      "ja": "我々でなければ、誰がやるのか？"
+    },
+    {
+      "id": 19,
+      "ru": "Николай Дуров относился к хроническому типу.",
+      "en": "Nikolai Durov belonged to the chronic type.",
+      "zh": "尼古拉·杜罗夫属于根深蒂固的那类。",
+      "ja": "ニコライ・ドゥーロフは筋金入りタイプだった。"
+    },
+    {
+      "id": 20,
+      "ru": "Он выиграл сначала российский чемпионат по программированию, а затем и мировой.",
+      "en": "He won first the Russian programming championship, then the world championship.",
+      "zh": "他先赢得了俄罗斯编程竞赛，然后又赢得了世界编程竞赛。",
+      "ja": "彼はまずロシアのプログラミング選手権で優勝し、次いで世界選手権でも優勝した。"
+    },
+    {
+      "id": 21,
+      "ru": "Мама, исправно посещавшая родительские собрания, благодарила Медникова за то, что он не давил на Павла так, как в «единичке» тренировали Николая.",
+      "en": "Their mother, who faithfully attended parent meetings, thanked Mednikov for not pressuring Pavel the way they trained Nikolai in the 'edinichka.'",
+      "zh": "妈妈每次都准时参加家长会，感谢梅德尼科夫没有像“第一班”训练尼古拉那样给帕维尔施压。",
+      "ja": "母親は保護者会に欠かさず出席し、「エディニチカ」でニコライを鐅えたようにパーヴェルに圧力をかけなかったメドニコフに感謝した。"
+    },
+    {
+      "id": 22,
+      "ru": "Медников ругал идейного вдохновителя маткружка Рукшина – мол, когда у ребенка нервный срыв или энурез из-за нерешенной задачи, это ненормально.",
+      "en": "Mednikov criticized the ideological inspiration behind the math circle, Rukshin — saying that when a child has a nervous breakdown or bed-wetting because of an unsolved problem, that's abnormal.",
+      "zh": "梅德尼科夫批评数学圈的精神领袖鲁克辛——说当一个孩子因为解不出题而神经崩溃或尿床时，这是不正常的。",
+      "ja": "メドニコフは数学サークルの精神的支柱ルクシンを批判した――子供が解けない問題のせいで神経衰弱やおねしょを起こすのは異常だ、と。"
+    },
+    {
+      "id": 23,
+      "ru": "«Он, наверное, самый великий тренер по математике в мире, но у него на первом месте математическое, а на втором человеческое. Я не отдал бы ему своего внука».",
+      "en": "'He's probably the greatest math coach in the world, but for him, mathematics comes first and the human comes second. I wouldn't give him my grandson.'",
+      "zh": "“他可能是世界上最伟大的数学教练，但他把数学放在第一位，人放在第二位。我不会把我的孙子交给他。”",
+      "ja": "「彼はおそらく世界最高の数学コーチだが、彼にとっては数学が第一で人間が第二だ。自分の孫は預けない」"
+    },
+    {
+      "id": 24,
+      "ru": "Николая звали судить соревнования.",
+      "en": "Nikolai was invited to judge competitions.",
+      "zh": "尼古拉被邀请去当比赛评委。",
+      "ja": "ニコライはコンペティションの審査員に招かれた。"
+    },
+    {
+      "id": 25,
+      "ru": "Ученикам раздавали задачи, они их решали, а потом судьи определяли, кто справился элегантнее.",
+      "en": "Students were given problems, they solved them, and then judges determined who had solved them most elegantly.",
+      "zh": "学生们拿到题目，解出来，然后评委确定谁解得最优雅。",
+      "ja": "生徒たちに問題が配られ、解き、それから審査員が誰の解法が最もエレガントかを判定した。"
+    },
+    {
+      "id": 26,
+      "ru": "Дуров-старший не принимал участия в обсуждениях, рисуя что-то на бумаге, а когда спрашивали его мнение, часто показывал лист с верным решением задачи или просто рассказывал, как правильно было бы с ней разделаться.",
+      "en": "The elder Durov didn't participate in discussions, doodling on paper, but when asked his opinion, would often show a sheet with the correct solution to the problem or simply explain how it should properly be solved.",
+      "zh": "杜罗夫兄不参与讨论，在纸上画着什么，但当被问到意见时，常常会亮出一张写有正确答案的纸，或者简单讲述正确的解题方法。",
+      "ja": "ドゥーロフ兄は議論に加わらず、紙に何かを描いていたが、意見を求められると、問題の正解が書かれた紙を見せたり、単に正しい解き方を説明したりした。"
+    },
+    {
+      "id": 27,
+      "ru": "Коллегия произносила что-то вроде: «Что ж ты молчал!» – и меняла свои вердикты.",
+      "en": "The panel would say something like: 'Why didn't you speak up!' — and change their verdicts.",
+      "zh": "评委会会说类似“你之前怎么不说！”的话，然后修改他们的判决。",
+      "ja": "審査団は「なぜ黙っていたんだ！」といったことを言い、判定を変えた。"
+    },
+    {
+      "id": 28,
+      "ru": "Николай был совершенно погруженным в свою страсть человеком, далеким от денежных, карьерных и других суетных стремлений.",
+      "en": "Nikolai was a person completely immersed in his passion, far from monetary, career, and other vain aspirations.",
+      "zh": "尼古拉是一个完全沉浸在自己热情中的人，远离金钱、职业和其他世俗的追求。",
+      "ja": "ニコライは自らの情熱に完全に没頭した人物で、金銭、キャリア、その他の俗な野心からは無縁だった。"
+    },
+    {
+      "id": 29,
+      "ru": "Когда ему доводилось выступать на публике, он, покачиваясь с ноги на ногу и глядя в потолок, кратко обрисовывал смысл своих изысканий и быстрее отправлялся к доске, где чувствовал себя увереннее, имея перед глазами формулы.",
+      "en": "When he had to speak publicly, he would sway from foot to foot, gaze at the ceiling, briefly outline the meaning of his research, and then hurry to the blackboard, where he felt more confident with formulas before his eyes.",
+      "zh": "当他不得不在公众面前发言时，他会左右摇晃，看着天花板，简要勾勒研究内容，然后尽快走向黑板，在那里看着公式他才觉得更自信。",
+      "ja": "人前で話す機会があると、足踏みし、天井を見上げながら自らの研究の意味を簡潔に述べ、すぐに黒板に向かった。そこでは目の前に数式があり、より自信を持てたのだ。"
+    },
+    {
+      "id": 30,
+      "ru": "По своему типу Дуров-младший находился где-то между ботаниками и активными умниками, а может, и сбоку.",
+      "en": "By his type, the younger Durov was somewhere between the nerds and the active smart kids, or perhaps off to the side.",
+      "zh": "就类型而言，杜罗夫弟处于书呆子和活跃的聪明人之间，或者说完全在旁边。",
+      "ja": "タイプとしては、ドゥーロフ弟はナードと活動的な秀才の間のどこか、あるいはその横にいた。"
+    },
+    {
+      "id": 31,
+      "ru": "Как-то раз он прочел в эссе Пола Грэма «Почему ботаники непопулярны», что нёрды не хотят быть самыми красивыми или успешными в понимании большинства (хотя глупо думать, что это их не волнует) – они хотят быть самыми умными.",
+      "en": "Once he read in Paul Graham's essay 'Why Nerds Are Unpopular' that nerds don't want to be the most beautiful or successful as the majority understands it (though it would be foolish to think this doesn't concern them) — they want to be the smartest.",
+      "zh": "有一次他在保罗·格雷厄姆的文章《为什么书呆子不受欢迎》中读到，书呆子不想成为最漂亮或大多数人所理解的最成功的人（虽然认为他们不在乎这些是愚蠢的）——他们想成为最聪明的。",
+      "ja": "ある時、ポール・グレアムのエッセイ『なぜナードは人気がないのか』で読んだ。ナードは最も美しくありたいわけでも、大多数の意味で最も成功したいわけでもない（それが気にならないと思うのは愚かだが）――彼らは最も賢くありたいのだ。"
+    }
+  ],
+  "translator_notes": [
+    "School 239 context continues - showing both the hardcore nerd culture and the surprisingly physical nature of the students",
+    "The 'classified institutes' (институты-ящики) were Soviet closed research facilities where scientists worked on military/sensitive projects",
+    "Steve Jobs, Bill Gates, Sergey Brin, Linus Torvalds, Jimmy Wales - the pantheon of nerd heroes",
+    "Nikolai Durov won international programming competitions, establishing him as one of Russia's top programmers",
+    "Rukshin's intense coaching methods produced world-class mathematicians but at human cost",
+    "Paul Graham's essay 'Why Nerds Are Unpopular' is referenced again - a key text for understanding Durov's self-image",
+    "The younger Durov is characterized as a hybrid type - neither pure nerd nor pure social creature"
+  ],
+  "total_sentences": 31,
+  "page_type": "narrative"
+}
