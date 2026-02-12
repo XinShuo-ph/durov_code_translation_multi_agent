@@ -6,71 +6,69 @@ Deliver a multilingual edition of "Код Дурова" (Durov Code) by Nikolai 
 
 ---
 
-## Multi-Agent Collaborative Execution
+## Multi-Agent Parallel Execution
 
-**THIS PROJECT USES MULTIPLE AI AGENTS WORKING COLLABORATIVELY**
+**THIS PROJECT USES MULTIPLE AI AGENTS WORKING IN PARALLEL**
 
-You are part of a team of workers translating this book in parallel. You will:
-1. **Discover** other workers and know who's online
-2. **Claim** pages to translate (one at a time)
-3. **Sync** regularly to stay coordinated
-4. **Share** your translations via git
+You are one of N parallel agents. Follow `PROTOCOL.md` for coordination.
 
-See `PROTOCOL.md` for the complete communication protocol.
+### How It Works
+
+1. **Phase 1 — STRIPE**: You receive a deterministic set of pages based on your sorted position among peers. No coordination needed. Just translate and push.
+2. **Phase 2 — SCAVENGE**: After your stripe is done, use `tools/coord.py` to find remaining gaps and fill them.
+3. **Balance Gate**: If you get too far ahead, you'll be asked to review a peer's work before claiming more pages.
 
 ### Key Principles
 
-- **Collaborative, not isolated**: You know who else is working and what they're doing
-- **Simple workload**: Each worker claims pages (lowest available first)
-- **Robust**: If workers disconnect, others can reclaim their pages
-- **Sync regularly**: Fetch other workers' states every 2-3 minutes
+- **Produce output from minute one** — all setup is pre-done, start translating immediately
+- **Deterministic page assignment** — no racing for the same page
+- **Validate before pushing** — use `tools/validate_translation.py`
+- **Push after every page** — make your work visible to peers
+- **Never stop voluntarily** — keep translating until done or out of context
 
 ---
 
-## Quick Start (Agent Startup Sequence)
+## Quick Start (< 90 Seconds to First Page)
 
 ### Step 1: Identify Yourself
 ```bash
 MY_BRANCH=$(git branch --show-current)
-MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
-echo "I am: $MY_SHORT_ID on $MY_BRANCH"
+MY_ID=${MY_BRANCH##*-}
+BATCH_PREFIX=$(echo "$MY_BRANCH" | sed 's/-[^-]*$//')
+echo "I am: $MY_ID on $MY_BRANCH"
 ```
 
-### Step 2: Create WORKER_STATE.md
-Copy from `WORKER_STATE_TEMPLATE.md` and fill in your details. This **registers you as an active worker**.
-
-### Step 3: Sync & Discover Other Workers
+### Step 2: Discover Peers and Compute Your Stripe
 ```bash
 git fetch origin --prune
+PEERS=($(git branch -r | grep "origin/${BATCH_PREFIX}-" | sed 's|.*origin/||;s|.*-||' | sort -u))
+N=${#PEERS[@]}
+MY_POS=0
+for i in "${!PEERS[@]}"; do [[ "${PEERS[$i]}" == "$MY_ID" ]] && MY_POS=$i && break; done
 
-# Find all active workers
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
-    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    echo "Active worker: $short_id ($branch)"
-  fi
-done
+TOTAL_PAGES=99
+echo "Worker $MY_POS of $N. My stripe pages:"
+for ((p=MY_POS+1; p<=TOTAL_PAGES; p+=N)); do echo "  Page $p"; done
 ```
 
-### Step 4: Register Yourself
+### Step 3: Initialize State and Register
 ```bash
-git add WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] SYNC: Registering as active worker
+cp WORKER_STATE_TEMPLATE.json WORKER_STATE.json
+# Update worker_id, branch, batch_prefix, heartbeat in the JSON
+git add WORKER_STATE.json
+git commit -m "[$MY_ID] START: registered, stripe computed
 HEARTBEAT: $(date +%s)"
-git push origin HEAD
+git push -u origin HEAD
 ```
 
-### Step 5: Claim a Page and Start Translating
-1. Find the lowest page number not claimed or completed
-2. Update WORKER_STATE.md with your claim
-3. Push immediately
-4. Start translating!
+### Step 4: Start Translating Your Stripe Pages
+Translate each page in your stripe sequentially. No sync needed during Phase 1.
 
 ---
 
 ## Pre-Provided Resources
 
-**All setup work is already done.** You have:
+**All setup work is already done.** Do NOT regenerate any of these. Do NOT run setup/install phases.
 
 ### 1. Extracted Text (Ready to Use)
 ```
@@ -101,14 +99,16 @@ examples/
 └── format_demo.tex             # LaTeX template for PDF
 ```
 
-**⚠️ NOTE**: The example JSON files show only a few sentences for format reference. They are NOT complete page translations. Your translations must include ALL sentences from each page.
+**NOTE**: The example JSON files show only a few sentences for format reference. They are NOT complete page translations. Your translations must include ALL sentences from each page.
 
-### 4. PDF Generation Tools
+### 4. Coordination & Validation Tools
 ```
 tools/
-├── compile_pages.py      # Generates PDF from JSON
-├── README.md             # Tool documentation
-└── requirements.txt      # Python dependencies
+├── coord.py                  # Coordination tool (Phase 2 scavenging)
+├── validate_translation.py   # JSON validation (mandatory before push)
+├── compile_pages.py          # Generates PDF from JSON (optional)
+├── README.md                 # Tool documentation
+└── requirements.txt          # Python dependencies
 ```
 
 ---
@@ -117,55 +117,51 @@ tools/
 
 ```
 workspace/
-├── instructions.md           # This file (read-only)
-├── PROTOCOL.md               # Communication protocol (read-only)
-├── STATE.md                  # Global project state
-├── WORKER_STATE.md           # YOUR worker state (update frequently!)
-├── WORKER_STATE_TEMPLATE.md  # Template for new workers
-├── durov_code_book.pdf       # Original Russian PDF
+├── instructions.md              # This file (read-only)
+├── PROTOCOL.md                  # Parallel work protocol (read-only)
+├── STATE.md                     # Global project state
+├── WORKER_STATE.json            # YOUR worker state (update per page)
+├── WORKER_STATE_TEMPLATE.json   # Template for new workers
+├── durov_code_book.pdf          # Original Russian PDF
 │
-├── extracted/                # PRE-EXTRACTED TEXT
+├── extracted/                   # PRE-EXTRACTED TEXT
 │   ├── full.txt
 │   └── pages/page_XXX.txt
 │
-├── research/                 # BACKGROUND RESEARCH
+├── research/                    # BACKGROUND RESEARCH
 │   └── [various .md files]
 │
-├── examples/                 # FORMAT EXAMPLES
-│   ├── page_013_translation.json
-│   ├── page_043_translation.json
-│   └── format_demo.tex
+├── examples/                    # FORMAT EXAMPLES
+│   └── [example JSONs + LaTeX]
 │
-├── tools/                    # PDF GENERATION
-│   ├── compile_pages.py
-│   └── README.md
+├── tools/                       # COORDINATION + VALIDATION + PDF
+│   ├── coord.py
+│   ├── validate_translation.py
+│   └── compile_pages.py
 │
-├── translations/             # YOUR OUTPUT (translations go here)
-│   ├── page_001.json
-│   ├── page_002.json
-│   └── ...
+├── translations/                # YOUR OUTPUT (translations go here)
+│   └── page_XXX.json
 │
-└── output/                   # GENERATED PDFs (optional)
-    ├── page_001.pdf
-    └── ...
+├── reviews/                     # REVIEW NOTES (during balance gate HOLD)
+│   └── page_XXX.<worker_id>.md
+│
+└── output/                      # GENERATED PDFs (optional)
+    └── page_XXX.pdf
 ```
 
 ---
 
-## Your Task: TRANSLATE
-
-### The Workflow
+## Workflow Per Page
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│  1. SYNC: Fetch all branches, see who's online              │
-│  2. CLAIM: Take the lowest available page                   │
-│  3. READ: Get the Russian text from extracted/pages/        │
-│  4. TRANSLATE: Russian → English, Chinese, Japanese         │
-│  5. SAVE: Write translations/page_XXX.json                  │
-│  6. BROADCAST: Commit & push, update WORKER_STATE.md        │
-│  7. REPEAT: Claim next page                                 │
-└─────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│  1. READ: Get the Russian text from extracted/pages/         │
+│  2. TRANSLATE: Russian → English, Chinese, Japanese          │
+│  3. SAVE: Write translations/page_XXX.json                   │
+│  4. VALIDATE: python3 tools/validate_translation.py <file>   │
+│  5. PUSH: git add + commit + push                            │
+│  6. REPEAT: Next stripe page (Phase 1) or coord.py (Phase 2)│
+└──────────────────────────────────────────────────────────────┘
 ```
 
 ### Step-by-Step for Each Page
@@ -176,7 +172,7 @@ cat extracted/pages/page_013.txt
 ```
 
 #### 2. Parse Into Sentences
-You parse the Russian text into sentences. Use your judgment on sentence boundaries.
+Parse the Russian text into sentences. Use your judgment on sentence boundaries.
 
 #### 3. Translate Each Sentence
 For each Russian sentence, produce:
@@ -185,9 +181,22 @@ For each Russian sentence, produce:
 - **Japanese**: Standard Japanese
 
 #### 4. Save as JSON
-Save to `translations/page_XXX.json` using the exact format below.
+Save to `translations/page_XXX.json` using the format below.
 
-#### 5. (Optional) Generate PDF
+#### 5. Validate
+```bash
+python3 tools/validate_translation.py translations/page_XXX.json
+```
+
+#### 6. Commit and Push
+```bash
+git add translations/page_XXX.json WORKER_STATE.json
+git commit -m "[$MY_ID] DONE: page XXX
+HEARTBEAT: $(date +%s)"
+git push origin HEAD
+```
+
+#### 7. (Optional) Generate PDF
 ```bash
 python3 tools/compile_pages.py translations/page_013.json output/
 ```
@@ -247,11 +256,12 @@ Every page translation MUST follow this structure:
 
 ### Quality Rules
 
-1. **Every sentence has all 4 languages** - no null/empty values
-2. **Valid JSON** - escape special characters properly
-3. **UTF-8 encoding** - Chinese/Japanese must render correctly
-4. **No skipped content** - include EVERY sentence from the page
-5. **Sequential IDs** - 1, 2, 3, ... (no gaps)
+1. **Every sentence has all 4 languages** — no null/empty values
+2. **Valid JSON** — escape special characters properly
+3. **UTF-8 encoding** — Chinese/Japanese must render correctly
+4. **No skipped content** — include EVERY sentence from the page
+5. **Sequential IDs** — 1, 2, 3, ... (no gaps)
+6. **Validate before pushing** — `python3 tools/validate_translation.py <file>`
 
 ---
 
@@ -328,42 +338,65 @@ See `research/glossary.md` for the complete terminology guide.
 
 ---
 
-## Collaboration Protocol Summary
+## Anti-Patterns to Avoid
 
-### Regular Sync (Every 2-3 Minutes)
-```bash
-git fetch origin --prune
-# Read other workers' WORKER_STATE.md files
-# Update your "Known Workers" table
-```
+### Translation
+- Do not skip sentences — include EVERYTHING
+- Do not literally translate idioms — adapt appropriately
+- Do not use inconsistent terminology — use the glossary
+- Do not lose Durov's voice — keep it sharp and provocative
+- Do not push invalid JSON — validate before committing
 
-### Page Claiming
-1. Sync first (always!)
-2. Find lowest available page
-3. Update WORKER_STATE.md with claim
-4. Push immediately
-5. Start translating
+### Collaboration
+- Do not run setup/install phases — everything is pre-done
+- Do not wait for consensus or votes — start translating immediately
+- Do not start at page 1 — use your stripe
+- Do not build custom tools — use what's provided
+- Do not claim multiple pages at once — one at a time
+- Do not batch pages before pushing — push after every page
 
-### Completing a Page
-```bash
-git add translations/page_XXX.json WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] DONE: Completed page XXX
-HASH: $(sha256sum translations/page_XXX.json | cut -c1-8)
-HEARTBEAT: $(date +%s)"
-git push origin HEAD
-```
+---
 
-### Handling Offline Workers
-- Workers with heartbeats >10 min old are considered offline
-- After 15 min, their claimed pages can be reclaimed
-- Note in your WORKER_STATE.md when reclaiming
+## Context Efficiency
 
-### If You Reconnect After Disconnect
-1. Sync first (fetch all branches)
-2. Check if your old page was reclaimed
-3. If yes: claim next available page
-4. If no: continue where you left off
-5. Push immediately to show you're back
+- Use `research/chapter_summaries.md` instead of re-reading entire chapters
+- Use `research/glossary.md` for consistent terminology
+- If stuck on a sentence > 5 minutes, add a translator note and continue
+- Each page should take roughly 10-20 minutes depending on density
+
+---
+
+## Continuous Execution Rules
+
+**Do NOT pause** between pages to ask for confirmation. Keep working:
+
+1. Complete page → Validate → Push → Next stripe page → Repeat
+2. After stripe is done, switch to Phase 2 (scavenge via `tools/coord.py`)
+3. Continue until:
+   - All pages are translated, OR
+   - A blocking error requires help, OR
+   - Context limit approaching
+
+---
+
+## Session End Protocol
+
+When ending your session (or running low on context):
+
+1. **Complete current page** if possible
+2. **Validate and push** the completed page
+3. **Update WORKER_STATE.json** — set status to `done`, clear claimed_page
+4. **Push everything**:
+   ```bash
+   git add .
+   git commit -m "[$MY_ID] END: session complete
+   HEARTBEAT: $(date +%s)"
+   git push origin HEAD
+   ```
+
+If you can't complete your current page:
+1. Update WORKER_STATE.json to release the claim (set claimed_page to null)
+2. Push so others know the page is available
 
 ---
 
@@ -371,10 +404,7 @@ git push origin HEAD
 
 ### Using the Compilation Tool
 ```bash
-# Generate PDF for a single page
 python3 tools/compile_pages.py translations/page_013.json output/
-
-# This creates output/page_013.pdf
 ```
 
 ### Requirements
@@ -392,77 +422,16 @@ python3 tools/compile_pages.py translations/page_013.json output/
 
 ---
 
-## Anti-Patterns to Avoid
-
-### Translation
-- ❌ Skipping sentences - include EVERYTHING
-- ❌ Literal translation of idioms - adapt appropriately
-- ❌ Inconsistent terminology - use the glossary
-- ❌ Losing Durov's voice - keep it sharp and provocative
-- ❌ Invalid JSON - validate before committing
-
-### Collaboration
-- ❌ Claiming without syncing first
-- ❌ Claiming multiple pages at once
-- ❌ Forgetting to push claims immediately
-- ❌ Letting heartbeat go stale (>5 min)
-- ❌ Working in isolation - sync every 2-3 min
-
----
-
-## Context Efficiency
-
-- Use `research/chapter_summaries.md` instead of re-reading entire chapters
-- Use `research/glossary.md` for consistent terminology
-- If stuck on a sentence > 5 minutes, add a translator note and continue
-- Each page should take roughly 10-20 minutes depending on density
-
----
-
-## Continuous Execution Rules
-
-**Do NOT pause** between pages to ask for confirmation. Keep working:
-
-1. Complete page → Push → Claim next → Repeat
-2. Sync every 2-3 minutes between pages
-3. Continue until:
-   - All pages are translated, OR
-   - A blocking error requires help, OR
-   - Context limit (~10k tokens remaining)
-
----
-
-## Session End Protocol
-
-When ending your session (or running low on context):
-
-1. **Complete current page** if possible
-2. **Update WORKER_STATE.md** with final status
-3. **Push everything**:
-   ```bash
-   git add .
-   git commit -m "[$MY_SHORT_ID] SESSION_END: Completed pages X-Y
-   STATUS: [summary]
-   HEARTBEAT: $(date +%s)"
-   git push origin HEAD
-   ```
-
-If you can't complete your current page:
-1. Update WORKER_STATE.md to release the claim
-2. Push so others know the page is available
-
----
-
 ## Key Files Reference
 
 | File | Purpose | Update Frequency |
 |------|---------|------------------|
-| `WORKER_STATE.md` | Your status (claims, completions) | Every action |
-| `PROTOCOL.md` | Communication rules | Read-only |
+| `WORKER_STATE.json` | Your status (claims, completions) | Every page |
+| `PROTOCOL.md` | Parallel work protocol | Read-only |
 | `instructions.md` | Task instructions | Read-only |
 | `translations/page_XXX.json` | Your output | Per page |
 | `research/glossary.md` | Term consistency | Reference |
 
 ---
 
-*Start translating! Sync regularly, push often, and coordinate with your team.*
+*Start translating your stripe immediately. Validate before pushing. Never stop.*

@@ -1,377 +1,277 @@
-# Collaborative Translation Protocol
+# Multi-Agent Parallel Work Protocol
 
-## Overview
-
-This protocol enables multiple AI agents to work **collaboratively** on translating the Durov Code book. Workers communicate via git, share progress, and dynamically distribute workload. The protocol is designed to be robust against worker disconnection and reconnection.
-
-**Key Philosophy**: Workers are a team, not isolated freelancers. They know who else is working, what pages are claimed, and can adapt when workers join or leave.
+> This protocol preserves **translation quality** while maximizing **parallel throughput**.
 
 ---
 
-## Core Concepts
+## Design Principles
 
-### 1. Worker Identity
-- **Branch Name**: Your full branch (e.g., `cursor/some-task-abc123`)
-- **Short ID**: Last 4 characters of branch name (e.g., `c123`)
-- **Registration**: Creating `WORKER_STATE.md` on your branch registers you as active
-
-### 2. Communication via Git
-| Action | Meaning |
-|--------|---------|
-| Commit + Push | Broadcast your state to the team |
-| Fetch + Read other branches | Receive team updates |
-| WORKER_STATE.md | Your live status file |
-
-### 3. Heartbeat System
-- Workers must include a **Unix timestamp** in every commit
-- Heartbeat in WORKER_STATE.md must be updated at least every **5 minutes**
-- Workers with stale heartbeats (>10 minutes) are considered **offline**
+1. **Produce output from minute one.** No setup, no research, no voting. All prep is pre-done.
+2. **Deterministic first, adaptive second.** Phase 1 needs zero coordination. Phase 2 adapts to reality.
+3. **Quality is enforced, not hoped for.** Validation is mandatory. Review is triggered automatically.
+4. **Protocol must fit in an agent's context.** Under 200 lines of rules. One tool. One validator.
 
 ---
 
-## The Sync Loop
+## Two Phases
 
-Every worker follows this loop continuously:
+### Phase 1 — STRIPE (Zero Coordination)
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  1. SYNC: Fetch all branches, discover active workers       │
-│  2. BUILD PICTURE: Who's online? What pages are claimed?    │
-│  3. CLAIM: If I need a page, claim the lowest available     │
-│  4. TRANSLATE: Work on my claimed page                      │
-│  5. BROADCAST: Commit & push my progress                    │
-│  6. REPEAT every 2-3 minutes                                │
-└─────────────────────────────────────────────────────────────┘
-```
+Each agent gets a **deterministic, non-overlapping page set** computed from its sorted position among peers.
 
-**Sync frequency**: Every 2-3 minutes (or after completing each page)
-
----
-
-## Worker Discovery
-
-### Identifying Yourself
 ```bash
+# Discover peers (once, <30 seconds)
 MY_BRANCH=$(git branch --show-current)
-MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
-echo "I am: $MY_SHORT_ID on $MY_BRANCH"
+MY_ID=${MY_BRANCH##*-}
+BATCH_PREFIX=$(echo "$MY_BRANCH" | sed 's/-[^-]*$//')
+
+git fetch origin --prune
+PEERS=($(git branch -r | grep "origin/${BATCH_PREFIX}-" | sed 's|.*origin/||;s|.*-||' | sort -u))
+N=${#PEERS[@]}
+MY_POS=0
+for i in "${!PEERS[@]}"; do [[ "${PEERS[$i]}" == "$MY_ID" ]] && MY_POS=$i && break; done
+
+# Your stripe: pages MY_POS+1, MY_POS+1+N, MY_POS+1+2N, ...
+echo "Worker $MY_POS of $N. Stripe:"
+for ((p=MY_POS+1; p<=TOTAL_PAGES; p+=N)); do echo "  Page $p"; done
 ```
 
-### Discovering All Active Workers
+**Why interleaved**: If worker 5 of 16 dies, orphaned pages are spread evenly (`{6,22,38,54,70,86}`) rather than clustered. Surviving workers fill gaps with better coverage.
+
+**During Phase 1**: No sync needed. Just translate your stripe pages sequentially, validate, push after each.
+
+### Phase 2 — SCAVENGE (Lightweight Coordination)
+
+After completing your stripe, scan all peer branches for gaps and fill them:
+
+```bash
+python3 tools/coord.py --fetch next --worker "$MY_ID" --total-pages $TOTAL_PAGES
+```
+
+Before each scavenge claim, the tool:
+1. Fetches all peer branches (scoped to batch prefix)
+2. Scans for completed translation files (the source of truth)
+3. Checks active claims from peer WORKER_STATE.json files
+4. Returns the lowest uncompleted, unclaimed page — or `HOLD` if you're too far ahead
+
+---
+
+## Hard Rules
+
+1. **Run `tools/coord.py` before every scavenge claim.** Stripe claims need no tool.
+2. **One page at a time.** Finish, push, then claim next.
+3. **Push immediately after completing each page.** Your commit is how others see it.
+4. **Validate before pushing.** `python3 tools/validate_translation.py <file>`
+5. **Use batch-scoped discovery only.** Never scan branches outside your batch prefix.
+6. **Never stop voluntarily.** Keep translating until all pages are done or context is exhausted.
+
+---
+
+## Balance Gate (Prevents Monopoly, Triggers Review)
+
+When >= 4 workers are online, if your completed count exceeds the slowest online worker by more than 2:
+
+- The `coord.py next` command returns `HOLD` instead of a page number
+- During HOLD, you **must review** another worker's recent page (see Review Protocol below)
+- After submitting one review, the balance gate rechecks automatically
+
+This ties quality review directly to work distribution — faster workers produce reviews, maintaining both balance and quality.
+
+---
+
+## Review Protocol (Lightweight, Triggered by Balance Gate)
+
+When HOLD is active:
+
+1. Run `python3 tools/coord.py --fetch review-queue --worker "$MY_ID"`
+2. Pick a page from the queue (buddy system: review the worker whose sorted position precedes yours)
+3. Spot-check:
+   - All 4 languages present and non-empty for every sentence
+   - Terminology matches `research/glossary.md`
+   - No skipped content
+   - Valid JSON structure
+4. Commit a brief review note to `reviews/page_XXX.<your_id>.md`
+5. Push and return to the work loop
+
+Reviews are 2-5 minutes, not full editorial passes. The goal is catch obvious omissions and term inconsistencies.
+
+---
+
+## State Management
+
+### Worker State: `WORKER_STATE.json` (one per worker)
+
+```json
+{
+  "worker_id": "c68e",
+  "branch": "cursor/exp-005-translate-c68e",
+  "batch_prefix": "cursor/exp-005-translate",
+  "heartbeat": 1767254400,
+  "status": "translating",
+  "claimed_page": 42,
+  "claimed_at": 1767254300,
+  "completed_pages": [3, 19, 35],
+  "phase": "stripe"
+}
+```
+
+JSON, not Markdown — machine-parseable without regex.
+
+### Completion Detection: Output Files (Source of Truth)
+
+A page is done if `translations/page_XXX.json` exists on **any** peer branch. Output files don't lie. State files can be stale.
+
+### Timeouts
+
+| Event | Threshold |
+|-------|-----------|
+| Worker offline | Heartbeat > 10 min stale |
+| Claim reclaimable | Heartbeat > 15 min stale |
+| Sync frequency (Phase 2) | Before each claim |
+| Push after completion | Immediate |
+
+---
+
+## Agent Lifecycle
+
+```
+STARTUP (< 90 seconds)
+├── 1. Compute identity (MY_ID from branch name)
+├── 2. git fetch (discover peers, scoped to batch prefix)
+├── 3. Compute stripe pages (deterministic, zero coordination)
+├── 4. Initialize WORKER_STATE.json, commit + push
+│
+PHASE 1: STRIPE (bulk of session)
+│   ┌─── For each stripe page: ─────────────────┐
+│   │  1. Read extracted/pages/page_XXX.txt      │
+│   │  2. Translate → translations/page_XXX.json │
+│   │  3. Validate: tools/validate_translation.py│
+│   │  4. Update WORKER_STATE.json               │
+│   │  5. git add + commit + push                │
+│   └─── Next stripe page ──────────────────────┘
+│
+PHASE 2: SCAVENGE (after stripe done)
+│   ┌─── Until all pages done: ─────────────────┐
+│   │  1. tools/coord.py next (fetch + scan)     │
+│   │  2. If HOLD → review a peer's page, push   │
+│   │  3. If page N → translate, validate, push  │
+│   │  4. If NONE → all done, exit               │
+│   └─── Repeat ────────────────────────────────┘
+│
+SHUTDOWN
+├── Update WORKER_STATE.json (status: done)
+├── Commit + push final state
+└── Done
+```
+
+---
+
+## Commit Messages
+
+```
+[SHORT_ID] DONE: page NNN
+HEARTBEAT: <unix_timestamp>
+```
+
+Actions: `START`, `DONE`, `REVIEW`, `END`. Keep it minimal. No verbose metadata.
+
+---
+
+## Handling Edge Cases
+
+| Situation | Resolution |
+|-----------|------------|
+| Can't discover peers at startup | Assume N=1, take all pages as stripe |
+| Stripe page already done by someone else | Skip it, move to next stripe page |
+| Git push fails | Retry 3x with 5s gaps. Keep translating locally if still failing. |
+| Git fetch fails | Work offline on stripe pages (they're deterministic). Try fetch before Phase 2. |
+| Running low on context | Push everything immediately. Update state to `done`. |
+| Duplicate translation discovered | Acceptable (<5%). Final assembly picks first-encountered. |
+| All pages claimed but book not done | Check for stale claims (>15 min offline). Reclaim or wait. |
+
+---
+
+## Anti-Patterns (Proven Failures from 32 Agent Sessions)
+
+| Don't | Why |
+|-------|-----|
+| Run setup/install before translating | Wastes 10-20 min; setup is pre-done on `main` |
+| Wait for consensus or votes | Deadlocks when agents die; top performers ignored consensus |
+| Start at page 1 | Everyone else does too; use your stripe |
+| Create research/analysis docs | You're here to translate, not write reports |
+| Build custom helper tools | Use what's provided; tool-building is a meta-work trap |
+| Track other agents' heartbeats in your state file | Scan output files instead; they're the truth |
+| Batch multiple pages before pushing | Others can't see your work; increases duplication risk |
+| Skip validation before pushing | Invalid JSON wastes the page and requires re-translation |
+| Claim multiple pages simultaneously | Finish one, push, then claim next |
+
+---
+
+## Final Assembly (Post-Run)
+
+Any agent (or a post-run process) can collect all results:
+
+```bash
+python3 tools/coord.py --fetch collect --output assembled/translations
+```
+
+Or manually:
+
 ```bash
 git fetch origin --prune
+mkdir -p assembled/translations
 
-# Find all cursor/* branches with WORKER_STATE.md
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  if git show "origin/${branch}:WORKER_STATE.md" &>/dev/null 2>&1; then
-    short_id=$(echo "$branch" | grep -oE '[^-]+$' | tail -c 5)
-    heartbeat=$(git show "origin/${branch}:WORKER_STATE.md" 2>/dev/null | grep -oP 'Heartbeat: \K[0-9]+' | head -1)
-    echo "Active: $short_id ($branch) - Heartbeat: $heartbeat"
-  fi
-done
-```
-
-### Counting Online Workers
-A worker is **online** if:
-1. They have `WORKER_STATE.md` on their branch
-2. Their heartbeat is less than 10 minutes old
-
-Workers with heartbeats older than 10 minutes are considered **offline** (may have lost connection).
-
----
-
-## Page Assignment
-
-### Simple Rule: Claim the Lowest Available Page
-
-```python
-# Pseudocode for page claiming
-def get_next_page():
-    all_pages = set(range(1, 100))  # Pages 1-99
-    
-    # Read all active workers' states
-    claimed = set()      # Pages currently being translated
-    completed = set()    # Pages already done (translation exists)
-    
-    for worker in active_workers:
-        claimed.update(worker.claimed_pages)
-        completed.update(worker.completed_pages)
-    
-    # Also check translations/ directory for completed work
-    for file in translations/*.json:
-        completed.add(file.page_number)
-    
-    available = sorted(all_pages - claimed - completed)
-    return available[0] if available else None
-```
-
-### Claim Protocol
-
-1. **Sync first**: Always fetch and read other workers' states before claiming
-2. **Claim one page**: Update WORKER_STATE.md with your claimed page
-3. **Push immediately**: Make your claim visible to others
-4. **Verify**: Re-fetch to check for conflicts (rare but possible)
-
-### Conflict Resolution
-If two workers claim the same page (race condition):
-- **Earlier timestamp wins** (commit timestamp)
-- Losing worker should re-sync and claim next available page
-- This is rare with proper sync discipline
-
----
-
-## WORKER_STATE.md Format
-
-Each worker maintains this file on their branch:
-
-```markdown
-# Worker: [SHORT_ID]
-
-## Status
-- **Branch**: [full branch name]
-- **Short ID**: [4 chars]
-- **Heartbeat**: [Unix timestamp]
-- **Status**: online | translating | idle
-
-## Current Work
-- **Claimed Page**: [page number or "none"]
-- **Started At**: [timestamp when started this page]
-
-## Completed Pages
-| Page | Completed At | Hash |
-|------|--------------|------|
-| 13   | 1735689600   | a8f3b2c1 |
-| 14   | 1735690200   | c9d4e5f6 |
-
-## Known Workers (Last Sync)
-| Short ID | Status | Claimed Page | Last Heartbeat |
-|----------|--------|--------------|----------------|
-| abc1     | online | 15           | 1735689900     |
-| def2     | online | 16           | 1735689850     |
-| ghi3     | offline| 17           | 1735685000     |
-
-## Notes
-[Any messages for the team]
-```
-
----
-
-## Handling Worker Disconnection
-
-### Detecting Offline Workers
-When you sync, check each worker's heartbeat:
-```bash
-current_time=$(date +%s)
-worker_heartbeat=1735685000  # From their WORKER_STATE.md
-
-age=$((current_time - worker_heartbeat))
-if [ $age -gt 600 ]; then  # 600 seconds = 10 minutes
-    echo "Worker is OFFLINE (stale heartbeat)"
-fi
-```
-
-### Reclaiming Pages from Offline Workers
-If a worker has been offline for **15+ minutes** and has a claimed page:
-1. Their page becomes available for reclaiming
-2. Any online worker can claim it
-3. Note in your WORKER_STATE.md: "Reclaimed page X from [offline_worker]"
-
-### What the Returning Worker Should Do
-When a worker comes back online after being disconnected:
-1. **Sync first**: Fetch all branches, read all states
-2. **Check your old page**: Is it still yours or was it reclaimed?
-3. **If reclaimed**: Claim the next available page, continue working
-4. **If still yours**: Continue where you left off
-5. **Update heartbeat**: Push immediately to show you're back
-
----
-
-## Handling Worker Reconnection
-
-### New Worker Joining
-When a new worker starts:
-1. Create WORKER_STATE.md (registers you as active)
-2. Sync to discover existing workers
-3. Build global picture (who has what)
-4. Claim lowest available page
-5. Start translating
-
-### Existing Workers Noticing New Worker
-During regular sync, workers will naturally discover new workers:
-1. Fetch shows new branch with WORKER_STATE.md
-2. Add to "Known Workers" table
-3. No special action needed - workload auto-balances
-
-### Workload Rebalancing
-Workload naturally rebalances as workers join/leave:
-- New workers take the lowest available pages
-- When a worker finishes a page, they take the next lowest available
-- No explicit "rebalancing" needed - it's emergent
-
----
-
-## Commit Message Format
-
-Use this format for machine-readable commits:
-
-```
-[SHORT_ID] ACTION: Description
-HEARTBEAT: [unix timestamp]
-```
-
-### Action Types
-
-| Action | When to Use |
-|--------|-------------|
-| `SYNC` | Starting session, syncing with team |
-| `CLAIM` | Claiming a page to translate |
-| `PROGRESS` | Partial progress on a page |
-| `DONE` | Completed a page translation |
-| `RECLAIM` | Taking over an abandoned page |
-
-### Examples
-```bash
-# Starting session
-git commit -m "[c123] SYNC: Starting session, discovering workers
-HEARTBEAT: $(date +%s)"
-
-# Claiming a page
-git commit -m "[c123] CLAIM: Starting page 15
-HEARTBEAT: $(date +%s)"
-
-# Completing a page
-git commit -m "[c123] DONE: Completed page 15
-HASH: a8f3b2c1
-HEARTBEAT: $(date +%s)"
-```
-
----
-
-## Work Product Sharing
-
-### Translation Files
-Completed translations go in `translations/page_XXX.json`:
-```
-translations/
-├── page_001.json
-├── page_002.json
-└── ...
-```
-
-### Syncing Work Products
-When you complete a page:
-1. Save `translations/page_XXX.json`
-2. Commit with DONE message
-3. Push to your branch
-
-Other workers can see your completed pages by:
-```bash
-# Check what translations exist on another worker's branch
-git show "origin/$other_branch:translations/page_015.json" 2>/dev/null
-```
-
-### Aggregating All Work
-At the end, all translations can be collected from all worker branches:
-```bash
-for branch in $(git branch -r | grep 'origin/cursor/'); do
-  for page in $(seq 1 99); do
-    file="translations/page_$(printf '%03d' $page).json"
-    if git show "origin/${branch}:$file" &>/dev/null 2>&1; then
-      echo "Found page $page on $branch"
-    fi
+for branch in $(git branch -r | grep "origin/${BATCH_PREFIX}-" | tr -d ' '); do
+  for file in $(git ls-tree --name-only -r "$branch" -- translations/ 2>/dev/null); do
+    name=$(basename "$file")
+    [ ! -f "assembled/translations/$name" ] && \
+      git show "${branch}:${file}" > "assembled/translations/$name" 2>/dev/null
   done
 done
+
+echo "Collected $(ls assembled/translations/ | wc -l) / $TOTAL_PAGES pages"
 ```
 
 ---
 
-## Quick Reference Commands
+## Performance Model
 
-### Startup Sequence
-```bash
-# 1. Identify yourself
-MY_BRANCH=$(git branch --show-current)
-MY_SHORT_ID=$(echo "$MY_BRANCH" | grep -oE '[^-]+$' | tail -c 5)
+```
+Expected speedup ≈ N × (1 - N/(2T)) × (1 - overhead)
 
-# 2. Create WORKER_STATE.md (copy from template, fill in your info)
-cp WORKER_STATE_TEMPLATE.md WORKER_STATE.md
-# Edit WORKER_STATE.md with your details
-
-# 3. Sync and discover
-git fetch origin --prune
-# Read other workers' states...
-
-# 4. Register yourself
-git add WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] SYNC: Registering as active worker
-HEARTBEAT: $(date +%s)"
-git push origin HEAD
+  N = active agents, T = total work units
+  overhead ≈ 0.03 (Phase 1) to 0.08 (Phase 2)
 ```
 
-### Regular Sync (Every 2-3 Minutes)
-```bash
-# Fetch all branches
-git fetch origin --prune
-
-# Read each active worker's state
-for branch in $(git branch -r | grep 'origin/cursor/' | sed 's|origin/||' | tr -d ' '); do
-  git show "origin/${branch}:WORKER_STATE.md" 2>/dev/null | head -30
-done
-```
-
-### Claim a Page
-```bash
-# Update WORKER_STATE.md with your claim
-# Then:
-git add WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] CLAIM: Starting page 15
-HEARTBEAT: $(date +%s)"
-git push origin HEAD
-```
-
-### Complete a Page
-```bash
-git add translations/page_015.json WORKER_STATE.md
-git commit -m "[$MY_SHORT_ID] DONE: Completed page 15
-HASH: $(sha256sum translations/page_015.json | cut -c1-8)
-HEARTBEAT: $(date +%s)"
-git push origin HEAD
-```
+| Agents | Pages | Phase 1 Duplication | Phase 2 Duplication | Total Waste | Effective Speedup |
+|--------|-------|---------------------|---------------------|-------------|-------------------|
+| 4 | 99 | 0% | <1% | <1% | ~3.9x |
+| 8 | 99 | 0% | <2% | <2% | ~7.6x |
+| 16 | 99 | 0% | <3% | <3% | ~14.7x |
 
 ---
 
-## Timeouts and Thresholds
+## Adapting This Protocol
 
-| Situation | Threshold | Action |
-|-----------|-----------|--------|
-| Sync frequency | 2-3 min | Fetch and read other workers |
-| Heartbeat update | 5 min max | Push a commit to stay "online" |
-| Worker considered offline | 10 min | Not included in workload calc |
-| Page can be reclaimed | 15 min | Other workers can take it |
-| Push after claiming | Immediate | Don't start without pushing |
+Replace these variables for any embarrassingly parallel task:
 
----
-
-## Anti-Patterns to Avoid
-
-| Don't Do This | Do This Instead |
-|---------------|-----------------|
-| Claim multiple pages at once | Claim one page, finish it, claim next |
-| Skip syncing before claiming | Always sync first |
-| Forget to push claims | Push immediately after claiming |
-| Let heartbeat go stale | Commit at least every 5 min |
-| Ignore offline workers | Reclaim their pages after 15 min |
-| Work in isolation | Sync regularly, share progress |
+| Variable | Translation Project | Your Project |
+|----------|-------------------|--------------|
+| `TOTAL_PAGES` | 99 | Your unit count |
+| `BATCH_PREFIX` | `cursor/exp-NNN-translate` | Your branch naming pattern |
+| Output directory | `translations/` | Your output path |
+| Output filename | `page_XXX.json` | Your file pattern |
+| Validation tool | `validate_translation.py` | Your validator |
+| Input source | `extracted/pages/page_XXX.txt` | Your source data path |
 
 ---
 
-## Protocol Summary
+## Protocol Summary (Pocket Reference)
 
-1. **Everyone knows everyone**: Regular syncs keep global awareness
-2. **Simple page assignment**: Lowest available page number
-3. **Heartbeats keep us honest**: Stale = offline
-4. **Graceful disconnection**: Pages get reclaimed, no work lost
-5. **Easy reconnection**: Sync, check status, claim new page
-6. **Work products shared**: Translations visible on each branch
-
-This protocol ensures the team works together efficiently while being robust against the realities of distributed systems (workers come and go, connections drop, etc.).
+```
+1. Compute stripe from sorted peer position → translate stripe pages → push each
+2. After stripe: coord.py next → if HOLD, review a peer's page → push
+3. If page number → translate, validate, push → repeat
+4. If NONE → all done
+5. Never wait. Never stop. Push after every page. Validate before pushing.
+```
