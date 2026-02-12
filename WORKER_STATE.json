@@ -1,0 +1,13 @@
+{
+  "worker_id": "01e0",
+  "branch": "cursor/parallel-translation-project-setup-01e0",
+  "batch_prefix": "cursor/parallel-translation-project-setup",
+  "heartbeat": 1770877037,
+  "status": "starting",
+  "claimed_page": null,
+  "claimed_at": null,
+  "completed_pages": [],
+  "phase": "stripe",
+  "last_sync_at": 1739335200,
+  "notes": "Initial startup - computing stripe"
+}
