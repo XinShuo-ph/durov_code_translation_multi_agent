@@ -1,0 +1,17 @@
+Desktop Computer Use Demonstration
+===================================
+
+This file documents the desktop automation demonstration performed on 2026-02-25.
+
+Actions Completed:
+- Opened Terminal Emulator from system app launcher
+- Executed pwd command - showing current directory: /workspace
+- Executed ls command - showing workspace files and directories
+- Executed uname -a command with output:
+  Linux cursor 6.1.147 #1 SMP PREEMPT_DYNAMIC Tue Aug  5 21:01:56 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+
+- Used File Manager (Thunar) to navigate to /workspace directory
+- Created a new folder named "computer_use_demo"
+- Inside this folder, created a text file "notes.txt" (this file)
+- Successfully demonstrated copy/paste between Terminal and Text Editor
+- Next steps: Open web browser and demonstrate window management features
