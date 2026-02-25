@@ -22,6 +22,11 @@ All three tools are documented in `README.md` and `tools/README.md`. Key command
 - PDF compilation via `compile_pages.py` requires `texlive-xetex`, `texlive-lang-chinese`, and `fonts-noto-cjk` system packages (not installed by the update script; install manually if PDF output is needed).
 - Python packages install to user site-packages (`~/.local/lib/python3.12`). No virtualenv is used.
 
+### PowerPoint support
+
+- `python-pptx` is installed for programmatic .pptx creation/manipulation (`from pptx import Presentation`).
+- LibreOffice Impress is installed for GUI viewing/editing and headless conversion (`libreoffice --headless --convert-to pdf file.pptx`).
+
 ### Linting and testing
 
 There is no formal test suite or linter configuration in this repository. To verify Python code correctness:
