@@ -14,4 +14,5 @@ Actions Completed:
 - Created a new folder named "computer_use_demo"
 - Inside this folder, created a text file "notes.txt" (this file)
 - Successfully demonstrated copy/paste between Terminal and Text Editor
-- Next steps: Open web browser and demonstrate window management features
+- Opened Chrome and loaded https://example.com
+- Demonstrated window management by switching apps (Alt+Tab) and arranging windows side-by-side
